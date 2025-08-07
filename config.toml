@@ -1,2 +1,28 @@
+baseURL = "https://xSakix.github.io/ainews/"
+title = "Ainews"
+languageCode = "en-us"
 theme = "ananke"
-baseURL = "https://xsakix.github.io/ainews/"
+# This tells Hugo to put static files in /public, but that's default anyway
+publishDir = "public"
+
+# Optional: Make sure drafts are not published
+buildDrafts = false
+
+# Recommended for subfolders: prevent broken asset URLs
+canonifyURLs = true
+
+[params]
+  # Ananke theme settings, can be empty or customized
+  description = "AI News by AI"
+  author = "Martin Seckar"
+  # Optional: See Ananke docs for more
+
+[permalinks]
+  # Example: customize as needed
+  posts = "/posts/:slug/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/ainews/"
+    weight = 1

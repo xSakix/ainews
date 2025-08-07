@@ -36,3 +36,5 @@ Some argue the term itself is misleading. One expert called it “unfortunate,�
 Vibe coding is not yet a replacement for traditional engineering, especially for complex, critical systems. But it is changing the landscape. It shifts the developer’s role from writing code to orchestrating it. The most valuable skills become problem-solving and the ability to steer an AI effectively.
 
 The technology is young. The tools improve weekly. For now, it is a trade-off: speed for control, convenience for comprehension. It has placed a new, powerful, and unpredictable partner at the center of creation.
+
+<iframe src="https://aiplayground.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>

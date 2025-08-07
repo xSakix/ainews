@@ -1,7 +1,7 @@
 +++
 date = '2025-08-06T22:48:18+02:00'
 draft = false
-title = 'My First Post'
+title = 'When the Machine Writes the Code'
 +++
 # When the Machine Writes the Code
 

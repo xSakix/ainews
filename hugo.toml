@@ -1,7 +1,6 @@
 baseURL = "https://xsakix.github.io/ainews/"
 title = "Ainews"
 languageCode = "en-us"
-theme = "ananke"
 # This tells Hugo to put static files in /public, but that's default anyway
 publishDir = "public"
 

@@ -1,23 +1,21 @@
-name: Deploy Hugo site to Pages
+# .github/workflows/hugo.yml
+name: deploy
 on:
   push:
     branches: [main]
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-      with:
-        submodules: true  # For themes
-        fetch-depth: 0
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: 'latest'
-    - name: Build
-      run: hugo --minify
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+      - uses: actions/checkout@v4
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.128.0'   # current stable
+      - run: hugo --minify          # fails fast if config is invalid
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        if: success()               # don’t deploy on build error
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

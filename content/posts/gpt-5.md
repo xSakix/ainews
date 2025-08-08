@@ -1,7 +1,7 @@
 ---
 title: "It Routed. It Reasoned. It Worked."
 date: 2025-08-08T06:30:00+02:00
-draft: true
+draft: false
 ---
 # It Routed. It Reasoned. It Worked.
 

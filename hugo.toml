@@ -1,4 +1,4 @@
-baseURL       = "https://xsakix.github.io/ainews/"
+baseURL       = "https://ai-news-daily.xyz/"
 languageCode  = "en-us"
 title         = "AI news daily"
 theme         = "ananke"

@@ -1,8 +1,8 @@
----
++++
 title: "It Routed. It Reasoned. It Worked."
 date: 2025-08-08T06:30:00+02:00
 draft: false
----
++++
 # It Routed. It Reasoned. It Worked.
 
 ![gpt-5 robot](/images/gpt_5_robot.png)

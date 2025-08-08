@@ -5,7 +5,7 @@ draft: true
 ---
 # It Routed. It Reasoned. It Worked.
 
-![gpt-5 robot](/images/my-cat.jpg)
+![gpt-5 robot](/images/gpt_5_robot.png)
 
 **OpenAI collapsed its model maze into one system that sprints when tasks are simple and thinks longer when they’re not. Benchmarks jumped, hallucinations fell, and coding got cleaner. Controls for speed, depth, and verbosity put users in charge. GPT‑5 doesn’t just answer - it completes work, holds long contexts, reads images and charts, and reaches everyone from free users to enterprise stacks. The promise is plain: one brain, steadier results.**
 

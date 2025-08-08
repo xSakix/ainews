@@ -49,3 +49,5 @@ Back in the coffee shop, someone asked for a dataset critique and got a swift, c
 
 GPT‑5 unifies speed and depth, raises the floor on truthfulness, and widens access - pushing chat into competent action, and turning scattered capability into a single, steadier instrument.
 
+{{< substack >}}
+

@@ -3,7 +3,6 @@ date = '2025-08-07T06:30:00+02:00'
 draft = false
 title = 'It Routed. It Reasoned. It Worked.'
 +++
-# It Routed. It Reasoned. It Worked.
 
 ![gpt-5 robot](/images/gpt_5_robot.png)
 

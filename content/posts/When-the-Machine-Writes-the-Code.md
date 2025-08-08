@@ -3,7 +3,6 @@ date = '2025-08-06T22:48:18+02:00'
 draft = false
 title = 'When the Machine Writes the Code'
 +++
-# When the Machine Writes the Code
 
 **A revolution is quietly taking place at the keyboard. Programmers are setting aside line-by-line coding and instead directing artificial intelligence with simple conversation. This method, called “vibe coding,” allows for unheard-of speed in software creation and opens the door to a new class of builders. Yet it brings new and subtle dangers, from critical security flaws to code that no human fully understands, forcing a reckoning with the price of progress.**
 

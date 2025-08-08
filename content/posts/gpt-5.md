@@ -3,10 +3,9 @@ date = '2025-08-07T06:30:00+02:00'
 draft = false
 title = 'It Routed. It Reasoned. It Worked.'
 +++
+**OpenAI collapsed its model maze into one system that sprints when tasks are simple and thinks longer when they’re not. Benchmarks jumped, hallucinations fell, and coding got cleaner. Controls for speed, depth, and verbosity put users in charge. GPT‑5 doesn’t just answer - it completes work, holds long contexts, reads images and charts, and reaches everyone from free users to enterprise stacks. The promise is plain: one brain, steadier results.**
 
 ![gpt-5 robot](/images/gpt_5_robot.png)
-
-**OpenAI collapsed its model maze into one system that sprints when tasks are simple and thinks longer when they’re not. Benchmarks jumped, hallucinations fell, and coding got cleaner. Controls for speed, depth, and verbosity put users in charge. GPT‑5 doesn’t just answer - it completes work, holds long contexts, reads images and charts, and reaches everyone from free users to enterprise stacks. The promise is plain: one brain, steadier results.**
 
 ### This is San Francisco - release day
 

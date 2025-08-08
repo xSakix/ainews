@@ -1,7 +1,7 @@
 +++
-title: "It Routed. It Reasoned. It Worked."
-date: 2025-08-08T06:30:00+02:00
-draft: false
+date = '2025-08-08T06:30:00+02:00'
+draft = false
+title = 'It Routed. It Reasoned. It Worked.'
 +++
 # It Routed. It Reasoned. It Worked.
 

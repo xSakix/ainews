@@ -1,5 +1,5 @@
 +++
-date = '2025-08-12T06:30:00+02:00'
+date = '2025-08-13T06:30:00+02:00'
 draft = false
 title = 'EU's AI Act gives citizens the right to challenge algorithms'
 +++

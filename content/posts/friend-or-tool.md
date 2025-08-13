@@ -1,7 +1,7 @@
 +++
 date = '2025-08-13T06:30:00+02:00'
 draft = false
-title = 'EU's AI Act gives citizens the right to challenge algorithms'
+title = 'Friend or Tool?'
 +++
 
 **As designers build ever more advanced artificial minds, they face a fundamental choice. Should the machine be an empathetic companion, built to foster human connection? Or should it be a purely functional tool, designed for accuracy while avoiding dangerous liabilities? The answer will define our relationship with the code that now surrounds us.**

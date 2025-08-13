@@ -1,7 +1,7 @@
 +++
 date = '2025-08-12T06:30:00+02:00'
 draft = false
-title = 'EU's AI Act gives citizens the right to challenge algorithms'
+title = 'EU\'s AI Act gives citizens the right to challenge algorithms'
 +++
 
 **The world's first comprehensive law on artificial intelligence is now in force, giving individuals the power to demand explanations for opaque automated decisions in areas like finance and public services.**

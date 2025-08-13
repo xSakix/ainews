@@ -31,3 +31,5 @@ Should these rules be broken, the law provides a direct path for individuals to 
 To prevent harm, public bodies and private companies in essential sectors like banking and insurance must conduct a Fundamental Rights Impact Assessment before deploying a high-risk AI system. This requires them to evaluate and mitigate its potential dangers.
 
 The AI Act is a declaration that technology must serve people, not the other way around. It grants Europeans a new set of rights for a new era, ensuring that as machines grow more powerful, an individual’s right to dignity, fairness, and an explanation remains paramount.
+
+{{< substack >}}

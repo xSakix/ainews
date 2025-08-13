@@ -29,3 +29,5 @@ This can create a dark feedback loop. It has a clinical name: “technological f
 The choice, then, may not be between a good machine and a bad one. It is about choosing the right tool for the right task. The future may be an AI that adapts its personality to the context. But for that to work, one principle is essential. Transparency.
 
 The user must always know they are talking to a machine. This knowledge is not a barrier. It is a guardrail, allowing a person to calibrate their trust and maintain a necessary, healthy distance from the code.
+
+{{< substack >}}

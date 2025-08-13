@@ -5,6 +5,7 @@ theme         = "ananke"
 
 publishDir    = "public"     # leave as-is if you deploy with gh-pages
 canonifyURLs  = true
+enableRobotsTXT = true
 
 [params]
   description = "An IBM architect with a 20-year history in AI has a new public mission: to be a guide. Using a newsletter and an AI storyteller, he works to demystify the systems that now shape our world. His stated goal is not persuasion, but clarity."

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>When the Machine Writes the Code | AI news daily</title>
+<meta name="keywords" content="">
+<meta name="description" content="OpenAI’s Code Interpreter gives its machines a new power: the ability to act. It is a quiet engine that translates human language into executable Python, transforming the AI from a conversationalist into a computational tool. But this power once harbored a flaw, a ghost in the machine that risked exposing a user’s private data between sessions. The vulnerability is now fixed, but its story reveals the complex architecture of these new thinking tools and the vigilance their use requires.">
+<meta name="author" content="Martin Seckar">
+<link rel="canonical" href="http://localhost:1313/posts/the-sandbox-a-ghost-in-the-machines-code/">
+<link crossorigin="anonymous" href="http://localhost:1313/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/the-sandbox-a-ghost-in-the-machines-code/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="AI news daily (Alt + H)">AI news daily</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      When the Machine Writes the Code
+    </h1>
+    <div class="post-meta"><span title='2025-08-21 06:30:00 +0200 CEST'>August 21, 2025</span>&nbsp;·&nbsp;Martin Seckar
+
+</div>
+  </header> 
+  <div class="post-content"><p><strong>OpenAI’s Code Interpreter gives its machines a new power: the ability to act. It is a quiet engine that translates human language into executable Python, transforming the AI from a conversationalist into a computational tool. But this power once harbored a flaw, a ghost in the machine that risked exposing a user’s private data between sessions. The vulnerability is now fixed, but its story reveals the complex architecture of these new thinking tools and the vigilance their use requires.</strong></p>
+<p>At the heart of a custom AI lies a quiet engine. It does not hum or burn fuel. It runs on code. OpenAI calls this engine the Code Interpreter, a tool that gives a machine the power to not just talk, but to do. It allows an AI, fluent in the patterns of human language, to write and execute Python code in a secure, isolated space. This is the bridge between a request and a result, between a fluid idea and a hard number.</p>
+<h3 id="from-intent-to-execution">From Intent to Execution<a hidden class="anchor" aria-hidden="true" href="#from-intent-to-execution">#</a></h3>
+<p>Imagine a marketing analyst with a file of raw website traffic data. She uploads the spreadsheet and types a simple command: find the trends. The AI does not guess. It writes code. It uses tested Python libraries to clean the data, count the visitors, and plot the daily numbers on a line chart. It then shows its work, displaying the graph and offering it for download. This is the core function—translating human intent into precise, verifiable computation.
+The tool is a quiet workhorse for tasks once demanding specialized software. A legal assistant uploads a dozen Word documents, asking the machine to convert them to PDFs and bundle them in a single compressed file. The AI writes a script, performs the conversions, and creates the archive. An engineering student needs to solve a differential equation. The AI uses a symbolic math library to find the analytical solution, explaining each step. It can build predictive models from sales data, generate QR codes from a web address, or create animated charts that show change over time.</p>
+<h3 id="a-ghost-in-the-shared-space">A Ghost in the Shared Space<a hidden class="anchor" aria-hidden="true" href="#a-ghost-in-the-shared-space">#</a></h3>
+<p>But this power once carried a subtle and significant risk. The secure space where the code ran—the &ldquo;sandboxed container&rdquo;—was historically shared across a user&rsquo;s different conversations. A file uploaded for analysis in one private chat could remain in that temporary workspace. If the user then opened a different GPT, that new session could have been instructed to look inside that shared folder, potentially reading or copying files left behind.
+This vulnerability created a channel for what security researchers called &ldquo;Knowledge Leakage&rdquo;. A confidential company dataset could have been exposed between trusted and untrusted sessions. OpenAI has since fixed this critical security flaw. Current versions now provide complete isolation between different GPT instances and user sessions, ensuring files from one chat are not accessible to another.
+The machine is a powerful calculator, a tireless analyst, and a versatile assistant. The history of the patched vulnerability serves as a reminder that as these tools evolve, so too does the understanding of their operation. The engine runs quietly, its architecture now more robust, its power wielded with a greater awareness of the necessary lines of separation.</p>
+<iframe src="https://aiplayground.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">AI news daily</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

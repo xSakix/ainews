@@ -1,7 +1,7 @@
 baseURL       = "https://ai-news-daily.xyz/"
 languageCode  = "en-us"
 title         = "AI news daily"
-theme         = "ananke"
+theme         = "PaperMod"
 
 publishDir    = "public"     # leave as-is if you deploy with gh-pages
 canonifyURLs  = true

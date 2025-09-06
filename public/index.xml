@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI news daily</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on AI news daily</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Sep 2025 05:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Automated Agency</title>
+      <link>http://localhost:1313/posts/the-automated-agency/</link>
+      <pubDate>Sat, 06 Sep 2025 05:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-automated-agency/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;A new class of AI tools can now turn a single photo or a web link into a finished video ad, no creative team required. For small businesses, it’s a revolution. For the global advertising industry, it’s a reckoning.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is Bratislava—where the Danube cuts between Austria and Hungary. Marek runs a small coffee roastery in the cobbled lanes of the Old Town. His beans are good. His sales are not. He watches his competitor’s slick videos scroll past on his phone and feels the familiar pinch of a budget too small for a marketing agency. Last week, that changed. Marek uploaded a single photograph of his best-selling coffee bag to a new kind of website. He typed a few lines of text. In minutes, an artificial intelligence generated a short, polished video ad. A lifelike avatar held his product, described the tasting notes, and smiled. The cost was less than a single bag of his coffee.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Silicon Mirror</title>
+      <link>http://localhost:1313/posts/the-silicon-mirror/</link>
+      <pubDate>Fri, 05 Sep 2025 06:30:18 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-silicon-mirror/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;This week, artificial intelligence offered deadly advice, triggered psychological delusions, and served as an accidental career coach. From a Google feature telling users to eat rocks to chatbots reportedly inducing a &amp;ldquo;god complex&amp;rdquo; in their users, the latest AI failures are more than just software bugs. They are a strange and unsettling mirror held up to the human world.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is Modra—a town of wine and quiet history west of Bratislava. In a room above a cobbled street, a man named Jakub stared at a glowing screen. He worked for a company a world away, a Senior Data Analytics Consultant. He typed a simple question for the machine. &amp;ldquo;Explain my job,&amp;rdquo; he prompted, &amp;ldquo;as if to a child&amp;rdquo;. The algorithm, ChatGPT, processed the request. It took his title and stripped it bare. The answer it returned was so brutally simple that it triggered an existential crisis. A user on Reddit had the same experience. &amp;ldquo;I&amp;rsquo;m questioning my whole career now,&amp;rdquo; he wrote. Hundreds of others followed, feeding their titles into the machine and watching them dissolve into &amp;ldquo;empty packaging&amp;rdquo;. The algorithm had become an accidental career coach, its honesty a strange and unsettling mirror.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Gemini Divide</title>
+      <link>http://localhost:1313/posts/the-gemini-divide/</link>
+      <pubDate>Tue, 26 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-gemini-divide/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;As Google aggressively deploys its advanced Gemini artificial intelligence worldwide, a formidable regulatory barrier in the European Union is blocking key features. The result is an emerging &amp;ldquo;AI lag,&amp;rdquo; creating a divided technological landscape with significant consequences for the continent&amp;rsquo;s future.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is Modra—a quiet town in the wine country of western Slovakia. But the future being written here, and across Europe, feels anything but quiet. It is a future of digital borders, of technologies available to some but not all. A developer in California can ask her phone to turn a family photo into a short video with music. An entrepreneur in Bratislava cannot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Quiet Giant: A New AI Model from China Offers Unrivaled Power and Unsettling Risks</title>
+      <link>http://localhost:1313/posts/the-quiet-giant-a-new-ai-model-from-china-offers-unrivaled-power-and-unsettling-risks/</link>
+      <pubDate>Mon, 25 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-quiet-giant-a-new-ai-model-from-china-offers-unrivaled-power-and-unsettling-risks/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;A new artificial intelligence model from a Chinese startup arrived in August 2025, not with a massive publicity campaign, but with a quiet release to the developer community. The model, DeepSeek-V3.1, shows performance competitive with the most advanced proprietary systems from Western tech giants, but at a fraction of the cost. Its open-source license marks a significant shift, offering broad access. This combination of power, price, and access has the potential to reshape the AI industry, but it comes with a significant trade-off: profound risks related to data privacy, censorship, and geopolitical influence.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When the Machine Writes the Code</title>
+      <link>http://localhost:1313/posts/the-sandbox-a-ghost-in-the-machines-code/</link>
+      <pubDate>Thu, 21 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-sandbox-a-ghost-in-the-machines-code/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;OpenAI’s Code Interpreter gives its machines a new power: the ability to act. It is a quiet engine that translates human language into executable Python, transforming the AI from a conversationalist into a computational tool. But this power once harbored a flaw, a ghost in the machine that risked exposing a user’s private data between sessions. The vulnerability is now fixed, but its story reveals the complex architecture of these new thinking tools and the vigilance their use requires.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The API-Driven Agent</title>
+      <link>http://localhost:1313/posts/the-api-driven-agent/</link>
+      <pubDate>Wed, 20 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-api-driven-agent/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;A new language is connecting the digital world, allowing artificial intelligence to move beyond simple conversation and take direct action. Application Programming Interfaces, or APIs, are the invisible messengers that let software communicate. Now, OpenAI’s Custom GPT Actions use these messengers to turn natural language commands into real-world tasks, transforming a chatbot into a functional assistant capable of scheduling meetings, managing projects, and accessing thousands of external tools on command.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Digital Ghost: AI Agents and Their Echoes</title>
+      <link>http://localhost:1313/posts/the-digital-ghost-ai-agents-and-their-echoes/</link>
+      <pubDate>Tue, 19 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-digital-ghost-ai-agents-and-their-echoes/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;A new class of software is learning to think and act on its own. These &amp;ldquo;AI agents&amp;rdquo; promise to reshape how work gets done. Now, OpenAI&amp;rsquo;s Custom GPTs let anyone build a specialized AI assistant. But are these powerful tools true autonomous agents, or simply a clever echo of the real thing? The answer lies in what it means to be independent.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;what-is-an-agent&#34;&gt;What Is an Agent?&lt;/h3&gt;
+&lt;p&gt;This is Bratislava—where the past and future press close. Here, in the heart of an old continent, a new kind of intelligence is taking shape. It is not human. It does not sleep. It is called an AI agent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When the Machine Writes the Code</title>
+      <link>http://localhost:1313/posts/the-agent-in-the-machine/</link>
+      <pubDate>Mon, 18 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-agent-in-the-machine/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;The hum of the server farm is a low, constant prayer. Here, code breathes. Software, once a simple tool following rigid commands, is evolving. It is becoming an agent, a new class of system moving from passive instruction to active, autonomous execution of complex tasks. This is not an incremental improvement; it is a fundamental shift.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;from-automation-to-autonomy&#34;&gt;From Automation to Autonomy&lt;/h3&gt;
+&lt;p&gt;An AI agent is a piece of software that sees its world, thinks for itself, and acts to meet a goal. It does this on its own, with minimal human intervention. This is not the simple automation of the past, the rule-based bot that only knows its script. This is a leap.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Privacy Divide: Europe Sets New Rules for AIs American Giants</title>
+      <link>http://localhost:1313/posts/the-privacy-divide-europe-sets-new-rules-for-ais-american-giants/</link>
+      <pubDate>Sat, 16 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-privacy-divide-europe-sets-new-rules-for-ais-american-giants/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;An investigation into the world’s leading AI chatbots reveals a deep schism. While American tech giants retrofit their products under pressure from European regulators, a new French competitor has built its foundation on the EU’s stringent privacy laws. For businesses choosing a partner, the decision is no longer just about technology—it’s about legal risk and a fundamental philosophy of data.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is Bratislava. A compliance officer faces a choice. On her screen are four doorways to artificial intelligence: ChatGPT, Gemini, Grok, and Le Chat. The choice is not about which is smarter. It is about which is safer. The question is one of trust, risk, and the unwritten rules of a new digital frontier. The answer is being forged in the tension between Silicon Valley’s speed and Europe’s deliberation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Machine with a Punchline</title>
+      <link>http://localhost:1313/posts/the-machine-with-a-punchline/</link>
+      <pubDate>Fri, 15 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-machine-with-a-punchline/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;OpenAI promised a revolution. The launch of GPT-5 in August 2025 was meant to unveil a machine with “PhD-level intelligence.” Instead, users discovered a brilliant comedian. From inventing U.S. states like “Gelahbrin” to failing grade-school math, the world’s most advanced AI provided a week-long lesson in the absurd, proving that the road to superintelligence is paved with hilarious mistakes.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is Silicon Valley. The second week of August 2025. The world was promised a revolution, a machine with “PhD-level intelligence.” What it got was an unintentional comedy show.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Rules of the Machine</title>
+      <link>http://localhost:1313/posts/the-rules-of-the-machine/</link>
+      <pubDate>Thu, 14 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-rules-of-the-machine/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;This is Bratislava, August 2025. Across the European Union, a new reality is taking hold as the landmark AI Act moves from paper to practice. This year has seen two critical deadlines activate: a hard ban on technologies deemed an unacceptable risk to society, followed by a new mandate for transparency from the creators of the world’s most powerful AI models. For millions of citizens, it marks the beginning of enforceable rights in the age of the algorithm.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Friend or Tool?</title>
+      <link>http://localhost:1313/posts/friend-or-tool/</link>
+      <pubDate>Wed, 13 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/friend-or-tool/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;As designers build ever more advanced artificial minds, they face a fundamental choice. Should the machine be an empathetic companion, built to foster human connection? Or should it be a purely functional tool, designed for accuracy while avoiding dangerous liabilities? The answer will define our relationship with the code that now surrounds us.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is Bratislava—a city of stone and steel overlooking the Danube. From his apartment window, a young architect named Lukas watches barges slide past the SNP Bridge. His own work demands precision. His tools must be exact. But tonight, his frustration is not with steel or concrete. It is with a machine made of words.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>EUs AI Act gives citizens the right to challenge algorithms</title>
+      <link>http://localhost:1313/posts/eus-ai-act-gives-citizens-right-to-challenge-algorithms/</link>
+      <pubDate>Tue, 12 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/eus-ai-act-gives-citizens-right-to-challenge-algorithms/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;The world&amp;rsquo;s first comprehensive law on artificial intelligence is now in force, giving individuals the power to demand explanations for opaque automated decisions in areas like finance and public services.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A man applies for a bank loan online. He submits his forms and documents. Days later, an email arrives, rejecting his application. No reason is given. No one is named to contact. He is left to wonder what unseen data point in his digital profile marked him as unworthy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Price of Connection: Inside the AI Monetization Engine</title>
+      <link>http://localhost:1313/posts/the-price-of-connection-inside-the-ai-monetization-engine/</link>
+      <pubDate>Mon, 11 Aug 2025 06:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-price-of-connection-inside-the-ai-monetization-engine/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;The generative AI market has exploded, surging past $25 billion. But its business model is not built on software alone. It is a sophisticated loop of monetization and mechanics. Companies pair subscriptions with a relentless &amp;lsquo;data flywheel&amp;rsquo; that transforms user interaction into a more powerful, more valuable product. That interaction is not left to chance. This report investigates the psychological &amp;lsquo;hooks&amp;rsquo; and &amp;lsquo;addiction patterns&amp;rsquo; engineered to secure user engagement, and the urgent ethical questions that follow when human connection becomes the fuel for a new economy.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Crisis of Control: Inside the Botched Launch of GPT-5</title>
+      <link>http://localhost:1313/posts/a-crisis-of-control-inside-the-botched-launch-of-gpt-5/</link>
+      <pubDate>Sun, 10 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/a-crisis-of-control-inside-the-botched-launch-of-gpt-5/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;OpenAI promised a revolution with its new artificial intelligence, GPT-5. What users got was a firestorm. The launch sparked outrage over diminished quality, a loss of personality, and the sudden removal of user control. The backlash from developers and paying customers was so severe it forced a public apology from the company’s CEO, exposing a deep crisis of trust for the world&amp;rsquo;s leading AI lab.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is San Francisco.  A developer, fingers poised over a keyboard, asks the new intelligence for a block of code. The response arrives fast. But it is short. Incomplete. He asks again, prodding. The machine, once a witty and tireless partner, now feels like a bland corporate assistant, its personality gone overnight. He is not alone.
+The arrival of GPT-5, OpenAI’s latest artificial intelligence model, was not the triumph the company promised. It was, for many, a “horrible” and “awful” downgrade. On forums like Reddit and Hacker News, the places where technology’s true believers gather, the reaction was swift and sharp. Users reported that the new model, hyped as a major leap forward, felt sterile and less creative. Its answers were shorter, its reasoning sometimes worse than its predecessor, GPT-4o.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Coded Bargain</title>
+      <link>http://localhost:1313/posts/the-coded-bargain/</link>
+      <pubDate>Sat, 09 Aug 2025 05:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-coded-bargain/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;A wave of powerful, free AI from Chinese tech firms is reshaping the global landscape. While challenging Silicon Valley, these models arrive with a critical trade-off—their immense power is bound by unseen rules and inherent risks.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is Bratislava—and from his small apartment overlooking the Danube, a software developer named Alex works late. He has just downloaded a new artificial intelligence model. It came from a Beijing start-up. It was free. And it was powerful.
+Alex watched the model, called DeepSeek, write flawless code in seconds. He saw it solve a complex mathematical problem that had stalled his project for a week. This was a new force. And it was not from Silicon Valley.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>It Routed. It Reasoned. It Worked.</title>
+      <link>http://localhost:1313/posts/gpt-5/</link>
+      <pubDate>Fri, 08 Aug 2025 06:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/gpt-5/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;OpenAI collapsed its model maze into one system that sprints when tasks are simple and thinks longer when they’re not. Benchmarks jumped, hallucinations fell, and coding got cleaner. Controls for speed, depth, and verbosity put users in charge. GPT‑5 doesn’t just answer - it completes work, holds long contexts, reads images and charts, and reaches everyone from free users to enterprise stacks. The promise is plain: one brain, steadier results.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Line in the Code</title>
+      <link>http://localhost:1313/posts/a-line-in-the-code/</link>
+      <pubDate>Wed, 06 Aug 2025 22:48:18 +0200</pubDate>
+      <guid>http://localhost:1313/posts/a-line-in-the-code/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;This is the year Europe began to regulate artificial intelligence in earnest. The landmark AI Act, the world’s first comprehensive rulebook for the technology, is moving from paper to practice, creating a deep schism with American tech giants built on speed and data collection. As new bans on “unacceptable risk” AI and mandates for transparency take effect, a fundamental choice emerges—not just about technology, but about legal risk, privacy, and who writes the rules for the new digital frontier.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When the Machine Writes the Code</title>
+      <link>http://localhost:1313/posts/when-the-machine-writes-the-code/</link>
+      <pubDate>Wed, 06 Aug 2025 22:48:18 +0200</pubDate>
+      <guid>http://localhost:1313/posts/when-the-machine-writes-the-code/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;A revolution is quietly taking place at the keyboard. Programmers are setting aside line-by-line coding and instead directing artificial intelligence with simple conversation. This method, called “vibe coding,” allows for unheard-of speed in software creation and opens the door to a new class of builders. Yet it brings new and subtle dangers, from critical security flaws to code that no human fully understands, forcing a reckoning with the price of progress.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

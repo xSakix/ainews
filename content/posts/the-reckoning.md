@@ -18,7 +18,10 @@ This is Beijing. As of the first of September, a new rule is in effect. All cont
 
 ### Opening the Gates
 
-This is Washington, D.C. In a federal courthouse, a judge has altered the balance of power in the digital world. U.S. District Judge Amit Mehta declined to break up Google’s core business in a landmark antitrust case. Instead, he ordered the technology giant to open its most valuable asset: its search index and data. The judge saw the dawn of new AI-driven search tools as a decisive factor, noting that AI upstarts are “better placed to compete… than any search engine developer has been in decades”. Google’s stock rose on the news that its business structure would remain intact, but the ruling’s data-sharing mandate aims to give oxygen to the very rivals seeking to disrupt its dominance.
+This is Washington, D.C. In a federal courthouse, a judge has altered the balance of power in the digital world. U.S. District Judge Amit Mehta declined to break up Google’s core business in a landmark antitrust case. Instead, he ordered the technology giant to open its most valuable asset: its search index and data. 
+
+The judge saw the dawn of new AI-driven search tools as a decisive factor, noting that AI upstarts are “better placed to compete… than any search engine developer has been in decades”. Google’s stock rose on the news that its business structure would remain intact, but the ruling’s data-sharing mandate aims to give oxygen to the very rivals seeking to disrupt its dominance.
+
 Three distinct events, in three centers of global power, tell one story. The foundational practices of the AI boom are now being systematically challenged in courtrooms and government ministries. The era of permissionless innovation, of building new worlds from borrowed words and images without consequence, is ending. A new architecture of accountability is being erected, piece by piece, across the globe.
 
 {{< substack >}}

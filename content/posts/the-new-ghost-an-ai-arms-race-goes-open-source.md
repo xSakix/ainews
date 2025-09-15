@@ -1,5 +1,5 @@
 +++
-date = '2025-09-15T06:30:18+02:00'
+date = '2025-09-14T06:30:18+02:00'
 draft = false
 title = 'The New Ghost: An AI Arms Race Goes Open Source'
 +++

@@ -1,5 +1,5 @@
 +++
-date = '2025-09-29T05:51:18+02:00'
+date = '2025-09-19T05:51:18+02:00'
 draft = false
 title = 'The Two Brains'
 +++

@@ -1,5 +1,5 @@
 +++
-date = '2025-10-07T06:48:18+02:00'
+date = '2025-10-08T06:48:18+02:00'
 draft = false
 title = 'The Platform and the Peril'
 +++

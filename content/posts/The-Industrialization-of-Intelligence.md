@@ -1,5 +1,5 @@
 +++
-date = '2025-12-5T06:20:18+02:00'
+date = '2025-12-05T06:20:18+02:00'
 draft = false
 title = 'The Industrialization of Intelligence: AWS and the Agentic Pivot'
 +++

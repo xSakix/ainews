@@ -1,7 +1,12 @@
 +++
-date = '2025-12-06T06:30:18+02:00'
+date = '2025-12-05T23:20:18+02:00'
 draft = false
 title = 'The Persuasion Paradox: How AI Is Industrializing Influence'
+cover:
+  image: "The-Persuasion-Paradox.png"
+  alt: "The Persuasion Paradox: How AI Is Industrializing Influence"
+  caption: "The Persuasion Paradox: How AI Is Industrializing Influence"
+  relative: false  # for page bundles
 +++
 
 **On December 4, 2025, Nature and Science published landmark studies confirming that AI chatbots can sway voter opinion by margins significantly wider than traditional advertising. The findings reveal a mechanism of "information density" that prioritizes persuasive volume over factual accuracy, posing a complex challenge to electoral integrity.**

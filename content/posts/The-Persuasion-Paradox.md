@@ -3,7 +3,7 @@ date: '2025-12-05T23:20:18+02:00'
 draft: false
 title: 'The Persuasion Paradox: How AI Is Industrializing Influence'
 cover:
-  image: "The-Persuasion-Paradox.png"
+  image: "images/The-Persuasion-Paradox.png"
   alt: "The Persuasion Paradox - How AI Is Industrializing Influence"
   caption: "The Persuasion Paradox - How AI Is Industrializing Influence"
   relative: false

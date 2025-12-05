@@ -4,9 +4,9 @@ draft = false
 title = 'The Persuasion Paradox: How AI Is Industrializing Influence'
 cover:
   image: "The-Persuasion-Paradox.png"
-  alt: "The Persuasion Paradox: How AI Is Industrializing Influence"
-  caption: "The Persuasion Paradox: How AI Is Industrializing Influence"
-  relative: false  # for page bundles
+  alt: "The Persuasion Paradox - How AI Is Industrializing Influence"
+  caption: "The Persuasion Paradox - How AI Is Industrializing Influence"
+  relative: false
 +++
 
 **On December 4, 2025, Nature and Science published landmark studies confirming that AI chatbots can sway voter opinion by margins significantly wider than traditional advertising. The findings reveal a mechanism of "information density" that prioritizes persuasive volume over factual accuracy, posing a complex challenge to electoral integrity.**

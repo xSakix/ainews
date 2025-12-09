@@ -1,5 +1,5 @@
 ---
-date: '2025-12-05T23:20:18+02:00'
+date: '2025-12-09T05:50:18+02:00'
 draft: false
 title: 'The Industrialization of Agency: Taming the AI Paradox'
 cover:

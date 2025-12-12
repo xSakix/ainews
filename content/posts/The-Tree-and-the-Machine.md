@@ -1,5 +1,5 @@
 ---
-date: '2025-12-05T23:20:18+02:00'
+date: '2025-12-12T06:00:18+02:00'
 draft: false
 title: 'The Tree and the Machine: Why the Era of Hard Skills Is Ending'
 cover:

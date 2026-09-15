@@ -14,7 +14,7 @@ Task B
 Take the new report and use it with the writer prompt here:
 https://github.com/xSakix/ainews/blob/main/prompts/article-writer-prompt.md
 
-Pick one 5 topics and write the article. Before you invoke the writer on given topic, check if this topic wasn't already covered in:
+Pick all topics and write the article. Before you invoke the writer on given topic, check if this topic wasn't already covered in:
 https://github.com/xSakix/ainews/tree/main/content/posts
 
 Store each article in a markdown file. Markdown header to use - this is an example, use proper values from actual article.:

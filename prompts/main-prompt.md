@@ -5,7 +5,7 @@ built using cloudflare.
 Your tasks will be:
 
 Task A - run daily ai research using the prompt here
-https://github.com/xSakix/ainews/blob/main/prompts/article-writer-prompt.md
+https://github.com/xSakix/ainews/blob/main/prompts/research-prompt.md
 
 Store the reports here:
 https://github.com/xSakix/ainews/tree/main/reports

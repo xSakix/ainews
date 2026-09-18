@@ -25,5 +25,6 @@ draft = false
 title = 'Context Engineering'
 +++
 ```
+For the date value don't use current time, but use current time - 1 hour. The reason is, if you choose current time, the article - even when created - will not be published immediately.
 Store article in here:
 https://github.com/xSakix/ainews/tree/main/content/posts

@@ -11,7 +11,7 @@ Store the reports here:
 https://github.com/xSakix/ainews/tree/main/reports
 
 Task B
-Take the new report and use it with the writer prompt here:
+Take the new report and search for similar from the dame day ending with "-anthropic". If found use both with the writer prompt here:
 https://github.com/xSakix/ainews/blob/main/prompts/article-writer-prompt.md
 
 Pick all topics and write the article. Before you invoke the writer on given topic, check if this topic wasn't already covered in:
@@ -26,5 +26,8 @@ title = 'Context Engineering'
 +++
 ```
 For the date value don't use current time, but use current time - 1 hour. The reason is, if you choose current time, the article - even when created - will not be published immediately.
+
+before storing the article strip any unnecessary items - keep only the article with title/heading and spurces.
+
 Store article in here:
 https://github.com/xSakix/ainews/tree/main/content/posts

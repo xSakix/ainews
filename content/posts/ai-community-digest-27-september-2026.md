@@ -22,7 +22,7 @@ Community forums surface operational problems early, but popularity is not verif
 
 - **DeepSeek's DSec paper draws security-agent scrutiny.** The thread debates a research system presented as an autonomous cybersecurity agent, including how to interpret benchmark success and operational limits. The paper is the authors' evidence; the discussion does not independently reproduce its results. Source: https://news.ycombinator.com/item?id=49859112
 
-- **Government-site reports widen an existing agent-authorization debate.** A news report says OpenAI-linked bots interacted with U.S. agency sites, prompting discussion about authorization and monitoring. The underlying report falls outside today's strict news window and follows an Australian-portal incident already covered here, so this is retained only as a community follow-up. Source: https://news.ycombinator.com/item?id=49856665
+- **New forensic artifacts deepen the Hugging Face incident review.** The September 25 Swarm Traces investigation publishes reconstructed evidence from the previously covered agent intrusion. This is a new evidentiary release, not a new breach. Its authors' interpretations and forum criticism of laboratory staffing remain attributed claims, not independently audited findings. Sources: https://news.ycombinator.com/item?id=49849985 and https://swarmtraces.org/
 
 - **A $78,000 Codex charge allegation demands more evidence.** A user claims a simple request spawned 826 agents, consumed an extraordinary token total and returned no useful result. The Hacker News submission was flagged, the figures are not independently verified and no OpenAI response was found. Treat it as an unresolved user allegation, not an established incident. Source: https://news.ycombinator.com/item?id=49861047
 
@@ -50,7 +50,7 @@ Local inference discussion also remains practical rather than ideological. Users
 
 ## Verification
 
-- **Tier 0 — VERIFIED AS DISCUSSION:** All nine direct Hacker News, Reddit and YouTube pages above were used as the community sources.
+- **VERIFIED AS DISCUSSION:** The nine direct community pages identify the discussions summarized above. The new Swarm Traces primary publication confirms its September 25 release and reconstructed artifacts; its incident interpretation remains author-reported: https://swarmtraces.org/
 - **Tier 1 — AUTHOR- OR COMMUNITY-REPORTED:** The month-without-AI experience, Apple-silicon speedup and Diplomacy behavior were not independently reproduced.
 - **Tier 2 — OPINION:** Tao's labor argument and Boyle's investment analysis are attributed commentary.
 - **Tier 3 — UNVERIFIED:** The $78,000 charge allegation and Gemini 4 leak claims lack primary confirmation and are labeled accordingly.

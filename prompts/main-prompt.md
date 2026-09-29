@@ -80,3 +80,11 @@ title = 'Context Engineering'
 For the date value, use the current time minus one hour. Using the current time may delay immediate publication.
 
 Before storing an article, remove process notes and unnecessary material. Keep the publishable title, article, sources and required verification material.
+
+## TASK C - Editing
+
+Use the editing prompt at https://github.com/xSakix/ainews/blob/main/prompts/editor-prompt.md and apply it on each article you produced. Fix the articles based on this prompt.
+
+
+
+

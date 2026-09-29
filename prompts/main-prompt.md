@@ -23,14 +23,14 @@ This task explicitly delegates topic selection. Do not pause for a candidate lis
 
 ### B1 — Individual news articles
 
-For sections 1–5 of the briefing, identify every distinct substantive news topic and write one article per topic.
+For sections 1–5 of the briefing, identify every distinct substantive news topic and write one LONG-FORM article per topic.
 
 Before writing a topic, check whether it has already been covered in:
 https://github.com/xSakix/ainews/tree/main/content/posts
 
 Do not create a duplicate article. Treat two entries about the same underlying event as one topic, even if they appear in both daily reports or under different headings.
 
-Follow the article-writer prompt for each article, including its explainer structure, verification appendix, glossary candidates, cold-reader sentence and length requirements.
+Follow the article-writer prompt for each article, including its LONG-FORM structure, verification appendix, glossary candidates, cold-reader sentence and length requirements.
 
 ### B2 — One community digest for the remaining sections
 

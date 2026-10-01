@@ -1,7 +1,10 @@
 baseURL       = "https://ai-news-daily.xyz/"
-languageCode  = "en-us"
-title         = "AI News Daily"
 theme         = "PaperMod"
+
+# English is the original and stays at the site root; the Slovak edition
+# lives under /sk/. A Slovak post is <slug>.sk.md next to <slug>.md.
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
 publishDir    = "public"
 canonifyURLs  = true
@@ -19,11 +22,10 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
 
 [params]
   env         = "production"
-  description = "Source-checked AI news every morning: model releases, tools, research, business, policy and safety. Each article links its primary sources and labels every key claim."
   author      = "Martin Seckar"
   mainSections = ["posts"]
-  DateFormat  = "2 January 2006"
   defaultTheme = "auto"
+  displayFullLangName = true
 
   # Default social-share image for pages without a cover image.
   images = ["images/og-default.png"]
@@ -41,21 +43,6 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
     text       = "AI News Daily"
     icon       = "/apple-touch-icon.png"
     iconHeight = 28
-
-  [params.homeInfoParams]
-    Title   = "AI News Daily"
-    Content = """
-Source-checked AI news, every morning. Each day brings up to six articles and one digest on models, tools, research, business, policy and safety. Every article ends with a verification table that links the primary sources.
-
-[How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt)
-"""
-
-  [[params.socialIcons]]
-    name = "substack"
-    url  = "https://aiplayground.substack.com/"
-  [[params.socialIcons]]
-    name = "rss"
-    url  = "/index.xml"
 
   [params.schema]
     publisherType = "Organization"
@@ -75,23 +62,82 @@ Source-checked AI news, every morning. Each day brings up to six articles and on
     threshold = 0.3
     ignoreLocation = true
 
-[menu]
-  [[menu.main]]
-    name   = "Archive"
-    url    = "/archives/"
-    weight = 10
-  [[menu.main]]
-    name   = "Topics"
-    url    = "/tags/"
-    weight = 20
-  [[menu.main]]
-    name   = "Search"
-    url    = "/search/"
-    weight = 30
-  [[menu.main]]
-    name   = "About"
-    url    = "/about/"
-    weight = 40
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    title        = "AI News Daily"
+    weight       = 1
+    [languages.en.params]
+      description = "Source-checked AI news every morning: model releases, tools, research, business, policy and safety. Each article links its primary sources and labels every key claim."
+      DateFormat  = "2 January 2006"
+      [languages.en.params.homeInfoParams]
+        Title   = "AI News Daily"
+        Content = """
+Source-checked AI news, every morning. Each day brings up to six articles and one digest on models, tools, research, business, policy and safety. Every article ends with a verification table that links the primary sources.
+
+[How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt) · [Slovenské vydanie](/sk/)
+"""
+      [[languages.en.params.socialIcons]]
+        name = "substack"
+        url  = "https://aiplayground.substack.com/"
+      [[languages.en.params.socialIcons]]
+        name = "rss"
+        url  = "/index.xml"
+    [[languages.en.menus.main]]
+      name   = "Archive"
+      url    = "/archives/"
+      weight = 10
+    [[languages.en.menus.main]]
+      name   = "Topics"
+      url    = "/tags/"
+      weight = 20
+    [[languages.en.menus.main]]
+      name   = "Search"
+      url    = "/search/"
+      weight = 30
+    [[languages.en.menus.main]]
+      name   = "About"
+      url    = "/about/"
+      weight = 40
+
+  [languages.sk]
+    languageName = "Slovenčina"
+    languageCode = "sk"
+    title        = "AI News Daily"
+    weight       = 2
+    [languages.sk.params]
+      description = "Správy o umelej inteligencii s overenými zdrojmi, každé ráno: nové modely, nástroje, výskum, biznis, regulácia a bezpečnosť. Každý článok odkazuje na primárne zdroje a pri kľúčových tvrdeniach uvádza, nakoľko sú overené."
+      DateFormat  = ":date_long"
+      [languages.sk.params.homeInfoParams]
+        Title   = "AI News Daily po slovensky"
+        Content = """
+Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Každý deň až šesť článkov a jeden prehľad o modeloch, nástrojoch, výskume, biznise, regulácii a bezpečnosti. Každý článok končí tabuľkou overenia s odkazmi na primárne zdroje. Slovenské vydanie vzniká prekladom anglických článkov pomocou AI.
+
+[Ako pracujeme](/sk/about/) · [Archív](/sk/archives/) · [RSS kanál](/sk/index.xml) · [English edition](/)
+"""
+      [[languages.sk.params.socialIcons]]
+        name = "substack"
+        url  = "https://aiplayground.substack.com/"
+      [[languages.sk.params.socialIcons]]
+        name = "rss"
+        url  = "/sk/index.xml"
+    [[languages.sk.menus.main]]
+      name   = "Archív"
+      url    = "/archives/"
+      weight = 10
+    [[languages.sk.menus.main]]
+      name   = "Témy"
+      url    = "/tags/"
+      weight = 20
+    [[languages.sk.menus.main]]
+      name   = "Hľadať"
+      url    = "/search/"
+      weight = 30
+    [[languages.sk.menus.main]]
+      name   = "O nás"
+      url    = "/about/"
+      weight = 40
 
 # Plain-text and Markdown views for LLMs and AI assistants (see llmstxt.org).
 [outputFormats.llms]

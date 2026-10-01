@@ -1,9 +1,12 @@
 {{- /* Markdown tables. Adds data-label (the column header) to each cell so
        tables can stack into cards on phones, and turns verification labels
-       (VERIFIED, VENDOR-REPORTED, ...) into coloured badges. */ -}}
+       (VERIFIED, VENDOR-REPORTED, ... and the Slovak OVERENÉ, ...) into
+       coloured badges. */ -}}
 {{- $headers := slice -}}
 {{- range first 1 .THead }}{{ range . }}{{ $headers = $headers | append (.Text | plainify | htmlUnescape | strings.TrimSpace) }}{{ end }}{{ end -}}
-{{- $badges := dict "PARTIALLY VERIFIED" "partial" "VENDOR-REPORTED" "vendor" "UNVERIFIED" "unverified" "VERIFIED" "verified" -}}
+{{- $badges := dict
+      "PARTIALLY VERIFIED" "partial" "VENDOR-REPORTED" "vendor" "UNVERIFIED" "unverified" "VERIFIED" "verified"
+      "ČIASTOČNE OVERENÉ" "partial" "PODĽA SPOLOČNOSTI" "vendor" "NEOVERENÉ" "unverified" "OVERENÉ" "verified" -}}
 <table class="md-table"
   {{- range $k, $v := .Attributes }}{{ if $v }}{{ printf " %s=%q" $k $v | safeHTMLAttr }}{{ end }}{{ end }}>
   <thead>
@@ -20,7 +23,7 @@
     <tr>
       {{- range $i, $cell := . }}
       {{- $html := $cell.Text | string -}}
-      {{- with index (findRE `^(PARTIALLY VERIFIED|VENDOR-REPORTED|UNVERIFIED|VERIFIED)\b` (strings.TrimSpace $html) 1) 0 -}}
+      {{- with index (findRE `^(PARTIALLY VERIFIED|VENDOR-REPORTED|UNVERIFIED|VERIFIED|ČIASTOČNE OVERENÉ|PODĽA SPOLOČNOSTI|NEOVERENÉ|OVERENÉ)` (strings.TrimSpace $html) 1) 0 -}}
         {{- $html = replaceRE (printf `^\s*%s` .) (printf `<span class="claim-label claim-%s">%s</span>` (index $badges .) .) $html 1 -}}
       {{- end }}
       <td{{ with index $headers $i }} data-label="{{ . }}"{{ end }}{{ with $cell.Alignment }}{{ printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}{{ end }}>{{ $html | safeHTML }}</td>

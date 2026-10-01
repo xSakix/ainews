@@ -1,0 +1,14 @@
+# Strings for this site's own templates. PaperMod's strings live in
+# themes/PaperMod/i18n; entries here override them.
+- id: prev_page
+  translation: "Predchádzajúce"
+- id: next_page
+  translation: "Ďalšie"
+- id: follow_title
+  translation: "AI News Daily každé ráno."
+- id: follow_text
+  translation: 'Sledujte <a href="{{ .rss }}">RSS kanál</a> (plný text) alebo sa prihláste na <a href="{{ .newsletter }}" rel="noopener">newsletter na Substacku</a> (v angličtine).'
+- id: follow_note
+  translation: 'Článok vyhľadala a napísala AI podľa zverejnených redakčných pravidiel a do slovenčiny ho preložila AI. <a href="{{ .about }}">Ako pracujeme a čo znamenajú označenia</a>.'
+- id: follow_aria
+  translation: "Sledujte AI News Daily"

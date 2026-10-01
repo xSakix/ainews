@@ -30,3 +30,9 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Hugo build output — Cloudflare builds the site on every push.
+# Anything committed here gets copied into the live site as a stale file.
+/public/
+/resources/_gen/
+.hugo_build.lock

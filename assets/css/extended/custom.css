@@ -60,3 +60,54 @@
 .home-info .entry-content a {
     box-shadow: 0 1px 0 var(--secondary);
 }
+
+/* Verification labels as badges (added by render-table.html). */
+.claim-label {
+    display: inline-block;
+    padding: 1px 7px;
+    font-size: 0.78em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.claim-verified { background: #15803d; }
+.claim-partial { background: #b45309; }
+.claim-vendor { background: #1d4ed8; }
+.claim-unverified { background: #b91c1c; }
+
+/* Phones: each table row becomes a card, with the column name before each value. */
+@media (max-width: 600px) {
+    .post-content table.md-table,
+    .post-content table.md-table tbody,
+    .post-content table.md-table tr,
+    .post-content table.md-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .post-content table.md-table thead {
+        display: none;
+    }
+
+    .post-content table.md-table tr {
+        padding: 10px 0;
+        border-bottom: 1px solid var(--border);
+    }
+
+    /* !important: PaperMod's cell rule uses a more specific :not() selector. */
+    .post-content table.md-table td {
+        min-width: 0 !important;
+        padding: 2px 0 !important;
+        border: 0 !important;
+    }
+
+    .post-content table.md-table td[data-label]::before {
+        content: attr(data-label);
+        display: block;
+        font-size: 0.8em;
+        color: var(--secondary);
+    }
+}

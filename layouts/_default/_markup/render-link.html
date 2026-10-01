@@ -1,0 +1,16 @@
+{{- /* Bare URLs (autolinks, or [url](url)) show as the site name, so source
+       columns in verification tables stay readable on phones. Code hosts keep
+       owner/repo. The full URL stays in href and in the title tooltip. */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $text := .Text | string -}}
+{{- $bare := and $u.Host (or (eq $text .Destination) (eq (htmlUnescape $text) .Destination)) -}}
+{{- $label := strings.TrimPrefix "www." $u.Host -}}
+{{- if in (slice "github.com" "huggingface.co" "gitlab.com") $label -}}
+  {{- with first 2 (split (strings.Trim $u.Path "/") "/") }}{{ $label = printf "%s/%s" $label (delimit . "/") }}{{ end -}}
+{{- end -}}
+<a href="{{ .Destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{ else }}{{ if $bare }} title="{{ .Destination }}"{{ end }}{{ end }}
+  {{- if $u.Host }} rel="noopener"{{ end }}>
+  {{- if $bare }}{{ $label }}{{ else }}{{ .Text }}{{ end -}}
+</a>
+{{- /* no trailing newline */ -}}

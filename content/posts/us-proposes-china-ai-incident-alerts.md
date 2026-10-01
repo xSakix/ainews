@@ -2,13 +2,8 @@
 date = '2026-09-21T04:05:00+02:00'
 draft = false
 title = 'US Proposes China AI Incident Alerts'
+description = "The proposal would create notifications for national-security AI incidents, but China has not publicly accepted it and operating details remain undefined."
 +++
-
-After reading this, the reader knows what the United States proposed, what China has acknowledged and what remains unresolved before any mechanism exists.
-
-# US Proposes China AI Incident Alerts
-
-*The proposal would create notifications for national-security AI incidents, but China has not publicly accepted it and operating details remain undefined.*
 
 The United States has proposed an incident-notification mechanism with China for artificial-intelligence events that could affect national security.
 
@@ -40,10 +35,3 @@ The proposal does not amount to joint AI regulation, a model-development slowdow
 - **Tier 1 — VERIFIED AS REPORTED:** AP says Chinese state media acknowledged AI discussions without describing the mechanism. Same AP source.
 - **Tier 3 — UNVERIFIED:** No public bilateral text or Chinese acceptance of the proposal was available at publication.
 - **Tier 2 — ANALYSIS:** Hotline analogies and recommendations for scope, authentication and exercises are editorial analysis.
-
-## Glossary candidates
-
-- **Incident-notification mechanism:** A channel through which parties rapidly disclose specified events and essential facts.
-- **Strategic ambiguity:** Deliberately withholding precise capabilities, limits or intended responses.
-
-Cold-reader sentence: Washington proposed AI-incident alerts with Beijing, but no agreement or public operating rules yet show how the channel would work.

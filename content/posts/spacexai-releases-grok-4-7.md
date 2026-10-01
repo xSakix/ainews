@@ -32,11 +32,3 @@ The next useful information will come from independent coding-agent runs and com
 2. **VERIFIED AS A VENDOR CLAIM — SpaceXAI says the model has a larger base, longer reinforcement learning and stronger self-checking.** Primary source: https://x.ai/news/grok-4-7
 3. **VERIFIED AS VENDOR-REPORTED RESULTS — The benchmark scores and 3.3% risky-prompt figure are reported by SpaceXAI, not independently confirmed here.** Primary source: https://x.ai/news/grok-4-7
 4. **VERIFIED — Standard API pricing starts at $2 per million input tokens and $6 per million output tokens.** Primary source: https://x.ai/news/grok-4-7
-
-## Glossary candidates
-
-- **Reinforcement learning:** Training that improves behavior using feedback or rewards.
-- **Harness:** Software that supplies tools, context and control logic around a model.
-- **Dual use:** Work that can support legitimate or harmful purposes.
-
-Cold-reader sentence: SpaceXAI released Grok 4.7 with lower-cost API access, vendor-reported coding gains and a safeguard system that still needs independent testing.

@@ -2,13 +2,8 @@
 date = '2026-09-15T23:20:00+02:00'
 draft = false
 title = 'AI labs reportedly open joint safety talks'
+description = "A report says three leading model developers have held discussions for weeks. None had publicly confirmed a concrete agreement when this article was prepared."
 +++
-
-After reading this, the reader knows OpenAI, Anthropic and Google are reportedly discussing AI safety, while the scope and outcome remain unconfirmed.
-
-# AI labs reportedly open joint safety talks
-
-*A report says three leading model developers have held discussions for weeks. None had publicly confirmed a concrete agreement when this article was prepared.*
 
 OpenAI is reportedly in talks with Anthropic and Google about cooperation on AI safety, according to a Bloomberg report relayed by Reuters on September 15.
 
@@ -42,13 +37,3 @@ The next meaningful development is a primary document: a joint statement, named 
 4. **VERIFIED — Reuters reported that OpenAI, Anthropic and Alphabet did not immediately comment and that Reuters could not verify the Bloomberg report.** Source: https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/
 5. **PARTIALLY VERIFIED — Common evaluations or incident channels could reduce cross-company safety gaps.** This is an analytical inference; no specific joint mechanism has been announced.
 6. **UNVERIFIED — The talks will produce a joint standard, agreement or operational program.** No such outcome had been announced when this article was prepared.
-
-## Glossary candidates
-
-- Safety evaluation
-- Incident disclosure
-- Antitrust waiver
-- Voluntary standard
-- Capability threshold
-
-**Cold-reader sentence:** OpenAI, Anthropic and Google are reportedly discussing AI safety, but no company had confirmed a joint program or deliverable.

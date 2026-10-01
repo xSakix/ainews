@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'Wolfram outlines AI-assisted pure mathematics'
+description = "A computational representation can make a mathematical claim easier to examine. It still needs to represent the claim the researcher intended."
 +++
-
-# Wolfram outlines AI-assisted pure mathematics
-
-*A computational representation can make a mathematical claim easier to examine. It still needs to represent the claim the researcher intended.*
 
 Stephen Wolfram, a computational-language developer, published a September 28 essay discussing AI in pure mathematics and work to extend Wolfram Language, his computational system, into more research-level mathematical structures.
 
@@ -45,7 +42,3 @@ The useful next milestone is a concrete demonstration that researchers can inspe
 | Essay date and announced computational-language direction | VERIFIED as author statement, not completed-product performance | [Wolfram’s essay](https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/) |
 | Existing proof-assistant background | VERIFIED as documented tool properties | [Lean project](https://lean-lang.org/) |
 | Translation example, scope distinctions and evaluation criteria | Analysis and illustrative examples | Inference from the difference between a statement, its representation and a checked proof |
-
-**Glossary candidates:** formalization — expressing a claim in a precisely specified language; proof assistant — software that helps construct and check proofs; assumption — a condition on which an argument depends.
-
-**Cold-reader sentence:** Wolfram described work on computational representations for pure mathematics; assessing the proposal requires checking both the representation and its results.

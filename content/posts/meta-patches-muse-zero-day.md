@@ -32,11 +32,3 @@ The disclosure is notable because it connects familiar application-security weak
 2. **VERIFIED — The reported exploit required malicious software already running locally.** Source: https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent
 3. **VERIFIED AS REPORTED DEMONSTRATION — The attack redirected transcription and could trigger privileged actions.** Source: https://www.malwarebytes.com/blog/bugs/2026/09/metas-muse-ai-assistant-has-a-zero-day-that-can-turn-it-into-a-mac-backdoor
 4. **ANALYSIS — Least privilege and authenticated component communication are recommended controls, not claims about Meta's complete architecture.**
-
-## Glossary candidates
-
-- **Zero-day:** A vulnerability disclosed before users have a broadly deployed fix.
-- **Confused deputy:** A trusted component tricked into misusing its authority.
-- **Least privilege:** Granting only the access required for a specific task.
-
-Cold-reader sentence: Meta fixed a local Muse hijack that turned the agent's legitimate permissions into an escalation path for malware already on a Mac.

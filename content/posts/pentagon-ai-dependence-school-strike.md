@@ -30,11 +30,3 @@ Until that record is available, careful wording matters. Bloomberg's investigati
 2. **UNVERIFIED HERE — The underlying Defense Department review or public statement was not located.** The central attribution could not be independently checked.
 3. **UNVERIFIED — The specific model, data, interface and decision chain were not established from accessible primary records.** Further official disclosure is needed.
 4. **ANALYSIS — The discussion of anchoring, audit logs and human approval describes risk controls, not facts about the incident.**
-
-## Glossary candidates
-
-- **Decision support:** A system that supplies analysis to a human decision-maker.
-- **Automation bias:** A tendency to favor automated output over conflicting evidence.
-- **Audit trail:** A record of data, actions and decisions used to reconstruct an event.
-
-Cold-reader sentence: Bloomberg says AI overreliance contributed to a deadly US strike on an Iranian school, but the underlying Pentagon evidence remains unavailable for independent review.

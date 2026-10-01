@@ -2,13 +2,8 @@
 date = '2026-09-19T04:00:00+02:00'
 draft = false
 title = 'Developer Builds a Lean Proof With AI Agents'
+description = "A month-long experiment produced a machine-checked certificate for Conway's refinement conjecture after repeated hallucinations, dead ends and workflow resets."
 +++
-
-After reading this, the reader knows how Dan Abramov used AI and Lean to produce a proof that still needs mathematical review.
-
-# Developer Builds a Lean Proof With AI Agents
-
-*A month-long experiment produced a machine-checked certificate for Conway's refinement conjecture after repeated hallucinations, dead ends and workflow resets.*
 
 Software developer Dan Abramov has published a detailed account of using ChatGPT, Claude and the Lean proof assistant to construct a proposed proof of Conway's refinement conjecture. He says the final statement compiles in Lean and passed mechanical registry checks.
 
@@ -44,10 +39,3 @@ The next evidence should come from specialists reviewing the formal statement, d
 - **Tier 1 — AUTHOR-REPORTED:** The account documents multi-agent roles, failed proofs, invented terminology, separated formalization tracks and mechanical audits. Same primary source.
 - **Tier 1 — PARTIALLY VERIFIED:** Abramov links public Lean code and registry checks, but says mathematicians have not independently verified the proof. Same primary source and linked artifacts.
 - **Tier 2 — ANALYSIS:** Distinctions between formal checking, interpretation and workflow lessons are editorial analysis.
-
-## Glossary candidates
-
-- **Lean:** A proof assistant that checks formal mathematical statements and proofs.
-- **Proof certificate:** A machine-checkable object showing that a formal statement follows from accepted definitions and assumptions.
-
-Cold-reader sentence: Dan Abramov produced a Lean-checked proposed proof with AI agents, but independent mathematicians still need to validate its statement and significance.

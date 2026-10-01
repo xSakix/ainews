@@ -32,11 +32,3 @@ The next evidence should come from code, weights and independent reproduction. U
 2. **VERIFIED — The paper proposes hybrid sparse attention with two-level KV sharing.** Primary source: https://arxiv.org/abs/2609.26368
 3. **VERIFIED AS AUTHOR-REPORTED RESULTS — Evaluation uses an 80B-A3B model and reports retrieval and efficiency gains.** Primary source: https://arxiv.org/abs/2609.26368
 4. **UNVERIFIED — Independent reproduction and production-scale cost measurements were not located.** The work is a new preprint.
-
-## Glossary candidates
-
-- **Attention:** A mechanism that lets a model weigh relationships among tokens.
-- **KV cache:** Stored key and value representations reused during text generation.
-- **Prefill:** Processing the input prompt before generating new tokens.
-
-Cold-reader sentence: HySparse2 proposes sharing and sparsity to shrink long-context inference costs, with promising author-run results still awaiting independent reproduction.

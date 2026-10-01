@@ -2,13 +2,8 @@
 date = '2026-09-18T08:31:00+02:00'
 draft = false
 title = 'Qwen Launches Omni-Flash Model'
+description = "Alibaba's Qwen team brings audio, video, text and agentic action into one model, aiming at real-time assistants that can perceive before they act."
 +++
-
-After reading this, the reader knows what Qwen3.8-Omni-Flash combines and which launch claims still need independent testing.
-
-# Qwen Launches Omni-Flash Model
-
-*Alibaba's Qwen team brings audio, video, text and agentic action into one model, aiming at real-time assistants that can perceive before they act.*
 
 Alibaba's Qwen team has launched Qwen3.8-Omni-Flash, a native omnimodal model built to process audiovisual information and carry out agentic tasks. The official announcement presents it as a model that can understand a scene, reason about what it observes and deliver a result through tools rather than stopping at description.
 
@@ -45,10 +40,3 @@ Qwen3.8-Omni-Flash is therefore a notable product direction: perception and acti
 - **Tier 0 — VERIFIED:** Qwen announced Qwen3.8-Omni-Flash on 18 September 2026 and described it as a next-generation native omnimodal model focused on real-world agent capabilities. Primary source: https://qwen.ai/blog?id=qwen3.8-omni-flash
 - **Tier 1 — VENDOR-REPORTED:** Qwen says the model jointly recognizes speakers across audio and video and supports up to one hour of audiovisual input. Same primary source.
 - **Tier 2 — ANALYSIS:** Workflow, evaluation and deployment implications are editorial analysis.
-
-## Glossary candidates
-
-- **Omnimodal model:** A model designed to process and connect several media types within one system.
-- **Agentic task:** A task in which a model plans steps or uses tools to pursue a goal.
-
-Cold-reader sentence: Qwen's new omni model combines audiovisual understanding with agent behavior, but its performance claims still need independent testing.

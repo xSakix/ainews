@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'NYC Council subpoenas SpaceXAI for AI hearing'
+description = "The Council says four other AI companies agreed to appear on October 5. The subpoena seeks testimony; it is not a finding of misconduct."
 +++
-
-# NYC Council subpoenas SpaceXAI for AI hearing
-
-*The Council says four other AI companies agreed to appear on October 5. The subpoena seeks testimony; it is not a finding of misconduct.*
 
 New York City Council, the US city’s legislature, said on September 28 that it subpoenaed SpaceXAI, an AI company, to testify at an October 5 hearing on AI risks.
 
@@ -46,7 +43,3 @@ The next evidence will be the companies’ appearances, their testimony and any 
 | Earlier legislative proposals | VERIFIED as proposals, not enacted law | [Council September 25 release](https://council.nyc.gov/press/2026/09/25/3252/) |
 | Specific municipal deployment allegation | UNVERIFIED — not asserted as fact | No supporting finding in the Council announcement |
 | Suggested questions and procedural distinctions | Analysis; no legal outcome predicted | Inference from the stated hearing scope |
-
-**Glossary candidates:** subpoena — formal demand to appear or supply evidence; Committee of the Whole — a committee comprising the full legislative body; validation — checking a claim against evidence.
-
-**Cold-reader sentence:** New York City Council subpoenaed SpaceXAI for an October 5 AI hearing after four other companies agreed to testify.

@@ -2,11 +2,8 @@
 date = '2026-09-27T10:01:27+02:00'
 draft = false
 title = 'Anthropic Reports a Nine-Loop Physics Calculation'
+description = "An AI-assisted calculation extends a specialized scattering result. The evidence supports progress in computational execution, with clear limits on claims of scientific invention."
 +++
-
-# Anthropic Reports a Nine-Loop Physics Calculation
-
-*An AI-assisted calculation extends a specialized scattering result. The evidence supports progress in computational execution, with clear limits on claims of scientific invention.*
 
 Anthropic, the developer of Claude, reported on September 25 that its Fable 5.1 model completed a nine-loop scattering calculation using established physics methods and a research computing environment.
 
@@ -44,10 +41,3 @@ The next step is broader technical scrutiny and a reproducible account of the wo
 - **VERIFIED AS RELEASED — Output artifacts, described cross-checks and explicit absence of calculation programs on this page:** https://smsharma.io/cosmic-nine-loops/
 - **VERIFIED — Eight-loop predecessor, authors and mathematical setting:** Original 2023 paper: https://arxiv.org/abs/2308.08199
 - **ANALYSIS — Reproducibility, shared-error and autonomy limits:** Evaluation criteria applied to these primary sources; no error in the calculation is alleged.
-
-## Glossary candidates
-
-- **Scattering amplitude:** A mathematical quantity describing particle interactions.
-- **Reproducibility:** The ability to regenerate a result from documented inputs and methods.
-
-Cold-reader sentence: Anthropic reports a nine-loop physics calculation using known methods, with released outputs but incomplete evidence for reproducing the full workflow.

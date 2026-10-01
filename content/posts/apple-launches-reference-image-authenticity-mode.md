@@ -2,13 +2,8 @@
 date = '2026-09-16T07:42:00+02:00'
 draft = false
 title = 'Apple launches verified photo capture mode'
+description = "Reference Image signs sensor data, timestamps capture and processes the result in Private Cloud Compute without publicly identifying the photographer."
 +++
-
-After reading this, the reader knows Apple added verified photo capture, and it matters because synthetic images have weakened visual evidence.
-
-# Apple launches verified photo capture mode
-
-*Reference Image signs sensor data, timestamps capture and processes the result in Private Cloud Compute without publicly identifying the photographer.*
 
 Apple announced Reference Image on September 15, an opt-in camera mode for the iPhone 18 Pro and Pro Max designed to prove that a photograph originated from a physical sensor at a bounded time.
 
@@ -42,14 +37,3 @@ The useful outcome would be a positive signal: some images can carry stronger ev
 4. **VERIFIED — Final images use a composite RSA-3072 and ML-DSA-87 signature and support revocation.** Primary source: https://security.apple.com/blog/apple-reference-image/
 5. **VERIFIED — Apple designed public verification to avoid linking images to a photographer or device identity.** Primary source: https://security.apple.com/blog/apple-reference-image/
 6. **PARTIALLY VERIFIED — The system proves that an image reflects a real scene at capture.** It authenticates the sensor and processing chain but cannot prove unstaged context, location or caption accuracy. Primary source: https://security.apple.com/blog/apple-reference-image/
-
-## Glossary candidates
-
-- Image provenance
-- Secure digital negative
-- Private Cloud Compute
-- Post-quantum signature
-- Revocation list
-
-**Cold-reader sentence:** Apple Reference Image cryptographically binds an iPhone sensor, capture time and verified processing to help distinguish camera evidence from synthetic imagery.
-

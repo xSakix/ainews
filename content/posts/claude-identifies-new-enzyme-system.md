@@ -37,11 +37,3 @@ The next decisive information will be a functional mechanism. Researchers need t
 3. **VERIFIED AS REPORTED LAB EVIDENCE — The system includes a reverse transcriptase, accessory protein and repeat array that produces short RNAs.** Primary source: the Anthropic post and linked technical report.
 4. **VERIFIED — Anthropic says the system’s primary function remains unknown and all physical lab work was performed by humans.** Primary source: the Anthropic post above.
 5. **UNVERIFIED INDEPENDENTLY — No external replication or peer-reviewed confirmation was located during this review.**
-
-## Glossary candidates
-
-- **Reverse transcriptase:** An enzyme that copies RNA into DNA.
-- **Bacteriophage:** A virus that infects bacteria.
-- **CRISPR:** A microbial defense system adapted for programmable gene editing.
-
-Cold-reader sentence: Anthropic says Claude helped identify a new repeat-associated enzyme system, but humans performed the experiments and its biological function remains unknown.

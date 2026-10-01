@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'Lenfest expands AI fellowships with OpenAI support'
+description = "The expansion combines committed funding with potential in-kind support. Its aim is to help more local newsrooms adopt tools developed inside the fellowship."
 +++
-
-# Lenfest expands AI fellowships with OpenAI support
-
-*The expansion combines committed funding with potential in-kind support. Its aim is to help more local newsrooms adopt tools developed inside the fellowship.*
 
 The Lenfest Institute for Journalism, a nonprofit supporting news sustainability, announced an expanded AI fellowship on September 28 with $5 million from OpenAI, the AI developer, plus additional in-kind support.
 
@@ -46,7 +43,3 @@ The next concrete developments will be the new participation details and the reu
 | Pilot success | PARTIALLY VERIFIED — program operator’s assessment | [Lenfest release](https://www.lenfestinstitute.org/institute-news/lenfest-institute-openai-ai-fellowship-expansion/) |
 | Program history, cohort and fellowship structure | VERIFIED as documented program facts | [Lenfest program page](https://www.lenfestinstitute.org/our-work/lenfest-ai-collaborative-and-fellowship-program/) |
 | Sustainability, editorial independence and evaluation criteria | Analysis and proposed tests | Inference from the funding and program structure |
-
-**Glossary candidates:** in-kind support — resources supplied instead of cash; embedded fellow — a specialist working within a host organization; software credits — an allowance against a provider’s charges.
-
-**Cold-reader sentence:** Lenfest expanded its newsroom AI fellowship with $5 million committed by OpenAI and up to $5 million more in credits and engineering support.

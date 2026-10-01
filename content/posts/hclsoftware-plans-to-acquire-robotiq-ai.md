@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'HCLSoftware plans to acquire Robotiq.ai'
+description = "The planned acquisition would add application automation to HCLSoftware's agent orchestration. Buyers still need evidence that the combined workflow handles failures correctly."
 +++
-
-# HCLSoftware plans to acquire Robotiq.ai
-
-*The planned acquisition would add application automation to HCLSoftware's agent orchestration. Buyers still need evidence that the combined workflow handles failures correctly.*
 
 HCLSoftware, the software division of technology services company HCLTech, announced on September 28 that it intends to acquire Croatian automation provider Robotiq.ai, with closing expected in November.
 
@@ -45,7 +42,3 @@ After closing, the useful developments will be an integration release, clear sup
 | Parties, September 28 announcement, location and expected November close | VERIFIED as announced intent, not completed transaction | [HCLTech release](https://www.hcltech.com/en-us/press-releases/hclsoftware-acquire-robotiqai-strengthening-enterprise-agentic-automation) |
 | Planned UnO integration, API limitations, claimed customer sectors and logging | VERIFIED as supplier descriptions; combined-product reliability untested | [HCLTech release](https://www.hcltech.com/en-us/press-releases/hclsoftware-acquire-robotiqai-strengthening-enterprise-agentic-automation) |
 | Transaction, retry, permissions and audit examples | Analysis and proposed acceptance tests | Inferences from the announced integration scope; no defect or success rate asserted |
-
-**Glossary candidates:** robotic process automation — software performing repeatable application operations; orchestration — coordinating steps and tools; application programming interface — a structured way for software to request another system's functions.
-
-**Cold-reader sentence:** HCLSoftware plans to acquire Robotiq.ai to add application execution to its agent platform, with closing expected in November and integration results still to assess.

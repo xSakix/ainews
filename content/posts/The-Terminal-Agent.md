@@ -3,7 +3,7 @@ date: '2025-12-11T05:50:18+02:00'
 draft: false
 title: 'The Terminal Agent: Mistral AIs Bid for the Command Line'
 cover:
-  image: "images/The-Terminal-Agent.png"
+  image: "images/The-Terminal-Agent.jpg"
   alt: "The Terminal Agent: Mistral AIs Bid for the Command Line"
   caption: "The Terminal Agent: Mistral AIs Bid for the Command Line"
   relative: false

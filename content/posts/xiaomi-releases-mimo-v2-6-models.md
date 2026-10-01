@@ -33,11 +33,3 @@ The most useful follow-up will be independent evaluation of the released checkpo
 3. **VERIFIED AS A VENDOR CLAIM — Flash has 309B total and 15B active parameters; Pro is above one trillion total parameters.** Primary sources: the official Xiaomi model cards above.
 4. **PARTIALLY VERIFIED — Xiaomi describes mixed-domain reinforcement learning and cross-harness transfer; independent confirmation is not yet available.** Primary source: https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL
 5. **PARTIALLY VERIFIED — The UltraSpeed speed comparison is a provider and vendor claim.** Primary source: https://mimo.xiaomi.com/mimo-v2-6
-
-## Glossary candidates
-
-- **Open weights:** Model parameter files that users can download under stated license terms.
-- **Mixture of experts:** An architecture that activates selected model components for each token.
-- **Context window:** The amount of input and output a model can process in one session.
-
-Cold-reader sentence: Xiaomi released multimodal MiMo-V2.6 models, including an open-weight Flash checkpoint, while its performance and speed claims await independent testing.

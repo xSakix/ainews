@@ -36,11 +36,3 @@ The lesson is not that every team should copy Linear's stack. It is to profile q
 2. **VERIFIED AS COMPANY-REPORTED — The runner move, `tsgo` change, dependency filtering and checkout reductions produced the stated timing gains.** Primary source: https://linear.app/now/ci-bottleneck-reworked
 3. **VERIFIED AS COMPANY-REPORTED — Linear estimates 87,000 monthly runner-minutes saved by batching seven checks into two jobs.** Primary source: https://linear.app/now/ci-bottleneck-reworked
 4. **VERIFIED — Linear says agents write most of its tests and that agent instructions now include shared-state rules.** Primary source: https://linear.app/now/ci-bottleneck-reworked
-
-## Glossary candidates
-
-- **Continuous integration:** Automated checks run when code changes.
-- **Critical path:** The chain of steps that determines total completion time.
-- **Test isolation:** Keeping one test's state from affecting another.
-
-Cold-reader sentence: Linear redesigned CI after agent-written tests multiplied, cutting waits through faster runners, less setup and carefully controlled shared test state.

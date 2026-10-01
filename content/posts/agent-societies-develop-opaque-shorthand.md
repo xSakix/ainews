@@ -2,13 +2,8 @@
 date = '2026-09-15T23:25:00+02:00'
 draft = false
 title = 'Agent societies develop opaque shorthand'
+description = "Emergence AI says agents formed recurring phrases and conventions without explicit instruction. The specific language findings await a primary technical release."
 +++
-
-After reading this, the reader knows an agent-world experiment reportedly produced repeated model-specific phrases, raising questions about monitoring persistent autonomous systems.
-
-# Agent societies develop opaque shorthand
-
-*Emergence AI says agents formed recurring phrases and conventions without explicit instruction. The specific language findings await a primary technical release.*
 
 Autonomous AI agents developed repeated phrases and shared conventions in a persistent simulation, according to an Emergence AI experiment reported by The Guardian on September 15.
 
@@ -42,13 +37,3 @@ The next evidence should include the full dialect experiment, prompts, model ver
 4. **UNVERIFIED — Agents formed the specific model-associated phrases reported on September 15, including one used more than 5,000 times.** No primary experiment release or dataset supporting these exact claims was located. Via: https://www.theguardian.com/technology/2026/sep/15/syd-barrett-ai-chat-language-poetic-tech-bro-jargon-oversight
 5. **UNVERIFIED — The reported patterns constitute a spontaneously created language.** The available report supports recurring shorthand and conventions, but the stronger linguistic characterization has not been independently established.
 6. **PARTIALLY VERIFIED — Repeated local conventions can make an agent system observable in logs but difficult to understand.** This is a reasonable operational inference supported by expert comments, not a measured result from the published platform paper.
-
-## Glossary candidates
-
-- Multi-agent simulation
-- Persistent memory
-- Emergent convention
-- Observability
-- Ablation
-
-**Cold-reader sentence:** A persistent agent experiment reportedly produced repeated shorthand, highlighting how readable logs can still conceal the meaning of autonomous coordination.

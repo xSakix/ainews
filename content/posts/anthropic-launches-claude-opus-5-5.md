@@ -28,11 +28,3 @@ For buyers, the right comparison is a workload trial using the same repository, 
 2. **VERIFIED — Standard prices are $4 per million input tokens, $20 per million output tokens and $0.20 per million cache-read tokens.** Primary source: https://www.anthropic.com/claude-opus-5-5
 3. **VERIFIED AS VENDOR CLAIMS — The 40% workload saving, speed gain and benchmark scores were published by Anthropic.** Primary source: https://www.anthropic.com/claude-opus-5-5
 4. **VERIFIED — Anthropic names external pre-release evaluators and provides a system card.** Primary source: https://www.anthropic.com/claude-opus-5-5
-
-## Glossary candidates
-
-- **Cache read:** Reusing stored prompt context instead of processing it again.
-- **Prompt injection:** Instructions in untrusted content that try to redirect an AI system.
-- **Harness:** Software that supplies tools, context and control logic around a model.
-
-Cold-reader sentence: Claude Opus 5.5 targets long-running agent work with lower prices and stronger vendor-reported results that still need independent testing.

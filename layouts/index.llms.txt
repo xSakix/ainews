@@ -1,0 +1,36 @@
+{{- /* /llms.txt — curated index for LLMs and AI assistants (https://llmstxt.org). */ -}}
+{{- $posts := where site.RegularPages "Section" "in" site.Params.mainSections -}}
+{{- $digests := where $posts "Title" "like" `(?i)\bdigest\b` -}}
+# {{ site.Title }}
+
+> {{ site.Params.description }}
+
+AI News Daily publishes up to six articles and one digest every morning (Europe/Bratislava time). Each article ends with a verification table in which every checkable claim carries one label (VERIFIED, VENDOR-REPORTED, PARTIALLY VERIFIED or UNVERIFIED) and a link to its primary source. Articles are researched and drafted with AI models under the editorial rules described on the About page.
+
+Every article is available as Markdown: append `index.md` to its URL. The full text of the most recent articles is in [llms-full.txt]({{ "llms-full.txt" | absURL }}).
+
+## About
+
+- [About and methodology]({{ "about/index.md" | absURL }}): who publishes the site, how articles are produced, and what the verification labels mean
+
+## Latest daily digests
+
+{{ range first 7 $digests -}}
+- [{{ .Title }}]({{ .Permalink }}index.md)
+{{ end }}
+## Latest articles
+
+{{ range first 60 $posts -}}
+{{- $desc := .Description | default (.Summary | plainify | htmlUnescape | truncate 220) | replaceRE `\s+` " " -}}
+- [{{ .Title }}]({{ .Permalink }}index.md) ({{ .Date.Format "2006-01-02" }}): {{ $desc }}
+{{ end }}
+## Topics
+
+{{ range site.Taxonomies.tags.ByCount -}}
+- [{{ .Page.Title }}]({{ .Page.Permalink }}): {{ .Count }} articles
+{{ end }}
+## Optional
+
+- [Archive of all articles]({{ "archives/" | absURL }})
+- [RSS feed with full text]({{ "index.xml" | absURL }})
+- [Sitemap]({{ "sitemap.xml" | absURL }})

@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'Shopify adds browser-agent checkout tools'
+description = "Agents can work with the buyer’s active checkout and submit an order after confirmation. Required payment interactions still return control to the buyer."
 +++
-
-# Shopify adds browser-agent checkout tools
-
-*Agents can work with the buyer’s active checkout and submit an order after confirmation. Required payment interactions still return control to the buyer.*
 
 Shopify, the commerce platform, added checkout support for browser-based AI agents on September 28 through WebMCP, a proposed standard for websites to expose structured actions to agents.
 
@@ -46,7 +43,3 @@ The next evidence to watch is successful use across varied checkout conditions, 
 | Browser/server distinction, signed identification, dynamic tools and injection warning | VERIFIED as documented requirements | [Checkout WebMCP documentation](https://shopify.dev/docs/agents/carts-and-checkout/checkout-webmcp) |
 | Earlier storefront capability | VERIFIED | [Storefront WebMCP documentation](https://shopify.dev/docs/api/web-mcp) |
 | Purchase-quality and recovery tests | Analysis and proposed acceptance criteria | Inference from the documented transaction flow |
-
-**Glossary candidates:** WebMCP — browser-exposed structured tools for agents; checkout state — current transaction details; prompt injection — untrusted content attempting to direct an agent.
-
-**Cold-reader sentence:** Shopify added tools for browser agents to update and complete checkout with buyer confirmation and handoffs for required human interactions.

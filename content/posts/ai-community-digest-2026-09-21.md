@@ -2,11 +2,8 @@
 date = '2026-09-21T05:55:00+02:00'
 draft = false
 title = 'AI Community Digest for 21 September 2026'
+description = "Model preservation, benchmark skepticism, local inference and the politics of AI safety drove discussion across Hacker News, Reddit and YouTube."
 +++
-
-# AI Community Digest for 21 September 2026
-
-*Model preservation, benchmark skepticism, local inference and the politics of AI safety drove discussion across Hacker News, Reddit and YouTube.*
 
 Today's community conversations were less about a single product launch than about control: who keeps model weights available, which performance claims deserve trust, what hardware local users can actually run and how public figures describe AI risk.
 
@@ -69,11 +66,3 @@ Useful follow-up would include durable model-archive statistics, reproducible La
 - **Tier 3 — HYPOTHETICAL:** The proposed $1,000 Qwen-specific chip and 7,000-token-per-second performance are discussion premises, not verified product specifications.
 - **Tier 0 — VERIFIED AS PRIMARY COMMENTARY:** The five YouTube URLs are the direct videos for the interviews, commentary and demonstration described above. Statements are attributed to their speakers or publishers.
 - **Tier 2 — ANALYSIS:** Cross-item conclusions about evidence, flexibility and deployment trade-offs are editorial analysis.
-
-## Glossary candidates
-
-- **FP4:** A four-bit floating-point format intended to reduce model memory use and accelerate supported inference.
-- **Core ML:** Apple's framework for running machine-learning models on Apple devices.
-- **Weight checkpoint:** A stored set of learned model parameters that can be loaded for inference or further training.
-
-Cold-reader sentence: Today's AI community focused on preserving models, testing deployment claims and separating political or technical commentary from verified evidence.

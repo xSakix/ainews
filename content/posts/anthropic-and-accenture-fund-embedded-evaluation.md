@@ -2,13 +2,8 @@
 date = '2026-09-19T04:00:00+02:00'
 draft = false
 title = 'Anthropic and Accenture Fund Embedded Evaluation'
+description = "The companies expect to invest at least $2 billion over five years in outside testing conducted with employee-comparable access inside the AI lab."
 +++
-
-After reading this, the reader knows how Anthropic's embedded evaluation plan is funded, structured and still unresolved.
-
-# Anthropic and Accenture Fund Embedded Evaluation
-
-*The companies expect to invest at least $2 billion over five years in outside testing conducted with employee-comparable access inside the AI lab.*
 
 Anthropic and Accenture have formed a non-exclusive partnership for independent evaluation of frontier AI models. Each company expects to invest at least $1 billion over five years, and Accenture's specialist AI unit Faculty will lead the work.
 
@@ -42,10 +37,3 @@ The partnership creates a funded route for outsiders to inspect frontier develop
 - **Tier 0 — VERIFIED:** Anthropic and Accenture each expect to invest at least $1 billion over five years. Same primary source.
 - **Tier 0 — VERIFIED:** Anthropic says employee-comparable access, reporting standards and long-term funding rules are not yet settled; the partnership is non-exclusive. Same primary source.
 - **Tier 2 — ANALYSIS:** Independence tests and proposed reporting criteria are editorial analysis.
-
-## Glossary candidates
-
-- **Embedded evaluation:** Independent testing conducted inside a developer with access to internal systems and decisions.
-- **Red team:** A group tasked with finding failures by deliberately challenging a system.
-
-Cold-reader sentence: Anthropic and Accenture will fund inside-the-lab model evaluation, but access, reporting and independence standards remain unsettled.

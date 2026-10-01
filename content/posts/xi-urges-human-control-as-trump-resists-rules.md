@@ -37,11 +37,3 @@ The next meaningful evidence would be a bilateral statement naming a workstream 
 3. **VERIFIED AS CHINESE GOVERNMENT ATTRIBUTION — The readout attributes support for continued AI dialogue and cooperation to Trump.** Primary source: the same page.
 4. **UNVERIFIED FROM A PRIMARY TRANSCRIPT — Trump's reported Truth Social wording was not available in a White House transcript reviewed here.** Via: https://www.washingtonpost.com/technology/2026/09/25/trump-rejects-demands-ai-rules-while-xi-calls-human-control/
 5. **ANALYSIS — Possible technical forms of cooperation and their verification problems are editorial analysis.**
-
-## Glossary candidates
-
-- **Human control:** Meaningful human authority over whether and how an automated system acts.
-- **Incident reporting:** A process for disclosing serious failures, misuse or security events.
-- **Readout:** An official government's summary of a diplomatic meeting.
-
-Cold-reader sentence: Xi proposed human control and bilateral AI dialogue, but no joint mechanism or enforceable standard emerged.

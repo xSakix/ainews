@@ -2,13 +2,8 @@
 date = '2026-09-17T05:18:00+02:00'
 draft = false
 title = 'Anthropic Unifies Claude Workspace'
+description = "Cowork and chat now share one interface, while new document and slide tools move Claude closer to an end-to-end work surface."
 +++
-
-After reading this, the reader knows Anthropic unified Claude’s work surfaces, and that access is staged rather than universal.
-
-# Anthropic Unifies Claude Workspace
-
-*Cowork and chat now share one interface, while new document and slide tools move Claude closer to an end-to-end work surface.*
 
 Anthropic has merged Claude Cowork and ordinary chat into one Claude experience, removing the separate entry point for delegated work. It also launched Claude Docs and Claude Slides and placed Claude Design inside conversations.
 
@@ -40,10 +35,3 @@ The broader competitive signal is clear. AI companies are racing to own the laye
 - **Tier 0 — VERIFIED:** Pro and Max roll out first over several weeks; Team and Free follow; Enterprise administrators receive advance notice. Primary source: https://claude.com/blog/cowork-is-now-claude
 - **Tier 0 — VERIFIED:** The tools are beta features on paid plans, with PowerPoint and PDF export described for slides. Primary source: https://claude.com/blog/cowork-is-now-claude
 - **Tier 2 — ANALYSIS:** Claims about competitive positioning and adoption are editorial interpretation, not company forecasts.
-
-## Glossary candidates
-
-- **Cowork:** Anthropic’s delegated-work capability, now folded into the main Claude experience.
-- **Artifact:** An editable output, such as a document, slide deck or design, produced within an AI workspace.
-
-Cold-reader sentence: Anthropic is turning Claude from separate chat and work modes into one workspace that can create and revise deliverables.

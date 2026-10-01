@@ -39,11 +39,3 @@ Until those details arrive, the verified development is limited but concrete: Go
 3. **VERIFIED — The announcement includes a sign-up link but does not state broad availability, the underlying model or detailed answer controls.** Primary source: the Google announcement above.
 4. **VERIFIED AS VENDOR-REPORTED — Google cites a 40% average conversion increase for advertisers adding Gmail to Demand Gen at the same return on investment.** The footnote identifies Google internal global data from February 2026; it is not a Business Agent result. Primary source: the Google announcement above.
 5. **ANALYSIS — The grounding, logging, disclosure and review recommendations are risk controls inferred from the product format, not claims about Google's unpublished implementation.**
-
-## Glossary candidates
-
-- **Product feed:** Structured merchant data containing items, prices and availability.
-- **Grounding:** Restricting generated answers to identified source material.
-- **Conversion:** A desired action such as a purchase or sign-up after an ad interaction.
-
-Cold-reader sentence: Google is testing a sales assistant inside YouTube product ads, while its rollout, data sources and controls remain unspecified.

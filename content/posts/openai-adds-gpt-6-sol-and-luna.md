@@ -31,11 +31,3 @@ The next meaningful evidence will be reproducible comparisons using identical ag
 3. **VERIFIED — Luna is priced at $0.10 per million input tokens and $0.50 per million output tokens.** Primary source: https://openai.com/api/
 4. **VERIFIED — Both models list a 1.05-million-token context and 128,000-token maximum output.** Primary source: https://openai.com/api/
 5. **UNVERIFIED HERE — Broad comparative quality claims were not reproduced independently.** Via: https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/
-
-## Glossary candidates
-
-- **Context window:** The amount of input and prior conversation a model can consider at once.
-- **Routing:** Sending different tasks to different models based on cost or difficulty.
-- **Completed-task cost:** Total expense required to produce an accepted result, including retries.
-
-Cold-reader sentence: OpenAI's Sol and Luna expand GPT-6 into lower price tiers, but teams still need workload tests to measure true completed-task cost.

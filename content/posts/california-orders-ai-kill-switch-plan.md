@@ -2,13 +2,8 @@
 date = '2026-09-19T04:00:00+02:00'
 draft = false
 title = 'California Orders an AI Kill-Switch Plan'
+description = "Governor Gavin Newsom accelerated independent AI oversight and directed experts to propose an emergency shutoff for frontier models within two months."
 +++
-
-After reading this, the reader knows what California's order changes now and what remains only a policy proposal.
-
-# California Orders an AI Kill-Switch Plan
-
-*Governor Gavin Newsom accelerated independent AI oversight and directed experts to propose an emergency shutoff for frontier models within two months.*
 
 California Governor Gavin Newsom has issued an executive order that speeds implementation of two AI-oversight laws and starts work on stronger frontier-model controls. A new expert group must deliver recommendations within two months, including how an emergency shutoff could be required and independently tested.
 
@@ -44,10 +39,3 @@ California has moved the kill-switch idea from political rhetoric into a dated p
 - **Tier 0 — VERIFIED:** The order considers onsite independent evaluators, verified safety filings, an independently tested emergency shutoff and broader incident definitions. Same primary source.
 - **Tier 0 — VERIFIED:** The order accelerates implementation work for SB 813 and AB 1405; it does not itself create an operational government shutoff. Same primary source.
 - **Tier 2 — ANALYSIS:** Technical tests, jurisdiction limits and governance questions are editorial analysis.
-
-## Glossary candidates
-
-- **Frontier model:** A highly capable model near the leading edge of current AI development.
-- **Kill switch:** A control intended to stop access to or operation of a system during an emergency.
-
-Cold-reader sentence: California ordered a two-month plan for independently verified frontier-model shutdown controls but has not created an operational kill switch.

@@ -2,13 +2,8 @@
 date = '2026-09-20T04:05:00+02:00'
 draft = false
 title = 'Subscribers Sue AI Labs Over Slowdown'
+description = "A proposed class action accuses four competing AI providers of coordinating slower development, but the complaint has not produced a ruling or an established factual record."
 +++
-
-After reading this, the reader knows what the proposed class action alleges, what remains unproven and why safety coordination can raise antitrust questions.
-
-# Subscribers Sue AI Labs Over Slowdown
-
-*A proposed class action accuses four competing AI providers of coordinating slower development, but the complaint has not produced a ruling or an established factual record.*
 
 Subscribers have filed a proposed class action against Anthropic, OpenAI, SpaceXAI and Google, alleging that the companies illegally coordinated support for slowing artificial-intelligence development.
 
@@ -44,10 +39,3 @@ For now, the lawsuit is a claim about the boundary between coordination and coll
 - **Tier 3 — UNVERIFIED:** The complaint's allegations of an unlawful agreement and consumer harm have not been adjudicated and are not stated as fact here. Via the same AP report.
 - **Tier 1 — VERIFIED AS REPORTED:** AP says the companies had not immediately responded and describes the public statements cited by plaintiffs. Via the same AP report.
 - **Tier 2 — ANALYSIS:** Discussion of possible defenses, government supervision and industry behavior is general editorial analysis, not a prediction about the case.
-
-## Glossary candidates
-
-- **Proposed class action:** A lawsuit seeking to represent a wider group, subject to court approval.
-- **Antitrust exemption:** Legal protection allowing specified coordination that might otherwise raise competition concerns.
-
-Cold-reader sentence: Subscribers allege four AI rivals coordinated a slowdown, but the case has not yet established an agreement, violation or consumer injury.

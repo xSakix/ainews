@@ -2,11 +2,8 @@
 date = '2026-09-27T10:01:27+02:00'
 draft = false
 title = 'US and China Agree on an AI Incident Channel'
+description = "Washington and Beijing have both confirmed an agreement to establish incident communications. Operating details will determine whether the channel can help during a crisis."
 +++
-
-# US and China Agree on an AI Incident Channel
-
-*Washington and Beijing have both confirmed an agreement to establish incident communications. Operating details will determine whether the channel can help during a crisis.*
 
 The United States and China have agreed to establish a channel for AI incidents, according to official summit accounts published by the White House and China's foreign ministry on September 25–26.
 
@@ -44,10 +41,3 @@ The next scheduled dialogue creates an opportunity to clarify that boundary. Bef
 - **VERIFIED — US confirmation, terminology and timing:** White House September 25 fact sheet: https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/
 - **UNVERIFIED — Operational readiness:** Neither primary statement reviewed specifies contacts, thresholds or testing. No claim is made about undisclosed arrangements.
 - **ANALYSIS — Crisis example, authentication, evidence-sharing and effectiveness criteria:** Editorial assessment of the limited agreement above, not negotiated commitments.
-
-## Glossary candidates
-
-- **Attribution:** Establishing who caused or authorized an incident.
-- **Escalation authority:** Responsibility and power to move an issue to decision-makers.
-
-Cold-reader sentence: The US and China confirmed an AI incident channel and further dialogue, while its operational arrangements remain unverified.

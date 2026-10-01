@@ -2,13 +2,8 @@
 date = '2026-09-20T04:05:00+02:00'
 draft = false
 title = 'Cua Releases a Specialist Form Model'
+description = "The 706,048-parameter checkpoint selects document values and form actions in one pass, while ordinary code controls ordering, execution and verification."
 +++
-
-After reading this, the reader knows how CUA-S1-Forms divides model judgment from interface execution and where its evaluation is still too narrow.
-
-# Cua Releases a Specialist Form Model
-
-*The 706,048-parameter checkpoint selects document values and form actions in one pass, while ordinary code controls ordering, execution and verification.*
 
 Cua has released CUA-S1-Forms, a small model designed for one narrow part of computer use: deciding what value or action belongs in each element of a form.
 
@@ -45,10 +40,3 @@ The release is best understood as an architectural experiment made reproducible:
 - **Tier 1 — DEVELOPER-REPORTED:** Synthetic, real-demo and Jev comparison results come from Cua and were not independently reproduced here. Same primary source.
 - **Tier 0 — VERIFIED:** Cua documents the small real evaluation, English-centric vocabulary and restricted extraction format. Same primary source.
 - **Tier 2 — ANALYSIS:** Architectural and deployment implications are editorial analysis.
-
-## Glossary candidates
-
-- **Option scorer:** A model that assigns a probability to each allowed choice.
-- **Fail-closed:** Refusing to act when required state or safety information is missing.
-
-Cold-reader sentence: CUA-S1-Forms is a tiny bounded decision model for form filling whose promising results come from a deliberately narrow evaluation.

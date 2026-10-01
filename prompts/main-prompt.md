@@ -90,7 +90,7 @@ Apply `prompts/editor-prompt.md` to each assembled file. Overrides for this run:
 
 1. Name each file `content/posts/<slug>.md`, where the slug is the final headline in lowercase ASCII, words joined by hyphens, at most 60 characters. If the file exists, append `-2`.
 2. Check every file written today, fix any failure, and check again:
-   - No line contains `=== `, `Cold-reader`, `Glossary candidates`, `EDITOR NOTES`, or `Editor's note`.
-   - The front matter parses as TOML: `python3 -c "import tomllib,sys; tomllib.loads(open(sys.argv[1]).read().split('+++')[1])" FILE`
+   - `python3 scripts/check_posts.py --strict FILE...` passes. It rejects leaked pipeline notes (`=== `, `Cold-reader`, `Glossary candidates`, `EDITOR NOTES`, `Editor's note`, the "After reading this, the reader knows" gate sentence), an H1 or italic dek in the body, invalid TOML, a missing description, and tags outside the allowed list.
+   - `python3 scripts/check_posts.py` (all posts) passes.
    - If Hugo is installed, `hugo --quiet` builds without errors.
 3. Commit today's posts and reports in one commit, `Daily news YYYY-MM-DD`, and push to `main`.

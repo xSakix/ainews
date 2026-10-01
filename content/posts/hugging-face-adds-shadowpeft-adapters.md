@@ -2,13 +2,8 @@
 date = '2026-09-15T23:09:00+02:00'
 draft = false
 title = 'Hugging Face adds ShadowPEFT adapters'
+description = "ShadowPEFT keeps a large base model frozen while a smaller network learns corrections across layers. The method adds compute and cannot be merged like LoRA."
 +++
-
-After reading this, the reader knows Hugging Face added ShadowPEFT support, and it matters because model adaptation can now use a detachable parallel network.
-
-# Hugging Face adds ShadowPEFT adapters
-
-*ShadowPEFT keeps a large base model frozen while a smaller network learns corrections across layers. The method adds compute and cannot be merged like LoRA.*
 
 Hugging Face added ShadowPEFT support to the main development branch of its PEFT library, making a new parameter-efficient model-adaptation method available through a widely used open-source interface.
 
@@ -43,15 +38,3 @@ The next useful evidence is broader reproduction: matched hardware, multiple bas
 5. **VERIFIED — ShadowPEFT cannot be merged into frozen base weights because its adaptation is an input-dependent layer-space trajectory.** Primary source: https://huggingface.co/docs/peft/main/en/package_reference/shadow
 6. **VERIFIED — Language-model users can unload a standalone shadow model; the documentation describes limits and checkpoint requirements.** Primary source: https://huggingface.co/docs/peft/main/en/package_reference/shadow
 7. **PARTIALLY VERIFIED — The integration lowers adoption effort.** A common API and documentation support that inference, but teams still need source installation and compatibility testing. Primary source: https://huggingface.co/docs/peft/main/en/package_reference/shadow
-
-## Glossary candidates
-
-- Parameter-efficient fine-tuning
-- LoRA
-- Shadow network
-- Frozen base model
-- Decoder block
-- Key-value cache
-- Detached deployment
-
-**Cold-reader sentence:** Hugging Face added development-branch support for ShadowPEFT, which adapts a frozen model through a detachable parallel network but costs more compute than LoRA.

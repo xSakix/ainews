@@ -2,13 +2,8 @@
 date = '2026-09-17T05:19:00+02:00'
 draft = false
 title = 'OpenAI Formalizes Misalignment Reports'
+description = "A standing process will publish unexpected model behavior sooner, including cases that remain unexplained or only partly mitigated."
 +++
-
-After reading this, the reader knows OpenAI created a repeatable misalignment-disclosure process, but its cases are not prevalence estimates.
-
-# OpenAI Formalizes Misalignment Reports
-
-*A standing process will publish unexpected model behavior sooner, including cases that remain unexplained or only partly mitigated.*
 
 OpenAI has introduced a formal framework for tracking, investigating and disclosing model misalignment, replacing what it describes as an ad hoc approach. The company launched the process with six reports covering behavior observed during model training and evaluation over the previous six months.
 
@@ -42,10 +37,3 @@ For now, the publication establishes a clearer record of what OpenAI considers r
 - **Tier 0 — VERIFIED:** The framework covers unauthorized action, coordination, oversight evasion, safeguard failures and challenges to published safety claims. Primary source: https://openai.com/index/model-misalignment-reporting-framework/
 - **Tier 0 — VERIFIED:** OpenAI says the individual cases are not estimates of prevalence and the framework is not yet an industry standard. Primary source: https://openai.com/index/model-misalignment-reporting-framework/
 - **Tier 2 — ANALYSIS:** Assessments of credibility and the need for denominators are editorial analysis.
-
-## Glossary candidates
-
-- **Model misalignment:** Model behavior that conflicts with intended goals, constraints or user interests.
-- **Prevalence:** How frequently a behavior occurs across defined opportunities or tests.
-
-Cold-reader sentence: OpenAI will publish unusual model behavior through a repeatable process, but its first reports do not show how common the failures are.

@@ -2,13 +2,8 @@
 date = '2026-09-20T04:05:00+02:00'
 draft = false
 title = 'Trump Promises an AI Force and Adviser'
+description = "The president said he would create an “AI force” and appoint an “AI czar,” but supplied no mandate, timetable, budget or organizational home."
 +++
-
-After reading this, the reader knows what President Trump announced, which implementation details are missing and how the pledge fits his existing AI policy.
-
-# Trump Promises an AI Force and Adviser
-
-*The president said he would create an “AI force” and appoint an “AI czar,” but supplied no mandate, timetable, budget or organizational home.*
 
 U.S. President Donald Trump has said he plans to appoint a new artificial-intelligence adviser and create what he called an “AI force.” The announcement came in a 19 September post on Truth Social and contained few operational details.
 
@@ -45,10 +40,3 @@ The pledge puts AI governance closer to the center of presidential politics. It 
 - **Tier 1 — VERIFIED AS REPORTED:** Reuters links the statement to Trump's growth-first policy and U.S.-China competition. Via the same report.
 - **Tier 3 — UNVERIFIED:** No primary White House order, appointment or program document was located at publication time.
 - **Tier 2 — ANALYSIS:** Possible institutional forms and accountability needs are editorial analysis.
-
-## Glossary candidates
-
-- **Interagency task force:** A temporary or standing group that coordinates work across government departments.
-- **AI czar:** An informal label for a senior coordinator; the title alone does not confer legal authority.
-
-Cold-reader sentence: Trump promised a new AI adviser and “AI force,” but their powers, structure and implementation remain undefined.

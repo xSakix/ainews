@@ -39,11 +39,3 @@ The next step is independent reproduction with the public repository, followed b
 3. **VERIFIED AS AUTHOR-RUN TEST — The paper reports 500 of 500 interceptions by its kernel probes and 410 bypasses of literal matching.** Primary source: the arXiv paper above.
 4. **PARTIALLY VERIFIED — A representative implementation is public, while the paper says the complete production implementation is closed-source.** Primary sources: https://arxiv.org/abs/2609.29808 and https://github.com/joseluispino/hardstop
 5. **UNVERIFIED — The detailed July 2026 intrusion account was not independently confirmed in a primary incident report during this review.** Source of the claim: the arXiv paper above.
-
-## Glossary candidates
-
-- **Out-of-band:** Operating through a control path separate from the monitored application.
-- **POSIX signal:** An operating-system message that can stop or terminate a process.
-- **eBPF:** A Linux mechanism for running restricted monitoring programs in the kernel.
-
-Cold-reader sentence: Hard Stop moves an agent's emergency brake outside its process, but its prototype results and motivating incident still need independent verification.

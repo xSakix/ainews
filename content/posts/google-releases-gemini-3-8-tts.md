@@ -37,11 +37,3 @@ The next useful evidence will be independent multilingual listening tests and pr
 3. **VERIFIED — The launch describes consent verification, SynthID watermarking and C2PA credentials for voice replication.** Primary source: the Google launch post above.
 4. **VERIFIED AS REPORTED EVALUATION — Benchmark and preference rankings are cited by Google and were not independently reproduced here.** Primary source: the Google launch post above.
 5. **VERIFIED — Google lists regional limits for AI Studio voice replication.** Primary source: the Google launch post above.
-
-## Glossary candidates
-
-- **Text-to-speech:** Technology that converts written text into spoken audio.
-- **Voice replication:** Generating speech that preserves the characteristics of a reference speaker.
-- **Watermarking:** Embedding a detectable signal that identifies generated content.
-
-Cold-reader sentence: Google released two multilingual Gemini speech models with directed performance and consent-checked voice replication, while pricing and independent long-form tests remain outstanding.

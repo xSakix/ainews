@@ -2,13 +2,8 @@
 date = '2026-09-16T07:45:00+02:00'
 draft = false
 title = 'Meta rejects a coordinated AI slowdown'
+description = "Mark Zuckerberg argues that competition, liability and independent evaluation give each laboratory reasons to act safely without collective limits."
 +++
-
-After reading this, the reader knows Meta rejected an industry-wide AI slowdown, and it matters because leading labs disagree on how to manage frontier risk.
-
-# Meta rejects a coordinated AI slowdown
-
-*Mark Zuckerberg argues that competition, liability and independent evaluation give each laboratory reasons to act safely without collective limits.*
 
 Meta chief executive Mark Zuckerberg rejected calls for AI companies to coordinate a slowdown in capability development, arguing that each laboratory should decide its own pace and safeguards, Reuters reported on September 16.
 
@@ -42,14 +37,3 @@ The next question is whether the industry can agree on narrow, testable practice
 4. **PARTIALLY VERIFIED — Amodei called for slowing recursive self-improvement, with support from Altman and Musk.** Reuters documented the public positions. Via: https://www.reuters.com/business/metas-zuckerberg-says-ai-labs-have-enough-incentive-build-safely-2026-09-16/
 5. **PARTIALLY VERIFIED — Meta uses independent evaluators and directs most compute toward user products.** These are Zuckerberg's company claims. Via: https://www.reuters.com/business/metas-zuckerberg-says-ai-labs-have-enough-incentive-build-safely-2026-09-16/
 6. **VERIFIED — A voluntary coordinated slowdown requires shared scope and triggers to be operational.** This is analytical reasoning, not a claim that such an agreement already exists.
-
-## Glossary candidates
-
-- Recursive self-improvement
-- Independent evaluation
-- Liability
-- Capability threshold
-- Antitrust exemption
-
-**Cold-reader sentence:** Meta rejected a joint AI slowdown, leaving major laboratories divided between voluntary collective restraint and company-specific safety decisions.
-

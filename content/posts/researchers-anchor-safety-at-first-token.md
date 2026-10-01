@@ -2,13 +2,8 @@
 date = '2026-09-17T05:23:00+02:00'
 draft = false
 title = 'Researchers Anchor Safety at First Token'
+description = "A new study argues that refusal behavior can collapse at the start of reasoning and tests a learned safety signal at that boundary."
 +++
-
-After reading this, the reader knows why the first reasoning token may be a critical safety boundary.
-
-# Researchers Anchor Safety at First Token
-
-*A new study argues that refusal behavior can collapse at the start of reasoning and tests a learned safety signal at that boundary.*
 
 A research team studying large reasoning models says some safety failures begin with the first token the model generates. The authors call the pattern “Onset Refusal Collapse” and propose SafeToken, a learned continuous signal inserted at the beginning of reasoning to stabilize refusal behavior.
 
@@ -42,10 +37,3 @@ SafeToken remains one proposed response to that diagnosis. Independent replicati
 - **Tier 0 — AUTHOR-REPORTED:** Onset Refusal Collapse, SafeToken and performance claims are presented by the paper’s authors. Primary source: https://arxiv.org/abs/2609.18471
 - **Tier 2 — ANALYSIS:** Deployment, audit and evaluation implications are editorial analysis.
 - **Tier 3 — NOT INDEPENDENTLY VERIFIED:** No independent replication of SafeToken was located.
-
-## Glossary candidates
-
-- **Continuous token:** A learned internal vector inserted into a model’s input rather than a word selected from its vocabulary.
-- **Refusal:** A model’s decision not to comply with a disallowed request.
-
-Cold-reader sentence: Researchers propose steering safety before reasoning begins, but the technique still needs independent testing across models and attacks.

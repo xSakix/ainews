@@ -33,11 +33,3 @@ The next useful evidence will be prospectuses and review decisions. They can sho
 1. **UNVERIFIED — Reuters reports that Chinese regulators have slowed or tightened review of some humanoid-robot IPO applications.** No primary regulator notice was located. Via: https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/
 2. **UNVERIFIED — Concern about hype, valuation and limited commercial revenue is attributed to Reuters' reporting and sources.** Via: the Reuters report above.
 3. **ANALYSIS — Total operating cost, reliability and human intervention are stronger commercialization tests than demonstrations alone.** This is editorial analysis.
-
-## Glossary candidates
-
-- **Humanoid robot:** A robot whose body plan resembles a person and is intended for human-designed spaces.
-- **Unit economics:** Revenue and cost associated with one product, customer or unit of work.
-- **Intervention rate:** How often a human must step in for an automated system.
-
-Cold-reader sentence: China is reportedly scrutinizing humanoid-robot IPOs more closely, highlighting the gap between impressive demonstrations and verified commercial economics.

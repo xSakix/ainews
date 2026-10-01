@@ -2,13 +2,8 @@
 date = '2026-09-19T04:00:00+02:00'
 draft = false
 title = 'Laya Releases an Open Decision Model'
+description = "The 421-million-parameter model returns bounded choices and probabilities instead of prose, targeting routing and scoring tasks that do not need free-form generation."
 +++
-
-After reading this, the reader knows how Laya differs from a generative model and which performance claims remain vendor-tested.
-
-# Laya Releases an Open Decision Model
-
-*The 421-million-parameter model returns bounded choices and probabilities instead of prose, targeting routing and scoring tasks that do not need free-form generation.*
 
 Convai Innovations has released Laya, an Apache-2.0 model designed to make typed decisions from text or structured input. The model accepts a state, a question and allowed answers, then returns a choice, ordinal score or boolean probability with confidence information.
 
@@ -42,10 +37,3 @@ The next evidence should come from evaluations outside the training domains, wit
 - **Tier 0 — VERIFIED:** The model card specifies 421 million parameters, typed outputs and a 512-token input budget per question. Same primary source.
 - **Tier 1 — DEVELOPER-REPORTED:** Accuracy, latency, calibration and Jev comparison figures were published by Convai Innovations and were not independently reproduced here. Same primary source.
 - **Tier 2 — ANALYSIS:** Deployment, failure-mode and evaluation implications are editorial analysis.
-
-## Glossary candidates
-
-- **Calibration:** How closely predicted probabilities match observed frequencies.
-- **Non-autoregressive model:** A model that produces its result without generating an output sequence token by token.
-
-Cold-reader sentence: Laya turns bounded options into probabilities without generating prose, but its reported accuracy and speed still need independent testing.

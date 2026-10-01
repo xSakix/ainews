@@ -1,22 +1,118 @@
 baseURL       = "https://ai-news-daily.xyz/"
 languageCode  = "en-us"
-title         = "AI news daily"
+title         = "AI News Daily"
 theme         = "PaperMod"
 
-publishDir    = "public"     # leave as-is if you deploy with gh-pages
+publishDir    = "public"
 canonifyURLs  = true
-enableRobotsTXT = true
+enableRobotsTXT = true   # rendered from layouts/robots.txt
+
+# Only tags are used; this drops the empty /categories/ pages.
+[taxonomies]
+  tag = "tags"
+
+[pagination]
+  pagerSize = 12
+
+[services.rss]
+  limit = 50             # full text is included, so keep the feed bounded
 
 [params]
-  description = "An IBM architect with a 20-year history in AI has a new public mission: to be a guide. Using a newsletter and an AI storyteller, he works to demystify the systems that now shape our world. His stated goal is not persuasion, but clarity."
+  env         = "production"
+  description = "Source-checked AI news every morning: model releases, tools, research, business, policy and safety. Each article links its primary sources and labels every key claim."
   author      = "Martin Seckar"
+  mainSections = ["posts"]
+  DateFormat  = "2 January 2006"
+  defaultTheme = "auto"
 
-[outputs]            # guarantee HTML is emitted
-  home   = ["HTML", "RSS"]
-  section = ["HTML"]
+  # Default social-share image for pages without a cover image.
+  images = ["images/og-default.png"]
+
+  ShowReadingTime   = true
+  ShowBreadCrumbs   = true
+  ShowPostNavLinks  = true
+  ShowShareButtons  = true
+  ShareButtons      = ["linkedin", "x", "reddit", "ycombinator"]
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS = true
+  comments          = true   # renders layouts/partials/comments.html (follow box)
+
+  [params.label]
+    text       = "AI News Daily"
+    icon       = "/apple-touch-icon.png"
+    iconHeight = 28
+
+  [params.homeInfoParams]
+    Title   = "AI News Daily"
+    Content = """
+Source-checked AI news, every morning. Each day brings up to six articles and one digest on models, tools, research, business, policy and safety. Every article ends with a verification table that links the primary sources.
+
+[How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt)
+"""
+
+  [[params.socialIcons]]
+    name = "substack"
+    url  = "https://aiplayground.substack.com/"
+  [[params.socialIcons]]
+    name = "rss"
+    url  = "/index.xml"
+
+  [params.schema]
+    publisherType = "Organization"
+    sameAs = ["https://aiplayground.substack.com/"]
+
+  [params.assets]
+    favicon        = "/logo-512.png"   # also used as the schema.org logo; /favicon.ico stays for old browsers
+    favicon16x16   = "/favicon-16x16.png"
+    favicon32x32   = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+    safari_pinned_tab = "/safari-pinned-tab.svg"
+    theme_color    = "#1d1e20"
+    msapplication_TileColor = "#1d1e20"
+
+  [params.fuseOpts]
+    keys = ["title", "summary", "content"]
+    threshold = 0.3
+    ignoreLocation = true
 
 [menu]
   [[menu.main]]
-    name   = "Home"
-    url    = "/"
-    weight = 1
+    name   = "Archive"
+    url    = "/archives/"
+    weight = 10
+  [[menu.main]]
+    name   = "Topics"
+    url    = "/tags/"
+    weight = 20
+  [[menu.main]]
+    name   = "Search"
+    url    = "/search/"
+    weight = 30
+  [[menu.main]]
+    name   = "About"
+    url    = "/about/"
+    weight = 40
+
+# Plain-text and Markdown views for LLMs and AI assistants (see llmstxt.org).
+[outputFormats.llms]
+  mediaType   = "text/plain"
+  baseName    = "llms"
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.llmsfull]
+  mediaType   = "text/plain"
+  baseName    = "llms-full"
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.markdown]
+  mediaType   = "text/markdown"
+  baseName    = "index"
+  isPlainText = true
+  rel         = "alternate"
+
+[outputs]
+  home    = ["HTML", "RSS", "JSON", "llms", "llmsfull"]
+  section = ["HTML", "RSS"]
+  page    = ["HTML", "markdown"]

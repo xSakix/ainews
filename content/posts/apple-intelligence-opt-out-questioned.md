@@ -30,11 +30,3 @@ The broader lesson is not that Apple secretly processed every opted-out user's d
 2. **VERIFIED AS AN AUTHOR-REPORTED OBSERVATION — The described processes and storage behavior were observed on the author's system.** Primary source: https://dbushell.com/2026/09/22/apple-intelligence/
 3. **UNVERIFIED — The report does not establish how frequently the behavior occurs across Apple devices.** No fleet-wide data was located.
 4. **UNVERIFIED — The observation alone does not prove that user content was processed remotely.** No packet trace or Apple technical statement establishing that was located.
-
-## Glossary candidates
-
-- **Opt-out:** A control intended to disable participation in or use of a feature.
-- **Inference:** Running a trained model to produce an output from an input.
-- **Process:** A running instance of software managed by the operating system.
-
-Cold-reader sentence: One developer found Apple Intelligence components active after opting out, highlighting the need for Apple to define and document what “off” actually disables.

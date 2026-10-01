@@ -2,13 +2,8 @@
 date = '2026-09-15T23:15:00+02:00'
 draft = false
 title = 'Delos Data raises $100M for AI networking'
+description = "The Intel-veteran startup is building chips and software for data movement among accelerators, memory and storage in AI data centers."
 +++
-
-After reading this, the reader knows Delos Data reportedly raised $100 million to move data faster inside AI systems, and why memory traffic is becoming a chip priority.
-
-# Delos Data raises $100M for AI networking
-
-*The Intel-veteran startup is building chips and software for data movement among accelerators, memory and storage in AI data centers.*
 
 Delos Data said it raised $100 million to develop networking technology for AI data centers, according to Reuters on September 15.
 
@@ -42,13 +37,3 @@ What comes next is unusually concrete: silicon samples, bandwidth and latency me
 4. **UNVERIFIED — Matrix, Playground Global, Socratic, Capricorn, Matter, IAG and DYNAMIQ participated in the round.** Reported by Reuters without a located primary financing announcement. Via: https://www.reuters.com/business/delos-data-chip-startup-founded-by-intel-veterans-raises-100-million-ai-networks-2026-09-15/
 5. **PARTIALLY VERIFIED — Data movement can leave accelerators underused and is central to Delos's product thesis.** Delos states the thesis; no public product benchmark was located. Primary source: https://delosdata.com/
 6. **UNVERIFIED — Dan Daly said uncertainty around future agent architectures increases the need for fast data movement, and Pat Gelsinger linked idle compute to wasted money and energy.** These comments were reported via Reuters. Via: https://www.reuters.com/business/delos-data-chip-startup-founded-by-intel-veterans-raises-100-million-ai-networks-2026-09-15/
-
-## Glossary candidates
-
-- Heterogeneous accelerator
-- Interconnect
-- Memory bandwidth
-- Agentic inference
-- Data path
-
-**Cold-reader sentence:** Delos Data reportedly raised $100 million to build chips and software that move data among AI accelerators, memory and storage.

@@ -37,11 +37,3 @@ The next concrete signal will be whether member states sponsor a resolution, com
 3. **VERIFIED AS REPORTED PROPOSALS — Common tests, incident reporting and narrower biological-weapons controls were among the ideas described.** Via: https://www.cnn.com/2026/09/23/tech/altman-amodei-ai-safety-un-security-council
 4. **UNVERIFIED FROM A PRIMARY TRANSCRIPT — A complete official UN transcript was not located during this review.** The article therefore attributes detailed proposals to reporting.
 5. **VERIFIED — No binding international rule was created by the briefing itself.** No resolution or adopted agreement was identified in the cited coverage.
-
-## Glossary candidates
-
-- **Capability evaluation:** A controlled test of what an AI system can do.
-- **Incident notification:** A requirement to report specified failures or harms.
-- **Verification:** A process for checking whether a party follows an agreement.
-
-Cold-reader sentence: OpenAI and Anthropic asked the UN Security Council for shared AI tests and incident rules, but the meeting created no binding international safeguards.

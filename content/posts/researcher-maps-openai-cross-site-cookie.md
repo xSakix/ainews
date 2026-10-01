@@ -2,13 +2,8 @@
 date = '2026-09-21T04:05:00+02:00'
 draft = false
 title = "Researcher Maps OpenAI's Cross-Site Cookie"
+description = "An independent test found one OpenAI identifier on advertiser-page requests, while the crucial server-side account join was not directly observed."
 +++
-
-After reading this, the reader knows what browser traffic the researcher observed, what OpenAI discloses and which account-linkage claim remains inferred.
-
-# Researcher Maps OpenAI's Cross-Site Cookie
-
-*An independent test found one OpenAI identifier on advertiser-page requests, while the crucial server-side account join was not directly observed.*
 
 Security researcher Lucian Buchodi has documented an OpenAI advertising identifier moving from ChatGPT to third-party websites that load OpenAI's advertising code.
 
@@ -41,10 +36,3 @@ The evidence supports a narrow conclusion: an OpenAI identifier associated with 
 - **Tier 3 — UNVERIFIED:** Server-side resolution of advertiser events to a named ChatGPT account was inferred, not observed or confirmed by OpenAI. Same source.
 - **Tier 1 — RESEARCHER-REPORTED:** The Android, iOS, desktop and gating limitations are stated by the researcher. Same source.
 - **Tier 2 — ANALYSIS:** Consent and product implications are editorial analysis.
-
-## Glossary candidates
-
-- **Advertising pixel:** Code loaded on a page to report visits or conversions to an advertising platform.
-- **SameSite:** A cookie setting that controls whether browsers attach the cookie to cross-site requests.
-
-Cold-reader sentence: A researcher saw OpenAI's `__obi` identifier cross advertiser sites, but did not directly observe OpenAI join those events to named accounts.

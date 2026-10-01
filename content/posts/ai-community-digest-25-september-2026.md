@@ -85,11 +85,3 @@ Watch for Meta's account of the removed video and Muse reports, independent repr
 3. **PARTIALLY VERIFIED — The Qwen and architecture comparisons include configurations and results, but they are community-run and workload-specific.** Sources: the cited LocalLLaMA threads.
 4. **VERIFIED — The two YouTube publishers released videos with the described framing.** Primary publisher sources: the direct video URLs above.
 5. **ANALYSIS — Cross-item conclusions about evidence quality are editorial synthesis, not measured consensus.**
-
-## Glossary candidates
-
-- **Search poisoning:** Manipulating indexed content to influence search or retrieval results.
-- **Quantization:** Reducing numerical precision to run a model with less memory or compute.
-- **System information:** Hidden instructions, configuration or context used to guide an assistant.
-
-Cold-reader sentence: AI communities debated platform power, agent containment and local-model tradeoffs while many popular claims still lacked independent verification.

@@ -36,11 +36,3 @@ The next evidence to watch is primary documentation: lease extracts, financing d
 2. **VERIFIED AS ORACLE'S POSITION — Oracle says Project Jupiter construction and its microgrid permitting are separate processes.** Primary source: https://www.oracle.com/news/announcement/project-jupiter-statement-on-construction-permitting-2026-09-14/
 3. **VERIFIED AS ORACLE'S POSITION — Oracle says it will pay the project's power costs and has revised the power plan.** Primary source: https://www.oracle.com/news/announcement/blog/weve-overhauled-project-jupiters-power-plan-2026-07-01/
 4. **ANALYSIS — The explanation of financing, interconnection and delay-risk allocation is general infrastructure analysis.**
-
-## Glossary candidates
-
-- **Interconnection:** The process of connecting a facility to an electrical grid.
-- **Force majeure:** A contract clause addressing extraordinary events that prevent performance.
-- **Firm power:** Electricity expected to be available reliably when needed.
-
-Cold-reader sentence: Oracle's AI expansion may expose it to payments before power arrives, but the decisive contract terms are not public.

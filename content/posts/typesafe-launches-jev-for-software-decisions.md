@@ -2,13 +2,8 @@
 date = '2026-09-15T23:08:00+02:00'
 draft = false
 title = 'TypeSafe launches Jev for software decisions'
+description = "Jev returns typed choices with confidence estimates instead of prose. TypeSafe’s speed, cost and “zero hallucination” claims require independent testing."
 +++
-
-After reading this, the reader knows TypeSafe launched Jev for typed software decisions, and it matters because the model rejects free-form generation for constrained automation.
-
-# TypeSafe launches Jev for software decisions
-
-*Jev returns typed choices with confidence estimates instead of prose. TypeSafe’s speed, cost and “zero hallucination” claims require independent testing.*
 
 TypeSafe AI launched Jev on September 15, describing it as a model built to make structured decisions inside software rather than generate open-ended text.
 
@@ -44,14 +39,3 @@ Jev’s strongest idea is simple: not every AI task needs language generation. I
 6. **PARTIALLY VERIFIED — Typed outputs eliminate malformed free-form answers.** They constrain format, but they do not prevent a valid wrong decision. Primary source: https://typesafe.ai/
 7. **UNVERIFIED — Jev has “zero hallucinations.”** TypeSafe makes this claim, but the term is narrower than overall correctness and no independent evaluation was available at publication. Primary source: https://typesafe.ai/
 8. **PARTIALLY VERIFIED — Jev can support confidence-threshold escalation.** The interface supports the pattern; production calibration across changing data remains unproven. Primary source: https://typesafe.ai/
-
-## Glossary candidates
-
-- Typed output
-- Calibration
-- Confidence threshold
-- Classification
-- Structured output
-- Reinforcement Learning for Calibrated Decisions
-
-**Cold-reader sentence:** TypeSafe launched Jev to return typed, confidence-scored software decisions, but its large speed, cost and reliability claims remain vendor-tested.

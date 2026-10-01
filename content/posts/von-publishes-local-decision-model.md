@@ -2,13 +2,8 @@
 date = '2026-09-20T04:05:00+02:00'
 draft = false
 title = 'Von Publishes a Local Decision Model'
+description = "The 395-million-parameter model scores bounded choices locally instead of generating prose, but its own published table does not support every launch claim."
 +++
-
-After reading this, the reader knows what Von does, how its published results compare with Jev and which claims still need independent testing.
-
-# Von Publishes a Local Decision Model
-
-*The 395-million-parameter model scores bounded choices locally instead of generating prose, but its own published table does not support every launch claim.*
 
 An independent developer has released Von-1.0, an Apache-2.0 model for making bounded decisions from text. It is presented as a local alternative to proprietary decision APIs such as TypeSafe's Jev.
 
@@ -43,10 +38,3 @@ Von adds a testable option to a rapidly growing category of specialized decision
 - **Tier 1 — DEVELOPER-REPORTED:** Accuracy, calibration, memory and speed figures were published by the developer and were not independently reproduced here. Same primary source; launch context: https://www.reddit.com/r/LocalLLM/comments/1wkrrlp/von_opensource_395m_system_one_model/
 - **Tier 0 — VERIFIED:** The published aggregate table places Von below Jev and above GLiNER2 on that 78-case suite. Same primary source.
 - **Tier 2 — ANALYSIS:** Production-fit and evaluation recommendations are editorial analysis.
-
-## Glossary candidates
-
-- **Brier score:** A measure of how close predicted probabilities are to actual outcomes.
-- **Non-autoregressive model:** A model that produces scores without generating an output sequence one token at a time.
-
-Cold-reader sentence: Von is an open local model for bounded decisions, but its broad performance claims exceed what its small published benchmark demonstrates.

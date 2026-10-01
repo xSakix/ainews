@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'Meta appoints Desai to lead enterprise AI platform'
+description = "Meta’s new business effort has a named leader and product direction. Buyers still need to judge each offering’s actual terms and capabilities."
 +++
-
-# Meta appoints Desai to lead enterprise AI platform
-
-*Meta’s new business effort has a named leader and product direction. Buyers still need to judge each offering’s actual terms and capabilities.*
 
 Meta, the social technology company, announced Meta Enterprise Platform on September 28 and named Chirantan “CJ” Desai, departing chief executive of database company MongoDB, to lead the effort.
 
@@ -46,7 +43,3 @@ Meta has made its enterprise ambition more concrete by naming the unit and its l
 | Security and privacy positioning | PARTIALLY VERIFIED — company statement, not an independent audit | [Desai’s statement in Meta announcement](https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/) |
 | Departure, interim successor, search and reaffirmed guidance | VERIFIED | [MongoDB release](https://www.mongodb.com/company/newsroom/press-releases/mongodb-announces-ceo-transition) |
 | Customer tests and commercial implications | Analysis and proposed evaluation questions | Inference from the announced business scope |
-
-**Glossary candidates:** enterprise platform — products and services sold for organizational use; managed service — a supplier-operated service; interim chief executive — temporary organizational leader.
-
-**Cold-reader sentence:** Meta named CJ Desai to lead its new enterprise AI effort, while MongoDB appointed an interim successor and reaffirmed its guidance.

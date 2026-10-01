@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'Anthropic releases Claude Sonnet 5.5'
+description = "Anthropic keeps Sonnet’s token prices while claiming lower task costs. The useful comparison is the cost of work that passes review."
 +++
-
-# Anthropic releases Claude Sonnet 5.5
-
-*Anthropic keeps Sonnet’s token prices while claiming lower task costs. The useful comparison is the cost of work that passes review.*
 
 Anthropic, an AI developer, released Claude Sonnet 5.5 on September 28, positioning the language model for routine coding and office work with claimed efficiency gains over Sonnet 5.
 
@@ -44,7 +41,3 @@ The next useful evidence will be repeated task-level evaluations with acceptance
 | Speed, task savings, comparative strengths and effort-related failures | PARTIALLY VERIFIED — publisher evaluations, not independently reproduced here | [Anthropic performance discussion and footnotes](https://www.anthropic.com/claude-sonnet-5-5) |
 | Copilot availability and partner testing | VERIFIED for announcement; PARTIALLY VERIFIED for performance | [GitHub changelog](https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot/) |
 | Evaluation, routing and review-cost implications | Analysis; proposed tests rather than measured outcomes | Inference from the two primary sources above |
-
-**Glossary candidates:** token — unit of model text processing; reasoning effort — a setting controlling additional model computation; accepted task — work that satisfies a predefined review standard.
-
-**Cold-reader sentence:** Anthropic released Sonnet 5.5 at unchanged token prices, claiming lower task costs that customers still need to test on their own work.

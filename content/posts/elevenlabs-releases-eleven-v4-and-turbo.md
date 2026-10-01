@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'ElevenLabs releases Eleven v4 and Turbo'
+description = "The speech models target expressive audio and quicker voice responses. A synthesis latency figure does not measure a complete conversation."
 +++
-
-# ElevenLabs releases Eleven v4 and Turbo
-
-*The speech models target expressive audio and quicker voice responses. A synthesis latency figure does not measure a complete conversation.*
 
 ElevenLabs, a synthetic audio developer, announced Eleven v4 and Eleven v4 Turbo on September 28, adding new text-to-speech models for produced audio and responsive voice applications.
 
@@ -45,7 +42,3 @@ The next useful evidence is a reproducible comparison of finished audio and full
 | September 28 release and product access | VERIFIED | [ElevenLabs launch post](https://elevenlabs.io/blog/eleven-v4) |
 | Turbo latency, expressive controls, language coverage and cloning claims | PARTIALLY VERIFIED — company-reported; not independently tested here | [ElevenLabs’ company announcement](https://www.linkedin.com/posts/elevenlabs_today-were-introducing-eleven-v4-and-eleven-activity-7510338593400242176-gqZz) |
 | Whole-conversation, listening and consent distinctions | Analysis and proposed evaluation criteria; no performance outcome asserted | Inference from the launch scope above |
-
-**Glossary candidates:** text-to-speech — converting written text into audio; median latency — middle observed delay; voice cloning — generating speech with characteristics of a reference voice.
-
-**Cold-reader sentence:** ElevenLabs released expressive v4 speech models and a Turbo variant, but its synthesis speed claim does not establish full voice-assistant response time.

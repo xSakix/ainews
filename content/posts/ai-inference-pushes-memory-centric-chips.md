@@ -2,13 +2,8 @@
 date = '2026-09-15T23:30:00+02:00'
 draft = false
 title = 'AI inference pushes memory-centric chips'
+description = "An IEEE Spectrum survey shows vendors stacking memory with compute, using on-chip SRAM and splitting language-model serving across different processors."
 +++
-
-After reading this, the reader knows growing inference demand is pushing chip designers toward faster memory movement and specialized prefill and decode hardware.
-
-# AI inference pushes memory-centric chips
-
-*An IEEE Spectrum survey shows vendors stacking memory with compute, using on-chip SRAM and splitting language-model serving across different processors.*
 
 AI hardware designers are reorganizing systems around memory bandwidth as inference becomes a larger share of data-center work, according to an IEEE Spectrum analysis published September 15.
 
@@ -45,13 +40,3 @@ The useful next comparison is end-to-end: tokens per second at a stated latency 
 5. **VERIFIED — Nvidia documents Groq 3 LPU and its use alongside Rubin systems; AWS announced a Trainium and Cerebras inference partnership.** Primary sources: https://www.nvidia.com/ and https://www.aboutamazon.com/
 6. **PARTIALLY VERIFIED — Cerebras WSE-3 contains 44 GB of on-wafer SRAM and is intended for memory-intensive inference.** The specifications are company-reported and linked through the IEEE analysis. Via: https://spectrum.ieee.org/inference-hardware-revolution
 7. **PARTIALLY VERIFIED — Four-bit formats can raise inference performance with limited quality loss.** The outcome depends on the model and benchmark; cited gains are vendor measurements. Primary references are linked from: https://spectrum.ieee.org/inference-hardware-revolution
-
-## Glossary candidates
-
-- Prefill
-- Decode
-- KV cache
-- Memory bandwidth
-- Quantization
-
-**Cold-reader sentence:** Inference is driving chipmakers to move memory closer to compute and divide prompt processing from token generation across specialized hardware.

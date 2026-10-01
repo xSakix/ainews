@@ -2,13 +2,8 @@
 date = '2026-09-18T05:12:00+02:00'
 draft = false
 title = 'GlobalFoundries Expands AI Optics Capacity'
+description = "A multi-year agreement targets silicon-germanium components used in pluggable, near-packaged and co-packaged optical networking."
 +++
-
-After reading this, the reader knows GlobalFoundries and Marvell are adding US chip capacity for faster optical links inside AI data centers.
-
-# GlobalFoundries Expands AI Optics Capacity
-
-*A multi-year agreement targets silicon-germanium components used in pluggable, near-packaged and co-packaged optical networking.*
 
 GlobalFoundries and Marvell have expanded a multi-year manufacturing agreement for silicon-germanium technology at GlobalFoundries' Burlington, Vermont, facility. The companies say the added capacity will support optical connectivity for AI and cloud data centers.
 
@@ -46,10 +41,3 @@ This is therefore a supply-chain commitment with technical significance. It does
 - **Tier 1 — VERIFIED:** The release identifies pluggable transceivers, near-packaged optics, co-packaged optics and current 200G-per-lane technology. Same source.
 - **Tier 1 — PARTIALLY VERIFIED:** The companies call the capacity addition significant but disclose no volume, spending or financial terms. Same source.
 - **Tier 2 — ANALYSIS:** Explanations of bottlenecks, supply diversity and deployment risks are editorial analysis.
-
-## Glossary candidates
-
-- **Silicon germanium:** A semiconductor material system used for high-frequency and optical-interface circuits.
-- **Co-packaged optics:** Optical components placed close to switching silicon in the same package or assembly.
-
-Cold-reader sentence: GlobalFoundries and Marvell are reserving more US manufacturing capacity for the optical links that connect large AI systems.

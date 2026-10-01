@@ -39,11 +39,3 @@ The next useful test is broader replication across unrelated model families, tas
 3. **VERIFIED AS PREPRINT-REPORTED — Nineteen of 22 selected Gemma neurons had a highly correlated unselected feature, and selection stability was moderate.** Primary source: the arXiv paper above.
 4. **VERIFIED AS PREPRINT-REPORTED — Targeted suppression produced modest statistically significant changes in two intervention tests.** Primary source: the arXiv paper above.
 5. **PARTIALLY VERIFIED — The manuscript says code and indices will be released upon acceptance; independent reproduction was not available from the initial release.** Primary source: the arXiv paper above.
-
-## Glossary candidates
-
-- **Neuron:** One numerical unit inside a neural network layer.
-- **Sparse probe:** A small predictive model constrained to use few internal features.
-- **Correlation:** A measure of how closely two values vary together.
-
-Cold-reader sentence: Sparse neurons predicted hallucinations, but correlated alternatives and unstable selection weaken the claim that a unique small neuron set causes them.

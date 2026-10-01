@@ -82,11 +82,3 @@ Watch for comparable Supra2-IMG benchmarks, primary documentation for the report
 2. **UNVERIFIED — Fable 5 regression, Heretic capability preservation and Supra2-IMG performance were not independently confirmed.** Sources: the direct threads above.
 3. **VERIFIED — The cited YouTube videos used the described titles and framing.** Primary publisher sources: the direct video URLs above.
 4. **UNVERIFIED — Technical details of the Washington-area air-traffic deployment were not confirmed from a primary operational document.** Via: the LiveNOW from FOX video above.
-
-## Glossary candidates
-
-- **Diffusion transformer:** A transformer-based model that creates images through iterative denoising.
-- **Refusal behavior:** A model declining requests it classifies as disallowed or unsafe.
-- **Controlled benchmark:** A comparison that holds relevant conditions constant.
-
-Cold-reader sentence: AI communities debated attention, measurement and safety framing while a tiny image model drew interest but lacked independent performance evidence.

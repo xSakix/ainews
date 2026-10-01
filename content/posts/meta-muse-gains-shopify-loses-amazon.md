@@ -34,11 +34,3 @@ The next evidence should include primary technical documentation from Meta, Shop
 2. **UNVERIFIED — Forbes reports that Amazon blocked Muse from shopping on Amazon.com.** No primary Amazon notice was located. Via: https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/
 3. **UNVERIFIED — Reported reasons include lack of authorization and agent identification.** Via: the Forbes report above and https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping
 4. **ANALYSIS — Supported interfaces can provide clearer consent, permissions and transaction records than browser imitation.** This is editorial analysis.
-
-## Glossary candidates
-
-- **Agentic shopping:** Software acting across product search and checkout on a user's instruction.
-- **Shop Pay:** Shopify's customer identity and checkout service.
-- **Authentication:** A process that verifies the identity of a user or system.
-
-Cold-reader sentence: Meta's Muse reportedly gained Shopify checkout access but was blocked by Amazon, showing that commerce agents depend on retailer permission.

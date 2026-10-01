@@ -4,8 +4,6 @@ draft = false
 title = 'Developer Speeds Up llama.cpp Prompt Lookup'
 +++
 
-# Developer Speeds Up llama.cpp Prompt Lookup
-
 A developer reports sharply lower drafting overhead for prompt-lookup decoding after redesigning the n-gram caches in a personal llama.cpp fork.
 
 The work comprises four proposed changes that reduce data copying and replace parts of the cache structure. In an author-run benchmark on an Apple M4 Pro, the best measured drafting operation became as much as 42 times faster and peak memory use fell by as much as 2.6 times. Acceptance behavior reportedly stayed unchanged.
@@ -40,11 +38,3 @@ The proposal is therefore promising engineering evidence, not a shipping perform
 - **Tier 0 — VERIFIED:** The initial pull request and dependent patch series are open in the author's fork rather than upstream llama.cpp: https://github.com/jadidbourbaki/llama.cpp/pull/2
 - **Tier 1 — AUTHOR-MEASURED:** The 42× latency and 2.6× memory figures were not independently reproduced here.
 - **Tier 2 — ANALYSIS:** Expected workload sensitivity and requests for broader testing are editorial analysis.
-
-## Glossary candidates
-
-- **N-gram:** A sequence of a fixed number of adjacent tokens used here to find repeated continuations.
-- **Speculative decoding:** Proposing several tokens cheaply, then verifying them with the target model in parallel.
-- **Cache locality:** The performance benefit of arranging frequently accessed data so hardware can retrieve it efficiently.
-
-Cold-reader sentence: A llama.cpp fork cuts prompt-lookup cache overhead, but its headline benchmark does not describe total generation speed or an upstream release.

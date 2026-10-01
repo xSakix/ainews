@@ -2,13 +2,8 @@
 date = '2026-09-16T07:44:00+02:00'
 draft = false
 title = 'Anthropic signs Australian data-centre lease'
+description = "Reuters says the agreement covers a planned 2.16-gigawatt campus near Brisbane. Anthropic and developer Zerra DC declined to confirm the deal."
 +++
-
-After reading this, the reader knows Anthropic reportedly leased Australian inference capacity, and it matters because frontier labs are securing power across new regions.
-
-# Anthropic signs Australian data-centre lease
-
-*Reuters says the agreement covers a planned 2.16-gigawatt campus near Brisbane. Anthropic and developer Zerra DC declined to confirm the deal.*
 
 Anthropic has signed its first Australian data-centre lease, covering capacity at a planned campus about 250 kilometres from Brisbane, according to two unnamed sources cited by Reuters.
 
@@ -41,14 +36,3 @@ The next evidence should be documentary. Confirmation from Anthropic or Zerra DC
 3. **UNVERIFIED — The leased facility would serve inference rather than training.** This detail came from one Reuters source. Via: https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/
 4. **PARTIALLY VERIFIED — The proposed campus totals 2.16 gigawatts and is planned to start operating in 2027.** These are project figures reported by Reuters, not Anthropic's disclosed allocation. Via: https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/
 5. **PARTIALLY VERIFIED — The project plans renewable power agreements and closed-loop air cooling.** This is a developer-plan description reported through unnamed sources. Via: https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/
-
-## Glossary candidates
-
-- Data-centre lease
-- Inference
-- Power-purchase agreement
-- Closed-loop cooling
-- Foreign-investment review
-
-**Cold-reader sentence:** Anthropic reportedly reserved inference capacity at a planned Australian data centre, but neither company confirmed the lease or Anthropic's allocation.
-

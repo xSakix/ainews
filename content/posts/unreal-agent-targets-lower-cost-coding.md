@@ -32,11 +32,3 @@ Teams evaluating Unreal Agent should use real repositories and track accepted ou
 2. **VERIFIED — The harness supports asynchronous tool calls.** Primary source: https://unreallabs.ai/blog/unreal-agent/
 3. **VERIFIED AS VENDOR-REPORTED RESULTS — The cost and benchmark comparisons were run or published by Unreal Labs.** Primary source: https://unreallabs.ai/blog/unreal-agent/
 4. **UNVERIFIED — Independent reproduction of the claimed 40% saving was not located.**
-
-## Glossary candidates
-
-- **Agent harness:** Software that manages a model's tools, context and execution loop.
-- **Asynchronous:** Allowing work to proceed without waiting for each earlier operation to finish.
-- **Race condition:** Incorrect behavior caused by operations interacting in an unexpected order.
-
-Cold-reader sentence: Unreal Agent uses concurrent tool calls to pursue cheaper coding work, but its reported benchmark savings still need independent reproduction.

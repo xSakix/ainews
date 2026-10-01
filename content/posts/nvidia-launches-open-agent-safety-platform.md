@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'NVIDIA launches Open Agent Safety Platform'
+description = "The design combines a software execution boundary with a hardware watchdog. It provides controls to evaluate, not a proof that agents cannot escape."
 +++
-
-# NVIDIA launches Open Agent Safety Platform
-
-*The design combines a software execution boundary with a hardware watchdog. It provides controls to evaluate, not a proof that agents cannot escape.*
 
 NVIDIA, the computing hardware and software company, launched its Open Agent Safety Platform on September 28, combining an agent runtime with a reference design for independent hardware monitoring.
 
@@ -46,7 +43,3 @@ The next evidence to watch is independent evaluation of complete deployments, in
 | Millisecond quarantine | PARTIALLY VERIFIED — NVIDIA claim | [NVIDIA announcement](https://nvidianews.nvidia.com/news/open-agent-safety-platform) |
 | Runtime restrictions, credentials, policy checks and deployment prerequisites | VERIFIED as documented features, not penetration-test results | [OpenShell repository](https://github.com/NVIDIA/OpenShell) |
 | Proposed boundary tests and distinction from task correctness | Analysis | Inference from the documented architecture |
-
-**Glossary candidates:** runtime — environment executing a program; out-of-band monitoring — observation outside the monitored workload’s control; quarantine — isolation of a workload after a detected violation.
-
-**Cold-reader sentence:** NVIDIA combined OpenShell software controls with a separate hardware watchdog, but successful agent containment still requires deployment-specific configuration and testing.

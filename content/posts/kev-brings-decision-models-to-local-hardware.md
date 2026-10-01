@@ -34,11 +34,3 @@ Future evidence should include independent evaluations, domain-specific error an
 2. **VERIFIED — The API supports yes/no, choice and score questions and is compatible with TypeSafe's System One interface.** Primary source: https://github.com/jaredpalmer/kev
 3. **VERIFIED AS PROJECT-REPORTED RESULTS — Accuracy, calibration and memory figures come from the project's own tests and documentation.** Primary source: https://github.com/jaredpalmer/kev
 4. **VERIFIED — The project warns that its Jev comparison is not controlled because Jev's training data are unknown.** Primary source: https://github.com/jaredpalmer/kev
-
-## Glossary candidates
-
-- **Calibration:** How closely confidence scores match observed success rates.
-- **Brier score:** A measure of error in probabilistic predictions; lower is better.
-- **bf16:** A compact numerical format commonly used to run neural networks.
-
-Cold-reader sentence: Kev packages small local models for structured decisions, with useful probability outputs but only project-run evidence of accuracy and calibration.

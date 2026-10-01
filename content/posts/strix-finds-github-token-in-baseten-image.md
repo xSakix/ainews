@@ -2,13 +2,8 @@
 date = '2026-09-15T23:35:00+02:00'
 draft = false
 title = 'Strix finds GitHub token in Baseten image'
+description = "The security company says it stopped after read-only checks, disclosed the issue and saw Baseten rotate the credential and restrict its registry the next day."
 +++
-
-After reading this, the reader knows Strix says it found a live GitHub token in a public Baseten container image, and how build history can expose secrets.
-
-# Strix finds GitHub token in Baseten image
-
-*The security company says it stopped after read-only checks, disclosed the issue and saw Baseten rotate the credential and restrict its registry the next day.*
 
 Security company Strix says its autonomous testing agent found a live GitHub personal access token in the build history of a publicly downloadable Baseten container image.
 
@@ -45,13 +40,3 @@ The incident also shows the limits of autonomous security tools. An agent may fi
 5. **UNVERIFIED — No unauthorized party used the token before it was rotated.** The disclosure does not establish absence of earlier access.
 6. **VERIFIED — Secrets included in image layers or build commands can persist in image history; BuildKit provides secret mounts intended to avoid baking credentials into images.** Primary documentation: https://docs.docker.com/build/building/secrets/
 7. **PARTIALLY VERIFIED — Automated security agents can shorten discovery and triage.** This case shows one reported success, not comparative evidence against human testing.
-
-## Glossary candidates
-
-- Personal access token
-- Container layer
-- Image history
-- Harbor registry
-- BuildKit secret mount
-
-**Cold-reader sentence:** Strix says a public Baseten image exposed a live GitHub token through build metadata, showing why container history must be scanned for secrets.

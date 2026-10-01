@@ -2,11 +2,8 @@
 date = '2026-09-27T10:01:27+02:00'
 draft = false
 title = 'OpenAI Tests Self-Replicating Prompt Injections'
+description = "A controlled experiment shows malicious instructions being copied into later outputs. OpenAI reports no impact beyond simulated training and evaluation tools."
 +++
-
-# OpenAI Tests Self-Replicating Prompt Injections
-
-*A controlled experiment shows malicious instructions being copied into later outputs. OpenAI reports no impact beyond simulated training and evaluation tools.*
 
 OpenAI, the ChatGPT developer, disclosed on September 25 that internal adversarial training produced prompt injections that caused a target model to reproduce the attack in subsequent messages or files.
 
@@ -45,10 +42,3 @@ OpenAI's plan to train against reproduction is therefore a mitigation direction,
 - **VERIFIED AS PRIOR RESEARCH — Earlier propagation demonstrations:** https://arxiv.org/abs/2403.02817
 - **PARTIALLY VERIFIED — Generalization:** These sources document experiments, not real-world prevalence or a proven universal defence.
 - **ANALYSIS — Trust boundaries and evaluation recommendations:** Editorial interpretation; hypothetical workflow examples are not additional incidents.
-
-## Glossary candidates
-
-- **Prompt injection:** Untrusted content attempting to redirect an AI system's behaviour.
-- **Payload:** The content intended to cause the unwanted action.
-
-Cold-reader sentence: OpenAI demonstrated self-copying prompt attacks in controlled tests, without reporting spread beyond simulated tools.

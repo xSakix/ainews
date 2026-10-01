@@ -2,13 +2,8 @@
 date = '2026-09-16T07:40:00+02:00'
 draft = false
 title = 'Salesforce launches Koa for CRM agents'
+description = "The model starts from NVIDIA Nemotron 3 Super and is post-trained on synthetic workflows. Salesforce says no customer data entered its training set."
 +++
-
-After reading this, the reader knows Salesforce built Koa for CRM tool use, and it matters because enterprise agents need specialized action models.
-
-# Salesforce launches Koa for CRM agents
-
-*The model starts from NVIDIA Nemotron 3 Super and is post-trained on synthetic workflows. Salesforce says no customer data entered its training set.*
 
 Salesforce and NVIDIA announced Koa on September 15, a specialized language model intended to reason through multi-step customer-relationship-management tasks and call software tools inside Agentforce.
 
@@ -42,15 +37,3 @@ The next useful evidence will come from production: completion rates for full wo
 4. **VERIFIED — The paper reports gains over the base model and one proprietary baseline while remaining below the strongest frontier models.** This is author-reported benchmark evidence, not independent replication. Primary source: https://arxiv.org/abs/2609.15066
 5. **VERIFIED — Salesforce says it controls the weights and keeps post-training and inference inside its trust boundary.** Primary source: https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/
 6. **PARTIALLY VERIFIED — Salesforce says Koa produces three times fewer CRM-action errors.** The result is documented by the developer on a developer-created benchmark and has not been independently reproduced. Primary source: https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/
-
-## Glossary candidates
-
-- CRM
-- Tool use
-- Open-weight model
-- Post-training
-- GRPO
-- Trust boundary
-
-**Cold-reader sentence:** Salesforce specialized NVIDIA's Nemotron model into Koa, a controlled CRM action model trained on synthetic workflows rather than customer records.
-

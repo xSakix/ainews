@@ -2,13 +2,8 @@
 date = '2026-09-19T04:00:00+02:00'
 draft = false
 title = 'Claude Code Adds AGENTS.md Support'
+description = "Anthropic's coding agent now reads a cross-tool instruction file when its own project file is absent, reducing one source of repository-specific duplication."
 +++
-
-After reading this, the reader knows how Claude Code now discovers shared repository instructions and where the fallback is unavailable.
-
-# Claude Code Adds AGENTS.md Support
-
-*Anthropic's coding agent now reads a cross-tool instruction file when its own project file is absent, reducing one source of repository-specific duplication.*
 
 Anthropic has added `AGENTS.md` support to Claude Code version 2.1.277. When a repository contains no `CLAUDE.md`, the coding agent now reads `AGENTS.md` as its project instruction file.
 
@@ -43,10 +38,3 @@ This is a modest product change, but it addresses a real coordination problem. R
 - **Tier 0 — VERIFIED:** Anthropic's Claude Code changelog dated 18 September 2026 says version 2.1.277 reads `AGENTS.md` when no `CLAUDE.md` exists. Primary source: https://code.claude.com/docs/en/changelog
 - **Tier 0 — VERIFIED:** Anthropic says the feature is not yet available on Amazon Bedrock, Google Vertex AI or Microsoft Foundry. Same primary source.
 - **Tier 2 — ANALYSIS:** Portability, maintenance and security implications are editorial analysis.
-
-## Glossary candidates
-
-- **Repository instruction file:** Versioned guidance that tells an agent how to work inside a codebase.
-- **Fallback:** A secondary source used only when the preferred source is absent.
-
-Cold-reader sentence: Claude Code now reads AGENTS.md when CLAUDE.md is absent, making shared repository guidance easier while preserving vendor-specific precedence.

@@ -2,11 +2,8 @@
 date = '2026-09-27T10:01:27+02:00'
 draft = false
 title = 'NYC Council Proposes AI Safety Requirements'
+description = "A proposed New York City package combines independent validation, human shutdown controls and incident reporting. Its provisions cover different groups and have not become law."
 +++
-
-# NYC Council Proposes AI Safety Requirements
-
-*A proposed New York City package combines independent validation, human shutdown controls and incident reporting. Its provisions cover different groups and have not become law.*
 
 New York City Council Speaker Julie Menin announced proposed AI safety legislation on September 25, including independent assessments and human shutdown controls, with a public hearing announced for October 5.
 
@@ -44,10 +41,3 @@ The next useful evidence will be the hearing record, any amended bill text and a
 - **VERIFIED — Proposed validation scope, testing criteria and shutdown language:** Bill 2602 text; no physical-switch requirement identified: https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=A927E066-C669-4F66-8E5A-4B610FA321E5&ID=8239233&Options=&Search=
 - **VERIFIED — Contractor scope, incident definition and successive reporting periods:** Bill 2601: https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=01805F83-CD9B-40E8-8B3B-5F8180B9ECF0&ID=8239232&Options=&Search=
 - **ANALYSIS — Assessment design and procurement implications:** Conditional assessment of these proposals, not legal advice or evidence of enactment.
-
-## Glossary candidates
-
-- **Data provenance:** A record of where information came from.
-- **Private right of action:** Permission in law to bring a civil claim.
-
-Cold-reader sentence: New York City lawmakers proposed AI validation, shutdown and incident-reporting requirements, with different scopes and no confirmed enactment.

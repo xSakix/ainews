@@ -37,11 +37,3 @@ The next useful evidence will be an open implementation, independent benchmark r
 3. **VERIFIED — The method supplies external experience to frozen language models rather than requiring fine-tuning.** Primary source: the arXiv paper above.
 4. **VERIFIED AS AUTHOR-REPORTED RESULTS — Experiments on τ-Bench and AppWorld improved success and tool reliability over stated baselines.** Primary source: the arXiv paper above.
 5. **UNVERIFIED — Independent reproduction and production security testing were not located.** The work is a new preprint.
-
-## Glossary candidates
-
-- **Heterogeneous graph:** A network containing several kinds of entities and relationships.
-- **Frozen model:** A model used without changing its trained parameters.
-- **Memory poisoning:** Introducing false or harmful records that influence later behavior.
-
-Cold-reader sentence: FRESH uses graph-structured failure memory to improve small tool agents without retraining, but independent and adversarial testing is still needed.

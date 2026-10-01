@@ -4,8 +4,6 @@ draft = false
 title = 'AI Community Digest for 29 September 2026'
 +++
 
-# AI Community Digest for 29 September 2026
-
 Developers debated how to verify AI output, while researchers shared a decision-model project and revisited coding-agent evaluation. The items distinguish opinions and research claims from independent findings.
 
 » **Why it matters:** A launch announcement answers what a supplier offers. These discussions ask how a person checks the result, retains understanding and decides when an apparently successful task is incomplete.
@@ -52,7 +50,3 @@ Look for reproducible ImaJev evaluations, independent audits of specification co
 | Reward hacking | PARTIALLY VERIFIED — author audit | Handshake's directly read September 18 post; renewed discussion supplies recency, not new experimental results |
 | Optimization acceptance | VERIFIED AS AUTHOR ANNOUNCEMENT | Co-author's recent post; [June submission record](https://arxiv.org/abs/2606.16926) checked to avoid relabeling old research |
 | Implications and follow-ups | ANALYSIS | Editorial questions derived from the linked material |
-
-**Glossary candidates:** provenance — where information came from; reward hacking — satisfying an evaluation signal while departing from the intended task; multimodal — using more than one type of input.
-
-**Cold-reader sentence:** AI communities debated verification and developer responsibility, shared a decision-model project and discussed older research without establishing broad new performance guarantees.

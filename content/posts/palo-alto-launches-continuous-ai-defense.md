@@ -30,11 +30,3 @@ The announcement signals that the frontier-model market is moving from assistant
 2. **VERIFIED AS A VENDOR DESCRIPTION — The service is presented as a continuous discovery, validation and remediation loop.** Primary source: https://www.paloaltonetworks.com/unit42/frontier-ai-defense
 3. **VERIFIED — Palo Alto Networks names Anthropic and OpenAI models in the offering.** Primary source: https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-delivers-anthropics-mythos-and-openais-gpt-56
 4. **UNVERIFIED — Comparative effectiveness and false-positive rates were not independently established.** No controlled external evaluation was located.
-
-## Glossary candidates
-
-- **Penetration test:** An authorized attempt to find and demonstrate security weaknesses.
-- **False positive:** A reported problem that is not actually exploitable or relevant.
-- **Rules of engagement:** Boundaries that define what a security test may do.
-
-Cold-reader sentence: Unit 42's new service uses frontier models for continuous security testing, but buyers still need evidence about accuracy, safety and data handling.

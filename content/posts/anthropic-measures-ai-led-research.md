@@ -2,13 +2,8 @@
 date = '2026-09-18T05:12:00+02:00'
 draft = false
 title = 'Anthropic Measures AI-Led Research'
+description = "The company proposes public metrics for automation, agent oversight and compute allocation, while acknowledging that its methodology relies on Claude."
 +++
-
-After reading this, the reader knows Anthropic says Claude leads 26% of its AI R&D and explains how its internal agents are monitored.
-
-# Anthropic Measures AI-Led Research
-
-*The company proposes public metrics for automation, agent oversight and compute allocation, while acknowledging that its methodology relies on Claude.*
 
 Anthropic has published a snapshot of how AI participates in its own model research. The company says that, as of August 2026, Claude led 26% of measured AI research and development work, collaborated or led in more than 90%, and was not fully autonomous in any measured category.
 
@@ -46,10 +41,3 @@ The new metrics do not answer whether a laboratory is moving too quickly or whet
 - **Tier 1 — COMPANY-REPORTED:** Anthropic reports about 30,000 concurrent agents, complete monitor coverage, a 0.002% online block rate and roughly 50 weekly human escalations. Same source.
 - **Tier 1 — VERIFIED METHODOLOGY DISCLOSURE:** Anthropic describes sampling internal records and using Claude agents and a Claude judge to build and rate the task map. Same source.
 - **Tier 2 — ANALYSIS:** Interpretations of block rates, comparability and oversight limits are editorial analysis.
-
-## Glossary candidates
-
-- **AI-led R&D:** Research work in which an AI system performs most of the task while humans retain meaningful involvement.
-- **Offline monitor:** A system that reviews agent activity after execution to find patterns across events.
-
-Cold-reader sentence: Anthropic's measurements suggest deep AI involvement in model development, but the self-evaluated methodology still needs independent auditing.

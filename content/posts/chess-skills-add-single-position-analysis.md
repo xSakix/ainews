@@ -4,8 +4,6 @@ draft = false
 title = 'Chess Skills Add Single-Position Analysis'
 +++
 
-# Chess Skills Add Single-Position Analysis
-
 An open-source Claude Code chess toolkit has added a workflow for examining one position, extending a project that already turns games and player commentary into postmortems.
 
 The 26 September update adds a `chess-position` skill to `chess-postmortem-skills`. It accepts a FEN string, a board screenshot or diagram, or a position taken from a game. The user can request positional or tactical analysis, specify the side to move and optionally ask for a narrated video.
@@ -38,11 +36,3 @@ Even with those limits, the new skill is a concrete example of verification-awar
 - **Tier 0 — VERIFIED:** The project README documents the four chess skills, dependencies and the author's warning about AI errors: https://github.com/brumar/chess-postmortem-skills
 - **Tier 1 — PROJECT-REPORTED:** Workflow usefulness and output quality have not been independently benchmarked here.
 - **Tier 2 — ANALYSIS:** The comparison with verification-aware agents in other domains is editorial analysis.
-
-## Glossary candidates
-
-- **FEN:** A compact text representation of a chess position, including side to move and some game-state information.
-- **PGN:** A standard text format for recording chess moves and annotations.
-- **Stockfish:** An open-source chess engine used to calculate and evaluate positions.
-
-Cold-reader sentence: A Claude Code chess project now checks single positions through a staged workflow that combines image verification, Stockfish analysis and explanation.

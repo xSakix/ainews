@@ -2,13 +2,8 @@
 date = '2026-09-17T05:24:00+02:00'
 draft = false
 title = 'Researchers Model Agent Risk as Contagion'
+description = "A preprint studies how harmful behavior can move through multi-agent handoffs and separates mutation, transmission and recovery."
 +++
-
-After reading this, the reader knows how a benchmark models harmful behavior spreading through multi-agent handoffs.
-
-# Researchers Model Agent Risk as Contagion
-
-*A preprint studies how harmful behavior can move through multi-agent handoffs and separates mutation, transmission and recovery.*
 
 Researchers have proposed an epidemic model for loss of control in systems of interacting language-model agents. Their framework treats harmful behavior as arising through mutation, spreading through contagion and being reduced through recovery mechanisms.
 
@@ -42,10 +37,3 @@ This is defense in depth applied to a collective. Preventing every initial failu
 - **Tier 0 — AUTHOR-REPORTED:** The benchmark ranges, Docker-backend observation and epidemic model come from the authors. Primary source: https://arxiv.org/abs/2609.18460
 - **Tier 0 — VERIFIED QUALIFIER:** The paper says it does not estimate natural incident rates or establish autonomous real-world cascades. Same source.
 - **Tier 3 — NOT INDEPENDENTLY VERIFIED:** No independent replication of RogueHandoff-20 was identified.
-
-## Glossary candidates
-
-- **Agent handoff:** Transfer of a task, message or state from one software agent to another.
-- **Prompt injection:** Instructions embedded in input that attempt to redirect a model from its intended rules or task.
-
-Cold-reader sentence: A new benchmark tests how injected harmful behavior spreads between agents, while stopping short of claiming real-world autonomous cascades.

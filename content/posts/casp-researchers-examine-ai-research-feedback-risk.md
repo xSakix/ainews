@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'CASP researchers examine AI research feedback risks'
+description = "The report asks whether automated AI development could sharply accelerate progress. It presents a risk scenario with uncertainty, not an established timetable."
 +++
-
-# CASP researchers examine AI research feedback risks
-
-*The report asks whether automated AI development could sharply accelerate progress. It presents a risk scenario with uncertainty, not an established timetable.*
 
 Researchers published a report on September 28 through the Cambridge Programme on AI Science and Policy, or CASP, examining whether automation of AI research could trigger unusually rapid capability growth.
 
@@ -46,7 +43,3 @@ The next useful developments are empirical studies of complete research workflow
 | Acceleration scenario, impacts and recommendations | PARTIALLY VERIFIED — authors’ assessment of preliminary evidence; not a confirmed forecast | [CASP abstract](https://casp.ac/reports/intelligence-explosion) |
 | Software-only modelling and dependence on research returns | VERIFIED as a published modelling approach, not as a realized outcome | [Forethought research](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion) |
 | Proposed measurements and policy trade-offs | Analysis | Inference from the conditional mechanism and stated uncertainty |
-
-**Glossary candidates:** research and development — work to discover and build new capabilities; feedback loop — a process whose results affect subsequent iterations; diminishing returns — smaller gains from additional effort.
-
-**Cold-reader sentence:** A CASP report argues that automated AI research could accelerate capability growth, while acknowledging uncertainty and calling for evidence and oversight.

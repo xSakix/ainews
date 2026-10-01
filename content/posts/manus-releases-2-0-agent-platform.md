@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'Manus releases its 2.0 agent platform'
+description = "The update brings a revised execution system, event-triggered work and new creation tools. Performance improvements remain vendor-reported."
 +++
-
-# Manus releases its 2.0 agent platform
-
-*The update brings a revised execution system, event-triggered work and new creation tools. Performance improvements remain vendor-reported.*
 
 Manus, the AI agent provider, announced version 2.0 on September 28 with a revised execution framework, expanded project tools and Cue, a separate early-access personal-agent application.
 
@@ -45,7 +42,3 @@ The next useful evidence is reproducible project-level evaluation: accepted outp
 | Release, architecture, named products and early-access status | VERIFIED as announced features | [Manus launch post](https://manus.im/blog/introducing-manus-2-0) |
 | Reported operating-cost reduction | PARTIALLY VERIFIED — one vendor-tested configuration, not independently reproduced | [Manus launch post](https://manus.im/blog/introducing-manus-2-0) |
 | Project, authorization and failure-recovery examples | Analysis and proposed tests, not measured product behavior | Inference from the announced execution and persistence features |
-
-**Glossary candidates:** agent harness — software coordinating an AI model’s tools and execution; event trigger — a change that starts work; persistent environment — a workspace that survives an individual task.
-
-**Cold-reader sentence:** Manus launched version 2.0 with a revised execution framework, persistent project environments and expanded tools, while its claimed cost improvement remains vendor-reported.

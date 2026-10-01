@@ -2,13 +2,8 @@
 date = '2026-09-21T04:05:00+02:00'
 draft = false
 title = 'Qwen Releases Image 2.1 Under Research Terms'
+description = "The 7B visual model combines generation, editing and transparent output, but commercial use requires a separate license."
 +++
-
-After reading this, the reader knows what Qwen-Image-2.1 does, what its license permits and which performance claims still need independent testing.
-
-# Qwen Releases Image 2.1 Under Research Terms
-
-*The 7B visual model combines generation, editing and transparent output, but commercial use requires a separate license.*
 
 Alibaba's Qwen team has released Qwen-Image-2.1, a downloadable image model that handles both text-to-image generation and image editing in one pipeline.
 
@@ -41,10 +36,3 @@ The strongest reason to test Qwen-Image-2.1 is not a leaderboard position. It is
 - **Tier 0 — VERIFIED:** The license limits granted use to non-commercial research or evaluation and requires separate commercial terms. Primary source: https://github.com/QwenLM/Qwen-Image-2.1/blob/main/LICENSE
 - **Tier 1 — VENDOR-REPORTED:** Quality, efficiency and benchmark comparisons come from Qwen and were not independently reproduced here. Launch source: https://qwen.ai/blog?id=qwen-image-2.1
 - **Tier 2 — ANALYSIS:** Licensing terminology and production-use implications are editorial analysis.
-
-## Glossary candidates
-
-- **RGBA:** Red, green and blue color channels plus an alpha channel that stores transparency.
-- **Reference image:** An input image used to guide identity, style or composition in a new result.
-
-Cold-reader sentence: Qwen-Image-2.1 is a downloadable 7B image generator and editor whose public weights cannot be used commercially without another license.

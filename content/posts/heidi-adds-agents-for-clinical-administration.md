@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'Heidi adds agents for clinical administration'
+description = "Heidi II extends a documentation product into administrative work. Clinician review and regional availability remain central to evaluating the release."
 +++
-
-# Heidi adds agents for clinical administration
-
-*Heidi II extends a documentation product into administrative work. Clinician review and regional availability remain central to evaluating the release.*
 
 Heidi, an Australian clinical software company, announced Heidi II on September 28, adding agents that carry out administrative work around patient visits and return results for clinician review.
 
@@ -46,7 +43,3 @@ The next evidence to watch is deployment-specific: which tasks are enabled, wher
 | Memory and research features | VERIFIED as announced; performance not independently tested | [Heidi release](https://www.heidihealth.com/blog/heidi-ii) |
 | English rollout and EU/UK exclusion | VERIFIED as company-stated availability | [Regional rollout notice](https://www.heidihealth.com/en-za/blog/heidi-ii-is-here) |
 | Referral, memory and review examples | Analysis and proposed tests, not observed product outcomes | Inferences from the announced task-execution scope |
-
-**Glossary candidates:** agent — software using tools to perform a task; review queue — work awaiting a person's decision; persistent memory — information retained for later interactions.
-
-**Cold-reader sentence:** Heidi announced agents for clinical administration, with clinician review and regional restrictions that limit how the new capabilities can be adopted.

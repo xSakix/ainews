@@ -2,13 +2,8 @@
 date = '2026-09-19T04:00:00+02:00'
 draft = false
 title = 'Analysis Says ZCode Uploaded Git History'
+description = "Reverse engineering indicates that Z.ai's coding app captured repository snapshots outside its visible agent tools and encrypted them for server-side access."
 +++
-
-After reading this, the reader knows what ZCode allegedly uploaded, how investigators traced it and which claims remain unverified.
-
-# Analysis Says ZCode Uploaded Git History
-
-*Reverse engineering indicates that Z.ai's coding app captured repository snapshots outside its visible agent tools and encrypted them for server-side access.*
 
 An independent analysis says ZCode, a desktop coding agent from Z.ai, packaged a workspace including its `.git` directory and uploaded the encrypted archive to Alibaba Cloud storage. The report was published by Tokenstead based on reverse engineering by a developer using the name ferstar and additional prompt analysis.
 
@@ -42,10 +37,3 @@ The next decisive evidence should be a Z.ai postmortem, product change or reprod
 - **Tier 1 — INVESTIGATOR-REPORTED:** The report attributes 86.6% of one payload to `.git` data and says capture continued despite two settings. Same primary investigative source.
 - **Tier 3 — UNVERIFIED:** This article did not reproduce the behavior, and no substantive public Z.ai technical response was located in the reviewed source.
 - **Tier 2 — ANALYSIS:** Consent, encryption and enterprise-testing implications are editorial analysis.
-
-## Glossary candidates
-
-- **Git object store:** The repository data that preserves commits, file versions and history.
-- **Envelope encryption:** Encrypting data with one key, then encrypting that key with another key.
-
-Cold-reader sentence: Independent analysis says ZCode uploaded encrypted repository history through a background component, but the behavior still needs broader reproduction and vendor response.

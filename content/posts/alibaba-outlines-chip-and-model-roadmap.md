@@ -32,11 +32,3 @@ The next checkpoints are mass-production timing for the chip, independently run 
 2. **VERIFIED AS COMPANY CLAIMS — The chip's threefold performance gain and 5–10 trillion parameter target originate with Alibaba.** Source: https://apnews.com/article/b29908e516faff9f5a82b201ba954aab
 3. **VERIFIED AS A TARGET — Alibaba says it aims for more than 20 gigawatts of data-center capacity by 2032.** Source: https://apnews.com/article/b29908e516faff9f5a82b201ba954aab
 4. **VERIFIED — The announced future models lacked complete release dates, prices and weights.** No production release for every roadmap item was located.
-
-## Glossary candidates
-
-- **Accelerator:** Specialized hardware designed to run AI computations efficiently.
-- **Parameter:** A learned numerical value inside a model.
-- **Sparse model:** A model that activates only part of its weights for a given input.
-
-Cold-reader sentence: Alibaba's roadmap links domestic chips, huge future models and cloud capacity, but most performance and delivery claims remain plans rather than deployed results.

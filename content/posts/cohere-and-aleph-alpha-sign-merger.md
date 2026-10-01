@@ -2,13 +2,8 @@
 date = '2026-09-17T05:20:00+02:00'
 draft = false
 title = 'Cohere and Aleph Alpha Sign Merger'
+description = "The enterprise-AI providers plan a transatlantic company with dual headquarters and new backing from Schwarz Group."
 +++
-
-After reading this, the reader knows Cohere and Aleph Alpha signed a merger agreement that still requires approval and closing.
-
-# Cohere and Aleph Alpha Sign Merger
-
-*The enterprise-AI providers plan a transatlantic company with dual headquarters and new backing from Schwarz Group.*
 
 Cohere and Aleph Alpha have signed a definitive agreement to merge, advancing a combination first announced in April, Reuters reported. The merged business will operate under the Cohere name, with headquarters in Toronto and Berlin and a research hub in Heidelberg, Germany.
 
@@ -40,10 +35,3 @@ If the merger closes, its strongest differentiator may be operational rather tha
 - **Tier 1 — REPORTED:** Reuters reported the €500 million Schwarz Group commitment, StackIT capacity plan and regulatory condition. Source: https://www.reuters.com/legal/transactional/cohere-aleph-alpha-combine-target-enterprise-ai-market-2026-09-16/
 - **Tier 1 — REPORTED WITH LIMITS:** Revenue figures come from Reuters and describe different periods and metrics; they are not directly comparable.
 - **Tier 3 — UNVERIFIED PRIMARY:** A current definitive-agreement filing or joint release was not accessible during verification; transaction facts rely on Reuters.
-
-## Glossary candidates
-
-- **Sovereign AI:** AI infrastructure and services operated under a jurisdiction’s data, security and governance requirements.
-- **Definitive agreement:** A binding transaction contract that still may depend on approvals and closing conditions.
-
-Cold-reader sentence: Cohere and Aleph Alpha plan to merge into a transatlantic enterprise-AI company, but the deal has not yet closed.

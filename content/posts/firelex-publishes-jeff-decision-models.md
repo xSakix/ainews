@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'Firelex publishes Jeff decision models'
+description = "The small open-weight models choose among supplied options. Their developer’s benchmark shows useful specialization and clear limits."
 +++
-
-# Firelex publishes Jeff decision models
-
-*The small open-weight models choose among supplied options. Their developer’s benchmark shows useful specialization and clear limits.*
 
 Firelex, the developer account publishing Jeff, updated the project’s decision-model release and benchmark documentation on September 28, describing fast local classification from a single model evaluation.
 
@@ -44,7 +41,3 @@ The strongest next evidence would be independently repeated measurements using i
 | Architecture, interface, families, examples and licensing | VERIFIED as documented project properties | [Jeff repository](https://github.com/firelex/jeff) |
 | Latency, samples and accuracy comparisons | PARTIALLY VERIFIED — author-reported, different comparator samples | [Benchmark and limitations in README](https://github.com/firelex/jeff) |
 | Calibration, escalation and application examples | Analysis and proposed tests | Inference from the documented input/output contract |
-
-**Glossary candidates:** classification — selecting a category; calibration — agreement between predicted confidence and observed correctness; open weights — downloadable learned model parameters.
-
-**Cold-reader sentence:** Jeff offers small local decision models, but its own benchmark and limitations do not support blanket parity with a larger commercial model.

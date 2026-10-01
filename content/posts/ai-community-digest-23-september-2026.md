@@ -82,11 +82,3 @@ Watch for reproducible MiMo-distillation evaluations, a complete Ming-Image lice
 2. **UNVERIFIED — Performance and transfer-quality claims for the MiMo distillation and Ming-Image were not independently confirmed.** Sources: the project threads above.
 3. **VERIFIED — The cited YouTube videos used the described framing.** Primary publisher sources: the direct video URLs above.
 4. **UNVERIFIED — The complete technical record behind the reported professor contact was not available.** Via: the CNN video above.
-
-## Glossary candidates
-
-- **Distillation:** Training a smaller model to imitate outputs or behavior from a larger model.
-- **Delta attention:** An attention design intended to reduce repeated work by focusing on changes.
-- **Operational definition:** A rule that makes an abstract concept measurable.
-
-Cold-reader sentence: AI communities debated compression and wisdom while testing smaller local models, but the strongest performance and autonomy claims still lacked independent evidence.

@@ -76,11 +76,3 @@ Watch for Grammarly’s technical account, reproducible tests of the driving dem
 2. **UNVERIFIED — Grammarly’s scope, the real-world driving implications and Pirate Face security claims were not independently established.** Sources: the direct threads above.
 3. **VERIFIED — The cited YouTube videos used the described titles and framing.** Primary publisher sources: the direct video URLs above.
 4. **PARTIALLY VERIFIED — The Forbes video is new, but it covers an incident reported before this briefing window.** Source: the Forbes video above.
-
-## Glossary candidates
-
-- **Harness:** Software that supplies tools, context and control logic around a model.
-- **GGUF:** A file format optimized for storing and running quantized models.
-- **Checksum:** A value used to verify that a file matches an expected copy.
-
-Cold-reader sentence: AI communities debated product trust, review burden and model preservation while popular videos framed coding, art and security through conflict-heavy narratives.

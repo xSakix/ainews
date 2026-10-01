@@ -37,11 +37,3 @@ For operators, the work reinforces that context length is a systems problem. Mod
 3. **VERIFIED AS AUTHOR-REPORTED RESULTS — An eight-seed 126M-parameter experiment reported about 1.4% lower held-out perplexity against the stated local-branch comparison.** Primary source: the arXiv paper above.
 4. **VERIFIED — The authors report higher long-request latency against tested baselines, mixed downstream results and an uncertain external-book result.** Primary source: the arXiv paper above.
 5. **UNVERIFIED — Independent reproduction at production model scale was not located.** The work is a new preprint.
-
-## Glossary candidates
-
-- **KV cache:** Stored key and value representations reused during token generation.
-- **Perplexity:** A measure of how well a language model predicts unseen text; lower is better.
-- **Seed:** A starting value controlling randomness in a training or evaluation run.
-
-Cold-reader sentence: A new cache design saves cross-layer duplication while preserving short local histories, improving small-model perplexity but increasing latency in some long-request tests.

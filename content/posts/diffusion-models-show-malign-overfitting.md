@@ -32,11 +32,3 @@ For practitioners, the immediate lesson is modest: track held-out performance an
 2. **VERIFIED — The authors analyze parameter-to-sample and parameter-to-measurement interpolation thresholds.** Primary source: https://arxiv.org/abs/2609.26392
 3. **VERIFIED AS AUTHOR-REPORTED RESULTS — The study reports rising test loss and benefits from regularization or early stopping.** Primary source: https://arxiv.org/abs/2609.26392
 4. **UNVERIFIED — Broad applicability to production-scale diffusion systems has not been independently established.** The work is a new preprint.
-
-## Glossary candidates
-
-- **Double descent:** Test error falling, rising near interpolation, then falling again as capacity grows.
-- **Interpolation:** Fitting the observed training examples exactly.
-- **Early stopping:** Ending training before optimization fully converges to reduce overfitting.
-
-Cold-reader sentence: New research finds two overfitting thresholds in diffusion models, warning that extra capacity can increase memorization before generalization improves again.

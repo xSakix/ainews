@@ -2,13 +2,8 @@
 date = '2026-09-21T04:05:00+02:00'
 draft = false
 title = 'Samsung Reportedly Plans HBM4 Expansion'
+description = "A Korean newspaper says Samsung will more than double advanced-memory output, but the company has not published the cited capacity targets."
 +++
-
-After reading this, the reader knows what production increase was reported, why glass carriers matter and which numbers Samsung has not confirmed.
-
-# Samsung Reportedly Plans HBM4 Expansion
-
-*A Korean newspaper says Samsung will more than double advanced-memory output, but the company has not published the cited capacity targets.*
 
 Samsung Electronics is preparing a large expansion of high-bandwidth-memory production for next year, according to a report from Seoul Economic Daily that cites industry sources.
 
@@ -42,10 +37,3 @@ If the plan is carried out, it would widen the physical supply base behind AI sy
 - **Tier 3 — UNVERIFIED:** Samsung has not publicly confirmed the reported 250,000-wafer target, 80% HBM4/HBM4E mix or 2.5-fold carrier increase. Same secondary source.
 - **Tier 1 — VERIFIED AS REPORTED:** The article identifies Samsung's February HBM4 mass-production shipment and Cheonan campus. Same source.
 - **Tier 2 — ANALYSIS:** Discussion of yields, qualification, supply and pricing is industry analysis rather than a forecast.
-
-## Glossary candidates
-
-- **HBM:** Stacked memory placed near a processor to provide very high data bandwidth.
-- **Yield:** The share of manufactured units that meet performance and reliability requirements.
-
-Cold-reader sentence: Samsung may sharply expand HBM4 production next year, but its reported capacity targets still lack direct company confirmation.

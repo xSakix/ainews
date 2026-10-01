@@ -2,13 +2,8 @@
 date = '2026-09-17T05:22:00+02:00'
 draft = false
 title = 'Researchers Test Workflow-Wide Agent Policies'
+description = "A proposed monitor checks an agent’s complete action history because individually permitted steps can combine into a prohibited outcome."
 +++
-
-After reading this, the reader knows why agent policies must evaluate whole workflows, not only individual actions.
-
-# Researchers Test Workflow-Wide Agent Policies
-
-*A proposed monitor checks an agent’s complete action history because individually permitted steps can combine into a prohibited outcome.*
 
 Researchers have described “compositional policy violations,” a class of agent failure in which every individual action passes a policy check but the sequence as a whole breaks the intended rule. Their preprint proposes a provenance-aware runtime that evaluates complete traces rather than isolated tool calls.
 
@@ -40,10 +35,3 @@ The preprint does not establish a universal solution. It does clarify the unit o
 - **Tier 0 — AUTHOR-REPORTED:** The taxonomy, provenance-aware runtime and claimed findings come from the preprint’s authors. Primary source: https://arxiv.org/abs/2609.18820
 - **Tier 2 — ANALYSIS:** Comparisons with financial controls and deployment trade-offs are editorial analysis.
 - **Tier 3 — NOT INDEPENDENTLY VERIFIED:** No independent replication or production evaluation was identified.
-
-## Glossary candidates
-
-- **Provenance:** A record of where data or an action came from and how it changed.
-- **Compositional policy violation:** A prohibited outcome created by combining steps that appear acceptable when checked separately.
-
-Cold-reader sentence: Agent safeguards may need to remember an entire workflow because safe-looking actions can combine into a forbidden result.

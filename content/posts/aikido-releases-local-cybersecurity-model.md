@@ -33,11 +33,3 @@ The next useful disclosure would be an official model card with license terms, t
 1. **UNVERIFIED — Reuters reports that Aikido launched an open-weight cybersecurity model for local use.** No primary launch document was located during this review. Via: https://www.reuters.com/legal/litigation/belgiums-aikido-launches-cybersecurity-ai-model-demand-local-tools-grows-2026-09-21/
 2. **UNVERIFIED — Architecture, license, supported languages, hardware requirements and benchmark results were not confirmed from a primary model card.** Via: the Reuters report above.
 3. **ANALYSIS — Local deployment can reduce external code transfer but shifts patching, access control and monitoring duties to the customer.** This is a security assessment, not a claim attributed to Aikido.
-
-## Glossary candidates
-
-- **Open weight:** A release that makes trained model parameters downloadable under a license.
-- **Static analysis:** Inspection of code without executing the program.
-- **False positive:** A harmless pattern incorrectly flagged as a problem.
-
-Cold-reader sentence: Aikido reportedly released a locally deployable security model, but primary technical documentation and independent performance evidence were not located.

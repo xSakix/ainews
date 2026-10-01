@@ -4,8 +4,6 @@ draft = false
 title = 'KoboldCpp Adds a Built-In Local Agent'
 +++
 
-# KoboldCpp Adds a Built-In Local Agent
-
 KoboldCpp has added an agent mode to its local model runner, giving users a compact tool-using loop without requiring a separate coding-agent application.
 
 Version 1.122, published on 26 September, introduces KoboldCpp Agent with nine built-in tools and a system prompt that the project says uses roughly 2,000 tokens. Users can enable it from the Admin interface or with the `--agent` launch option. It can run against a model hosted by KoboldCpp, a third-party provider or another service exposing an OpenAI-compatible Chat Completions endpoint.
@@ -37,11 +35,3 @@ For local-AI users, the useful development is architectural: model serving, tool
 - **Tier 0 — VERIFIED:** The official KoboldCpp v1.122 release page documents the integrated agent, nine built-in tools, MCP support, approval modes, `AGENTS.md`, context compaction and runtime recommendations: https://github.com/LostRuins/koboldcpp/releases/tag/v1.122
 - **Tier 1 — PROJECT-REPORTED:** Claims that the agent is lightweight and that its prompt uses about 2,000 tokens come from the project release notes.
 - **Tier 2 — ANALYSIS:** Security trade-offs, deployment implications and the need for reproducible task evaluations are editorial analysis.
-
-## Glossary candidates
-
-- **MCP:** Model Context Protocol, a standard for connecting AI applications to external tools and data sources.
-- **GGUF:** A model-file format widely used by llama.cpp-compatible local inference software.
-- **Context compaction:** Summarizing older conversation or tool history to free space in a model's context window.
-
-Cold-reader sentence: KoboldCpp now bundles a tool-using agent, reducing setup for local automation while making permission controls more important.

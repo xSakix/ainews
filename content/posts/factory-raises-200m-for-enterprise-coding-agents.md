@@ -2,13 +2,8 @@
 date = '2026-09-15T23:05:00+02:00'
 draft = false
 title = 'Factory raises $200M for enterprise coding agents'
+description = "Factory says its platform manages AI coding agents across the software lifecycle. The new financing values the three-year-old company at $5 billion."
 +++
-
-After reading this, the reader knows Factory raised $200 million at a $5 billion valuation, and it matters because investors are backing company-wide coding automation.
-
-# Factory raises $200M for enterprise coding agents
-
-*Factory says its platform manages AI coding agents across the software lifecycle. The new financing values the three-year-old company at $5 billion.*
 
 Factory, a US developer of AI agents for software engineering, said on September 15 that it raised $200 million at a $5 billion valuation.
 
@@ -45,13 +40,3 @@ What comes next is operational evidence: customer retention, production deployme
 5. **VERIFIED — Factory identifies Nvidia, Blackstone, RBC, Palo Alto Networks, Adobe and T-Mobile as users and claims hundreds of thousands of developers.** This is company-reported and lacks usage definitions. Primary source: https://factory.ai/news/5-billion-valuation
 6. **PARTIALLY VERIFIED — Reuters reported that the valuation rose from $1.5 billion in April to $5 billion.** The current valuation is primary-sourced; the comparison is reported via Reuters. Primary source: https://factory.ai/news/5-billion-valuation ; via: https://www.reuters.com/business/ai-coding-agent-startup-factory-triples-valuation-5-billion-latest-funding-round-2026-09-15/
 7. **PARTIALLY VERIFIED — The financing signals strong investor demand for enterprise coding-agent platforms.** The round supports that inference, but it does not establish customer value or profitability. Primary source: https://factory.ai/news/5-billion-valuation
-
-## Glossary candidates
-
-- Coding agent
-- Software factory
-- Model routing
-- Air-gapped deployment
-- Private valuation
-
-**Cold-reader sentence:** Factory raised $200 million at a $5 billion valuation to expand a governed enterprise platform for AI agents that build and maintain software.

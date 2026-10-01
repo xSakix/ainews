@@ -2,13 +2,8 @@
 date = '2026-09-16T07:47:00+02:00'
 draft = false
 title = 'Researchers redirect RL toward harder problems'
+description = "Never Give Up keeps sampling a problem until it finds a correct answer, shifting reinforcement-learning compute away from examples the model already solves."
 +++
-
-After reading this, the reader knows standard RL may favor easier examples, and it matters because average gains can hide failure on hard problems.
-
-# Researchers redirect RL toward harder problems
-
-*Never Give Up keeps sampling a problem until it finds a correct answer, shifting reinforcement-learning compute away from examples the model already solves.*
 
 Researchers led by Michael Noukhovitch published a technical explainer on September 15 for Never Give Up, an adaptive sampling method designed to make reinforcement learning spend more effort on difficult language-model tasks.
 
@@ -42,14 +37,3 @@ The practical lesson is immediate even before NGU is adopted: aggregate evaluati
 4. **PARTIALLY VERIFIED — NGU improves performance per compute on Deepscaler and solves harder Manufactoria tests.** These are author-reported experiments awaiting independent replication. Primary source: https://arxiv.org/abs/2609.13443
 5. **VERIFIED — The method requires a correctness signal for its stopping rule.** This follows from the published sampling mechanism. Primary source: https://arxiv.org/abs/2609.13443
 6. **UNVERIFIED — NGU will generalize to larger models and non-verifiable tasks.** The published evidence does not establish that broader claim.
-
-## Glossary candidates
-
-- Reinforcement learning
-- Adaptive sampling
-- Matthew Effect
-- GRPO
-- Verifiable reward
-- Asynchronous training
-
-**Cold-reader sentence:** Never Give Up reallocates reinforcement-learning samples toward initially unsolved problems so average gains do not come mainly from already-easy examples.

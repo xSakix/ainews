@@ -37,11 +37,3 @@ The next useful step is a Meta explanation of `muse-special`, followed by indepe
 3. **UNVERIFIED — The identifier does not establish that OpenAI, Anthropic or another external provider generated the session's output.** No provider confirmation was found.
 4. **VERIFIED AS META'S PRODUCT DESCRIPTION — Meta describes Muse as using a secure agent architecture with separate tools and protected execution.** Primary source: https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse
 5. **ANALYSIS — The possible explanations and proposed provenance controls are editorial technical analysis.**
-
-## Glossary candidates
-
-- **Model routing:** Selecting which model or service handles a request or subtask.
-- **Deployment identifier:** An internal name for a hosted model configuration.
-- **Subprocessor:** Another company that processes data on a service provider's behalf.
-
-Cold-reader sentence: A Muse log suggests an unexplained routing path, but it does not prove that Meta used an outside model.

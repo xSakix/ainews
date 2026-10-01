@@ -2,13 +2,8 @@
 date = '2026-09-18T05:12:00+02:00'
 draft = false
 title = 'Lucid and Bolt Plan Europe Robotaxis'
+description = "The companies will co-design a Level 4 platform around Lucid's future midsize vehicle and expect to use NVIDIA Hyperion."
 +++
-
-After reading this, the reader knows Bolt targets 25,000 autonomous Lucid vehicles in Europe, but the announcement is not a vehicle order.
-
-# Lucid and Bolt Plan Europe Robotaxis
-
-*The companies will co-design a Level 4 platform around Lucid's future midsize vehicle and expect to use NVIDIA Hyperion.*
 
 Lucid and Bolt have announced a partnership to develop autonomous mobility services for Europe. Bolt aims to deploy at least 25,000 fully autonomous vehicles across multiple cities and countries using Lucid's coming Midsize platform.
 
@@ -46,10 +41,3 @@ The announcement is important because it joins a vehicle maker and a European op
 - **Tier 1 — VERIFIED AS TARGET:** Bolt states an aim of at least 25,000 vehicles and a wider 100,000-vehicle ambition by 2035. Same source.
 - **Tier 1 — VERIFIED:** Bolt intends to own and operate the fleet and build associated infrastructure and city partnerships. Same source.
 - **Tier 2 — ANALYSIS:** Distinguishing a partnership target from a binding order and discussing regulatory work are editorial analysis based on the release's wording.
-
-## Glossary candidates
-
-- **SAE Level 4:** Automated driving without a human fallback inside specified operating conditions.
-- **Reference architecture:** A standard combination of hardware and design components on which a product can be built.
-
-Cold-reader sentence: Lucid and Bolt have a framework for a large European robotaxi fleet, but no binding order or launch schedule is public.

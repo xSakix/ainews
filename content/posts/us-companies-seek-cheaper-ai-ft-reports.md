@@ -2,11 +2,8 @@
 date = '2026-09-28T04:15:01+02:00'
 draft = false
 title = 'US companies seek cheaper AI, FT reports'
+description = "New reporting points to interest in open-weight alternatives. Earlier spending data does not establish a broad migration away from proprietary models."
 +++
-
-# US companies seek cheaper AI, FT reports
-
-*New reporting points to interest in open-weight alternatives. Earlier spending data does not establish a broad migration away from proprietary models.*
 
 The Financial Times, a business newspaper, reported on 27 September that US companies were turning toward cheaper open AI models as technology expenses increased.
 
@@ -44,10 +41,3 @@ Next, watch for named deployments with comparable before-and-after task costs, a
 - **UNVERIFIED — Adoption scale and sixfold count:** Underlying corporate records and AlphaSense data were not inspected; reported via [PYMNTS](https://www.pymnts.com/news/artificial-intelligence/2026/businesses-embrace-open-weight-ai-amid-heavy-tech-costs/). No primary dataset was retrieved to validate the count.
 - **VERIFIED AS PUBLISHER-REPORTED — Counterevidence:** [Ramp's 9 September analysis](https://ramp.com/data/ai-index-sept-2026) supplies the sample-specific percentage, proxy limitation and interpretation; this is background, not today's news.
 - **ANALYSIS —** Measurement distinctions, suggested tests and possible reconciliation are editorial reasoning, not observed savings.
-
-## Glossary candidates
-
-- **Open weights:** Downloadable trained model parameters.
-- **Proxy:** An indirect measurement used to estimate another activity.
-
-Cold-reader sentence: The FT reports growing corporate interest in cheaper open AI models, but available evidence does not establish the scale or savings of a broad migration.

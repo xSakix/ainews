@@ -36,11 +36,3 @@ The next useful confirmation is a public release note and independent test of th
 2. **VERIFIED AS CODE INSPECTION — The bundled loader used a remote feature flag with a false fallback.** Primary source: the technical report above.
 3. **VERIFIED AS AN AUTHOR-REPORTED WORKAROUND — Importing AGENTS.md from CLAUDE.md worked in the reported test.** Primary source: the technical report above.
 4. **PARTIALLY VERIFIED — A linked Anthropic issue comment reports a fix in version 2.1.281; this run did not reproduce it independently.** Via: https://github.com/anthropics/claude-code/issues/95690
-
-## Glossary candidates
-
-- **Feature flag:** A switch that enables or disables software behavior without changing the installed code.
-- **Telemetry:** Diagnostic or usage data sent from software to its operator.
-- **Canary:** A harmless test value used to show whether a path is working.
-
-Cold-reader sentence: Claude Code’s AGENTS.md loader depended on a remote flag, so privacy settings could silently remove project instructions; a later version reportedly changes the fallback.

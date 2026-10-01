@@ -59,11 +59,3 @@ Watch for independent small-model evaluations, reproducible Jev and Mica runs, p
 3. **UNVERIFIED — The classified NSA spending figures were not established by a public primary budget document in this review.** Source of the discussion: the cited Hacker News thread.
 4. **VERIFIED — The cited YouTube channels published videos with the described framing.** Primary publisher sources: the direct video URLs above.
 5. **ANALYSIS — Cross-item conclusions and selection decisions are editorial synthesis.**
-
-## Glossary candidates
-
-- **Decision model:** A model optimized to choose or classify actions rather than generate long free-form text.
-- **Calibration:** How closely a model's confidence matches its observed accuracy.
-- **Utilization:** The share of available hardware time spent doing useful work.
-
-Cold-reader sentence: Community attention moved to inspectable local tools and small-model demos, but most performance and risk claims remain preliminary.

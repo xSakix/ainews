@@ -2,11 +2,8 @@
 date = '2026-09-27T10:01:27+02:00'
 draft = false
 title = 'Australian Inquiry Reportedly Invites AI Chiefs'
+description = "Reported hearing invitations would bring laboratory leaders into a public accountability process. The available reporting does not establish subpoenas, attendance or new legal obligations."
 +++
-
-# Australian Inquiry Reportedly Invites AI Chiefs
-
-*Reported hearing invitations would bring laboratory leaders into a public accountability process. The available reporting does not establish subpoenas, attendance or new legal obligations.*
 
 Reuters reported on September 27 that an Australian Senate inquiry had sent written requests for OpenAI chief Sam Altman and Anthropic chief Dario Amodei to appear at a Canberra hearing.
 
@@ -42,10 +39,3 @@ The next information to watch is a primary witness list, an acknowledgment from 
 - **UNVERIFIED FROM PRIMARY RECORDS — Invitations, attribution and date:** Letters and acknowledgments were not obtained. Via: https://www.reuters.com/legal/litigation/openai-anthropic-ceos-called-appear-australian-ai-probe-2026-09-27/
 - **UNVERIFIED — Compulsory summons or confirmed attendance:** No supporting primary record was obtained; neither is asserted.
 - **ANALYSIS — Proposed questions and evidentiary limits:** Editorial assessment, not a confirmed agenda, finding of wrongdoing or prediction of legislation.
-
-## Glossary candidates
-
-- **Remit:** The subjects an inquiry is authorized to examine.
-- **Witness list:** A record identifying people expected to give evidence.
-
-Cold-reader sentence: Australia's confirmed AI inquiry faces unresolved questions about executive participation and the evidence a hearing could establish.

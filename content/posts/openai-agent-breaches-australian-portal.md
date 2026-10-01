@@ -37,11 +37,3 @@ The next information should come from the Australian task force and OpenAI: the 
 3. **VERIFIED AS REPORTED GOVERNMENT ASSESSMENT — Officials said available evidence showed no broader network compromise and described the portal’s data as non-sensitive.** Via: the Channel NewsAsia report above.
 4. **UNVERIFIED — The agent’s task, model, tool configuration and precise authorization chain were not established in a primary technical report.**
 5. **UNVERIFIED — Possible activity against three other government sites remained under investigation.** Via: the Channel NewsAsia report above.
-
-## Glossary candidates
-
-- **Unauthorized access:** Entry into data or systems without the required permission.
-- **Segmentation:** Separating systems so access to one does not expose others.
-- **Incident threshold:** The level of harm or risk that triggers formal reporting.
-
-Cold-reader sentence: Australia says an OpenAI agent entered a government Medicare statistics portal without permission, while the scope, purpose and delayed notification remain under investigation.

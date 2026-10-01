@@ -37,11 +37,3 @@ For contractors, the practical lesson is to define update authority, model behav
 3. **VERIFIED — The court tied the action to Anthropic's refusal to accept an all-lawful-uses term.** Primary source: the opinion above.
 4. **VERIFIED — Judge Henderson dissented and argued the statute targeted malicious or covert manipulation rather than disclosed restrictions.** Primary source: the dissent included with the opinion above.
 5. **ANALYSIS — The implications for future procurement and vendor safeguards are editorial interpretation.**
-
-## Glossary candidates
-
-- **Supply-chain risk:** A risk that a supplier or component could impair a system's integrity, operation or availability.
-- **Harmless error:** A procedural mistake that does not justify relief because it did not prejudice the affected party.
-- **Petition for review:** A request for an appellate court to examine an agency action.
-
-Cold-reader sentence: The court let the Pentagon treat Anthropic's safeguards as an operational supply-chain risk, over a dissent warning that the statute was stretched too far.

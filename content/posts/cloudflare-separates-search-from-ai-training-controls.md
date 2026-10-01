@@ -2,13 +2,8 @@
 date = '2026-09-16T07:41:00+02:00'
 draft = false
 title = 'Cloudflare separates search from AI training'
+description = "The new setting distinguishes search, model training and user-directed agents. Support still depends on crawler operators honoring declared preferences."
 +++
-
-After reading this, the reader knows Cloudflare separated search and training controls, and it matters because publishers can reject training without disappearing from search.
-
-# Cloudflare separates search from AI training
-
-*The new setting distinguishes search, model training and user-directed agents. Support still depends on crawler operators honoring declared preferences.*
 
 Cloudflare introduced a Disallow AI Training setting on September 15 that lets website owners keep compatible search crawlers while expressing a refusal to let the same operators use their content for model training.
 
@@ -42,14 +37,3 @@ The next test is observable compliance. Publishers need reports showing which UR
 4. **VERIFIED — Microsoft support for a domain-level robots.txt training preference is targeted for early 2027.** This timing is reported by Cloudflare as Microsoft's commitment. Primary source: https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/
 5. **VERIFIED — Cloudflare says Block settings now apply to mixed-use crawlers and can affect search.** Primary source: https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/
 6. **PARTIALLY VERIFIED — The setting lets publishers reject training while remaining discoverable.** It does so for supported and correctly identified crawlers; it cannot force every scraper to comply. Primary source: https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/
-
-## Glossary candidates
-
-- Mixed-use crawler
-- robots.txt
-- AI training opt-out
-- Search indexing
-- User-directed agent
-
-**Cold-reader sentence:** Cloudflare now separates search, training and agent traffic so publishers can reject supported AI training crawlers without automatically losing search visibility.
-

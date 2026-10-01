@@ -2,13 +2,8 @@
 date = '2026-09-15T23:07:00+02:00'
 draft = false
 title = 'OpenAI Foundation funds public health data'
+description = "The initial grants target drug properties, failed development programs and personalized cancer vaccines. Their value will depend on access, privacy and scientific reuse."
 +++
-
-After reading this, the reader knows OpenAI Foundation committed over $125 million to open health datasets, and it matters because AI research depends on usable evidence.
-
-# OpenAI Foundation funds public health data
-
-*The initial grants target drug properties, failed development programs and personalized cancer vaccines. Their value will depend on access, privacy and scientific reuse.*
 
 OpenAI Foundation announced more than $125 million in initial grants on September 15 to create and preserve scientific datasets for health research.
 
@@ -46,14 +41,3 @@ The next milestones are concrete: datasets released on schedule, clear licenses,
 6. **VERIFIED — The foundation organizes its strategy around connected, scarce and direct data and commits to privacy and consent for human data.** Primary source: https://openaifoundation.org/news/public-data-for-health
 7. **PARTIALLY VERIFIED — Public datasets can reduce duplicated work and improve model evaluation.** The program design supports this expectation, but impact depends on execution and future reuse. Primary source: https://openaifoundation.org/news/public-data-for-health
 8. **PARTIALLY VERIFIED — Open release may reduce the data advantage of the sponsoring institution.** This is an inference; licenses and access conditions were not fully specified in the announcement. Primary source: https://openaifoundation.org/news/public-data-for-health
-
-## Glossary candidates
-
-- ADMET
-- Common Technical Document
-- Multimodal data
-- Neoantigen vaccine
-- De-identification
-- Blinded competition
-
-**Cold-reader sentence:** OpenAI Foundation committed more than $125 million to open health datasets spanning drug properties, failed programs and personalized cancer-vaccine research.

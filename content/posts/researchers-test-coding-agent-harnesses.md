@@ -2,13 +2,8 @@
 date = '2026-09-18T08:31:00+02:00'
 draft = false
 title = 'Researchers Test Coding-Agent Harnesses'
+description = "A 176-setting study finds that harness choices depend on model strength and context budget, with no universally best configuration."
 +++
-
-After reading this, the reader knows when context management, planning and specialized tools improve coding-agent performance.
-
-# Researchers Test Coding-Agent Harnesses
-
-*A 176-setting study finds that harness choices depend on model strength and context budget, with no universally best configuration.*
 
 A new preprint tests how the software around a coding model changes agent performance. Across 176 matched settings on SWE-Bench Verified and Terminal-Bench 2.1, the researchers varied context management, context budgets, planning and tool design for four models.
 
@@ -45,10 +40,3 @@ Its durable contribution is the interaction it exposes. Context policy, planning
 - **Tier 0 — VERIFIED:** The preprint was submitted to arXiv on 17 September 2026 and reports 176 matched configurations across four models, SWE-Bench Verified and Terminal-Bench 2.1. Primary source: https://arxiv.org/abs/2609.20804
 - **Tier 1 — AUTHOR-REPORTED:** The authors report the strongest context-management benefit under tight budgets, efficient rule-based elision plus summarization, model-dependent planning effects and model-dependent tool benefits. Same primary source.
 - **Tier 2 — ANALYSIS:** Recommendations for production evaluation and telemetry are editorial analysis.
-
-## Glossary candidates
-
-- **Context elision:** Removing selected prior content before the model's next step.
-- **Ablation:** A controlled test that removes or changes one component to measure its effect.
-
-Cold-reader sentence: Coding-agent performance depends on matching context, planning and tools to a model's capabilities and budget.

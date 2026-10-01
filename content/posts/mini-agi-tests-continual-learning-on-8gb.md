@@ -34,11 +34,3 @@ The next useful milestones are published weights, repeat runs with controlled se
 2. **VERIFIED — The repository says the model is toy-level and its weights are not yet published.** Primary source: https://github.com/volotat/mini-AGI/
 3. **VERIFIED AS PROJECT-REPORTED RESULTS — The 99.84% retention figure and gradient observations come from the author's tests.** Primary source: https://github.com/volotat/mini-AGI/
 4. **VERIFIED — The project says a slower shared-trunk learning rate, not the expert pool alone, produced most of the anti-forgetting effect.** Primary source: https://github.com/volotat/mini-AGI/
-
-## Glossary candidates
-
-- **Continual learning:** Updating a model over time as new data arrives.
-- **Catastrophic forgetting:** Loss of earlier skills after training on new material.
-- **Working set:** The subset of model weights loaded for current computation.
-
-Cold-reader sentence: Mini-AGI demonstrates continual-learning mechanisms on an 8GB GPU, but it remains a toy experiment with unpublished weights and self-reported results.

@@ -2,13 +2,8 @@
 date = '2026-09-18T05:12:00+02:00'
 draft = false
 title = 'Crusoe Raises $3.9 Billion'
+description = "The financing values the energy-to-cloud provider at $30.9 billion after the initial close of an unusually large private round."
 +++
-
-After reading this, the reader knows Crusoe raised a $3.9 billion Series F to expand an integrated AI-infrastructure business.
-
-# Crusoe Raises $3.9 Billion
-
-*The financing values the energy-to-cloud provider at $30.9 billion after the initial close of an unusually large private round.*
 
 Crusoe has announced the initial close of a $3.9 billion Series F funding round at a $30.9 billion post-money valuation. Atreides Management, Mubadala Capital and Valor Equity Partners co-led the round, with participation from NVIDIA, Founders Fund, GIC, Qatar Investment Authority and other investors.
 
@@ -44,10 +39,3 @@ For the AI sector, the financing is another sign that infrastructure has become 
 - **Tier 1 — VERIFIED:** Crusoe named the co-leads, participating investors and planned uses of proceeds. Same source.
 - **Tier 1 — COMPANY-REPORTED:** The claim of more than $140 billion in total contracted value comes from Crusoe and was not reconciled to audited revenue in the announcement. Same source.
 - **Tier 2 — ANALYSIS:** Discussion of financing, construction and concentration risks is editorial analysis.
-
-## Glossary candidates
-
-- **Post-money valuation:** A company's negotiated value immediately after counting new investment.
-- **Total contracted value:** The stated value of signed commitments over their full terms, not necessarily current revenue.
-
-Cold-reader sentence: Crusoe has major new capital to build AI infrastructure, but delivery and recognized revenue will determine whether the valuation is justified.

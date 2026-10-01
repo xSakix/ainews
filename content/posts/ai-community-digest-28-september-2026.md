@@ -4,8 +4,6 @@ draft = false
 title = 'AI Community Digest for 28 September 2026'
 +++
 
-# AI Community Digest for 28 September 2026
-
 AI communities examined shorter reasoning, agent access to public data, interface quality and the assumptions behind game demonstrations. A new debate video put AI's employment consequences before a broader audience.
 
 » **Why it matters:** These items offer experiments and arguments to inspect. Their popularity does not establish model quality, incident attribution or an economic forecast. NaiveAI's release and Tiny AI Arena's scoring change receive separate articles.
@@ -52,10 +50,3 @@ Watch for independent Ember evaluations, broader reproduction of the token-penal
 - **PARTIALLY VERIFIED — Experiments:** The two directly read LocalLLaMA posts support the authors' descriptions; neither experiment was rerun.
 - **PARTIALLY VERIFIED — Video:** Publisher-supplied episode metadata establishes date and framing; playback was unavailable.
 - **ANALYSIS —** The implications and proposed follow-ups are editorial judgments. Primary sources are linked with each item.
-
-## Glossary candidates
-
-- **Logit penalty:** A change to a model's output scores that makes selected tokens less likely.
-- **Agent harness:** Software that supplies observations and tools to a model.
-
-Cold-reader sentence: AI communities discussed efficiency experiments, agent behavior, interface quality and employment arguments, with most performance and causal claims still requiring independent checks.

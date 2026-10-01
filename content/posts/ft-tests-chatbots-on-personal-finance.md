@@ -34,11 +34,3 @@ The next useful step would be publication of prompts, answer keys, model version
 2. **UNVERIFIED — The number of questions, tested model versions, browsing settings and scoring rules were not confirmed.** Primary publisher: the Financial Times article above.
 3. **ANALYSIS — Jurisdiction, date and personal facts can materially change a financial answer.** This is an editorial explanation of the domain's requirements.
 4. **ANALYSIS — Users should verify high-impact answers with official sources or qualified professionals.** This is practical risk guidance, not a result claimed by the test.
-
-## Glossary candidates
-
-- **Denominator:** The total number of cases behind a reported rate.
-- **Reproducible evaluation:** A test whose prompts, settings and scoring can be repeated.
-- **Jurisdiction:** The country or legal area whose rules apply.
-
-Cold-reader sentence: The Financial Times reports frequent chatbot errors on finance questions, but inaccessible methodology prevents precise conclusions about models or failure rates.

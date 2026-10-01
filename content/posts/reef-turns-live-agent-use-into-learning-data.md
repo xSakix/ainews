@@ -2,13 +2,8 @@
 date = '2026-09-15T23:10:00+02:00'
 draft = false
 title = 'Reef turns live agent use into learning data'
+description = "The open-source system stores production traces and feedback, then lets teams update an agent's model, prompts, memory, tools and orchestration."
 +++
-
-After reading this, the reader knows Reef links AI inference, feedback and versioned updates, and it matters because deployed agents could improve from their own work.
-
-# Reef turns live agent use into learning data
-
-*The open-source system stores production traces and feedback, then lets teams update an agent's model, prompts, memory, tools and orchestration.*
 
 A group of open-source contributors released Reef on September 15, proposing an inference system in which deployed AI agents can learn continuously from their interactions.
 
@@ -45,13 +40,3 @@ The next test is reproducible evidence. Teams need measurements of improvement r
 5. **VERIFIED — Reef documents asynchronous training, Slime-based training support, LoRA or checkpoint artifacts, and Cordis-backed harness evolution.** Primary source: https://huggingface.co/blog/quao627/your-inference-server-is-secretly-a-learner-reef
 6. **PARTIALLY VERIFIED — Reef handles staleness, session merging and deduplication in its experience stream.** The mechanisms are described by the project authors, but no independent production test accompanied the launch. Primary source: https://huggingface.co/blog/quao627/your-inference-server-is-secretly-a-learner-reef
 7. **PARTIALLY VERIFIED — A unified loop could shorten agent-improvement cycles.** This follows from the architecture, but improvement speed, cost and safety need independent deployment evidence. Primary source: https://huggingface.co/blog/quao627/your-inference-server-is-secretly-a-learner-reef
-
-## Glossary candidates
-
-- Stateful inference
-- Experience stream
-- Agent harness
-- LoRA adapter
-- Compare-and-swap
-
-**Cold-reader sentence:** Reef is an open-source inference system that records agent experience, evaluates proposed changes and releases versioned model or harness updates.

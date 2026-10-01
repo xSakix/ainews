@@ -2,13 +2,8 @@
 date = '2026-09-15T22:50:00+02:00'
 draft = false
 title = 'Google launches Gemini 3.8 Live voice models'
+description = "Gemini 3.8 Live targets fast conversations at scale. Gemini 3.8 Live Extended Thinking adds deeper reasoning for multi-step voice tasks."
 +++
-
-After reading this, the reader knows Google launched two Gemini 3.8 voice models, and it matters because voice agents can now reason while speaking.
-
-# Google launches Gemini 3.8 Live voice models
-
-*Gemini 3.8 Live targets fast conversations at scale. Gemini 3.8 Live Extended Thinking adds deeper reasoning for multi-step voice tasks.*
 
 Google released Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking on September 15, bringing two new real-time audio models to its developer tools and consumer products.
 
@@ -57,15 +52,3 @@ The next evidence should come from deployments outside launch demonstrations: in
 9. **VERIFIED — The Live API uses stateful WebSockets, and Google recommends ephemeral tokens for direct client-to-server production connections.** Primary source: https://ai.google.dev/gemini-api/docs/live-api
 10. **VERIFIED — Google says audio from its AI products is watermarked with SynthID.** Primary source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/
 11. **PARTIALLY VERIFIED — Simultaneous dialogue and tool execution can reduce silent waiting and broaden voice-agent interface designs.** The capabilities are documented, but the operational consequence is an inference that requires production evidence. Primary source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/
-
-## Glossary candidates
-
-- Full-duplex voice model
-- Visual grounding
-- Function calling
-- Stateful WebSocket
-- Ephemeral token
-- Speech-to-Speech Index
-- SynthID
-
-**Cold-reader sentence:** Google released two real-time Gemini voice models that can keep talking while reasoning or using tools, but independent tests and Google’s model card show clear limits.

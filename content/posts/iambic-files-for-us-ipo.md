@@ -34,11 +34,3 @@ The next material events are the publication of offering terms and clinical upda
 2. **UNVERIFIED — The named underwriters, financing history and absence of offering terms come from Reuters' filing review.** Via: the Reuters report above.
 3. **UNVERIFIED — IAM1363 is described as an early-stage solid-tumor candidate in Reuters' account.** Via: the Reuters report above.
 4. **ANALYSIS — Clinical evidence, regulation and manufacturing remain decisive even when AI assists discovery.** This is editorial analysis based on the drug-development process.
-
-## Glossary candidates
-
-- **IPO:** An initial public offering, when a private company first sells shares publicly.
-- **Prospectus:** A filing describing an offering, finances and investment risks.
-- **Small molecule:** A low-molecular-weight compound developed to affect a biological target.
-
-Cold-reader sentence: Iambic reportedly filed for a Nasdaq IPO, giving public investors a new test of AI-assisted drug discovery before offering terms are known.

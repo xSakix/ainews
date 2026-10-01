@@ -32,11 +32,3 @@ The financing is evidence that the AI economy is rewarding infrastructure beyond
 2. **VERIFIED AS A COMPANY-SUPPLIED FIGURE — Reuters reports annualized revenue above $350 million.** Source: https://www.reuters.com/legal/transactional/snorkel-ai-valued-35-billion-amid-surging-demand-complex-ai-training-data-2026-09-22/
 3. **NOT EQUIVALENT TO AUDITED ANNUAL REVENUE — Annualized revenue extrapolates a recent run rate.** Independent audited accounts were not located.
 4. **ANALYSIS — The discussion of market durability and competition is interpretation, not a company forecast.**
-
-## Glossary candidates
-
-- **Programmatic labeling:** Creating training labels with rules and statistical combination instead of only manual review.
-- **Annualized revenue:** A projection of a recent revenue rate over a full year.
-- **Data lineage:** Records showing where data came from and how it changed.
-
-Cold-reader sentence: Snorkel AI's large round shows strong demand for domain data and evaluation tools, though its reported revenue is an unaudited annualized figure.

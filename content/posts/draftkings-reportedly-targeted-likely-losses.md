@@ -2,13 +2,8 @@
 date = '2026-09-20T04:05:00+02:00'
 draft = false
 title = 'DraftKings Reportedly Targeted Likely Losses'
+description = "A newspaper report says the sportsbook used machine learning to find customers expected to lose and direct offers toward them; primary documentation was not available."
 +++
-
-After reading this, the reader knows what the New York Times reported, why loss prediction raises a distinct governance issue and what evidence is still missing.
-
-# DraftKings Reportedly Targeted Likely Losses
-
-*A newspaper report says the sportsbook used machine learning to find customers expected to lose and direct offers toward them; primary documentation was not available.*
 
 DraftKings reportedly used a machine-learning model to identify gamblers expected to lose money and target them with promotional offers. The claim comes from a 19 September New York Times report.
 
@@ -45,10 +40,3 @@ Until primary evidence is available, the central claim remains reported rather t
 - **Tier 3 — UNVERIFIED:** The New York Times reportedly says DraftKings used machine learning to identify customers expected to lose and target them with offers. Via: https://www.nytimes.com/2026/09/19/business/draftkings-ai.html
 - **Tier 3 — UNVERIFIED:** No primary company document or regulator finding confirming the reported deployment was located during this review.
 - **Tier 2 — ANALYSIS:** Discussion of objective functions, feedback loops, audit evidence and safeguards is editorial analysis and does not establish DraftKings' actual implementation.
-
-## Glossary candidates
-
-- **Objective function:** The result a model is trained or tuned to optimize.
-- **Feedback loop:** A cycle in which a prediction changes behavior and creates new data that reinforces later predictions.
-
-Cold-reader sentence: DraftKings reportedly targeted people predicted to lose, but the deployment details remain unconfirmed without primary company or regulator records.

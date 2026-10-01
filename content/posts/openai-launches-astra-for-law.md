@@ -2,13 +2,8 @@
 date = '2026-09-18T05:12:00+02:00'
 draft = false
 title = 'OpenAI Launches Astra for Law'
+description = "The system combines a frontier model with a large US legal index, specialized instructions and controls for confidential work."
 +++
-
-After reading this, the reader knows OpenAI built a legal version of GPT-6 Astra, and professional review remains essential.
-
-# OpenAI Launches Astra for Law
-
-*The system combines a frontier model with a large US legal index, specialized instructions and controls for confidential work.*
 
 OpenAI has introduced Astra for Law, a configuration of GPT-6 Astra intended for legal research, analysis and writing. It adds a search index covering more than 230 million URLs of US case law, statutes, regulations, court rules and administrative decisions.
 
@@ -42,10 +37,3 @@ Astra for Law signals a shift from generic assistants to systems that combine a 
 - **Tier 1 — VERIFIED:** OpenAI describes more than 230 million indexed URLs, initial Trusted Access, future API availability and specific privacy controls. Same source.
 - **Tier 1 — VENDOR-REPORTED:** The 54.0% correctness score, 38.7% baseline and retrieval improvements are OpenAI's evaluation results on a private validation set. Same source.
 - **Tier 2 — ANALYSIS:** Discussion of liability, review and operational controls is editorial analysis.
-
-## Glossary candidates
-
-- **Precedential case law:** Court decisions that establish rules later courts may be required to follow.
-- **Ethical wall:** Controls that prevent information from crossing between people or matters with conflicting duties.
-
-Cold-reader sentence: Astra for Law improves legal retrieval by combining GPT-6 Astra with a specialized index, but lawyers must verify every material conclusion.

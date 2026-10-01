@@ -2,11 +2,8 @@
 date = '2026-09-28T04:15:01+02:00'
 draft = false
 title = 'Tiny AI Arena changes how models earn ratings'
+description = "The model battle game now rewards victory rather than finishing position. The change illustrates how a scoring rule can favor behavior its designer did not intend."
 +++
-
-# Tiny AI Arena changes how models earn ratings
-
-*The model battle game now rewards victory rather than finishing position. The change illustrates how a scoring rule can favor behavior its designer did not intend.*
 
 Tiny AI Arena, a developer-built game for language models, changed its rating system on 27 September after its maintainer said passive players could benefit from surviving while opponents eliminated one another.
 
@@ -44,10 +41,3 @@ The scoring revision is therefore the concrete news. It makes the rating match t
 - **PARTIALLY VERIFIED — Cause:** The maintainer reports passive-play distortion in that commit; the match history was not independently reproduced.
 - **VERIFIED AS DOCUMENTATION —** Game objective, four players, action validation, retries, logs, replays and local/static deployment are described in the [README](https://github.com/hp6/ai-arena/blob/8cb0ccdc3a698fec53ad222ccd7abcd83cc37072/README.md).
 - **ANALYSIS —** The hypothetical match, evaluation cautions and proposed protocol are editorial reasoning from those rules.
-
-## Glossary candidates
-
-- **Elo:** A rating method that updates estimates using competition outcomes.
-- **Static export:** Saved content served without running the original application backend.
-
-Cold-reader sentence: Tiny AI Arena changed its ratings to reward match victories after its developer found that finishing-position scoring could benefit passive models.

@@ -2,11 +2,8 @@
 date = '2026-09-27T04:02:40+02:00'
 draft = false
 title = 'AI Community Digest for 27 September 2026'
+description = "Mathematical work, agent costs, local inference and AI investment claims drove the day's most useful community discussions."
 +++
-
-# AI Community Digest for 27 September 2026
-
-*Mathematical work, agent costs, local inference and AI investment claims drove the day's most useful community discussions.*
 
 The strongest conversations were about evidence: mathematical judgment, an extreme agent-billing allegation, local performance reports and leaked product claims.
 
@@ -55,10 +52,3 @@ Local inference discussion also remains practical rather than ideological. Users
 - **Tier 2 — OPINION:** Tao's labor argument and Boyle's investment analysis are attributed commentary.
 - **Tier 3 — UNVERIFIED:** The $78,000 charge allegation and Gemini 4 leak claims lack primary confirmation and are labeled accordingly.
 - **Tier 2 — ANALYSIS:** Cross-item conclusions about verification work and local-inference priorities are editorial analysis.
-
-## Glossary candidates
-
-- **Quantization:** Reducing the numerical precision of model weights to lower memory and compute requirements.
-- **Baseline:** A reference method or result used to judge whether an experiment provides an improvement.
-
-Cold-reader sentence: AI communities are demanding better proof for agent costs, local speedups, research claims and rumored products.

@@ -2,11 +2,8 @@
 date = '2026-09-29T04:13:15+02:00'
 draft = false
 title = 'AMD agrees to buy World Labs for $8.2 billion'
+description = "The proposed share-based acquisition would bring spatial-model research into AMD. Closing and the promised engineering benefits remain future events."
 +++
-
-# AMD agrees to buy World Labs for $8.2 billion
-
-*The proposed share-based acquisition would bring spatial-model research into AMD. Closing and the promised engineering benefits remain future events.*
 
 AMD, the semiconductor developer, said on September 28 that it agreed to acquire World Labs, a spatial-intelligence research company, in an all-stock transaction valued at approximately $8.2 billion.
 
@@ -46,7 +43,3 @@ The next concrete milestones are regulatory progress, completion of the transact
 | World Labs’ technical scope and buyer rationale | VERIFIED as descriptions; benefits are forward-looking | [AMD release](https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute) |
 | Prior investor relationship | VERIFIED | [World Labs funding announcement](https://www.worldlabs.ai/blog/funding-2026) |
 | Product, continuity and evaluation implications | Analysis and proposed questions | Inference from the transaction and research scope |
-
-**Glossary candidates:** all-stock transaction — acquisition paid for with shares; spatial intelligence — modelling relationships in three-dimensional environments; closing — completion of an agreed transaction.
-
-**Cold-reader sentence:** AMD agreed to acquire World Labs for approximately $8.2 billion in shares, with completion and the proposed research integration still ahead.

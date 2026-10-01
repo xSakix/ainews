@@ -2,13 +2,8 @@
 date = '2026-09-18T05:12:00+02:00'
 draft = false
 title = 'Bonsai 2 Compresses a 27B Model'
+description = "PrismML uses ternary weights to put a Qwen3.8-based model on consumer hardware, trading conventional precision for a much smaller footprint."
 +++
-
-After reading this, the reader knows Bonsai 2 fits a 27B multimodal model into 5.9GB, with performance claims still vendor-tested.
-
-# Bonsai 2 Compresses a 27B Model
-
-*PrismML uses ternary weights to put a Qwen3.8-based model on consumer hardware, trading conventional precision for a much smaller footprint.*
 
 PrismML has released Ternary Bonsai 2 27B, a compressed multimodal model based on Qwen3.8 27B. The company says the model occupies 5.9GB, supports text and images, accepts a 262,000-token context and is available under the Apache 2.0 license.
 
@@ -42,10 +37,3 @@ Bonsai 2 is therefore a credible engineering release with an unusually small sta
 - **Tier 1 — VENDOR-REPORTED:** The 98.2% benchmark retention, throughput and energy-efficiency numbers were published by PrismML and were not independently reproduced in this review. Same source.
 - **Tier 2 — REPORTED:** Hacker News participants reported runtime and documentation friction. Via: https://news.ycombinator.com/item?id=49746618
 - **Tier 3 — ANALYSIS:** Privacy, cost and deployment implications are editorial analysis.
-
-## Glossary candidates
-
-- **Ternary weights:** Model parameters restricted to three values, commonly minus one, zero and plus one.
-- **Group scaling:** A technique that stores a scaling factor for a block of compressed weights.
-
-Cold-reader sentence: Bonsai 2 makes a 27B multimodal model unusually small, but independent tests must confirm its quality and efficiency.

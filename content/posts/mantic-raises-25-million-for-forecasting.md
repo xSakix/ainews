@@ -2,13 +2,8 @@
 date = '2026-09-19T04:00:00+02:00'
 draft = false
 title = 'Mantic Raises $25 Million for AI Forecasting'
+description = "The London startup says its system beat human forecasters in a recent tournament, attracting a seed round led by Radical Ventures."
 +++
-
-After reading this, the reader knows what Mantic says it predicts, who funded it and why its performance claim needs scrutiny.
-
-# Mantic Raises $25 Million for AI Forecasting
-
-*The London startup says its system beat human forecasters in a recent tournament, attracting a seed round led by Radical Ventures.*
 
 Mantic has raised $25 million in seed funding to develop AI systems that assign probabilities to political, economic and cultural events, according to Reuters. Radical Ventures led the round at an undisclosed valuation.
 
@@ -44,10 +39,3 @@ Mantic's round shows investors treating probabilistic forecasting as a distinct 
 - **Tier 0 — VERIFIED:** Metaculus maintains a public page for the closed Summer 2026 Cup and says winners were announced. Primary source: https://www.metaculus.com/tournament/metaculus-cup-summer-2026/
 - **Tier 3 — UNVERIFIED AGAINST ACCESSIBLE PRIMARY DATA:** Mantic's reported performance relative to human participants could not be reproduced from the accessible tournament page. Via: Reuters article above.
 - **Tier 2 — ANALYSIS:** Evaluation and deployment guidance is editorial analysis.
-
-## Glossary candidates
-
-- **Calibration:** Agreement between forecast probabilities and observed outcome frequencies.
-- **Scoring rule:** A formula that rewards accurate probability forecasts and penalizes inaccurate ones.
-
-Cold-reader sentence: Mantic reportedly raised $25 million after a strong forecasting tournament, but its comparative performance needs reproducible primary data.

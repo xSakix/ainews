@@ -2,11 +2,8 @@
 date = '2026-09-27T10:01:27+02:00'
 draft = false
 title = 'Oxford AI Library Deal Raises Training Questions'
+description = "New reporting renews scrutiny of an existing digitization partnership. Oxford's published descriptions establish an access project but do not independently settle every claim about model training."
 +++
-
-# Oxford AI Library Deal Raises Training Questions
-
-*New reporting renews scrutiny of an existing digitization partnership. Oxford's published descriptions establish an access project but do not independently settle every claim about model training.*
 
 The Guardian reported on September 26 that material from Oxford University's Bodleian Libraries was being used to train OpenAI models.
 
@@ -42,10 +39,3 @@ The useful next disclosure would connect permissions to delivered outputs: a cle
 - **VERIFIED — Digitization workstreams and project description:** Bodleian primary project page: https://www.bodleian.ox.ac.uk/node/4611321
 - **UNVERIFIED FROM PRIMARY RECORDS — Newly reported training use:** Underlying transfer and agreement records were not obtained. Via: https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt
 - **ANALYSIS — Access, permission and evidence distinctions:** Conditional assessment of the primary descriptions, not findings about undisclosed contractual terms.
-
-## Glossary candidates
-
-- **Metadata:** Descriptive information used to identify and organize a resource.
-- **Public domain:** Material not restricted by an applicable copyright term.
-
-Cold-reader sentence: Oxford confirms an existing library digitization partnership, while newly reported model-training use remains unverified from the primary records reviewed here.

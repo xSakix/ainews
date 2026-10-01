@@ -1,0 +1,10 @@
+{{- /* hreflang x-default: tells search engines the English original is the
+       version for readers whose language has no edition. PaperMod already
+       emits the en/sk alternates. */ -}}
+{{- if .IsTranslated }}
+{{- range .AllTranslations }}
+{{- if eq .Lang site.Sites.Default.Language.Lang }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{- end }}
+{{- end }}
+{{- end }}

@@ -1,0 +1,10 @@
+# Strings for this site's own templates. PaperMod's strings live in
+# themes/PaperMod/i18n; entries here override them.
+- id: follow_title
+  translation: "Get AI News Daily every morning."
+- id: follow_text
+  translation: 'Follow the <a href="{{ .rss }}">RSS feed</a> (full text) or subscribe to the <a href="{{ .newsletter }}" rel="noopener">newsletter on Substack</a>.'
+- id: follow_note
+  translation: 'Researched and drafted with AI under published editorial rules. <a href="{{ .about }}">How we work and what the labels mean</a>.'
+- id: follow_aria
+  translation: "Follow AI News Daily"

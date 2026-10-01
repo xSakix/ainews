@@ -1,9 +1,11 @@
 {{- /* PaperMod renders this partial under every post when params.comments
        is true. It holds a follow box instead of comments. */ -}}
-<aside class="follow-box" aria-label="Follow AI News Daily">
-  <p><strong>Get AI News Daily every morning.</strong>
-    Follow the <a href="{{ "index.xml" | absURL }}">RSS feed</a> (full text) or subscribe to the
-    <a href="https://aiplayground.substack.com/" rel="noopener">newsletter on Substack</a>.</p>
-  <p class="follow-box-note">Researched and drafted with AI under published editorial rules.
-    <a href="{{ "about/" | absURL }}#how-articles-are-produced">How we work and what the labels mean</a>.</p>
+{{- $links := dict
+      "rss" ("index.xml" | absLangURL)
+      "newsletter" "https://aiplayground.substack.com/"
+      "about" (printf "%s#%s" ("about/" | absLangURL) (cond (eq site.Language.Lang "sk") "ako-vznikajú-články" "how-articles-are-produced")) }}
+<aside class="follow-box" aria-label="{{ i18n "follow_aria" }}">
+  <p><strong>{{ i18n "follow_title" }}</strong>
+    {{ i18n "follow_text" $links | safeHTML }}</p>
+  <p class="follow-box-note">{{ i18n "follow_note" $links | safeHTML }}</p>
 </aside>

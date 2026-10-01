@@ -24,6 +24,7 @@ Articles are researched and drafted by AI models in an automated daily pipeline.
 2. **Primary sources only.** Briefings and summaries, including the pipeline's own, are treated as pointers. A claim is written up only after the original publisher's page (release, paper, filing, repository) has been opened.
 3. **Format follows evidence.** A story backed only by the announcing company's own materials becomes a short news brief or a digest item. Longer analysis needs at least one independent source.
 4. **Editing.** A separate editing pass checks structure, clarity and claim labels before publication.
+5. **Translation.** The [Slovak edition](/sk/) is translated from the finished English articles with AI. Source links and verification labels match the original.
 
 ## Verification labels
 
@@ -45,3 +46,4 @@ If you find an error, reply to any issue of the [Substack newsletter](https://ai
 - [RSS feed](/index.xml) with full article text
 - [Newsletter on Substack](https://aiplayground.substack.com/)
 - [Machine-readable index for AI assistants](/llms.txt)
+- [Slovak edition](/sk/)

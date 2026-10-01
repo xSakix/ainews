@@ -1,4 +1,4 @@
-{{- /* /llms-full.txt — full Markdown text of the most recent articles. */ -}}
+{{- /* /llms-full.txt and /sk/llms-full.txt — full Markdown text of the most recent articles. */ -}}
 {{- $limit := 100 -}}
 {{- $posts := first $limit (where site.RegularPages "Section" "in" site.Params.mainSections) -}}
 # {{ site.Title }}: full text of the {{ len $posts }} most recent articles
@@ -6,8 +6,9 @@
 > {{ site.Params.description }}
 
 Source: {{ site.Home.Permalink }}
-Index of all pages: {{ "llms.txt" | absURL }}
-Methodology and verification labels: {{ "about/" | absURL }}
+Language: {{ site.Language.LanguageName }}
+Index of all pages: {{ "llms.txt" | absLangURL }}
+Methodology and verification labels: {{ "about/" | absLangURL }}
 Generated: {{ now.Format "2006-01-02" }}
 {{ range $posts }}
 ---

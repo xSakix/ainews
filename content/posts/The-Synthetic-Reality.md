@@ -3,7 +3,7 @@ date: '2025-12-08T06:00:18+02:00'
 draft: false
 title: 'The Synthetic Reality: How AI Rewrote the Rules of Truth in 2024'
 cover:
-  image: "images/The-Synthetic-Reality.png"
+  image: "images/The-Synthetic-Reality.jpg"
   alt: "The Synthetic Reality: How AI Rewrote the Rules of Truth in 2024"
   caption: "The Synthetic Reality: How AI Rewrote the Rules of Truth in 2024"
   relative: false

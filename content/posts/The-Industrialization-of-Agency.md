@@ -3,7 +3,7 @@ date: '2025-12-09T05:50:18+02:00'
 draft: false
 title: 'The Industrialization of Agency: Taming the AI Paradox'
 cover:
-  image: "images/The-Industrialization-of-Agency.png"
+  image: "images/The-Industrialization-of-Agency.jpg"
   alt: "The Industrialization of Agency - Taming the AI Paradox"
   caption: "The Industrialization of Agency - Taming the AI Paradox"
   relative: false

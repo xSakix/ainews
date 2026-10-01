@@ -3,7 +3,7 @@ date: '2025-12-12T06:00:18+02:00'
 draft: false
 title: 'The Tree and the Machine: Why the Era of Hard Skills Is Ending'
 cover:
-  image: "images/The-Tree-and-the-Machine.png"
+  image: "images/The-Tree-and-the-Machine.jpg"
   alt: "The Tree and the Machine: Why the Era of Hard Skills Is Ending"
   caption: "The Tree and the Machine: Why the Era of Hard Skills Is Ending"
   relative: false

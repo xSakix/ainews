@@ -3,7 +3,7 @@ date: '2025-12-10T06:00:18+02:00'
 draft: false
 title: 'The Pivot Point: How Six Days in December Redefined Open-Source Intelligence'
 cover:
-  image: "images/The-Pivot-Point.png"
+  image: "images/The-Pivot-Point.jpg"
   alt: "The Pivot Point: How Six Days in December Redefined Open-Source Intelligence"
   caption: "The Pivot Point: How Six Days in December Redefined Open-Source Intelligence"
   relative: false

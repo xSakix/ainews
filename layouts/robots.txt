@@ -1,0 +1,12 @@
+User-agent: *
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+Allow: /
+{{- else }}
+Disallow: /
+{{- end }}
+
+Sitemap: {{ "sitemap.xml" | absURL }}
+
+# AI assistants and LLM tools: a curated index is at {{ "llms.txt" | absURL }}
+# and the full text of recent articles at {{ "llms-full.txt" | absURL }}.
+# Every article is also available as Markdown at <article URL>index.md

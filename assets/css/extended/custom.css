@@ -1,0 +1,62 @@
+/* Site-specific tweaks on top of PaperMod. */
+
+:root {
+    --accent: #0d9488;
+}
+
+.dark {
+    --accent: #2dd4bf;
+}
+
+/* "Why it matters" reads as a highlighted callout. */
+.post-content h2#why-it-matters {
+    margin-bottom: 6px;
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary);
+}
+
+.post-content h2#why-it-matters + p {
+    padding-inline-start: 14px;
+    border-inline-start: 3px solid var(--accent);
+}
+
+/* Verification tables: long source URLs wrap instead of pushing the
+   table off-screen on phones. */
+.post-content table {
+    font-size: 0.85em;
+}
+
+.post-content table td a {
+    overflow-wrap: anywhere;
+}
+
+/* Follow box under each post. */
+.follow-box {
+    margin-top: var(--gap);
+    padding: 16px 20px;
+    font-size: 0.95em;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-inline-start: 3px solid var(--accent);
+    border-radius: var(--radius);
+}
+
+.follow-box p + p {
+    margin-top: 8px;
+}
+
+.follow-box a {
+    box-shadow: 0 1px 0 var(--primary);
+}
+
+.follow-box-note {
+    font-size: 0.9em;
+    color: var(--secondary);
+}
+
+/* Homepage intro links. */
+.home-info .entry-content a {
+    box-shadow: 0 1px 0 var(--secondary);
+}

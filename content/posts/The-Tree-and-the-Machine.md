@@ -41,7 +41,7 @@ Elias eventually found the error. It was not a syntax mistake, but a contextual 
 
 {{< substack >}}
 
-<hr/>
+---
 
 ### References
 

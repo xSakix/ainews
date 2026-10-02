@@ -4,10 +4,12 @@ Two AI systems research every day, independently:
 
 | System | Suffix | Who runs it |
 |---|---|---|
-| Anthropic Claude | `anthropic` | a scheduled Claude routine, early each morning |
+| Anthropic Claude | `anthropic` | a scheduled Claude routine, early each morning; its prompt is kept in `prompts/routine-anthropic.md` |
 | OpenAI GPT | `gpt` | the production run, Task A of `prompts/main-prompt.md` |
 
 Each system runs every desk below and writes one briefing per desk, marked with its suffix. Triage (`prompts/main-prompt.md`, Task B) reads both systems' briefings and drafts articles and the digest from the two together. Two independent searches find more than one, and each catches what the other misses.
+
+The routine stores its own copy of that prompt. After editing `prompts/routine-anthropic.md`, update the routine from the routine's own conversation: Claude only accepts prompt changes made there.
 
 Use the suffix of the system you are. If you are neither Claude nor GPT, use your model family's name in lowercase.
 

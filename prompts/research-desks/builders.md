@@ -1,7 +1,7 @@
 # Desk: What people are building
 
 Desk name for the header: `What people are building`
-Output file: `reports/YYYY-MM-DD-briefing-builders.md`
+Output file: `reports/YYYY-MM-DD-briefing-builders-<suffix>.md`, where `<suffix>` is your system's suffix (see `prompts/research-run.md`)
 
 ## Scope
 

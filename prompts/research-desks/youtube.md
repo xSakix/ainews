@@ -1,7 +1,7 @@
 # Desk: YouTube
 
 Desk name for the header: `YouTube`
-Output file: `reports/YYYY-MM-DD-briefing-youtube.md`
+Output file: `reports/YYYY-MM-DD-briefing-youtube-<suffix>.md`, where `<suffix>` is your system's suffix (see `prompts/research-run.md`)
 
 ## Scope
 

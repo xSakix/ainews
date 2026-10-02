@@ -1,7 +1,7 @@
 # Desk: Community
 
 Desk name for the header: `Community`
-Output file: `reports/YYYY-MM-DD-briefing-community.md`
+Output file: `reports/YYYY-MM-DD-briefing-community-<suffix>.md`, where `<suffix>` is your system's suffix (see `prompts/research-run.md`)
 
 ## Scope
 

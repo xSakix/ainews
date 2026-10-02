@@ -1,7 +1,7 @@
 # Desk: Essays and deep dives
 
 Desk name for the header: `Essays and deep dives`
-Output file: `reports/YYYY-MM-DD-briefing-writing.md`
+Output file: `reports/YYYY-MM-DD-briefing-writing-<suffix>.md`, where `<suffix>` is your system's suffix (see `prompts/research-run.md`)
 
 ## Scope
 

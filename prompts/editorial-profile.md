@@ -13,6 +13,7 @@ The research desks use this profile to decide what to look for. Triage (`prompts
 3. **What people are building.** Open-source projects, Show HN launches, notable GitHub repositories, Hugging Face Spaces, local-model setups, agents and tools built by individuals and small teams, with the code or a working demo available.
 4. **Technical writing and essays.** Deep dives, engineering write-ups, post-mortems, benchmark investigations, and essays with a substantive argument about how AI works or is built.
 5. **Community discussion.** Hacker News, Reddit and similar threads where practitioners share measurements, experience or informed disagreement.
+6. **Talks and discussions on video.** Lectures, conference talks, long interviews and debates — on AI engineering and building with AI, and on what AI means for society, politics, the economy, science and philosophy. In English, German, Czech and Slovak.
 
 ### Tier 2 — keep the reader in the loop
 

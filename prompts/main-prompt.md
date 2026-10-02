@@ -6,7 +6,7 @@ This run is unattended: nobody will answer questions. Wherever a referenced prom
 
 ## Editorial profile
 
-`prompts/editorial-profile.md` says what the site covers and how stories are ranked: lab releases from every region, research, what people are building, technical writing and community discussion first; business last and briefly. Read it before Task A. It controls research scope (Task A), ranking (Task B) and the digest (Task C).
+`prompts/editorial-profile.md` says what the site covers and how stories are ranked: lab releases from every region, research, what people are building, technical writing, community discussion and talks first; business last and briefly. Read it before Task A. It controls research scope (Task A), ranking (Task B) and the digest (Task C).
 
 ## Task A — Research
 
@@ -19,6 +19,7 @@ Research is split into desks, each covering one beat in depth:
 | What people are building | `prompts/research-desks/builders.md` | `reports/YYYY-MM-DD-briefing-builders.md` |
 | Essays and deep dives | `prompts/research-desks/writing.md` | `reports/YYYY-MM-DD-briefing-writing.md` |
 | Community | `prompts/research-desks/community.md` | `reports/YYYY-MM-DD-briefing-community.md` |
+| YouTube | `prompts/research-desks/youtube.md` | `reports/YYYY-MM-DD-briefing-youtube.md` |
 | Safety, policy and industry | `prompts/research-desks/industry.md` | `reports/YYYY-MM-DD-briefing-industry.md` |
 
 1. Run every desk: the shared rules in `prompts/research-prompt.md` plus the desk's own file. Run each desk as a separate pass with its own focus — in parallel as separate subagents if your environment supports them, otherwise one after another. A desk never cuts its work short because other desks are still waiting.
@@ -37,6 +38,7 @@ Sources: today's desk briefings plus, if it exists, `reports/YYYY-MM-DD-ai-brief
    - **Papers.** Every paper in the papers desk's "Papers worth a deep dive" section is an article candidate: PAPER PROFILE, or EXPLAINER for a paper with one finding. Its preprint status and the authors' own results are stated and labelled; they are not a reason to downshift.
    - **Writing.** An essay or deep dive with a substantive argument supports a NEWS BRIEF that reports the argument, attributed to its author; its claims are labelled OPINION unless evidence supports them.
    - **Community.** A thread becomes an article only when it produced something new — a measurement, a reproduction, a disclosure. Otherwise it is a digest item.
+   - **Video.** A talk, lecture or interview supports a NEWS BRIEF reporting its argument only when a transcript or written version is available to quote from; the speaker's claims are labelled OPINION unless evidence supports them. Otherwise it is a digest item. A video in German, Czech or Slovak is reported in English; say which language it is in.
    - An announcement with nothing to inspect stays a DIGEST ITEM.
 
    Result: ARTICLE (NEWS BRIEF, NEWS ANALYSIS, EXPLAINER, or PAPER PROFILE) or DIGEST ITEM. Never LONG-FORM — the writer prompt allows it only on request.
@@ -59,8 +61,9 @@ Then write one digest, titled `AI Daily Digest for D Month YYYY` (e.g. "AI Daily
 - **Releases** — release DIGEST ITEMs (mostly from the lab releases desk);
 - **Research** — paper DIGEST ITEMs and the papers desk's "Also notable" items;
 - **What people are building** — project DIGEST ITEMs (mostly from the builders desk);
-- **Worth reading** — essays, deep dives, talks and podcasts not written up as articles;
-- **Hacker News**, **Reddit**, **YouTube** — the eligible items from the community desk;
+- **Worth reading** — essays, deep dives and podcasts not written up as articles;
+- **Hacker News**, **Reddit** — the eligible items from the community desk;
+- **YouTube** — the eligible items from the YouTube desk, each naming its channel and, if not English, its language;
 - **In brief** — the remaining tier 2 DIGEST ITEMs (tools, safety, policy, hardware);
 - **Business, briefly** — at most five tier 3 items.
 

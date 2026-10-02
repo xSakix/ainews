@@ -115,7 +115,12 @@ Fixed headings and phrases:
 | `**Why it matters:**` (inline) | `**Prečo na tom záleží:**` |
 | `» **Why it matters**` | `» **Prečo na tom záleží**` |
 | `## Verification` | `## Overenie {#verification}` |
+| `## Releases` | `## Nové modely a vydania` |
+| `## Research` | `## Výskum` |
+| `## What people are building` | `## Čo ľudia tvoria` |
+| `## Worth reading` | `## Stojí za prečítanie` |
 | `## In brief` | `## Stručne` |
+| `## Business, briefly` | `## Biznis v skratke` |
 | `## Hacker News`, `## Reddit`, `## YouTube` | unchanged |
 | `**What this suggests:**` | `**Čo z toho vyplýva:**` |
 | `**What's next:**` | `**Čo bude ďalej:**` |

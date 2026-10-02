@@ -6,30 +6,27 @@ This run is unattended: nobody will answer questions. Wherever a referenced prom
 
 ## Editorial profile
 
-`prompts/editorial-profile.md` says what the site covers and how stories are ranked: lab releases from every region, research, what people are building, technical writing and community discussion first; business last and briefly. Read it before Task A. It controls research scope (Task A), ranking (Task B) and the digest (Task C).
+`prompts/editorial-profile.md` says what the site covers and how stories are ranked: lab releases from every region, research, what people are building, technical writing, community discussion and talks first; business last and briefly. Read it before Task A. It controls research scope (Task A), ranking (Task B) and the digest (Task C).
 
 ## Task A — Research
 
-Research is split into desks, each covering one beat in depth:
+Research is done by two systems, Anthropic Claude and OpenAI GPT, each running the same research desks independently and marking its briefings with a suffix: `-anthropic.md` or `-gpt.md`. `prompts/research-run.md` lists the desks and file names.
 
-| Desk | Desk file | Briefing |
-|---|---|---|
-| Lab releases | `prompts/research-desks/releases.md` | `reports/YYYY-MM-DD-briefing-releases.md` |
-| Research papers | `prompts/research-desks/papers.md` | `reports/YYYY-MM-DD-briefing-papers.md` |
-| What people are building | `prompts/research-desks/builders.md` | `reports/YYYY-MM-DD-briefing-builders.md` |
-| Essays and deep dives | `prompts/research-desks/writing.md` | `reports/YYYY-MM-DD-briefing-writing.md` |
-| Community | `prompts/research-desks/community.md` | `reports/YYYY-MM-DD-briefing-community.md` |
-| Safety, policy and industry | `prompts/research-desks/industry.md` | `reports/YYYY-MM-DD-briefing-industry.md` |
-
-1. Run every desk: the shared rules in `prompts/research-prompt.md` plus the desk's own file. Run each desk as a separate pass with its own focus — in parallel as separate subagents if your environment supports them, otherwise one after another. A desk never cuts its work short because other desks are still waiting.
-2. Save each desk's briefing to the path in the table.
-3. If a desk fails, log the reason in the production log and continue with the others.
+1. Run `prompts/research-run.md` as your own system, with your suffix (`gpt` for GPT, `anthropic` for Claude). The other system runs separately on its own schedule.
+2. If a desk fails, its briefing says so; log the failure in the production log and continue.
 
 ## Task B — Triage
 
-Sources: today's desk briefings plus, if it exists, `reports/YYYY-MM-DD-ai-briefing-anthropic.md` (a separately scheduled briefing; use every section of it, whatever its headings). Briefings are pointers to sources, never sources: open the primary source of every item before writing about it (writer prompt, NEVER-A-SOURCE RULE).
+Sources — both systems' briefings for today:
 
-1. From every section of every briefing, list each distinct underlying event, project, paper or piece of writing. Entries about the same thing are one topic, whatever briefing or heading they appear under.
+- `reports/YYYY-MM-DD-briefing-<desk>-gpt.md` and `reports/YYYY-MM-DD-briefing-<desk>-anthropic.md` for every desk in `prompts/research-run.md`;
+- and, if present, a single-file briefing from before the desks existed (`reports/YYYY-MM-DD-ai-briefing-anthropic.md` or `reports/YYYY-MM-DD-ai-briefing-gpt.md`); use every section of it, whatever its headings.
+
+Before triage, pull the latest `main` (`git pull --rebase origin main`) so that briefings the other system committed while you were researching are included. If one system's briefings are missing for today, triage from the other's and log which are missing.
+
+Briefings are pointers to sources, never sources: open the primary source of every item before writing about it (writer prompt, NEVER-A-SOURCE RULE).
+
+1. From every section of every briefing of both systems, list each distinct underlying event, project, paper or piece of writing. Entries about the same thing are one topic, whatever system, briefing or heading they come from. A topic found by only one system is as valid as one found by both. Where the two systems disagree on a fact (a date, a number, a name, whether something is new), the primary source decides; note the disagreement in the production log.
 2. Drop topics already covered by a post in `content/posts/` (English posts only; ignore `*.sk.md` files. Compare against each post's title and opening paragraph). Exception: today's item contains a material new development. In that case, the new development is the topic.
 3. Give each topic its tier from the editorial profile. Tier 3 (business) topics never become articles: they go to the digest's "Business, briefly" section, at most five, or are dropped. The profile's exception moves a business event up a tier; write it about the consequence for users.
 4. For each tier 1 and tier 2 topic, check its sourcing and choose its format using the writer prompt's `<formats>` evidence rule and its Turn A digest-item rule, with these overrides:
@@ -37,11 +34,12 @@ Sources: today's desk briefings plus, if it exists, `reports/YYYY-MM-DD-ai-brief
    - **Papers.** Every paper in the papers desk's "Papers worth a deep dive" section is an article candidate: PAPER PROFILE, or EXPLAINER for a paper with one finding. Its preprint status and the authors' own results are stated and labelled; they are not a reason to downshift.
    - **Writing.** An essay or deep dive with a substantive argument supports a NEWS BRIEF that reports the argument, attributed to its author; its claims are labelled OPINION unless evidence supports them.
    - **Community.** A thread becomes an article only when it produced something new — a measurement, a reproduction, a disclosure. Otherwise it is a digest item.
+   - **Video.** A talk, lecture or interview supports a NEWS BRIEF reporting its argument only when a transcript or written version is available to quote from; the speaker's claims are labelled OPINION unless evidence supports them. Otherwise it is a digest item. A video in German, Czech or Slovak is reported in English; say which language it is in.
    - An announcement with nothing to inspect stays a DIGEST ITEM.
 
    Result: ARTICLE (NEWS BRIEF, NEWS ANALYSIS, EXPLAINER, or PAPER PROFILE) or DIGEST ITEM. Never LONG-FORM — the writer prompt allows it only on request.
 5. Rank ARTICLE topics by the editorial profile: tier first, then substance, then novelty and consequence, keeping the mix it asks for. 🚨 marks magnitude only and does not decide rank. There is no article limit: write every ARTICLE topic. If the run cannot finish them all, publish in rank order and log what was cut.
-6. Write the triage table (topic, tier, format, reason, rank) to `reports/YYYY-MM-DD-production-log.md`.
+6. Write the triage table (topic, tier, found by — `gpt`, `anthropic` or `both` — format, reason, rank) to `reports/YYYY-MM-DD-production-log.md`.
 
 ## Task C — Write
 
@@ -59,8 +57,9 @@ Then write one digest, titled `AI Daily Digest for D Month YYYY` (e.g. "AI Daily
 - **Releases** — release DIGEST ITEMs (mostly from the lab releases desk);
 - **Research** — paper DIGEST ITEMs and the papers desk's "Also notable" items;
 - **What people are building** — project DIGEST ITEMs (mostly from the builders desk);
-- **Worth reading** — essays, deep dives, talks and podcasts not written up as articles;
-- **Hacker News**, **Reddit**, **YouTube** — the eligible items from the community desk;
+- **Worth reading** — essays, deep dives and podcasts not written up as articles;
+- **Hacker News**, **Reddit** — the eligible items from the community desk;
+- **YouTube** — the eligible items from the YouTube desk, each naming its channel and, if not English, its language;
 - **In brief** — the remaining tier 2 DIGEST ITEMs (tools, safety, policy, hardware);
 - **Business, briefly** — at most five tier 3 items.
 

@@ -1,7 +1,7 @@
 # Desk: Safety, policy and industry
 
 Desk name for the header: `Safety, policy and industry`
-Output file: `reports/YYYY-MM-DD-briefing-industry.md`
+Output file: `reports/YYYY-MM-DD-briefing-industry-<suffix>.md`, where `<suffix>` is your system's suffix (see `prompts/research-run.md`)
 
 ## Scope
 

@@ -1,7 +1,7 @@
 # Desk: Lab releases
 
 Desk name for the header: `Lab releases`
-Output file: `reports/YYYY-MM-DD-briefing-releases.md`
+Output file: `reports/YYYY-MM-DD-briefing-releases-<suffix>.md`, where `<suffix>` is your system's suffix (see `prompts/research-run.md`)
 
 ## Scope
 

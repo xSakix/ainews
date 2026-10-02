@@ -1,7 +1,7 @@
 # Desk: Research papers
 
 Desk name for the header: `Research papers`
-Output file: `reports/YYYY-MM-DD-briefing-papers.md`
+Output file: `reports/YYYY-MM-DD-briefing-papers-<suffix>.md`, where `<suffix>` is your system's suffix (see `prompts/research-run.md`)
 
 ## Scope
 

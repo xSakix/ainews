@@ -11,7 +11,7 @@ ShowShareButtons = false
 comments = false
 +++
 
-AI News Daily je ranný prehľad správ o umelej inteligencii pre inžinierov, produktových manažérov, zakladateľov firiem, analytikov a tvorcov politík. Každý deň prináša až šesť článkov a jeden prehľad o nových modeloch, nástrojoch, výskume, biznise, regulácii a bezpečnosti.
+AI News Daily je ranný prehľad správ o umelej inteligencii pre technicky zameraných čitateľov. Sleduje nové modely od AI laboratórií v USA, Európe, Číne aj inde, nový výskum, to, čo ľudia tvoria, odborné eseje a diskusie komunity. Bezpečnosť a reguláciu pokrýva vtedy, keď menia, čo sa dá vytvoriť alebo používať; správy zo sveta biznisu prináša iba stručne. Počet článkov sa riadi tým, čo sa v daný deň udialo, a k nim pribúda jeden denný prehľad.
 
 ## Kto za tým stojí
 
@@ -21,7 +21,7 @@ Stránku vydáva Martin Seckar, architekt v IBM s dvadsaťročnou praxou v oblas
 
 Články v automatizovanom dennom procese vyhľadávajú a píšu modely umelej inteligencie. Redakčné pravidlá, ktorými sa proces riadi, píše a udržiava vydavateľ:
 
-1. **Výskum.** Každé ráno proces zhromaždí správy o AI za posledných 24 hodín z oficiálnych oznámení, odborných článkov a renomovaných médií, ako aj aktívne diskusie na Hacker News, Reddite a YouTube.
+1. **Výskum.** Každé ráno samostatné rešerše pokryjú nové modely z laboratórií, odborné štúdie, projekty komunity, odborné texty, diskusie komunity a správy o bezpečnosti, regulácii a biznise. Správy pochádzajú z posledných 24 hodín; štúdie, projekty a eseje z posledného týždňa, pretože sa zverejňujú v dávkach a pozornosť získavajú postupne. Zdroje sa kontrolujú priamo (stránky laboratórií, arXiv, Hugging Face, GitHub, Hacker News, Reddit), nielen cez vyhľadávač.
 2. **Iba primárne zdroje.** Súhrny a prehľady vrátane tých, ktoré vytvára samotný proces, slúžia len ako odkazy. O tvrdení sa píše až potom, keď proces otvorí stránku pôvodného vydavateľa (oznámenie, štúdiu, úradný dokument, repozitár).
 3. **Formát podľa dôkazov.** Správa, ktorú podopierajú iba materiály oznamujúcej firmy, vyjde ako krátka správa alebo položka v prehľade. Dlhšia analýza potrebuje aspoň jeden nezávislý zdroj.
 4. **Redakcia.** Samostatný redakčný krok pred zverejnením kontroluje štruktúru, zrozumiteľnosť a označenia tvrdení.

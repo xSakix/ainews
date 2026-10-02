@@ -10,7 +10,7 @@ ShowShareButtons = false
 comments = false
 +++
 
-AI News Daily is a morning briefing on artificial intelligence for engineers, product leaders, founders, analysts and policymakers. Each day it publishes up to six articles and one digest covering model releases, tools, research, business, policy and safety.
+AI News Daily is a morning briefing on artificial intelligence for technical readers. It follows new models from AI labs in the United States, Europe, China and elsewhere, new research, what people are building, technical essays and community discussion. Safety and policy are covered when they change what can be built or used; business news appears only in brief. Each day brings as many articles as the news supports, plus one digest.
 
 ## Who runs it
 
@@ -20,7 +20,7 @@ The site is published by Martin Seckar, an architect at IBM with twenty years of
 
 Articles are researched and drafted by AI models in an automated daily pipeline. The editorial rules the pipeline follows are written and maintained by the publisher:
 
-1. **Research.** Every morning the pipeline collects the previous 24 hours of AI news from official announcements, papers and established outlets, plus active discussions on Hacker News, Reddit and YouTube.
+1. **Research.** Every morning separate research passes cover lab releases, research papers, community projects, technical writing, community discussion, and safety, policy and industry news. News comes from the past 24 hours; papers, projects and essays from the past week, because they are announced in batches and noticed over several days. Sources are checked directly (lab pages, arXiv, Hugging Face, GitHub, Hacker News, Reddit), not only through a search engine.
 2. **Primary sources only.** Briefings and summaries, including the pipeline's own, are treated as pointers. A claim is written up only after the original publisher's page (release, paper, filing, repository) has been opened.
 3. **Format follows evidence.** A story backed only by the announcing company's own materials becomes a short news brief or a digest item. Longer analysis needs at least one independent source.
 4. **Editing.** A separate editing pass checks structure, clarity and claim labels before publication.

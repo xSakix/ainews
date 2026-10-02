@@ -69,12 +69,12 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
     title        = "AI News Daily"
     weight       = 1
     [languages.en.params]
-      description = "Source-checked AI news every morning: model releases, tools, research, business, policy and safety. Each article links its primary sources and labels every key claim."
+      description = "Source-checked AI news every morning: model releases from labs worldwide, research, what people are building, essays and community discussion. Each article links its primary sources and labels every key claim."
       DateFormat  = "2 January 2006"
       [languages.en.params.homeInfoParams]
         Title   = "AI News Daily"
         Content = """
-Source-checked AI news, every morning. Each day brings up to six articles and one digest on models, tools, research, business, policy and safety. Every article ends with a verification table that links the primary sources.
+Source-checked AI news, every morning. Each day brings articles and one digest on new models from labs worldwide, research, what people are building, technical essays and community discussion. Every article ends with a verification table that links the primary sources.
 
 [How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt) · [Slovenské vydanie](/sk/)
 """
@@ -107,12 +107,12 @@ Source-checked AI news, every morning. Each day brings up to six articles and on
     title        = "AI News Daily"
     weight       = 2
     [languages.sk.params]
-      description = "Správy o umelej inteligencii s overenými zdrojmi, každé ráno: nové modely, nástroje, výskum, biznis, regulácia a bezpečnosť. Každý článok odkazuje na primárne zdroje a pri kľúčových tvrdeniach uvádza, nakoľko sú overené."
+      description = "Správy o umelej inteligencii s overenými zdrojmi, každé ráno: nové modely z laboratórií z celého sveta, výskum, čo ľudia tvoria, eseje a diskusie komunity. Každý článok odkazuje na primárne zdroje a pri kľúčových tvrdeniach uvádza, nakoľko sú overené."
       DateFormat  = ":date_long"
       [languages.sk.params.homeInfoParams]
         Title   = "AI News Daily po slovensky"
         Content = """
-Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Každý deň až šesť článkov a jeden prehľad o modeloch, nástrojoch, výskume, biznise, regulácii a bezpečnosti. Každý článok končí tabuľkou overenia s odkazmi na primárne zdroje. Slovenské vydanie vzniká prekladom anglických článkov pomocou AI.
+Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Každý deň články a jeden prehľad o nových modeloch z laboratórií z celého sveta, výskume, o tom, čo ľudia tvoria, odborných esejach a diskusiách komunity. Každý článok končí tabuľkou overenia s odkazmi na primárne zdroje. Slovenské vydanie vzniká prekladom anglických článkov pomocou AI.
 
 [Ako pracujeme](/sk/about/) · [Archív](/sk/archives/) · [RSS kanál](/sk/index.xml) · [English edition](/)
 """

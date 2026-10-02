@@ -1,37 +1,32 @@
-You are conducting daily research on AI industry developments. Produce a comprehensive briefing of the most significant AI news from the past 24 hours, followed by a clean URL list for NotebookLM ingestion.
+You are one desk of the daily research team for AI News Daily. Each desk covers one beat in depth and produces its own briefing; triage merges the briefings afterwards. This file holds the rules every desk shares. Your desk file in `prompts/research-desks/` sets your scope, your recency window, where to look and your section headings. Read `prompts/editorial-profile.md` first: it says what the reader cares about. Look for that, not for what is merely big.
 
 ================================================================
 RECENCY (NON-NEGOTIABLE)
 
-Every source cited must be published within the past 24 hours of today's date. Up to 7 days is acceptable for community discussions (Hacker News, Reddit) where threads stay active for several days. If a source is older than this window, it does not belong in the briefing — even if the content is highly relevant. Do not pad with older "background" sources to round out coverage. If today's coverage of a topic is genuinely thin, the briefing should reflect that. An honest short briefing is better than padding with stale items.
+Every item must fall inside your desk's window. Unless the desk file says otherwise, the window is the past 24 hours. Verify each date on the source page itself:
+- inside the window: include if otherwise qualified;
+- before the window: exclude, even if highly relevant — do not rationalize it as context or "still being discussed";
+- date unclear or missing: exclude.
+
+Do not pad with older sources to round out coverage. If your beat is genuinely quiet today, the briefing says so. An honest short briefing is better than padding with stale items.
+
+Skip any item that already appears in a briefing from an earlier day in `reports/` or in a post in `content/posts/` (English posts only; ignore `*.sk.md`). Exception: a material new development — then the development is the item; say what is new.
 
 ================================================================
-RESEARCH SCOPE
+GO TO THE SOURCES, NOT THE SEARCH ENGINE
 
-Investigate AI developments across these areas. The list is a guide for breadth, not a quota — research what actually has news today.
+Search engines index new pages late. A paper announced on arXiv tonight, a repository created this morning or a model uploaded to Hugging Face an hour ago may not be findable by web search for days. Being absent from a search index is never a reason to drop or doubt an item.
 
-Frontier model releases and updates from OpenAI, Anthropic, Google DeepMind, Meta, xAI, Mistral, DeepSeek, Alibaba, and other major labs (both proprietary and open-source).
-
-New open-source models, frameworks, and tools on Hugging Face, GitHub, or via lab announcements.
-
-AI startup funding rounds, M&A activity, strategic partnerships, and notable enterprise deals.
-
-Significant research papers from arXiv, lab blogs, or conferences (ICML, NeurIPS, ICLR — only if relevant news this week).
-
-New AI agent frameworks, agentic tools, and automation platforms.
-
-Real-world enterprise AI deployments and case studies (only if newly reported, not evergreen marketing pages).
-
-Top discussions on Hacker News (news.ycombinator.com) and on r/LocalLLaMA and r/MachineLearning (use old.reddit.com URLs).
-
-Trending AI-related videos on YouTube uploaded in this window.
-Prioritize official announcements and tier-1 outlets (Reuters, The Information, TechCrunch, The Register, Bloomberg, Financial Times, official lab blogs) over aggregators and SEO content farms. Avoid "top X use cases" listicles and marketing landing pages — these are evergreen, not news.
-
+- Check the listing pages, feeds and APIs named in your desk file directly. Use web search to fill gaps, not as the only method.
+- If your browsing tool can only open pages that appeared in search results, fetch the page with a direct HTTP request instead (curl, wget, Python).
+- If a source is unreachable, try its alternatives from the desk file before giving up, and record the failure in the coverage note (see OUTPUT FORMAT).
 
 ================================================================
 SOURCE QUALITY RULES
 
-Cite specific articles, posts, or papers — never homepages, blog indexes, or subreddit roots.
+Cite specific articles, posts, papers, repositories, model pages or videos — never homepages, blog indexes, or subreddit roots.
+
+Prioritize primary sources: the lab's own post or model card, the paper, the repository, the regulator's page. For news that has no primary page, prefer tier-1 outlets (Reuters, The Information, TechCrunch, The Register, Ars Technica, Bloomberg, Financial Times) over aggregators and SEO content farms. Avoid "top X use cases" listicles and marketing landing pages — these are evergreen, not news.
 
 One announcement = one item, even if it includes multiple variants or rollouts.
 
@@ -41,54 +36,31 @@ For Hacker News, use https://news.ycombinator.com/item?id=[ID] (NOT thehackernew
 
 For Reddit, use https://old.reddit.com/r/[sub]/comments/[id]/[slug] format.
 
-For arXiv papers, link to https://arxiv.org/abs/[id] and confirm the paper was posted (not merely revised) within the recency window.
+For arXiv papers, cite https://arxiv.org/abs/[id] and date the paper by its first version (v1), never by a later revision. The papers desk file explains how to read the date and what to do when arxiv.org does not load.
 
+For Hugging Face models, cite the model page https://huggingface.co/[org]/[model]; for GitHub, the repository or release page.
 
 ================================================================
 OUTPUT FORMAT
 
 Begin the briefing with two header lines:
 Generated by: [your model identifier, e.g., gemini-3.1-pro]
-AI Briefing for [DD Month YYYY] — past 24 hours
+AI Briefing — [desk name] — [DD Month YYYY]
 
-Then produce the briefing under these section headings, in this order. Aim for 3–5 items per section. Lead each section with the most consequential item. Skip a section entirely (or note it briefly as quiet) if there's genuinely nothing newsworthy in this window.
-
-1. Model Releases
-
-
-2. Tools & Products
-
-
-3. Business & Industry
-
-
-4. Research & Technical
-
-
-5. AI Agents & Workflows
-
-
-6. Community Highlights — Hacker News
-
-
-7. Community Highlights — Reddit
-
-
-8. Trending YouTube Videos
-
-
+Then produce the briefing under the section headings your desk file lists, in that order. Lead each section with the item the editorial profile ranks highest. Skip a section, or note it in one line as quiet, if there's genuinely nothing in the window.
 
 For each item:
 
-[Headline] — [2–3 sentence summary: what happened and why it matters]. Source: [full URL]
+[Headline] — [2–3 sentence summary: what happened and why it matters to the reader described in the editorial profile]. [Any extra fields your desk file asks for.] Source: [full URL]
 
-Use 🚨 at the start of the bullet for genuinely major news only: frontier model launches, deals over $1B, major regulatory decisions, or significant security incidents. Do not sprinkle.
+Use 🚨 at the start of the bullet for genuinely major news only: frontier model launches, major open-weight releases, deals over $1B, major regulatory decisions, or significant security incidents. Do not sprinkle. 🚨 marks magnitude; it does not decide what gets written.
 
+After the last section, add a short coverage note under the heading `## Coverage`: which sources from your desk file you checked directly, which failed and what you used instead. One line per source group. This note is for triage and the publisher; it never reaches a post.
 
 ================================================================
 NOTEBOOKLM URL LIST (FINAL SECTION)
 
-After the briefing, add a separator and the heading:
+After the coverage note, add a separator and the heading:
 --- ## URLs for NotebookLM
 Below that heading, output every cited source URL as plain text. One URL per line. No bullets, no numbering, no markdown link syntax, no code blocks, no quotes — just bare URLs separated by newlines. Same order as items appeared in the briefing above. No duplicates.
 

@@ -16,7 +16,7 @@ import tomllib
 from pathlib import Path
 
 TAGS = {"models", "tools", "business", "research", "agents",
-        "policy", "safety", "hardware", "community"}
+        "policy", "safety", "hardware", "community", "projects", "essays"}
 
 # Pipeline notes that must never reach a published page.
 LEAKS = [
@@ -33,7 +33,7 @@ SK_SUFFIX = ".sk.md"
 SK_LEAKS = [
     (re.compile(r"pozn[áa]mk[ay]? prekladate[ľl]a|translat(or|ion)'?s? notes?", re.I), "translator notes"),
     (re.compile(r"\b(VERIFIED|PARTIALLY VERIFIED|VENDOR-REPORTED|UNVERIFIED)\b"), "English claim label (use OVERENÉ, ČIASTOČNE OVERENÉ, PODĽA SPOLOČNOSTI, NEOVERENÉ)"),
-    (re.compile(r"^## (Why it matters|Verification|In brief)\b"), "untranslated heading"),
+    (re.compile(r"^## (Why it matters|Verification|In brief|Releases|Research|What people are building|Worth reading|Business, briefly)\b"), "untranslated heading"),
 ]
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 URL = re.compile(r"https?://[^\s)\]|>\"]+")

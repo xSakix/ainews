@@ -11,7 +11,7 @@ ShowShareButtons = false
 comments = false
 +++
 
-AI News Daily je ranný prehľad správ o umelej inteligencii pre technicky zameraných čitateľov. Sleduje nové modely od AI laboratórií v USA, Európe, Číne aj inde, nový výskum, to, čo ľudia tvoria, odborné eseje a diskusie komunity. Bezpečnosť a reguláciu pokrýva vtedy, keď menia, čo sa dá vytvoriť alebo používať; správy zo sveta biznisu prináša iba stručne. Počet článkov sa riadi tým, čo sa v daný deň udialo, a k nim pribúda jeden denný prehľad.
+AI News Daily je ranný prehľad správ o umelej inteligencii pre technicky zameraných čitateľov. Každý deň prináša šesť článkov a jeden denný prehľad. Články sa venujú dôležitým novým modelom od AI laboratórií v USA, Európe, Číne aj inde, novému výskumu (najmä tomu, ako modely uvažujú, pamätajú si a učia sa), esejam, lokálne spúšťaným modelom a agentom a novým technikám promptovania. Prehľad prináša všetko ostatné, čo stojí za pozornosť: ďalšie modely a štúdie, to, čo ľudia tvoria, diskusie komunity, prednášky, bezpečnosť a reguláciu. Správy zo sveta biznisu prináša iba stručne.
 
 ## Kto za tým stojí
 
@@ -21,11 +21,12 @@ Stránku vydáva Martin Seckar, architekt v IBM s dvadsaťročnou praxou v oblas
 
 Články v automatizovanom dennom procese vyhľadávajú a píšu modely umelej inteligencie. Redakčné pravidlá, ktorými sa proces riadi, píše a udržiava vydavateľ:
 
-1. **Výskum.** Každé ráno nezávisle od seba hľadajú správy dva systémy umelej inteligencie, Claude od Anthropicu a GPT od OpenAI. Každý v samostatných rešeršiach pokryje nové modely z laboratórií, odborné štúdie, projekty komunity, odborné texty, diskusie komunity, prednášky a debaty na YouTube (v angličtine, nemčine, češtine a slovenčine) a správy o bezpečnosti, regulácii a biznise. Správy pochádzajú z posledných 24 hodín; štúdie, projekty, eseje a videá z posledného týždňa, pretože sa zverejňujú v dávkach a pozornosť získavajú postupne. Zdroje sa kontrolujú priamo (stránky laboratórií, arXiv, Hugging Face, GitHub, Hacker News, Reddit), nielen cez vyhľadávač. Články a denný prehľad vznikajú z výsledkov oboch systémov.
-2. **Iba primárne zdroje.** Súhrny a prehľady vrátane tých, ktoré vytvára samotný proces, slúžia len ako odkazy. O tvrdení sa píše až potom, keď proces otvorí stránku pôvodného vydavateľa (oznámenie, štúdiu, úradný dokument, repozitár).
-3. **Formát podľa dôkazov.** Správa, ktorú podopierajú iba materiály oznamujúcej firmy, vyjde ako krátka správa alebo položka v prehľade. Dlhšia analýza potrebuje aspoň jeden nezávislý zdroj.
-4. **Redakcia.** Samostatný redakčný krok pred zverejnením kontroluje štruktúru, zrozumiteľnosť a označenia tvrdení.
-5. **Preklad.** Slovenské vydanie vzniká prekladom hotových anglických článkov pomocou AI. Odkazy na zdroje a označenia overenia zostávajú rovnaké ako v origináli.
+1. **Výskum.** Každé ráno hľadá správy Claude od Anthropicu v samostatných rešeršiach, ktoré pokryjú nové modely z laboratórií, odborné štúdie, projekty komunity, odborné texty, diskusie komunity, prednášky a debaty na YouTube (v angličtine, nemčine, češtine a slovenčine) a správy o bezpečnosti, regulácii a biznise. Správy pochádzajú z posledných 24 hodín; štúdie, projekty, eseje a videá z posledného týždňa, pretože sa zverejňujú v dávkach a pozornosť získavajú postupne. Zdroje sa kontrolujú priamo (stránky laboratórií, arXiv, Hugging Face, GitHub, Hacker News, Reddit), nielen cez vyhľadávač.
+2. **Výber a písanie.** GPT od OpenAI vyberie šesť najsilnejších tém na články, ostatné zaradí do denného prehľadu a potom texty napíše, zredaguje a preloží.
+3. **Iba primárne zdroje.** Súhrny a prehľady vrátane tých, ktoré vytvára samotný proces, slúžia len ako odkazy. O tvrdení sa píše až potom, keď proces otvorí stránku pôvodného vydavateľa (oznámenie, štúdiu, úradný dokument, repozitár).
+4. **Formát podľa dôkazov.** Správa, ktorú podopierajú iba materiály oznamujúcej firmy, vyjde ako krátka správa alebo položka v prehľade. Dlhšia analýza potrebuje aspoň jeden nezávislý zdroj.
+5. **Redakcia.** Samostatný redakčný krok pred zverejnením kontroluje štruktúru, zrozumiteľnosť a označenia tvrdení.
+6. **Preklad.** Slovenské vydanie vzniká prekladom hotových anglických článkov pomocou AI. Odkazy na zdroje a označenia overenia zostávajú rovnaké ako v origináli.
 
 ## Označenia overenia
 

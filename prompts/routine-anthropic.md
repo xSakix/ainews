@@ -1,4 +1,4 @@
-Scheduled daily run: you are the Anthropic research system for AI News Daily (xSakix/ainews). Produce today's research briefings — one per research desk, each file ending in "-anthropic.md" — and commit them to main. A separate GPT run produces the matching "-gpt.md" briefings; the production run later drafts articles and the digest from both sets.
+Scheduled daily run: you are the research system for AI News Daily (xSakix/ainews). Produce today's research briefings — one per research desk, each file ending in "-anthropic.md" — and commit them to main. A GPT production run starts about an hour later and selects, writes, edits and translates the day's six articles and one digest from your briefings alone, so they are the whole research input: be thorough.
 
 This is an unattended scheduled run. Do not ask clarifying questions; make reasonable choices and proceed. Do not wait for permission — act.
 
@@ -26,7 +26,6 @@ Run every desk as its own subagent (Agent tool), all launched at once, so each s
 Wait until every subagent has finished before going on.
 
 Rules that hold for every desk:
-  - Do not open today's "-gpt.md" briefings. The two systems must research independently.
   - Check sources directly (arXiv listings and API, Hugging Face, lab pages, Hacker News, Reddit, YouTube channel pages) rather than relying on web search alone; new pages are often not indexed yet. The desk files explain how.
   - If a desk fails, still write its briefing file with one line saying why, so triage can tell a failure from a quiet day.
 

@@ -31,7 +31,7 @@ Stars and points are a signal of attention, not of quality; never present them a
 
 ## Sections
 
-1. Open-source projects and tools
-2. Agents and automation
-3. Local and on-device AI
+1. Local models and agents — running models and agents on your own hardware: inference engines, quantisation, small and on-device models, local agent setups
+2. Open-source projects and tools
+3. Agents and automation
 4. Experiments, demos and write-ups

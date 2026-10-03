@@ -74,7 +74,7 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
       [languages.en.params.homeInfoParams]
         Title   = "AI News Daily"
         Content = """
-Source-checked AI news, every morning. Each day brings articles and one digest on new models from labs worldwide, research, what people are building, technical essays and community discussion. Every article ends with a verification table that links the primary sources.
+Source-checked AI news, every morning. Each day brings six articles and one digest on new models from labs worldwide, research, essays, local models and agents, and prompting techniques. Every article ends with a verification table that links the primary sources.
 
 [How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt) · [Slovenské vydanie](/sk/)
 """
@@ -112,7 +112,7 @@ Source-checked AI news, every morning. Each day brings articles and one digest o
       [languages.sk.params.homeInfoParams]
         Title   = "AI News Daily po slovensky"
         Content = """
-Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Každý deň články a jeden prehľad o nových modeloch z laboratórií z celého sveta, výskume, o tom, čo ľudia tvoria, odborných esejach a diskusiách komunity. Každý článok končí tabuľkou overenia s odkazmi na primárne zdroje. Slovenské vydanie vzniká prekladom anglických článkov pomocou AI.
+Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Každý deň šesť článkov a jeden prehľad o nových modeloch z laboratórií z celého sveta, výskume, esejach, lokálnych modeloch a agentoch a technikách promptovania. Každý článok končí tabuľkou overenia s odkazmi na primárne zdroje. Slovenské vydanie vzniká prekladom anglických článkov pomocou AI.
 
 [Ako pracujeme](/sk/about/) · [Archív](/sk/archives/) · [RSS kanál](/sk/index.xml) · [English edition](/)
 """

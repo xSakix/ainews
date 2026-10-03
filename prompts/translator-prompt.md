@@ -117,6 +117,7 @@ Fixed headings and phrases:
 | `## Verification` | `## Overenie {#verification}` |
 | `## Releases` | `## Nové modely a vydania` |
 | `## Research` | `## Výskum` |
+| `## Prompting techniques` | `## Techniky promptovania` |
 | `## What people are building` | `## Čo ľudia tvoria` |
 | `## Worth reading` | `## Stojí za prečítanie` |
 | `## In brief` | `## Stručne` |

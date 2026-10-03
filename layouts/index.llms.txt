@@ -6,7 +6,7 @@
 
 > {{ site.Params.description }}
 
-AI News Daily publishes articles and one digest every morning (Europe/Bratislava time), focused on model releases from AI labs worldwide, research papers, what people are building, technical essays and community discussion. Each article ends with a verification table in which every checkable claim carries one label and a link to its primary source. Articles are researched and drafted with AI models under the editorial rules described on the About page.
+AI News Daily publishes six articles and one digest every morning (Europe/Bratislava time), focused on model releases from AI labs worldwide, research papers, essays, local models and agents, and prompting techniques. Each article ends with a verification table in which every checkable claim carries one label and a link to its primary source. Articles are researched and drafted with AI models under the editorial rules described on the About page.
 {{ if $sk }}
 This is the Slovak edition: AI translations of the English articles, with the same sources and labels. Slovak labels: OVERENÉ (verified), ČIASTOČNE OVERENÉ (partially verified), PODĽA SPOLOČNOSTI (vendor-reported), NEOVERENÉ (unverified). The English original is indexed at {{ "llms.txt" | absURL }}.
 {{ else }}

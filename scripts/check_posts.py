@@ -33,7 +33,7 @@ SK_SUFFIX = ".sk.md"
 SK_LEAKS = [
     (re.compile(r"pozn[áa]mk[ay]? prekladate[ľl]a|translat(or|ion)'?s? notes?", re.I), "translator notes"),
     (re.compile(r"\b(VERIFIED|PARTIALLY VERIFIED|VENDOR-REPORTED|UNVERIFIED)\b"), "English claim label (use OVERENÉ, ČIASTOČNE OVERENÉ, PODĽA SPOLOČNOSTI, NEOVERENÉ)"),
-    (re.compile(r"^## (Why it matters|Verification|In brief|Releases|Research|What people are building|Worth reading|Business, briefly)\b"), "untranslated heading"),
+    (re.compile(r"^## (Why it matters|Verification|In brief|Releases|Research|Prompting techniques|What people are building|Worth reading|Business, briefly)\b"), "untranslated heading"),
 ]
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 URL = re.compile(r"https?://[^\s)\]|>\"]+")

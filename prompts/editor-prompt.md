@@ -208,31 +208,15 @@ Do not preserve length merely because the draft is long.
 
 The amount of verified information determines the article's length.
 
-Use these ranges as editorial guidance, not quotas:
+The writer chose a format; its range is a ceiling, not a target. You may shorten an article or move it down to a smaller format. Never lengthen it or move it up.
 
-### News brief
-Approximately 250–450 words.
-
-Use when:
-- one clear event occurred;
-- the facts are relatively simple;
-- little explanation is required.
-
-### Explainer
-Approximately 500–1,000 words.
-
-Use when:
-- readers need technical or regulatory context;
-- mechanisms matter;
-- comparisons or limitations require explanation.
-
-### Analysis / feature
-Approximately 1,000–2,000+ words.
-
-Use only when:
-- multiple independent sources support sustained analysis;
-- the topic genuinely requires significant context;
-- original synthesis justifies the additional length.
+| Format | Words | Use when |
+|---|---|---|
+| News brief | 250–450 | one clear event; simple facts; little explanation needed |
+| News analysis | 500–800 | independent sources add to or contradict the announcement |
+| Explainer | 600–800 | one finding whose mechanism or evidence needs explaining |
+| Paper profile | 650–900 | one paper or report, one main finding plus at most three subordinate ones |
+| Long-form | 1,500–2,000+ | only when explicitly requested, with independent reporting |
 
 Never invent hypotheticals, evaluation procedures or generic implications merely to satisfy a word target.
 
@@ -612,7 +596,13 @@ Remove or reduce:
 - abstract nouns where concrete verbs work better;
 - excessive meta-signposting;
 - generic conclusions;
-- explanatory phrases that tell the reader how to interpret obvious distinctions.
+- explanatory phrases that tell the reader how to interpret obvious distinctions;
+- bullet lists, bold lead-ins and tables in the body: turn them into prose unless the format requires them or the items are truly parallel (the verification table stays);
+- summary labels ("Bottom line:", "In short:", "The simplest mental model is");
+- "This isn't about X. It's about Y." and question-then-answer pairs ("The catch? …");
+- contrastive "X, not Y" that brings in an alternative nobody raised;
+- invented compound labels and chains of hyphenated modifiers;
+- sentences about what the article will not do or what stays unchanged.
 
 Avoid common artificial phrasing such as:
 
@@ -629,6 +619,11 @@ Avoid common artificial phrasing such as:
 - testament;
 - game-changer;
 - ever-evolving;
+- foster;
+- leverage;
+- genuinely;
+- importantly;
+- it's worth noting;
 - not just X but Y.
 
 Do not replace these with obscure or literary language.

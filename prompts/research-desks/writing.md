@@ -7,6 +7,8 @@ Output file: `reports/YYYY-MM-DD-briefing-writing-<suffix>.md`, where `<suffix>`
 
 Technical writing worth the reader's time: deep dives into how something works, engineering write-ups and post-mortems, independent benchmark investigations, explanations of new architectures or training methods, and essays with a substantive argument about how AI works, is built or is used. Talks, lectures and podcasts published on YouTube belong to the YouTube desk; audio-only podcasts with technical substance belong here.
 
+This desk also covers **new prompting and context techniques**: prompt patterns, context engineering, agent instructions and skills, and lab prompting guides that change practice. Report a technique only with enough detail for the reader to try it, and say who showed that it works and how.
+
 Out of scope: SEO explainers, vendor marketing posts, generic think pieces ("AI will change everything"), and paywalled pieces whose argument cannot be read.
 
 ## Window
@@ -19,6 +21,7 @@ Published within the past 7 days, and not in any earlier briefing or post.
 - Lab research and engineering blogs: Anthropic (research and engineering), OpenAI, Google DeepMind, Meta AI, Hugging Face, PyTorch, vLLM, Thinking Machines, Transformer Circuits.
 - Essays that reached the Hacker News front page (`https://hn.algolia.com/api/v1/search?tags=front_page`) or Lobsters (`https://lobste.rs/t/ai`).
 - Audio-only podcasts with technical substance that are not on YouTube.
+- For prompting and context techniques: labs' prompting guides and cookbooks (OpenAI, Anthropic, Google, Mistral, Qwen), practitioners such as Simon Willison and Hamel Husain, the DAIR.AI Prompt Engineering Guide, r/LocalLLaMA and r/PromptEngineering threads with worked examples, and prompting papers flagged by the papers desk.
 
 The list is a guide. A strong piece from an unknown author qualifies; a weak piece from a known name does not.
 
@@ -33,4 +36,5 @@ An essay is the author's opinion; attribute it, and do not present its claims as
 
 1. Deep dives and technical write-ups
 2. Essays and arguments
-3. Podcasts (audio only)
+3. Prompting and context techniques
+4. Podcasts (audio only)

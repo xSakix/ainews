@@ -7,6 +7,8 @@ Output file: `reports/YYYY-MM-DD-briefing-papers-<suffix>.md`, where `<suffix>` 
 
 New research worth a deep dive: papers on arXiv and elsewhere, lab research posts, technical reports and datasets. Pick what a technical reader would want explained — a new method, a surprising result, a careful negative result, an interpretability or evaluation insight, a new dataset or benchmark that changes how something is measured. Skip incremental leaderboard gains and surveys with no new finding.
 
+Look hardest for the cognitive side of AI: how models reason, plan, remember, learn and represent knowledge; metacognition, self-knowledge and calibration; theory of mind and cognitive biases in models; comparisons with human cognition and neuroscience; interpretability of what happens inside a model while it thinks. Also flag papers that introduce a new prompting or context technique the reader could try.
+
 Any institution qualifies: universities, big labs, small labs, independent researchers, in any country.
 
 ## Window
@@ -19,7 +21,7 @@ Why 7 days and not 24 hours: arXiv announces papers in batches at 20:00 US Easte
 
 Check these directly; do not rely on web search to find new papers (see "Go to the sources" in `prompts/research-prompt.md`).
 
-- arXiv listings: `https://arxiv.org/list/<category>/new` for today's batch and `https://arxiv.org/list/<category>/pastweek?show=2000` for the week, for cs.CL, cs.LG, cs.AI, cs.CV, cs.MA, cs.CR, cs.RO and stat.ML.
+- arXiv listings: `https://arxiv.org/list/<category>/new` for today's batch and `https://arxiv.org/list/<category>/pastweek?show=2000` for the week, for cs.CL, cs.LG, cs.AI, cs.CV, cs.MA, cs.CR, cs.RO and stat.ML, plus q-bio.NC (neurons and cognition) and cs.NE for cognitive-side work.
 - arXiv API, sorted by submission date: `https://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=200` (change the category as needed).
 - Hugging Face Daily Papers: `https://huggingface.co/papers`, or `https://huggingface.co/api/daily_papers?date=YYYY-MM-DD` for each day in the window. Community upvotes are a signal of interest, not of quality.
 - alphaXiv (`https://www.alphaxiv.org/`) for papers with active discussion.
@@ -37,7 +39,7 @@ Check these directly; do not rely on web search to find new papers (see "Go to t
 ## What to report
 
 Aim for 5–10 papers. For each item, the summary states the one finding in plain words and why it is interesting. Then add one line:
-`Authors: [lead institution(s)] · First submitted: [v1 date] · Artefacts: [code / data / weights / none]`
+`Authors: [lead institution(s)] · First submitted: [v1 date] · Artefacts: [code / data / weights / none] · Cognitive side: [yes / no]`
 
 Prefer papers with released code, data or weights: the reader can inspect them, and the writer can explain them.
 

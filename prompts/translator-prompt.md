@@ -24,7 +24,7 @@ The Slovak article carries exactly the same information as the English one. Thes
 - Prefer an established Slovak word over an anglicism; keep an English technical term only when Slovak technology media use it (see <terminology>). On its first use, a lesser-known English term may get a short Slovak gloss in parentheses.
 - Decline foreign company and product names where it sounds natural (Google → Googlu, Googlom; Microsoft → Microsoftu; Nvidia → Nvidie). Where a declined form sounds forced (OpenAI, xAI, Anthropic, HPE), use an apposition: „spoločnosť OpenAI“, „firma Anthropic“, „spoločnosti HPE“.
 - Headlines and subheads use Slovak sentence case: only the first word and proper names start with a capital letter.
-- Avoid calques: "plays a role" → „zohráva úlohu“ only if natural, otherwise rephrase; "in terms of" → rephrase; "it is worth noting" → drop.
+- Avoid calques: "plays a role" → „zohráva úlohu“ only if natural, otherwise rephrase; "in terms of" → rephrase; "it is worth noting" → drop. Stock phrases read as artificial in Slovak too: no summary labels („V skratke:“, „Zhrnutie:“), no „Nejde o X, ide o Y“, no question-then-answer pairs („Háčik? …“).
 </slovak_style>
 
 <formats>
@@ -103,7 +103,7 @@ draft = false
 - title: the English headline's meaning in natural Slovak; actor + action; at most 70 characters; sentence case.
 - slug: the Slovak title in lowercase ASCII (strip diacritics: á→a, ä→a, č→c, ď→d, é→e, í→i, ĺ→l, ľ→l, ň→n, ó→o, ô→o, ŕ→r, š→s, ť→t, ú→u, ý→y, ž→z), words joined by hyphens, at most 60 characters. If it is longer, drop the least informative words; never end on a preposition or conjunction. Drop symbols such as $ and %, and write a decimal number with a hyphen (1,2 → 1-2).
 - description: the dek in one or two complete Slovak sentences.
-- tags and date: identical to the English file. Never translate tags.
+- tags and date: identical to the English file. Never translate tags. If the English file has no `date` line yet, leave it out too; it is added to both files later.
 
 BODY — the same blocks in the same order: the same paragraphs, headings, lists, list items and table rows.
 

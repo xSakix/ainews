@@ -36,3 +36,5 @@ NEWS BRIEF shortened by editor because this is a compact opinion essay. Opened t
 Infrastructure: shell git push has no credentials; publication uses the connected GitHub plugin to create a tree and commit and fast-forward main with force=false. Each post remains a separate atomic commit with its plan/log changes.
 
 Translation notes: aleph-alpha-releases-open-weight-kolibri.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.
+
+Translation notes: zou-team-traces-how-models-report-internal-changes.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.

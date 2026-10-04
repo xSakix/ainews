@@ -10,3 +10,6 @@ Replaced the broad stop-thinking headline with reference tracking. Distinguished
 
 ## Mingbird adds skills to its local agent harness
 Removed the assertion that all small-model failures are harness defects. Added the self-built benchmark boundary and separated regression tests from model-performance evidence. Closed on the Windows fix instead of a generic test recommendation.
+
+## Kevin Liao proposes document-based agent memory
+Changed sweeping anti-memory claims into attribution. Added the implementation's sparse-start and update-roadmap disclosures, and identified the author as the project's advocate. Kept the pattern concrete and avoided presenting experience as an experiment.

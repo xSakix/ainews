@@ -23,3 +23,6 @@ EXPLAINER. Read HTML introduction, task, scoring, adaptation details, relay and 
 
 ## Mingbird adds skills to its local agent harness
 NEWS BRIEF. Opened README, changelog and reproduce_one guide. Gate: readers learn what v1.9 adds and how its harness supports small local models. Hero result remains author-reported, avoids the promotional 48x ratio. Licence verified in repository metadata. Did not run the hardware benchmark. Gate passed; strict post check passed. No independent reproduction claimed.
+
+## Kevin Liao proposes document-based agent memory
+NEWS BRIEF reporting an attributed technique and opinion. Opened Liao essay directly after browser failure and read Operator Memory README. Gate: readers learn the consult/build/update document pattern and its maintenance dependency. No comparative performance numbers or universal RAG failure claim accepted. Gate passed; strict post check passed. No independent reproduction claimed.

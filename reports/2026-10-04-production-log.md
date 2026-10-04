@@ -42,3 +42,5 @@ Translation notes: zou-team-traces-how-models-report-internal-changes.sk.md — 
 Translation notes: georgia-tech-team-extends-model-reference-tracking.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.
 
 Translation notes: mingbird-adds-skills-to-its-local-agent-harness.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.
+
+Translation notes: kevin-liao-proposes-document-based-agent-memory.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.

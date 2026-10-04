@@ -22,6 +22,12 @@ Two AI systems share the work. **Claude researches**: a scheduled Claude routine
 
 **Read sources in parts.** Never print more than about 8,000 characters of a source at once; search a long file (`grep`, `sed -n`) and read the parts the article needs. For a paper, read the abstract, introduction, method overview, main results and limitations, preferably from arXiv's HTML version (`https://arxiv.org/html/<id>`), not the whole PDF. For a repository, read the README and the files the claims rest on. For a web page, read the main text, not the navigation. While selecting, a source's abstract or announcement is enough; deeper reading waits until you write the article.
 
+**Thinking discipline.** These rules cut wasted reasoning; they never replace a check another prompt requires (the writer's ARITHMETIC check, the editor's fact pass, `scripts/check_posts.py`).
+- *Finish one approach before switching.* Carry the current choice (a selection, a format, a structure) to a conclusion. Change course only for an obstacle you can name in one line.
+- *Doubt is not evidence.* Reopen a settled fact, choice or sentence only for a concrete reason you can name in one line: a source that contradicts it, a failing check, a specific error ("X is wrong because Y"), or a calculation that gives a different result. A vague feeling that something might be off is not a reason; a primary source you have not opened yet is — open it.
+- *Verify against outside facts, not by rethinking.* When the answer is in a source, the plan, a log or a command's output, look it up and let that decide. Do not spend tokens re-arguing what a quick check can settle.
+- *New evidence reopens the case.* When a source or check contradicts settled work, fix it and note in the production log what changed.
+
 ## Editorial profile
 
 `prompts/editorial-profile.md` says what the site covers, which focus areas the six daily articles come from (major releases, research with an emphasis on the cognitive side, essays, local models and agents, prompting and context techniques), and what goes into the digest. Read it before Task B.

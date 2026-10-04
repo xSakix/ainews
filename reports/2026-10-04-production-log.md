@@ -46,3 +46,12 @@ Translation notes: mingbird-adds-skills-to-its-local-agent-harness.sk.md — ful
 Translation notes: kevin-liao-proposes-document-based-agent-memory.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.
 
 Translation notes: simon-willison-calls-for-default-agent-spending-caps.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.
+
+Translation notes: ai-daily-digest-for-4-october-2026.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.
+
+## Completion
+Pass 1 complete: six English articles and one digest. Pass 2 complete: all seven Slovak twins; no missing twins from 2–3 October. The six legacy YAML posts' titles and openings were also read; none duplicates today's selected events (219 pre-existing English posts in total, of which 213 use TOML).
+
+Final validation: all 14 new posts pass scripts/check_posts.py --strict; TOML, descriptions, allowed tags, absence of pipeline leaks, Slovak slug, shared date/tags, exact source URL multisets and required heading IDs passed. Paragraph/heading/table-row counts match between editions. Numeric-token comparison matches after accounting for Slovak decimal/thousands formatting and the proper channel name 80,000 Hours, which remains unchanged. git diff --check passed. Hugo is not installed in this workspace, so a full Hugo build was not run; remote deployment success is not claimed.
+
+Production finished using the existing seven desk reports, with primary-source reporting for articles, the controlling prompt's briefing exception for digest items, and a separate commit per finished file. No fallback research report was needed.

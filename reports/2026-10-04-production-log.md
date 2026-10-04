@@ -38,3 +38,5 @@ Infrastructure: shell git push has no credentials; publication uses the connecte
 Translation notes: aleph-alpha-releases-open-weight-kolibri.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.
 
 Translation notes: zou-team-traces-how-models-report-internal-changes.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.
+
+Translation notes: georgia-tech-team-extends-model-reference-tracking.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.

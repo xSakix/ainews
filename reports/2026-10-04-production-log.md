@@ -26,3 +26,6 @@ NEWS BRIEF. Opened README, changelog and reproduce_one guide. Gate: readers lear
 
 ## Kevin Liao proposes document-based agent memory
 NEWS BRIEF reporting an attributed technique and opinion. Opened Liao essay directly after browser failure and read Operator Memory README. Gate: readers learn the consult/build/update document pattern and its maintenance dependency. No comparative performance numbers or universal RAG failure claim accepted. Gate passed; strict post check passed. No independent reproduction claimed.
+
+## Simon Willison calls for default agent spending caps
+NEWS BRIEF shortened by editor because this is a compact opinion essay. Opened the essay and attempted its AWS documentation and Google Cloud links; both returned Site Unavailable. Provider claims kept as Willison's account and labelled UNVERIFIED. Gate: readers learn his default-stop/explicit-opt-out proposal. No provider-wide cap coverage asserted. Gate passed; strict post check passed. No independent reproduction claimed.

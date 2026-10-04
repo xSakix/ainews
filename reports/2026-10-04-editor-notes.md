@@ -13,3 +13,6 @@ Removed the assertion that all small-model failures are harness defects. Added t
 
 ## Kevin Liao proposes document-based agent memory
 Changed sweeping anti-memory claims into attribution. Added the implementation's sparse-start and update-roadmap disclosures, and identified the author as the project's advocate. Kept the pattern concrete and avoided presenting experience as an experiment.
+
+## Simon Willison calls for default agent spending caps
+Cut speculative runaway bills and the unsupported appearance of universal provider caps. Shortened below the usual brief range to preserve the evidence and source budget. Product references remain attributed; the final paragraph ends on the proposed user choice.

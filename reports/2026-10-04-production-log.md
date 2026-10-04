@@ -17,3 +17,6 @@ NEWS BRIEF. Opened model card and weight repository; inspected architecture, lic
 
 ## Zou team traces how models report internal changes
 EXPLAINER. Read HTML abstract, introduction, setup, head interventions, discussion and limitations. Corrected the briefing's omission of code. Gate: readers learn why detecting an internal intervention and verbally reporting it can diverge. All experimental results use VENDOR-REPORTED as the closed-set label for authors' own results. No independent replication found or implied. Gate passed; strict post check passed. No independent reproduction claimed.
+
+## Georgia Tech team extends model reference tracking
+EXPLAINER. Read HTML introduction, task, scoring, adaptation details, relay and placement results, and limitations. Gate: readers learn that reference-chain failure can be changed by a small intervention using frozen layers. Hero comparison checked as 15.5 to 99 percentage-point scores, not a general reasoning multiplier. No evidence of independent replication. Gate passed; strict post check passed. No independent reproduction claimed.

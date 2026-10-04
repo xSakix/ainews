@@ -7,3 +7,6 @@ Cut consciousness framing and an unsupported general self-awareness claim. Kept 
 
 ## Georgia Tech team extends model reference tracking
 Replaced the broad stop-thinking headline with reference tracking. Distinguished exact from choice scoring and kept task-specific training beside the hero result. Removed wider claims about intelligence and shortened secondary loop results.
+
+## Mingbird adds skills to its local agent harness
+Removed the assertion that all small-model failures are harness defects. Added the self-built benchmark boundary and separated regression tests from model-performance evidence. Closed on the Windows fix instead of a generic test recommendation.

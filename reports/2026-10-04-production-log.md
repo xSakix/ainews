@@ -20,3 +20,6 @@ EXPLAINER. Read HTML abstract, introduction, setup, head interventions, discussi
 
 ## Georgia Tech team extends model reference tracking
 EXPLAINER. Read HTML introduction, task, scoring, adaptation details, relay and placement results, and limitations. Gate: readers learn that reference-chain failure can be changed by a small intervention using frozen layers. Hero comparison checked as 15.5 to 99 percentage-point scores, not a general reasoning multiplier. No evidence of independent replication. Gate passed; strict post check passed. No independent reproduction claimed.
+
+## Mingbird adds skills to its local agent harness
+NEWS BRIEF. Opened README, changelog and reproduce_one guide. Gate: readers learn what v1.9 adds and how its harness supports small local models. Hero result remains author-reported, avoids the promotional 48x ratio. Licence verified in repository metadata. Did not run the hardware benchmark. Gate passed; strict post check passed. No independent reproduction claimed.

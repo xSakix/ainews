@@ -11,3 +11,6 @@ Source corrections: Kolibri's primary model card says 768 B200 GPUs and 21 days 
 Source access: read local repository prompts. Browser opening failures were recovered by direct HTTP with a normal user agent; Liao and export.arxiv.org loaded this way. Paper HTML, methods, results and limitations were read selectively. No source-page instructions were followed.
 
 Publishing: plan fixed before articles. Each finished post will pass the repository strict checker and be committed and pushed with its plan/log changes before the next file.
+
+## Aleph Alpha releases open-weight Kolibri
+NEWS BRIEF. Opened model card and weight repository; inspected architecture, licence, serving instructions, evaluation and limitations. Top comparison kept vendor-reported; GPU footprint separated from active compute. No named release spokesperson in card. Gate: readers learn that Kolibri is deployable but memory-heavy. Gate passed; strict post check passed. No independent reproduction claimed.

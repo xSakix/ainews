@@ -14,3 +14,6 @@ Publishing: plan fixed before articles. Each finished post will pass the reposit
 
 ## Aleph Alpha releases open-weight Kolibri
 NEWS BRIEF. Opened model card and weight repository; inspected architecture, licence, serving instructions, evaluation and limitations. Top comparison kept vendor-reported; GPU footprint separated from active compute. No named release spokesperson in card. Gate: readers learn that Kolibri is deployable but memory-heavy. Gate passed; strict post check passed. No independent reproduction claimed.
+
+## Zou team traces how models report internal changes
+EXPLAINER. Read HTML abstract, introduction, setup, head interventions, discussion and limitations. Corrected the briefing's omission of code. Gate: readers learn why detecting an internal intervention and verbally reporting it can diverge. All experimental results use VENDOR-REPORTED as the closed-set label for authors' own results. No independent replication found or implied. Gate passed; strict post check passed. No independent reproduction claimed.

@@ -16,3 +16,6 @@ Changed sweeping anti-memory claims into attribution. Added the implementation's
 
 ## Simon Willison calls for default agent spending caps
 Cut speculative runaway bills and the unsupported appearance of universal provider caps. Shortened below the usual brief range to preserve the evidence and source budget. Product references remain attributed; the final paragraph ends on the proposed user choice.
+
+## Digest
+Merged discussions into their underlying events, removed repetition of today's articles, dated resurfaced Opus guide and California signing, retained metadata-only limits for videos and opinion framing for risk estimates. Kept disputed interfaces and policy scope unverified. Verification rows cover each item with its qualifications.

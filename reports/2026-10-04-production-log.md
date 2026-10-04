@@ -29,3 +29,8 @@ NEWS BRIEF reporting an attributed technique and opinion. Opened Liao essay dire
 
 ## Simon Willison calls for default agent spending caps
 NEWS BRIEF shortened by editor because this is a compact opinion essay. Opened the essay and attempted its AWS documentation and Google Cloud links; both returned Site Unavailable. Provider claims kept as Willison's account and labelled UNVERIFIED. Gate: readers learn his default-stop/explicit-opt-out proposal. No provider-wide cap coverage asserted. Gate passed; strict post check passed. No independent reproduction claimed.
+
+## Digest
+65 merged items from all seven desks, each with its source and attribution. Each entry was matched by URL to the desk briefing. Removed duplicate article coverage, Box²-Bench, previously covered Vienna talk, and unconfirmed Gemini pricing. Merged steganography writing into paper, COSMIC policy into its HN discussion. Doubt checks: BleepingComputer loaded and confirms its report is an unconfirmed hidden test; Neowin returned 402, so COSMIC remains an attributed HN discussion, not an established policy scope. Robinson date corroborated; use TechCrunch reporting, not an unchecked Atlantic essay. Video descriptions only, with channel and language in every item. AWS transparency is one business sentence, not an article. Strict check passed.
+
+Infrastructure: shell git push has no credentials; publication uses the connected GitHub plugin to create a tree and commit and fast-forward main with force=false. Each post remains a separate atomic commit with its plan/log changes.

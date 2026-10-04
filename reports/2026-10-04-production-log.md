@@ -44,3 +44,5 @@ Translation notes: georgia-tech-team-extends-model-reference-tracking.sk.md — 
 Translation notes: mingbird-adds-skills-to-its-local-agent-harness.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.
 
 Translation notes: kevin-liao-proposes-document-based-agent-memory.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.
+
+Translation notes: simon-willison-calls-for-default-agent-spending-caps.sk.md — full paragraph and table fidelity review; numbers and claim strength preserved, URL counts, tags, date, heading IDs and structure checks passed.

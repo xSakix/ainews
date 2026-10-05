@@ -11,3 +11,7 @@ Reframed around the sensitivity-versus-targeting distinction, defined the paired
 ## Examples amplify a symbolic circuit already in models
 
 Centred the explanation on stable topology versus growing causal signal, explained the three stages in ordinary language, and used the retrieval ablation to show why the function vector is not an injected answer. Narrowed the conclusion to the task family tested.
+
+## Strata fork revives an IBM AI server for local LLMs
+
+Focused the article on the machine-to-model fit rather than headline speed, separated prefill from decoding, and retained the non-portability and upstream-support caveats. Removed the unavailable Reddit comparison against stock llama.cpp.

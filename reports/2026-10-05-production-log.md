@@ -21,3 +21,7 @@ EXPLAINER. Read the preprint's abstract, introduction, intervention, experimenta
 ## Examples amplify a symbolic circuit already in models
 
 EXPLAINER. Read the preprint's abstract, introduction, circuit method, amplification results, cross-shot patching, function-vector intervention, discussion and limitations. Gate: readers learn the difference between a circuit appearing and its signal becoming strong enough to drive behaviour. All numerical results are VENDOR-REPORTED. The article confines the conclusion to the tested symbolic tasks and notes the incomplete analogy-task generalisation check.
+
+## Strata fork revives an IBM AI server for local LLMs
+
+NEWS BRIEF. Opened the AC922 branch README, repository metadata and technical notes; the Reddit page was blocked, so no claim unique to the post was used. Gate: readers learn how the fork maps sparse experts onto the AC922 memory topology. Builder measurements are COMMUNITY-REPORTED and explicitly non-portable. Code and MIT licence are present; the implementation was not run independently.

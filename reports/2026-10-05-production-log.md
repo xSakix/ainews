@@ -13,3 +13,7 @@ Publishing: the plan is fixed. Each finished post will pass the strict repositor
 ## bilibili expands Index-Translate with local builds
 
 NEWS BRIEF. Opened the repository README, 35B-A3B preview model card and technical-report metadata. Restricted the news peg to the 3–4 October API, benchmark and quantised-package additions; did not recast the 30 September family launch as new. Gate: readers learn what became deployable and what the released evaluation can and cannot establish. Performance remains VENDOR-REPORTED. No independent reproduction claimed.
+
+## Confidence cues steer models more than competence does
+
+EXPLAINER. Read the preprint's abstract, introduction, intervention, experimental setup, results, controls, discussion and reproducibility statement. Gate: readers learn the difference between a cue that changes delegation and a cue that identifies when delegation is needed. All experimental results are VENDOR-REPORTED because this is the authors' preprint; no independent replication found. Code is promised upon publication, not presently linked.

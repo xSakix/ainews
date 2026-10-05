@@ -29,3 +29,7 @@ NEWS BRIEF. Opened the AC922 branch README, repository metadata and technical no
 ## Wagtail's one-model month spent half its tokens elsewhere
 
 NEWS BRIEF reporting a measured practitioner account. Opened the Wagtail essay and read its usage, failure, infrastructure, benchmark and takeaway sections. Gate: readers learn why a sound model budget failed at workflow level. Cost and energy figures are COMMUNITY-REPORTED; praise for the model is OPINION. No general cost claim is made.
+
+## Matthew Green says agent sandboxes need a warden
+
+NEWS BRIEF reporting an attributed security argument. Opened the complete essay and read its incident framing, two established camps, three arguments and conclusion. Gate: readers learn why permitted information channels move the hard problem from walls to authorisation. Green's claims are OPINION unless they describe the text or its cited design; the agent-worm scenario is presented as a prediction. No independent incident investigation is implied.

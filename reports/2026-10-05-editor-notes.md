@@ -19,3 +19,7 @@ Focused the article on the machine-to-model fit rather than headline speed, sepa
 ## Wagtail's one-model month spent half its tokens elsewhere
 
 Made the failed constraint, not the model review, the spine. Kept usage figures together with their self-reported status, distinguished accidental prototype spend from deliberate evaluation, and ended on the surrounding-workflow lesson.
+
+## Matthew Green says agent sandboxes need a warden
+
+Reframed the essay around the authorisation boundary, retained Green's admission that he is synthesising reports outside his main field, and distinguished necessary containment from sufficient control. Marked the worm scenario as opinion rather than a demonstrated event.

@@ -43,3 +43,5 @@ Translation notes: bilibili-expands-index-translate-with-local-builds.sk.md — 
 Translation notes: confidence-cues-steer-models-more-than-competence-does.sk.md — full paragraph and table fidelity review; all figures, URLs, tags, date, caveats and required heading ID preserved. Strict twin check passed.
 
 Translation notes: examples-amplify-a-symbolic-circuit-already-in-models.sk.md — full paragraph and table fidelity review; figures, model names, URLs, tags, date, limitations and required heading ID preserved. Strict twin check passed.
+
+Translation notes: strata-fork-revives-an-ibm-ai-server-for-local-llms.sk.md — full paragraph and table fidelity review; figures, URLs, tags, date and hardware caveats preserved. COMMUNITY-REPORTED is translated plainly as PODĽA KOMUNITY because the translator prompt has no fixed Slovak label for it. Strict twin check passed.

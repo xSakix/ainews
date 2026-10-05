@@ -47,3 +47,5 @@ Translation notes: examples-amplify-a-symbolic-circuit-already-in-models.sk.md �
 Translation notes: strata-fork-revives-an-ibm-ai-server-for-local-llms.sk.md — full paragraph and table fidelity review; figures, URLs, tags, date and hardware caveats preserved. COMMUNITY-REPORTED is translated plainly as PODĽA KOMUNITY because the translator prompt has no fixed Slovak label for it. Strict twin check passed.
 
 Translation notes: wagtails-one-model-month-spent-half-its-tokens-elsewhere.sk.md — full paragraph and table fidelity review; costs, energy, token counts, URLs, tags, date and attribution preserved. COMMUNITY-REPORTED is translated as PODĽA KOMUNITY. Strict twin check passed.
+
+Translation notes: matthew-green-says-agent-sandboxes-need-a-warden.sk.md — full paragraph and table fidelity review; URLs, tags, date and distinctions between documented design, opinion and analysis preserved. Strict twin check passed.

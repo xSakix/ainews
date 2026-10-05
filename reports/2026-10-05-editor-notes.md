@@ -7,3 +7,7 @@ Kept the date caveat high in the conclusion, separated inspectable packaging fro
 ## Confidence cues steer models more than competence does
 
 Reframed around the sensitivity-versus-targeting distinction, defined the paired intervention before introducing figures, and retained the main limitation that the confidence signal is injected rather than self-generated. Removed secondary controls that did not change the conclusion.
+
+## Examples amplify a symbolic circuit already in models
+
+Centred the explanation on stable topology versus growing causal signal, explained the three stages in ordinary language, and used the retrieval ablation to show why the function vector is not an injected answer. Narrowed the conclusion to the task family tested.

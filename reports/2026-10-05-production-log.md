@@ -17,3 +17,7 @@ NEWS BRIEF. Opened the repository README, 35B-A3B preview model card and technic
 ## Confidence cues steer models more than competence does
 
 EXPLAINER. Read the preprint's abstract, introduction, intervention, experimental setup, results, controls, discussion and reproducibility statement. Gate: readers learn the difference between a cue that changes delegation and a cue that identifies when delegation is needed. All experimental results are VENDOR-REPORTED because this is the authors' preprint; no independent replication found. Code is promised upon publication, not presently linked.
+
+## Examples amplify a symbolic circuit already in models
+
+EXPLAINER. Read the preprint's abstract, introduction, circuit method, amplification results, cross-shot patching, function-vector intervention, discussion and limitations. Gate: readers learn the difference between a circuit appearing and its signal becoming strong enough to drive behaviour. All numerical results are VENDOR-REPORTED. The article confines the conclusion to the tested symbolic tasks and notes the incomplete analogy-task generalisation check.

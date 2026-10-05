@@ -39,3 +39,5 @@ NEWS BRIEF reporting an attributed security argument. Opened the complete essay 
 All planned non-article topics were matched to their desk entries by direct source URL. Repeated Strata and Apex discussions were merged; the six article topics were removed. The confirmed Clayton appointment is retained only as the material development beyond the earlier expected appointment. Community measurements and demonstrations are attributed, Muse prompt text and Qwen intent remain unverified, and YouTube entries name channel context and language. One business-only naming item is limited to a sentence. Strict check passed.
 
 Translation notes: bilibili-expands-index-translate-with-local-builds.sk.md — full paragraph and table fidelity review; figures, URLs, tags, date, evidence strength and required heading ID preserved. Strict twin check passed.
+
+Translation notes: confidence-cues-steer-models-more-than-competence-does.sk.md — full paragraph and table fidelity review; all figures, URLs, tags, date, caveats and required heading ID preserved. Strict twin check passed.

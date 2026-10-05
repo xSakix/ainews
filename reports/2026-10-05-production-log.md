@@ -9,3 +9,7 @@ Deduplication: compared the selected events and source URLs with existing Englis
 Format choices: releases and inspectable projects are NEWS BRIEFs; two papers with a single causal finding are EXPLAINERS; the two substantive essays are NEWS BRIEFs reporting their authors' arguments. No LONG-FORM article is planned.
 
 Publishing: the plan is fixed. Each finished post will pass the strict repository checker and be committed and pushed with plan and log updates before the next file.
+
+## bilibili expands Index-Translate with local builds
+
+NEWS BRIEF. Opened the repository README, 35B-A3B preview model card and technical-report metadata. Restricted the news peg to the 3–4 October API, benchmark and quantised-package additions; did not recast the 30 September family launch as new. Gate: readers learn what became deployable and what the released evaluation can and cannot establish. Performance remains VENDOR-REPORTED. No independent reproduction claimed.

@@ -23,3 +23,7 @@ Made the failed constraint, not the model review, the spine. Kept usage figures 
 ## Matthew Green says agent sandboxes need a warden
 
 Reframed the essay around the authorisation boundary, retained Green's admission that he is synthesising reports outside his main field, and distinguished necessary containment from sufficient control. Marked the worm scenario as opinion rather than a demonstrated event.
+
+## AI Daily Digest for 5 October 2026
+
+Kept every planned item but merged underlying duplicates, standardised evidence attribution, and removed any implication that descriptions or community figures were independently reproduced. Each section advances from artefacts and research through discussion to policy and business context.

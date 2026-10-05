@@ -33,3 +33,7 @@ NEWS BRIEF reporting a measured practitioner account. Opened the Wagtail essay a
 ## Matthew Green says agent sandboxes need a warden
 
 NEWS BRIEF reporting an attributed security argument. Opened the complete essay and read its incident framing, two established camps, three arguments and conclusion. Gate: readers learn why permitted information channels move the hard problem from walls to authorisation. Green's claims are OPINION unless they describe the text or its cited design; the agent-worm scenario is presented as a prediction. No independent incident investigation is implied.
+
+## Digest
+
+All planned non-article topics were matched to their desk entries by direct source URL. Repeated Strata and Apex discussions were merged; the six article topics were removed. The confirmed Clayton appointment is retained only as the material development beyond the earlier expected appointment. Community measurements and demonstrations are attributed, Muse prompt text and Qwen intent remain unverified, and YouTube entries name channel context and language. One business-only naming item is limited to a sentence. Strict check passed.

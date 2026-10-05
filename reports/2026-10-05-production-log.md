@@ -45,3 +45,5 @@ Translation notes: confidence-cues-steer-models-more-than-competence-does.sk.md 
 Translation notes: examples-amplify-a-symbolic-circuit-already-in-models.sk.md — full paragraph and table fidelity review; figures, model names, URLs, tags, date, limitations and required heading ID preserved. Strict twin check passed.
 
 Translation notes: strata-fork-revives-an-ibm-ai-server-for-local-llms.sk.md — full paragraph and table fidelity review; figures, URLs, tags, date and hardware caveats preserved. COMMUNITY-REPORTED is translated plainly as PODĽA KOMUNITY because the translator prompt has no fixed Slovak label for it. Strict twin check passed.
+
+Translation notes: wagtails-one-model-month-spent-half-its-tokens-elsewhere.sk.md — full paragraph and table fidelity review; costs, energy, token counts, URLs, tags, date and attribution preserved. COMMUNITY-REPORTED is translated as PODĽA KOMUNITY. Strict twin check passed.

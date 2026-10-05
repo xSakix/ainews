@@ -51,3 +51,9 @@ Translation notes: wagtails-one-model-month-spent-half-its-tokens-elsewhere.sk.m
 Translation notes: matthew-green-says-agent-sandboxes-need-a-warden.sk.md — full paragraph and table fidelity review; URLs, tags, date and distinctions between documented design, opinion and analysis preserved. Strict twin check passed.
 
 Translation notes: ai-daily-digest-for-5-october-2026.sk.md — all sections and 58 planned entries preserved in order; paragraph, heading, table-row and URL fidelity reviewed. Figures, languages, qualifications, tags, date and required heading ID preserved. COMMUNITY-REPORTED is translated as PODĽA KOMUNITY. Strict twin check passed.
+
+## Completion
+
+Pass 1 complete: six English articles and one digest. Pass 2 complete: all seven Slovak twins; no missing twins from 3–4 October.
+
+Final validation: all 14 new posts pass `scripts/check_posts.py --strict`; TOML, descriptions, allowed tags, Slovak slugs, shared dates and tags, source URL multisets and required heading IDs passed. The digest editions have matching heading, paragraph, table-row and URL counts. `git diff --check` passed. Direct shell authentication was unavailable, so each atomic commit was published through the connected GitHub account with a fast-forward update to `main`.

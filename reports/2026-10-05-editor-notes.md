@@ -15,3 +15,7 @@ Centred the explanation on stable topology versus growing causal signal, explain
 ## Strata fork revives an IBM AI server for local LLMs
 
 Focused the article on the machine-to-model fit rather than headline speed, separated prefill from decoding, and retained the non-portability and upstream-support caveats. Removed the unavailable Reddit comparison against stock llama.cpp.
+
+## Wagtail's one-model month spent half its tokens elsewhere
+
+Made the failed constraint, not the model review, the spine. Kept usage figures together with their self-reported status, distinguished accidental prototype spend from deliberate evaluation, and ended on the surrounding-workflow lesson.

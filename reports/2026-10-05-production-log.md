@@ -25,3 +25,7 @@ EXPLAINER. Read the preprint's abstract, introduction, circuit method, amplifica
 ## Strata fork revives an IBM AI server for local LLMs
 
 NEWS BRIEF. Opened the AC922 branch README, repository metadata and technical notes; the Reddit page was blocked, so no claim unique to the post was used. Gate: readers learn how the fork maps sparse experts onto the AC922 memory topology. Builder measurements are COMMUNITY-REPORTED and explicitly non-portable. Code and MIT licence are present; the implementation was not run independently.
+
+## Wagtail's one-model month spent half its tokens elsewhere
+
+NEWS BRIEF reporting a measured practitioner account. Opened the Wagtail essay and read its usage, failure, infrastructure, benchmark and takeaway sections. Gate: readers learn why a sound model budget failed at workflow level. Cost and energy figures are COMMUNITY-REPORTED; praise for the model is OPINION. No general cost claim is made.

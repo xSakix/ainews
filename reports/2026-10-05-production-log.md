@@ -49,3 +49,5 @@ Translation notes: strata-fork-revives-an-ibm-ai-server-for-local-llms.sk.md —
 Translation notes: wagtails-one-model-month-spent-half-its-tokens-elsewhere.sk.md — full paragraph and table fidelity review; costs, energy, token counts, URLs, tags, date and attribution preserved. COMMUNITY-REPORTED is translated as PODĽA KOMUNITY. Strict twin check passed.
 
 Translation notes: matthew-green-says-agent-sandboxes-need-a-warden.sk.md — full paragraph and table fidelity review; URLs, tags, date and distinctions between documented design, opinion and analysis preserved. Strict twin check passed.
+
+Translation notes: ai-daily-digest-for-5-october-2026.sk.md — all sections and 58 planned entries preserved in order; paragraph, heading, table-row and URL fidelity reviewed. Figures, languages, qualifications, tags, date and required heading ID preserved. COMMUNITY-REPORTED is translated as PODĽA KOMUNITY. Strict twin check passed.

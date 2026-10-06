@@ -29,3 +29,6 @@ Checked all paragraphs, headings, 15 verification rows, URL multiplicities, figu
 
 ## bilibili-expands-index-translate-with-local-builds.nl.md (missing)
 Checked seven paragraphs, heading, six verification rows, URLs, figures, model and benchmark identifiers, date and tags; strict validation passed. No issues flagged.
+
+## confidence-cues-steer-models-more-than-competence-does.nl.md (missing)
+Checked all paragraphs, headings, six verification rows, URLs, figures, date and tags; strict validation passed. Kept “nudgeability” with a Dutch gloss and preserved the distinction between supplied confidence and self-knowledge.

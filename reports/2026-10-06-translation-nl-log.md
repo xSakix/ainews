@@ -38,3 +38,6 @@ Checked all paragraphs, headings, six verification rows, exact URLs, all numeric
 
 ## strata-fork-revives-an-ibm-ai-server-for-local-llms.nl.md (missing)
 Checked seven paragraphs, heading, six verification rows, URLs, all figures, date and tags; shortened the slug and strict validation passed. English label COMMUNITY-REPORTED is outside the prescribed closed set; translated its meaning as GEMELD DOOR DE GEMEENSCHAP.
+
+## wagtails-one-model-month-spent-half-its-tokens-elsewhere.nl.md (missing)
+Checked eight paragraphs, heading, six verification rows, URLs, cost, energy and token figures, date and tags; strict validation passed. COMMUNITY-REPORTED is outside the closed set; translated it as GEMELD DOOR DE GEMEENSCHAP.

@@ -19,3 +19,7 @@ NEWS BRIEF. The edit leads with the privacy and deployment fact, keeps execution
 ## Context models let agents edit their own history
 
 EXPLAINER. The edit uses the editable file as the single mechanism and keeps reinforcement learning subordinate to it. Cache reuse and persistent injected text are presented as direct consequences rather than general warnings. The ending points to public code and specific reproduction comparisons.
+
+## vLLM shows when split serving helps and hurts
+
+NEWS BRIEF. The edit defines prefill and decode once, then lets the paired latency measurements carry the argument. It keeps the missing GPU links beside the transfer result and avoids combining results from unlike cluster tests.

@@ -27,3 +27,7 @@ NEWS BRIEF. Opened the complete project write-up and repository. The article cen
 ## Context models let agents edit their own history
 
 EXPLAINER. Read the preprint abstract and implementation repository, including the editable-file mechanism, optimisation claims and cache-reuse design. The article separates the core context technique from the authors' RL results and adds a bounded analysis of cache validity and prompt-injection persistence. No independent reproduction was found. Strict check passed.
+
+## vLLM shows when split serving helps and hurts
+
+NEWS BRIEF. Opened the vLLM guide and checked its topology, workload and latency measurements. The article reports both sides of the same operational finding: split serving protects token latency under load but delays first output when cache transfer is slow. Broader AMD and llm-d numbers remain context rather than a combined benchmark claim. Strict check passed.

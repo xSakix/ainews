@@ -26,3 +26,6 @@ Checked all paragraphs and headings, 15 verification rows, URL multiplicities, a
 
 ## lie-detection-probes-track-compliance-instead-of-truth.nl.md (missing)
 Checked all paragraphs, headings, 15 verification rows, URL multiplicities, figures, proper names, date and tags; strict validation passed. Kept the source's approximate and exact AUROC values and its qualifications about confounders.
+
+## bilibili-expands-index-translate-with-local-builds.nl.md (missing)
+Checked seven paragraphs, heading, six verification rows, URLs, figures, model and benchmark identifiers, date and tags; strict validation passed. No issues flagged.

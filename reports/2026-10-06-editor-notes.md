@@ -15,3 +15,7 @@ EXPLAINER. The edit makes the shuffle control the single spine and treats labels
 ## EasyCommand runs English-to-Bash locally
 
 NEWS BRIEF. The edit leads with the privacy and deployment fact, keeps execution risk beside it, and treats the benchmark as an author-run diagnostic. Dataset limitations and task-family holdouts remain because they explain how a reproducible-looking score can overstate transfer.
+
+## Context models let agents edit their own history
+
+EXPLAINER. The edit uses the editable file as the single mechanism and keeps reinforcement learning subordinate to it. Cache reuse and persistent injected text are presented as direct consequences rather than general warnings. The ending points to public code and specific reproduction comparisons.

@@ -23,3 +23,7 @@ EXPLAINER. Read the preprint abstract, study logic and reported interventions. T
 ## EasyCommand runs English-to-Bash locally
 
 NEWS BRIEF. Opened the complete project write-up and repository. The article centres on the inspectable local release, not the synthetic-data process. It preserves the author's benchmark caveat, licences, missing official split and GNU/Linux Bash scope. Strict check passed.
+
+## Context models let agents edit their own history
+
+EXPLAINER. Read the preprint abstract and implementation repository, including the editable-file mechanism, optimisation claims and cache-reuse design. The article separates the core context technique from the authors' RL results and adds a bounded analysis of cache validity and prompt-injection persistence. No independent reproduction was found. Strict check passed.

@@ -50,3 +50,6 @@ Checked every paragraph, heading and item, five verification rows, URL multiplic
 
 ## aleph-alpha-releases-open-weight-kolibri.nl.md (missing)
 Checked seven paragraphs, heading, six verification rows, URLs, exact parameter and context counts, scores, date and tags; strict validation passed. No issues flagged.
+
+## zou-team-traces-how-models-report-internal-changes.nl.md (missing)
+Checked all paragraphs, headings, six verification rows, URLs, figures, date and tags; strict validation passed. Preserved screened-concept limits and functional reporting without any claim about consciousness.

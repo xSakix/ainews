@@ -14,3 +14,6 @@ Checked seven paragraphs, heading, six verification rows, URLs, figures, model n
 
 ## context-models-let-agents-edit-their-own-history.nl.md (missing)
 Checked all paragraphs, headings, seven verification rows, URLs, numbers, date and tags; strict validation passed. Preserved all qualifications and the required labels for author-reported results.
+
+## vllm-shows-when-split-serving-helps-and-hurts.nl.md (missing)
+Checked eight paragraphs, heading, six table rows, URLs, all latency and hardware figures, date and tags; strict validation passed. No issues flagged.

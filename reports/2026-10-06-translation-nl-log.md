@@ -44,3 +44,6 @@ Checked eight paragraphs, heading, six verification rows, URLs, cost, energy and
 
 ## matthew-green-says-agent-sandboxes-need-a-warden.nl.md (missing)
 Checked nine paragraphs, heading, six verification rows, URLs, date and tags; strict validation passed. Preserved the distinction between Green's arguments, reported designs and predictions.
+
+## ai-daily-digest-for-5-october-2026.nl.md (missing)
+Checked every paragraph, heading and item, five verification rows, URL multiplicities, figures, date and tags; strict validation passed. Preserved combined VERIFIED / VENDOR-REPORTED labels as combined Dutch labels; COMMUNITY-REPORTED is outside the closed set and was translated as GEMELD DOOR DE GEMEENSCHAP.

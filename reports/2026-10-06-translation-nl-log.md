@@ -17,3 +17,6 @@ Checked all paragraphs, headings, seven verification rows, URLs, numbers, date a
 
 ## vllm-shows-when-split-serving-helps-and-hurts.nl.md (missing)
 Checked eight paragraphs, heading, six table rows, URLs, all latency and hardware figures, date and tags; strict validation passed. No issues flagged.
+
+## ai-daily-digest-for-6-october-2026.nl.md (missing)
+Checked every paragraph, section and item, five verification rows, exact URL multiplicities, all figures, date and tags; strict validation passed. Preserved official names, quoted title, qualifications and source attributions.

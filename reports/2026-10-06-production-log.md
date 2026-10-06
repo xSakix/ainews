@@ -50,8 +50,20 @@ Translation notes: vllm-shows-when-split-serving-helps-and-hurts.sk.md — parag
 
 Translation notes: ai-daily-digest-for-6-october-2026.sk.md — all sections and planned entries preserved in order; paragraph, heading, table-row, URL, figure, language, date and tag fidelity reviewed; required verification heading ID preserved. Strict twin check passed.
 
+## 4MT-VLM shows vision models lose places after rotation
+
+EXPLAINER. Reserve 1. Read the full preprint text on arXiv. The spine is the failure of viewpoint invariance: models identify the scene unrotated but lose it once rotated, with distractor separation isolating the coarse resolution of the cognitive map. Human baseline caveat (n=1) kept next to the claim; single-author preprint status and absence of code/dataset noted. Format, URL multiset and table consistency verified.
+
+## Lie-detection probes track compliance instead of truth
+
+EXPLAINER. Reserve 2. Read the full preprint text and inspected the Hugging Face dataset and GitHub code repository. The spine is the compliance confounder: probes track instruction following rather than truth. Disclosed co-author's connection to the baseline probe and the fact that the probe was trained on the tested confounders. Format, URL multiset and table consistency verified.
+
+Translation notes: 4mt-vlm-shows-vision-models-lose-places-after-rotation.sk.md — paragraph, heading, table-row, URL, figure, date and tag fidelity reviewed; required verification heading ID preserved; no English labels in verification table.
+
+Translation notes: lie-detection-probes-track-compliance-instead-of-truth.sk.md — paragraph, heading, table-row, URL, figure, date and tag fidelity reviewed; required verification heading ID preserved; no English labels in verification table.
+
 ## Completion
 
-Pass 1 complete: six English articles and one digest. Pass 2 complete: all seven Slovak twins; no missing twins from 4–6 October.
+Pass 1 complete: six English articles and one digest. Pass 2 complete: all seven Slovak twins; no missing twins from 4–6 October. Supplemental production: two reserve explainers (4MT-VLM and lie-detection probes) drafted, edited, and paired with Slovak translations, bringing total posts for 6 October to 18 (eight articles and one digest in both EN and SK).
 
-Final validation: all 14 posts dated 6 October pass `scripts/check_posts.py --strict`; TOML, descriptions, allowed tags, Slovak slugs, shared dates and tags, source URL multisets and required heading IDs passed. `git diff --check` passed. Direct shell authentication was unavailable, so every atomic commit was published through the connected GitHub account with a fast-forward update to `main`.
+Validation: TOML, descriptions, allowed tags, Slovak slugs, shared dates and tags, source URL multisets and required heading IDs passed. Direct commits pushed to `main`.

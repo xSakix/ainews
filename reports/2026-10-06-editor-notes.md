@@ -27,3 +27,11 @@ NEWS BRIEF. The edit defines prefill and decode once, then lets the paired laten
 ## AI Daily Digest for 6 October 2026
 
 The edit merges repeated events before organising the remaining material by desk. Every item keeps its direct source and attribution, business is limited to two short entries, and unsupported community claims are described as reports or debate rather than fact.
+
+## 4MT-VLM shows vision models lose places after rotation
+
+EXPLAINER. The edit translates the method distance metric ("rotation-optimal layout distance") into plain words and places the single-participant baseline beside the human claim rather than leaving it as a general closing caveat. The ending focuses on the pending human-participant comparison group rather than a formulaic limitation. Performance figures remain author-reported preprint findings.
+
+## Lie-detection probes track compliance instead of truth
+
+EXPLAINER. The edit removes the unsupported geographical attribution in the opening, expresses AUROC in human frequency terms ("roughly nine pairs out of ten") with exact figures in the appendix, and sets the conflict of interest (co-author's contribution to the base probe) and self-designed test caveat directly beside the new probe's results.

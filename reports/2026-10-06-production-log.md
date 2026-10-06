@@ -19,3 +19,7 @@ EXPLAINER. Read the preprint metadata and main reported findings and checked the
 ## Agents miss the link between actions and outcomes
 
 EXPLAINER. Read the preprint abstract, study logic and reported interventions. The shuffled-history control is the spine; outcome labels and the learned calibrator are presented as repairs to the same failure. Results remain VENDOR-REPORTED and no public code link was found on the abstract page. Strict check passed.
+
+## EasyCommand runs English-to-Bash locally
+
+NEWS BRIEF. Opened the complete project write-up and repository. The article centres on the inspectable local release, not the synthetic-data process. It preserves the author's benchmark caveat, licences, missing official split and GNU/Linux Bash scope. Strict check passed.

@@ -11,3 +11,7 @@ EXPLAINER. The edit separates evidence from analogy: the vector intervention is 
 ## Agents miss the link between actions and outcomes
 
 EXPLAINER. The edit makes the shuffle control the single spine and treats labels and calibration as successive responses. It avoids claiming an internal causal representation from behavioural evidence and distinguishes a transcript's utility from genuine action–outcome learning.
+
+## EasyCommand runs English-to-Bash locally
+
+NEWS BRIEF. The edit leads with the privacy and deployment fact, keeps execution risk beside it, and treats the benchmark as an author-run diagnostic. Dataset limitations and task-family holdouts remain because they explain how a reproducible-looking score can overstate transfer.

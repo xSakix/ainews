@@ -32,3 +32,6 @@ Checked seven paragraphs, heading, six verification rows, URLs, figures, model a
 
 ## confidence-cues-steer-models-more-than-competence-does.nl.md (missing)
 Checked all paragraphs, headings, six verification rows, URLs, figures, date and tags; strict validation passed. Kept “nudgeability” with a Dutch gloss and preserved the distinction between supplied confidence and self-knowledge.
+
+## examples-amplify-a-symbolic-circuit-already-in-models.nl.md (missing)
+Checked all paragraphs, headings, six verification rows, exact URLs, all numerical results, date and tags; strict validation passed. Rendered the technical head and patching terminology consistently without changing the mechanism or its limitations.

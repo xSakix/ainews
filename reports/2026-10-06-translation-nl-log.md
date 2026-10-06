@@ -65,3 +65,6 @@ The preceding entry incorrectly reported a passing check: the slug exceeded 60 c
 
 ## kevin-liao-proposes-document-based-agent-memory.nl.md (missing)
 Checked seven paragraphs, heading, six verification rows, URLs, date and tags; strict validation passed. Preserved the author's broad criticism as opinion and the lack of comparative evidence.
+
+## simon-willison-calls-for-default-agent-spending-caps.nl.md (missing)
+Checked five paragraphs, heading, three verification rows, URLs, date and tags; strict validation passed. Kept provider-feature descriptions attributed and unverified.

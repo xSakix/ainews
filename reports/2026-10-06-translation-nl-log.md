@@ -2,3 +2,6 @@
 
 ## reflection-previews-beam-before-releasing-weights.nl.md (missing)
 Checked all seven paragraphs, heading, six verification rows, URLs, figures, date and tags; strict validation passed. No translation issues flagged.
+
+## models-address-facts-by-order-of-mention.nl.md (missing)
+Checked paragraphs, headings, six verification rows, unchanged URLs, all figures, date and tags; strict validation passed. Used the required closed-set label for the author's reported experiments.

@@ -56,3 +56,6 @@ Checked all paragraphs, headings, six verification rows, URLs, figures, date and
 
 ## georgia-tech-team-extends-model-reference-tracking.nl.md (missing)
 Checked all paragraphs, headings, seven verification rows, URLs, exact figures, date and tags; strict validation passed. Preserved exact-answer versus choice scoring and the task-specific scope.
+
+## mingbird-adds-skills-to-its-local-agent-harness.nl.md (missing)
+Checked eight paragraphs, heading, six verification rows, URLs, dates, version identifiers, benchmark dimensions and scores, date and tags; strict validation passed. Preserved the distinction between regressions and end-to-end tests.

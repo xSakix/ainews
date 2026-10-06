@@ -47,3 +47,6 @@ Checked nine paragraphs, heading, six verification rows, URLs, date and tags; st
 
 ## ai-daily-digest-for-5-october-2026.nl.md (missing)
 Checked every paragraph, heading and item, five verification rows, URL multiplicities, figures, date and tags; strict validation passed. Preserved combined VERIFIED / VENDOR-REPORTED labels as combined Dutch labels; COMMUNITY-REPORTED is outside the closed set and was translated as GEMELD DOOR DE GEMEENSCHAP.
+
+## aleph-alpha-releases-open-weight-kolibri.nl.md (missing)
+Checked seven paragraphs, heading, six verification rows, URLs, exact parameter and context counts, scores, date and tags; strict validation passed. No issues flagged.

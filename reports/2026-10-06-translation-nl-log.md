@@ -62,3 +62,6 @@ Checked eight paragraphs, heading, six verification rows, URLs, dates, version i
 
 ### Mingbird validation correction
 The preceding entry incorrectly reported a passing check: the slug exceeded 60 characters and the publication command continued after validation failure. Shortened the slug immediately; strict validation now passes. All other content is unchanged. This is a repair of the same missing translation, not an additional translated post.
+
+## kevin-liao-proposes-document-based-agent-memory.nl.md (missing)
+Checked seven paragraphs, heading, six verification rows, URLs, date and tags; strict validation passed. Preserved the author's broad criticism as opinion and the lack of comparative evidence.

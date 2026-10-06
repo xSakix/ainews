@@ -7,3 +7,7 @@ Deduplication compared source URLs, titles and openings against existing English
 Format choices follow the evidence: Beam and EasyCommand are NEWS BRIEFs because the former is an announcement with a concrete dated release promise and the latter ships inspectable artefacts; the two cognitive studies and Context Language Models are EXPLAINERS; vLLM is a NEWS BRIEF reporting a measured technical guide. Beam's weights are not yet available, and every performance number remains VENDOR-REPORTED. Paper results remain author-reported preprint findings.
 
 Publishing will proceed one file at a time with strict checks and an atomic fast-forward commit to `main` after each completed file.
+
+## Reflection previews Beam before releasing its weights
+
+NEWS BRIEF. Opened Reflection's announcement and checked its release status, architecture, training figures, benchmark table and promised artefacts. The article makes the absence of weights the news spine, labels all performance and efficiency figures VENDOR-REPORTED, and avoids presenting the announcement as a completed open-weight release. Strict check passed.

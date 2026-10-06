@@ -20,3 +20,6 @@ Checked eight paragraphs, heading, six table rows, URLs, all latency and hardwar
 
 ## ai-daily-digest-for-6-october-2026.nl.md (missing)
 Checked every paragraph, section and item, five verification rows, exact URL multiplicities, all figures, date and tags; strict validation passed. Preserved official names, quoted title, qualifications and source attributions.
+
+## 4mt-vlm-shows-vision-models-lose-places-after-rotation.nl.md (missing)
+Checked all paragraphs and headings, 15 verification rows, URL multiplicities, all numerical results, date and tags; strict validation passed. Preserved the source's approximate four-in-five figure and exact 82 percent comparison separately.

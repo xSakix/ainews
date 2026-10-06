@@ -19,8 +19,8 @@ All paths are relative to the repository root. Read the prompts from the local f
 Three kinds of scheduled run share the site, and none of them waits for another:
 
 1. **Research** (Claude, early morning) commits briefings to `reports/`.
-2. **Production** (GPT, about an hour later, `prompts/main-prompt.md`) writes, edits and publishes the English articles and digest, then translates them into Slovak.
-3. **Translation** (this run, about eight hours after production) translates the finished English posts into the editions above. It may run once for all languages or as several runs, one per language, at the same time.
+2. **Production** (GPT, at 05:00, `prompts/main-prompt.md`) writes, edits and publishes the English articles and digest, then translates them into Slovak.
+3. **Translation** (this run, at 10:30, several hours after production; scheduled with `prompts/routine-gpt-translation.md`) translates the finished English posts into the editions above. It may run once for all languages or as several runs, one per language, at the same time.
 
 This run stands alone. It needs nothing from the production run except the English posts already on `main`, and it does not read the plan, the briefings, the production log or the editor notes. Production may still be running, or may publish more English posts later in the day; a post that is not on `main` yet is picked up by the next translation run.
 

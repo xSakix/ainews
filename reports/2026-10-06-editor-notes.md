@@ -23,3 +23,7 @@ EXPLAINER. The edit uses the editable file as the single mechanism and keeps rei
 ## vLLM shows when split serving helps and hurts
 
 NEWS BRIEF. The edit defines prefill and decode once, then lets the paired latency measurements carry the argument. It keeps the missing GPU links beside the transfer result and avoids combining results from unlike cluster tests.
+
+## AI Daily Digest for 6 October 2026
+
+The edit merges repeated events before organising the remaining material by desk. Every item keeps its direct source and attribution, business is limited to two short entries, and unsupported community claims are described as reports or debate rather than fact.

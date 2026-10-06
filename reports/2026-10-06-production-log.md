@@ -31,3 +31,7 @@ EXPLAINER. Read the preprint abstract and implementation repository, including t
 ## vLLM shows when split serving helps and hurts
 
 NEWS BRIEF. Opened the vLLM guide and checked its topology, workload and latency measurements. The article reports both sides of the same operational finding: split serving protects token latency under load but delays first output when cache transfer is slow. Broader AMD and llm-d numbers remain context rather than a combined benchmark claim. Strict check passed.
+
+## Digest
+
+Matched planned items to their desk entries by direct source URL. Repeated Wikimedia, Claude diary, Vals AI, Volundr and CivBench coverage was merged, and all six article topics were removed. Vendor and preprint claims remain attributed; forum measurements and the Lean leaderboard claim are explicitly unverified. YouTube entries name their language where relevant. Strict check passed.

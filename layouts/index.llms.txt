@@ -1,16 +1,28 @@
-{{- /* /llms.txt and /sk/llms.txt — curated index for LLMs and AI assistants (https://llmstxt.org). */ -}}
+{{- /* /llms.txt and /<lang>/llms.txt — curated index for LLMs and AI assistants (https://llmstxt.org). */ -}}
 {{- $posts := where site.RegularPages "Section" "in" site.Params.mainSections -}}
-{{- $digests := where $posts "Title" "like" `(?i)(\bdigest\b|^denný prehľad)` -}}
-{{- $sk := eq site.Language.Lang "sk" -}}
-# {{ site.Title }}{{ if $sk }} (Slovak edition){{ end }}
+{{- $digests := where $posts "Title" "like" `(?i)(\bdigest\b|^denný prehľad|^dagelijks ai-overzicht|^synthèse ia|^ki-tagesüberblick|^resumen diario de ia|^ai 每日简报)` -}}
+{{- /* Translated editions: English name and the claim labels in order
+       verified, partially verified, vendor-reported, unverified. */ -}}
+{{- $editions := dict
+      "sk" (slice "Slovak" "OVERENÉ" "ČIASTOČNE OVERENÉ" "PODĽA SPOLOČNOSTI" "NEOVERENÉ")
+      "nl" (slice "Dutch" "GEVERIFIEERD" "GEDEELTELIJK GEVERIFIEERD" "VOLGENS HET BEDRIJF" "NIET GEVERIFIEERD")
+      "fr" (slice "French" "VÉRIFIÉ" "PARTIELLEMENT VÉRIFIÉ" "SELON LA SOCIÉTÉ" "NON VÉRIFIÉ")
+      "de" (slice "German" "VERIFIZIERT" "TEILWEISE VERIFIZIERT" "LAUT UNTERNEHMEN" "NICHT VERIFIZIERT")
+      "es" (slice "Spanish" "VERIFICADO" "PARCIALMENTE VERIFICADO" "SEGÚN LA EMPRESA" "NO VERIFICADO")
+      "zh" (slice "Simplified Chinese" "已核实" "部分核实" "据公司称" "未核实") -}}
+{{- $ed := index $editions site.Language.Lang -}}
+# {{ site.Title }}{{ with $ed }} ({{ index . 0 }} edition){{ end }}
 
 > {{ site.Params.description }}
 
 AI News Daily publishes six articles and one digest every morning (Europe/Bratislava time), focused on model releases from AI labs worldwide, research papers, essays, local models and agents, and prompting techniques. Each article ends with a verification table in which every checkable claim carries one label and a link to its primary source. Articles are researched and drafted with AI models under the editorial rules described on the About page.
-{{ if $sk }}
-This is the Slovak edition: AI translations of the English articles, with the same sources and labels. Slovak labels: OVERENÉ (verified), ČIASTOČNE OVERENÉ (partially verified), PODĽA SPOLOČNOSTI (vendor-reported), NEOVERENÉ (unverified). The English original is indexed at {{ "llms.txt" | absURL }}.
+{{ with $ed }}
+This is the {{ index . 0 }} edition: AI translations of the English articles, with the same sources and labels. {{ index . 0 }} labels: {{ index . 1 }} (verified), {{ index . 2 }} (partially verified), {{ index . 3 }} (vendor-reported), {{ index . 4 }} (unverified). The English original is indexed at {{ "llms.txt" | absURL }}.
 {{ else }}
-Labels: VERIFIED, PARTIALLY VERIFIED, VENDOR-REPORTED, UNVERIFIED. A Slovak edition is indexed at {{ "sk/llms.txt" | absURL }}.
+Labels: VERIFIED, PARTIALLY VERIFIED, VENDOR-REPORTED, UNVERIFIED. AI-translated editions are indexed at:
+{{ range $lang, $e := $editions }}
+- {{ index $e 0 }}: {{ printf "%s/llms.txt" $lang | absURL }}
+{{- end }}
 {{ end }}
 Every article is available as Markdown: append `index.md` to its URL. The full text of the most recent articles is in [llms-full.txt]({{ "llms-full.txt" | absLangURL }}).
 

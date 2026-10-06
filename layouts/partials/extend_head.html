@@ -1,6 +1,6 @@
 {{- /* hreflang x-default: tells search engines the English original is the
        version for readers whose language has no edition. PaperMod already
-       emits the en/sk alternates. */ -}}
+       emits an alternate for each edition. */ -}}
 {{- if .IsTranslated }}
 {{- range .AllTranslations }}
 {{- if eq .Lang site.Sites.Default.Language.Lang }}

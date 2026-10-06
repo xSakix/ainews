@@ -5,8 +5,9 @@ Usage:
     python3 scripts/check_posts.py                 # all posts, leak checks only
     python3 scripts/check_posts.py --strict FILE…  # new posts: also front matter
 
-Slovak posts (<slug>.sk.md) are also checked against their English twin
-(<slug>.md): same tags, date and source URLs, and Slovak claim labels only.
+Translations (<slug>.<lang>.md for sk, nl, fr, de, es, zh) are also checked
+against their English twin (<slug>.md): same tags, date and source URLs, and
+claim labels in the translation's language only.
 
 Exits 1 if any check fails.
 """
@@ -29,12 +30,30 @@ LEAKS = [
 H1 = re.compile(r"^# ")
 DEK = re.compile(r"^\*[^*].*[^*]\*\s*$")
 
-SK_SUFFIX = ".sk.md"
-SK_LEAKS = [
-    (re.compile(r"pozn[áa]mk[ay]? prekladate[ľl]a|translat(or|ion)'?s? notes?", re.I), "translator notes"),
-    (re.compile(r"\b(VERIFIED|PARTIALLY VERIFIED|VENDOR-REPORTED|UNVERIFIED)\b"), "English claim label (use OVERENÉ, ČIASTOČNE OVERENÉ, PODĽA SPOLOČNOSTI, NEOVERENÉ)"),
-    (re.compile(r"^## (Why it matters|Verification|In brief|Releases|Research|Prompting techniques|What people are building|Worth reading|Business, briefly)\b"), "untranslated heading"),
-]
+ENGLISH_LABELS = re.compile(r"\b(VERIFIED|PARTIALLY VERIFIED|VENDOR-REPORTED|UNVERIFIED)\b")
+ENGLISH_HEADINGS = re.compile(r"^## (Why it matters|Verification|In brief|Releases|Research|Prompting techniques|What people are building|Worth reading|Business, briefly)\b")
+
+# Translated editions: file suffix -> (language, translator-note pattern, labels to use).
+TRANSLATIONS = {
+    ".sk.md": ("Slovak",
+               re.compile(r"pozn[áa]mk[ay]? prekladate[ľl]a|translat(or|ion)'?s? notes?", re.I),
+               "OVERENÉ, ČIASTOČNE OVERENÉ, PODĽA SPOLOČNOSTI, NEOVERENÉ"),
+    ".nl.md": ("Dutch",
+               re.compile(r"noot van de vertaler|vertaal(notitie|opmerking)|translat(or|ion)'?s? notes?", re.I),
+               "GEVERIFIEERD, GEDEELTELIJK GEVERIFIEERD, VOLGENS HET BEDRIJF, NIET GEVERIFIEERD"),
+    ".fr.md": ("French",
+               re.compile(r"note du traducteur|N\.d\.T\.|translat(or|ion)'?s? notes?", re.I),
+               "VÉRIFIÉ, PARTIELLEMENT VÉRIFIÉ, SELON LA SOCIÉTÉ, NON VÉRIFIÉ"),
+    ".de.md": ("German",
+               re.compile(r"Anm\. d\. Übers|Anmerkung de[sr] Übersetzer|Übersetzungshinweis|translat(or|ion)'?s? notes?", re.I),
+               "VERIFIZIERT, TEILWEISE VERIFIZIERT, LAUT UNTERNEHMEN, NICHT VERIFIZIERT"),
+    ".es.md": ("Spanish",
+               re.compile(r"nota del traductor|N\. del T\.|translat(or|ion)'?s? notes?", re.I),
+               "VERIFICADO, PARCIALMENTE VERIFICADO, SEGÚN LA EMPRESA, NO VERIFICADO"),
+    ".zh.md": ("Simplified Chinese",
+               re.compile(r"译者注|译注|translat(or|ion)'?s? notes?", re.I),
+               "已核实, 部分核实, 据公司称, 未核实"),
+}
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 URL = re.compile(r"https?://[^\s)\]|>\"]+")
 
@@ -52,9 +71,19 @@ def urls(body):
     return sorted(u.rstrip(".,;:") for u in URL.findall(body))
 
 
-def check_slovak(path, meta, body, strict):
+def translation_suffix(path):
+    return next((sfx for sfx in TRANSLATIONS if path.name.endswith(sfx)), None)
+
+
+def check_translation(path, suffix, meta, body, strict):
     errors = []
-    twin = path.with_name(path.name[: -len(SK_SUFFIX)] + ".md")
+    _, notes, labels = TRANSLATIONS[suffix]
+    leaks = [
+        (notes, "translator notes"),
+        (ENGLISH_LABELS, f"English claim label (use {labels})"),
+        (ENGLISH_HEADINGS, "untranslated heading"),
+    ]
+    twin = path.with_name(path.name[: -len(suffix)] + ".md")
     if not twin.exists():
         return [f"English twin {twin.name} not found (the file names must match)"]
     try:
@@ -63,7 +92,7 @@ def check_slovak(path, meta, body, strict):
         return [f"English twin {twin.name} has invalid front matter"]
 
     for n, line in enumerate(body.split("\n"), start=1):
-        for pattern, what in SK_LEAKS:
+        for pattern, what in leaks:
             if pattern.search(line):
                 errors.append(f"body line {n}: {what}")
 
@@ -141,8 +170,8 @@ def check(path, strict):
         first = next((l for l in body.split("\n") if l.strip()), "")
         if DEK.match(first.strip()):
             errors.append("body starts with an italic dek; put it in description")
-    if path.name.endswith(SK_SUFFIX):
-        errors += check_slovak(path, meta if delim == "+++" else None, body, strict)
+    if suffix := translation_suffix(path):
+        errors += check_translation(path, suffix, meta if delim == "+++" else None, body, strict)
     return errors
 
 
@@ -151,7 +180,7 @@ def main(argv):
     files = [Path(a) for a in argv if not a.startswith("--")]
     if not files:
         files = sorted(Path("content/posts").glob("*.md"))
-    # _index.md / _index.sk.md describe the section, not a post.
+    # _index.md / _index.<lang>.md describe the section, not a post.
     files = [f for f in files if not f.name.startswith("_index")]
     failed = 0
     for path in files:

@@ -1,0 +1,14 @@
+# Strings for this site's own templates. PaperMod's strings live in
+# themes/PaperMod/i18n; entries here override them.
+- id: prev_page
+  translation: "上一页"
+- id: next_page
+  translation: "下一页"
+- id: follow_title
+  translation: "每天早上阅读 AI News Daily。"
+- id: follow_text
+  translation: '关注 <a href="{{ .rss }}">RSS 订阅</a>（全文），或订阅 <a href="{{ .newsletter }}" rel="noopener">Substack 上的新闻通讯</a>（英文）。'
+- id: follow_note
+  translation: "本文由 AI 按照公开的编辑规则检索和撰写，并由 AI 译为中文。<a href=\"{{ .about }}\">我们的工作方式与标签含义</a>。"
+- id: follow_aria
+  translation: "关注 AI News Daily"

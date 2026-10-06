@@ -2,7 +2,9 @@ baseURL       = "https://ai-news-daily.xyz/"
 theme         = "PaperMod"
 
 # English is the original and stays at the site root; the Slovak edition
-# lives under /sk/. A Slovak post is <slug>.sk.md next to <slug>.md.
+# lives under /sk/, and the Dutch, French, German, Spanish and Simplified
+# Chinese ones under /nl/, /fr/, /de/, /es/ and /zh/. A translated post is
+# <slug>.<lang>.md next to <slug>.md.
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
@@ -25,7 +27,9 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
   author      = "Martin Seckar"
   mainSections = ["posts"]
   defaultTheme = "auto"
-  displayFullLangName = true
+  # Seven editions: show short codes in the header (full names are the
+  # link titles) so the switcher fits on phones.
+  displayFullLangName = false
 
   # Default social-share image for pages without a cover image.
   images = ["images/og-default.png"]
@@ -76,7 +80,9 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
         Content = """
 Source-checked AI news, every morning. Each day brings six articles and one digest on new models from labs worldwide, research, essays, local models and agents, and prompting techniques. Every article ends with a verification table that links the primary sources.
 
-[How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt) · [Slovenské vydanie](/sk/)
+[How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt)
+
+Other editions: [Slovenčina](/sk/) · [Nederlands](/nl/) · [Français](/fr/) · [Deutsch](/de/) · [Español](/es/) · [简体中文](/zh/)
 """
       [[languages.en.params.socialIcons]]
         name = "substack"
@@ -136,6 +142,196 @@ Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Každý deň 
       weight = 30
     [[languages.sk.menus.main]]
       name   = "O nás"
+      url    = "/about/"
+      weight = 40
+
+  [languages.nl]
+    languageName = "Nederlands"
+    languageCode = "nl"
+    title        = "AI News Daily"
+    weight       = 3
+    [languages.nl.params]
+      description = "AI-nieuws met gecontroleerde bronnen, elke ochtend: nieuwe modellen van labs over de hele wereld, onderzoek, wat mensen bouwen, essays en discussies in de community. Elk artikel linkt naar de primaire bronnen en geeft bij elke belangrijke bewering aan hoe ver die is geverifieerd."
+      DateFormat  = ":date_long"
+      [languages.nl.params.homeInfoParams]
+        Title   = "AI News Daily in het Nederlands"
+        Content = """
+AI-nieuws met gecontroleerde bronnen, elke ochtend. Elke dag zes artikelen en één overzicht over nieuwe modellen van labs over de hele wereld, onderzoek, essays, lokale modellen en agents, en prompttechnieken. Elk artikel eindigt met een verificatietabel met links naar de primaire bronnen. De Nederlandse editie is een AI-vertaling van de Engelse artikelen.
+
+[Hoe we werken](/nl/about/) · [Archief](/nl/archives/) · [RSS-feed](/nl/index.xml) · [English edition](/)
+"""
+      [[languages.nl.params.socialIcons]]
+        name = "substack"
+        url  = "https://aiplayground.substack.com/"
+      [[languages.nl.params.socialIcons]]
+        name = "rss"
+        url  = "/nl/index.xml"
+    [[languages.nl.menus.main]]
+      name   = "Archief"
+      url    = "/archives/"
+      weight = 10
+    [[languages.nl.menus.main]]
+      name   = "Onderwerpen"
+      url    = "/tags/"
+      weight = 20
+    [[languages.nl.menus.main]]
+      name   = "Zoeken"
+      url    = "/search/"
+      weight = 30
+    [[languages.nl.menus.main]]
+      name   = "Over ons"
+      url    = "/about/"
+      weight = 40
+
+  [languages.fr]
+    languageName = "Français"
+    languageCode = "fr"
+    title        = "AI News Daily"
+    weight       = 4
+    [languages.fr.params]
+      description = "L'actualité de l'IA avec des sources vérifiées, chaque matin : nouveaux modèles des laboratoires du monde entier, recherche, ce que les gens construisent, essais et discussions de la communauté. Chaque article renvoie à ses sources primaires et indique, pour chaque affirmation clé, dans quelle mesure elle est vérifiée."
+      DateFormat  = ":date_long"
+      [languages.fr.params.homeInfoParams]
+        Title   = "AI News Daily en français"
+        Content = """
+L'actualité de l'IA avec des sources vérifiées, chaque matin. Chaque jour, six articles et une synthèse sur les nouveaux modèles des laboratoires du monde entier, la recherche, les essais, les modèles et agents locaux et les techniques de prompt. Chaque article se termine par un tableau de vérification qui renvoie aux sources primaires. L'édition française est traduite des articles anglais par l'IA.
+
+[Notre méthode](/fr/about/) · [Archives](/fr/archives/) · [Flux RSS](/fr/index.xml) · [English edition](/)
+"""
+      [[languages.fr.params.socialIcons]]
+        name = "substack"
+        url  = "https://aiplayground.substack.com/"
+      [[languages.fr.params.socialIcons]]
+        name = "rss"
+        url  = "/fr/index.xml"
+    [[languages.fr.menus.main]]
+      name   = "Archives"
+      url    = "/archives/"
+      weight = 10
+    [[languages.fr.menus.main]]
+      name   = "Thèmes"
+      url    = "/tags/"
+      weight = 20
+    [[languages.fr.menus.main]]
+      name   = "Rechercher"
+      url    = "/search/"
+      weight = 30
+    [[languages.fr.menus.main]]
+      name   = "À propos"
+      url    = "/about/"
+      weight = 40
+
+  [languages.de]
+    languageName = "Deutsch"
+    languageCode = "de"
+    title        = "AI News Daily"
+    weight       = 5
+    [languages.de.params]
+      description = "KI-Nachrichten mit geprüften Quellen, jeden Morgen: neue Modelle von Laboren weltweit, Forschung, was Leute bauen, Essays und Diskussionen in der Community. Jeder Artikel verlinkt seine Primärquellen und gibt bei jeder wichtigen Behauptung an, wie weit sie überprüft ist."
+      DateFormat  = ":date_long"
+      [languages.de.params.homeInfoParams]
+        Title   = "AI News Daily auf Deutsch"
+        Content = """
+KI-Nachrichten mit geprüften Quellen, jeden Morgen. Jeden Tag sechs Artikel und ein Überblick zu neuen Modellen von Laboren weltweit, Forschung, Essays, lokalen Modellen und Agenten sowie Prompting-Techniken. Jeder Artikel endet mit einer Prüftabelle, die auf die Primärquellen verlinkt. Die deutsche Ausgabe ist eine KI-Übersetzung der englischen Artikel.
+
+[So arbeiten wir](/de/about/) · [Archiv](/de/archives/) · [RSS-Feed](/de/index.xml) · [English edition](/)
+"""
+      [[languages.de.params.socialIcons]]
+        name = "substack"
+        url  = "https://aiplayground.substack.com/"
+      [[languages.de.params.socialIcons]]
+        name = "rss"
+        url  = "/de/index.xml"
+    [[languages.de.menus.main]]
+      name   = "Archiv"
+      url    = "/archives/"
+      weight = 10
+    [[languages.de.menus.main]]
+      name   = "Themen"
+      url    = "/tags/"
+      weight = 20
+    [[languages.de.menus.main]]
+      name   = "Suche"
+      url    = "/search/"
+      weight = 30
+    [[languages.de.menus.main]]
+      name   = "Über uns"
+      url    = "/about/"
+      weight = 40
+
+  [languages.es]
+    languageName = "Español"
+    languageCode = "es"
+    title        = "AI News Daily"
+    weight       = 6
+    [languages.es.params]
+      description = "Noticias de IA con fuentes verificadas, cada mañana: nuevos modelos de laboratorios de todo el mundo, investigación, lo que la gente construye, ensayos y debates de la comunidad. Cada artículo enlaza sus fuentes primarias e indica, en cada afirmación clave, hasta qué punto está verificada."
+      DateFormat  = ":date_long"
+      [languages.es.params.homeInfoParams]
+        Title   = "AI News Daily en español"
+        Content = """
+Noticias de IA con fuentes verificadas, cada mañana. Cada día, seis artículos y un resumen sobre nuevos modelos de laboratorios de todo el mundo, investigación, ensayos, modelos y agentes locales y técnicas de prompting. Cada artículo termina con una tabla de verificación que enlaza las fuentes primarias. La edición en español es una traducción con IA de los artículos en inglés.
+
+[Cómo trabajamos](/es/about/) · [Archivo](/es/archives/) · [Canal RSS](/es/index.xml) · [English edition](/)
+"""
+      [[languages.es.params.socialIcons]]
+        name = "substack"
+        url  = "https://aiplayground.substack.com/"
+      [[languages.es.params.socialIcons]]
+        name = "rss"
+        url  = "/es/index.xml"
+    [[languages.es.menus.main]]
+      name   = "Archivo"
+      url    = "/archives/"
+      weight = 10
+    [[languages.es.menus.main]]
+      name   = "Temas"
+      url    = "/tags/"
+      weight = 20
+    [[languages.es.menus.main]]
+      name   = "Buscar"
+      url    = "/search/"
+      weight = 30
+    [[languages.es.menus.main]]
+      name   = "Acerca de"
+      url    = "/about/"
+      weight = 40
+
+  [languages.zh]
+    languageName = "简体中文"
+    languageCode = "zh-Hans"
+    title        = "AI News Daily"
+    weight       = 7
+    [languages.zh.params]
+      description = "每天早上发布经过来源核实的 AI 新闻：全球各大实验室的新模型、研究进展、大家在做的项目、深度文章与社区讨论。每篇文章都链接一手来源，并为每个关键说法标注核实程度。"
+      DateFormat  = ":date_long"
+      [languages.zh.params.homeInfoParams]
+        Title   = "AI News Daily 中文版"
+        Content = """
+每天早上，经过来源核实的 AI 新闻。每天六篇文章和一份简报，涵盖全球各大实验室的新模型、研究、深度文章、本地模型与智能体，以及提示词技巧。每篇文章末尾附有核实表，链接一手来源。中文版由 AI 从英文文章翻译而来。
+
+[我们的工作方式](/zh/about/) · [归档](/zh/archives/) · [RSS 订阅](/zh/index.xml) · [English edition](/)
+"""
+      [[languages.zh.params.socialIcons]]
+        name = "substack"
+        url  = "https://aiplayground.substack.com/"
+      [[languages.zh.params.socialIcons]]
+        name = "rss"
+        url  = "/zh/index.xml"
+    [[languages.zh.menus.main]]
+      name   = "归档"
+      url    = "/archives/"
+      weight = 10
+    [[languages.zh.menus.main]]
+      name   = "主题"
+      url    = "/tags/"
+      weight = 20
+    [[languages.zh.menus.main]]
+      name   = "搜索"
+      url    = "/search/"
+      weight = 30
+    [[languages.zh.menus.main]]
+      name   = "关于"
       url    = "/about/"
       weight = 40
 

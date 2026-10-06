@@ -11,3 +11,6 @@ Checked every paragraph, heading, verification row, URL, date, figure and tag; s
 
 ## easycommand-runs-english-to-bash-locally.nl.md (missing)
 Checked seven paragraphs, heading, six verification rows, URLs, figures, model names, licences, date and tags; strict validation passed. No issues flagged.
+
+## context-models-let-agents-edit-their-own-history.nl.md (missing)
+Checked all paragraphs, headings, seven verification rows, URLs, numbers, date and tags; strict validation passed. Preserved all qualifications and the required labels for author-reported results.

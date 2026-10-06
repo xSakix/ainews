@@ -1,9 +1,11 @@
 {{- /* PaperMod renders this partial under every post when params.comments
        is true. It holds a follow box instead of comments. */ -}}
+{{- /* Anchor of the "How articles are produced" heading on each About page. */ -}}
+{{- $anchors := dict "sk" "ako-vznikajú-články" "nl" "hoe-artikelen-tot-stand-komen" -}}
 {{- $links := dict
       "rss" ("index.xml" | absLangURL)
       "newsletter" "https://aiplayground.substack.com/"
-      "about" (printf "%s#%s" ("about/" | absLangURL) (cond (eq site.Language.Lang "sk") "ako-vznikajú-články" "how-articles-are-produced")) }}
+      "about" (printf "%s#%s" ("about/" | absLangURL) (index $anchors site.Language.Lang | default "how-articles-are-produced")) }}
 <aside class="follow-box" aria-label="{{ i18n "follow_aria" }}">
   <p><strong>{{ i18n "follow_title" }}</strong>
     {{ i18n "follow_text" $links | safeHTML }}</p>

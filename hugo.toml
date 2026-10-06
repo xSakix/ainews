@@ -2,7 +2,8 @@ baseURL       = "https://ai-news-daily.xyz/"
 theme         = "PaperMod"
 
 # English is the original and stays at the site root; the Slovak edition
-# lives under /sk/. A Slovak post is <slug>.sk.md next to <slug>.md.
+# lives under /sk/ and the Dutch one under /nl/. A translated post is
+# <slug>.sk.md or <slug>.nl.md next to <slug>.md.
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
@@ -76,7 +77,7 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
         Content = """
 Source-checked AI news, every morning. Each day brings six articles and one digest on new models from labs worldwide, research, essays, local models and agents, and prompting techniques. Every article ends with a verification table that links the primary sources.
 
-[How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt) · [Slovenské vydanie](/sk/)
+[How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt) · [Slovenské vydanie](/sk/) · [Nederlandse editie](/nl/)
 """
       [[languages.en.params.socialIcons]]
         name = "substack"
@@ -136,6 +137,44 @@ Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Každý deň 
       weight = 30
     [[languages.sk.menus.main]]
       name   = "O nás"
+      url    = "/about/"
+      weight = 40
+
+  [languages.nl]
+    languageName = "Nederlands"
+    languageCode = "nl"
+    title        = "AI News Daily"
+    weight       = 3
+    [languages.nl.params]
+      description = "AI-nieuws met gecontroleerde bronnen, elke ochtend: nieuwe modellen van labs over de hele wereld, onderzoek, wat mensen bouwen, essays en discussies in de community. Elk artikel linkt naar de primaire bronnen en geeft bij elke belangrijke bewering aan hoe ver die is geverifieerd."
+      DateFormat  = ":date_long"
+      [languages.nl.params.homeInfoParams]
+        Title   = "AI News Daily in het Nederlands"
+        Content = """
+AI-nieuws met gecontroleerde bronnen, elke ochtend. Elke dag zes artikelen en één overzicht over nieuwe modellen van labs over de hele wereld, onderzoek, essays, lokale modellen en agents, en prompttechnieken. Elk artikel eindigt met een verificatietabel met links naar de primaire bronnen. De Nederlandse editie is een AI-vertaling van de Engelse artikelen.
+
+[Hoe we werken](/nl/about/) · [Archief](/nl/archives/) · [RSS-feed](/nl/index.xml) · [English edition](/)
+"""
+      [[languages.nl.params.socialIcons]]
+        name = "substack"
+        url  = "https://aiplayground.substack.com/"
+      [[languages.nl.params.socialIcons]]
+        name = "rss"
+        url  = "/nl/index.xml"
+    [[languages.nl.menus.main]]
+      name   = "Archief"
+      url    = "/archives/"
+      weight = 10
+    [[languages.nl.menus.main]]
+      name   = "Onderwerpen"
+      url    = "/tags/"
+      weight = 20
+    [[languages.nl.menus.main]]
+      name   = "Zoeken"
+      url    = "/search/"
+      weight = 30
+    [[languages.nl.menus.main]]
+      name   = "Over ons"
       url    = "/about/"
       weight = 40
 

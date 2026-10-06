@@ -1,4 +1,4 @@
-{{- /* /llms-full.txt and /sk/llms-full.txt — full Markdown text of the most recent articles. */ -}}
+{{- /* /llms-full.txt, /sk/llms-full.txt and /nl/llms-full.txt — full Markdown text of the most recent articles. */ -}}
 {{- $limit := 100 -}}
 {{- $posts := first $limit (where site.RegularPages "Section" "in" site.Params.mainSections) -}}
 # {{ site.Title }}: full text of the {{ len $posts }} most recent articles

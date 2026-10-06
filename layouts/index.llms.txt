@@ -1,16 +1,18 @@
-{{- /* /llms.txt and /sk/llms.txt — curated index for LLMs and AI assistants (https://llmstxt.org). */ -}}
+{{- /* /llms.txt, /sk/llms.txt and /nl/llms.txt — curated index for LLMs and AI assistants (https://llmstxt.org). */ -}}
 {{- $posts := where site.RegularPages "Section" "in" site.Params.mainSections -}}
-{{- $digests := where $posts "Title" "like" `(?i)(\bdigest\b|^denný prehľad)` -}}
-{{- $sk := eq site.Language.Lang "sk" -}}
-# {{ site.Title }}{{ if $sk }} (Slovak edition){{ end }}
+{{- $digests := where $posts "Title" "like" `(?i)(\bdigest\b|^denný prehľad|^dagelijks ai-overzicht)` -}}
+{{- $lang := site.Language.Lang -}}
+# {{ site.Title }}{{ if eq $lang "sk" }} (Slovak edition){{ else if eq $lang "nl" }} (Dutch edition){{ end }}
 
 > {{ site.Params.description }}
 
 AI News Daily publishes six articles and one digest every morning (Europe/Bratislava time), focused on model releases from AI labs worldwide, research papers, essays, local models and agents, and prompting techniques. Each article ends with a verification table in which every checkable claim carries one label and a link to its primary source. Articles are researched and drafted with AI models under the editorial rules described on the About page.
-{{ if $sk }}
+{{ if eq $lang "sk" }}
 This is the Slovak edition: AI translations of the English articles, with the same sources and labels. Slovak labels: OVERENÉ (verified), ČIASTOČNE OVERENÉ (partially verified), PODĽA SPOLOČNOSTI (vendor-reported), NEOVERENÉ (unverified). The English original is indexed at {{ "llms.txt" | absURL }}.
+{{ else if eq $lang "nl" }}
+This is the Dutch edition: AI translations of the English articles, with the same sources and labels. Dutch labels: GEVERIFIEERD (verified), GEDEELTELIJK GEVERIFIEERD (partially verified), VOLGENS HET BEDRIJF (vendor-reported), NIET GEVERIFIEERD (unverified). The English original is indexed at {{ "llms.txt" | absURL }}.
 {{ else }}
-Labels: VERIFIED, PARTIALLY VERIFIED, VENDOR-REPORTED, UNVERIFIED. A Slovak edition is indexed at {{ "sk/llms.txt" | absURL }}.
+Labels: VERIFIED, PARTIALLY VERIFIED, VENDOR-REPORTED, UNVERIFIED. A Slovak edition is indexed at {{ "sk/llms.txt" | absURL }} and a Dutch edition at {{ "nl/llms.txt" | absURL }}.
 {{ end }}
 Every article is available as Markdown: append `index.md` to its URL. The full text of the most recent articles is in [llms-full.txt]({{ "llms-full.txt" | absLangURL }}).
 

@@ -26,3 +26,11 @@
   X-Robots-Tag: noindex
 /sk/llms-full.txt
   X-Robots-Tag: noindex
+/nl/posts/:slug/index.md
+  X-Robots-Tag: noindex
+/nl/about/index.md
+  X-Robots-Tag: noindex
+/nl/llms.txt
+  X-Robots-Tag: noindex
+/nl/llms-full.txt
+  X-Robots-Tag: noindex

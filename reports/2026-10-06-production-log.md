@@ -47,3 +47,11 @@ Translation notes: easycommand-runs-english-to-bash-locally.sk.md — paragraph,
 Translation notes: context-models-let-agents-edit-their-own-history.sk.md — paragraph, heading, table-row, URL, figure, date and tag fidelity reviewed; required heading IDs preserved. Strict twin check passed.
 
 Translation notes: vllm-shows-when-split-serving-helps-and-hurts.sk.md — paragraph, table-row, URL, latency figure, date and tag fidelity reviewed; required verification heading ID preserved. Strict twin check passed.
+
+Translation notes: ai-daily-digest-for-6-october-2026.sk.md — all sections and planned entries preserved in order; paragraph, heading, table-row, URL, figure, language, date and tag fidelity reviewed; required verification heading ID preserved. Strict twin check passed.
+
+## Completion
+
+Pass 1 complete: six English articles and one digest. Pass 2 complete: all seven Slovak twins; no missing twins from 4–6 October.
+
+Final validation: all 14 posts dated 6 October pass `scripts/check_posts.py --strict`; TOML, descriptions, allowed tags, Slovak slugs, shared dates and tags, source URL multisets and required heading IDs passed. `git diff --check` passed. Direct shell authentication was unavailable, so every atomic commit was published through the connected GitHub account with a fast-forward update to `main`.

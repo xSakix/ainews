@@ -41,3 +41,5 @@ Translation notes: reflection-previews-beam-before-releasing-weights.sk.md — p
 Translation notes: models-address-facts-by-order-of-mention.sk.md — paragraph, heading, table-row, URL, figure, date and tag fidelity reviewed; required heading IDs preserved. Strict twin check passed.
 
 Translation notes: agents-miss-the-link-between-actions-and-outcomes.sk.md — paragraph, heading, table-row, URL, date and tag fidelity reviewed; required heading IDs preserved. Strict twin check passed.
+
+Translation notes: easycommand-runs-english-to-bash-locally.sk.md — paragraph, table-row, URL, figure, licence, date and tag fidelity reviewed; required verification heading ID preserved. Strict twin check passed.

@@ -35,3 +35,5 @@ NEWS BRIEF. Opened the vLLM guide and checked its topology, workload and latency
 ## Digest
 
 Matched planned items to their desk entries by direct source URL. Repeated Wikimedia, Claude diary, Vals AI, Volundr and CivBench coverage was merged, and all six article topics were removed. Vendor and preprint claims remain attributed; forum measurements and the Lean leaderboard claim are explicitly unverified. YouTube entries name their language where relevant. Strict check passed.
+
+Translation notes: reflection-previews-beam-before-releasing-weights.sk.md — paragraph, table-row, URL, figure, date and tag fidelity reviewed; required verification heading ID preserved. Strict twin check passed.

@@ -53,3 +53,6 @@ Checked seven paragraphs, heading, six verification rows, URLs, exact parameter 
 
 ## zou-team-traces-how-models-report-internal-changes.nl.md (missing)
 Checked all paragraphs, headings, six verification rows, URLs, figures, date and tags; strict validation passed. Preserved screened-concept limits and functional reporting without any claim about consciousness.
+
+## georgia-tech-team-extends-model-reference-tracking.nl.md (missing)
+Checked all paragraphs, headings, seven verification rows, URLs, exact figures, date and tags; strict validation passed. Preserved exact-answer versus choice scoring and the task-specific scope.

@@ -11,3 +11,7 @@ Publishing will proceed one file at a time with strict checks and an atomic fast
 ## Reflection previews Beam before releasing its weights
 
 NEWS BRIEF. Opened Reflection's announcement and checked its release status, architecture, training figures, benchmark table and promised artefacts. The article makes the absence of weights the news spine, labels all performance and efficiency figures VENDOR-REPORTED, and avoids presenting the announcement as a completed open-weight release. Strict check passed.
+
+## Models address facts by order of mention
+
+EXPLAINER. Read the preprint metadata and main reported findings and checked the public code repository. The spine is the causal intervention: moving a question along the learned ordinal direction changes which contextual fact is retrieved. All study results are VENDOR-REPORTED because the single-author preprint has no independent replication. The article confines the claim to controlled fact lists. Strict check passed.

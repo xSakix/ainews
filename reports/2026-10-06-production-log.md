@@ -15,3 +15,7 @@ NEWS BRIEF. Opened Reflection's announcement and checked its release status, arc
 ## Models address facts by order of mention
 
 EXPLAINER. Read the preprint metadata and main reported findings and checked the public code repository. The spine is the causal intervention: moving a question along the learned ordinal direction changes which contextual fact is retrieved. All study results are VENDOR-REPORTED because the single-author preprint has no independent replication. The article confines the claim to controlled fact lists. Strict check passed.
+
+## Agents miss the link between actions and outcomes
+
+EXPLAINER. Read the preprint abstract, study logic and reported interventions. The shuffled-history control is the spine; outcome labels and the learned calibrator are presented as repairs to the same failure. Results remain VENDOR-REPORTED and no public code link was found on the abstract page. Strict check passed.

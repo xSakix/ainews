@@ -35,3 +35,6 @@ Checked all paragraphs, headings, six verification rows, URLs, figures, date and
 
 ## examples-amplify-a-symbolic-circuit-already-in-models.nl.md (missing)
 Checked all paragraphs, headings, six verification rows, exact URLs, all numerical results, date and tags; strict validation passed. Rendered the technical head and patching terminology consistently without changing the mechanism or its limitations.
+
+## strata-fork-revives-an-ibm-ai-server-for-local-llms.nl.md (missing)
+Checked seven paragraphs, heading, six verification rows, URLs, all figures, date and tags; shortened the slug and strict validation passed. English label COMMUNITY-REPORTED is outside the prescribed closed set; translated its meaning as GEMELD DOOR DE GEMEENSCHAP.

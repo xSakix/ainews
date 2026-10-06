@@ -59,3 +59,6 @@ Checked all paragraphs, headings, seven verification rows, URLs, exact figures, 
 
 ## mingbird-adds-skills-to-its-local-agent-harness.nl.md (missing)
 Checked eight paragraphs, heading, six verification rows, URLs, dates, version identifiers, benchmark dimensions and scores, date and tags; strict validation passed. Preserved the distinction between regressions and end-to-end tests.
+
+### Mingbird validation correction
+The preceding entry incorrectly reported a passing check: the slug exceeded 60 characters and the publication command continued after validation failure. Shortened the slug immediately; strict validation now passes. All other content is unchanged. This is a repair of the same missing translation, not an additional translated post.

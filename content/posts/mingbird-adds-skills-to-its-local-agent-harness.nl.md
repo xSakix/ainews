@@ -1,6 +1,6 @@
 +++
 title = "Mingbird voegt vaardigheden toe aan zijn lokale agentomgeving"
-slug = "mingbird-voegt-vaardigheden-toe-aan-zijn-lokale-agentomgeving"
+slug = "mingbird-voegt-vaardigheden-toe-aan-lokale-agentomgeving"
 description = "Het project op basis van Ollama voegt spraakinvoer en tools voor dagelijks documentwerk toe. De gepubliceerde benchmark stelt dat resultaten van kleine modellen sterk van de omringende software afhangen."
 tags = ["agents", "projects", "tools"]
 date = 2026-10-04T09:24:37+02:00

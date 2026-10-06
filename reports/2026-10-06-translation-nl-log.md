@@ -5,3 +5,6 @@ Checked all seven paragraphs, heading, six verification rows, URLs, figures, dat
 
 ## models-address-facts-by-order-of-mention.nl.md (missing)
 Checked paragraphs, headings, six verification rows, unchanged URLs, all figures, date and tags; strict validation passed. Used the required closed-set label for the author's reported experiments.
+
+## agents-miss-the-link-between-actions-and-outcomes.nl.md (missing)
+Checked every paragraph, heading, verification row, URL, date, figure and tag; strict validation passed. Used the required closed-set label for author-reported findings.

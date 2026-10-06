@@ -23,3 +23,6 @@ Checked every paragraph, section and item, five verification rows, exact URL mul
 
 ## 4mt-vlm-shows-vision-models-lose-places-after-rotation.nl.md (missing)
 Checked all paragraphs and headings, 15 verification rows, URL multiplicities, all numerical results, date and tags; strict validation passed. Preserved the source's approximate four-in-five figure and exact 82 percent comparison separately.
+
+## lie-detection-probes-track-compliance-instead-of-truth.nl.md (missing)
+Checked all paragraphs, headings, 15 verification rows, URL multiplicities, figures, proper names, date and tags; strict validation passed. Kept the source's approximate and exact AUROC values and its qualifications about confounders.

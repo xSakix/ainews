@@ -68,3 +68,7 @@ Checked seven paragraphs, heading, six verification rows, URLs, date and tags; s
 
 ## simon-willison-calls-for-default-agent-spending-caps.nl.md (missing)
 Checked five paragraphs, heading, three verification rows, URLs, date and tags; strict validation passed. Kept provider-feature descriptions attributed and unverified.
+
+## Interrupted run checkpoint
+Published 22 missing Dutch twins; stale 0, backlog 0, skipped 0. All 22 published twins pass a final strict check. The command-line push failed because no HTTPS write credentials were available; each completed twin and log was instead published together through the connected GitHub Git API with a non-forced, expected-head ref update, then fetched locally. All such updates succeeded.
+The run reached its execution capacity before the remaining original-queue digest (4 October), the other editions, or Step 2. No partial translation was published. It crossed midnight: at the final check on 7 October 00:31 Europe/Bratislava, the freshly computed queues showed Dutch recent missing/stale 0 and backlog 27; French, German, Spanish and Simplified Chinese each recent missing 16, stale 0 and backlog 33. The unfinished 4 October digest is now backlog. Recompute from main on the next run. This checkpoint is not a completed language Run summary; that remains due after Step 2.

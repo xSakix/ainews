@@ -26,7 +26,7 @@ De artikelen worden in een geautomatiseerd dagelijks proces door AI-modellen ond
 3. **Alleen primaire bronnen.** Samenvattingen en overzichten, ook die van het proces zelf, dienen alleen als verwijzing. Over een bewering wordt pas geschreven nadat de pagina van de oorspronkelijke uitgever (aankondiging, publicatie, officieel document, repository) is geopend.
 4. **De vorm volgt het bewijs.** Een verhaal dat alleen wordt gestaafd door materiaal van het aankondigende bedrijf, verschijnt als kort nieuwsbericht of als item in het overzicht. Een langere analyse vereist ten minste één onafhankelijke bron.
 5. **Redactie.** Een aparte redactieronde controleert vóór publicatie de opbouw, de helderheid en de labels bij beweringen.
-6. **Vertaling.** De Nederlandse editie wordt met AI vertaald uit de afgewerkte Engelse artikelen, net als de [Slowaakse editie](/sk/). Links naar bronnen en verificatielabels zijn dezelfde als in het origineel.
+6. **Vertaling.** De Nederlandse editie wordt met AI vertaald uit de afgewerkte Engelse artikelen, net als de andere vertaalde edities. Links naar bronnen en verificatielabels zijn dezelfde als in het origineel.
 
 ## Verificatielabels
 

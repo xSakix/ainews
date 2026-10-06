@@ -3,7 +3,7 @@
 
 Usage:
     python3 scripts/translation_queue.py nl              # Dutch, defaults
-    python3 scripts/translation_queue.py nl --days 3 --backlog 10
+    python3 scripts/translation_queue.py fr --days 3 --backlog 10
 
 Prints one line per post: "<reason> content/posts/<slug>.md", where reason is
   missing  dated within the last --days days (today included) and no twin yet
@@ -16,6 +16,7 @@ their timestamp order, which is the day's rank order.
 "Today" is the date in Europe/Bratislava. Drafts are skipped.
 """
 import argparse
+import re
 import subprocess
 import sys
 import tomllib
@@ -25,13 +26,14 @@ from zoneinfo import ZoneInfo
 
 POSTS = Path("content/posts")
 TZ = ZoneInfo("Europe/Bratislava")
+TWIN = re.compile(r"\.[a-z]{2}(-[a-z]+)?\.md$")
 
 
 def english_posts():
     for path in sorted(POSTS.glob("*.md")):
         name = path.name
         # <slug>.md only: skip <slug>.<lang>.md twins and _index pages.
-        if name.startswith("_index") or "." in name[: -len(".md")]:
+        if name.startswith("_index") or TWIN.search(name):
             continue
         text = path.read_text(encoding="utf-8")
         if not text.startswith("+++"):

@@ -1,0 +1,14 @@
+# Strings for this site's own templates. PaperMod's strings live in
+# themes/PaperMod/i18n; entries here override them.
+- id: prev_page
+  translation: "Précédent"
+- id: next_page
+  translation: "Suivant"
+- id: follow_title
+  translation: "AI News Daily chaque matin."
+- id: follow_text
+  translation: 'Suivez le <a href="{{ .rss }}">flux RSS</a> (texte intégral) ou abonnez-vous à la <a href="{{ .newsletter }}" rel="noopener">newsletter sur Substack</a> (en anglais).'
+- id: follow_note
+  translation: "Cet article a été recherché et rédigé par l'IA selon des règles éditoriales publiées, puis traduit en français par l'IA. <a href=\"{{ .about }}\">Notre méthode et la signification des labels</a>."
+- id: follow_aria
+  translation: "Suivre AI News Daily"

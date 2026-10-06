@@ -5,7 +5,7 @@ Usage:
     python3 scripts/check_posts.py                 # all posts, leak checks only
     python3 scripts/check_posts.py --strict FILE…  # new posts: also front matter
 
-Translations (<slug>.sk.md Slovak, <slug>.nl.md Dutch) are also checked
+Translations (<slug>.<lang>.md for sk, nl, fr, de, es, zh) are also checked
 against their English twin (<slug>.md): same tags, date and source URLs, and
 claim labels in the translation's language only.
 
@@ -41,6 +41,18 @@ TRANSLATIONS = {
     ".nl.md": ("Dutch",
                re.compile(r"noot van de vertaler|vertaal(notitie|opmerking)|translat(or|ion)'?s? notes?", re.I),
                "GEVERIFIEERD, GEDEELTELIJK GEVERIFIEERD, VOLGENS HET BEDRIJF, NIET GEVERIFIEERD"),
+    ".fr.md": ("French",
+               re.compile(r"note du traducteur|N\.d\.T\.|translat(or|ion)'?s? notes?", re.I),
+               "VÉRIFIÉ, PARTIELLEMENT VÉRIFIÉ, SELON LA SOCIÉTÉ, NON VÉRIFIÉ"),
+    ".de.md": ("German",
+               re.compile(r"Anm\. d\. Übers|Anmerkung de[sr] Übersetzer|Übersetzungshinweis|translat(or|ion)'?s? notes?", re.I),
+               "VERIFIZIERT, TEILWEISE VERIFIZIERT, LAUT UNTERNEHMEN, NICHT VERIFIZIERT"),
+    ".es.md": ("Spanish",
+               re.compile(r"nota del traductor|N\. del T\.|translat(or|ion)'?s? notes?", re.I),
+               "VERIFICADO, PARCIALMENTE VERIFICADO, SEGÚN LA EMPRESA, NO VERIFICADO"),
+    ".zh.md": ("Simplified Chinese",
+               re.compile(r"译者注|译注|translat(or|ion)'?s? notes?", re.I),
+               "已核实, 部分核实, 据公司称, 未核实"),
 }
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 URL = re.compile(r"https?://[^\s)\]|>\"]+")

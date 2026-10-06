@@ -1,14 +1,18 @@
 {{- /* Markdown tables. Adds data-label (the column header) to each cell so
        tables can stack into cards on phones, and turns verification labels
-       (VERIFIED, VENDOR-REPORTED, ... the Slovak OVERENÉ, ... and the Dutch
-       GEVERIFIEERD, ...) into
+       (VERIFIED, VENDOR-REPORTED, ... and their sk, nl, fr, de, es and zh
+       translations) into
        coloured badges. */ -}}
 {{- $headers := slice -}}
 {{- range first 1 .THead }}{{ range . }}{{ $headers = $headers | append (.Text | plainify | htmlUnescape | strings.TrimSpace) }}{{ end }}{{ end -}}
 {{- $badges := dict
       "PARTIALLY VERIFIED" "partial" "VENDOR-REPORTED" "vendor" "UNVERIFIED" "unverified" "VERIFIED" "verified"
       "ČIASTOČNE OVERENÉ" "partial" "PODĽA SPOLOČNOSTI" "vendor" "NEOVERENÉ" "unverified" "OVERENÉ" "verified"
-      "GEDEELTELIJK GEVERIFIEERD" "partial" "VOLGENS HET BEDRIJF" "vendor" "NIET GEVERIFIEERD" "unverified" "GEVERIFIEERD" "verified" -}}
+      "GEDEELTELIJK GEVERIFIEERD" "partial" "VOLGENS HET BEDRIJF" "vendor" "NIET GEVERIFIEERD" "unverified" "GEVERIFIEERD" "verified"
+      "PARTIELLEMENT VÉRIFIÉ" "partial" "SELON LA SOCIÉTÉ" "vendor" "NON VÉRIFIÉ" "unverified" "VÉRIFIÉ" "verified"
+      "TEILWEISE VERIFIZIERT" "partial" "LAUT UNTERNEHMEN" "vendor" "NICHT VERIFIZIERT" "unverified" "VERIFIZIERT" "verified"
+      "PARCIALMENTE VERIFICADO" "partial" "SEGÚN LA EMPRESA" "vendor" "NO VERIFICADO" "unverified" "VERIFICADO" "verified"
+      "部分核实" "partial" "据公司称" "vendor" "未核实" "unverified" "已核实" "verified" -}}
 <table class="md-table"
   {{- range $k, $v := .Attributes }}{{ if $v }}{{ printf " %s=%q" $k $v | safeHTMLAttr }}{{ end }}{{ end }}>
   <thead>
@@ -25,7 +29,7 @@
     <tr>
       {{- range $i, $cell := . }}
       {{- $html := $cell.Text | string -}}
-      {{- with index (findRE `^(PARTIALLY VERIFIED|VENDOR-REPORTED|UNVERIFIED|VERIFIED|ČIASTOČNE OVERENÉ|PODĽA SPOLOČNOSTI|NEOVERENÉ|OVERENÉ|GEDEELTELIJK GEVERIFIEERD|VOLGENS HET BEDRIJF|NIET GEVERIFIEERD|GEVERIFIEERD)` (strings.TrimSpace $html) 1) 0 -}}
+      {{- with index (findRE `^(PARTIALLY VERIFIED|VENDOR-REPORTED|UNVERIFIED|VERIFIED|ČIASTOČNE OVERENÉ|PODĽA SPOLOČNOSTI|NEOVERENÉ|OVERENÉ|GEDEELTELIJK GEVERIFIEERD|VOLGENS HET BEDRIJF|NIET GEVERIFIEERD|GEVERIFIEERD|PARTIELLEMENT VÉRIFIÉ|SELON LA SOCIÉTÉ|NON VÉRIFIÉ|VÉRIFIÉ|TEILWEISE VERIFIZIERT|LAUT UNTERNEHMEN|NICHT VERIFIZIERT|VERIFIZIERT|PARCIALMENTE VERIFICADO|SEGÚN LA EMPRESA|NO VERIFICADO|VERIFICADO|部分核实|据公司称|未核实|已核实)` (strings.TrimSpace $html) 1) 0 -}}
         {{- $html = replaceRE (printf `^\s*%s` .) (printf `<span class="claim-label claim-%s">%s</span>` (index $badges .) .) $html 1 -}}
       {{- end }}
       <td{{ with index $headers $i }} data-label="{{ . }}"{{ end }}{{ with $cell.Alignment }}{{ printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}{{ end }}>{{ $html | safeHTML }}</td>

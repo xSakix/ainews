@@ -111,3 +111,8 @@
         color: var(--secondary);
     }
 }
+
+/* Header language switcher: short codes (EN, SK, NL, …) instead of names. */
+.lang-switch a {
+  text-transform: uppercase;
+}

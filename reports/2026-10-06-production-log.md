@@ -45,3 +45,5 @@ Translation notes: agents-miss-the-link-between-actions-and-outcomes.sk.md — p
 Translation notes: easycommand-runs-english-to-bash-locally.sk.md — paragraph, table-row, URL, figure, licence, date and tag fidelity reviewed; required verification heading ID preserved. Strict twin check passed.
 
 Translation notes: context-models-let-agents-edit-their-own-history.sk.md — paragraph, heading, table-row, URL, figure, date and tag fidelity reviewed; required heading IDs preserved. Strict twin check passed.
+
+Translation notes: vllm-shows-when-split-serving-helps-and-hurts.sk.md — paragraph, table-row, URL, latency figure, date and tag fidelity reviewed; required verification heading ID preserved. Strict twin check passed.

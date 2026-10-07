@@ -66,3 +66,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## matthew-green-says-agent-sandboxes-need-a-warden.zh.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## ai-daily-digest-for-5-october-2026.zh.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. COMMUNITY-REPORTED translated as 据社区报告; compound verification labels preserved in translation.

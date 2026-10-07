@@ -45,3 +45,5 @@ Translation notes: vision-models-split-objects-from-relations.sk.md — paragrap
 Translation notes: opentpu-runs-local-models-on-a-300-dollar-fpga.sk.md — paragraph, heading, URL, figure, unit, date, tag and verification-row fidelity reviewed; required heading IDs preserved. Strict twin check passed.
 
 Translation notes: placebo-test-finds-most-agent-skills-add-no-value.sk.md — paragraph, heading, URL, figure, date, tag and verification-row fidelity reviewed; matched-control distinctions and required heading IDs preserved. Strict twin check passed.
+
+Translation notes: manifold-finds-malware-judgments-use-moral-routing.sk.md — paragraph, heading, URL, figure, date, tag and verification-row fidelity reviewed; routing/workspace distinction and required heading IDs preserved. Strict twin check passed.

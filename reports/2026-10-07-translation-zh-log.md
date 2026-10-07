@@ -63,3 +63,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## wagtails-one-model-month-spent-half-its-tokens-elsewhere.zh.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. COMMUNITY-REPORTED translated as 据社区报告.
+
+## matthew-green-says-agent-sandboxes-need-a-warden.zh.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

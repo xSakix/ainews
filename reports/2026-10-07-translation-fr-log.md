@@ -75,3 +75,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## aleph-alpha-releases-open-weight-kolibri.fr.md (backlog)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## zou-team-traces-how-models-report-internal-changes.fr.md (backlog)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. The original VENDOR-REPORTED label is preserved in meaning as SELON LA SOCIÉTÉ although these are academic authors.

@@ -6,3 +6,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## mistral-previews-large-4-before-releasing-weights.de.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. Conflicting architecture figures preserved as in the source.
+
+## vision-models-split-objects-from-relations.de.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

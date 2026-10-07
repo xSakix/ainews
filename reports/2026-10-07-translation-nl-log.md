@@ -32,3 +32,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## cambridge-finds-objectives-outweigh-distillation-data-source.nl.md (backlog)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## humanlike-chat-adds-tool-use-to-a-local-texting-model.nl.md (backlog)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

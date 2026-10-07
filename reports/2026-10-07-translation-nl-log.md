@@ -17,3 +17,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## manifold-finds-malware-judgments-use-moral-routing.nl.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved routing versus workspace distinctions and pruning caveats.
+
+## ai-daily-digest-for-7-october-2026.nl.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved every item, figure, direct URL and evidence qualification.

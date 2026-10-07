@@ -26,3 +26,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## models-address-facts-by-order-of-mention.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved controlled-task limitations and all transfer rates.
+
+## agents-miss-the-link-between-actions-and-outcomes.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved shuffle controls, learned-calibrator caveats and behavioral evidence limits.

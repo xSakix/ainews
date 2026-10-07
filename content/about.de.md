@@ -28,6 +28,12 @@ Die Artikel werden in einem automatisierten täglichen Ablauf von KI-Modellen re
 5. **Redaktion.** Ein eigener Redaktionsschritt prüft vor der Veröffentlichung Aufbau, Verständlichkeit und die Einstufung der Behauptungen.
 6. **Übersetzung.** Die deutsche Ausgabe wird mit KI aus den fertigen englischen Artikeln übersetzt. Links zu den Quellen und Einstufungen sind dieselben wie im Original.
 
+## Kennzeichnung KI-generierter Inhalte {#ai-disclosure}
+
+Alle Artikel und Tagesüberblicke auf dieser Seite sind KI-generierte Texte und als solche gekennzeichnet: Unter jedem Titel ist als Autor „KI-generiert“ angegeben, dieselbe Kennzeichnung steht in den Metadaten der Seite für Suchmaschinen und KI-Werkzeuge, und ein Hinweis am Ende jedes Artikels erklärt, wie er entstanden ist. Auch die Übersetzungen werden von KI erstellt.
+
+Diese Kennzeichnung folgt den Transparenzpflichten für KI-generierte Texte nach Artikel 50 der EU-Verordnung über künstliche Intelligenz (Verordnung (EU) 2024/1689). Der Herausgeber, Martin Seckar, ist für die redaktionellen Regeln des Ablaufs und für Korrekturen verantwortlich.
+
 ## Einstufungen der Überprüfung
 
 Jeder Artikel endet mit einer Prüftabelle. Jede überprüfbare Behauptung erhält eine Einstufung und einen Link zu ihrer Quelle:

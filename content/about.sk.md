@@ -28,6 +28,12 @@ Stránku vydáva Martin Seckar, architekt v IBM s dvadsaťročnou praxou v oblas
 5. **Redakcia.** Samostatný redakčný krok pred zverejnením kontroluje štruktúru, zrozumiteľnosť a označenia tvrdení.
 6. **Preklad.** Slovenské vydanie vzniká prekladom hotových anglických článkov pomocou AI. Odkazy na zdroje a označenia overenia zostávajú rovnaké ako v origináli.
 
+## Označenie obsahu vytvoreného AI {#ai-disclosure}
+
+Všetky články a denné prehľady na tejto stránke sú texty vygenerované umelou inteligenciou. Každý je tak aj označený: pod názvom článku je ako autor uvedené „Vygenerované AI“, rovnaké označenie je v metadátach stránky pre vyhľadávače a nástroje AI a poznámka na konci článku vysvetľuje, ako vznikol. Aj preklady do iných jazykov vytvára AI.
+
+Toto označenie zodpovedá povinnostiam transparentnosti pre texty vygenerované AI podľa článku 50 európskeho aktu o umelej inteligencii (nariadenie (EÚ) 2024/1689). Za redakčné pravidlá, ktorými sa proces riadi, a za opravy zodpovedá vydavateľ Martin Seckar.
+
 ## Označenia overenia
 
 Každý článok končí tabuľkou overenia. Každé overiteľné tvrdenie má jedno označenie a odkaz na zdroj:

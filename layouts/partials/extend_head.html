@@ -8,3 +8,9 @@
 {{- end }}
 {{- end }}
 {{- end }}
+{{- /* Machine-readable AI disclosure (EU AI Act, Art. 50): articles are
+       AI-generated text. The visible label is the author line. */}}
+{{- if and .IsPage (in site.Params.mainSections .Section) }}
+<meta name="ai-generated" content="true">
+<meta name="ai-disclosure" content="{{ site.Params.author }}">
+{{- end }}

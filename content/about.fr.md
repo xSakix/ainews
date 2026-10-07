@@ -28,6 +28,12 @@ Les articles sont recherchés et rédigés par des modèles d'IA dans un process
 5. **Relecture.** Une étape de relecture distincte vérifie la structure, la clarté et les labels des affirmations avant publication.
 6. **Traduction.** L'édition française est traduite par l'IA à partir des articles anglais finalisés. Les liens vers les sources et les labels de vérification sont identiques à ceux de l'original.
 
+## Mention de contenu généré par l'IA {#ai-disclosure}
+
+Tous les articles et synthèses de ce site sont des textes générés par l'IA, et chacun est signalé comme tel : sous chaque titre, l'auteur indiqué est « Généré par l'IA », la même mention figure dans les métadonnées de la page à l'intention des moteurs de recherche et des outils d'IA, et une note en fin d'article explique comment il a été produit. Les traductions sont elles aussi réalisées par l'IA.
+
+Cette mention répond aux obligations de transparence applicables aux textes générés par l'IA prévues à l'article 50 du règlement européen sur l'intelligence artificielle (règlement (UE) 2024/1689). L'éditeur, Martin Seckar, est responsable des règles éditoriales que suit le processus et des corrections.
+
 ## Labels de vérification
 
 Chaque article se termine par un tableau de vérification. Chaque affirmation vérifiable reçoit un label et un lien vers sa source :

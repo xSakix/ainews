@@ -15,7 +15,7 @@
 
 > {{ site.Params.description }}
 
-AI News Daily publishes six articles and one digest every morning (Europe/Bratislava time), focused on model releases from AI labs worldwide, research papers, essays, local models and agents, and prompting techniques. Each article ends with a verification table in which every checkable claim carries one label and a link to its primary source. Articles are researched and drafted with AI models under the editorial rules described on the About page.
+AI News Daily publishes six articles and one digest every morning (Europe/Bratislava time), focused on model releases from AI labs worldwide, research papers, essays, local models and agents, and prompting techniques. Each article ends with a verification table in which every checkable claim carries one label and a link to its primary source. All articles and digests are AI-generated text, researched and written by AI models under the editorial rules described on the About page, and are labelled as such on every page (EU AI Act, Art. 50).
 {{ with $ed }}
 This is the {{ index . 0 }} edition: AI translations of the English articles, with the same sources and labels. {{ index . 0 }} labels: {{ index . 1 }} (verified), {{ index . 2 }} (partially verified), {{ index . 3 }} (vendor-reported), {{ index . 4 }} (unverified). The English original is indexed at {{ "llms.txt" | absURL }}.
 {{ else }}

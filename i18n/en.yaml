@@ -5,6 +5,6 @@
 - id: follow_text
   translation: 'Follow the <a href="{{ .rss }}">RSS feed</a> (full text) or subscribe to the <a href="{{ .newsletter }}" rel="noopener">newsletter on Substack</a>.'
 - id: follow_note
-  translation: 'Researched and drafted with AI under published editorial rules. <a href="{{ .about }}">How we work and what the labels mean</a>.'
+  translation: 'This article is AI-generated: researched and written by AI models under published editorial rules. <a href="{{ .about }}">How we work and what the labels mean</a>.'
 - id: follow_aria
   translation: "Follow AI News Daily"

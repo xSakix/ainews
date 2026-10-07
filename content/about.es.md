@@ -28,6 +28,12 @@ Los artículos los investigan y redactan modelos de IA en un proceso diario auto
 5. **Edición.** Una fase de edición separada revisa la estructura, la claridad y las etiquetas de las afirmaciones antes de publicar.
 6. **Traducción.** La edición en español se traduce con IA a partir de los artículos en inglés ya terminados. Los enlaces a las fuentes y las etiquetas de verificación son los mismos que en el original.
 
+## Aviso de contenido generado por IA {#ai-disclosure}
+
+Todos los artículos y resúmenes de este sitio son textos generados por IA, y cada uno está marcado como tal: bajo cada título figura como autor «Generado por IA», la misma etiqueta aparece en los metadatos de la página para buscadores y herramientas de IA, y una nota al final de cada artículo explica cómo se produjo. Las traducciones también las hace la IA.
+
+Este aviso cumple las obligaciones de transparencia para textos generados por IA del artículo 50 del Reglamento europeo de inteligencia artificial (Reglamento (UE) 2024/1689). El editor, Martin Seckar, es responsable de las normas editoriales que sigue el proceso y de las correcciones.
+
 ## Etiquetas de verificación
 
 Cada artículo termina con una tabla de verificación. Cada afirmación comprobable recibe una etiqueta y un enlace a su fuente:

@@ -24,7 +24,11 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
 
 [params]
   env         = "production"
-  author      = "Martin Seckar"
+  # Every post is labelled as AI-generated text (EU AI Act, Art. 50(4)).
+  # The label is the author shown under each title, in <meta name="author">
+  # and in schema.org data; each edition overrides it with its own wording.
+  # The publisher is named on the About page.
+  author      = "AI-generated"
   mainSections = ["posts"]
   defaultTheme = "auto"
   # Seven editions: show short codes in the header (full names are the
@@ -73,6 +77,8 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
     title        = "AI News Daily"
     weight       = 1
     [languages.en.params]
+      author      = "AI-generated"
+      footer      = { text = "All articles are AI-generated · [How we work](/about/#ai-disclosure)" }
       description = "Source-checked AI news every morning: model releases from labs worldwide, research, what people are building, essays and community discussion. Each article links its primary sources and labels every key claim."
       DateFormat  = "2 January 2006"
       [languages.en.params.homeInfoParams]
@@ -113,6 +119,8 @@ Other editions: [Slovenčina](/sk/) · [Nederlands](/nl/) · [Français](/fr/) �
     title        = "AI News Daily"
     weight       = 2
     [languages.sk.params]
+      author      = "Vygenerované AI"
+      footer      = { text = "Všetky články sú vygenerované AI · [Ako pracujeme](/sk/about/#ai-disclosure)" }
       description = "Správy o umelej inteligencii s overenými zdrojmi, každé ráno: nové modely z laboratórií z celého sveta, výskum, čo ľudia tvoria, eseje a diskusie komunity. Každý článok odkazuje na primárne zdroje a pri kľúčových tvrdeniach uvádza, nakoľko sú overené."
       DateFormat  = ":date_long"
       [languages.sk.params.homeInfoParams]
@@ -151,6 +159,8 @@ Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Každý deň 
     title        = "AI News Daily"
     weight       = 3
     [languages.nl.params]
+      author      = "Gegenereerd door AI"
+      footer      = { text = "Alle artikelen zijn door AI gegenereerd · [Hoe we werken](/nl/about/#ai-disclosure)" }
       description = "AI-nieuws met gecontroleerde bronnen, elke ochtend: nieuwe modellen van labs over de hele wereld, onderzoek, wat mensen bouwen, essays en discussies in de community. Elk artikel linkt naar de primaire bronnen en geeft bij elke belangrijke bewering aan hoe ver die is geverifieerd."
       DateFormat  = ":date_long"
       [languages.nl.params.homeInfoParams]
@@ -189,6 +199,8 @@ AI-nieuws met gecontroleerde bronnen, elke ochtend. Elke dag zes artikelen en é
     title        = "AI News Daily"
     weight       = 4
     [languages.fr.params]
+      author      = "Généré par l'IA"
+      footer      = { text = "Tous les articles sont générés par l'IA · [Notre méthode](/fr/about/#ai-disclosure)" }
       description = "L'actualité de l'IA avec des sources vérifiées, chaque matin : nouveaux modèles des laboratoires du monde entier, recherche, ce que les gens construisent, essais et discussions de la communauté. Chaque article renvoie à ses sources primaires et indique, pour chaque affirmation clé, dans quelle mesure elle est vérifiée."
       DateFormat  = ":date_long"
       [languages.fr.params.homeInfoParams]
@@ -227,6 +239,8 @@ L'actualité de l'IA avec des sources vérifiées, chaque matin. Chaque jour, si
     title        = "AI News Daily"
     weight       = 5
     [languages.de.params]
+      author      = "KI-generiert"
+      footer      = { text = "Alle Artikel sind KI-generiert · [So arbeiten wir](/de/about/#ai-disclosure)" }
       description = "KI-Nachrichten mit geprüften Quellen, jeden Morgen: neue Modelle von Laboren weltweit, Forschung, was Leute bauen, Essays und Diskussionen in der Community. Jeder Artikel verlinkt seine Primärquellen und gibt bei jeder wichtigen Behauptung an, wie weit sie überprüft ist."
       DateFormat  = ":date_long"
       [languages.de.params.homeInfoParams]
@@ -265,6 +279,8 @@ KI-Nachrichten mit geprüften Quellen, jeden Morgen. Jeden Tag sechs Artikel und
     title        = "AI News Daily"
     weight       = 6
     [languages.es.params]
+      author      = "Generado por IA"
+      footer      = { text = "Todos los artículos están generados por IA · [Cómo trabajamos](/es/about/#ai-disclosure)" }
       description = "Noticias de IA con fuentes verificadas, cada mañana: nuevos modelos de laboratorios de todo el mundo, investigación, lo que la gente construye, ensayos y debates de la comunidad. Cada artículo enlaza sus fuentes primarias e indica, en cada afirmación clave, hasta qué punto está verificada."
       DateFormat  = ":date_long"
       [languages.es.params.homeInfoParams]
@@ -303,6 +319,8 @@ Noticias de IA con fuentes verificadas, cada mañana. Cada día, seis artículos
     title        = "AI News Daily"
     weight       = 7
     [languages.zh.params]
+      author      = "AI 生成"
+      footer      = { text = "所有文章均由 AI 生成 · [我们的工作方式](/zh/about/#ai-disclosure)" }
       description = "每天早上发布经过来源核实的 AI 新闻：全球各大实验室的新模型、研究进展、大家在做的项目、深度文章与社区讨论。每篇文章都链接一手来源，并为每个关键说法标注核实程度。"
       DateFormat  = ":date_long"
       [languages.zh.params.homeInfoParams]

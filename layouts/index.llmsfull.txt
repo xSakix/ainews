@@ -8,6 +8,7 @@
 Source: {{ site.Home.Permalink }}
 Language: {{ site.Language.LanguageName }}
 Index of all pages: {{ "llms.txt" | absLangURL }}
+All articles are AI-generated text (EU AI Act, Art. 50).
 Methodology and verification labels: {{ "about/" | absLangURL }}
 Generated: {{ now.Format "2006-01-02" }}
 {{ range $posts }}
@@ -17,6 +18,7 @@ Generated: {{ now.Format "2006-01-02" }}
 
 - URL: {{ .Permalink }}
 - Published: {{ .Date.Format "2006-01-02" }}
+- Author: {{ site.Params.author }} (AI-generated text)
 {{- with .Params.tags }}
 - Tags: {{ delimit . ", " }}
 {{- end }}

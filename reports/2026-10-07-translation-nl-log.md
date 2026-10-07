@@ -29,3 +29,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## realvr-trains-hidden-reasoning-to-retain-visual-evidence.nl.md (backlog)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## cambridge-finds-objectives-outweigh-distillation-data-source.nl.md (backlog)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

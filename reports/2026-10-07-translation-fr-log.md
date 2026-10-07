@@ -32,3 +32,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## easycommand-runs-english-to-bash-locally.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved dataset limitations, benchmark attribution and licence distinctions.
+
+## context-models-let-agents-edit-their-own-history.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved maximum reported gain, cache trade-offs and security caveats.

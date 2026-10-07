@@ -15,3 +15,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## placebo-test-finds-most-agent-skills-add-no-value.zh.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as 据公司称, including research claims.
+
+## manifold-finds-malware-judgments-use-moral-routing.zh.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

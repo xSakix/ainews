@@ -48,3 +48,6 @@ This continuation published 10 missing French posts and 14 missing German posts,
 
 ## 4mt-vlm-shows-vision-models-lose-places-after-rotation.de.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## lie-detection-probes-track-compliance-instead-of-truth.de.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

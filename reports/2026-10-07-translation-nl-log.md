@@ -5,3 +5,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## mistral-previews-large-4-before-releasing-weights.nl.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved the conflicting architecture figures and all provisional claims.
+
+## vision-models-split-objects-from-relations.nl.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved the behavioral versus mechanistic distinction and scope limitations.

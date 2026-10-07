@@ -33,3 +33,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## easycommand-runs-english-to-bash-locally.es.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## context-models-let-agents-edit-their-own-history.es.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as SEGÚN LA EMPRESA, including research claims.

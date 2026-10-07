@@ -14,3 +14,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## placebo-test-finds-most-agent-skills-add-no-value.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Kept the technical term skill consistently; preserved placebo, amendment and pilot distinctions.
+
+## manifold-finds-malware-judgments-use-moral-routing.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved causal intervention details and the limits of routing attribution.

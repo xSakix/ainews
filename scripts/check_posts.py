@@ -142,6 +142,10 @@ def check(path, strict):
             return [f"front matter is not valid TOML: {e}"]
     elif strict:
         errors.append("front matter must be TOML (+++)")
+    # The site-wide author marks every post as AI-generated (EU AI Act,
+    # Art. 50); a per-post author would replace that label.
+    if "author" in meta or "hideAuthor" in meta:
+        errors.append("front matter must not set author or hideAuthor (posts are labelled AI-generated site-wide)")
 
     in_fence = False
     for n, line in enumerate(body.split("\n"), start=fm.count("\n") + 1):

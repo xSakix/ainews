@@ -27,6 +27,12 @@ Articles are researched and drafted by AI models in an automated daily pipeline.
 5. **Editing.** A separate editing pass checks structure, clarity and claim labels before publication.
 6. **Translation.** The [Slovak](/sk/), [Dutch](/nl/), [French](/fr/), [German](/de/), [Spanish](/es/) and [Simplified Chinese](/zh/) editions are translated from the finished English articles with AI. Source links and verification labels match the original.
 
+## AI disclosure {#ai-disclosure}
+
+All articles and digests on this site are AI-generated text. Each one is labelled as such: the author line under every title reads "AI-generated", the same label appears in the page metadata for search engines and AI tools, and a note at the end of each article says how it was produced. Translations into other languages are also made by AI.
+
+This disclosure follows the transparency obligations for AI-generated text in Article 50 of the EU Artificial Intelligence Act (Regulation (EU) 2024/1689). The publisher, Martin Seckar, is responsible for the editorial rules the AI pipeline follows and for corrections.
+
 ## Verification labels
 
 Every article ends with a verification table. Each checkable claim gets one label and a link to its source:

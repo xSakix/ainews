@@ -28,6 +28,12 @@ De artikelen worden in een geautomatiseerd dagelijks proces door AI-modellen ond
 5. **Redactie.** Een aparte redactieronde controleert vóór publicatie de opbouw, de helderheid en de labels bij beweringen.
 6. **Vertaling.** De Nederlandse editie wordt met AI vertaald uit de afgewerkte Engelse artikelen, net als de andere vertaalde edities. Links naar bronnen en verificatielabels zijn dezelfde als in het origineel.
 
+## Vermelding van AI-gebruik {#ai-disclosure}
+
+Alle artikelen en dagelijkse overzichten op deze site zijn door AI gegenereerde teksten. Elk ervan is als zodanig gemarkeerd: onder elke titel staat als auteur „Gegenereerd door AI”, hetzelfde label staat in de metadata van de pagina voor zoekmachines en AI-tools, en een notitie aan het eind van elk artikel legt uit hoe het tot stand kwam. Ook de vertalingen worden door AI gemaakt.
+
+Deze vermelding volgt de transparantieverplichtingen voor door AI gegenereerde tekst in artikel 50 van de Europese AI-verordening (Verordening (EU) 2024/1689). De uitgever, Martin Seckar, is verantwoordelijk voor de redactionele regels die het proces volgt en voor correcties.
+
 ## Verificatielabels
 
 Elk artikel eindigt met een verificatietabel. Elke controleerbare bewering krijgt één label en een link naar de bron:

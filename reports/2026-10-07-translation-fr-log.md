@@ -48,3 +48,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## 4mt-vlm-shows-vision-models-lose-places-after-rotation.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. The digest and article report different human scores; each source translated faithfully.
+
+## lie-detection-probes-track-compliance-instead-of-truth.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

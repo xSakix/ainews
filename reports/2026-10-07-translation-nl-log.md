@@ -14,3 +14,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## placebo-test-finds-most-agent-skills-add-no-value.nl.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved placebo comparisons, amendment, limitations and separate pilot status.
+
+## manifold-finds-malware-judgments-use-moral-routing.nl.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved routing versus workspace distinctions and pruning caveats.

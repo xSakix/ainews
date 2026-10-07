@@ -60,3 +60,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## examples-amplify-a-symbolic-circuit-already-in-models.de.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## strata-fork-revives-an-ibm-ai-server-for-local-llms.de.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. COMMUNITY-REPORTED is outside the closed label set; translated as LAUT COMMUNITY.

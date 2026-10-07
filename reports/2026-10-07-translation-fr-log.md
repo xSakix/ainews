@@ -57,3 +57,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## confidence-cues-steer-models-more-than-competence-does.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. Nudgeability retained as the authors named property.
+
+## examples-amplify-a-symbolic-circuit-already-in-models.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

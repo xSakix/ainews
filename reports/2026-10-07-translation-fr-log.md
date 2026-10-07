@@ -63,3 +63,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## strata-fork-revives-an-ibm-ai-server-for-local-llms.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. COMMUNITY-REPORTED is outside the closed label set; translated as RAPPORTÉ PAR LA COMMUNAUTÉ.
+
+## wagtails-one-model-month-spent-half-its-tokens-elsewhere.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. COMMUNITY-REPORTED is outside the closed label set; translated as RAPPORTÉ PAR LA COMMUNAUTÉ.

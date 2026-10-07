@@ -12,3 +12,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## opentpu-runs-local-models-on-a-300-dollar-fpga.de.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## placebo-test-finds-most-agent-skills-add-no-value.de.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. Skill retained as established technical term.

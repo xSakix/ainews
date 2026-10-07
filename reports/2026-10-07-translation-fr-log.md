@@ -11,3 +11,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## opentpu-runs-local-models-on-a-300-dollar-fpga.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved every throughput, bandwidth and memory measurement.
+
+## placebo-test-finds-most-agent-skills-add-no-value.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Kept the technical term skill consistently; preserved placebo, amendment and pilot distinctions.

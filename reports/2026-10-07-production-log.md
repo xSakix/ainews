@@ -19,3 +19,7 @@ NEWS BRIEF. Opened Mistral's announcement and model documentation. The two sourc
 ## Vision models split objects from abstract relations
 
 EXPLAINER. Read the arXiv record and the study's reported behavioral, representational and ablation findings. The causal spine is the transfer from heads found on the relational task to ARC-AGI-1. The human-development comparison is bounded as analogy, and all experimental results remain VENDOR-REPORTED preprint findings. Strict check passed.
+
+## OpenTPU runs local models on a $300 FPGA card
+
+NEWS BRIEF. Inspected the repository README, measurement tables, method notes, architecture map and licence. The article treats the published stack as the news and narrows the “developed by AI” framing. Every throughput and bandwidth result remains VENDOR-REPORTED pending independent hardware reproduction. Strict check passed.

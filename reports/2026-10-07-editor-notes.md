@@ -11,3 +11,7 @@ The edit makes the preview-versus-release distinction the spine. Conflicting par
 ## Vision models split objects from abstract relations
 
 The edit separates the behavioral family comparison from the internal evidence available only in open models. The ARC ablation carries the causal spine, while the human relational-shift comparison is kept from becoming a claim of mechanistic equivalence.
+
+## OpenTPU runs local models on a $300 FPGA card
+
+The stack's inspectability replaces the project's provocative AI-authorship slogan as the spine. Measurements retain enough conditions to be meaningful, and GPU comparisons are bounded rather than implied.

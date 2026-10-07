@@ -27,3 +27,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## models-address-facts-by-order-of-mention.de.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## agents-miss-the-link-between-actions-and-outcomes.de.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

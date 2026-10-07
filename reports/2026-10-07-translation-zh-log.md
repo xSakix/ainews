@@ -6,3 +6,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## mistral-previews-large-4-before-releasing-weights.zh.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## vision-models-split-objects-from-relations.zh.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as 据公司称, including research claims.

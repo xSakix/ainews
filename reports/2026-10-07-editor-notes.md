@@ -19,3 +19,7 @@ The stack's inspectability replaces the project's provocative AI-authorship slog
 ## Placebo test finds most agent skills add no value
 
 The edit leads with the matched-placebo result and explains why it differs from a no-skill baseline. Statistical detail is limited to figures a practitioner can interpret, while sample, invocation and scope limits remain adjacent to the conclusion.
+
+## Manifold finds malware judgments use moral routing
+
+The article separates router choice, readable workspace and final verdict. The transplant provides the causal centre, while the prune results prevent the routing path from being described as a stored moral decision.

@@ -27,3 +27,7 @@ NEWS BRIEF. Inspected the repository README, measurement tables, method notes, a
 ## Placebo test finds most agent skills add no value
 
 EXPLAINER. Inspected the preregistration, result table, amendments and stated limitations in the public repository. The matched-control design is the spine. The article separates the 450-trial Claude study from the small Codex pilot and avoids generalizing beyond the tested tasks, model and harness. Strict check passed.
+
+## Manifold finds malware judgments use moral routing
+
+NEWS BRIEF. Read Manifold's full method, routing distances, workspace-lens contrast, route transplant and pruning results. The article treats the route transplant as the strongest evidence and preserves the distinction between a consulted path and the location of a decision. Results remain VENDOR-REPORTED company research. Strict check passed.

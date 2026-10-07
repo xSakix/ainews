@@ -26,3 +26,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## percepta-tests-growing-memory-for-long-context-recall.nl.md (backlog)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## realvr-trains-hidden-reasoning-to-retain-visual-evidence.nl.md (backlog)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

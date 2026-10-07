@@ -45,3 +45,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## 4mt-vlm-shows-vision-models-lose-places-after-rotation.es.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as SEGÚN LA EMPRESA, including research claims.
+
+## lie-detection-probes-track-compliance-instead-of-truth.es.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as SEGÚN LA EMPRESA, including research claims.

@@ -35,3 +35,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## context-models-let-agents-edit-their-own-history.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved maximum reported gain, cache trade-offs and security caveats.
+
+## vllm-shows-when-split-serving-helps-and-hurts.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved transport topology, latency measurements and non-portable benchmark caveats.

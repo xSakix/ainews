@@ -30,3 +30,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## agents-miss-the-link-between-actions-and-outcomes.zh.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as 据公司称, including research claims.
+
+## easycommand-runs-english-to-bash-locally.zh.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

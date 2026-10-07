@@ -7,3 +7,7 @@ The release is framed around the inspectable local-retrieval capability rather t
 ## Mistral previews Large 4 before releasing its weights
 
 The edit makes the preview-versus-release distinction the spine. Conflicting parameter figures remain visible, benchmark detail is limited to the most decision-relevant claims, and the ending points to the dated evidence threshold.
+
+## Vision models split objects from abstract relations
+
+The edit separates the behavioral family comparison from the internal evidence available only in open models. The ARC ablation carries the causal spine, while the human relational-shift comparison is kept from becoming a claim of mechanistic equivalence.

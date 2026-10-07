@@ -15,3 +15,7 @@ NEWS BRIEF. Opened Google's announcement and checked the released weight reposit
 ## Mistral previews Large 4 before releasing its weights
 
 NEWS BRIEF. Opened Mistral's announcement and model documentation. The two sources disagree on total and active parameter counts, so the article reports both rather than resolving them by assumption. The live API and 27 October weight date are VERIFIED; performance remains VENDOR-REPORTED. Strict check passed.
+
+## Vision models split objects from abstract relations
+
+EXPLAINER. Read the arXiv record and the study's reported behavioral, representational and ablation findings. The causal spine is the transfer from heads found on the relational task to ARC-AGI-1. The human-development comparison is bounded as analogy, and all experimental results remain VENDOR-REPORTED preprint findings. Strict check passed.

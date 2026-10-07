@@ -23,3 +23,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## ai-daily-digest-for-4-october-2026.nl.md (backlog)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## percepta-tests-growing-memory-for-long-context-recall.nl.md (backlog)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

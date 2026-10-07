@@ -21,3 +21,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## ai-daily-digest-for-7-october-2026.es.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## reflection-previews-beam-before-releasing-weights.es.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

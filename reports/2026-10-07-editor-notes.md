@@ -23,3 +23,7 @@ The edit leads with the matched-placebo result and explains why it differs from 
 ## Manifold finds malware judgments use moral routing
 
 The article separates router choice, readable workspace and final verdict. The transplant provides the causal centre, while the prune results prevent the routing path from being described as a stored moral decision.
+
+## AI Daily Digest for 7 October 2026
+
+Repeated topics were merged by underlying event, article subjects were removed, and every community or vendor result keeps its evidence boundary. Sections follow the house order and the synthesis appears only once at the end.

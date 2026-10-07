@@ -31,3 +31,7 @@ EXPLAINER. Inspected the preregistration, result table, amendments and stated li
 ## Manifold finds malware judgments use moral routing
 
 NEWS BRIEF. Read Manifold's full method, routing distances, workspace-lens contrast, route transplant and pruning results. The article treats the route transplant as the strongest evidence and preserves the distinction between a consulted path and the location of a decision. Results remain VENDOR-REPORTED company research. Strict check passed.
+
+## Digest
+
+Matched each planned item to its desk entry by direct URL, removed all six article topics and merged repeated release or community discussion. Vendor, preprint and forum claims remain attributed; videos name their language and are limited to their official descriptions. Business coverage stays in the final section. Strict check passed.

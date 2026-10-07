@@ -11,3 +11,7 @@ Publishing proceeds one file at a time, with strict validation and an atomic fas
 ## Google releases EmbeddingGemma 2 for multimodal search
 
 NEWS BRIEF. Opened Google's announcement and checked the released weight repository. The article centres on the modular shared embedding space, separates availability from Google's benchmark and RAM measurements, and keeps those measurements VENDOR-REPORTED. Strict check passed.
+
+## Mistral previews Large 4 before releasing its weights
+
+NEWS BRIEF. Opened Mistral's announcement and model documentation. The two sources disagree on total and active parameter counts, so the article reports both rather than resolving them by assumption. The live API and 27 October weight date are VERIFIED; performance remains VENDOR-REPORTED. Strict check passed.

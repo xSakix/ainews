@@ -3,3 +3,6 @@
 
 ## google-releases-embeddinggemma-2.de.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## mistral-previews-large-4-before-releasing-weights.de.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. Conflicting architecture figures preserved as in the source.

@@ -18,3 +18,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## manifold-finds-malware-judgments-use-moral-routing.zh.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## ai-daily-digest-for-7-october-2026.zh.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

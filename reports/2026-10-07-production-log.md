@@ -7,3 +7,7 @@ The plan selects six stories across five focus areas. EmbeddingGemma 2 and Mistr
 The release announcements and inspectable artefacts support NEWS BRIEFs. The VLM and skill-placebo studies need EXPLAINERS because their methods and limitations decide the meaning of the results. The Manifold article reports the author's argument and measurements as a NEWS BRIEF. Business items remain confined to the digest.
 
 Publishing proceeds one file at a time, with strict validation and an atomic fast-forward commit to `main` after each completed file.
+
+## Google releases EmbeddingGemma 2 for multimodal search
+
+NEWS BRIEF. Opened Google's announcement and checked the released weight repository. The article centres on the modular shared embedding space, separates availability from Google's benchmark and RAM measurements, and keeps those measurements VENDOR-REPORTED. Strict check passed.

@@ -30,3 +30,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## agents-miss-the-link-between-actions-and-outcomes.es.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as SEGÚN LA EMPRESA, including research claims.
+
+## easycommand-runs-english-to-bash-locally.es.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

@@ -66,3 +66,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## wagtails-one-model-month-spent-half-its-tokens-elsewhere.de.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. COMMUNITY-REPORTED is outside the closed label set; translated as LAUT COMMUNITY.
+
+## matthew-green-says-agent-sandboxes-need-a-warden.de.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

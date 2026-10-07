@@ -45,3 +45,6 @@ The run reached its per-turn execution capacity during Step 1. The fresh queue h
 
 ## ai-daily-digest-for-6-october-2026.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## 4mt-vlm-shows-vision-models-lose-places-after-rotation.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. The digest and article report different human scores; each source translated faithfully.

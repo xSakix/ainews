@@ -42,3 +42,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## ai-daily-digest-for-6-october-2026.de.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## Continuation checkpoint
+This continuation published 10 missing French posts and 14 missing German posts, each after strict validation and before starting the next file. No stale or backlog translations and no skipped posts. German recent queue has 9 missing posts remaining; Spanish and Simplified Chinese each have 23. Dutch and French recent queues are clear. Backlog remaining: nl 27, fr 33, de 33, es 33, zh 33. All publications succeeded. Run remains incomplete; resume from the queue on current main. Completed language run summaries are deferred until the backlog step is done.

@@ -39,3 +39,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## vllm-shows-when-split-serving-helps-and-hurts.de.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## ai-daily-digest-for-6-october-2026.de.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

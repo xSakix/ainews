@@ -60,3 +60,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## strata-fork-revives-an-ibm-ai-server-for-local-llms.zh.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. COMMUNITY-REPORTED translated as 据社区报告.
+
+## wagtails-one-model-month-spent-half-its-tokens-elsewhere.zh.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. COMMUNITY-REPORTED translated as 据社区报告.

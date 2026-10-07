@@ -29,3 +29,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## agents-miss-the-link-between-actions-and-outcomes.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved shuffle controls, learned-calibrator caveats and behavioral evidence limits.
+
+## easycommand-runs-english-to-bash-locally.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved dataset limitations, benchmark attribution and licence distinctions.

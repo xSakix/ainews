@@ -20,3 +20,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## ai-daily-digest-for-7-october-2026.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved all 51 items, exact URLs, figures and evidence qualifications.
+
+## reflection-previews-beam-before-releasing-weights.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved pending artefacts and all vendor-attributed measurements.

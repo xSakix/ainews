@@ -30,3 +30,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## agents-miss-the-link-between-actions-and-outcomes.de.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## easycommand-runs-english-to-bash-locally.de.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

@@ -51,3 +51,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## lie-detection-probes-track-compliance-instead-of-truth.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## bilibili-expands-index-translate-with-local-builds.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

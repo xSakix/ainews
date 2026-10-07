@@ -8,3 +8,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## vision-models-split-objects-from-relations.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved all qualifications and the open-model scope of the mechanism claim.
+
+## opentpu-runs-local-models-on-a-300-dollar-fpga.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved every throughput, bandwidth and memory measurement.

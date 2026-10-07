@@ -20,3 +20,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## ai-daily-digest-for-7-october-2026.nl.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved every item, figure, direct URL and evidence qualification.
+
+## ai-daily-digest-for-4-october-2026.nl.md (backlog)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

@@ -23,3 +23,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## reflection-previews-beam-before-releasing-weights.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved pending artefacts and all vendor-attributed measurements.
+
+## models-address-facts-by-order-of-mention.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved controlled-task limitations and all transfer rates.

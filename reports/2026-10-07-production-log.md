@@ -37,3 +37,5 @@ NEWS BRIEF. Read Manifold's full method, routing distances, workspace-lens contr
 Matched each planned item to its desk entry by direct URL, removed all six article topics and merged repeated release or community discussion. Vendor, preprint and forum claims remain attributed; videos name their language and are limited to their official descriptions. Business coverage stays in the final section. Strict check passed.
 
 Translation notes: google-releases-embeddinggemma-2.sk.md — paragraph, heading, URL, figure, date, tag and verification-row fidelity reviewed; required heading IDs preserved. Strict twin check passed.
+
+Translation notes: mistral-previews-large-4-before-releasing-weights.sk.md — paragraph, heading, URL, figure, date, tag and verification-row fidelity reviewed; conflicting parameter figures preserved; required heading IDs preserved. Strict twin check passed.

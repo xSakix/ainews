@@ -54,3 +54,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## confidence-cues-steer-models-more-than-competence-does.es.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as SEGÚN LA EMPRESA, including research claims.
+
+## examples-amplify-a-symbolic-circuit-already-in-models.es.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as SEGÚN LA EMPRESA, including research claims.

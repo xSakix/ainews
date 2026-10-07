@@ -42,3 +42,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## ai-daily-digest-for-6-october-2026.es.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## 4mt-vlm-shows-vision-models-lose-places-after-rotation.es.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as SEGÚN LA EMPRESA, including research claims.

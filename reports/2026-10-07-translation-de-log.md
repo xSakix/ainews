@@ -9,3 +9,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## vision-models-split-objects-from-relations.de.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## opentpu-runs-local-models-on-a-300-dollar-fpga.de.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

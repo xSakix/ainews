@@ -54,3 +54,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## bilibili-expands-index-translate-with-local-builds.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## confidence-cues-steer-models-more-than-competence-does.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. Nudgeability retained as the authors named property.

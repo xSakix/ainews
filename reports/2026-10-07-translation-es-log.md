@@ -57,3 +57,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## examples-amplify-a-symbolic-circuit-already-in-models.es.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as SEGÚN LA EMPRESA, including research claims.
+
+## strata-fork-revives-an-ibm-ai-server-for-local-llms.es.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. COMMUNITY-REPORTED translated as SEGÚN LA COMUNIDAD.

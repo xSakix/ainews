@@ -39,3 +39,5 @@ Matched each planned item to its desk entry by direct URL, removed all six artic
 Translation notes: google-releases-embeddinggemma-2.sk.md — paragraph, heading, URL, figure, date, tag and verification-row fidelity reviewed; required heading IDs preserved. Strict twin check passed.
 
 Translation notes: mistral-previews-large-4-before-releasing-weights.sk.md — paragraph, heading, URL, figure, date, tag and verification-row fidelity reviewed; conflicting parameter figures preserved; required heading IDs preserved. Strict twin check passed.
+
+Translation notes: vision-models-split-objects-from-relations.sk.md — paragraph, heading, URL, figure, date, tag and verification-row fidelity reviewed; required heading IDs preserved. Strict twin check passed.

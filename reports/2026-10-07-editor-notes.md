@@ -15,3 +15,7 @@ The edit separates the behavioral family comparison from the internal evidence a
 ## OpenTPU runs local models on a $300 FPGA card
 
 The stack's inspectability replaces the project's provocative AI-authorship slogan as the spine. Measurements retain enough conditions to be meaningful, and GPU comparisons are bounded rather than implied.
+
+## Placebo test finds most agent skills add no value
+
+The edit leads with the matched-placebo result and explains why it differs from a no-skill baseline. Statistical detail is limited to figures a practitioner can interpret, while sample, invocation and scope limits remain adjacent to the conclusion.

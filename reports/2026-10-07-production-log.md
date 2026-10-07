@@ -23,3 +23,7 @@ EXPLAINER. Read the arXiv record and the study's reported behavioral, representa
 ## OpenTPU runs local models on a $300 FPGA card
 
 NEWS BRIEF. Inspected the repository README, measurement tables, method notes, architecture map and licence. The article treats the published stack as the news and narrows the “developed by AI” framing. Every throughput and bandwidth result remains VENDOR-REPORTED pending independent hardware reproduction. Strict check passed.
+
+## Placebo test finds most agent skills add no value
+
+EXPLAINER. Inspected the preregistration, result table, amendments and stated limitations in the public repository. The matched-control design is the spine. The article separates the 450-trial Claude study from the small Codex pilot and avoids generalizing beyond the tested tasks, model and harness. Strict check passed.

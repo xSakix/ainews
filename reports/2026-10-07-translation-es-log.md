@@ -51,3 +51,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## bilibili-expands-index-translate-with-local-builds.es.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## confidence-cues-steer-models-more-than-competence-does.es.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Source VENDOR-REPORTED labels retained as SEGÚN LA EMPRESA, including research claims.

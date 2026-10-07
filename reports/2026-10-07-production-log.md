@@ -47,3 +47,9 @@ Translation notes: opentpu-runs-local-models-on-a-300-dollar-fpga.sk.md — para
 Translation notes: placebo-test-finds-most-agent-skills-add-no-value.sk.md — paragraph, heading, URL, figure, date, tag and verification-row fidelity reviewed; matched-control distinctions and required heading IDs preserved. Strict twin check passed.
 
 Translation notes: manifold-finds-malware-judgments-use-moral-routing.sk.md — paragraph, heading, URL, figure, date, tag and verification-row fidelity reviewed; routing/workspace distinction and required heading IDs preserved. Strict twin check passed.
+
+Translation notes: ai-daily-digest-for-7-october-2026.sk.md — all sections and planned entries preserved in order; paragraph, heading, URL, figure, language, date, tag and verification-row fidelity reviewed; required heading ID preserved. Strict twin check passed.
+
+## Completion
+
+Pass 1 complete: six English articles and one digest. Pass 2 complete: all seven Slovak twins. No missing Slovak twins remain for English posts dated 5–7 October. Validation: TOML, descriptions, allowed tags, Slovak slugs, shared dates and tags, source URL multisets and required heading IDs passed. Direct commits were published to `main`; no Dutch, French, German, Spanish or Chinese files were created, edited or deleted.

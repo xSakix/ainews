@@ -78,3 +78,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## zou-team-traces-how-models-report-internal-changes.fr.md (backlog)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. The original VENDOR-REPORTED label is preserved in meaning as SELON LA SOCIÉTÉ although these are academic authors.
+
+## georgia-tech-team-extends-model-reference-tracking.fr.md (backlog)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Academic results retain the source VENDOR-REPORTED label as prescribed.

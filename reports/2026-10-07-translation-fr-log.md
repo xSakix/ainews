@@ -38,3 +38,7 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## vllm-shows-when-split-serving-helps-and-hurts.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved transport topology, latency measurements and non-portable benchmark caveats.
+
+## Interrupted run checkpoint
+This continuation published 13 missing translations, stale 0, backlog 0, skipped 0. Every file passed strict validation and structural comparison before publication; all 20 Dutch and French files published in this continuation also pass a final strict check. All connected GitHub non-forced expected-head ref updates succeeded and were fetched locally.
+The run reached its per-turn execution capacity during Step 1. The fresh queue has 10 recent missing French posts, no stale posts and 33 backlog posts. Resume with ai-daily-digest-for-6-october-2026.md after recomputing main. Dutch recent work is clear with 27 backlog posts; German, Spanish and Simplified Chinese each have 23 recent missing posts and 33 backlog posts. Step 2 and the completed-language Run summaries remain due; this is an interruption checkpoint, not a completed summary.

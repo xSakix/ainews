@@ -11,3 +11,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## opentpu-runs-local-models-on-a-300-dollar-fpga.nl.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved hardware measurements and the human-directed development qualification.
+
+## placebo-test-finds-most-agent-skills-add-no-value.nl.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict validation passed. Preserved placebo comparisons, amendment, limitations and separate pilot status.

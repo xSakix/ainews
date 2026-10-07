@@ -69,3 +69,6 @@ Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; st
 
 ## matthew-green-says-agent-sandboxes-need-a-warden.fr.md (missing)
 Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## ai-daily-digest-for-5-october-2026.fr.md (missing)
+Checked paragraphs, headings, table rows, exact URLs, figures, date and tags; strict check passed. Combined VERIFIED / VENDOR-REPORTED and COMMUNITY-REPORTED labels translated plainly; outside the closed label set. English trillion rendered as French billion.

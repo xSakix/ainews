@@ -15,3 +15,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## placebo-test-finds-most-agent-skills-add-no-value.es.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Skill retained as the technical feature name.
+
+## manifold-finds-malware-judgments-use-moral-routing.es.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

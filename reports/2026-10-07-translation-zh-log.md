@@ -1,0 +1,5 @@
+# Simplified Chinese edition log — 7 October 2026
+
+
+## google-releases-embeddinggemma-2.zh.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

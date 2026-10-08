@@ -28,3 +28,8 @@
 
 - Format: explainer. Opened the arXiv record and used the paper's causal comparisons and mitigation results.
 - Labelled every result as author-reported and kept the scope limitation beside the deployment interpretation.
+
+## Article 5 — rGPU
+
+- Format: news brief. Opened the repository README, layout and security guidance.
+- Focused on the two integration paths and stated the unauthenticated transport requirements plainly; performance and compatibility remain maintainer-reported.

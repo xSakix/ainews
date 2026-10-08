@@ -23,3 +23,9 @@
 **Main problems found:** The causal decomposition uses several experiment names and could read like an abstract.
 
 **Changes made:** Recast the experiments as stages in the feedback loop, defined the predictive-loss result in ordinary language and retained the independent-evidence criterion as the concrete ending.
+
+## rGPU
+
+**Main problems found:** The two interfaces and their security boundaries could be confused.
+
+**Changes made:** Distinguished the native PyTorch device from the CUDA shim, moved the network warning beside deployment, and removed unverified speed comparisons.

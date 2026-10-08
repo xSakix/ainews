@@ -13,3 +13,8 @@
 
 - Format: news brief. Opened Anthropic's launch page and platform release notes; used the system-card link for provenance.
 - Kept benchmark and cost-effect claims vendor-reported. The article focuses on pricing, adaptive thinking and the `budget_tokens` migration break.
+
+## Article 2 — Liquid d1
+
+- Format: news brief. Opened the release article and both model cards.
+- Centred the one-pass decision interface and local artefacts. Kept latency and benchmark results vendor-reported and called out the early status of d1-omni-600M.

@@ -47,3 +47,4 @@
 ## Translation notes
 
 - Slovak twin completed for `anthropic-launches-claude-haiku-5-5.md`; no unresolved terminology.
+- Slovak twin completed for `liquid-ai-opens-d1-decision-models.md`; no unresolved terminology.

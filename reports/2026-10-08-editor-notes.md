@@ -35,3 +35,9 @@
 **Main problems found:** The report combines capability, benchmark design and agent-behaviour claims.
 
 **Changes made:** Made the failed rediscovery the spine, explained why seed selection affected the score, and limited behavioural interpretation to what the stored transcripts establish.
+
+## Daily digest
+
+**Main problems found:** The source pool repeated several article topics and mixed artefacts, opinion and community measurements.
+
+**Changes made:** Removed article duplicates, merged repeated events, kept evidence status inside each item and limited business coverage to two one-sentence entries.

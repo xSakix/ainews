@@ -38,3 +38,8 @@
 
 - Format: news analysis. Opened Epoch AI's full report, methodology, results, transcript discussion and limitations.
 - Separated the observed submissions from Epoch's interpretation, preserved the one-task limitation and treated the transcripts as evaluation evidence rather than proof of intent.
+
+## Digest
+
+- Merged overlapping release and community discussions, removed all six article topics, and retained direct primary or discussion URLs.
+- Community performance figures remain self-reported; video summaries without transcripts are framed as pointers. The Singapore item explicitly notes that only secondary reporting was available.

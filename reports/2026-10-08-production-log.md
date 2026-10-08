@@ -8,3 +8,8 @@
 - Reserves favour cognitive research, an inspectable global release, a practical prompting tool and an engineering deep dive.
 - OpenAI's GPT-6 announcement remains a digest item because no technical report or model card was available. Video entries remain digest items because the briefing did not inspect transcripts.
 - Vendor benchmarks and project authors' measurements will be labelled as such. Both research articles will identify their sources as preprints.
+
+## Article 1 — Claude Haiku 5.5
+
+- Format: news brief. Opened Anthropic's launch page and platform release notes; used the system-card link for provenance.
+- Kept benchmark and cost-effect claims vendor-reported. The article focuses on pricing, adaptive thinking and the `budget_tokens` migration break.

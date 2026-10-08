@@ -43,3 +43,7 @@
 
 - Merged overlapping release and community discussions, removed all six article topics, and retained direct primary or discussion URLs.
 - Community performance figures remain self-reported; video summaries without transcripts are framed as pointers. The Singapore item explicitly notes that only secondary reporting was available.
+
+## Translation notes
+
+- Slovak twin completed for `anthropic-launches-claude-haiku-5-5.md`; no unresolved terminology.

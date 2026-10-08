@@ -1,0 +1,10 @@
+# Production log — 8 October 2026
+
+## Selection
+
+- All seven scheduled Claude desk briefings were present; no fallback research was needed.
+- Duplicate checks against English post titles, opening copy and source URLs found no previous article for the six selected topics.
+- The plan covers five focus areas. Haiku 5.5 and Liquid d1 occupy the two permitted major-release slots; both ship inspectable artefacts. The cue and test-time-training papers supply complementary cognitive findings. rGPU is an inspectable builder project. InnovationEval is the day's strongest benchmark investigation.
+- Reserves favour cognitive research, an inspectable global release, a practical prompting tool and an engineering deep dive.
+- OpenAI's GPT-6 announcement remains a digest item because no technical report or model card was available. Video entries remain digest items because the briefing did not inspect transcripts.
+- Vendor benchmarks and project authors' measurements will be labelled as such. Both research articles will identify their sources as preprints.

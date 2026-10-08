@@ -11,3 +11,9 @@
 **Main problems found:** The source mixes product definition, benchmarks and device specifications.
 
 **Changes made:** Led with the open-weight release, explained the one-pass interface in plain terms, retained only representative measurements and placed the code-loading caveat next to deployment details.
+
+## Reasoning cues
+
+**Main problems found:** The striking prompt examples risked reading as a reusable trick without the paper's model-specific and causal context.
+
+**Changes made:** Put the training-data intervention at the centre, kept model and benchmark denominators with the hero result, and placed the scope limits beside the interpretation.

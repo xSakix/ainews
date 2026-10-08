@@ -18,3 +18,8 @@
 
 - Format: news brief. Opened the release article and both model cards.
 - Centred the one-pass decision interface and local artefacts. Kept latency and benchmark results vendor-reported and called out the early status of d1-omni-600M.
+
+## Article 3 — Reasoning cues
+
+- Format: explainer. Opened the arXiv record and linked code repository; the experimental HTML view was unavailable.
+- Treated all experimental results as author-reported preprint findings. Centred the causal training-data intervention rather than presenting the cue strings as a general prompt recipe.

@@ -17,3 +17,9 @@
 **Main problems found:** The striking prompt examples risked reading as a reusable trick without the paper's model-specific and causal context.
 
 **Changes made:** Put the training-data intervention at the centre, kept model and benchmark denominators with the hero result, and placed the scope limits beside the interpretation.
+
+## Self-generated feedback
+
+**Main problems found:** The causal decomposition uses several experiment names and could read like an abstract.
+
+**Changes made:** Recast the experiments as stages in the feedback loop, defined the predictive-loss result in ordinary language and retained the independent-evidence criterion as the concrete ending.

@@ -23,3 +23,8 @@
 
 - Format: explainer. Opened the arXiv record and linked code repository; the experimental HTML view was unavailable.
 - Treated all experimental results as author-reported preprint findings. Centred the causal training-data intervention rather than presenting the cue strings as a general prompt recipe.
+
+## Article 4 — Self-generated feedback
+
+- Format: explainer. Opened the arXiv record and used the paper's causal comparisons and mitigation results.
+- Labelled every result as author-reported and kept the scope limitation beside the deployment interpretation.

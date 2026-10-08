@@ -50,3 +50,4 @@
 - Slovak twin completed for `liquid-ai-opens-d1-decision-models.md`; no unresolved terminology.
 - Slovak twin completed for `opening-tokens-trigger-reasoning-in-base-models.md`; no unresolved terminology.
 - Slovak twin completed for `self-feedback-destabilizes-test-time-training.md`; no unresolved terminology.
+- Slovak twin completed for `rgpu-turns-a-remote-card-into-a-pytorch-device.md`; no unresolved terminology.

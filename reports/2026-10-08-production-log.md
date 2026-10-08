@@ -52,3 +52,4 @@
 - Slovak twin completed for `self-feedback-destabilizes-test-time-training.md`; no unresolved terminology.
 - Slovak twin completed for `rgpu-turns-a-remote-card-into-a-pytorch-device.md`; no unresolved terminology.
 - Slovak twin completed for `epoch-finds-agents-fall-short-on-ai-research.md`; no unresolved terminology.
+- Slovak twin completed for `ai-daily-digest-for-8-october-2026.md`; section structure, source URLs and evidence labels preserved.

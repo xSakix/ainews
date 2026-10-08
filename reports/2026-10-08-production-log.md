@@ -33,3 +33,8 @@
 
 - Format: news brief. Opened the repository README, layout and security guidance.
 - Focused on the two integration paths and stated the unauthenticated transport requirements plainly; performance and compatibility remain maintainer-reported.
+
+## Article 6 — InnovationEval
+
+- Format: news analysis. Opened Epoch AI's full report, methodology, results, transcript discussion and limitations.
+- Separated the observed submissions from Epoch's interpretation, preserved the one-task limitation and treated the transcripts as evaluation evidence rather than proof of intent.

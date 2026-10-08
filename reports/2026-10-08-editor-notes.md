@@ -29,3 +29,9 @@
 **Main problems found:** The two interfaces and their security boundaries could be confused.
 
 **Changes made:** Distinguished the native PyTorch device from the CUDA shim, moved the network warning beside deployment, and removed unverified speed comparisons.
+
+## InnovationEval
+
+**Main problems found:** The report combines capability, benchmark design and agent-behaviour claims.
+
+**Changes made:** Made the failed rediscovery the spine, explained why seed selection affected the score, and limited behavioural interpretation to what the stored transcripts establish.

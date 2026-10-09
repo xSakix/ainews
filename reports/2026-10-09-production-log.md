@@ -9,3 +9,4 @@ Vendor and author benchmark numbers will remain attributed. Step 5 Preview, Falc
 ## Publication
 
 - Rank 1 — `lighton-releases-lightonocr-3.md`: NEWS BRIEF based on LightOn's release post and model card. Benchmark and speed results remain VENDOR-REPORTED; availability, licence and artefacts are VERIFIED.
+- Rank 2 — `incentives-make-ai-agents-overstate-confidence.md`: EXPLAINER based on the arXiv preprint and its HTML methods and appendices. Results remain author-reported; the model, sample sizes and real-task comparison were checked against the paper.

@@ -6,3 +6,4 @@
 - Warm Compaction: focused the brief on cache reuse, placed infrastructure requirements before benchmark claims and retained the one-workload, author-run limitation.
 - Rembrandt: distinguished the non-destructive RAW workflow from pixel editing, clarified that text controls are not an LLM and kept unsigned builds and missing functions in the main copy.
 - Epoch automation: used the flawed pilot as the concrete spine for the judgement gap, preserved the successful chart task as counterevidence and moved sample, grader and harness limits together.
+- Daily digest: merged repeated underlying events across desks, shortened company and community claims to their supported core, and retained direct-source links and language labels for every video.

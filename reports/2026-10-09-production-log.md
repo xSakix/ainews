@@ -21,3 +21,4 @@ Vendor and author benchmark numbers will remain attributed. Step 5 Preview, Falc
 - `lighton-releases-lightonocr-3.sk.md`: Slovak twin completed; product names, code prompt, figures and source URLs preserved.
 - `incentives-make-ai-agents-overstate-confidence.sk.md`: Slovak twin completed; experimental counts, confidence figures and qualification language preserved.
 - `more-reasoning-does-not-reduce-model-bias.sk.md`: Slovak twin completed; realised-token distinction, null-result wording and anchoring caveat preserved.
+- `warm-compaction-reuses-cache-for-agent-memory.sk.md`: Slovak twin completed; cache requirements, fallback sequence and author-run benchmark qualifications preserved.

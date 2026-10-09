@@ -22,3 +22,4 @@ Vendor and author benchmark numbers will remain attributed. Step 5 Preview, Falc
 - `incentives-make-ai-agents-overstate-confidence.sk.md`: Slovak twin completed; experimental counts, confidence figures and qualification language preserved.
 - `more-reasoning-does-not-reduce-model-bias.sk.md`: Slovak twin completed; realised-token distinction, null-result wording and anchoring caveat preserved.
 - `warm-compaction-reuses-cache-for-agent-memory.sk.md`: Slovak twin completed; cache requirements, fallback sequence and author-run benchmark qualifications preserved.
+- `rembrandt-runs-ai-photo-tools-locally.sk.md`: Slovak twin completed; local/privacy claims, unsigned-build warning and project-reported support figure preserved.

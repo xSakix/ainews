@@ -23,3 +23,4 @@ Vendor and author benchmark numbers will remain attributed. Step 5 Preview, Falc
 - `more-reasoning-does-not-reduce-model-bias.sk.md`: Slovak twin completed; realised-token distinction, null-result wording and anchoring caveat preserved.
 - `warm-compaction-reuses-cache-for-agent-memory.sk.md`: Slovak twin completed; cache requirements, fallback sequence and author-run benchmark qualifications preserved.
 - `rembrandt-runs-ai-photo-tools-locally.sk.md`: Slovak twin completed; local/privacy claims, unsigned-build warning and project-reported support figure preserved.
+- `epoch-finds-agents-miss-open-ended-work.sk.md`: Slovak twin completed; task method, concrete pilot failure and one-run/one-grader limits preserved.

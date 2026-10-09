@@ -10,3 +10,4 @@ Vendor and author benchmark numbers will remain attributed. Step 5 Preview, Falc
 
 - Rank 1 — `lighton-releases-lightonocr-3.md`: NEWS BRIEF based on LightOn's release post and model card. Benchmark and speed results remain VENDOR-REPORTED; availability, licence and artefacts are VERIFIED.
 - Rank 2 — `incentives-make-ai-agents-overstate-confidence.md`: EXPLAINER based on the arXiv preprint and its HTML methods and appendices. Results remain author-reported; the model, sample sizes and real-task comparison were checked against the paper.
+- Rank 3 — `more-reasoning-does-not-reduce-model-bias.md`: EXPLAINER based on the arXiv paper and released code/data repository. The main result is a null dose-response finding; the anchor-restatement observation is described as suggestive because it narrowly missed the study's threshold.

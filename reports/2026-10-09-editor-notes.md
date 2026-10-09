@@ -4,3 +4,4 @@
 - Confidence Game: centred the explanation on the separation between calibration and strategic reporting, named the tested model and kept the single-model, artificial-payoff limitation beside the real-task result.
 - Reasoning budgets and bias: separated requested from realised token use, stated the null result without promoting the consistently positive point estimates, and kept the five-item anchoring limitation beside the prompt intervention.
 - Warm Compaction: focused the brief on cache reuse, placed infrastructure requirements before benchmark claims and retained the one-workload, author-run limitation.
+- Rembrandt: distinguished the non-destructive RAW workflow from pixel editing, clarified that text controls are not an LLM and kept unsigned builds and missing functions in the main copy.

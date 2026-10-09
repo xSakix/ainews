@@ -24,3 +24,4 @@ Vendor and author benchmark numbers will remain attributed. Step 5 Preview, Falc
 - `warm-compaction-reuses-cache-for-agent-memory.sk.md`: Slovak twin completed; cache requirements, fallback sequence and author-run benchmark qualifications preserved.
 - `rembrandt-runs-ai-photo-tools-locally.sk.md`: Slovak twin completed; local/privacy claims, unsigned-build warning and project-reported support figure preserved.
 - `epoch-finds-agents-miss-open-ended-work.sk.md`: Slovak twin completed; task method, concrete pilot failure and one-run/one-grader limits preserved.
+- `ai-daily-digest-for-9-october-2026.sk.md`: Slovak digest completed with all sections, items, language labels, figures and source URLs preserved.

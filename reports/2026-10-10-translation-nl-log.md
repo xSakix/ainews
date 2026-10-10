@@ -45,3 +45,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## anthropic-launches-claude-haiku-5-5.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## liquid-ai-opens-d1-decision-models.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

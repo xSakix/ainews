@@ -22,3 +22,7 @@ The plan excludes all six topics from prior English coverage after searches by t
 ## Digest
 
 Published the remaining sourced topics after merging repeated discussions and removing all six feature stories. Omitted video items without enough descriptive substance and community duplicates of the feature topics. Tier 3 coverage is limited to the TypeSafe AI financing item.
+
+## Translation notes
+
+- Youtu-Parsing-Omni: Slovak twin passed parity checks without flags.

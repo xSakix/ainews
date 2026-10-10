@@ -39,3 +39,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## epoch-finds-agents-miss-open-ended-work.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## ai-daily-digest-for-9-october-2026.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

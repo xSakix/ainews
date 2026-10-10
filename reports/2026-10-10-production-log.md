@@ -15,3 +15,4 @@ The plan excludes all six topics from prior English coverage after searches by t
 - Rank 1: Youtu-Parsing-Omni, NEWS BRIEF. Opened the Hugging Face model card and GitHub repository. Benchmark claims remain vendor-reported; the custom licence and missing evaluation code are stated.
 - Rank 2: Identifying Introspection From the Inside, PAPER PROFILE. Opened the arXiv abstract, method, results, discussion and limitations. The article keeps the finding to controlled LoRA-adapter experiments and does not generalise it to deployed models.
 - Rank 3: Learning to Learn a Language, PAPER PROFILE. Opened arXiv, the public implementation and model repository. The article separates next-byte adaptation from language understanding and labels author-run results.
+- Rank 4: Basalt, NEWS BRIEF. Opened the repository README, licence, runtime requirements, tests and server documentation. Performance remains builder-reported because no independent reproduction was found.

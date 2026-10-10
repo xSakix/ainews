@@ -13,3 +13,4 @@ The plan excludes all six topics from prior English coverage after searches by t
 ## Articles
 
 - Rank 1: Youtu-Parsing-Omni, NEWS BRIEF. Opened the Hugging Face model card and GitHub repository. Benchmark claims remain vendor-reported; the custom licence and missing evaluation code are stated.
+- Rank 2: Identifying Introspection From the Inside, PAPER PROFILE. Opened the arXiv abstract, method, results, discussion and limitations. The article keeps the finding to controlled LoRA-adapter experiments and does not generalise it to deployed models.

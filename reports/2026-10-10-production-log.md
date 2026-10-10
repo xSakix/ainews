@@ -29,3 +29,4 @@ Published the remaining sourced topics after merging repeated discussions and re
 - Identifying Introspection From the Inside: Slovak twin passed parity checks without flags.
 - Learning to Learn a Language: Slovak twin passed parity checks without flags.
 - Basalt: Slovak twin passed parity checks without flags.
+- Telegraph Test: Slovak twin passed parity checks without flags.

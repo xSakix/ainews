@@ -57,3 +57,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## rgpu-turns-a-remote-card-into-a-pytorch-device.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## epoch-finds-agents-fall-short-on-ai-research.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

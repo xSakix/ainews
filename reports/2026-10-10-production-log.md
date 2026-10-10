@@ -30,3 +30,4 @@ Published the remaining sourced topics after merging repeated discussions and re
 - Learning to Learn a Language: Slovak twin passed parity checks without flags.
 - Basalt: Slovak twin passed parity checks without flags.
 - Telegraph Test: Slovak twin passed parity checks without flags.
+- Anthropic unintended model actions: Slovak twin passed parity checks without flags.

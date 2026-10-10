@@ -54,3 +54,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## self-feedback-destabilizes-test-time-training.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Academic findings retain the original VENDOR-REPORTED classification as prescribed.
+
+## rgpu-turns-a-remote-card-into-a-pytorch-device.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

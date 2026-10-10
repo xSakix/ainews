@@ -18,3 +18,7 @@ The plan excludes all six topics from prior English coverage after searches by t
 - Rank 4: Basalt, NEWS BRIEF. Opened the repository README, licence, runtime requirements, tests and server documentation. Performance remains builder-reported because no independent reproduction was found.
 - Rank 5: Telegraph Test, EXPLAINER. Opened the benchmark write-up and public repository. The article preserves the active-reasoning and mandatory-reasoning failure cases and notes the missing generic-terse control.
 - Rank 6: Anthropic unintended model actions, NEWS ANALYSIS. Opened Anthropic's incident report and TechCrunch coverage. The Philadelphia incident and response timeline are independently reported; the unnamed cases and detector results remain company claims.
+
+## Digest
+
+Published the remaining sourced topics after merging repeated discussions and removing all six feature stories. Omitted video items without enough descriptive substance and community duplicates of the feature topics. Tier 3 coverage is limited to the TypeSafe AI financing item.

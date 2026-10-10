@@ -48,3 +48,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## liquid-ai-opens-d1-decision-models.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## opening-tokens-trigger-reasoning-in-base-models.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Exact experimental cue strings preserved as code rather than translated, to retain tested token sequences. Academic labels retained as prescribed.

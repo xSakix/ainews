@@ -15,3 +15,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## telegraphese-cuts-tokens-in-agent-handoffs.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## anthropic-cuts-live-internet-from-agent-evaluations.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

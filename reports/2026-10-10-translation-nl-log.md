@@ -21,3 +21,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## ai-daily-digest-for-10-october-2026.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## lighton-releases-lightonocr-3.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

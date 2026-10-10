@@ -33,3 +33,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## warm-compaction-reuses-cache-for-agent-memory.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## rembrandt-runs-ai-photo-tools-locally.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

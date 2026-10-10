@@ -30,3 +30,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## more-reasoning-does-not-reduce-model-bias.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Academic findings retain the original VENDOR-REPORTED classification as prescribed.
+
+## warm-compaction-reuses-cache-for-agent-memory.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

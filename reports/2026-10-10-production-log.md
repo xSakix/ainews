@@ -26,3 +26,4 @@ Published the remaining sourced topics after merging repeated discussions and re
 ## Translation notes
 
 - Youtu-Parsing-Omni: Slovak twin passed parity checks without flags.
+- Identifying Introspection From the Inside: Slovak twin passed parity checks without flags.

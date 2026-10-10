@@ -24,3 +24,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## lighton-releases-lightonocr-3.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## incentives-make-ai-agents-overstate-confidence.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Academic findings retain the original VENDOR-REPORTED classification as prescribed.

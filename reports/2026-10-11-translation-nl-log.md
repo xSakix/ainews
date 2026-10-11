@@ -12,3 +12,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## cockroach-labs-gives-coding-agents-clinical-roles.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## talorys-puts-a-personal-agent-on-cloudflare.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

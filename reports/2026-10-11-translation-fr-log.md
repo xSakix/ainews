@@ -15,3 +15,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## talorys-puts-a-personal-agent-on-cloudflare.fr.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## nish-tahir-recalibrates-a-small-decision-model.fr.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

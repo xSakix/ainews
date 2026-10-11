@@ -29,3 +29,7 @@ The briefing claims were checked against the available primary artefacts or inde
 ## Digest
 
 - `ai-daily-digest-for-11-october-2026.md` — merged duplicated discussions, removed topics covered by today's six features, retained source attributions and labelled rumours and community measurements. Business coverage was limited to two one-sentence items.
+
+## Translation notes
+
+- `h2oai-releases-h2o-lightning-31b.sk.md` passed the Slovak structural and source checks without exceptions.

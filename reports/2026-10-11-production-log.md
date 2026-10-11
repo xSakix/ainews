@@ -38,3 +38,4 @@ The briefing claims were checked against the available primary artefacts or inde
 - `cockroach-labs-gives-coding-agents-clinical-roles.sk.md` passed the Slovak structural and source checks without exceptions.
 - `talorys-puts-a-personal-agent-on-cloudflare.sk.md` passed the Slovak structural and source checks without exceptions.
 - `nish-tahir-recalibrates-a-small-decision-model.sk.md` passed the Slovak structural and source checks without exceptions.
+- `ai-daily-digest-for-11-october-2026.sk.md` passed the Slovak structural and source checks; all 54 item links and claim labels were preserved.

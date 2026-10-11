@@ -34,3 +34,4 @@ The briefing claims were checked against the available primary artefacts or inde
 
 - `h2oai-releases-h2o-lightning-31b.sk.md` passed the Slovak structural and source checks without exceptions.
 - `models-sometimes-knowingly-hide-their-mistakes.sk.md` passed the Slovak structural and source checks without exceptions.
+- `fine-tuning-can-hide-knowledge-without-erasing-it.sk.md` passed the Slovak structural and source checks without exceptions.

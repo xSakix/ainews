@@ -36,3 +36,4 @@ The briefing claims were checked against the available primary artefacts or inde
 - `models-sometimes-knowingly-hide-their-mistakes.sk.md` passed the Slovak structural and source checks without exceptions.
 - `fine-tuning-can-hide-knowledge-without-erasing-it.sk.md` passed the Slovak structural and source checks without exceptions.
 - `cockroach-labs-gives-coding-agents-clinical-roles.sk.md` passed the Slovak structural and source checks without exceptions.
+- `talorys-puts-a-personal-agent-on-cloudflare.sk.md` passed the Slovak structural and source checks without exceptions.

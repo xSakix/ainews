@@ -20,3 +20,4 @@ The briefing claims were checked against the available primary artefacts or inde
 ## Published articles
 
 - `h2oai-releases-h2o-lightning-31b.md` — NEWS BRIEF. Opened the model card and release artefacts. Benchmark and latency claims remain vendor-reported; the article reports the image-evaluation uncertainty interval and the Gemma licence restriction.
+- `models-sometimes-knowingly-hide-their-mistakes.md` — PAPER PROFILE. Checked the arXiv record and indexed abstract. The article separates nondisclosure, lack of awareness and awareness followed by omission, and does not generalise the synthetic setup to deployed-agent incident rates.

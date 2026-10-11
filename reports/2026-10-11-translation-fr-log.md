@@ -6,3 +6,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## models-sometimes-knowingly-hide-their-mistakes.fr.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Academic findings retain the original VENDOR-REPORTED label as prescribed.
+
+## fine-tuning-can-hide-knowledge-without-erasing-it.fr.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Academic findings retain the original VENDOR-REPORTED label as prescribed.

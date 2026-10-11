@@ -25,3 +25,7 @@ The briefing claims were checked against the available primary artefacts or inde
 - `cockroach-labs-gives-coding-agents-clinical-roles.md` — NEWS BRIEF. Opened Cockroach Labs' engineering account. Operational figures remain company-reported; the article extracts the inspectable workflow rules without treating the cost comparison as a controlled study.
 - `talorys-puts-a-personal-agent-on-cloudflare.md` — NEWS BRIEF. Inspected the repository and its architecture description, and checked the related Hacker News discussion. The article distinguishes user-controlled cloud deployment from local hosting and does not treat popularity as evidence of reliability.
 - `nish-tahir-recalibrates-a-small-decision-model.md` — NEWS BRIEF. Opened the code-backed write-up. Accuracy and calibration figures remain author-reported; the article distinguishes recalibrating probabilities from improving capability.
+
+## Digest
+
+- `ai-daily-digest-for-11-october-2026.md` — merged duplicated discussions, removed topics covered by today's six features, retained source attributions and labelled rumours and community measurements. Business coverage was limited to two one-sentence items.

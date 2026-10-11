@@ -21,3 +21,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## ai-daily-digest-for-11-october-2026.fr.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## basalt-specialises-qwen-inference-for-blackwell.fr.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

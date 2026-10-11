@@ -18,3 +18,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## nish-tahir-recalibrates-a-small-decision-model.fr.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## ai-daily-digest-for-11-october-2026.fr.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

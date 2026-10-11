@@ -39,3 +39,10 @@ The briefing claims were checked against the available primary artefacts or inde
 - `talorys-puts-a-personal-agent-on-cloudflare.sk.md` passed the Slovak structural and source checks without exceptions.
 - `nish-tahir-recalibrates-a-small-decision-model.sk.md` passed the Slovak structural and source checks without exceptions.
 - `ai-daily-digest-for-11-october-2026.sk.md` passed the Slovak structural and source checks; all 54 item links and claim labels were preserved.
+
+## Final audit
+
+- Six English feature articles and one English digest published.
+- Six Slovak feature twins and one Slovak digest published.
+- Strict post validation passed for all 14 files.
+- The digest contains 54 bold items after merging duplicate subjects and removing today's feature topics.

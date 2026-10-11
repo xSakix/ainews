@@ -16,3 +16,7 @@ All seven Claude research desks were present: releases, papers, writing, builder
 ## Source notes
 
 The briefing claims were checked against the available primary artefacts or indexed primary records before drafting. Where only an abstract, model card, repository or author's own write-up supports a result, the article attributes the claim and uses VENDOR-REPORTED in the verification table.
+
+## Published articles
+
+- `h2oai-releases-h2o-lightning-31b.md` — NEWS BRIEF. Opened the model card and release artefacts. Benchmark and latency claims remain vendor-reported; the article reports the image-evaluation uncertainty interval and the Gemma licence restriction.

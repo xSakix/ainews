@@ -24,3 +24,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## basalt-specialises-qwen-inference-for-blackwell.fr.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## telegraphese-cuts-tokens-in-agent-handoffs.fr.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

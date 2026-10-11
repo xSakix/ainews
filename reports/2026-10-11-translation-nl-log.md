@@ -9,3 +9,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## fine-tuning-can-hide-knowledge-without-erasing-it.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Academic findings retain the original VENDOR-REPORTED label as prescribed.
+
+## cockroach-labs-gives-coding-agents-clinical-roles.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

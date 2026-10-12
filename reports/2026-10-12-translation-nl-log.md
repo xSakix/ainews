@@ -12,3 +12,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## byte-level-oracle-rescues-agent-decompilation.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## mass-trains-one-model-through-agent-teams.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

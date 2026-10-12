@@ -18,3 +18,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## polystrata-runs-large-moe-models-on-gaming-gpus.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## ai-daily-digest-for-12-october-2026.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

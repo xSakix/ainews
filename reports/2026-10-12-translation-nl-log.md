@@ -21,3 +21,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## ai-daily-digest-for-12-october-2026.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## metas-v-jepa-2-forgets-a-hidden-ball-within-half-a-second.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Reference entries preserved verbatim under updated translator rules.

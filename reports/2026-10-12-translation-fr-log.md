@@ -24,3 +24,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## anthropic-cuts-live-internet-from-agent-evaluations.fr.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## metas-v-jepa-2-forgets-a-hidden-ball-within-half-a-second.fr.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Reference entries preserved verbatim under updated translator rules.

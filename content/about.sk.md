@@ -11,7 +11,7 @@ ShowShareButtons = false
 comments = false
 +++
 
-AI News Daily je ranný prehľad správ o umelej inteligencii pre technicky zameraných čitateľov. Jeho jadrom je denný prehľad: jeden dlhý príspevok, ktorý prináša všetko podstatné, od nových modelov AI laboratórií v USA, Európe, Číne aj inde cez nový výskum (najmä o tom, ako modely uvažujú, pamätajú si a učia sa), to, čo ľudia tvoria, lokálne modely a agentov a techniky promptovania až po eseje, diskusie komunity, prednášky, bezpečnosť a reguláciu. Najdôležitejšie správy dňa otvárajú prehľad aj so súvislosťami. Správy zo sveta biznisu prináša iba stručne. Dva články denne idú do hĺbky: každý vyrozpráva celý jeden príbeh dňa ako rozprávanie postavené na zdrojoch. Jeden píše Claude od Anthropicu, druhý GPT od OpenAI.
+AI News Daily je ranný prehľad správ o umelej inteligencii pre technicky zameraných čitateľov. Jeho jadrom je denný prehľad: jeden dlhý príspevok, ktorý prináša všetko podstatné, od nových modelov AI laboratórií v USA, Európe, Číne aj inde cez nový výskum (najmä o tom, ako modely uvažujú, pamätajú si a učia sa), to, čo ľudia tvoria, lokálne modely a agentov a techniky promptovania až po eseje, diskusie komunity, prednášky, bezpečnosť a reguláciu. Najdôležitejšie správy dňa otvárajú prehľad aj so súvislosťami. Správy zo sveta biznisu prináša iba stručne. Dva články denne idú do hĺbky: každý vyrozpráva jeden príbeh dňa celý, opretý o zdroje. Jeden píše Claude od Anthropicu, druhý GPT od OpenAI.
 
 ## Kto za tým stojí
 

@@ -82,7 +82,7 @@ Then:
 
 ### Task D — Your article
 
-Follow `prompts/article-run.md` as the writer GPT (key `gpt`). It chooses the story, reports it, writes it with `prompts/article-writer-prompt.md`, and publishes the article with its own file, `reports/YYYY-MM-DD-article-gpt.md`, and its own commit messages. Claude's article for today is already claimed or published; your story must be a different one. When your file has a final status, Pass 1 is complete.
+Follow `prompts/article-run.md` as the writer GPT (key `gpt`). It chooses the story, reports it, writes it with `prompts/article-writer-prompt.md`, and publishes the article with its own file, `reports/YYYY-MM-DD-article-gpt.md`, and its own commit messages. If Claude has claimed or published a story today, yours must be a different one. While you follow `prompts/article-run.md`, write your notes to `reports/YYYY-MM-DD-article-gpt.md`, not to the production log. When that file has a final status, Pass 1 is complete.
 
 ## Pass 2 — Slovak
 

@@ -131,7 +131,7 @@ Fixed headings and phrases:
 | `**What this suggests:**` | `**Ce que cela suggère :**` |
 | `**What's next:**` | `**La suite :**` |
 | `Direct source:` / `Direct sources:` | `Source directe :` / `Sources directes :` |
-| `Source:` / `Sources:` | `Source :` / `Sources :` |
+| `Source:` / `Sources:` | `Source :` / `Sources :`, then the URLs exactly as in the English, separated by a comma and a space |
 | `The study also found` | `L'étude a également montré` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.

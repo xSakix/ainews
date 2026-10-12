@@ -35,7 +35,7 @@ This disclosure follows the transparency obligations for AI-generated text in Ar
 
 ## Verification labels
 
-Articles published up to 12 October 2026 end with a verification table. Each checkable claim gets one label and a link to its source:
+Articles published between 15 September and 12 October 2026 end with a verification table. Each checkable claim gets one label and a link to its source:
 
 | Label | Meaning |
 | --- | --- |

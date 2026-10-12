@@ -20,9 +20,9 @@ Front matter (see <output>):
 
 Body, in this order:
 
-1. Opening: two or three sentences on what the day brought, starting with its most consequential development. Name things. No throat-clearing ("Today's coverage centres on…").
+1. Opening, optional: at most two sentences, only when a real thread runs through several of the day's stories (two labs converging on one technique, three papers testing one claim). The site prints the description directly above the opening, and the first top story follows it, so the opening never restates either. Without such a thread, start with `## Top stories`. No throat-clearing ("Today's coverage centres on…").
 
-2. `## Top stories`: the three to five stories the plan marks as top stories, in its order. Each one: a bold headline sentence stating the news, then two to four short paragraphs (about 100 to 200 words in all) covering what happened, the key detail, the context a reader needs (what came before, the nearest rival or prior result) and what it changes for someone the reader can picture. End with `Source: <URL>` or `Sources: <URL>; <URL>`.
+2. `## Top stories`: the three to five stories the plan marks as top stories, in its order. Each one: a bold headline sentence stating the news, then two to four short paragraphs (about 100 to 200 words in all) covering what happened, the key detail and the context a reader needs (what came before, the nearest rival or the prior result, as the sources give it). Say what it changes, and for whom, only when the facts do not already make that plain, and never as a stock "For a developer…" opener. End with `Source: <URL>` or `Sources: <URL>, <URL>`: bare URLs, separated by a comma and a space.
 
 3. The sections, in this order, each omitted when it has no items, with no placeholder text:
    - `## Releases`: models, open weights, technical reports, model cards, API changes;
@@ -48,7 +48,8 @@ Nothing after that: no summary, no "Why it matters" block, no "What this suggest
 - Numbers: keep the one that matters, with what it measures and its denominator. Round in prose ("about 72 percent"); keep prices, dates and thresholds exact.
 - Give an entity a reader might not know a short identity on first mention ("Croatian robotics firm Robotiq.ai"). Household names get none.
 - When older material resurfaces in a thread, say when it was first published.
-- Link the primary source, never a briefing. Each source URL appears in full.
+- Context (what came before, the nearest rival, the prior result) comes from the primary source itself (its related work, comparison tables or changelog) or from another source opened today and listed in the item's Sources line, never from memory. If no source gives a comparison, leave it out.
+- Link the primary source, never a briefing. Each source URL appears in full, bare, with nothing attached to it; separate several with a comma and a space.
 - Merge items about the same underlying event into one. A topic covered by one of today's articles still gets its item: the digest is complete without the articles.
 </accuracy>
 
@@ -64,7 +65,7 @@ Before you hand the digest back, read it top to bottom as the reader would:
 1. Does every item's first sentence state a fact the reader did not know?
 2. Do any two items open or close the same way? Rewrite one.
 3. Is every number accompanied by what it measures? Is every claim attributed to whoever made it?
-4. Does every top story give context, not only the announcement?
+4. Does every top story give context, not only the announcement, and does every piece of context come from a source listed in its Sources line?
 5. Is every link a primary source from the item's briefing entry or the source itself?
 6. Cut about a tenth by dropping weak details, never the words that make a number or a term understandable.
 </self_edit>

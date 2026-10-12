@@ -29,7 +29,7 @@ All paths are relative to the repository root. "Today" is today's date in the Eu
 
 1. Read today's briefings, `reports/YYYY-MM-DD-briefing-*.md`, if they are not already in your context.
 2. Read the other writer's file for today (`reports/YYYY-MM-DD-article-claude.md` or `-gpt.md`) if it exists. Its topic is taken, and so is the event underneath it: a paper and a thread about that paper are one story.
-3. Drop stories an English post in `content/posts/` already covers (ignore the translations, `*.<lang>.md`; compare titles and opening paragraphs), unless today brings a material new development.
+3. Drop stories an English post in `content/posts/` already covers (ignore the translations, `*.<lang>.md`; compare titles and opening paragraphs), unless today brings a material new development. Today's digest does not count: it carries every story of the day, and an article goes deeper. Earlier posts, earlier digests included, do count.
 4. Choose the one story you can make the best article of, following "The two articles" in `prompts/editorial-profile.md`. Before you settle on it, open its primary source and check that it holds enough to write from: a finding, a method, an argument, a working project, people with a reason for what they did.
 5. Write `reports/YYYY-MM-DD-article-<key>.md`:
 
@@ -46,7 +46,7 @@ All paths are relative to the repository root. "Today" is today's date in the Eu
 
 ## 3. Report
 
-Briefings point to sources; they are never sources. Everything in the article comes from the primary source and the sources it rests on.
+Briefings point to sources; they are never sources. Everything outside the illustrative opening and closing scenes comes from the primary source and the sources it rests on.
 
 - Read the primary source in parts, never more than about 8,000 characters at a time. Search a long file (`grep`, `sed -n`) for the parts the story needs.
 - For a paper, read the abstract, introduction, method, main results, limitations and related work, preferably from arXiv's HTML version (`https://arxiv.org/html/<id>`). If `https://arxiv.org/abs/<id>` does not load, try `https://export.arxiv.org/abs/<id>`, the API `https://export.arxiv.org/api/query?id_list=<id>` or the PDF, and cite `https://arxiv.org/abs/<id>`.
@@ -59,12 +59,12 @@ If the reporting does not hold up (the primary source cannot be reached, or it s
 
 ## 4. Write
 
-Before writing, read the opening and closing paragraphs of the four most recent articles in `content/posts/` (English, not digests; either writer), so that your scene, your way of signalling that it is an illustration, and your kicker do not repeat theirs.
+Before writing, read the opening and closing paragraphs of the ten most recent articles in `content/posts/` (English, not digests; either writer). Your opening formula, your setting, the words that mark the scene as an illustration, and your kicker must not repeat theirs.
 
 Write the article with `prompts/article-writer-prompt.md`, from your reporting. Then read it once as an editor would, against the sources:
 
 1. Every fact, number and quotation traces to a source in the references; every quotation is word for word.
-2. The opening and closing scenes read as illustration (or, when taken from the sources, as reported fact that is true); no invented person appears outside them, is quoted as a source or bears a real person's name; nothing in them contradicts the reported facts.
+2. Each invented scene carries an unmistakable marker that it is an illustration (a scene taken from the sources is told as it happened); no invented person appears outside the two scenes, is quoted as a source or bears a real person's name; nothing in the scenes contradicts the reported facts.
 3. The perex says what happened and why it matters; the title is plain and specific.
 4. No bold, no lists outside the references, no source markers, no stock phrasing, no paragraph that restates another.
 5. The references give author, title and URL for every source the article uses, including the sources behind the primary source.
@@ -101,4 +101,4 @@ The Slovak twin is written by the production run and the other editions by the t
 ## Publishing
 
 1. `git add` only the files named for this step, then `git commit -m "<message>"`.
-2. `git pull --rebase origin main`, then `git push origin HEAD:main`. Other runs push to `main` at the same time; the rebase handles that, because no two runs change the same file. If the push fails for a network reason, retry up to four times, waiting 2, 4, 8 and 16 seconds.
+2. `git pull --rebase --autostash origin main`, then `git push origin HEAD:main`. Other runs push to `main` at the same time; the rebase handles that, because no two runs change the same file. If the push fails for a network reason, retry up to four times, waiting 2, 4, 8 and 16 seconds.

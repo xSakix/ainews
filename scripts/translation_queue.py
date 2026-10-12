@@ -10,8 +10,8 @@ Prints one line per post: "<reason> content/posts/<slug>.md", where reason is
   stale    has a twin, but the English file was committed after the twin
   backlog  older than the window and no twin yet (newest first, at most
            --backlog of them)
-Within each group, newer posts come first; posts with the same date keep
-their timestamp order, which is the day's rank order.
+Within each group, newer days come first; within a day the digest (the
+main product) comes first, then the other posts, newest first.
 
 "Today" is the date in Europe/Bratislava. Drafts are skipped.
 """
@@ -57,6 +57,13 @@ def committed_at(path):
     return int(out) if out else 0
 
 
+def order(item):
+    """Sort key: day, then the day's digest before its articles, then time."""
+    date, path = item
+    digest = path.name.startswith("ai-daily-digest-for-")
+    return (date.astimezone(TZ).date(), digest, date)
+
+
 def main(argv):
     ap = argparse.ArgumentParser()
     ap.add_argument("lang", help="language code of the twin, e.g. nl")
@@ -78,7 +85,7 @@ def main(argv):
     for reason, group, limit in (("missing", missing, None),
                                  ("stale", stale, None),
                                  ("backlog", backlog, args.backlog)):
-        for _, path in sorted(group, key=lambda x: x[0], reverse=True)[:limit]:
+        for _, path in sorted(group, key=order, reverse=True)[:limit]:
             print(f"{reason} {path}")
     return 0
 

@@ -50,7 +50,7 @@ Recent work comes first in every language, before any language's backlog, so tha
 
 1. Read its translator prompt.
 2. Run `python3 scripts/translation_queue.py <lang> --backlog 0`. It prints the posts to translate, in order, one per line:
-   - `missing` — an English post dated today or in the two days before that has no twin in this language. Newest first, which within a day is the day's rank order.
+   - `missing` — an English post dated today or in the two days before that has no twin in this language. Newest day first; within a day the digest comes first, then the articles, newest first.
    - `stale` — a post from the same three days whose English file was committed after its twin, so the English was corrected or extended after translation. Translate it again from scratch and replace the twin.
 3. Translate each line (see "Translating a post").
 

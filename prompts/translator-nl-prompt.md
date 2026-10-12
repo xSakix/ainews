@@ -131,7 +131,7 @@ Fixed headings and phrases:
 | `**What this suggests:**` | `**Wat dit suggereert:**` |
 | `**What's next:**` | `**Wat komt er nu:**` |
 | `Direct source:` / `Direct sources:` | `Directe bron:` / `Directe bronnen:` |
-| `Source:` / `Sources:` | `Bron:` / `Bronnen:` |
+| `Source:` / `Sources:` | `Bron:` / `Bronnen:`, then the URLs exactly as in the English, separated by a comma and a space |
 | `The study also found` | `Het onderzoek vond ook` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.

@@ -241,12 +241,12 @@ L'actualité de l'IA avec des sources vérifiées, chaque matin. La synthèse qu
     [languages.de.params]
       author      = "KI-generiert"
       footer      = { text = "Alle Artikel sind KI-generiert · [So arbeiten wir](/de/about/#ai-disclosure)" }
-      description = "KI-Nachrichten mit geprüften Quellen, jeden Morgen: ein Tagesüberblick über alles Wichtige (neue Modelle von Laboren weltweit, Forschung, was Leute bauen, Essays und Diskussionen in der Community) und zwei erzählende Artikel, die jeweils eine Geschichte des Tages ganz erzählen. Jede Meldung verlinkt ihre Primärquelle."
+      description = "KI-Nachrichten mit geprüften Quellen, jeden Morgen: ein Tagesüberblick über alles Wichtige (neue Modelle von Laboren weltweit, Forschung, was Leute bauen, Essays und Diskussionen in der Community) und zwei Artikel, die jeweils eine Geschichte des Tages vollständig erzählen. Jede Meldung verlinkt ihre Primärquelle."
       DateFormat  = ":date_long"
       [languages.de.params.homeInfoParams]
         Title   = "AI News Daily auf Deutsch"
         Content = """
-KI-Nachrichten mit geprüften Quellen, jeden Morgen. Der Tagesüberblick bringt alles Wichtige: neue Modelle von Laboren weltweit, Forschung, was Leute bauen, lokale Modelle und Agenten, Prompting-Techniken, Essays und Diskussionen in der Community, jede Meldung mit einem Link zur Primärquelle. Zwei Artikel gehen tiefer: Jeder erzählt eine Geschichte des Tages ganz, einer geschrieben von Claude, einer von GPT, mit einer Liste der Quellen, auf die er sich stützt. Die deutsche Ausgabe ist eine KI-Übersetzung der englischen Artikel.
+KI-Nachrichten mit geprüften Quellen, jeden Morgen. Der Tagesüberblick bringt alles Wichtige: neue Modelle von Laboren weltweit, Forschung, was Leute bauen, lokale Modelle und Agenten, Prompting-Techniken, Essays und Diskussionen in der Community, jede Meldung mit einem Link zur Primärquelle. Zwei Artikel gehen tiefer: Jeder erzählt eine Geschichte des Tages vollständig, einer geschrieben von Claude, einer von GPT, mit einer Liste der Quellen, auf die er sich stützt. Die deutsche Ausgabe ist eine KI-Übersetzung der englischen Artikel.
 
 [So arbeiten wir](/de/about/) · [Archiv](/de/archives/) · [RSS-Feed](/de/index.xml) · [English edition](/)
 """

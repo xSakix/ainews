@@ -135,7 +135,7 @@ Fixed headings and phrases:
 | `**What this suggests:**` | `**这意味着什么：**` |
 | `**What's next:**` | `**接下来：**` |
 | `Direct source:` / `Direct sources:` | `直接来源：` |
-| `Source:` / `Sources:` | `来源：` |
+| `Source:` / `Sources:` | `来源： ` followed by the URLs; keep one half-width space after the colon and separate several URLs with a half-width comma and a space, so each URL stays a link |
 | `The study also found` | `研究还发现` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.

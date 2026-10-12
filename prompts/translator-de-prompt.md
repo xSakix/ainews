@@ -132,7 +132,7 @@ Fixed headings and phrases:
 | `**What this suggests:**` | `**Was das nahelegt:**` |
 | `**What's next:**` | `**Wie es weitergeht:**` |
 | `Direct source:` / `Direct sources:` | `Direkte Quelle:` / `Direkte Quellen:` |
-| `Source:` / `Sources:` | `Quelle:` / `Quellen:` |
+| `Source:` / `Sources:` | `Quelle:` / `Quellen:`, then the URLs exactly as in the English, separated by a comma and a space |
 | `The study also found` | `Die Studie ergab außerdem` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.

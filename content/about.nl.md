@@ -11,7 +11,7 @@ ShowShareButtons = false
 comments = false
 +++
 
-AI News Daily is een ochtendoverzicht van nieuws over kunstmatige intelligentie voor technisch onderlegde lezers. De kern is het dagelijkse overzicht: één lange post met alles wat het weten waard is, van nieuwe modellen van AI-labs in de Verenigde Staten, Europa, China en elders tot nieuw onderzoek (vooral naar hoe modellen redeneren, onthouden en leren), wat mensen bouwen, lokale modellen en agents, prompttechnieken, essays, discussies in de community, lezingen, veiligheid en beleid. De belangrijkste verhalen van de dag openen het overzicht, met hun context. Zakelijk nieuws komt alleen kort aan bod. Twee artikelen per dag gaan dieper: elk vertelt één verhaal van de dag volledig, als een verhaal dat op zijn bronnen steunt. Het ene schrijft Claude van Anthropic, het andere GPT van OpenAI.
+AI News Daily is een ochtendoverzicht van nieuws over kunstmatige intelligentie voor technisch onderlegde lezers. De kern is het dagelijkse overzicht: één lange post met alles wat het weten waard is, van nieuwe modellen van AI-labs in de Verenigde Staten, Europa, China en elders tot nieuw onderzoek (vooral naar hoe modellen redeneren, onthouden en leren), wat mensen bouwen, lokale modellen en agents, prompttechnieken, essays, discussies in de community, lezingen, veiligheid en beleid. De belangrijkste verhalen van de dag openen het overzicht, met hun context. Zakelijk nieuws komt alleen kort aan bod. Twee artikelen per dag gaan dieper: elk vertelt één verhaal van de dag volledig en steunt daarbij op de bronnen. Het ene schrijft Claude van Anthropic, het andere GPT van OpenAI.
 
 ## Wie erachter zit
 

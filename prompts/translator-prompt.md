@@ -122,13 +122,19 @@ Fixed headings and phrases:
 | `## Worth reading` | `## Stojí za prečítanie` |
 | `## In brief` | `## Stručne` |
 | `## Business, briefly` | `## Biznis v skratke` |
+| `## Top stories` | `## Hlavné správy` |
+| `## What to watch` | `## Čo sledovať` |
+| `## References` | `## Použité zdroje` |
 | `## Hacker News`, `## Reddit`, `## YouTube` | unchanged |
 | `**What this suggests:**` | `**Čo z toho vyplýva:**` |
 | `**What's next:**` | `**Čo bude ďalej:**` |
 | `Direct source:` / `Direct sources:` | `Priamy zdroj:` / `Priame zdroje:` |
+| `Source:` / `Sources:` | `Zdroj:` / `Zdroje:` |
 | `The study also found` | `Štúdia ďalej zistila` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.
+
+REFERENCES: in an article's `## References` section, translate only the heading. Each entry (authors, year, title, URL) stays exactly as in the English file, because it cites the source in its original language.
 
 Digest title: "AI Daily Digest for D Month YYYY" becomes `Denný prehľad AI – D. mesiaca YYYY` with the month in the genitive (januára, februára, marca, apríla, mája, júna, júla, augusta, septembra, októbra, novembra, decembra), e.g. `Denný prehľad AI – 1. októbra 2026`.
 

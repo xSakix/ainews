@@ -124,13 +124,19 @@ Fixed headings and phrases:
 | `## Worth reading` | `## Het lezen waard` |
 | `## In brief` | `## In het kort` |
 | `## Business, briefly` | `## Zakelijk in het kort` |
+| `## Top stories` | `## Belangrijkste nieuws` |
+| `## What to watch` | `## Om in de gaten te houden` |
+| `## References` | `## Referenties` |
 | `## Hacker News`, `## Reddit`, `## YouTube` | unchanged |
 | `**What this suggests:**` | `**Wat dit suggereert:**` |
 | `**What's next:**` | `**Wat komt er nu:**` |
 | `Direct source:` / `Direct sources:` | `Directe bron:` / `Directe bronnen:` |
+| `Source:` / `Sources:` | `Bron:` / `Bronnen:` |
 | `The study also found` | `Het onderzoek vond ook` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.
+
+REFERENCES: in an article's `## References` section, translate only the heading. Each entry (authors, year, title, URL) stays exactly as in the English file, because it cites the source in its original language.
 
 Digest title: "AI Daily Digest for D Month YYYY" becomes `Dagelijks AI-overzicht – D maand YYYY` with the month in lower case (januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december), e.g. `Dagelijks AI-overzicht – 1 oktober 2026`.
 

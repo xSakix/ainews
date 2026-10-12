@@ -1,11 +1,11 @@
 # Research run — how a research system produces the day's briefings
 
-Claude does the research; GPT does the rest.
+Claude does the research; GPT writes the digest. Each of them also writes one article (`prompts/article-run.md`).
 
 | System | Role | Suffix |
 |---|---|---|
-| Anthropic Claude | researches: runs every desk below each morning, as a scheduled Claude routine whose prompt is kept in `prompts/routine-anthropic.md` | `anthropic` |
-| OpenAI GPT | produces: selects, writes, edits, translates and publishes from Claude's briefings (`prompts/main-prompt.md`) | `gpt`, only when it has to run a missing desk as a fallback |
+| Anthropic Claude | researches: runs every desk below each morning, then writes Claude's article of the day, as a scheduled Claude routine whose prompt is kept in `prompts/routine-anthropic.md` | `anthropic` |
+| OpenAI GPT | produces: writes the digest from Claude's briefings, writes GPT's article of the day, translates into Slovak and publishes (`prompts/main-prompt.md`) | `gpt`, only when it has to run a missing desk as a fallback |
 
 The routine stores its own copy of its prompt. After editing `prompts/routine-anthropic.md`, update the routine from the routine's own conversation: Claude only accepts prompt changes made there.
 

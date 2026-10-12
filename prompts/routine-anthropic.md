@@ -1,4 +1,4 @@
-Scheduled daily run: you are the research system for AI News Daily (xSakix/ainews). Produce today's research briefings — one per research desk, each file ending in "-anthropic.md" — and commit them to main. A GPT production run starts about an hour later and selects, writes, edits and translates the day's six articles and one digest from your briefings alone, so they are the whole research input: be thorough.
+Scheduled daily run: you are the research system for AI News Daily (xSakix/ainews). Produce today's research briefings — one per research desk, each file ending in "-anthropic.md" — and commit them to main. A GPT production run starts about an hour later and writes the day's digest, the site's main product, from your briefings alone, so they are the whole research input: be thorough. After the research is committed, you also write Claude's article of the day (section 5).
 
 This is an unattended scheduled run. Do not ask clarifying questions; make reasonable choices and proceed. Do not wait for permission — act.
 
@@ -45,13 +45,25 @@ In the clone, configure git identity locally if needed (user.name "Claude", user
   git commit -m "Add AI research briefings for YYYY-MM-DD (Anthropic)"
   git pull --rebase origin main
   git push origin HEAD:main
-Commit only today's -anthropic.md briefing files. Pushing these files to main is authorized; it does not extend to any other file, branch or change. If the push fails for a network reason, retry up to 4 times with backoff (2s, 4s, 8s, 16s).
+Commit only today's -anthropic.md briefing files in this step. Pushing these files to main is authorized; so is pushing Claude's article and its reports/YYYY-MM-DD-article-claude.md file in section 5. The authorization does not extend to any other file, branch or change. If the push fails for a network reason, retry up to 4 times with backoff (2s, 4s, 8s, 16s).
 
 If the push fails with a 403 from the git proxy saying the repository is not in the session's authorized repository set, do not retry and do not attempt any other route to push. Surface the briefing files with SendUserFile instead, and say clearly in your final message that the commit could not be pushed for that reason and that the repository needs to be added to the environment's authorized sources.
 
 Do NOT publish an HTML artifact. Markdown only.
 
 ================================================================
-5. SUMMARY
+5. CLAUDE'S ARTICLE
 ================================================================
-Finish with a short summary in the conversation: one line per desk (item count, or "failed: reason"), the single most notable item of the day, and whether the push to xSakix/ainews succeeded. Keep it brief — this session is reused, so long recaps accumulate.
+Only after the briefings are pushed (skip this section if the push failed). If `prompts/article-run.md` does not exist in the clone, skip this section too.
+
+Write Claude's article of the day in one subagent (Agent tool), so the reading it needs does not accumulate in this reused session. Give the subagent:
+  - the absolute path of the clone and today's date;
+  - the instruction to read `prompts/article-run.md` and follow it as the writer Claude (key `claude`), reading `prompts/editorial-profile.md` and `prompts/article-writer-prompt.md` when it says to;
+  - the instruction to commit with the clone's git identity and push only its article and `reports/YYYY-MM-DD-article-claude.md` to main, as that file describes;
+  - the instruction to return only a three-line summary: final status (published, none or failed, with the reason), the title, and any source that could not be reached.
+Wait until the subagent has finished.
+
+================================================================
+6. SUMMARY
+================================================================
+Finish with a short summary in the conversation: one line per desk (item count, or "failed: reason"), the single most notable item of the day, whether the push to xSakix/ainews succeeded, and one line for Claude's article (title, or none/failed and why). Keep it brief — this session is reused, so long recaps accumulate.

@@ -11,7 +11,7 @@ ShowShareButtons = false
 comments = false
 +++
 
-AI News Daily je ranný prehľad správ o umelej inteligencii pre technicky zameraných čitateľov. Každý deň prináša šesť článkov a jeden denný prehľad. Články sa venujú dôležitým novým modelom od AI laboratórií v USA, Európe, Číne aj inde, novému výskumu (najmä tomu, ako modely uvažujú, pamätajú si a učia sa), esejam, lokálne spúšťaným modelom a agentom a novým technikám promptovania. Prehľad prináša všetko ostatné, čo stojí za pozornosť: ďalšie modely a štúdie, to, čo ľudia tvoria, diskusie komunity, prednášky, bezpečnosť a reguláciu. Správy zo sveta biznisu prináša iba stručne.
+AI News Daily je ranný prehľad správ o umelej inteligencii pre technicky zameraných čitateľov. Jeho jadrom je denný prehľad: jeden dlhý príspevok, ktorý prináša všetko podstatné, od nových modelov AI laboratórií v USA, Európe, Číne aj inde cez nový výskum (najmä o tom, ako modely uvažujú, pamätajú si a učia sa), to, čo ľudia tvoria, lokálne modely a agentov a techniky promptovania až po eseje, diskusie komunity, prednášky, bezpečnosť a reguláciu. Najdôležitejšie správy dňa otvárajú prehľad aj so súvislosťami. Správy zo sveta biznisu prináša iba stručne. Dva články denne idú do hĺbky: každý vyrozpráva celý jeden príbeh dňa ako rozprávanie postavené na zdrojoch. Jeden píše Claude od Anthropicu, druhý GPT od OpenAI.
 
 ## Kto za tým stojí
 
@@ -22,10 +22,10 @@ Stránku vydáva Martin Seckar, architekt v IBM s dvadsaťročnou praxou v oblas
 Články v automatizovanom dennom procese vyhľadávajú a píšu modely umelej inteligencie. Redakčné pravidlá, ktorými sa proces riadi, píše a udržiava vydavateľ:
 
 1. **Výskum.** Každé ráno hľadá správy Claude od Anthropicu v samostatných rešeršiach, ktoré pokryjú nové modely z laboratórií, odborné štúdie, projekty komunity, odborné texty, diskusie komunity, prednášky a debaty na YouTube (v angličtine, nemčine, češtine a slovenčine) a správy o bezpečnosti, regulácii a biznise. Správy pochádzajú z posledných 24 hodín; štúdie, projekty, eseje a videá z posledného týždňa, pretože sa zverejňujú v dávkach a pozornosť získavajú postupne. Zdroje sa kontrolujú priamo (stránky laboratórií, arXiv, Hugging Face, GitHub, Hacker News, Reddit), nielen cez vyhľadávač.
-2. **Výber a písanie.** GPT od OpenAI vyberie šesť najsilnejších tém na články, ostatné zaradí do denného prehľadu a potom texty napíše, zredaguje a preloží.
-3. **Iba primárne zdroje.** Súhrny a prehľady vrátane tých, ktoré vytvára samotný proces, slúžia len ako odkazy. O tvrdení sa píše až potom, keď proces otvorí stránku pôvodného vydavateľa (oznámenie, štúdiu, úradný dokument, repozitár).
-4. **Formát podľa dôkazov.** Správa, ktorú podopierajú iba materiály oznamujúcej firmy, vyjde ako krátka správa alebo položka v prehľade. Dlhšia analýza potrebuje aspoň jeden nezávislý zdroj.
-5. **Redakcia.** Samostatný redakčný krok pred zverejnením kontroluje štruktúru, zrozumiteľnosť a označenia tvrdení.
+2. **Denný prehľad.** GPT od OpenAI z rešerší zostaví denný prehľad. Zlúči duplicitné správy, pri hlavných správach otvorí primárne zdroje a ku každej položke pripojí odkaz na zdroj.
+3. **Dva články.** Claude aj GPT si vyberú po jednom príbehu dňa a napíšu ho ako rozprávanie: úvodná scéna, fakty a ich súvislosti a záverečná pointa. Každý článok končí zoznamom použitých zdrojov: zdrojov, z ktorých čerpá, a prác, o ktoré sa tieto zdroje opierajú.
+4. **Iba primárne zdroje.** Súhrny a prehľady vrátane tých, ktoré vytvára samotný proces, slúžia len ako odkazy. Každý fakt a citát v článku pochádza zo zdroja v jeho zozname zdrojov, otvoreného na stránke pôvodného vydavateľa (oznámenie, štúdia, úradný dokument, repozitár). Úvodná a záverečná scéna môžu byť fikciou: sú napísané tak, aby bolo zjavné, že ide o ilustráciu, a vymyslené postavy nikdy nevystupujú ako zdroje.
+5. **Pripisovanie tvrdení.** Každé tvrdenie sa pripisuje tomu, kto ho vyslovil: benchmark spoločnosti je tvrdenie spoločnosti, preprint ešte neprešiel recenzným konaním a príspevok vo fóre je výpoveď jedného človeka.
 6. **Preklad.** Slovenské vydanie vzniká prekladom hotových anglických článkov pomocou AI. Odkazy na zdroje a označenia overenia zostávajú rovnaké ako v origináli.
 
 ## Označenie obsahu vytvoreného AI {#ai-disclosure}
@@ -36,7 +36,7 @@ Toto označenie zodpovedá povinnostiam transparentnosti pre texty vygenerované
 
 ## Označenia overenia
 
-Každý článok končí tabuľkou overenia. Každé overiteľné tvrdenie má jedno označenie a odkaz na zdroj:
+Články zverejnené do 12. októbra 2026 končia tabuľkou overenia. Každé overiteľné tvrdenie má jedno označenie a odkaz na zdroj:
 
 | Označenie | Význam |
 | --- | --- |

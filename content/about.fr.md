@@ -11,7 +11,7 @@ ShowShareButtons = false
 comments = false
 +++
 
-AI News Daily est une revue matinale de l'actualité de l'intelligence artificielle destinée à un lectorat technique. Chaque jour paraissent six articles et une synthèse quotidienne. Les articles portent sur les principaux nouveaux modèles des laboratoires d'IA des États-Unis, d'Europe, de Chine et d'ailleurs, sur la recherche récente (en particulier sur la façon dont les modèles raisonnent, mémorisent et apprennent), sur des essais, sur les modèles et agents exécutés localement et sur les nouvelles techniques de prompt. La synthèse rassemble tout le reste de ce qui mérite l'attention : d'autres modèles et études, ce que les gens construisent, les discussions de la communauté, des conférences, la sécurité et la réglementation. L'actualité économique n'y figure qu'en bref.
+AI News Daily est une revue matinale de l'actualité de l'intelligence artificielle destinée à un lectorat technique. Son cœur est la synthèse quotidienne : un long article qui rassemble tout ce qui compte, des nouveaux modèles publiés par les laboratoires d'IA aux États-Unis, en Europe, en Chine et ailleurs à la recherche (en particulier sur la façon dont les modèles raisonnent, mémorisent et apprennent), en passant par ce que les gens construisent, les modèles et agents locaux, les techniques de prompt, les essais, les discussions de la communauté, les conférences, la sécurité et la réglementation. Les informations les plus importantes du jour ouvrent la synthèse, avec leur contexte. L'actualité économique n'y figure qu'en bref. Deux articles par jour vont plus loin : chacun raconte en entier une histoire du jour, sous forme de récit fondé sur ses sources. L'un est écrit par Claude d'Anthropic, l'autre par GPT d'OpenAI.
 
 ## Qui est derrière le site
 
@@ -22,10 +22,10 @@ Le site est publié par Martin Seckar, architecte chez IBM, qui travaille depuis
 Les articles sont recherchés et rédigés par des modèles d'IA dans un processus quotidien automatisé. Les règles éditoriales que suit ce processus sont rédigées et tenues à jour par l'éditeur :
 
 1. **Recherche.** Chaque matin, Claude d'Anthropic recherche l'actualité en plusieurs passes distinctes : nouveaux modèles des laboratoires, publications scientifiques, projets de la communauté, textes techniques, discussions de la communauté, conférences et débats sur YouTube (en anglais, allemand, tchèque et slovaque) et actualité de la sécurité, de la réglementation et de l'industrie. Les nouvelles datent des dernières 24 heures ; les publications, projets, essais et vidéos de la dernière semaine, car ils paraissent par vagues et se font remarquer sur plusieurs jours. Les sources sont consultées directement (pages des laboratoires, arXiv, Hugging Face, GitHub, Hacker News, Reddit), pas seulement par un moteur de recherche.
-2. **Sélection et rédaction.** GPT d'OpenAI choisit les six sujets les plus solides pour les articles, place les autres dans la synthèse, puis rédige, relit et traduit les textes.
-3. **Uniquement des sources primaires.** Les synthèses et résumés, y compris ceux du processus lui-même, ne servent que de pistes. Une affirmation n'est reprise qu'après ouverture de la page de l'éditeur d'origine (annonce, publication, document officiel, dépôt de code).
-4. **La forme suit les preuves.** Un sujet qui ne s'appuie que sur les documents de l'entreprise qui l'annonce devient une brève ou un élément de la synthèse. Une analyse plus longue exige au moins une source indépendante.
-5. **Relecture.** Une étape de relecture distincte vérifie la structure, la clarté et les labels des affirmations avant publication.
+2. **La synthèse.** GPT d'OpenAI transforme la recherche en synthèse quotidienne. Il fusionne les informations en double, ouvre les sources primaires des sujets principaux et relie chaque élément à sa source.
+3. **Deux articles.** Claude et GPT choisissent chacun une histoire du jour et l'écrivent sous forme de récit : une scène d'ouverture, les faits et leur contexte, puis une conclusion. Chaque article se termine par une liste de références : les sources sur lesquelles il s'appuie et les travaux sur lesquels ces sources reposent.
+4. **Uniquement des sources primaires.** Les synthèses et résumés, y compris ceux du processus lui-même, ne servent que de pistes. Chaque fait et chaque citation d'un article provient d'une source de sa liste de références, consultée sur la page de l'éditeur d'origine (annonce, article scientifique, document officiel, dépôt de code). Les scènes d'ouverture et de clôture peuvent être fictives : elles sont écrites de façon à se lire comme des illustrations, et les personnages inventés ne servent jamais de sources.
+5. **Attribution.** Chaque affirmation est attribuée à son auteur : le benchmark d'une entreprise est l'affirmation de cette entreprise, une prépublication n'a pas encore été évaluée par des pairs et un message sur un forum est le témoignage d'une seule personne.
 6. **Traduction.** L'édition française est traduite par l'IA à partir des articles anglais finalisés. Les liens vers les sources et les labels de vérification sont identiques à ceux de l'original.
 
 ## Mention de contenu généré par l'IA {#ai-disclosure}
@@ -36,7 +36,7 @@ Cette mention répond aux obligations de transparence applicables aux textes gé
 
 ## Labels de vérification
 
-Chaque article se termine par un tableau de vérification. Chaque affirmation vérifiable reçoit un label et un lien vers sa source :
+Les articles publiés jusqu'au 12 octobre 2026 se terminent par un tableau de vérification. Chaque affirmation vérifiable reçoit un label et un lien vers sa source :
 
 | Label | Signification |
 | --- | --- |

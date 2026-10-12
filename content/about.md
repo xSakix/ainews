@@ -10,7 +10,7 @@ ShowShareButtons = false
 comments = false
 +++
 
-AI News Daily is a morning briefing on artificial intelligence for technical readers. Each day brings six articles and one digest. The articles cover major model releases from AI labs in the United States, Europe, China and elsewhere, new research (especially on how models reason, remember and learn), essays, local models and agents, and new prompting techniques. The digest carries everything else worth knowing: more releases and papers, what people are building, community discussion, talks, safety and policy. Business news appears only in brief.
+AI News Daily is a morning briefing on artificial intelligence for technical readers. Its core is the daily digest: one long post that covers everything worth knowing, from new models released by AI labs in the United States, Europe, China and elsewhere to new research (especially on how models reason, remember and learn), what people are building, local models and agents, prompting techniques, essays, community discussion, talks, safety and policy. The most important stories of the day open the digest, with their context. Business news appears only in brief. Two articles a day go deeper: each tells one story of the day in full, as a narrative grounded in its sources. One is written by Anthropic's Claude, the other by OpenAI's GPT.
 
 ## Who runs it
 
@@ -21,10 +21,10 @@ The site is published by Martin Seckar, an architect at IBM with twenty years of
 Articles are researched and drafted by AI models in an automated daily pipeline. The editorial rules the pipeline follows are written and maintained by the publisher:
 
 1. **Research.** Every morning Anthropic's Claude researches the news in separate passes that cover lab releases, research papers, community projects, technical writing, community discussion, talks and debates on YouTube (in English, German, Czech and Slovak), and safety, policy and industry news. News comes from the past 24 hours; papers, projects, essays and videos from the past week, because they are announced in batches and noticed over several days. Sources are checked directly (lab pages, arXiv, Hugging Face, GitHub, Hacker News, Reddit), not only through a search engine.
-2. **Selection and writing.** OpenAI's GPT picks the six strongest topics for articles and puts the rest into the digest, then writes, edits and translates them.
-3. **Primary sources only.** Briefings and summaries, including the pipeline's own, are treated as pointers. A claim is written up only after the original publisher's page (release, paper, filing, repository) has been opened.
-4. **Format follows evidence.** A story backed only by the announcing company's own materials becomes a short news brief or a digest item. Longer analysis needs at least one independent source.
-5. **Editing.** A separate editing pass checks structure, clarity and claim labels before publication.
+2. **The digest.** OpenAI's GPT turns the research into the day's digest. It merges duplicate reports, opens the primary sources of the top stories and links every item to its source.
+3. **Two articles.** Claude and GPT each choose one story of the day and write it as a narrative: an opening scene, the facts and their context, and a closing takeaway. Each article ends with a reference list: the sources it draws on and the work those sources rely on.
+4. **Primary sources only.** Briefings and summaries, including the pipeline's own, serve only as pointers. Every fact and quotation in an article comes from a source in its reference list, opened on the original publisher's page (release, paper, filing, repository). The opening and closing scenes may be fiction: they are written so that they read as illustrations, and invented people never appear as sources.
+5. **Attribution.** Every claim is attributed to whoever makes it: a company's benchmark is the company's claim, a preprint has not yet been peer reviewed, and a forum post is one person's report.
 6. **Translation.** The [Slovak](/sk/), [Dutch](/nl/), [French](/fr/), [German](/de/), [Spanish](/es/) and [Simplified Chinese](/zh/) editions are translated from the finished English articles with AI. Source links and verification labels match the original.
 
 ## AI disclosure {#ai-disclosure}
@@ -35,7 +35,7 @@ This disclosure follows the transparency obligations for AI-generated text in Ar
 
 ## Verification labels
 
-Every article ends with a verification table. Each checkable claim gets one label and a link to its source:
+Articles published up to 12 October 2026 end with a verification table. Each checkable claim gets one label and a link to its source:
 
 | Label | Meaning |
 | --- | --- |

@@ -57,7 +57,7 @@ The 🚨 marker in briefings flags magnitude, not interest. It does not decide w
 Two articles sit on top of the digest, one written by Claude and one by GPT (`prompts/article-run.md`). Each tells one story of the day in full, as a narrative dispatch with a reference list (`prompts/article-writer-prompt.md`). The article is there to give the reader what the digest cannot: the people behind the work, the background, the reasoning, and why it matters beyond the day. A story earns an article when it has:
 
 - **Substance to explain**: a finding, a method, an argument or a working system, with a primary source deep enough to write 900 to 1,500 words from without padding, and sources behind it to draw background from;
-- **A human element**: the people who made it and why, the people it affects, a moment that can open the story;
+- **A human element**: the people who made it and why, or the people it affects, real or pictured in an illustrative scene;
 - **Significance beyond the day**: it changes how the reader understands, builds or uses AI.
 
 Research on how models think, a substantial essay, a release with a technical report and a project with a builder's story make good articles. A vendor announcement with nothing to inspect, a business story or a thread with no new evidence does not. The two writers choose different stories, preferably from different focus areas. A day without a story worth a full article has fewer articles; never write one to fill the slot.

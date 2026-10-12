@@ -52,17 +52,19 @@ Briefings point to sources; they are never sources. Everything in the article co
 - For a paper, read the abstract, introduction, method, main results, limitations and related work, preferably from arXiv's HTML version (`https://arxiv.org/html/<id>`). If `https://arxiv.org/abs/<id>` does not load, try `https://export.arxiv.org/abs/<id>`, the API `https://export.arxiv.org/api/query?id_list=<id>` or the PDF, and cite `https://arxiv.org/abs/<id>`.
 - For a repository, read the README and the files the claims rest on. For a web page, the main text.
 - Then open the two to five sources the primary source draws its central conclusions from (the work it extends, the result it challenges, the dataset or benchmark it uses) and read enough of each to state accurately what it contributes. They become the references.
-- Look for the people: who did this and why, who it affects, a moment or a detail that can carry the opening and the closing scene.
+- Look for the people: who did this and why, who it affects, and the concrete details (a task, a place, a failure, a tool) an illustrative opening and closing scene can be built from.
 - A page missing from a search engine's index is not missing. Open sources directly; if your browsing tool only opens pages that appeared in search results, fetch the page with a direct HTTP request (curl, wget, Python).
 
 If the reporting does not hold up (the primary source cannot be reached, or it says less than the briefing claimed), set your status to `failed: <what was missing>`, publish the file, and stop. Do not fall back to a weaker story late in the day.
 
 ## 4. Write
 
+Before writing, read the opening and closing paragraphs of the four most recent articles in `content/posts/` (English, not digests; either writer), so that your scene, your way of signalling that it is an illustration, and your kicker do not repeat theirs.
+
 Write the article with `prompts/article-writer-prompt.md`, from your reporting. Then read it once as an editor would, against the sources:
 
 1. Every fact, number and quotation traces to a source in the references; every quotation is word for word.
-2. The opening and closing scenes are either reported or read plainly as illustration.
+2. The opening and closing scenes read as illustration (or, when taken from the sources, as reported fact that is true); no invented person appears outside them, is quoted as a source or bears a real person's name; nothing in them contradicts the reported facts.
 3. The perex says what happened and why it matters; the title is plain and specific.
 4. No bold, no lists outside the references, no source markers, no stock phrasing, no paragraph that restates another.
 5. The references give author, title and URL for every source the article uses, including the sources behind the primary source.

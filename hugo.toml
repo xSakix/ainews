@@ -79,12 +79,12 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
     [languages.en.params]
       author      = "AI-generated"
       footer      = { text = "All articles are AI-generated · [How we work](/about/#ai-disclosure)" }
-      description = "Source-checked AI news every morning: model releases from labs worldwide, research, what people are building, essays and community discussion. Each article links its primary sources and labels every key claim."
+      description = "Source-checked AI news every morning: one digest of everything worth knowing (model releases from labs worldwide, research, what people are building, essays and community discussion) and two narrative articles that each tell one story of the day in full. Every item links its primary source."
       DateFormat  = "2 January 2006"
       [languages.en.params.homeInfoParams]
         Title   = "AI News Daily"
         Content = """
-Source-checked AI news, every morning. Each day brings six articles and one digest on new models from labs worldwide, research, essays, local models and agents, and prompting techniques. Every article ends with a verification table that links the primary sources.
+Source-checked AI news, every morning. The daily digest covers everything worth knowing: new models from labs worldwide, research, what people are building, local models and agents, prompting techniques, essays and community discussion, each item with a link to its primary source. Two articles go deeper: each tells one story of the day in full, one written by Claude and one by GPT, with a list of the sources it draws on.
 
 [How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt)
 
@@ -121,12 +121,12 @@ Other editions: [Slovenčina](/sk/) · [Nederlands](/nl/) · [Français](/fr/) �
     [languages.sk.params]
       author      = "Vygenerované AI"
       footer      = { text = "Všetky články sú vygenerované AI · [Ako pracujeme](/sk/about/#ai-disclosure)" }
-      description = "Správy o umelej inteligencii s overenými zdrojmi, každé ráno: nové modely z laboratórií z celého sveta, výskum, čo ľudia tvoria, eseje a diskusie komunity. Každý článok odkazuje na primárne zdroje a pri kľúčových tvrdeniach uvádza, nakoľko sú overené."
+      description = "Správy o umelej inteligencii s overenými zdrojmi, každé ráno: denný prehľad všetkého podstatného (nové modely z laboratórií z celého sveta, výskum, čo ľudia tvoria, eseje a diskusie komunity) a dva články, z ktorých každý vyrozpráva celý jeden príbeh dňa. Každá správa odkazuje na primárny zdroj."
       DateFormat  = ":date_long"
       [languages.sk.params.homeInfoParams]
         Title   = "AI News Daily po slovensky"
         Content = """
-Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Každý deň šesť článkov a jeden prehľad o nových modeloch z laboratórií z celého sveta, výskume, esejach, lokálnych modeloch a agentoch a technikách promptovania. Každý článok končí tabuľkou overenia s odkazmi na primárne zdroje. Slovenské vydanie vzniká prekladom anglických článkov pomocou AI.
+Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Denný prehľad prináša všetko podstatné: nové modely z laboratórií z celého sveta, výskum, čo ľudia tvoria, lokálne modely a agentov, techniky promptovania, eseje a diskusie komunity, pri každej správe s odkazom na primárny zdroj. Dva články idú do hĺbky: každý vyrozpráva celý jeden príbeh dňa, jeden píše Claude a druhý GPT, so zoznamom zdrojov, z ktorých čerpá. Slovenské vydanie vzniká prekladom anglických článkov pomocou AI.
 
 [Ako pracujeme](/sk/about/) · [Archív](/sk/archives/) · [RSS kanál](/sk/index.xml) · [English edition](/)
 """
@@ -161,12 +161,12 @@ Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Každý deň 
     [languages.nl.params]
       author      = "Gegenereerd door AI"
       footer      = { text = "Alle artikelen zijn door AI gegenereerd · [Hoe we werken](/nl/about/#ai-disclosure)" }
-      description = "AI-nieuws met gecontroleerde bronnen, elke ochtend: nieuwe modellen van labs over de hele wereld, onderzoek, wat mensen bouwen, essays en discussies in de community. Elk artikel linkt naar de primaire bronnen en geeft bij elke belangrijke bewering aan hoe ver die is geverifieerd."
+      description = "AI-nieuws met gecontroleerde bronnen, elke ochtend: één dagelijks overzicht van alles wat het weten waard is (nieuwe modellen van labs over de hele wereld, onderzoek, wat mensen bouwen, essays en discussies in de community) en twee verhalende artikelen die elk één verhaal van de dag volledig vertellen. Elk bericht linkt naar de primaire bron."
       DateFormat  = ":date_long"
       [languages.nl.params.homeInfoParams]
         Title   = "AI News Daily in het Nederlands"
         Content = """
-AI-nieuws met gecontroleerde bronnen, elke ochtend. Elke dag zes artikelen en één overzicht over nieuwe modellen van labs over de hele wereld, onderzoek, essays, lokale modellen en agents, en prompttechnieken. Elk artikel eindigt met een verificatietabel met links naar de primaire bronnen. De Nederlandse editie is een AI-vertaling van de Engelse artikelen.
+AI-nieuws met gecontroleerde bronnen, elke ochtend. Het dagelijkse overzicht brengt alles wat het weten waard is: nieuwe modellen van labs over de hele wereld, onderzoek, wat mensen bouwen, lokale modellen en agents, prompttechnieken, essays en discussies in de community, elk bericht met een link naar de primaire bron. Twee artikelen gaan dieper: elk vertelt één verhaal van de dag volledig, het ene geschreven door Claude, het andere door GPT, met een lijst van de bronnen waarop het steunt. De Nederlandse editie is een AI-vertaling van de Engelse artikelen.
 
 [Hoe we werken](/nl/about/) · [Archief](/nl/archives/) · [RSS-feed](/nl/index.xml) · [English edition](/)
 """
@@ -201,12 +201,12 @@ AI-nieuws met gecontroleerde bronnen, elke ochtend. Elke dag zes artikelen en é
     [languages.fr.params]
       author      = "Généré par l'IA"
       footer      = { text = "Tous les articles sont générés par l'IA · [Notre méthode](/fr/about/#ai-disclosure)" }
-      description = "L'actualité de l'IA avec des sources vérifiées, chaque matin : nouveaux modèles des laboratoires du monde entier, recherche, ce que les gens construisent, essais et discussions de la communauté. Chaque article renvoie à ses sources primaires et indique, pour chaque affirmation clé, dans quelle mesure elle est vérifiée."
+      description = "L'actualité de l'IA avec des sources vérifiées, chaque matin : une synthèse quotidienne de tout ce qui compte (nouveaux modèles des laboratoires du monde entier, recherche, ce que les gens construisent, essais et discussions de la communauté) et deux articles narratifs qui racontent chacun en entier une histoire du jour. Chaque information renvoie à sa source primaire."
       DateFormat  = ":date_long"
       [languages.fr.params.homeInfoParams]
         Title   = "AI News Daily en français"
         Content = """
-L'actualité de l'IA avec des sources vérifiées, chaque matin. Chaque jour, six articles et une synthèse sur les nouveaux modèles des laboratoires du monde entier, la recherche, les essais, les modèles et agents locaux et les techniques de prompt. Chaque article se termine par un tableau de vérification qui renvoie aux sources primaires. L'édition française est traduite des articles anglais par l'IA.
+L'actualité de l'IA avec des sources vérifiées, chaque matin. La synthèse quotidienne rassemble tout ce qui compte : nouveaux modèles des laboratoires du monde entier, recherche, ce que les gens construisent, modèles et agents locaux, techniques de prompt, essais et discussions de la communauté, chaque information avec un lien vers sa source primaire. Deux articles vont plus loin : chacun raconte en entier une histoire du jour, l'un écrit par Claude, l'autre par GPT, avec la liste des sources sur lesquelles il s'appuie. L'édition française est traduite des articles anglais par l'IA.
 
 [Notre méthode](/fr/about/) · [Archives](/fr/archives/) · [Flux RSS](/fr/index.xml) · [English edition](/)
 """
@@ -241,12 +241,12 @@ L'actualité de l'IA avec des sources vérifiées, chaque matin. Chaque jour, si
     [languages.de.params]
       author      = "KI-generiert"
       footer      = { text = "Alle Artikel sind KI-generiert · [So arbeiten wir](/de/about/#ai-disclosure)" }
-      description = "KI-Nachrichten mit geprüften Quellen, jeden Morgen: neue Modelle von Laboren weltweit, Forschung, was Leute bauen, Essays und Diskussionen in der Community. Jeder Artikel verlinkt seine Primärquellen und gibt bei jeder wichtigen Behauptung an, wie weit sie überprüft ist."
+      description = "KI-Nachrichten mit geprüften Quellen, jeden Morgen: ein Tagesüberblick über alles Wichtige (neue Modelle von Laboren weltweit, Forschung, was Leute bauen, Essays und Diskussionen in der Community) und zwei erzählende Artikel, die jeweils eine Geschichte des Tages ganz erzählen. Jede Meldung verlinkt ihre Primärquelle."
       DateFormat  = ":date_long"
       [languages.de.params.homeInfoParams]
         Title   = "AI News Daily auf Deutsch"
         Content = """
-KI-Nachrichten mit geprüften Quellen, jeden Morgen. Jeden Tag sechs Artikel und ein Überblick zu neuen Modellen von Laboren weltweit, Forschung, Essays, lokalen Modellen und Agenten sowie Prompting-Techniken. Jeder Artikel endet mit einer Prüftabelle, die auf die Primärquellen verlinkt. Die deutsche Ausgabe ist eine KI-Übersetzung der englischen Artikel.
+KI-Nachrichten mit geprüften Quellen, jeden Morgen. Der Tagesüberblick bringt alles Wichtige: neue Modelle von Laboren weltweit, Forschung, was Leute bauen, lokale Modelle und Agenten, Prompting-Techniken, Essays und Diskussionen in der Community, jede Meldung mit einem Link zur Primärquelle. Zwei Artikel gehen tiefer: Jeder erzählt eine Geschichte des Tages ganz, einer geschrieben von Claude, einer von GPT, mit einer Liste der Quellen, auf die er sich stützt. Die deutsche Ausgabe ist eine KI-Übersetzung der englischen Artikel.
 
 [So arbeiten wir](/de/about/) · [Archiv](/de/archives/) · [RSS-Feed](/de/index.xml) · [English edition](/)
 """
@@ -281,12 +281,12 @@ KI-Nachrichten mit geprüften Quellen, jeden Morgen. Jeden Tag sechs Artikel und
     [languages.es.params]
       author      = "Generado por IA"
       footer      = { text = "Todos los artículos están generados por IA · [Cómo trabajamos](/es/about/#ai-disclosure)" }
-      description = "Noticias de IA con fuentes verificadas, cada mañana: nuevos modelos de laboratorios de todo el mundo, investigación, lo que la gente construye, ensayos y debates de la comunidad. Cada artículo enlaza sus fuentes primarias e indica, en cada afirmación clave, hasta qué punto está verificada."
+      description = "Noticias de IA con fuentes verificadas, cada mañana: un resumen diario de todo lo que importa (nuevos modelos de laboratorios de todo el mundo, investigación, lo que la gente construye, ensayos y debates de la comunidad) y dos artículos narrativos que cuentan, cada uno, una historia del día completa. Cada noticia enlaza su fuente primaria."
       DateFormat  = ":date_long"
       [languages.es.params.homeInfoParams]
         Title   = "AI News Daily en español"
         Content = """
-Noticias de IA con fuentes verificadas, cada mañana. Cada día, seis artículos y un resumen sobre nuevos modelos de laboratorios de todo el mundo, investigación, ensayos, modelos y agentes locales y técnicas de prompting. Cada artículo termina con una tabla de verificación que enlaza las fuentes primarias. La edición en español es una traducción con IA de los artículos en inglés.
+Noticias de IA con fuentes verificadas, cada mañana. El resumen diario reúne todo lo que importa: nuevos modelos de laboratorios de todo el mundo, investigación, lo que la gente construye, modelos y agentes locales, técnicas de prompting, ensayos y debates de la comunidad, cada noticia con un enlace a su fuente primaria. Dos artículos van más a fondo: cada uno cuenta una historia del día completa, uno escrito por Claude y otro por GPT, con la lista de las fuentes en las que se basa. La edición en español es una traducción con IA de los artículos en inglés.
 
 [Cómo trabajamos](/es/about/) · [Archivo](/es/archives/) · [Canal RSS](/es/index.xml) · [English edition](/)
 """
@@ -321,12 +321,12 @@ Noticias de IA con fuentes verificadas, cada mañana. Cada día, seis artículos
     [languages.zh.params]
       author      = "AI 生成"
       footer      = { text = "所有文章均由 AI 生成 · [我们的工作方式](/zh/about/#ai-disclosure)" }
-      description = "每天早上发布经过来源核实的 AI 新闻：全球各大实验室的新模型、研究进展、大家在做的项目、深度文章与社区讨论。每篇文章都链接一手来源，并为每个关键说法标注核实程度。"
+      description = "每天早上发布经过来源核实的 AI 新闻：一份涵盖所有要闻的每日简报（全球各大实验室的新模型、研究进展、大家在做的项目、深度文章与社区讨论），外加两篇叙事文章，每篇完整讲述当日的一则故事。每条消息都链接一手来源。"
       DateFormat  = ":date_long"
       [languages.zh.params.homeInfoParams]
         Title   = "AI News Daily 中文版"
         Content = """
-每天早上，经过来源核实的 AI 新闻。每天六篇文章和一份简报，涵盖全球各大实验室的新模型、研究、深度文章、本地模型与智能体，以及提示词技巧。每篇文章末尾附有核实表，链接一手来源。中文版由 AI 从英文文章翻译而来。
+每天早上，经过来源核实的 AI 新闻。每日简报汇集所有值得了解的内容：全球各大实验室的新模型、研究、大家在做的项目、本地模型与智能体、提示词技巧、深度文章与社区讨论，每条消息都附有一手来源链接。两篇文章更进一步：每篇完整讲述当日的一则故事，一篇由 Claude 撰写，一篇由 GPT 撰写，并附上所依据的来源列表。中文版由 AI 从英文文章翻译而来。
 
 [我们的工作方式](/zh/about/) · [归档](/zh/archives/) · [RSS 订阅](/zh/index.xml) · [English edition](/)
 """

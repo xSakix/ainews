@@ -128,13 +128,19 @@ Fixed headings and phrases:
 | `## Worth reading` | `## 值得一读` |
 | `## In brief` | `## 简讯` |
 | `## Business, briefly` | `## 商业简讯` |
+| `## Top stories` | `## 要闻` |
+| `## What to watch` | `## 后续关注` |
+| `## References` | `## 参考文献` |
 | `## Hacker News`, `## Reddit`, `## YouTube` | unchanged |
 | `**What this suggests:**` | `**这意味着什么：**` |
 | `**What's next:**` | `**接下来：**` |
 | `Direct source:` / `Direct sources:` | `直接来源：` |
+| `Source:` / `Sources:` | `来源：` |
 | `The study also found` | `研究还发现` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.
+
+REFERENCES: in an article's `## References` section, translate only the heading. Each entry (authors, year, title, URL) stays exactly as in the English file, because it cites the source in its original language.
 
 Digest title: "AI Daily Digest for D Month YYYY" becomes `AI 每日简报：YYYY年M月D日`, e.g. `AI 每日简报：2026年10月1日`.
 

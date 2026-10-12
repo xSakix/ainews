@@ -125,13 +125,19 @@ Fixed headings and phrases:
 | `## Worth reading` | `## Lesenswert` |
 | `## In brief` | `## Kurz notiert` |
 | `## Business, briefly` | `## Wirtschaft in Kürze` |
+| `## Top stories` | `## Die wichtigsten Meldungen` |
+| `## What to watch` | `## Was ansteht` |
+| `## References` | `## Quellen` |
 | `## Hacker News`, `## Reddit`, `## YouTube` | unchanged |
 | `**What this suggests:**` | `**Was das nahelegt:**` |
 | `**What's next:**` | `**Wie es weitergeht:**` |
 | `Direct source:` / `Direct sources:` | `Direkte Quelle:` / `Direkte Quellen:` |
+| `Source:` / `Sources:` | `Quelle:` / `Quellen:` |
 | `The study also found` | `Die Studie ergab außerdem` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.
+
+REFERENCES: in an article's `## References` section, translate only the heading. Each entry (authors, year, title, URL) stays exactly as in the English file, because it cites the source in its original language.
 
 Digest title: "AI Daily Digest for D Month YYYY" becomes `KI-Tagesüberblick – D. Monat YYYY` (Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember), e.g. `KI-Tagesüberblick – 1. Oktober 2026`.
 

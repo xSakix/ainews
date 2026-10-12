@@ -11,7 +11,7 @@ ShowShareButtons = false
 comments = false
 +++
 
-AI News Daily ist ein morgendlicher Überblick über Nachrichten zur künstlichen Intelligenz für technisch interessierte Leser. Jeden Tag erscheinen sechs Artikel und ein Tagesüberblick. Die Artikel behandeln wichtige neue Modelle von KI-Laboren in den USA, Europa, China und anderswo, neue Forschung (vor allem dazu, wie Modelle schlussfolgern, sich erinnern und lernen), Essays, lokal betriebene Modelle und Agenten sowie neue Prompting-Techniken. Der Überblick bringt alles Weitere, was Aufmerksamkeit verdient: weitere Modelle und Studien, was Leute bauen, Diskussionen in der Community, Vorträge, Sicherheit und Regulierung. Wirtschaftsnachrichten erscheinen nur in Kürze.
+AI News Daily ist ein morgendlicher Überblick über Nachrichten zur künstlichen Intelligenz für technisch interessierte Leser. Im Mittelpunkt steht der Tagesüberblick: ein langer Beitrag mit allem, was wichtig ist, von neuen Modellen der KI-Labore in den USA, Europa, China und anderswo über neue Forschung (vor allem dazu, wie Modelle schlussfolgern, sich erinnern und lernen), Projekte, die Leute bauen, lokale Modelle und Agenten und Prompting-Techniken bis zu Essays, Diskussionen in der Community, Vorträgen, Sicherheit und Regulierung. Die wichtigsten Meldungen des Tages eröffnen den Überblick, mit ihrem Kontext. Wirtschaftsnachrichten erscheinen nur in Kürze. Zwei Artikel am Tag gehen tiefer: Jeder erzählt eine Geschichte des Tages ganz, als Erzählung, die auf ihren Quellen beruht. Einen schreibt Claude von Anthropic, den anderen GPT von OpenAI.
 
 ## Wer dahintersteht
 
@@ -22,10 +22,10 @@ Herausgeber der Seite ist Martin Seckar, Architekt bei IBM mit zwanzig Jahren Er
 Die Artikel werden in einem automatisierten täglichen Ablauf von KI-Modellen recherchiert und geschrieben. Die redaktionellen Regeln, denen der Ablauf folgt, schreibt und pflegt der Herausgeber:
 
 1. **Recherche.** Jeden Morgen recherchiert Claude von Anthropic die Nachrichten in getrennten Durchgängen zu neuen Modellen der Labore, Fachveröffentlichungen, Community-Projekten, Fachtexten, Diskussionen in der Community, Vorträgen und Debatten auf YouTube (auf Englisch, Deutsch, Tschechisch und Slowakisch) sowie Nachrichten zu Sicherheit, Regulierung und Branche. Nachrichten stammen aus den letzten 24 Stunden; Veröffentlichungen, Projekte, Essays und Videos aus der letzten Woche, weil sie gebündelt erscheinen und erst über mehrere Tage Beachtung finden. Die Quellen werden direkt geprüft (Seiten der Labore, arXiv, Hugging Face, GitHub, Hacker News, Reddit), nicht nur über eine Suchmaschine.
-2. **Auswahl und Schreiben.** GPT von OpenAI wählt die sechs stärksten Themen für Artikel aus, ordnet die übrigen dem Tagesüberblick zu und schreibt, redigiert und übersetzt anschließend die Texte.
-3. **Nur Primärquellen.** Zusammenfassungen und Überblicke, auch die des Ablaufs selbst, dienen nur als Hinweise. Über eine Behauptung wird erst geschrieben, wenn die Seite des ursprünglichen Herausgebers (Ankündigung, Studie, amtliches Dokument, Repository) geöffnet wurde.
-4. **Die Form folgt den Belegen.** Eine Meldung, die sich nur auf Material des ankündigenden Unternehmens stützt, erscheint als Kurzmeldung oder als Eintrag im Überblick. Eine längere Analyse braucht mindestens eine unabhängige Quelle.
-5. **Redaktion.** Ein eigener Redaktionsschritt prüft vor der Veröffentlichung Aufbau, Verständlichkeit und die Einstufung der Behauptungen.
+2. **Der Tagesüberblick.** GPT von OpenAI macht aus der Recherche den Tagesüberblick. Es führt doppelte Meldungen zusammen, öffnet die Primärquellen der wichtigsten Meldungen und verlinkt jeden Eintrag mit seiner Quelle.
+3. **Zwei Artikel.** Claude und GPT wählen je eine Geschichte des Tages und schreiben sie als Erzählung: eine Szene aus der Geschichte, die Fakten und ihr Zusammenhang und ein abschließendes Fazit. Jeder Artikel endet mit einem Quellenverzeichnis: den Quellen, auf die er sich stützt, und den Arbeiten, auf denen diese Quellen beruhen.
+4. **Nur Primärquellen.** Zusammenfassungen und Überblicke, auch die des Ablaufs selbst, dienen nur als Hinweise. Jede Tatsache und jedes Zitat in einem Artikel stammt aus einer Quelle seines Quellenverzeichnisses, geöffnet auf der Seite des ursprünglichen Herausgebers (Ankündigung, Fachartikel, amtliches Dokument, Repository). Wenn eine Eingangsszene eine Geschichte veranschaulicht, statt über sie zu berichten, ist sie so geschrieben, dass sie als Veranschaulichung erkennbar ist.
+5. **Zuschreibung.** Jede Behauptung wird dem zugeschrieben, der sie aufstellt: Der Benchmark eines Unternehmens ist eine Behauptung dieses Unternehmens, ein Preprint ist noch nicht begutachtet, und ein Forumsbeitrag ist der Bericht einer einzelnen Person.
 6. **Übersetzung.** Die deutsche Ausgabe wird mit KI aus den fertigen englischen Artikeln übersetzt. Links zu den Quellen und Einstufungen sind dieselben wie im Original.
 
 ## Kennzeichnung KI-generierter Inhalte {#ai-disclosure}
@@ -36,7 +36,7 @@ Diese Kennzeichnung folgt den Transparenzpflichten für KI-generierte Texte nach
 
 ## Einstufungen der Überprüfung
 
-Jeder Artikel endet mit einer Prüftabelle. Jede überprüfbare Behauptung erhält eine Einstufung und einen Link zu ihrer Quelle:
+Artikel, die bis zum 12. Oktober 2026 erschienen sind, enden mit einer Prüftabelle. Jede überprüfbare Behauptung erhält eine Einstufung und einen Link zu ihrer Quelle:
 
 | Einstufung | Bedeutung |
 | --- | --- |

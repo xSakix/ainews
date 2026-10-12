@@ -116,3 +116,12 @@
 .lang-switch a {
   text-transform: uppercase;
 }
+
+/* The newest daily digest, pinned at the top of the home page. */
+.digest-entry {
+    border-inline-start: 3px solid var(--accent);
+}
+
+.digest-entry .entry-header h2 {
+    font-size: 28px;
+}

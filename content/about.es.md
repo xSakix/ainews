@@ -11,7 +11,7 @@ ShowShareButtons = false
 comments = false
 +++
 
-AI News Daily es un resumen matutino de noticias sobre inteligencia artificial para lectores con perfil técnico. Cada día publica seis artículos y un resumen diario. Los artículos tratan los principales modelos nuevos de laboratorios de IA de Estados Unidos, Europa, China y otros lugares, la investigación reciente (sobre todo la que estudia cómo razonan, recuerdan y aprenden los modelos), ensayos, modelos y agentes que se ejecutan en local y nuevas técnicas de prompting. El resumen recoge todo lo demás que merece atención: más modelos y estudios, lo que la gente construye, debates de la comunidad, charlas, seguridad y regulación. Las noticias de negocios aparecen solo en breve.
+AI News Daily es un resumen matutino de noticias sobre inteligencia artificial para lectores con perfil técnico. Su centro es el resumen diario: una publicación larga que reúne todo lo que importa, desde los nuevos modelos de los laboratorios de IA de Estados Unidos, Europa, China y otros lugares hasta la nueva investigación (sobre todo acerca de cómo razonan, recuerdan y aprenden los modelos), lo que la gente construye, los modelos y agentes locales, las técnicas de prompting, los ensayos, los debates de la comunidad, las charlas, la seguridad y la regulación. Las noticias más importantes del día abren el resumen, con su contexto. Las noticias de negocios aparecen solo en breve. Dos artículos al día van más a fondo: cada uno cuenta una historia del día completa, como un relato basado en sus fuentes. Uno lo escribe Claude, de Anthropic, y el otro GPT, de OpenAI.
 
 ## Quién está detrás
 
@@ -22,10 +22,10 @@ Publica el sitio Martin Seckar, arquitecto en IBM con veinte años de trabajo en
 Los artículos los investigan y redactan modelos de IA en un proceso diario automatizado. Las normas editoriales que sigue el proceso las escribe y mantiene el editor:
 
 1. **Investigación.** Cada mañana, Claude, de Anthropic, busca las noticias en pasadas separadas que cubren nuevos modelos de los laboratorios, artículos científicos, proyectos de la comunidad, textos técnicos, debates de la comunidad, charlas y debates en YouTube (en inglés, alemán, checo y eslovaco) y noticias de seguridad, regulación e industria. Las noticias son de las últimas 24 horas; los artículos científicos, proyectos, ensayos y vídeos, de la última semana, porque se publican por tandas y llaman la atención a lo largo de varios días. Las fuentes se consultan directamente (páginas de los laboratorios, arXiv, Hugging Face, GitHub, Hacker News, Reddit), no solo a través de un buscador.
-2. **Selección y redacción.** GPT, de OpenAI, elige los seis temas más sólidos para artículos, lleva el resto al resumen y después redacta, edita y traduce los textos.
-3. **Solo fuentes primarias.** Los resúmenes, incluidos los del propio proceso, sirven solo como pistas. Una afirmación se publica únicamente después de abrir la página del editor original (anuncio, artículo científico, documento oficial, repositorio).
-4. **El formato sigue a las pruebas.** Una noticia respaldada solo por los materiales de la empresa que la anuncia se publica como breve o como elemento del resumen. Un análisis más largo requiere al menos una fuente independiente.
-5. **Edición.** Una fase de edición separada revisa la estructura, la claridad y las etiquetas de las afirmaciones antes de publicar.
+2. **El resumen diario.** GPT, de OpenAI, convierte la investigación en el resumen del día. Une las noticias duplicadas, abre las fuentes primarias de las noticias principales y enlaza cada elemento con su fuente.
+3. **Dos artículos.** Claude y GPT eligen cada uno una historia del día y la escriben como relato: una escena de la historia, los hechos y su contexto, y una conclusión final. Cada artículo termina con una lista de referencias: las fuentes en las que se basa y los trabajos en los que se apoyan esas fuentes.
+4. **Solo fuentes primarias.** Los resúmenes, incluidos los del propio proceso, sirven solo como pistas. Cada dato y cada cita de un artículo procede de una fuente de su lista de referencias, consultada en la página del editor original (anuncio, artículo científico, documento oficial, repositorio). Cuando una escena inicial ilustra una historia en lugar de informar sobre ella, está escrita de modo que se lea como una ilustración.
+5. **Atribución.** Cada afirmación se atribuye a quien la hace: el benchmark de una empresa es una afirmación de esa empresa, un preprint aún no ha pasado revisión por pares y una publicación en un foro es el relato de una sola persona.
 6. **Traducción.** La edición en español se traduce con IA a partir de los artículos en inglés ya terminados. Los enlaces a las fuentes y las etiquetas de verificación son los mismos que en el original.
 
 ## Aviso de contenido generado por IA {#ai-disclosure}
@@ -36,7 +36,7 @@ Este aviso cumple las obligaciones de transparencia para textos generados por IA
 
 ## Etiquetas de verificación
 
-Cada artículo termina con una tabla de verificación. Cada afirmación comprobable recibe una etiqueta y un enlace a su fuente:
+Los artículos publicados hasta el 12 de octubre de 2026 terminan con una tabla de verificación. Cada afirmación comprobable recibe una etiqueta y un enlace a su fuente:
 
 | Etiqueta | Significado |
 | --- | --- |

@@ -45,5 +45,5 @@ Prefer papers with released code, data or weights: the reader can inspect them, 
 
 ## Sections
 
-1. Papers worth a deep dive — ranked; these are the article candidates.
+1. Papers worth a deep dive — ranked; these are the candidates for the digest's top stories and the day's articles.
 2. Also notable — one line each.

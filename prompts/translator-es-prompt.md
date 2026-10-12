@@ -124,13 +124,19 @@ Fixed headings and phrases:
 | `## Worth reading` | `## Para leer` |
 | `## In brief` | `## En breve` |
 | `## Business, briefly` | `## Negocios en breve` |
+| `## Top stories` | `## Lo más destacado` |
+| `## What to watch` | `## Lo que viene` |
+| `## References` | `## Referencias` |
 | `## Hacker News`, `## Reddit`, `## YouTube` | unchanged |
 | `**What this suggests:**` | `**Qué sugiere esto:**` |
 | `**What's next:**` | `**Qué viene ahora:**` |
 | `Direct source:` / `Direct sources:` | `Fuente directa:` / `Fuentes directas:` |
+| `Source:` / `Sources:` | `Fuente:` / `Fuentes:` |
 | `The study also found` | `El estudio también halló` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.
+
+REFERENCES: in an article's `## References` section, translate only the heading. Each entry (authors, year, title, URL) stays exactly as in the English file, because it cites the source in its original language.
 
 Digest title: "AI Daily Digest for D Month YYYY" becomes `Resumen diario de IA – D de mes de YYYY` with the month in lower case (enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre), e.g. `Resumen diario de IA – 1 de octubre de 2026`.
 

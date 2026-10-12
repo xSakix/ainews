@@ -31,7 +31,7 @@ H1 = re.compile(r"^# ")
 DEK = re.compile(r"^\*[^*].*[^*]\*\s*$")
 
 ENGLISH_LABELS = re.compile(r"\b(VERIFIED|PARTIALLY VERIFIED|VENDOR-REPORTED|UNVERIFIED)\b")
-ENGLISH_HEADINGS = re.compile(r"^## (Why it matters|Verification|In brief|Releases|Research|Prompting techniques|What people are building|Worth reading|Business, briefly)\b")
+ENGLISH_HEADINGS = re.compile(r"^## (Why it matters|Verification|Top stories|In brief|Releases|Research|Prompting techniques|What people are building|Worth reading|Business, briefly|What to watch|References)\b")
 
 # Translated editions: file suffix -> (language, translator-note pattern, labels to use).
 TRANSLATIONS = {

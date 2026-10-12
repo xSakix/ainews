@@ -15,3 +15,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## mass-trains-one-model-through-agent-teams.fr.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## polystrata-runs-large-moe-models-on-gaming-gpus.fr.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.

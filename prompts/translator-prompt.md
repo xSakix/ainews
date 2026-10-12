@@ -129,7 +129,7 @@ Fixed headings and phrases:
 | `**What this suggests:**` | `**Čo z toho vyplýva:**` |
 | `**What's next:**` | `**Čo bude ďalej:**` |
 | `Direct source:` / `Direct sources:` | `Priamy zdroj:` / `Priame zdroje:` |
-| `Source:` / `Sources:` | `Zdroj:` / `Zdroje:` |
+| `Source:` / `Sources:` | `Zdroj:` / `Zdroje:`, then the URLs exactly as in the English, separated by a comma and a space |
 | `The study also found` | `Štúdia ďalej zistila` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.

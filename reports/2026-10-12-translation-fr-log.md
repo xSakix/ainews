@@ -6,3 +6,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## llms-see-more-illusory-patterns-than-people.fr.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Academic findings retain the source VENDOR-REPORTED classification as prescribed.
+
+## models-cannot-tell-when-they-are-quantized.fr.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Academic findings retain the source VENDOR-REPORTED classification as prescribed.

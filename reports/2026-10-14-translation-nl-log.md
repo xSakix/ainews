@@ -3,3 +3,6 @@
 
 ## ai-daily-digest-for-13-october-2026.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. No flags.
+
+## gemini-4-argon-moves-from-cyber-defenders-to-the-gemini-app.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Reference entries preserved verbatim.

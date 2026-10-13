@@ -6,3 +6,6 @@ Checked paragraphs, headings, list items, table rows, exact URLs, figures, date 
 
 ## gemini-4-argon-moves-from-cyber-defenders-to-the-gemini-app.nl.md (missing)
 Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Reference entries preserved verbatim.
+
+## the-same-attention-heads-change-jobs-with-the-task.nl.md (missing)
+Checked paragraphs, headings, list items, table rows, exact URLs, figures, date and tags; strict check passed. Reference entries preserved verbatim.

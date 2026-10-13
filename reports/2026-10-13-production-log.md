@@ -11,3 +11,11 @@ Duplicate references across desks were merged. Business-only material was absent
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-13-october-2026.md` with 66 distinct stories. The five top stories were checked against Meta, Vals AI, Anthropic, two arXiv preprints and the ESP32 iPhone Agent repository. Meta's benchmark leadership and Anthropic's replication forecast remain attributed; the latter is explicitly described as a simplified evaluation and proxy-based extrapolation. Community measurements, builder benchmarks and inaccessible feed-only reporting retain their stated limitations.
+
+## GPT article
+
+Published `content/posts/the-same-attention-heads-change-jobs-with-the-task.md`. The 1,086-word narrative passed the strict post checker; its explicitly illustrative opening and closing frame a reported body based on the primary preprint and four sources behind it.
+
+## Slovak edition
+
+Translated the 66-story digest and GPT article. Paragraph, heading and URL parity were checked against both English originals; all 78 source URL occurrences match exactly, and both twins passed the strict post checker.

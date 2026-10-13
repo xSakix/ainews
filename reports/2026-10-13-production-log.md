@@ -19,3 +19,6 @@ Published `content/posts/the-same-attention-heads-change-jobs-with-the-task.md`.
 ## Slovak edition
 
 Translated the 66-story digest and GPT article. Paragraph, heading and URL parity were checked against both English originals; all 78 source URL occurrences match exactly, and both twins passed the strict post checker.
+
+Also completed the outstanding recent Slovak twin for `metas-v-jepa-2-forgets-a-hidden-ball-within-half-a-second.md`. Its 24 blocks, seven headings and 13 reference URLs match the English original, and the strict checker passed.
+stale content/posts/metas-v-jepa-2-forgets-a-hidden-ball-within-half-a-second.md

@@ -35,3 +35,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## mass-trains-one-model-through-agent-teams.zh.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.
+
+## polystrata-runs-large-moe-models-on-gaming-gpus.zh.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.

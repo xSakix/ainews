@@ -21,3 +21,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## lighton-releases-lightonocr-3.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.
+
+## incentives-make-ai-agents-overstate-confidence.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED academic labels retained via the prescribed French label.

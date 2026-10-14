@@ -131,8 +131,9 @@ Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Denný prehľ
 [Ako pracujeme](/sk/about/) · [Archív](/sk/archives/) · [RSS kanál](/sk/index.xml) · [English edition](/)
 """
       [[languages.sk.params.socialIcons]]
-        name = "linkedin"
-        url  = "https://www.linkedin.com/newsletters/svet-ai-tvoren%C3%BD-ai-7349186484307951619/"
+        name  = "linkedin"
+        title = "LinkedIn"
+        url   = "https://www.linkedin.com/newsletters/svet-ai-tvoren%C3%BD-ai-7349186484307951619/"
       [[languages.sk.params.socialIcons]]
         name = "substack"
         url  = "https://aiplayground.substack.com/"

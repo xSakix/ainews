@@ -11,22 +11,30 @@
 {{- $dayText := $day | time.Format ":date_long" }}
 
 {{- /* The day's articles: Slovak posts dated from 16 hours before the
-       digest to 24 hours after it. The window reaches back to the evening
-       before, because Claude's article sometimes lands after that morning's
-       edition went out, and forward to the next digest, because a twin can
-       be translated after this edition was written. */}}
+       digest up to the next digest (at most 24 hours after it). The window
+       reaches back to the evening before, because Claude's article sometimes
+       lands after that morning's edition went out, and forward because a
+       twin can be translated after this edition was written. */}}
 {{- $articles := slice }}
 {{- $from := $day.Add (time.ParseDuration "-16h") }}
 {{- $to := $day.Add (time.ParseDuration "24h") }}
+{{- range where (where site.RegularPages "Section" "posts") "Date" "gt" $day }}
+  {{- if and (hasPrefix .File.ContentBaseName "ai-daily-digest-for-") (.Date.Before $to) }}
+    {{- $to = .Date }}
+  {{- end }}
+{{- end }}
 {{- range (where site.RegularPages "Section" "posts").ByDate }}
   {{- if and (.Date.After $from) (.Date.Before $to) (not (hasPrefix .File.ContentBaseName "ai-daily-digest-for-")) }}
     {{- $articles = $articles | append . }}
   {{- end }}
 {{- end }}
 
-{{- /* Cover: the brand base image with the date and the edition's title. */}}
+{{- /* Cover: the brand base image with the date and the edition's title.
+       Only editions from the last 30 days get one: it is needed until the
+       edition is on LinkedIn, and every cover costs build time. */}}
 {{- $cover := false }}
-{{- with resources.Get "images/linkedin-cover-base.png" }}
+{{- $recent := ($day.AddDate 0 0 30).After now }}
+{{- with and $recent (resources.Get "images/linkedin-cover-base.png") }}
   {{- $font := resources.Get "fonts/DejaVuSans-Bold.ttf" }}
   {{- $size := cond (gt (strings.RuneCount $.Title) 60) 70 84 }}
   {{- /* The base is 1770 px wide: images.Text wraps 20 px before the right
@@ -87,8 +95,14 @@
   </section>
 
   <section class="li-part">
-    <h2>4. Príspevok k vydaniu</h2>
-    <p class="li-note">LinkedIn ho pýta pri zverejnení vydania a ukáže ho vo feede.</p>
+    <h2>4. SEO popis (nepovinné)</h2>
+    <p class="li-note">V editore: Spravovať (Manage) → Nastavenia (Settings) → SEO popis.</p>
+    <p class="li-field" id="li-description">{{ .Description }}</p>
+    <button type="button" class="li-button" data-copy="li-description">Kopírovať popis</button>
+  </section>
+  <section class="li-part">
+    <h2>5. Príspevok k vydaniu</h2>
+    <p class="li-note">Po kliknutí na Zverejniť (Publish) ho LinkedIn pýta ako text príspevku, ktorý vydanie ohlási vo feede.</p>
     {{- /* One <p> per paragraph: the minifier collapses blank lines, and
            innerText puts a blank line between paragraphs when copying. */}}
     <div class="li-field li-share" id="li-share">
@@ -99,12 +113,6 @@
     <button type="button" class="li-button" data-copy="li-share">Kopírovať príspevok</button>
   </section>
 
-  <section class="li-part">
-    <h2>5. SEO popis (nepovinné)</h2>
-    <p class="li-note">V editore: Spravovať (Manage) → Nastavenia (Settings) → SEO popis.</p>
-    <p class="li-field" id="li-description">{{ .Description }}</p>
-    <button type="button" class="li-button" data-copy="li-description">Kopírovať popis</button>
-  </section>
 
   <p class="li-note"><a href="{{ .Parent.RelPermalink }}">Všetky vydania</a>{{ with $digest }} · <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</p>
 </article>
@@ -119,7 +127,8 @@
       var text = el.innerText.trim();
       var done = function () {
         button.textContent = "Skopírované ✓";
-        setTimeout(function () { button.textContent = label; }, 2000);
+        clearTimeout(button.resetTimer);
+        button.resetTimer = setTimeout(function () { button.textContent = label; }, 2000);
       };
       var fallback = function () {
         var range = document.createRange();

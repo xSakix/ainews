@@ -31,15 +31,20 @@ MONTHS = ["january", "february", "march", "april", "may", "june", "july",
 
 TOP_STORIES = "## Hlavné správy"
 FURTHER = "## Ďalej v dnešnom prehľade"
-SOURCE_LINE = re.compile(r"^Zdroje?: ")
+SOURCE_LINE = re.compile(r"^(\*\*)?Zdroje?:(\*\*)? ")
 LINK = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
-HASHTAG = re.compile(r"(?:^|\s)#[^\s#]+")
+HASHTAG = re.compile(r"(?:^|\s)#[^\W\d_][^\s#]*")  # #AI, not #1 or C#
+CITED = re.compile(r"(?:^|\s)Zdroje?: (.+)$")
+WWW = re.compile(r"(?<![/\w.@])www\.\w")  # Hugo turns a bare www. address into a link
+EMOJI = re.compile("[\U0001F000-\U0001FAFF\u2600-\u27BF\uFE0F]")
+PARAGRAPH_BREAK = re.compile(r"\n[ \t]*\n")
 
 # Markdown that LinkedIn's article editor drops or mangles on paste.
 UNSUPPORTED = [
     (re.compile(r"^#{3,} "), "heading deeper than ##"),
     (re.compile(r"^\s*\|"), "table"),
     (re.compile(r"^\s*(```|~~~)"), "code block"),
+    (re.compile(r"^( {4,}|\t)\S"), "indented code block"),
     (re.compile(r"`"), "inline code"),
     (re.compile(r"!\["), "image"),
     (re.compile(r"</?[a-zA-Z][^>]*>"), "HTML tag"),
@@ -50,7 +55,9 @@ UNSUPPORTED = [
     (re.compile(r"^(\*{3,}|-{3,}|_{3,})\s*$"), "horizontal rule"),
 ]
 
-LIMITS = {"title": 80, "description": 160, "heading": 90, "bullet": 160, "hook": 200}
+LIMITS = {"title": 70, "description": 160, "heading": 90, "bullet": 160, "hook": 200}
+# images.Text wraps the cover title only at spaces; a longer word runs off the image.
+COVER_WORD = 28
 SHARE_CHARS = (300, 700)
 MAX_HASHTAGS = 3
 BODY_WORDS = (200, 900)
@@ -85,15 +92,18 @@ def plain(text):
 
 
 def digest_top_stories(body):
-    """Source URLs of each top story in a digest's Hlavné správy section."""
+    """For each top story in a digest's Hlavné správy section: every URL in
+    the story, and the URLs of its Zdroj:/Zdroje: line in their order."""
     for heading, lines in sections(body):
         if heading and heading.startswith(TOP_STORIES):
             stories = []
             for line in lines:
                 if line.startswith("**"):
-                    stories.append([])
-                elif stories:
-                    stories[-1] += urls(line)
+                    stories.append(([], []))
+                if stories:
+                    stories[-1][0].extend(urls(line))
+                    if m := CITED.search(line):
+                        stories[-1][1].extend(u.rstrip(".,;:") for u in URL.findall(m[1]))
             return stories
     return []
 
@@ -118,15 +128,21 @@ def check_format(body, start):
             errors.append(f"line {n}: link to the site (the page appends the digest link itself)")
         if HASHTAG.search(LINK.sub("", line)):
             errors.append(f"line {n}: hashtag in the body (hashtags belong in the share post)")
+        if WWW.search(LINK.sub("", line)):
+            errors.append(f"line {n}: bare www. address (Hugo turns it into a link; write [label](URL))")
+        if EMOJI.search(line):
+            errors.append(f"line {n}: emoji")
     return errors
 
 
 def check_structure(body, digest_body):
     errors = []
     parts = sections(body)
-    opening = " ".join(l for l in parts[0][1] if l.strip())
+    opening = [l for l in parts[0][1] if l.strip()]
     if not opening:
         errors.append("no opening paragraph before the first story")
+    if any(l.startswith("- ") for l in opening):
+        errors.append("the opening is one or two sentences, not a list")
 
     stories = [(h, ls) for h, ls in parts[1:] if not h.startswith(FURTHER)]
     further = [(h, ls) for h, ls in parts[1:] if h.startswith(FURTHER)]
@@ -135,9 +151,14 @@ def check_structure(body, digest_body):
     if len(further) > 1:
         errors.append(f"'{FURTHER}' appears more than once")
 
-    for heading, _ in stories:
+    for heading, lines in stories:
         if len(plain(heading[3:])) > LIMITS["heading"]:
             errors.append(f"heading longer than {LIMITS['heading']} characters: {heading[3:50]}…")
+        if heading.endswith("."):
+            errors.append(f"heading ends with a period: {heading[3:50]}…")
+        nonblank = [l for l in lines if l.strip()]
+        if len(nonblank) < 2 or not SOURCE_LINE.match(nonblank[-1]):
+            errors.append(f"story '{heading[3:40]}…' needs its paragraph, then the Zdroj line last")
 
     expected = digest_top_stories(digest_body) if digest_body is not None else None
     if expected is not None:
@@ -145,7 +166,7 @@ def check_structure(body, digest_body):
             errors.append(f"digest has no '{TOP_STORIES}' section with bold-led stories")
         elif len(stories) != len(expected):
             errors.append(f"{len(stories)} story blocks, but the digest has {len(expected)} top stories")
-        for i, ((heading, lines), sources) in enumerate(zip(stories, expected), start=1):
+        for i, ((heading, lines), (sources, cited)) in enumerate(zip(stories, expected), start=1):
             source_lines = [l for l in lines if SOURCE_LINE.match(l)]
             if len(source_lines) != 1:
                 errors.append(f"story {i} ({heading[3:40]}…) needs exactly one 'Zdroj:'/'Zdroje:' line")
@@ -154,14 +175,19 @@ def check_structure(body, digest_body):
                 errors.append(f"story {i} ({heading[3:40]}…) links no source")
             if stray := [u for u in linked if u not in sources]:
                 errors.append(f"story {i} ({heading[3:40]}…) links {stray[0]}, which is not among that top story's sources in the digest")
+            given = [u for l in source_lines for _, u in LINK.findall(l)]
+            if cited and source_lines and given != cited[:3]:
+                errors.append(f"story {i} ({heading[3:40]}…): the Zdroj line must link {cited[:3]}, the digest's sources for that story in their order")
 
     if further:
         items = [l for l in further[0][1] if l.startswith("- ")]
+        if stray := [l for l in further[0][1] if l.strip() and not l.startswith(("- ", "  "))]:
+            errors.append(f"'{FURTHER}' holds only the list (the page appends the closing block); remove: {stray[0][:60]}")
         if not FURTHER_ITEMS[0] <= len(items) <= FURTHER_ITEMS[1]:
             errors.append(f"'{FURTHER}' needs {FURTHER_ITEMS[0]}-{FURTHER_ITEMS[1]} items, has {len(items)}")
+        if linked := [l for l in further[0][1] if LINK.search(l)]:
+            errors.append(f"'{FURTHER}' has a link (the digest link below carries them): {linked[0][:50]}…")
         for item in items:
-            if LINK.search(item):
-                errors.append(f"'{FURTHER}' item has a link (the digest link below carries them): {item[2:50]}…")
             if len(plain(item[2:])) > LIMITS["bullet"]:
                 errors.append(f"'{FURTHER}' item longer than {LIMITS['bullet']} characters: {item[2:50]}…")
     else:
@@ -197,18 +223,26 @@ def check(path, strict):
     for key in ("title", "description"):
         if len(str(meta.get(key, ""))) > LIMITS[key]:
             errors.append(f"{key} longer than {LIMITS[key]} characters")
+    title = str(meta.get("title", "")).strip()
+    if title.endswith("."):
+        errors.append("title ends with a period")
+    if long := [w for w in title.split() if len(w) > COVER_WORD]:
+        errors.append(f"title word {long[0]!r} is longer than {COVER_WORD} characters (the cover image cannot wrap it)")
+    for key in ("title", "description", "share"):
+        if EMOJI.search(str(meta.get(key, ""))):
+            errors.append(f"{key} has an emoji")
     if meta.get("draft") is not False:
         errors.append("draft must be false")
 
     share = str(meta.get("share", "")).strip()
     if share and not SHARE_CHARS[0] <= len(share) <= SHARE_CHARS[1]:
         errors.append(f"share post has {len(share)} characters; it needs {SHARE_CHARS[0]}-{SHARE_CHARS[1]}")
-    if len(share.split("\n\n")[0]) > LIMITS["hook"]:
+    if len(PARAGRAPH_BREAK.split(share)[0]) > LIMITS["hook"]:
         errors.append(f"share post's first paragraph is longer than {LIMITS['hook']} characters (LinkedIn folds the post there)")
     if len(HASHTAG.findall(share)) > MAX_HASHTAGS:
         errors.append(f"share post has more than {MAX_HASHTAGS} hashtags")
-    if URL.search(share):
-        errors.append("share post has a link (LinkedIn attaches the edition itself)")
+    if URL.search(share) or re.search(r"(?i)\bwww\.|ai-news-daily\.xyz", share):
+        errors.append("share post has a link or web address (LinkedIn attaches the edition itself)")
 
     digest_body = None
     name = str(meta.get("digest", ""))

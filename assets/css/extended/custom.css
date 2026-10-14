@@ -152,6 +152,7 @@
 }
 .li-cover {
     width: 100%;
+    border: 1px solid var(--border);
     height: auto;
     border-radius: var(--radius);
 }

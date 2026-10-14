@@ -7,7 +7,7 @@ All paths are relative to the repository root. Read the prompts from the local f
 - **The digest is the main product.** One long post carries every story of the day that passed triage, with the three to five most important at the top, told with context. You write it.
 - **Two articles sit on top of it.** Each tells one story of the day in full, as a narrative, written with `prompts/article-writer-prompt.md` by following `prompts/article-run.md`. One is Claude's, one is yours. An article goes deeper than the digest can; its story still appears in the digest.
 
-Two AI systems share the work. **Claude** runs every research desk early each morning, commits its briefings as `reports/YYYY-MM-DD-briefing-<desk>-anthropic.md`, then writes Claude's article. **You (GPT)** write and publish the digest from those briefings, then your own article, then the Slovak twins. You do not repeat the research and you never touch Claude's article or its `reports/YYYY-MM-DD-article-claude.md`.
+Two AI systems share the work. **Claude** runs every research desk early each morning, commits its briefings as `reports/YYYY-MM-DD-briefing-<desk>-anthropic.md`, then writes Claude's article. **You (GPT)** write and publish the digest from those briefings, then your own article, then the Slovak twins, then the day's edition of the Slovak LinkedIn newsletter. You do not repeat the research and you never touch Claude's article or its `reports/YYYY-MM-DD-article-claude.md`.
 
 ## How this run works
 
@@ -15,7 +15,7 @@ Two AI systems share the work. **Claude** runs every research desk early each mo
 
 **Resume, never restart.** A run can stop at any point — a time limit, a usage limit, an error. Running this prompt again must continue where the last run stopped. Start every run with Step 0, which reads what is already on `main` today and skips everything that is done.
 
-**When you are done.** Pass 1 is complete when the digest is on `main` in English and `reports/YYYY-MM-DD-article-gpt.md` has a final status (`published`, `none` or `failed`). Pass 2 is complete when every English post that needs a Slovak twin has one. Pass 3 is complete when `content/linkedin/YYYY-MM-DD.sk.md` is on `main`, or the production log says why it could not be written today. Start each pass only after the one before it is complete, and carry on until Pass 3 is done or the run stops. Do not stop to ask for review: nobody is watching this run and nobody will answer.
+**When you are done.** Pass 1 is complete when the digest is on `main` in English and `reports/YYYY-MM-DD-article-gpt.md` has a final status (`published`, `none` or `failed`). Pass 2 is complete when every English post that needs a Slovak twin has one or has a skip logged in the production log. Pass 3 is complete when `content/linkedin/YYYY-MM-DD.sk.md` is on `main`, or the production log says why it could not be written today. Start each pass only after the one before it is complete, and carry on until Pass 3 is done or the run stops. Do not stop to ask for review: nobody is watching this run and nobody will answer.
 
 **What you may do.** Everything the run needs is authorised: reading the repository, fetching sources, writing files, running the checks, committing, and pushing to `main` after each finished file. Those pushes are the run's only external writes. Ask no questions and wait for no approval. When something is ambiguous, choose the reading that best serves `prompts/editorial-profile.md`, note the choice in the production log, and continue.
 
@@ -99,7 +99,7 @@ When Pass 2 ends, pull `main` once more: if Claude's article arrived after you b
 
 ## Pass 3 — LinkedIn edition
 
-Follow `prompts/linkedin-run.md` for today. It condenses today's Slovak digest into the day's edition of the newsletter "Svet AI tvorený AI" with `prompts/linkedin-edition-prompt.md`, checks it with `scripts/check_linkedin.py`, and publishes `content/linkedin/YYYY-MM-DD.sk.md` with its own commit message. If the edition already exists, it stops at once. If today's Slovak digest is not on `main` (Pass 2 skipped it), it logs that and stops; never write an edition from the English digest. The edition lists the day's Slovak articles on its own, so it does not wait for any of them.
+Follow `prompts/linkedin-run.md` for today. It condenses today's Slovak digest into the day's edition of the newsletter "Svet AI tvorený AI" with `prompts/linkedin-edition-prompt.md`, checks it with `scripts/check_linkedin.py`, and publishes `content/linkedin/YYYY-MM-DD.sk.md` with its own commit message. If the edition is already on `main`, it stops at once. If today's Slovak digest is not on `main` (Pass 2 skipped it), it logs that and stops; never write an edition from the English digest. The edition lists the day's Slovak articles on its own, so it does not wait for any of them.
 
 ## Assembling the digest
 

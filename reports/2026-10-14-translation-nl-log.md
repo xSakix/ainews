@@ -21,3 +21,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## pi-explains-its-switch-to-mcp-tools-in-core.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.
+
+## ldraw-nova-lets-agents-build-editable-lego-models.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED label retained via the prescribed Dutch label for the individual developer’s account.

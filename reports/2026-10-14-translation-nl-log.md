@@ -30,3 +30,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## openai-warns-more-than-100-organizations.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.
+
+## Run summary
+This continuation translated 2 missing, 0 stale and 5 backlog posts; skipped 0. Backlog remaining: 17. Earlier entries are retained. Every file passed strict validation and was published individually to main.

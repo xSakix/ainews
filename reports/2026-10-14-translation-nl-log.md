@@ -15,3 +15,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## a-small-cognitive-core-takes-on-psychologys-black-boxes.nl.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Reference entries retained verbatim.
+
+## ai-daily-digest-for-3-october-2026.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Repeated verification claims translated consistently with their matching body paragraphs; source labels preserved.

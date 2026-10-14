@@ -11,3 +11,11 @@ Duplicate community threads were merged into their underlying releases, projects
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-14-october-2026.md` with 74 distinct items. The five lead sources were opened directly; vendor benchmarks and community measurements remain attributed, and the browser-RAG result is described as a small single-corpus experiment. The strict post checker passed.
+
+## GPT article
+
+Published `content/posts/a-small-cognitive-core-takes-on-psychologys-black-boxes.md`. Its 1,140-word narrative passed strict validation and uses four paper references; its opening and closing participant are explicitly illustrative.
+
+## Slovak edition
+
+Published Slovak twins for the 14 October digest and GPT article, plus the outstanding 13 October Gemini 4 Argon article. Structural and URL parity passed for all three: 104 blocks and 79 URLs in the digest, 28 blocks and four references in the CORE article, and 24 blocks and 14 references in the Argon article.

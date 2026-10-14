@@ -66,6 +66,9 @@
   <section class="li-part">
     <h2>3. Text vydania</h2>
     <div class="li-field li-body post-content" id="li-body">
+      {{- with $digest }}
+      <p><em>Výber z <a href="{{ .Permalink }}">denného prehľadu AI News Daily</a>, {{ $dayText }}.</em></p>
+      {{- end }}
       {{ .Content }}
       {{- with $digest }}
       <p><strong>Celý denný prehľad</strong> so všetkými správami dňa a odkazmi na zdroje: <a href="{{ .Permalink }}">{{ .Title }}</a></p>

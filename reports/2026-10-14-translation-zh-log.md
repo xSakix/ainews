@@ -23,3 +23,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## cloudflare-adds-multimodal-clef-omni.zh.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.
+
+## llms-see-more-illusory-patterns-than-people.zh.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED labels retained via the prescribed Chinese label despite referring to academic authors.

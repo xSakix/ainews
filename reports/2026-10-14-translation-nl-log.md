@@ -24,3 +24,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## ldraw-nova-lets-agents-build-editable-lego-models.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED label retained via the prescribed Dutch label for the individual developer’s account.
+
+## ai-daily-digest-for-2-october-2026.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English nonstandard headings translated by meaning; no flags.

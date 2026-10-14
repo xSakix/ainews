@@ -50,7 +50,7 @@ UNSUPPORTED = [
     (re.compile(r"^(\*{3,}|-{3,}|_{3,})\s*$"), "horizontal rule"),
 ]
 
-LIMITS = {"title": 90, "description": 160, "heading": 90, "bullet": 160}
+LIMITS = {"title": 80, "description": 160, "heading": 90, "bullet": 160, "hook": 200}
 SHARE_CHARS = (300, 700)
 MAX_HASHTAGS = 3
 BODY_WORDS = (200, 900)
@@ -203,6 +203,8 @@ def check(path, strict):
     share = str(meta.get("share", "")).strip()
     if share and not SHARE_CHARS[0] <= len(share) <= SHARE_CHARS[1]:
         errors.append(f"share post has {len(share)} characters; it needs {SHARE_CHARS[0]}-{SHARE_CHARS[1]}")
+    if len(share.split("\n\n")[0]) > LIMITS["hook"]:
+        errors.append(f"share post's first paragraph is longer than {LIMITS['hook']} characters (LinkedIn folds the post there)")
     if len(HASHTAG.findall(share)) > MAX_HASHTAGS:
         errors.append(f"share post has more than {MAX_HASHTAGS} hashtags")
     if URL.search(share):

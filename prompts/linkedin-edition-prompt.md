@@ -14,9 +14,10 @@ The edition is a faithful condensation of the digest. These rules outrank style.
 
 1. NOTHING ADDED. Every fact, number, name, quote and caveat in the edition is in the digest. No background from memory, no updates, no predictions, no opinions the digest does not state.
 2. ATTRIBUTION KEPT. A claim keeps its owner and its strength: a vendor's benchmark stays the vendor's claim („Liquid uvádza“, „podľa spoločnosti“), a preprint stays a preprint that has not been peer reviewed, a thread stays one person's report. When you shorten a story, the attribution and the caveat are the last words you cut, never the first.
-3. SAME NUMBERS. A number you keep appears exactly as in the digest, with what it measures. Never round further, convert or recompute. Leave a number out rather than strip it of its meaning.
+3. SAME NUMBERS. A number you keep appears exactly as in the digest, with what it measures. Never round further, convert or recompute. Leave a number out rather than strip it of its meaning, and leave it out when the digest itself does not make clear what it measures.
 4. SAME SOURCES. Every link points to a URL that appears in the digest, unchanged. A top story links the sources listed under that story in the digest, and no others.
 5. SAME ORDER. The top stories appear in the digest's order.
+6. SAME CONTRASTS. A contrast or limit the digest draws („ide o kauzálny test, nie iba koreláciu“, „test je malý“) stays when you keep the claim it qualifies; the style bans in <voice> apply to phrasing you add, never to the digest's meaning.
 </fidelity>
 
 <voice>
@@ -30,7 +31,7 @@ FRONT MATTER — TOML, double-quoted strings, `"` and `\` escaped; `share` is a 
 +++
 title = "<edition headline>"
 description = "<SEO description>"
-digest = "<file name of the English digest without .md>"
+digest = "<file name of the Slovak digest without .sk.md>"
 date = <copied unchanged from the Slovak digest>
 draft = false
 share = """
@@ -39,22 +40,22 @@ share = """
 +++
 ```
 
-- title: the edition's headline in Slovak sentence case: the first top story stated as actor and action, the way the digest's bold lead sentence states it, shortened to at most 90 characters. It names the news, not the day („Liquid AI vydala otvorený model pre agentov na osobných zariadeniach“, never „Denný prehľad AI – 14. októbra 2026“ or „Novinky zo sveta AI“). No colon-separated double headline, no question, no clickbait.
+- title: the edition's headline in Slovak sentence case: the first top story stated as actor and action, in the tense and wording of the digest's bold lead sentence, at most 80 characters and best between 50 and 70 (LinkedIn cuts longer titles in previews). It names the news, not the day: „Lacnejší model Anthropicu predbehol jeho vlajkovú loď“, never „Denný prehľad AI – 14. októbra 2026“ or „Novinky zo sveta AI“. It may repeat the first story's heading. No final period, no colon-separated double headline, no question, no clickbait.
 - description: one sentence of at most 160 characters naming the edition's two or three main developments, actor and action. LinkedIn uses it as the SEO description and search engines show it under the title.
 - digest: the digest's file name without `.sk.md`, e.g. `ai-daily-digest-for-14-october-2026`. The site uses it to link the full digest and the day's articles, and the check uses it to compare the edition with its digest.
 - date: identical to the Slovak digest.
-- share: the text of the LinkedIn post that announces the edition in the feed, 300 to 700 characters. First line: the most important development in one sentence, concrete enough to make a reader stop scrolling. Then one or two short paragraphs naming the other top stories, one sentence each. Last line: up to three hashtags chosen from #AI #UmeláInteligencia #LLM #AIAgenti #OpenSource #Výskum. No links (LinkedIn attaches the edition itself), no emoji, no „Prečítajte si…“ or other calls to action.
+- share: the text of the LinkedIn post that announces the edition in the feed, 300 to 700 characters counting line breaks and hashtags. First paragraph: the most important development in one sentence of at most 200 characters (LinkedIn folds the post after about 200), concrete enough to make a reader stop scrolling. Then one or two short paragraphs naming the other top stories, one sentence each, with their attribution or caveat in a word or two („preprint“, „podľa spoločnosti“). Last line: up to three hashtags chosen from #AI #UmeláInteligencia #LLM #AIAgenti #OpenSource #Výskum. No links (LinkedIn attaches the edition itself), no emoji, no „Prečítajte si…“ or other calls to action.
 
 BODY — Markdown, in this order:
 
-1. Opening: one or two sentences that tell the reader what the day brought, built from the digest's description or its opening sentences. Never a list of categories, never „Vitajte“.
+1. Opening: one or two sentences that tell the reader what the day brought, built from the digest's opening sentences or its description. It need not name every top story. Never a bare list of section names („výskum, nástroje a biznis“), never „Vitajte“.
 
 2. One block per top story of the digest's `## Hlavné správy`, all of them, in their order:
-   - `## <headline>`: the story's bold lead sentence as a Slovak headline in sentence case, at most 90 characters, actor and action, no final period.
+   - `## <headline>`: the story's bold lead sentence as a Slovak headline in sentence case, at most 90 characters, actor and action, no final period. To shorten it, drop descriptive words and keep the actor, the action and any number; the paragraph below carries what you dropped.
    - One paragraph of 40 to 90 words: what happened, the one detail that makes it worth knowing (the number with what it measures, the mechanism, the terms), and the attribution or caveat the digest gives it. A second short paragraph only when the story cannot be told faithfully in one.
-   - `Zdroj: [<label>](<URL>)` or `Zdroje: [<label>](<URL>), [<label>](<URL>)`: the URLs of the story's `Zdroj:`/`Zdroje:` line in the digest, in the same order (at most three; when the digest lists more, keep the first three). The label is the site's host name without `www.` (`liquid.ai`, `arxiv.org`); for github.com and huggingface.co it is host/owner/repo (`github.com/openai/codex`, `huggingface.co/LiquidAI/LFM2.5-24B-A2B`).
+   - `Zdroj: [<label>](<URL>)` or `Zdroje: [<label>](<URL>), [<label>](<URL>)`: the URLs of the story's `Zdroj:`/`Zdroje:` line in the digest, in the same order (at most three; when the digest lists more, keep the first three). The label is the URL's host name without `www.`, other subdomains kept (`liquid.ai`, `arxiv.org`, `news.ycombinator.com`); for github.com and huggingface.co it is the host and the repository path (`github.com/openai/codex`, `huggingface.co/LiquidAI/LFM2.5-24B-A2B`, `huggingface.co/datasets/allenai/c4`).
 
-3. `## Ďalej v dnešnom prehľade`: a bulleted list (`- `) of four to six other items of the day, taken from the digest's other sections. Prefer, in this order: releases (`## Nové modely a vydania`), research (`## Výskum`), what people are building (`## Čo ľudia tvoria`), prompting techniques, worth reading; never `## Biznis v skratke`. Each bullet is one sentence of at most 160 characters stating the news, actor and action, built from the item's bold lead sentence. No links in this list: the full digest, linked below it, carries them.
+3. `## Ďalej v dnešnom prehľade`: a bulleted list (`- `) of four to six other items of the day, taken from the digest's other sections and listed in the digest's order. Choose them by this priority: releases (`## Nové modely a vydania`), research (`## Výskum`), what people are building (`## Čo ľudia tvoria`), prompting techniques (`## Techniky promptovania`), worth reading (`## Stojí za prečítanie`), then Hacker News, Reddit, YouTube and `## Stručne`; never `## Biznis v skratke`. Each bullet is one sentence of at most 160 characters stating the news, actor and action, built from the item's bold lead sentence. When the item's text attributes the claim or qualifies it, the bullet keeps that in a word or two („podľa AWS“, „podľa autorov“, „preprint“), as the fidelity rules require. No links in this list: the full digest, linked below it, carries them.
 
 Nothing after the list. The site appends the link to the full digest, links to the day's articles and the AI-generated label to every edition, so never write them yourself: no closing line, no call to action, no signature, no link to ai-news-daily.xyz, no disclosure line.
 
@@ -72,7 +73,7 @@ Before output, compare the edition with the digest and fix any failure:
 1. Every top story of `## Hlavné správy` has its block, in the same order, and nothing else is under a story heading.
 2. Every number, name and quote in the edition is in the digest and means the same thing there. Every claim keeps its owner; every preprint, vendor claim and single report keeps its caveat.
 3. Every link's URL is in the digest, unchanged; each story links only its own sources; no bare URL; no link in the „Ďalej v dnešnom prehľade“ list.
-4. title at most 90 characters; description at most 160; share 300 to 700 characters with at most three hashtags; each heading at most 90 characters; each bullet at most 160.
+4. title at most 80 characters; description at most 160; share 300 to 700 characters, its first paragraph at most 200, with at most three hashtags; each heading at most 90 characters; each bullet at most 160.
 5. Only the formatting listed above. No closing line, no link to ai-news-daily.xyz, no disclosure line.
 6. Read the edition as the reader would, on a phone: does each story's first sentence say something specific? Do two stories open the same way? Anything that sounds translated, stiff or promotional: rewrite it without changing the facts.
 </self_check>

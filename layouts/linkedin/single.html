@@ -44,7 +44,7 @@
       {{- with .Params.linkedin }}
       Zverejnené na LinkedIne: <a href="{{ . }}" rel="noopener">{{ . }}</a>
       {{- else }}
-      Zatiaľ nezverejnené. Postup: LinkedIn → <em>Napísať článok</em> → v ľavom hornom menu editora vyberte newsletter <em>Svet AI tvorený AI</em>, potom vložte časti v poradí, v akom sú nižšie.
+      Zatiaľ nezverejnené. Postup na počítači (mobilná aplikácia články nezverejňuje): LinkedIn → <em>Napísať článok</em> (Write article) → v ľavom hornom menu editora vyberte newsletter <em>Svet AI tvorený AI</em>, potom vložte časti v poradí, v akom sú nižšie. Zverejniť sa dá hneď alebo naplánovať ikonou hodín vedľa tlačidla Zverejniť.
       {{- end }}
     </div>
   </header>
@@ -101,7 +101,7 @@
 
   <section class="li-part">
     <h2>5. SEO popis (nepovinné)</h2>
-    <p class="li-note">V editore: Nastavenia → SEO → popis.</p>
+    <p class="li-note">V editore: Spravovať (Manage) → Nastavenia (Settings) → SEO popis.</p>
     <p class="li-field" id="li-description">{{ .Description }}</p>
     <button type="button" class="li-button" data-copy="li-description">Kopírovať popis</button>
   </section>

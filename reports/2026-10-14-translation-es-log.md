@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## metas-v-jepa-2-forgets-a-hidden-ball-within-half-a-second.es.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Reference entries retained verbatim.
+
+## cloudflare-adds-multimodal-clef-omni.es.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.

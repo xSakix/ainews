@@ -32,3 +32,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## byte-level-oracle-rescues-agent-decompilation.zh.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED label retained via the prescribed Chinese label for the individual author’s figures.
+
+## mass-trains-one-model-through-agent-teams.zh.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.

@@ -18,3 +18,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## ai-daily-digest-for-3-october-2026.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Repeated verification claims translated consistently with their matching body paragraphs; source labels preserved.
+
+## pi-explains-its-switch-to-mcp-tools-in-core.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.

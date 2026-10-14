@@ -27,3 +27,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## more-reasoning-does-not-reduce-model-bias.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED academic labels retained via the prescribed French label.
+
+## warm-compaction-reuses-cache-for-agent-memory.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED label retained via the prescribed French label for the individual author’s tests.

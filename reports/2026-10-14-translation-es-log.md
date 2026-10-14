@@ -5,3 +5,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## a-small-cognitive-core-takes-on-psychologys-black-boxes.es.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Reference entries retained verbatim.
+
+## ai-daily-digest-for-13-october-2026.es.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.

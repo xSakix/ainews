@@ -14,3 +14,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## the-same-attention-heads-change-jobs-with-the-task.de.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Reference entries retained verbatim.
+
+## cloudflare-adds-multimodal-clef-omni.de.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.

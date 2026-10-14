@@ -36,3 +36,6 @@ go.work.sum
 /public/
 /resources/_gen/
 .hugo_build.lock
+
+# Python bytecode (scripts/check_linkedin.py imports check_posts.py)
+__pycache__/

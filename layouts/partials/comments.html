@@ -5,6 +5,7 @@
 {{- $links := dict
       "rss" ("index.xml" | absLangURL)
       "newsletter" "https://aiplayground.substack.com/"
+      "linkedin" "https://www.linkedin.com/newsletters/svet-ai-tvoren%C3%BD-ai-7349186484307951619/"
       "about" (printf "%s#%s" ("about/" | absLangURL) (index $anchors site.Language.Lang | default "how-articles-are-produced")) }}
 <aside class="follow-box" aria-label="{{ i18n "follow_aria" }}">
   <p><strong>{{ i18n "follow_title" }}</strong>

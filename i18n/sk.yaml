@@ -7,7 +7,7 @@
 - id: follow_title
   translation: "AI News Daily každé ráno."
 - id: follow_text
-  translation: 'Sledujte <a href="{{ .rss }}">RSS kanál</a> (plný text) alebo sa prihláste na <a href="{{ .newsletter }}" rel="noopener">newsletter na Substacku</a> (v angličtine).'
+  translation: 'Sledujte <a href="{{ .rss }}">RSS kanál</a> (plný text), slovenský newsletter <a href="{{ .linkedin }}" rel="noopener">Svet AI tvorený AI na LinkedIne</a> alebo <a href="{{ .newsletter }}" rel="noopener">newsletter na Substacku</a> (v angličtine).'
 - id: follow_note
   translation: 'Článok vyhľadala a napísala AI podľa zverejnených redakčných pravidiel a do slovenčiny ho preložila AI. <a href="{{ .about }}">Ako pracujeme a čo znamenajú označenia</a>.'
 - id: follow_aria

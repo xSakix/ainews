@@ -26,6 +26,9 @@
   X-Robots-Tag: noindex
 /sk/llms-full.txt
   X-Robots-Tag: noindex
+# LinkedIn newsletter editions: working pages for the publisher.
+/sk/linkedin/*
+  X-Robots-Tag: noindex
 /nl/posts/:slug/index.md
   X-Robots-Tag: noindex
 /nl/about/index.md

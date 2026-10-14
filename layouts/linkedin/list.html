@@ -1,0 +1,27 @@
+{{- /* All LinkedIn newsletter editions, newest first, with their status. */ -}}
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . }}</div>
+  {{- end }}
+</header>
+
+<div class="post-content">
+  {{ .Content }}
+  <table class="li-editions">
+    <thead>
+      <tr><th>Deň</th><th>Vydanie</th><th>Na LinkedIne</th></tr>
+    </thead>
+    <tbody>
+      {{- range .RegularPages.ByDate.Reverse }}
+      <tr>
+        <td>{{ .Date | time.Format ":date_medium" }}</td>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ with .Params.linkedin }}<a href="{{ . }}" rel="noopener">zverejnené</a>{{ else }}čaká{{ end }}</td>
+      </tr>
+      {{- end }}
+    </tbody>
+  </table>
+</div>
+{{- end }}

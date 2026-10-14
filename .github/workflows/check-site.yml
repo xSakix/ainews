@@ -16,6 +16,9 @@ jobs:
       - name: Check posts for leaked pipeline notes
         run: python3 scripts/check_posts.py
 
+      - name: Check LinkedIn newsletter editions
+        run: python3 scripts/check_linkedin.py
+
       - name: Install Hugo
         env:
           HUGO_VERSION: 0.148.2   # keep in step with the Cloudflare build

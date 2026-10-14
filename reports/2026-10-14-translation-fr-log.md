@@ -24,3 +24,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## incentives-make-ai-agents-overstate-confidence.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED academic labels retained via the prescribed French label.
+
+## more-reasoning-does-not-reduce-model-bias.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED academic labels retained via the prescribed French label.

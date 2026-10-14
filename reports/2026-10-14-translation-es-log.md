@@ -29,3 +29,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## models-cannot-tell-when-they-are-quantized.es.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED labels retained via the prescribed Spanish label despite referring to academic authors.
+
+## byte-level-oracle-rescues-agent-decompilation.es.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED label retained via the prescribed Spanish label for the individual author’s figures.

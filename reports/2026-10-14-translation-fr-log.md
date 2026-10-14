@@ -15,3 +15,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## a-small-cognitive-core-takes-on-psychologys-black-boxes.fr.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Reference entries retained verbatim.
+
+## ai-daily-digest-for-9-october-2026.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED research label retained via the prescribed French label.

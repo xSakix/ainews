@@ -30,3 +30,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## warm-compaction-reuses-cache-for-agent-memory.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED label retained via the prescribed French label for the individual author’s tests.
+
+## Run summary
+This continuation translated 2 missing, 0 stale and 5 backlog posts; skipped 0. Backlog remaining: 39. Earlier entries are retained. Every file passed strict validation and was published individually to main.

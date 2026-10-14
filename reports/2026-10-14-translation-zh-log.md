@@ -26,3 +26,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## llms-see-more-illusory-patterns-than-people.zh.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED labels retained via the prescribed Chinese label despite referring to academic authors.
+
+## models-cannot-tell-when-they-are-quantized.zh.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED labels retained via the prescribed Chinese label despite referring to academic authors.

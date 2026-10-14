@@ -2,3 +2,6 @@
 
 ## ai-daily-digest-for-14-october-2026.zh.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.
+
+## a-small-cognitive-core-takes-on-psychologys-black-boxes.zh.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Reference entries retained verbatim.

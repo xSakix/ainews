@@ -11,3 +11,7 @@ Business coverage is limited to two one-line items. Previous posts and the three
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-15-october-2026.md` with five top stories and 71 additional planned items. Primary sources opened for the top stories were the Ling-3.1-flash model card, HopToM preprint, Babytalk repository, Epoch AI SpireClimb report and the activation-control preprint. Vendor, author and community measurements remain attributed; the White Circle methodology and several community measurements could not be independently inspected and are labelled accordingly.
+
+## Translation notes
+
+The Slovak digest preserves all source URLs, figures, qualifications and section order. Product names, benchmark names and command identifiers remain in their original form.

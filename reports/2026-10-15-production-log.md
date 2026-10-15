@@ -17,3 +17,6 @@ Published `content/posts/ai-daily-digest-for-15-october-2026.md` with five top s
 The Slovak digest preserves all source URLs, figures, qualifications and section order. Product names, benchmark names and command identifiers remain in their original form.
 
 The Slovak HopToM feature preserves the two explicitly illustrative scenes, all quantitative results, caveats and the unchanged reference list.
+
+## LinkedIn edition
+content/linkedin/2026-10-15.sk.md: Ant Group sprístupnil model s 560 miliardami parametrov. Standalone run after Pass 3 was merged (production had finished at 05:16). All 5 top stories in digest order (Ling-3.1-flash by inclusionAI/Ant Group, HopToM preprint, Babytalk on ESP32, Epoch SpireClimb, neurofeedback preprint) and 5 further items (HiRO-ACEv2, self-distillation study, Graphicle, Michael Lynch essay, Torvalds' LLM-assisted patches). Title and description name "Ant Group", as the digest's own description does, to keep the title within 60 characters. A fidelity review restored four qualifiers from the digest ("vyššieho rádu", X-SHiELD, the baseline for "dvojnásobný", the repeat-and-evade monitor test).

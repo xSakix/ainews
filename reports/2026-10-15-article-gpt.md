@@ -2,7 +2,7 @@
 Topic: HopToM shows that higher-order theory-of-mind benchmarks reward shallow shortcuts
 Primary sources: https://arxiv.org/abs/2610.17777 ; https://arxiv.org/abs/2310.16755 ; https://arxiv.org/abs/2606.11724 ; https://arxiv.org/abs/2605.26322
 Why this story: It combines a cognitive question, a benchmark correction and a practical inference method. The paper has a clear human-scale problem, quantitative results and enough prior work for a full narrative.
-Status: writing
+Status: published: content/posts/the-shortcut-inside-a-models-theory-of-mind.md
 
 ## Reporting notes
 

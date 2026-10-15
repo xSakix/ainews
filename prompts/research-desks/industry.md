@@ -12,7 +12,9 @@ The events that keep the reader in the loop without being the core of the site (
 - hardware and infrastructure, when there is technical detail (specifications, benchmarks, availability), not only orders and revenue;
 - business, briefly: funding, acquisitions, IPOs, deals, earnings. Keep these to one line each, at most five, and only when they involve a lab, model or tool the site covers.
 
-Flag any business item that meets the profile's exception — an open model relicensed or withdrawn, an open-source project shut down after an acquisition, a lab closing, an API discontinued or repriced — with `Exception:` and the consequence for users.
+Flag any business item that meets the profile's exception — an open model relicensed or withdrawn, an open-source project shut down after an acquisition, a lab closing, an API discontinued — with `Exception:` and the consequence for users.
+
+What AI does to jobs, prices, markets and industries (a tool repriced, a market move after a release, layoffs tied to AI, robots deployed in factories) belongs to the economy desk (`prompts/research-desks/economy.md`), not to "Business, briefly".
 
 ## Window
 

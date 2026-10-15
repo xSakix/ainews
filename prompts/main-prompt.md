@@ -49,8 +49,8 @@ Two AI systems share the work. **Claude** runs every research desk early each mo
 
 1. From every section of every briefing, list each distinct underlying event, project, paper or piece of writing. Entries about the same thing are one topic, whatever briefing or heading they appear under. Where two briefings disagree on a fact (a date, a number, a name, whether something is new), open the primary source; it decides. Note it in the production log.
 2. Drop topics already covered by a post in `content/posts/` (English posts only; ignore the translations, `*.<lang>.md`. Compare against each post's title and opening paragraph). Exception: today's item contains a material new development. In that case, the new development is the topic.
-3. Give each topic its tier from the editorial profile. Tier 3 (business) topics go to the digest's "Business, briefly" section, at most five, or are dropped. The profile's exception moves a business event up a tier; it is then written about the consequence for users.
-4. Choose the **top stories**: the three to five topics that matter most to the reader, following "The digest" in the editorial profile. Rank them.
+3. Give each topic its tier and its lens (Capability, Practice or Consequence) from the editorial profile. Tier 3 (business) topics go to the digest's "Business, briefly" section, at most five, or are dropped. The profile's "Moving up" rules lift a business event out of tier 3; it is then written about the consequence (for what AI does to work, prices and industries, in the digest's "Economy and work" section).
+4. Choose the **top stories** with the profile's "Choosing the top stories": gate, score every tier 1 and tier 2 candidate, rank, balance the lenses, choose the lead. Keep three to five.
 5. Every other topic that has a primary source becomes an item in its digest section (see `prompts/digest-writer-prompt.md`). Nothing is deferred to a later day. Topics Claude has claimed for its article (`reports/YYYY-MM-DD-article-claude.md`, if it exists) stay in the digest like any other.
 6. Set the timestamp base: take the current time with its real offset (`TZ=Europe/Bratislava date -Iseconds`) and subtract 60 minutes. Never copy an offset from an example; it changes between summer (+02:00) and winter (+01:00) time.
 7. Write `reports/YYYY-MM-DD-plan.md`:
@@ -64,7 +64,7 @@ Two AI systems share the work. **Claude** runs every research desk early each mo
    Status: todo
    ```
 
-   List the top stories first, with the section `Top stories`, in rank order; then the other items in the digest's section order. Write the selection reasons, above all for the top stories, to `reports/YYYY-MM-DD-production-log.md`.
+   List the top stories first, with the section `Top stories`, in rank order; then the other items in the digest's section order. Write the selection reasons to `reports/YYYY-MM-DD-production-log.md`: for the top stories and the next three candidates, a table with the five scores, the total and the lens, and one line on any balancing step that changed the ranking.
 8. Publish the plan and the production log (see "Publishing a file") with the message `Plan for YYYY-MM-DD`. From here on, the plan is fixed: a resumed run follows it and never plans again.
 
 ### Task C — The digest

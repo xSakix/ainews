@@ -19,6 +19,7 @@ The routine stores its own copy of its prompt. After editing `prompts/routine-an
 | Essays and deep dives | `prompts/research-desks/writing.md` | `reports/YYYY-MM-DD-briefing-writing-<suffix>.md` |
 | Community | `prompts/research-desks/community.md` | `reports/YYYY-MM-DD-briefing-community-<suffix>.md` |
 | YouTube | `prompts/research-desks/youtube.md` | `reports/YYYY-MM-DD-briefing-youtube-<suffix>.md` |
+| Economy and work | `prompts/research-desks/economy.md` | `reports/YYYY-MM-DD-briefing-economy-<suffix>.md` |
 | Safety, policy and industry | `prompts/research-desks/industry.md` | `reports/YYYY-MM-DD-briefing-industry-<suffix>.md` |
 
 "Today" is today's date in the Europe/Bratislava time zone (`TZ=Europe/Bratislava date +%F`).

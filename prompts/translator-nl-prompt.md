@@ -119,6 +119,7 @@ Fixed headings and phrases:
 | `## Verification` | `## Verificatie {#verification}` |
 | `## Releases` | `## Nieuwe modellen en releases` |
 | `## Research` | `## Onderzoek` |
+| `## Economy and work` | `## Economie en werk` |
 | `## Prompting techniques` | `## Prompttechnieken` |
 | `## What people are building` | `## Wat mensen bouwen` |
 | `## Worth reading` | `## Het lezen waard` |

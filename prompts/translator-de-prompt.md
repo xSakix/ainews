@@ -120,6 +120,7 @@ Fixed headings and phrases:
 | `## Verification` | `## Überprüfung {#verification}` |
 | `## Releases` | `## Neue Modelle und Veröffentlichungen` |
 | `## Research` | `## Forschung` |
+| `## Economy and work` | `## Arbeit und Wirtschaft` |
 | `## Prompting techniques` | `## Prompting-Techniken` |
 | `## What people are building` | `## Was Leute bauen` |
 | `## Worth reading` | `## Lesenswert` |

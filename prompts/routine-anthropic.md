@@ -15,7 +15,7 @@ IMPORTANT — THIS SESSION IS REUSED EVERY DAY. Earlier briefings from previous 
 ================================================================
 2. RESEARCH — CURRENT SETUP (prompts/research-run.md exists)
 ================================================================
-If `prompts/research-run.md` exists in the clone, follow it as the Anthropic system, with the suffix `anthropic`. It lists the research desks (lab releases, research papers, what people are building, essays and deep dives, community, YouTube, safety/policy/industry — use whatever it lists today) and where each briefing is saved:
+If `prompts/research-run.md` exists in the clone, follow it as the Anthropic system, with the suffix `anthropic`. It lists the research desks (lab releases, research papers, what people are building, essays and deep dives, community, YouTube, economy and work, safety/policy/industry — use whatever it lists today) and where each briefing is saved:
   reports/YYYY-MM-DD-briefing-<desk>-anthropic.md
 
 Run every desk as its own subagent (Agent tool), all launched at once, so each starts with a fresh context and gives its beat full attention. Give each subagent:

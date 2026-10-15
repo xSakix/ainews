@@ -15,3 +15,5 @@ Published `content/posts/ai-daily-digest-for-15-october-2026.md` with five top s
 ## Translation notes
 
 The Slovak digest preserves all source URLs, figures, qualifications and section order. Product names, benchmark names and command identifiers remain in their original form.
+
+The Slovak HopToM feature preserves the two explicitly illustrative scenes, all quantitative results, caveats and the unchanged reference list.

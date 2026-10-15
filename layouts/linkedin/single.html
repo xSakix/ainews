@@ -1,0 +1,154 @@
+{{- /* One LinkedIn newsletter edition (content/linkedin/YYYY-MM-DD.sk.md):
+       every part the publisher pastes into LinkedIn's editor, each with a
+       copy button. The edition's own text is followed by a closing block
+       built here, so every edition links the full digest and the day's
+       articles and carries the AI-generated label (EU AI Act, Art. 50).
+       The page is Slovak only, so its strings are written in Slovak here. */ -}}
+{{- define "main" }}
+{{- $digest := site.GetPage (printf "/posts/%s" .Params.digest) }}
+{{- $day := .Date }}
+{{- with $digest }}{{ $day = .Date }}{{ end }}
+{{- $dayText := $day | time.Format ":date_long" }}
+
+{{- /* The day's articles: Slovak posts dated from 16 hours before the
+       digest up to the next digest (at most 24 hours after it). The window
+       reaches back to the evening before, because Claude's article sometimes
+       lands after that morning's edition went out, and forward because a
+       twin can be translated after this edition was written. */}}
+{{- $articles := slice }}
+{{- $from := $day.Add (time.ParseDuration "-16h") }}
+{{- $to := $day.Add (time.ParseDuration "24h") }}
+{{- range where (where site.RegularPages "Section" "posts") "Date" "gt" $day }}
+  {{- if and (hasPrefix .File.ContentBaseName "ai-daily-digest-for-") (.Date.Before $to) }}
+    {{- $to = .Date }}
+  {{- end }}
+{{- end }}
+{{- range (where site.RegularPages "Section" "posts").ByDate }}
+  {{- if and (.Date.After $from) (.Date.Before $to) (not (hasPrefix .File.ContentBaseName "ai-daily-digest-for-")) }}
+    {{- $articles = $articles | append . }}
+  {{- end }}
+{{- end }}
+
+{{- /* Cover: the brand base image with the date and the edition's title.
+       Only editions from the last 30 days get one: it is needed until the
+       edition is on LinkedIn, and every cover costs build time. */}}
+{{- $cover := false }}
+{{- $recent := ($day.AddDate 0 0 30).After now }}
+{{- with and $recent (resources.Get "images/linkedin-cover-base.png") }}
+  {{- $font := resources.Get "fonts/DejaVuSans-Bold.ttf" }}
+  {{- $size := cond (gt (strings.RuneCount $.Title) 60) 70 84 }}
+  {{- /* The base is 1770 px wide: images.Text wraps 20 px before the right
+         edge, so the 150 px right margin is padded back after the text. */}}
+  {{- $cover = . | images.Filter
+        (images.Text $dayText (dict "font" $font "size" 46 "x" 150 "y" 400 "color" "#2dd4bf"))
+        (images.Text $.Title (dict "font" $font "size" $size "x" 150 "y" 480 "color" "#ffffff" "linespacing" 18))
+        (images.Padding 0 150 0 0 "#1d1e20") }}
+{{- end }}
+
+<article class="post-single linkedin-edition">
+  <header class="post-header">
+    <h1 class="post-title">Vydanie pre LinkedIn – {{ $dayText }}</h1>
+    <div class="post-description">
+      {{- with .Params.linkedin }}
+      Zverejnené na LinkedIne: <a href="{{ . }}" rel="noopener">{{ . }}</a>
+      {{- else }}
+      Zatiaľ nezverejnené. Postup na počítači (mobilná aplikácia články nezverejňuje): LinkedIn → <em>Napísať článok</em> (Write article) → v ľavom hornom menu editora vyberte newsletter <em>Svet AI tvorený AI</em>, potom vložte časti v poradí, v akom sú nižšie. Zverejniť sa dá hneď alebo naplánovať ikonou hodín vedľa tlačidla Zverejniť.
+      {{- end }}
+    </div>
+  </header>
+
+  {{- with $cover }}
+  <section class="li-part">
+    <h2>1. Obrázok na obálku</h2>
+    <img class="li-cover" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Obálka vydania: {{ $.Title }}">
+    <p><a class="li-button" href="{{ .RelPermalink }}" download="svet-ai-{{ $day.Format "2006-01-02" }}.png">Stiahnuť obrázok ({{ .Width }} × {{ .Height }})</a></p>
+  </section>
+  {{- end }}
+
+  <section class="li-part">
+    <h2>2. Názov</h2>
+    <p class="li-field" id="li-title">{{ .Title }}</p>
+    <button type="button" class="li-button" data-copy="li-title">Kopírovať názov</button>
+  </section>
+
+  <section class="li-part">
+    <h2>3. Text vydania</h2>
+    <div class="li-field li-body post-content" id="li-body">
+      {{- with $digest }}
+      <p><em>Výber z <a href="{{ .Permalink }}">denného prehľadu AI News Daily</a>, {{ $dayText }}.</em></p>
+      {{- end }}
+      {{ .Content }}
+      {{- with $digest }}
+      <p><strong>Celý denný prehľad</strong> so všetkými správami dňa a odkazmi na zdroje: <a href="{{ .Permalink }}">{{ .Title }}</a></p>
+      {{- end }}
+      {{- with $articles }}
+      <p><strong>{{ if gt (len .) 1 }}Nové články{{ else }}Nový článok{{ end }} na AI News Daily:</strong></p>
+      <ul>
+        {{- range . }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{- end }}
+      </ul>
+      {{- end }}
+      <p><em>{{ site.Params.author }}. Toto vydanie zostavila AI z denného prehľadu <a href="{{ "" | absLangURL }}">AI News Daily</a>, ktorý podľa zverejnených redakčných pravidiel vyhľadala, napísala a do slovenčiny preložila AI. <a href="{{ "about/" | absLangURL }}#ai-disclosure">Ako pracujeme</a>.</em></p>
+    </div>
+    <button type="button" class="li-button" data-copy="li-body" data-copy-html>Kopírovať text vydania</button>
+  </section>
+
+  <section class="li-part">
+    <h2>4. SEO popis (nepovinné)</h2>
+    <p class="li-note">V editore: Spravovať (Manage) → Nastavenia (Settings) → SEO popis.</p>
+    <p class="li-field" id="li-description">{{ .Description }}</p>
+    <button type="button" class="li-button" data-copy="li-description">Kopírovať popis</button>
+  </section>
+  <section class="li-part">
+    <h2>5. Príspevok k vydaniu</h2>
+    <p class="li-note">Po kliknutí na Zverejniť (Publish) ho LinkedIn pýta ako text príspevku, ktorý vydanie ohlási vo feede.</p>
+    {{- /* One <p> per paragraph: the minifier collapses blank lines, and
+           innerText puts a blank line between paragraphs when copying. */}}
+    <div class="li-field li-share" id="li-share">
+      {{- range split (.Params.share | strings.TrimSpace) "\n\n" }}
+      <p>{{ . | strings.TrimSpace | htmlEscape | replaceRE "\n" "<br>" | safeHTML }}</p>
+      {{- end }}
+    </div>
+    <button type="button" class="li-button" data-copy="li-share">Kopírovať príspevok</button>
+  </section>
+
+
+  <p class="li-note"><a href="{{ .Parent.RelPermalink }}">Všetky vydania</a>{{ with $digest }} · <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</p>
+</article>
+
+<script>
+  /* Rich text (text/html) keeps headings, bold, links and lists when pasted
+     into LinkedIn's editor; plain text is the fallback for other targets. */
+  document.querySelectorAll("[data-copy]").forEach(function (button) {
+    var label = button.textContent;
+    button.addEventListener("click", function () {
+      var el = document.getElementById(button.dataset.copy);
+      var text = el.innerText.trim();
+      var done = function () {
+        button.textContent = "Skopírované ✓";
+        clearTimeout(button.resetTimer);
+        button.resetTimer = setTimeout(function () { button.textContent = label; }, 2000);
+      };
+      var fallback = function () {
+        var range = document.createRange();
+        range.selectNodeContents(el);
+        var selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        document.execCommand("copy");
+        selection.removeAllRanges();
+        done();
+      };
+      if (!navigator.clipboard) { fallback(); return; }
+      var copied = "copyHtml" in button.dataset && window.ClipboardItem
+        ? navigator.clipboard.write([new ClipboardItem({
+            "text/html": new Blob([el.innerHTML], { type: "text/html" }),
+            "text/plain": new Blob([text], { type: "text/plain" })
+          })])
+        : navigator.clipboard.writeText(text);
+      copied.then(done, fallback);
+    });
+  });
+</script>
+{{- end }}

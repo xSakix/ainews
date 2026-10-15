@@ -123,6 +123,7 @@ Fixed headings and phrases:
 | `## Verification` | `## 核实 {#verification}` |
 | `## Releases` | `## 新模型与发布` |
 | `## Research` | `## 研究` |
+| `## Economy and work` | `## 经济与就业` |
 | `## Prompting techniques` | `## 提示词技巧` |
 | `## What people are building` | `## 大家在做什么` |
 | `## Worth reading` | `## 值得一读` |

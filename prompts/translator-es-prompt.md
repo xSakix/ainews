@@ -119,6 +119,7 @@ Fixed headings and phrases:
 | `## Verification` | `## Verificación {#verification}` |
 | `## Releases` | `## Nuevos modelos y lanzamientos` |
 | `## Research` | `## Investigación` |
+| `## Economy and work` | `## Economía y trabajo` |
 | `## Prompting techniques` | `## Técnicas de prompting` |
 | `## What people are building` | `## Lo que la gente está construyendo` |
 | `## Worth reading` | `## Para leer` |

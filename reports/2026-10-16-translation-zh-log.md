@@ -5,3 +5,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## the-answer-was-still-inside-the-model.zh.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. References preserved verbatim.
+
+## the-fed-hears-firms-hire-fewer-people-for-ai.zh.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. References preserved verbatim.

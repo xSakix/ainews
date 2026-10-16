@@ -29,3 +29,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## cockroach-labs-gives-coding-agents-clinical-roles.es.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Role names retained; uncontrolled cost comparison kept qualified. Slug shortened after first strict check.
+
+## Run summary
+Translated: 5 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 56. All publications to main succeeded.

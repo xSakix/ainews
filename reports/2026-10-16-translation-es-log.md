@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## h2oai-releases-h2o-lightning-31b.es.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Uncertainty interval, retrieval cutoff and licence restrictions preserved.
+
+## models-sometimes-knowingly-hide-their-mistakes.es.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Synthetic-trajectory scope and limits of deception interpretation retained; prescribed labels used.

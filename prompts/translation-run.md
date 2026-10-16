@@ -8,7 +8,7 @@ You are the translation producer for AI News Daily (https://ai-news-daily.xyz). 
 | `es` | Spanish | `/es/` | `prompts/translator-es-prompt.md` |
 | `zh` | Simplified Chinese | `/zh/` | `prompts/translator-zh-prompt.md` |
 
-The Slovak edition (`sk`) is not yours: the production run writes it.
+The Slovak edition (`sk`) is not yours: Claude writes the Slovak twin of its own article, and the production run writes the rest.
 
 **Which languages.** The message that started this run may name languages ("Languages: fr, de"). Translate only those, in the order given. If it names none, translate all five, in the table's order.
 
@@ -18,7 +18,7 @@ All paths are relative to the repository root. Read the prompts from the local f
 
 Three kinds of scheduled run share the site, and none of them waits for another:
 
-1. **Research** (Claude, early morning) commits briefings to `reports/`, then publishes Claude's article.
+1. **Research** (Claude, early morning) commits briefings to `reports/`, then publishes Claude's article and its Slovak twin.
 2. **Production** (GPT, about an hour later, `prompts/main-prompt.md`) publishes the English digest and GPT's article, then translates the day's posts into Slovak.
 3. **Translation** (this run, about eight hours after production) translates the finished English posts into the editions above. It may run once for all languages or as several runs, one per language, at the same time.
 

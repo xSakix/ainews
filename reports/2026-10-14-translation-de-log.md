@@ -38,3 +38,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## h2oai-releases-h2o-lightning-31b.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.
+
+## models-sometimes-knowingly-hide-their-mistakes.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English VENDOR-REPORTED academic labels retained via the prescribed German label.

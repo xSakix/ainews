@@ -54,6 +54,17 @@ LinkedIn has no API for newsletter editions, so the last step is the publisher's
 1. `git add` the edition (if this run wrote one) and the log, and nothing else, then `git commit -m "<message>"`: `LinkedIn edition YYYY-MM-DD` with the edition, `LinkedIn edition YYYY-MM-DD: log` for the log alone.
 2. `git pull --rebase origin main`, then `git push origin HEAD:main`. If the push fails for a network reason, retry up to four times, waiting 2, 4, 8 and 16 seconds. If the rebase stops on a conflict, it can only be in the log: keep both sides, continue the rebase and push.
 
+## Final message
+
+As Pass 3 of the production run, leave the message to the production run: its final message carries the edition's link. When this file runs on its own, end with a short message in the chat:
+
+```
+LinkedIn edition: https://ai-news-daily.xyz/sk/linkedin/YYYY-MM-DD/
+Title: <the edition's title>
+```
+
+with the edition date, the address as a bare URL on its own line so it can be clicked. If no edition was written, write `LinkedIn edition: not written` and the reason you logged.
+
 ## The publisher's step
 
 Not part of the run; it is written here so the whole pipeline is in one place. The edition page, https://ai-news-daily.xyz/sk/linkedin/YYYY-MM-DD/, shows the edition's parts in the order below, each with a copy button (a download link for the cover), and https://ai-news-daily.xyz/sk/linkedin/ lists all editions.

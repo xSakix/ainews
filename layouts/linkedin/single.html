@@ -10,22 +10,29 @@
 {{- with $digest }}{{ $day = .Date }}{{ end }}
 {{- $dayText := $day | time.Format ":date_long" }}
 
-{{- /* The day's articles: Slovak posts dated from 16 hours before the
-       digest up to the next digest (at most 24 hours after it). The window
-       reaches back to the evening before, because Claude's article sometimes
-       lands after that morning's edition went out, and forward because a
-       twin can be translated after this edition was written. */}}
+{{- /* The day's articles: posts dated from 16 hours before the digest up
+       to where the next edition's window starts, 16 hours before the next
+       digest (at most 24 hours after this one). The window reaches back to
+       the evening before, so an article published after the previous
+       morning's edition went out, or Claude's article dated shortly before
+       the digest, lands in exactly one edition. The articles are taken
+       from the English site, so one whose Slovak twin is still missing is
+       linked in English instead of being left out. */}}
 {{- $articles := slice }}
+{{- $posts := where site.Sites.Default.RegularPages "Section" "posts" }}
 {{- $from := $day.Add (time.ParseDuration "-16h") }}
 {{- $to := $day.Add (time.ParseDuration "24h") }}
-{{- range where (where site.RegularPages "Section" "posts") "Date" "gt" $day }}
-  {{- if and (hasPrefix .File.ContentBaseName "ai-daily-digest-for-") (.Date.Before $to) }}
-    {{- $to = .Date }}
+{{- range where $posts "Date" "gt" $day }}
+  {{- $next := .Date.Add (time.ParseDuration "-16h") }}
+  {{- if and (hasPrefix .File.ContentBaseName "ai-daily-digest-for-") ($next.Before $to) }}
+    {{- $to = $next }}
   {{- end }}
 {{- end }}
-{{- range (where site.RegularPages "Section" "posts").ByDate }}
-  {{- if and (.Date.After $from) (.Date.Before $to) (not (hasPrefix .File.ContentBaseName "ai-daily-digest-for-")) }}
-    {{- $articles = $articles | append . }}
+{{- range $posts.ByDate }}
+  {{- if and (not (.Date.Before $from)) (.Date.Before $to) (not (hasPrefix .File.ContentBaseName "ai-daily-digest-for-")) }}
+    {{- $article := . }}
+    {{- range where .Translations "Lang" $.Lang }}{{ $article = . }}{{ end }}
+    {{- $articles = $articles | append $article }}
   {{- end }}
 {{- end }}
 
@@ -85,7 +92,7 @@
       <p><strong>{{ if gt (len .) 1 }}Nové články{{ else }}Nový článok{{ end }} na AI News Daily:</strong></p>
       <ul>
         {{- range . }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if ne .Lang $.Lang }} (v angličtine){{ end }}</li>
         {{- end }}
       </ul>
       {{- end }}

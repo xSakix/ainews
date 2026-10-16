@@ -14,3 +14,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## the-shortcut-inside-a-models-theory-of-mind.de.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. References preserved verbatim.
+
+## fine-tuning-can-hide-knowledge-without-erasing-it.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Original VENDOR-REPORTED research labels retained using prescribed German labels.

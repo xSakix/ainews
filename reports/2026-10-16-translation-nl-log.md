@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## softbank-completes-30-billion-openai-investment.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Claim labels and verification anchor checked.
+
+## california-subpoenas-openai-over-agent-security.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Investigative subpoena rendered as onderzoeksbevel; no finding of liability implied.

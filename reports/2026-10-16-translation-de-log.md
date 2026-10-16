@@ -26,3 +26,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## nish-tahir-recalibrates-a-small-decision-model.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Confidence bins, calibration limitations and original claim-label semantics checked.
+
+## ai-daily-digest-for-10-october-2026.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All direct URLs, verification rows and attributed performance caveats preserved.

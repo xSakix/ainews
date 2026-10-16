@@ -29,3 +29,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## liquid-ai-opens-d1-decision-models.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Model scales, context limits, latency attribution and code-loading setting checked.
+
+## Run summary
+Translated: 5 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 34. All publications to main succeeded.

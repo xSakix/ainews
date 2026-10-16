@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## ai-daily-digest-for-11-october-2026.es.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All direct URLs, verification rows and rumour qualifications preserved.
+
+## h2oai-releases-h2o-lightning-31b.es.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Uncertainty interval, retrieval cutoff and licence restrictions preserved.

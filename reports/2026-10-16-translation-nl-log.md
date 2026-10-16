@@ -14,3 +14,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## the-shortcut-inside-a-models-theory-of-mind.nl.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. References preserved verbatim.
+
+## softbank-completes-30-billion-openai-investment.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Claim labels and verification anchor checked.

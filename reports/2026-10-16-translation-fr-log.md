@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## rembrandt-runs-ai-photo-tools-locally.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Verification table labels and all repeated repository URLs checked.
+
+## epoch-finds-agents-miss-open-ended-work.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Single-run, single-grader and differing-harness limitations preserved.

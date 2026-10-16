@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## california-subpoenas-openai-over-agent-security.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Investigative subpoena rendered as onderzoeksbevel; no finding of liability implied.
+
+## bull-doubles-french-supercomputer-output.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. European component share kept distinct from advanced-chip supply.

@@ -29,3 +29,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## chatbots-remove-hijabs-despite-consent-concerns.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Generated-person test scope and unknown image-tool attribution retained.
+
+## Run summary
+Translated: 5 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 12. All publications to main succeeded.

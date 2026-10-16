@@ -14,3 +14,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## the-shortcut-inside-a-models-theory-of-mind.es.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. References preserved verbatim.
+
+## ai-daily-digest-for-11-october-2026.es.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All direct URLs, verification rows and rumour qualifications preserved.

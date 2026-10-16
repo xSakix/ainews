@@ -26,3 +26,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## bearingpoint-finds-ai-value-stalls-before-scale.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Self-reported workforce figures and correlation caveats retained.
+
+## chatbots-remove-hijabs-despite-consent-concerns.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Generated-person test scope and unknown image-tool attribution retained.

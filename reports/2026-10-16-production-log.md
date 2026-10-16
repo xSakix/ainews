@@ -16,3 +16,7 @@ All eight Claude desks were present. Duplicate entries about Muse Spark, Epic's 
 | Latent chain-of-thought mechanisms diverge by task | 2 | 1 | 2 | 1 | 2 | 8 | Capability |
 
 The raw ranking would have admitted a fourth Consequence item before Practice. The decompiler story took the fifth slot so all three lenses appear and no lens holds more than three places. The Federal Reserve leads because its consequence reaches the broadest group of readers.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-16-october-2026.md`. The Federal Reserve, game-design experiment, working-memory paper, Muse Spark release and decompiler repository were opened as top-story sources. Vendor benchmarks, preprints and community measurements remain attributed; inaccessible or weakly sourced items were omitted.

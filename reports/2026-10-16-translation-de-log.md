@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## cockroach-labs-gives-coding-agents-clinical-roles.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Role names retained; uncontrolled cost comparison kept qualified.
+
+## talorys-puts-a-personal-agent-on-cloudflare.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Private-cloud versus local distinction and undocumented endpoint suggestion preserved.

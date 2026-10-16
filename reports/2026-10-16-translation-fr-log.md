@@ -8,3 +8,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## the-fed-hears-firms-hire-fewer-people-for-ai.fr.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. References preserved verbatim.
+
+## ai-daily-digest-for-15-october-2026.fr.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. No flags.

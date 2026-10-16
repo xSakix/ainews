@@ -23,3 +23,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## models-sometimes-knowingly-hide-their-mistakes.es.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Synthetic-trajectory scope and limits of deception interpretation retained; prescribed labels used.
+
+## fine-tuning-can-hide-knowledge-without-erasing-it.es.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Original VENDOR-REPORTED research labels retained using prescribed Spanish labels.

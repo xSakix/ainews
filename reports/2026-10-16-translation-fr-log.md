@@ -26,3 +26,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## anthropic-launches-claude-haiku-5-5.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Both pricing tiers and migration error preserved.
+
+## liquid-ai-opens-d1-decision-models.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Model scales, context limits, latency attribution and code-loading setting checked.

@@ -29,3 +29,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## ai-daily-digest-for-10-october-2026.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All direct URLs, verification rows and attributed performance caveats preserved.
+
+## Run summary
+Translated: 5 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 53. All publications to main succeeded. Separately published the previously completed models-sometimes-knowingly-hide-their-mistakes.de.md with its existing 14 October log.

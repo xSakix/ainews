@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## epoch-finds-agents-miss-open-ended-work.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Single-run, single-grader and differing-harness limitations preserved.
+
+## ai-daily-digest-for-8-october-2026.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All direct URLs, verification rows and attributed performance caveats preserved.

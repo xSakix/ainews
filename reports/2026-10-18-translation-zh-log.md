@@ -8,3 +8,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## anthropics-junior-hiring-fell-as-its-agents-outworked-staff.zh.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Fictional opening, nonrandom adoption and quality-proxy caveats retained; references verbatim.
+
+## ai-daily-digest-for-11-october-2026.zh.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All direct URLs, verification rows and rumour qualifications preserved.

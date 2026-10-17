@@ -11,3 +11,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## talorys-puts-a-personal-agent-on-cloudflare.es.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Private-cloud versus local distinction and undocumented endpoint suggestion preserved.
+
+## nish-tahir-recalibrates-a-small-decision-model.es.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Confidence bins and calibration-versus-capability distinction retained.

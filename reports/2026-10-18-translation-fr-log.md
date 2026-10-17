@@ -11,3 +11,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## opening-tokens-trigger-reasoning-in-base-models.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Experimental cue strings kept verbatim because token identity is the tested variable.
+
+## self-feedback-destabilizes-test-time-training.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Local loss improvements distinguished from independent-text degradation; signed nat values retained.

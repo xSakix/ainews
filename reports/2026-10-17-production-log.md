@@ -20,3 +20,7 @@ The five selected stories span all three lenses. Beam stayed ahead of the Minecr
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-17-october-2026.md`. Primary sources were opened for Anthropic employment, model cruxes, Beam, PostgreSQL 19 and ORL. Preprints, vendor figures, community measurements and blocked-source summaries remain explicitly attributed.
+
+## Translation notes
+
+Published the Slovak digest twin with unchanged dates, tags, numbers and source URLs. Product names and benchmark identifiers remain in their original form.

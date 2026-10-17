@@ -26,3 +26,7 @@ Published `content/posts/ai-daily-digest-for-17-october-2026.md`. Primary source
 Published the Slovak digest twin with unchanged dates, tags, numbers and source URLs. Product names and benchmark identifiers remain in their original form.
 
 Published the Slovak GPT-article twin with the references preserved verbatim and both illustrative scenes clearly marked.
+
+## LinkedIn edition
+
+`content/linkedin/2026-10-17.sk.md`: Anthropic prijíma menej juniorov, kým agenti pracujú viac. All five top stories retained in digest order, followed by six further items.

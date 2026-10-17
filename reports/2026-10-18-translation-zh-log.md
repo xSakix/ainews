@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## fine-tuning-can-hide-knowledge-without-erasing-it.zh.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Original VENDOR-REPORTED research labels retained using prescribed Chinese labels.
+
+## cockroach-labs-gives-coding-agents-clinical-roles.zh.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Role names retained; uncontrolled cost comparison kept qualified.

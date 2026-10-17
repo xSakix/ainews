@@ -23,3 +23,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## telegraphese-cuts-tokens-in-agent-handoffs.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Hidden-reasoning costs, 0.81 control ratio and missing terseness-only control retained.
+
+## Run summary
+Translated: 3 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 48. All publications to main succeeded.

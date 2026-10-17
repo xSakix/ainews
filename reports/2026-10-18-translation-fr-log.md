@@ -5,3 +5,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## a-model-cannot-tell-which-question-will-change-its-mind.fr.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Crux introduced as decisive sub-question; references preserved verbatim.
+
+## anthropics-junior-hiring-fell-as-its-agents-outworked-staff.fr.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Fictional opening, nonrandom adoption and quality-proxy caveats retained; references verbatim.

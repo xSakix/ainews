@@ -11,3 +11,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## tencent-releases-youtu-parsing-omni.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Custom licence, pending evaluation code and benchmark attribution retained.
+
+## model-self-reports-leave-an-internal-signature.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Overlap of groups and limits on deception inference preserved.

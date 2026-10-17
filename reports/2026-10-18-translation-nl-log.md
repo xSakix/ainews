@@ -8,3 +8,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## anthropics-junior-hiring-fell-as-its-agents-outworked-staff.nl.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Fictional opening, nonrandom adoption and quality-proxy caveats retained; references verbatim.
+
+## ai-daily-digest-for-1-october-2026.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All verification rows, repeated URLs and community-result caveats preserved.

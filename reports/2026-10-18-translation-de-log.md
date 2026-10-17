@@ -14,3 +14,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## model-self-reports-leave-an-internal-signature.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Overlap of groups and limits on deception inference preserved.
+
+## synthetic-data-teaches-a-model-to-learn-languages.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Byte-level loss, frozen weights and adaptation-versus-fluency distinction preserved.

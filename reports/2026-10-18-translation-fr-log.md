@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## epoch-finds-agents-fall-short-on-ai-research.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Adjusted versus generous scores, selection bias and contamination limits retained.
+
+## ai-daily-digest-for-4-october-2026.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All 65 items and verification rows translated; original source URLs and evidence qualifiers retained.

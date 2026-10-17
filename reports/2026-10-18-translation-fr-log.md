@@ -14,3 +14,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## self-feedback-destabilizes-test-time-training.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Local loss improvements distinguished from independent-text degradation; signed nat values retained.
+
+## rgpu-turns-a-remote-card-into-a-pytorch-device.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Both execution paths, SSH requirement and port 9713 retained.

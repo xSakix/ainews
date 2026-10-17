@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## synthetic-data-teaches-a-model-to-learn-languages.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Byte-level loss, frozen weights and adaptation-versus-fluency distinction preserved.
+
+## basalt-specialises-qwen-inference-for-blackwell.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Hardware restrictions, context division and self-measured speed qualification retained.

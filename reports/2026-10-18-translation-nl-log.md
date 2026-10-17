@@ -14,3 +14,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## google-limits-gemini-4-argon-to-cyber-partners.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Restricted access, provisional pricing and mixed benchmark outcomes preserved.
+
+## white-house-accord-leaves-enforcement-to-signers.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Voluntary versus legal authority preserved; official document title unchanged.

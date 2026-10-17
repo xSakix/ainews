@@ -8,3 +8,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## anthropics-junior-hiring-fell-as-its-agents-outworked-staff.fr.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Fictional opening, nonrandom adoption and quality-proxy caveats retained; references verbatim.
+
+## opening-tokens-trigger-reasoning-in-base-models.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Experimental cue strings kept verbatim because token identity is the tested variable.

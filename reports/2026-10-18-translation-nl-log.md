@@ -11,3 +11,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## ai-daily-digest-for-1-october-2026.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All verification rows, repeated URLs and community-result caveats preserved.
+
+## google-limits-gemini-4-argon-to-cyber-partners.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Restricted access, provisional pricing and mixed benchmark outcomes preserved.

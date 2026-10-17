@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## rgpu-turns-a-remote-card-into-a-pytorch-device.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Both execution paths, SSH requirement and port 9713 retained.
+
+## epoch-finds-agents-fall-short-on-ai-research.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Adjusted versus generous scores, selection bias and contamination limits retained.

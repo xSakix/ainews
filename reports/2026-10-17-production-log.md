@@ -16,3 +16,7 @@ All eight research desks were present. Claude's article claimed Anthropic's empl
 | Pairwise rewards improve alignment auditors | 2 | 1 | 2 | 1 | 2 | 8 | Capability |
 
 The five selected stories span all three lenses. Beam stayed ahead of the Minecraft and auditor papers on consequence and immediate inspectability; ORL took the fifth slot to add Practice without displacing a higher-scoring Consequence story.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-17-october-2026.md`. Primary sources were opened for Anthropic employment, model cruxes, Beam, PostgreSQL 19 and ORL. Preprints, vendor figures, community measurements and blocked-source summaries remain explicitly attributed.

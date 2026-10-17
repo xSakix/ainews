@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## basalt-specialises-qwen-inference-for-blackwell.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Hardware restrictions, context division and self-measured speed qualification retained.
+
+## telegraphese-cuts-tokens-in-agent-handoffs.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Hidden-reasoning costs, 0.81 control ratio and missing terseness-only control retained.

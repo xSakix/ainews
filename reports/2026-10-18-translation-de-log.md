@@ -8,3 +8,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## anthropics-junior-hiring-fell-as-its-agents-outworked-staff.de.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Fictional opening, nonrandom adoption and quality-proxy caveats retained; references verbatim.
+
+## tencent-releases-youtu-parsing-omni.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Custom licence, pending evaluation code and benchmark attribution retained.

@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## white-house-accord-leaves-enforcement-to-signers.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Voluntary versus legal authority preserved; official document title unchanged.
+
+## hpe-lands-1-2-billion-vultr-ai-rack-order.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Order value distinguished from installed capacity; differing forecast periods retained.

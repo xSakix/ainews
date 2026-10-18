@@ -32,3 +32,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## the-agents-did-not-agree-but-they-learned-the-lie.nl.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Controlled experimental percentages and private-versus-public distinction preserved; references verbatim.
+
+## ecb-half-of-euro-area-workers-use-ai-graduate-hiring-stalls.nl.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Fictional opening, survey populations and noncausal employment evidence retained; references verbatim.

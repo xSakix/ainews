@@ -32,3 +32,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## the-agents-did-not-agree-but-they-learned-the-lie.de.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Illustrative opening retained; controlled-experiment caveats, private/public measures and references preserved.
+
+## ecb-half-of-euro-area-workers-use-ai-graduate-hiring-stalls.de.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Invented scene explicitly retained; all survey denominators and figures checked. English says two earlier pieces of evidence then gives three; retained faithfully.

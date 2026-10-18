@@ -29,3 +29,6 @@ Translated: 3 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 48. Al
 
 ## ai-daily-digest-for-18-october-2026.de.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All figures, source URLs and attribution caveats preserved.
+
+## the-agents-did-not-agree-but-they-learned-the-lie.de.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Illustrative opening retained; controlled-experiment caveats, private/public measures and references preserved.

@@ -24,3 +24,5 @@ Published `content/posts/ai-daily-digest-for-18-october-2026.md`. Top-story prim
 ## Translation notes
 
 Published the Slovak digest twin with unchanged tags, date, figures and source URLs. Product, benchmark and code identifiers remain in their original forms.
+
+Published the Slovak GPT-article twin with both illustrative scenes clearly marked and the reference entries preserved verbatim.

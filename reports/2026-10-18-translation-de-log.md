@@ -35,3 +35,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## ecb-half-of-euro-area-workers-use-ai-graduate-hiring-stalls.de.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Invented scene explicitly retained; all survey denominators and figures checked. English says two earlier pieces of evidence then gives three; retained faithfully.
+
+## Run summary
+Continuation after later production publication: 3 additional missing posts, 0 stale, 0 additional backlog; 0 skipped. Cumulative 2026-10-18 run totals: 6 missing, 0 stale, 5 backlog; 0 skipped. The five-post backlog step was already completed before this continuation, as verified from main commit history; its quota is not restarted. Backlog remaining: 48. Recent queue empty. All strict checks and main publications succeeded.

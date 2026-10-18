@@ -16,3 +16,7 @@ All eight Claude desks were present. Claude's ECB article was already published 
 | Code-circuit localisation depends on budget | 2 | 1 | 2 | 1 | 2 | 8 | Capability |
 
 The first two tie on every score; the ECB leads because its consequence reaches more workers. OpenCode stays above other score-eight candidates because live credentials and user money are already affected. Xolotl supplies the Practice lens without giving any lens more than three slots.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-18-october-2026.md`. Top-story primary sources were opened for the ECB speech, hidden-belief preprint, OpenCode disclosure thread, DeepSeek model card and Xolotl repository. Claims from vendors, preprints and individual measurements remain attributed.

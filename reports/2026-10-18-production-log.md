@@ -1,0 +1,18 @@
+# Production log — 18 October 2026
+
+## Planning
+
+All eight Claude desks were present. Claude's ECB article was already published and translated. Duplicate DeepSeek, OpenCode, Atlas, shopping-agent and llmspeed entries were merged by event.
+
+| Candidate | Substance | Consequence | Tension | Novelty | Fit | Total | Lens |
+|---|---:|---:|---:|---:|---:|---:|---|
+| ECB adoption and graduate hiring | 2 | 2 | 2 | 2 | 2 | 10 | Consequence |
+| Hidden belief collapse in agent discussions | 2 | 2 | 2 | 2 | 2 | 10 | Capability |
+| OpenCode Console provider-key breach | 1 | 2 | 2 | 2 | 1 | 8 | Consequence |
+| DeepSeek V4.1 Flash 1017 | 2 | 2 | 2 | 1 | 1 | 8 | Capability |
+| Xolotl runs 552B MoE on an RTX 4090 | 2 | 1 | 2 | 2 | 1 | 8 | Practice |
+| Context resets improve research agents | 2 | 1 | 2 | 2 | 1 | 8 | Practice |
+| Websites block consumer agents | 1 | 2 | 2 | 1 | 2 | 8 | Consequence |
+| Code-circuit localisation depends on budget | 2 | 1 | 2 | 1 | 2 | 8 | Capability |
+
+The first two tie on every score; the ECB leads because its consequence reaches more workers. OpenCode stays above other score-eight candidates because live credentials and user money are already affected. Xolotl supplies the Practice lens without giving any lens more than three slots.

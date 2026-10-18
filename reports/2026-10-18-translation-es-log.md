@@ -32,3 +32,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## the-agents-did-not-agree-but-they-learned-the-lie.es.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All paragraphs, numeric results, controlled-experiment caveats and verbatim reference entries checked.
+
+## ecb-half-of-euro-area-workers-use-ai-graduate-hiring-stalls.es.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Fictional scene, survey caveats and all figures retained. English introduces two earlier pieces of evidence but lists three; translated faithfully.

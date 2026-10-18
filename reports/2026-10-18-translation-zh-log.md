@@ -32,3 +32,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## the-agents-did-not-agree-but-they-learned-the-lie.zh.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Illustrative framing, all private/public rates, limitations and verbatim references checked; structure and URLs match.
+
+## ecb-half-of-euro-area-workers-use-ai-graduate-hiring-stalls.zh.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Fictional vignette explicitly marked; survey figures and qualifications preserved. English says two earlier pieces of evidence then presents three; retained faithfully.

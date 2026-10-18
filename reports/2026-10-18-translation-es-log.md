@@ -29,3 +29,6 @@ Translated: 3 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 51. Al
 
 ## ai-daily-digest-for-18-october-2026.es.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All digest blocks, figures, caveats and source occurrences checked; trillion rendered as billones and billion as mil millones.
+
+## the-agents-did-not-agree-but-they-learned-the-lie.es.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All paragraphs, numeric results, controlled-experiment caveats and verbatim reference entries checked.

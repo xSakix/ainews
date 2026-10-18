@@ -20,3 +20,7 @@ The first two tie on every score; the ECB leads because its consequence reaches 
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-18-october-2026.md`. Top-story primary sources were opened for the ECB speech, hidden-belief preprint, OpenCode disclosure thread, DeepSeek model card and Xolotl repository. Claims from vendors, preprints and individual measurements remain attributed.
+
+## Translation notes
+
+Published the Slovak digest twin with unchanged tags, date, figures and source URLs. Product, benchmark and code identifiers remain in their original forms.

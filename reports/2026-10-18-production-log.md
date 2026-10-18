@@ -26,3 +26,7 @@ Published `content/posts/ai-daily-digest-for-18-october-2026.md`. Top-story prim
 Published the Slovak digest twin with unchanged tags, date, figures and source URLs. Product, benchmark and code identifiers remain in their original forms.
 
 Published the Slovak GPT-article twin with both illustrative scenes clearly marked and the reference entries preserved verbatim.
+
+## LinkedIn edition
+
+`content/linkedin/2026-10-18.sk.md`: Používanie AI v eurozóne sa zdvojnásobilo. All five top stories retained in digest order, followed by six further items.

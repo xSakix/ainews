@@ -11,3 +11,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## dutch-registry-misses-nearly-half-of-large-data-centres.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Registry-definition caveat, all facility counts, electricity figures and seven verification rows retained.
+
+## ai-daily-digest-for-30-september-2026.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. English uses a compound label outside the closed set: VERIFIED for plan; VENDOR-REPORTED for speed. Meaning retained in Dutch. All ten table rows and linked URLs checked.

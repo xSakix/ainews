@@ -8,3 +8,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## microsoft-leaves-nscales-essex-site-as-the-grid-runs-out.nl.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Both invented planners identified; report attribution, model limits, all power figures and verbatim references preserved.
+
+## dutch-registry-misses-nearly-half-of-large-data-centres.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Registry-definition caveat, all facility counts, electricity figures and seven verification rows retained.

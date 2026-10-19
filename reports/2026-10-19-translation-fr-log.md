@@ -8,3 +8,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## microsoft-leaves-nscales-essex-site-as-the-grid-runs-out.fr.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Invented scenes marked; attribution, power and financing figures, US forecast caveats and verbatim references retained.
+
+## mingbird-adds-skills-to-its-local-agent-harness.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Benchmark ownership, single-run variability, release dates and six verification rows retained.

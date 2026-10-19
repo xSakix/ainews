@@ -5,3 +5,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## nine-ai-agents-failed-every-open-research-problem.fr.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Invented opening, overlapping integrity counts, compute allocations, observational limits and original references retained.
+
+## microsoft-leaves-nscales-essex-site-as-the-grid-runs-out.fr.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Invented scenes marked; attribution, power and financing figures, US forecast caveats and verbatim references retained.

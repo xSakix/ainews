@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## ai-daily-digest-for-3-october-2026.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All 57 items and 73 verification rows preserved; duplicated claim paragraphs matched to their translations; every source occurrence retained.
+
+## percepta-tests-growing-memory-for-long-context-recall.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All model sizes, context lengths, recall rates and extra-training figures checked; small-model and vendor-only evidence limits retained.

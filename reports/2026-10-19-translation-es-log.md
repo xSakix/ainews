@@ -2,3 +2,6 @@
 
 ## ai-daily-digest-for-19-october-2026.es.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All sections, numeric quantities, URL occurrences and source-access caveats retained; billion-scale figures converted to millones.
+
+## nine-ai-agents-failed-every-open-research-problem.es.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Fictional opening, all overlapping counts and percentages, computational limits and original bibliography retained.

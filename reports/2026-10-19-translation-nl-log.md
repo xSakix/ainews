@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## anthropic-finds-glm-5-3-can-build-browser-exploits.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All benchmark denominators, isolated-test caveats, company attribution and eight verification rows preserved.
+
+## openai-launches-always-on-dots-agents.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Product claims and security-effectiveness limitations distinguished faithfully; all six verification rows and source links checked.

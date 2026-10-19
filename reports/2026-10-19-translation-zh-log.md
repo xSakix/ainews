@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## ai-daily-digest-for-10-october-2026.zh.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Every digest item and six verification-group rows retained; model scales, prices and security-event dates checked with attribution preserved.
+
+## tencent-releases-youtu-parsing-omni.zh.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All six input types, model size, comparison scores and custom-licence/evaluation-code limitations preserved.

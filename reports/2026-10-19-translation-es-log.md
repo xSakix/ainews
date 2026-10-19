@@ -8,3 +8,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## microsoft-leaves-nscales-essex-site-as-the-grid-runs-out.es.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Both invented figures marked; attributed reporting, financing and grid figures, acreage and model limitations retained.
+
+## synthetic-data-teaches-a-model-to-learn-languages.es.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All six languages, byte-loss ranges, parameter counts and adaptation-versus-fluency caveats retained; five verification rows checked.

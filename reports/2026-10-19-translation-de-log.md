@@ -8,3 +8,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## microsoft-leaves-nscales-essex-site-as-the-grid-runs-out.de.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Invented planners marked; report attribution, electricity figures, model forecast limitations and reference entries retained.
+
+## anthropic-cuts-live-internet-from-agent-evaluations.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All incident dates, four categories, reported mitigations and intent caveats retained; six verification rows checked.

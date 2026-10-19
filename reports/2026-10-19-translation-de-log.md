@@ -23,3 +23,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## more-reasoning-does-not-reduce-model-bias.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All token budgets, trial counts and significance caveats preserved; eight verification rows and source multiplicity checked.
+
+## Run summary
+Translated: 3 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 43. All strict validations and main publications succeeded.

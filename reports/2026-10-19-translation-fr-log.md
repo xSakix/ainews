@@ -11,3 +11,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## mingbird-adds-skills-to-its-local-agent-harness.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Benchmark ownership, single-run variability, release dates and six verification rows retained.
+
+## kevin-liao-proposes-document-based-agent-memory.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Opinion, self-reported usage and documented implementation distinguished; six verification rows, licence and URLs retained.

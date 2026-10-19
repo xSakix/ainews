@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## tencent-releases-youtu-parsing-omni.zh.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All six input types, model size, comparison scores and custom-licence/evaluation-code limitations preserved.
+
+## model-self-reports-leave-an-internal-signature.zh.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Similarity values, layer counts, submission date and overlapping-group limitations checked; five verification rows and all URLs retained.

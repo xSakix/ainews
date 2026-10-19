@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## simon-willison-calls-for-default-agent-spending-caps.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All five body paragraphs and three verification rows retained; provider feature descriptions remain attributed and unverified.
+
+## ai-daily-digest-for-3-october-2026.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All 57 items and 73 verification rows preserved; duplicated claim paragraphs matched to their translations; every source occurrence retained.

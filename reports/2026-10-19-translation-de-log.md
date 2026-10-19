@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## incentives-make-ai-agents-overstate-confidence.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All trial counts, percentages and calibration distinctions checked; one-model, artificial-payoff and two-round limitations preserved.
+
+## more-reasoning-does-not-reduce-model-bias.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All token budgets, trial counts and significance caveats preserved; eight verification rows and source multiplicity checked.

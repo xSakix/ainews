@@ -35,3 +35,5 @@ Published `content/posts/ai-daily-digest-for-19-october-2026.md` from the fixed 
 ## Translation notes
 
 `content/posts/ai-daily-digest-for-19-october-2026.sk.md`: complete Slovak twin; product, benchmark and model names retained. No unresolved translation issue.
+
+`content/posts/nine-ai-agents-failed-every-open-research-problem.sk.md`: complete Slovak twin; the original-language titles in the references remain unchanged. No unresolved translation issue.

@@ -23,3 +23,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## percepta-tests-growing-memory-for-long-context-recall.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All model sizes, context lengths, recall rates and extra-training figures checked; small-model and vendor-only evidence limits retained.
+
+## Run summary
+Translated: 3 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 24. All strict validations and main publications succeeded.

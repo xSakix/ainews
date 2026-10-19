@@ -31,3 +31,7 @@ The five highest-ranked stories already span Capability and Consequence. No bala
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-19-october-2026.md` from the fixed plan. The five top-story sources were opened directly: three arXiv records, Carnegie Mellon University's announcement and The Next Web's Nscale report. The latter remains attributed because Microsoft did not confirm why it left. Bloomberg market stories were available only as headlines; the digest states that limitation.
+
+## Translation notes
+
+`content/posts/ai-daily-digest-for-19-october-2026.sk.md`: complete Slovak twin; product, benchmark and model names retained. No unresolved translation issue.

@@ -23,3 +23,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## model-self-reports-leave-an-internal-signature.zh.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Similarity values, layer counts, submission date and overlapping-group limitations checked; five verification rows and all URLs retained.
+
+## Run summary
+Translated: 3 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 51. All strict validations and main publications succeeded.

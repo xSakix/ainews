@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## telegraphese-cuts-tokens-in-agent-handoffs.es.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All token savings, accuracy ratios and hidden-reasoning costs retained; missing terse-control and author-run-test caveats preserved.
+
+## anthropic-cuts-live-internet-from-agent-evaluations.es.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All incident dates and remediation claims preserved; intent uncertainty and source limits retained; six verification rows checked.

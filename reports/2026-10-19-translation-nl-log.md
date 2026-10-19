@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## openai-launches-always-on-dots-agents.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Product claims and security-effectiveness limitations distinguished faithfully; all six verification rows and source links checked.
+
+## openai-releases-gpt-6-1-sol.nl.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All token prices, task costs, relative-cost fractions and vendor-evaluation caveats preserved; framework categories retained as official names.

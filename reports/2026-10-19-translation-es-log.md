@@ -11,3 +11,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## synthetic-data-teaches-a-model-to-learn-languages.es.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All six languages, byte-loss ranges, parameter counts and adaptation-versus-fluency caveats retained; five verification rows checked.
+
+## basalt-specialises-qwen-inference-for-blackwell.es.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All hardware requirements, exact context allocations, concurrency and self-measured performance caveats preserved.

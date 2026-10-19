@@ -14,3 +14,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## kevin-liao-proposes-document-based-agent-memory.fr.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Opinion, self-reported usage and documented implementation distinguished; six verification rows, licence and URLs retained.
+
+## simon-willison-calls-for-default-agent-spending-caps.fr.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All five body paragraphs and three verification rows retained; provider feature descriptions remain attributed and unverified.

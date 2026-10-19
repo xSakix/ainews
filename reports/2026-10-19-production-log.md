@@ -27,3 +27,7 @@ The five highest-ranked stories already span Capability and Consequence. No bala
 - The two Bloomberg Asian-market links were merged into one item and retained with explicit headline-only attribution.
 - Release-desk candidates dated before the window and topics the desks marked as already covered were not reintroduced.
 - Opinion, simulated tests, vendor measurements and community anecdotes remain attributed to their authors rather than presented as independent fact.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-19-october-2026.md` from the fixed plan. The five top-story sources were opened directly: three arXiv records, Carnegie Mellon University's announcement and The Next Web's Nscale report. The latter remains attributed because Microsoft did not confirm why it left. Bloomberg market stories were available only as headlines; the digest states that limitation.

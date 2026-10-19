@@ -11,3 +11,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## talorys-puts-a-personal-agent-on-cloudflare.zh.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Cloud-versus-local distinction, project maturity and security-evidence limitations retained; all five verification rows checked.
+
+## nish-tahir-recalibrates-a-small-decision-model.zh.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All accuracy and confidence bands retained; calibration-versus-capability distinction and distribution-shift caveats checked.

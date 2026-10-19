@@ -23,3 +23,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## openai-releases-gpt-6-1-sol.nl.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All token prices, task costs, relative-cost fractions and vendor-evaluation caveats preserved; framework categories retained as official names.
+
+## Run summary
+Translated: 3 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 2. All strict validations and main publications succeeded.

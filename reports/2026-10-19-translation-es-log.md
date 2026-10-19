@@ -23,3 +23,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## ai-daily-digest-for-9-october-2026.es.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All digest items and six group-verification rows retained; prices and billion-scale amounts converted carefully; community and vendor caveats preserved.
+
+## Run summary
+Translated: 3 missing, 0 stale, 5 backlog. Skipped: 0. Backlog remaining: 46. All strict validations and main publications succeeded.

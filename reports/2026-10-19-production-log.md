@@ -37,3 +37,7 @@ Published `content/posts/ai-daily-digest-for-19-october-2026.md` from the fixed 
 `content/posts/ai-daily-digest-for-19-october-2026.sk.md`: complete Slovak twin; product, benchmark and model names retained. No unresolved translation issue.
 
 `content/posts/nine-ai-agents-failed-every-open-research-problem.sk.md`: complete Slovak twin; the original-language titles in the references remain unchanged. No unresolved translation issue.
+
+## LinkedIn edition
+
+`content/linkedin/2026-10-19.sk.md`: Najlepší AI agent vyriešil iba 14 z 95 projektov. All five top stories retained in digest order, followed by six further items.

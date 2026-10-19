@@ -20,3 +20,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## anthropic-cuts-live-internet-from-agent-evaluations.es.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All incident dates and remediation claims preserved; intent uncertainty and source limits retained; six verification rows checked.
+
+## ai-daily-digest-for-9-october-2026.es.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All digest items and six group-verification rows retained; prices and billion-scale amounts converted carefully; community and vendor caveats preserved.

@@ -17,3 +17,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## lighton-releases-lightonocr-3.de.md (backlog)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All model sizes, benchmark gaps, token savings, latency and seven verification rows preserved; vendor measurements attributed.
+
+## incentives-make-ai-agents-overstate-confidence.de.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. All trial counts, percentages and calibration distinctions checked; one-model, artificial-payoff and two-round limitations preserved.

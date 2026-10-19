@@ -8,3 +8,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## microsoft-leaves-nscales-essex-site-as-the-grid-runs-out.zh.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Both fictional planners explicitly marked; financing, grid capacity, fee ranges and forecast caveats retained; references verbatim.
+
+## talorys-puts-a-personal-agent-on-cloudflare.zh.md (backlog)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Cloud-versus-local distinction, project maturity and security-evidence limitations retained; all five verification rows checked.

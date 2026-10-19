@@ -5,3 +5,6 @@ Paragraphs, headings, list items, table rows, URLs, figures, date and tags check
 
 ## nine-ai-agents-failed-every-open-research-problem.zh.md (missing)
 Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Fictional framing, integrity and completeness figures, runtime budgets, limits and verbatim references preserved.
+
+## microsoft-leaves-nscales-essex-site-as-the-grid-runs-out.zh.md (missing)
+Paragraphs, headings, list items, table rows, URLs, figures, date and tags checked; strict validation passed. Both fictional planners explicitly marked; financing, grid capacity, fee ranges and forecast caveats retained; references verbatim.

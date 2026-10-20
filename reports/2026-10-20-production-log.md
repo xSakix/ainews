@@ -27,3 +27,7 @@ The two 10-point stories tie on substance and consequence; the sales-routing stu
 - DeepSeek's federal ban appears once as a policy item; the Hacker News entry was treated as discussion around the same event and not repeated.
 - Overlapping Nscale, OpenCode and agent-hacking references were merged under the desk with the strongest primary account.
 - Bloomberg and FT items remain explicitly limited to the headline or feed summary available to the research desk.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-20-october-2026.md` from the fixed plan. The five top-story sources were opened directly where available: the sales-routing and confidence arXiv pages were intermittently unavailable, the robotics result was cross-checked against the authors' public abstract, and the sycophancy paper and Cloudflare post were read directly. Claims whose primary pages remained unavailable retain the briefings' explicit limits and attribution.

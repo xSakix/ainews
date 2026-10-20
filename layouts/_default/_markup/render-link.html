@@ -1,7 +1,9 @@
 {{- /* Bare URLs (autolinks, or [url](url)) show as the site name, so source
        columns in verification tables stay readable on phones. Code hosts keep
-       owner/repo. The full URL stays in href and in the title tooltip. */ -}}
+       owner/repo. The full URL stays in href and in the title tooltip.
+       Links to other sites open in a new tab; links within the site do not. */ -}}
 {{- $u := urls.Parse .Destination -}}
+{{- $external := and $u.Host (ne $u.Host (urls.Parse site.BaseURL).Host) -}}
 {{- $text := .Text | string -}}
 {{- $bare := and $u.Host (or (eq $text .Destination) (eq (htmlUnescape $text) .Destination)) -}}
 {{- $label := strings.TrimPrefix "www." $u.Host -}}
@@ -10,7 +12,7 @@
 {{- end -}}
 <a href="{{ .Destination | safeURL }}"
   {{- with .Title }} title="{{ . }}"{{ else }}{{ if $bare }} title="{{ .Destination }}"{{ end }}{{ end }}
-  {{- if $u.Host }} rel="noopener"{{ end }}>
+  {{- if $external }} target="_blank" rel="noopener"{{ else if $u.Host }} rel="noopener"{{ end }}>
   {{- if $bare }}{{ $label }}{{ else }}{{ .Text }}{{ end -}}
 </a>
 {{- /* no trailing newline */ -}}

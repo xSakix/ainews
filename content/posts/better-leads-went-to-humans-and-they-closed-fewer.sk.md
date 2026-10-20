@@ -1,7 +1,8 @@
 +++
-title = "Humeniu dostali lepšie leady a uzavreli menej obchodov"
-slug = "humeniu-dostali-lepsie-leady-a-uzavreli-menej-obchodov"
-description = "Preprint o čínskom poisťovacom sprostredkovateľovi zistil, že keď hlasový AI agent prevzal najslabšie obchodné leady, ľudskí agenti dostávali skoro počas dňa omnoho lepšie, no uzavreli ich menej. Autori to pripisujú tomu, čo agenti očakávali ďalej, a upozorňujú, že presmerovanie práce na AI mení spôsob, akým ľudia pristupujú k práci, ktorá im zostala."
+title = "Predajcovia dostali lepšie kontakty, no uzavreli menej obchodov"
+slug = "predajcovia-dostali-lepsie-kontakty-no-uzavreli-menej"
+aliases = ["/sk/posts/humeniu-dostali-lepsie-leady-a-uzavreli-menej-obchodov/"]
+description = "Preprint o čínskej poisťovacej sprostredkovateľskej spoločnosti ukazuje, že po presmerovaní menej perspektívnych kontaktov na hlasového agenta AI dostávali ľudskí predajcovia na začiatku dňa kvalitnejšie kontakty, no uzavreli menej obchodov. Autori tento výsledok pripisujú očakávaniam predajcov o ďalších kontaktoch a upozorňujú, že automatizácia mení aj správanie ľudí pri zostávajúcej práci."
 tags = ["research", "business"]
 date = 2026-10-20T03:12:18+02:00
 draft = false

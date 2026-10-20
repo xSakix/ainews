@@ -31,3 +31,7 @@ The two 10-point stories tie on substance and consequence; the sales-routing stu
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-20-october-2026.md` from the fixed plan. The five top-story sources were opened directly where available: the sales-routing and confidence arXiv pages were intermittently unavailable, the robotics result was cross-checked against the authors' public abstract, and the sycophancy paper and Cloudflare post were read directly. Claims whose primary pages remained unavailable retain the briefings' explicit limits and attribution.
+
+## Translation notes
+
+`content/posts/ai-daily-digest-for-20-october-2026.sk.md`: complete Slovak twin; product, model and benchmark names retained. No unresolved translation issue.

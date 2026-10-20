@@ -35,3 +35,5 @@ Published `content/posts/ai-daily-digest-for-20-october-2026.md` from the fixed 
 ## Translation notes
 
 `content/posts/ai-daily-digest-for-20-october-2026.sk.md`: complete Slovak twin; product, model and benchmark names retained. No unresolved translation issue.
+
+`content/posts/cloudflare-cut-its-ai-review-bill-by-fixing-the-cache.sk.md`: complete Slovak twin; code-review, cache and statistical terminology retained without unresolved issue.

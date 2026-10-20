@@ -37,3 +37,7 @@ Published `content/posts/ai-daily-digest-for-20-october-2026.md` from the fixed 
 `content/posts/ai-daily-digest-for-20-october-2026.sk.md`: complete Slovak twin; product, model and benchmark names retained. No unresolved translation issue.
 
 `content/posts/cloudflare-cut-its-ai-review-bill-by-fixing-the-cache.sk.md`: complete Slovak twin; code-review, cache and statistical terminology retained without unresolved issue.
+
+## LinkedIn edition
+
+`content/linkedin/2026-10-20.sk.md`: AI dal predajcom lepšie kontakty, no uzavreli menej. All five top stories retained in digest order, followed by six further items.

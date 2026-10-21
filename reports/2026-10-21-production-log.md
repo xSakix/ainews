@@ -132,3 +132,6 @@ Opened all five top-story primary sources directly; arXiv HTML used after web-to
 
 ## Digest published
 87 merged items; strict post validation passed. Five primary top-story sources read; ordinary items preserve briefing attribution. Shell push lacked credentials; connected GitHub Git-data API publishes each logical commit with an expected-head lease. No force updates.
+
+## Translation notes
+Digest Slovak twin completed with all 87 items, identical source URL multiplicities, tags and timestamp. Paragraph counts match; strict check passes. Preserved vendor, preprint, community and description-only qualifications. No translation skips.

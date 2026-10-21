@@ -135,3 +135,5 @@ Opened all five top-story primary sources directly; arXiv HTML used after web-to
 
 ## Translation notes
 Digest Slovak twin completed with all 87 items, identical source URL multiplicities, tags and timestamp. Paragraph counts match; strict check passes. Preserved vendor, preprint, community and description-only qualifications. No translation skips.
+
+GPT article Slovak twin completed. Reference entries retained verbatim; paragraph counts match and strict check passes. All English posts dated 19–21 October now have Slovak twins, including Claude's already-published article.

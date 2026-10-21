@@ -129,3 +129,6 @@ Planning tests GPT-4o/GPT-4o-mini and Gemini 2.0, not current frontier reasoning
 
 ## Verification
 Opened all five top-story primary sources directly; arXiv HTML used after web-tool abstract fetch failed. Briefings remain basis for ordinary items. No third-party language editions touched.
+
+## Digest published
+87 merged items; strict post validation passed. Five primary top-story sources read; ordinary items preserve briefing attribution. Shell push lacked credentials; connected GitHub Git-data API publishes each logical commit with an expected-head lease. No force updates.

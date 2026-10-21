@@ -137,3 +137,6 @@ Opened all five top-story primary sources directly; arXiv HTML used after web-to
 Digest Slovak twin completed with all 87 items, identical source URL multiplicities, tags and timestamp. Paragraph counts match; strict check passes. Preserved vendor, preprint, community and description-only qualifications. No translation skips.
 
 GPT article Slovak twin completed. Reference entries retained verbatim; paragraph counts match and strict check passes. All English posts dated 19–21 October now have Slovak twins, including Claude's already-published article.
+
+## LinkedIn edition
+content/linkedin/2026-10-21.sk.md: Javo uvádza o 10 % vyššie tržby na návštevníka. All five top stories retained in digest order; six further items, source links and caveats checked. Description 158 characters; share post 458 characters. Strict LinkedIn validation passes. Fresh origin/main inventory after Pass 2 confirms no missing Slovak twin from 19–21 October and no pre-existing LinkedIn edition for today. Passes 1, 2 and 3 complete.

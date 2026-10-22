@@ -26,3 +26,7 @@ Claude published `open-source-maintainers-are-paying-for-ais-speed.md` and its S
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-22-october-2026.md`. The five top-story sources opened directly were the labour report, the Linux Foundation release and Daniel Stenberg's curl post, the arXiv sycophancy paper, the Flint model card, and the stalemap repository. Vendor benchmarks and community measurements remain attributed. The digest merges same-event community reactions into the corresponding release, security or policy item.
+
+## Translation notes
+
+Published the Slovak digest with matching tags, date and source URLs. Product names, model identifiers, benchmark names and original video titles remain unchanged where they are proper names.

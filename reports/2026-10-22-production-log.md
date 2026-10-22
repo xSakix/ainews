@@ -22,3 +22,7 @@ Balance changed the raw order. The labour story leads because its consequence re
 ## Article ownership
 
 Claude published `open-source-maintainers-are-paying-for-ais-speed.md` and its Slovak twin. GPT will cover the sycophancy checkpoint study, a different Capability story.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-22-october-2026.md`. The five top-story sources opened directly were the labour report, the Linux Foundation release and Daniel Stenberg's curl post, the arXiv sycophancy paper, the Flint model card, and the stalemap repository. Vendor benchmarks and community measurements remain attributed. The digest merges same-event community reactions into the corresponding release, security or policy item.

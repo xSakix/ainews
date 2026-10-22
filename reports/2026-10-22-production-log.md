@@ -31,3 +31,7 @@ Published `content/posts/ai-daily-digest-for-22-october-2026.md`. The five top-s
 
 Published the Slovak digest with matching tags, date and source URLs. Product names, model identifiers, benchmark names and original video titles remain unchanged where they are proper names.
 Published the Slovak twin of GPT's sycophancy article with the reference entries preserved verbatim.
+
+## LinkedIn edition
+
+content/linkedin/2026-10-22.sk.md: Firmy pripísali AI 112 713 prepúšťaní, dáta nesúhlasia. Five top stories in digest order and six further items; no flags.

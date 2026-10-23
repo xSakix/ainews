@@ -32,3 +32,7 @@ Published `content/posts/ai-daily-digest-for-23-october-2026.md`. The five top-s
 Published the complete Slovak twin of today's digest. The strict cross-language check passed with all 124 source URLs preserved, the same 12 sections and the same 118 story entries.
 
 Published the Slovak twin of GPT's article. The translation preserves the five original references, the illustrative-scene disclosures and every limitation reported in the English article; the strict cross-language check passed.
+
+## LinkedIn edition
+
+content/linkedin/2026-10-23.sk.md: Metakognitívne prompty zlepšili písanie s AI. Covers all five top stories in digest order and six further items across releases, research, economy and work, and community projects; the strict LinkedIn check passed.

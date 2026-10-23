@@ -72,7 +72,7 @@ Not part of the run; it is written here so the whole pipeline is in one place. T
 1. On LinkedIn, in a desktop browser (the mobile app cannot publish articles): Write article, then choose the newsletter "Svet AI tvorený AI" in the editor's top-left menu.
 2. Cover: download the cover image from the edition page and upload it.
 3. Title: copy and paste.
-4. Text: press "Kopírovať text vydania" and paste it into the editor's body. The headings, links, lists and the closing block with the link to the full digest, the day's articles and the AI label come along.
+4. Text: press "Kopírovať text vydania" and paste it into the editor's body. The headings, links and lists come along, with the day's articles at the top and the closing block with the link to the full digest and the AI label at the end.
 5. Optional: in Manage → Settings, paste the SEO description.
 6. Publish, or schedule with the clock icon next to Publish. LinkedIn asks for the text of the post that announces the edition: paste the share post, and add a line of your own if you like.
 7. Optional: record the published edition's address in the edition file as `linkedin = "https://www.linkedin.com/pulse/…"` (the editions list then marks it as published). A run never changes this field.

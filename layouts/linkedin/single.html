@@ -1,8 +1,9 @@
 {{- /* One LinkedIn newsletter edition (content/linkedin/YYYY-MM-DD.sk.md):
        every part the publisher pastes into LinkedIn's editor, each with a
-       copy button. The edition's own text is followed by a closing block
-       built here, so every edition links the full digest and the day's
-       articles and carries the AI-generated label (EU AI Act, Art. 50).
+       copy button. The edition's text opens with the day's articles, so
+       they are not lost below the digest, and ends with a closing block
+       built here that links the full digest and carries the AI-generated
+       label (EU AI Act, Art. 50).
        The page is Slovak only, so its strings are written in Slovak here. */ -}}
 {{- define "main" }}
 {{- $digest := site.GetPage (printf "/posts/%s" .Params.digest) }}
@@ -81,13 +82,6 @@
   <section class="li-part">
     <h2>3. Text vydania</h2>
     <div class="li-field li-body post-content" id="li-body">
-      {{- with $digest }}
-      <p><em>Výber z <a href="{{ .Permalink }}">denného prehľadu AI News Daily</a>, {{ $dayText }}.</em></p>
-      {{- end }}
-      {{ .Content }}
-      {{- with $digest }}
-      <p><strong>Celý denný prehľad</strong> so všetkými správami dňa a odkazmi na zdroje: <a href="{{ .Permalink }}">{{ .Title }}</a></p>
-      {{- end }}
       {{- with $articles }}
       <p><strong>{{ if gt (len .) 1 }}Nové články{{ else }}Nový článok{{ end }} na AI News Daily:</strong></p>
       <ul>
@@ -95,6 +89,13 @@
         <li><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if ne .Lang $.Lang }} (v angličtine){{ end }}</li>
         {{- end }}
       </ul>
+      {{- end }}
+      {{- with $digest }}
+      <p><em>Výber z <a href="{{ .Permalink }}">denného prehľadu AI News Daily</a>, {{ $dayText }}.</em></p>
+      {{- end }}
+      {{ .Content }}
+      {{- with $digest }}
+      <p><strong>Celý denný prehľad</strong> so všetkými správami dňa a odkazmi na zdroje: <a href="{{ .Permalink }}">{{ .Title }}</a></p>
       {{- end }}
       <p><em>{{ site.Params.author }}. Toto vydanie zostavila AI z denného prehľadu <a href="{{ "" | absLangURL }}">AI News Daily</a>, ktorý podľa zverejnených redakčných pravidiel vyhľadala, napísala a do slovenčiny preložila AI. <a href="{{ "about/" | absLangURL }}#ai-disclosure">Ako pracujeme</a>.</em></p>
     </div>

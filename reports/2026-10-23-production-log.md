@@ -26,3 +26,7 @@ Claude published `what-teams-pay-for-ai-coding-tools-and-what-they-get.md` and i
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-23-october-2026.md`. The five top-story sources were opened directly: the metacognitive-scaffolding preprint, Microsoft's MAI-DxO post, Amazon's PHP2Shell threat-intelligence report, Indeed's October labour snapshot and Anthropic's formal-verification report. The digest merges duplicate coverage across desks and keeps vendor benchmarks, forecasts, community measurements and preprints attributed.
+
+## Translation notes
+
+Published the complete Slovak twin of today's digest. The strict cross-language check passed with all 124 source URLs preserved, the same 12 sections and the same 118 story entries.

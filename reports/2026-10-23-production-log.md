@@ -22,3 +22,7 @@ The lead is the highest-scoring study and reaches every professional using AI fo
 ## Article ownership
 
 Claude published `what-teams-pay-for-ai-coding-tools-and-what-they-get.md` and its Slovak twin. GPT will cover the metacognitive-scaffolding experiment, a different Capability story.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-23-october-2026.md`. The five top-story sources were opened directly: the metacognitive-scaffolding preprint, Microsoft's MAI-DxO post, Amazon's PHP2Shell threat-intelligence report, Indeed's October labour snapshot and Anthropic's formal-verification report. The digest merges duplicate coverage across desks and keeps vendor benchmarks, forecasts, community measurements and preprints attributed.

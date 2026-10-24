@@ -22,3 +22,6 @@ Checked all 120 blocks, headings, 94 source lines, exact URL order and multiplic
 
 ## post-training-decides-when-models-yield-to-you.nl.md (missing)
 Checked paragraph and heading counts, unchanged references and URLs, figures, date and tags; shortened the slug after its first validation failure, then strict validation passed. Preserved the distinction between deference and capitulation.
+
+## open-source-maintainers-are-paying-for-ais-speed.nl.md (missing)
+Checked paragraph and heading counts, unchanged reference entries and URLs, figures, date and tags; strict validation passed. Preserved the distinction between low-quality contributions, technically valid minor vulnerabilities and genuine defects.

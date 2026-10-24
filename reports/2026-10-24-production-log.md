@@ -33,3 +33,7 @@ Published `content/posts/ai-daily-digest-for-24-october-2026.md` with five top s
 
 `content/posts/confident-ai-answers-made-people-confidently-wrong.sk.md`: Slovak twin completed with the illustrative scenes, caveats, figures and reference list preserved.
 
+## LinkedIn edition
+
+`content/linkedin/2026-10-24.sk.md`: Sebavedomý asistent menil istotu ľudí na omyly. All five top stories appear in digest order, followed by six further items spanning releases, work, research, projects and safety.
+

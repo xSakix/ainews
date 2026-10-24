@@ -4,3 +4,6 @@
 Resumed the completed draft after verifying that its English original is unchanged on refreshed main. Checked all 22 blocks, headings, reference entries, URLs, figures, date and tags; strict validation passed. No source issues flagged.
 
 Recovery note: the temporary draft had expired before publication; reconstructed it and repeated structural, URL and strict validation successfully before committing.
+
+## ai-daily-digest-for-24-october-2026.nl.md (missing)
+Checked all 389 blocks, headings, 125 source lines, URL order and multiplicity, figures, date and tags; strict validation passed. Preserved source discrepancies: 65 percent in the opening headline versus 60 percent in its body; 8.5 times CO2 in the headline versus 0.4 g and 3.2 g in its example. Official paper and document titles retained in English.

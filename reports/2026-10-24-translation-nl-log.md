@@ -10,3 +10,6 @@ Checked all 389 blocks, headings, 125 source lines, URL order and multiplicity, 
 
 ## confident-ai-answers-made-people-confidently-wrong.nl.md (missing)
 Checked paragraph and heading counts, unchanged reference entries and URLs, figures, date and tags; strict validation passed. Preserved the distinct 60 percent item rate and 65 percent adoption rate rather than conflating them.
+
+## ai-suppliers-fell-faster-than-their-biggest-spenders.nl.md (missing)
+Checked paragraph and heading counts, unchanged reference entries and URLs, all figures and currencies, date and tags; strict validation passed. Australian dollar amounts remain explicitly Australian; no source issues flagged.

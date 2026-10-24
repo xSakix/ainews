@@ -13,3 +13,6 @@ Checked paragraph and heading counts, unchanged reference entries and URLs, figu
 
 ## ai-suppliers-fell-faster-than-their-biggest-spenders.nl.md (missing)
 Checked paragraph and heading counts, unchanged reference entries and URLs, all figures and currencies, date and tags; strict validation passed. Australian dollar amounts remain explicitly Australian; no source issues flagged.
+
+## what-teams-pay-for-ai-coding-tools-and-what-they-get.nl.md (missing)
+Checked paragraph and heading counts, unchanged references and URLs, figures, date and tags; strict validation passed. Preserved the source’s inconsistent quant-firm spending totals and per-developer amounts without recalculating them.

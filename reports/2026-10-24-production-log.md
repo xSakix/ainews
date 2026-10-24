@@ -31,3 +31,5 @@ Published `content/posts/ai-daily-digest-for-24-october-2026.md` with five top s
 
 `content/posts/ai-daily-digest-for-24-october-2026.sk.md`: Slovak twin completed; tags, date and all source URLs match the English digest. Official English titles of papers, talks and projects remain in their published language.
 
+`content/posts/confident-ai-answers-made-people-confidently-wrong.sk.md`: Slovak twin completed with the illustrative scenes, caveats, figures and reference list preserved.
+

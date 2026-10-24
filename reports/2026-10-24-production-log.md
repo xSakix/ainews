@@ -23,3 +23,7 @@ The two 10-point stories lead, with the human-deference experiment first because
 
 Claude published `ai-suppliers-fell-faster-than-their-biggest-spenders.md` and its Slovak twin. GPT will choose a different Capability or Practice story after the digest is published.
 
+## Digest publication
+
+Published `content/posts/ai-daily-digest-for-24-october-2026.md` with five top stories and 120 additional distinct items. The digest preserves all primary links from the desk briefings, merges overlapping coverage and identifies Moonshot's 4 November weights release in `What to watch`.
+

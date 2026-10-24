@@ -2,4 +2,7 @@
 Topic: The companies building and equipping AI data centres are falling faster than the Big Tech firms paying for them, set against the week's evidence on power delays, financing and the Bank of Japan's stress test
 Primary sources: https://finance.yahoo.com/markets/article/the-ai-sell-off-is-crushing-stocks-of-companies-leading-the-data-center-build-out-175206076.html ; https://www.boj.or.jp/en/research/brp/fsr/fsr261023.htm
 Why this story: A Consequence story with a tension the sources state (record backlogs against falling share prices) and a two-week arc (Firmus, Microsoft and Nscale, NextDC, the 22 October sell-off). No earlier post tells it; the digests only carry it in a line.
-Status: writing
+Status: published: content/posts/ai-suppliers-fell-faster-than-their-biggest-spenders.md
+
+## Notes
+Opened in full or in the relevant parts: Yahoo Finance (23 Oct), Bank of Japan October Financial System Report, Guardian/AP 22 Oct, Guardian 20 Oct analysis, Guardian 18 Oct on Microsoft and Nscale, Mingtiandi on NextDC, Taboga preprint (abstract and the discussion of event windows). Followed the arc from the 20-22 October briefings. The opening and closing scenes are illustrative (an invented commissioning engineer), marked as invented. Not used: the MarketScale credit-spread item and the BofA forecast (second-hand, not readable at source), the Reuters CIBC item. Not verified: Sloek's quotations come through Yahoo's article, not his own note; the Microsoft withdrawal is as reported by the Guardian from the Telegraph; the NextDC cause is as relayed by Mingtiandi from the company's ASX statement, which was not opened.

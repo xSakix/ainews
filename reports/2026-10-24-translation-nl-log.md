@@ -19,3 +19,6 @@ Checked paragraph and heading counts, unchanged references and URLs, figures, da
 
 ## ai-daily-digest-for-22-october-2026.nl.md (missing)
 Checked all 120 blocks, headings, 94 source lines, exact URL order and multiplicity, figures, date and tags; strict validation passed. Preserved the source’s distinction between vendor measurements, forecasts and independently established findings; official paper titles retained.
+
+## post-training-decides-when-models-yield-to-you.nl.md (missing)
+Checked paragraph and heading counts, unchanged references and URLs, figures, date and tags; shortened the slug after its first validation failure, then strict validation passed. Preserved the distinction between deference and capitulation.

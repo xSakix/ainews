@@ -27,3 +27,7 @@ Claude published `ai-suppliers-fell-faster-than-their-biggest-spenders.md` and i
 
 Published `content/posts/ai-daily-digest-for-24-october-2026.md` with five top stories and 120 additional distinct items. The digest preserves all primary links from the desk briefings, merges overlapping coverage and identifies Moonshot's 4 November weights release in `What to watch`.
 
+## Translation notes
+
+`content/posts/ai-daily-digest-for-24-october-2026.sk.md`: Slovak twin completed; tags, date and all source URLs match the English digest. Official English titles of papers, talks and projects remain in their published language.
+

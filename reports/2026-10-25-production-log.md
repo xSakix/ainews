@@ -20,3 +20,7 @@ Kimi K3.1 Pro and recent OpenAI updates were excluded because the English digest
 | Cerebras trillion-parameter deployment | 2 | 1 | 1 | 1 | 1 | 6 | Practice |
 
 The top five already span Capability, Practice and Consequence, include the qualifying Consequence story, and keep Capability to three slots, so balancing did not change the score order. The language paper leads because its measured human–model contrast reaches every reader of generated text.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-25-october-2026.md`. The top stories are the language paper, the Slovak FineWeb2 audit, Apollo's productivity charts, Trail of Bits' regression review and selective auditing. Their primary sources were opened directly. Vendor throughput and project cost claims remain attributed; Reddit and YouTube coverage gaps were not filled from snippets.

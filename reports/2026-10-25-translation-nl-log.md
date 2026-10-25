@@ -5,3 +5,6 @@ Checked all 64 blocks, headings, 26 source lines, URL order and multiplicity, fi
 
 ## outside-big-tech-the-ai-payoff-is-still-missing.nl.md (missing)
 Checked paragraphs, headings, unchanged references and URLs, figures, date and tags; strict validation passed. Preserved the source’s four-times comparison without recalculating it and retained the distinction between measurement and interpretation.
+
+## why-ai-prose-is-grammatical-but-hard-to-read.nl.md (missing)
+Checked paragraphs, headings, unchanged references and URLs, figures, date and tags; strict validation passed. Retained the English linguistic examples where their form is essential to the argument.

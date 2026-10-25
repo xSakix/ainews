@@ -30,3 +30,7 @@ Published `content/posts/ai-daily-digest-for-25-october-2026.md`. The top storie
 Published the Slovak twin of today's digest. Source URLs, numbers, tags and timestamp match the English file; the strict twin check passed.
 
 Published the Slovak twin of GPT's article. The reference entries remain unchanged, and the strict twin check passed.
+
+## LinkedIn edition
+
+content/linkedin/2026-10-25.sk.md: Deväť popredných modelov píše texty, ktoré sa čítajú ťažšie. Covers all five top stories in digest order and six further items; the strict LinkedIn check passed.

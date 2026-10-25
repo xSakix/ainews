@@ -76,13 +76,55 @@ Write the digest with `prompts/digest-writer-prompt.md`, from the plan's table.
 
 Then:
 
-1. Assemble the file (see "Assembling the digest").
+1. Run the mandatory readability editor below on the completed digest draft, then assemble the edited file (see "Assembling the digest").
 2. Run `python3 scripts/check_posts.py --strict content/posts/<slug>.md` and fix every failure.
 3. Set the digest's status in the plan to `published: content/posts/<slug>.md`, add a short entry to the production log (top stories, sources opened, anything unverified), and publish the digest, the plan and the log together with the message `Daily news YYYY-MM-DD: digest`.
 
 ### Task D — Your article
 
-Follow `prompts/article-run.md` as the writer GPT (key `gpt`). It chooses the story, reports it, writes it with `prompts/article-writer-prompt.md`, and publishes the article with its own file, `reports/YYYY-MM-DD-article-gpt.md`, and its own commit messages. If Claude has claimed or published a story today, yours must be a different one. While you follow `prompts/article-run.md`, write your notes to `reports/YYYY-MM-DD-article-gpt.md`, not to the production log. When that file has a final status, Pass 1 is complete.
+Follow `prompts/article-run.md` as the writer GPT (key `gpt`). It chooses the story, reports it, writes it with `prompts/article-writer-prompt.md`, and publishes the article with its own file, `reports/YYYY-MM-DD-article-gpt.md`, and its own commit messages. If Claude has claimed or published a story today, yours must be a different one. After the writing and source review in step 4 of `prompts/article-run.md`, run the mandatory readability editor below before step 5 (assembly and validation) and step 6 (publication). This is a required additional step even though `prompts/article-run.md` does not list it. While you follow `prompts/article-run.md`, write your notes to `reports/YYYY-MM-DD-article-gpt.md`, not to the production log. When that file has a final status, Pass 1 is complete.
+
+## Mandatory readability editor — after drafting, before publication
+
+Every English digest and GPT article written by this run must receive a separate copyediting pass after the draft and its source review are complete. Run it before the final validation, commit and push, so translations use the edited English original. A draft is not finished until this pass and the checks below are complete. This does not authorise editing Claude's files or reopening already published posts on a resumed run.
+
+1. Keep the pre-edit draft for comparison. Apply the editor prompt below to the complete reader-facing text: title, description/perex, headings and body. Process each post separately. Keep the digest's required title and filename pattern.
+2. Preserve direct quotations verbatim, proper names, official technical names, code, source URLs and reference metadata. Preserve the Markdown structure and all TOML field names and non-prose values (including dates, tags, slugs and draft flags). Edit prose within title and description fields without breaking TOML quoting. Do not invent an actor, a cause or an explanation to simplify a sentence.
+3. Compare the revised text with the draft and the source review. Check every fact, number, unit, date, attribution, caveat, uncertainty label and reported-versus-illustrative distinction. Restore anything the revision altered in meaning; clarity must not weaken accuracy or the original tone. If a wording change needs new evidence, check the source before retaining it.
+4. Use only the revised text in the post, with no editor commentary. Record `Readability edit: complete; meaning and sources checked` in the production log for the digest or in `reports/YYYY-MM-DD-article-gpt.md` for the article only after completing the pass and comparison.
+5. Run the existing source/editorial checks and `python3 scripts/check_posts.py --strict FILE` on the edited final file before publishing. If a later fix changes prose, review that change for readability and meaning too. Never publish the unedited draft as a fallback.
+
+### Editor prompt
+
+```text
+You are an expert copyeditor specializing in human cognitive readability and plain language processing. Your task is to revise the provided AI-generated text to maximize human comprehension. 
+
+Modern AI models often compress information to save tokens, resulting in dense, syntactically complex writing that taxes human working memory. You must rewrite the text to remove these specific markers of processing difficulty while preserving the exact original meaning and tone. Do not prioritize brevity; if a sentence needs to be longer to be clearer, expand it.
+
+Execute your revision by applying the following strict grammatical rules:
+
+1. Restore Object Relative Clauses: Re-insert omitted relativizers (like "that", "which", or "who"). 
+   - Unacceptable: "The report the committee published."
+   - Target: "The report THAT the committee published."
+
+2. Unpack Stacked Nouns: Break apart strings of three or more consecutive nouns modifying each other by using prepositions or possessives. 
+   - Unacceptable: "horror movie soundtrack generator"
+   - Target: "a generator for horror movie soundtracks"
+
+3. Eliminate Denominal Verbs: Stop using nouns as ad-hoc verbs. Replace them with standard, highly predictable verb phrases.
+   - Unacceptable: "We need to calendar this."
+   - Target: "We need to put this on the calendar."
+
+4. Fix Animacy Mismatches: Ensure inanimate subjects are not paired with active verbs that typically require a living, conscious actor (personification/metonymy).
+   - Unacceptable: "The conversation is eating its own tail." or "This script swallows errors."
+   - Target: "The participants are talking in circles." or "This script suppresses errors."
+
+5. Shorten Syntactic Dependencies: Keep subjects and their main verbs as close together as possible. Avoid inserting long clauses between related words. Split long, convoluted sentences into two or three distinct, straightforward sentences.
+
+6. Normalize N-Grams: Avoid highly unusual word pairings, forced metaphors, or overly dense phrasing designed to compress concepts. Use standard, highly predictable vocabulary. 
+
+Output only the revised text without any introductory remarks, meta-commentary, or summary of changes.
+```
 
 ## Pass 2 — Slovak
 

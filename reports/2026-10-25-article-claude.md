@@ -3,6 +3,7 @@ Topic: Apollo's charts showing AI has delivered no financial payoff — flat mar
 Primary sources: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector
 Why this story: Torsten Slok's charts put a number on a feeling across the whole non-tech economy — record AI investment against flat margins, flat revenue per worker and no measured productivity lift in the S&P 493 — and the day's labour and market evidence (Stanford's dashboard, the Fed's Beige Book, last week's supplier sell-off) all point the same way. It is the top Consequence story of the day and reaches every reader who pays for or works with AI.
 Status: published: content/posts/outside-big-tech-the-ai-payoff-is-still-missing.md
+Slovak: published: content/posts/outside-big-tech-the-ai-payoff-is-still-missing.sk.md
 
 ## Notes
 
@@ -24,3 +25,7 @@ Could not verify: the Gartner CIO-value survey (13% figure) — gartner.com retu
 Scenes: the opening and the closing (the sales engineer and the food distributor's finance team) are a single illustrative scene, invented and marked as such in the first sentence ("The meeting below never happened, and the people in it are illustrations"). No invented person appears in the body, is quoted as a source or bears a real name; the scene stays consistent with Slok's claim that mainstream firms do not need the latest model and are unwilling to pay for it.
 
 Editorial check: every fact, number and quotation traces to a reference; the two Slok notes, the TFP series, the Ramp index, the Stanford write-up and paper, the Beige Book, the Anthropic report and the Yahoo Finance piece are all in the reference list. No bold, no lists outside the references, no source markers. Body ~1,250 words. Strict check passed.
+
+## Translation notes
+
+Translated the article into Slovak straight after publishing; the twin was not yet present on main. Followed `prompts/translator-prompt.md`. The six quotations were rendered into natural Slovak inside „…" marks without changing attribution or strength. Numbers kept in Slovak format (55,9 %; 27 % na 9 %; 6-krát; medián 23 %; len o 5 %; štvrtom štvrťroku 2019). Proper names left as they are (Apollo, Daily Spark, Magnificent Seven / Mag 7, S&P 493, S&P 500, Bloomberg, Macrobond, Federal Reserve Bank of San Francisco, John Fernald, Ramp AI Index, Ara Kharazian, Digital Economy Lab, Beige Book, Anthropic, Yahoo Finance, Jared Blikre). "total factor productivity" glossed on first use; "canaries in the coal mine" rendered as „kanáriky v bani". Paragraph and heading counts match the English file, every reference URL is unchanged, and the strict twin check passed.

@@ -17,3 +17,6 @@ Retranslated edited English from scratch, retaining the published slug. Checked 
 
 ## outside-big-tech-the-ai-payoff-is-still-missing.fr.md (stale)
 Retranslated edited English from scratch, retaining the published slug. Checked all paragraphs, headings, references and URLs, figures, date and tags; strict validation passed. Combined the four English description sentences into two without omitting information.
+
+## why-ai-prose-is-grammatical-but-hard-to-read.fr.md (stale)
+Retranslated edited English from scratch, preserving the published slug. Checked paragraph and heading structure, references and URLs, figures, date and tags; strict validation passed. Retained English grammatical examples because their exact form is the subject of the analysis.

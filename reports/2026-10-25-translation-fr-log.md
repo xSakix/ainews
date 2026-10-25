@@ -8,3 +8,6 @@ Checked all paragraphs, headings, reference entries, URLs, figures, date and tag
 
 ## why-ai-prose-is-grammatical-but-hard-to-read.fr.md (missing)
 Checked paragraph and heading structure, unchanged reference entries and URLs, figures, date and tags; strict validation passed. English linguistic examples retained where their grammatical form is the subject of the analysis.
+
+## ai-daily-digest-for-24-october-2026.fr.md (missing)
+Checked all 390 blocks (including front matter), 12 section headings, 125 unchanged source lines, figures, date and tags; strict validation passed after correcting punctuation adjoining an inline URL. Preserved the English's 65% headline versus 60% body figure and its 8.5-fold emissions headline versus the rounded 0.4/3.2 g example; no source claims corrected.

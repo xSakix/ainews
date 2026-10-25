@@ -24,3 +24,7 @@ The top five already span Capability, Practice and Consequence, include the qual
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-25-october-2026.md`. The top stories are the language paper, the Slovak FineWeb2 audit, Apollo's productivity charts, Trail of Bits' regression review and selective auditing. Their primary sources were opened directly. Vendor throughput and project cost claims remain attributed; Reddit and YouTube coverage gaps were not filled from snippets.
+
+## Translation notes
+
+Published the Slovak twin of today's digest. Source URLs, numbers, tags and timestamp match the English file; the strict twin check passed.

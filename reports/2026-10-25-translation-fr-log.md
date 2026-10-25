@@ -14,3 +14,6 @@ Checked all 390 blocks (including front matter), 12 section headings, 125 unchan
 
 ## ai-daily-digest-for-25-october-2026.fr.md (stale)
 Retranslated edited English from scratch, retaining the published slug. Checked paragraphs, headings, all source lines and URLs, figures, date and tags; strict validation passed. Combined the three English description sentences into two without dropping information.
+
+## outside-big-tech-the-ai-payoff-is-still-missing.fr.md (stale)
+Retranslated edited English from scratch, retaining the published slug. Checked all paragraphs, headings, references and URLs, figures, date and tags; strict validation passed. Combined the four English description sentences into two without omitting information.

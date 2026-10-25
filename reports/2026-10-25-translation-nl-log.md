@@ -11,3 +11,6 @@ Checked paragraphs, headings, unchanged references and URLs, figures, date and t
 
 ## ai-daily-digest-for-25-october-2026.nl.md (stale)
 Retranslated the edited English from scratch, preserving the published slug. Checked paragraphs, headings, source URLs, figures, date and tags; strict validation passed. Combined the three English description sentences into two Dutch sentences without dropping information.
+
+## outside-big-tech-the-ai-payoff-is-still-missing.nl.md (stale)
+Retranslated edited English from scratch, retaining the published slug. Checked paragraph and heading structure, unchanged references and URLs, figures, date and tags; strict validation passed. Combined the four English description sentences into two without omitting claims or attribution.

@@ -26,3 +26,5 @@ Prepared `content/posts/ai-daily-digest-for-26-october-2026.md` from the fixed p
 ## Translation notes
 
 Published the Slovak twin of today's digest. Source URLs, numbers, tags and timestamp match the English file; the strict twin check passed.
+
+Published the Slovak twin of the GPT research article. Its source URLs, quantitative claims, tags and timestamp match the English file; the strict twin check passed.

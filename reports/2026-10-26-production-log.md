@@ -18,3 +18,7 @@ All eight Claude desk briefings were present on `main`; no fallback research was
 | Tech-jobs data separates the downturn from the failed recovery | 2 | 2 | 2 | 1 | 2 | 9 | Consequence |
 
 The two ten-point candidates were tied. The worker study leads because its consequence reaches more readers and provides rare quasi-experimental behavioural evidence. The top five span all three lenses and keep every lens below the three-story cap, so no additional balancing adjustment was needed.
+
+## Digest
+
+Prepared `content/posts/ai-daily-digest-for-26-october-2026.md` from the fixed plan. Opened the primary sources for all five top stories; the remaining items retain the briefings' attribution and caveats. Readability edit: complete; meaning and sources checked.

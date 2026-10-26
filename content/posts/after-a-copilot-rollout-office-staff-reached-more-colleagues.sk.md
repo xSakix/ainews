@@ -1,0 +1,57 @@
++++
+title = "Po zavedení Copilota zamestnanci oslovili viac kolegov"
+slug = "po-zavedeni-copilota-zamestnanci-oslovili-viac-kolegov"
+description = "Výskumníci z Bocconi 13 mesiacov sledovali viac ako 12 000 zamestnancov jednej nadnárodnej firmy, kým sa v nej zavádzal Microsoft Copilot. Tí, ktorí ho začali používať, venovali spolupráci viac času, pracovali s viacerými ľuďmi a viac sa opierali o kolegov, ktorým už dôverovali. Výsledok ide proti očakávaniu, že AI asistent urobí kolegov menej potrebnými."
+tags = ["research", "business", "tools"]
+date = 2026-10-26T22:42:36+01:00
+draft = false
++++
+
+Nikto z tejto scény neexistuje. Plánovačka značky, jej koncept aj jej štvrtok sú pre tento článok vymyslené, hoci ich podobu určuje to, čo zmerala nová štúdia. Je dopoludnie v strategickom útvare veľkej firmy so spotrebným tovarom. Copilot za necelú minútu zmenil poznámky o predaji z minulého štvrťroka na dvojstranové zhrnutie pre opätovné uvedenie výrobku na trh. Zhrnutie sa číta dobre. Píše sa v ňom, že jeden trh rástol rýchlejšie ako ostatné, a plánovačka nevie povedať, odkiaľ toto tvrdenie pochádza. Zhrnutie neodošle. Otvorí kalendár a rezervuje si dvadsať minút s človekom z dodávateľského reťazca, ktorého nikdy nestretla. Potom si rezervuje ďalších dvadsať minút s finančným analytikom, ktorého už tri roky žiada o pomoc pri každom uvedení výrobku.
+
+Asistent jej ušetril hodinu písania. Zároveň jej pribudli dve stretnutia, ktoré predtým nemala.
+
+## Čo štúdia merala
+
+Giuseppe Soda a Alessandro Iorio z Univerzity Bocconi a Leonardo Rizzo zo SDA Bocconi School of Management zverejnili svoju prácu na arXive 23. októbra. Zatiaľ neprešla recenzným konaním. Skúmali jeden obchodný útvar veľkej nadnárodnej spoločnosti z odvetvia spotrebného tovaru. Tento útvar zavádza strategické iniciatívy v celej organizácii a autori opisujú jeho prácu ako veľmi prepojenú a závislú od digitálnych komunikačných nástrojov. Útvar sledovali od septembra 2024 do septembra 2025, teda v období, keď firma zavádzala Microsoft Copilot.
+
+Údaje nepochádzali z dotazníkov, ale z platformy Microsoft Viva Insights. Tá zaznamenáva hovory, e-maily, stretnutia a chaty v aplikáciách Microsoft 365 a údaje boli anonymizované už pri zdroji. Používanie Copilota zaznamenával samostatný systém. Akcia sa započítala len vtedy, keď pracovník s výstupom Copilota naozaj pracoval, napríklad keď rozbalil zhrnutie dokumentu alebo si prezrel zápis zo stretnutia, ktorý Copilot vytvoril. Autori označili pracovníka za používateľa od prvého mesiaca, v ktorom jeho používanie zostalo dva mesiace po sebe nad 25. percentilom. Z 12 040 zamestnancov vyradili 172 ľudí, ktorí túto hranicu splnili už v prvom mesiaci, pretože pri nich chýbalo obdobie „predtým“, s ktorým by sa dali porovnať. Zostalo 1 992 používateľov a 9 876 pracovníkov, ktorí hranicu nikdy neprekročili a slúžili ako porovnávacia skupina.
+
+Hlavným ukazovateľom bolo to, čo Viva Insights nazýva iniciované hodiny spolupráce. Ide o hodiny stretnutí, hovorov, e-mailov a chatov, ktoré pracovník za mesiac začne aspoň s jedným ďalším človekom. Ukazovateľ započíta pracovníka, ktorý zvolá stretnutie alebo začne e-mailovú konverzáciu. Pozvánka od niekoho iného sa nepočíta. Pri mapovaní siete každého pracovníka autori započítali väzbu len vtedy, keď jeden človek venoval druhému za mesiac aspoň hodinu spolupráce.
+
+## Dve metódy s rovnakým smerom
+
+Ľudia, ktorí si nový nástroj osvoja skoro, sa často líšia od tých, ktorí to neurobia, a už tento rozdiel by mohol vysvetliť zmeny v tom, ako pracujú. Autori tento problém riešili dvoma metódami. Prvou je postupný (staggered) dizajn rozdielu v rozdieloch, postavený na odhade, ktorý v roku 2021 publikovali Brantly Callaway a Pedro Sant'Anna. Porovnáva každú skupinu používateľov s pracovníkmi, ktorí Copilota nezačali používať, a to za rovnaké mesiace. Podľa autorov sa prístup k nástroju riadil organizačnými procesmi, napríklad dostupnosťou rozpočtu, a nie iniciatívou jednotlivcov, takže sa dalo využiť postupné načasovanie. V mesiacoch pred začatím používania sa používatelia a porovnávacia skupina vyvíjali súbežne a autori uvádzajú, že efekty pred začatím používania boli blízke nule.
+
+Po začatí používania sa obe skupiny rozišli. Počas prvých troch mesiacov používatelia iniciovali o približne 1,43 hodiny spolupráce mesačne viac, než by zodpovedalo porovnávacej skupine. Nárast sa začal už v mesiaci, keď začali Copilota používať. Väčšina z neho pripadla na stretnutia a hovory, nie na e-maily. Autori uvádzajú aj širší priemer za všetky skupiny a mesiace. Ten bol menší, 0,95 hodiny, a nebol štatisticky významný. Vysvetľujú, že tento priemer dáva väčšiu váhu tým, ktorí začali nástroj používať najskôr, a za hlavný výsledok považujú trojmesačné číslo.
+
+Zmenili sa aj siete. Používatelia smerovali spoluprácu k približne 2,2 kolegom viac než predtým. Ich siete boli menej zhlukované, čo znamená, že menej ľudí, s ktorými pracovali, pracovalo aj navzájom medzi sebou. Zároveň používatelia sústredili väčšiu časť svojho súčasného času na spoluprácu s kolegami, s ktorými mali dlhú spoločnú históriu. Inými slovami, siahali ďalej a zároveň sa viac opierali o kolegov, ktorým dôverovali najviac.
+
+Druhá metóda kladie inú otázku: vedie intenzívnejšie používanie Copilota k väčšej spolupráci? Využíva inštrumentálnu premennú, ktorá spája dva faktory. Prvým je mesačné tempo vydávania nových funkcií Copilota, ktoré autori zostavili z poznámok k vydaniam od Microsoftu. Druhým je podiel spolupracovníkov daného pracovníka, ktorí už Copilota používali v čase, keď sa tento pracovník prvýkrát objavil v údajoch. Autori uvádzajú, že táto premenná používanie Copilota silno predpovedala. Podľa ich odhadu desaťnásobný nárast mesačných akcií v Copilote, napríklad z jednej na desať, zodpovedá približne 3,3 hodiny iniciovanej spolupráce mesačne navyše. Tento odhad je významný len okrajovo. Rovnaký nárast zodpovedá približne 20 ďalším rôznym kolegom mesačne a tento odhad je jednoznačne významný.
+
+## Prečo by nástroj na písanie pridal stretnutia
+
+Autori výsledok vysvetľujú myšlienkou, ktorú v auguste opísali Irene Unceta, Paula Subías-Beltrán a Oriol Pujol v časopise Nature Machine Intelligence. Nazývajú ju epistemický dlh. Keď ľudia používajú generatívnu AI na kognitívnu prácu bez toho, aby si našli čas výstupu porozumieť, „otvorí sa medzera medzi tým, čo predkladajú, a tým, čo dokážu obhájiť“. Medzera rastie s každou ďalšou prácou, ktorá na výstupe stavia. Unceta a jej spoluautori vidia nápravu v úsilí jednotlivca. Tím z Bocconi pridáva nápravu sociálnu: kolegov, ktorí výstup spochybnia a požiadajú autora, aby ho vysvetlil. Copilot zlacňuje výrobu konceptu. Podľa výkladu autorov zároveň predražuje jeho prijatie, pretože generatívna AI podľa ich slov „zvýšila, a nie znížila, stávky sociálneho prijatia“.
+
+Výsledok zároveň kontrastuje so starším prirodzeným experimentom s podobnými údajmi. V roku 2022 Longqi Yang a jeho kolegovia publikovali štúdiu 61 182 amerických zamestnancov Microsoftu za prvých šesť mesiacov roka 2020, keď ich pandémia presunula na prácu výlučne na diaľku. Zistili, že práca na diaľku v celej firme urobila siete spolupráce statickejšími a uzavretejšími, s menším počtom mostov medzi rôznymi časťami spoločnosti. Komunikácia sa zároveň presunula zo synchrónnych kanálov na asynchrónne. Používatelia Copilota vo firme so spotrebným tovarom vykazovali iný vzorec. Ich siete boli menej zhlukované, nie uzavretejšie, a väčšina spolupráce, ktorá im pribudla, prebiehala cez stretnutia a hovory.
+
+Štúdia tiež prináša iný druh dôkazov k najznámejším štúdiám generatívnej AI na pracovisku. Erik Brynjolfsson, Danielle Li a Lindsey Raymond skúmali 5 179 pracovníkov zákazníckej podpory a zistili, že AI asistent zvýšil počet vyriešených požiadaviek za hodinu v priemere o 14 % a u nováčikov a menej kvalifikovaných pracovníkov o 34 %. Tento výskum meral výstup. Práca z Bocconi meria ľudí okolo výstupu. Otázka je čoraz naliehavejšia. Philip Lane z Európskej centrálnej banky v prejave 13. októbra povedal, že 52 % pracovníkov v eurozóne dnes uvádza, že v práci používa AI, oproti 26 % v roku 2024.
+
+## Čo údaje nevidia
+
+Autori opatrne vymedzujú, čo ich údaje dokážu ukázať. Vedia, kto s kým komunikoval a ako dlho, no nevedia, o čom ľudia hovorili. Uvádzajú aj iné vysvetlenia, ktoré zodpovedajú rovnakému vzorcu. Pracovníci mohli čas, ktorý ušetrili pri písaní konceptov, venovať stretnutiam s kolegami. Niektoré výstupy si môžu jednoducho vyžadovať viac koordinácie, aj keď nikto nepochybuje o ich kvalite. A niektoré rozhovory sa mohli týkať samotného Copilota, a nie jeho výsledkov. Štúdia pokrýva jeden obchodný útvar a jej efekty sú merané za prvé tri mesiace po začatí používania. Autori poznamenávajú, že v profesiách, kde ľudia od seba navzájom závisia menej, napríklad pri vývoji softvéru, by efekt mohol byť opačný, a citujú starší výskum softvérových tímov, ktorý naznačuje tento smer.
+
+Upozorňujú aj na problém pri vlastnom zistení o silných väzbách. Kolega, ktorý koncept vytvorený s pomocou AI dôkladne preverí, pomáha dlh splácať. Kolega, ktorý koncept len schváli, môže dlh šíriť ďalej, pretože ostatní potom na ňom stavajú bez kontroly. Dôveryhodní kolegovia ponúkajú informovaný úsudok, píšu autori, no „dôvera zároveň znižuje dôkladnosť, s akou ľudia posudzujú prácu toho druhého“. Ich údaje nedokážu odlíšiť kontrolu od schválenia. „Rozlíšenie overovania od schvaľovania je preto prioritou budúceho výskumu.“
+
+Najpriamejšia rada zamestnávateľom sa v práci zmestí do jednej vety: „Organizácie, ktoré chcú, aby spolupráca vyvážila nepriehľadnosť generatívnej AI, potrebujú normy, ktoré odmeňujú spochybňovanie práce vytvorenej s pomocou AI a priznanie, kedy bola AI použitá.“ Pre manažéra, ktorý číta prehľad o Copilote ako mieru ušetreného času, štúdia naznačuje ešte jedno miesto, kam sa pozrieť. Je ním kalendár, pretože práve tam táto štúdia zmenu našla.
+
+Vymyslená plánovačka odošle zhrnutie vo štvrtok popoludní. Rýchlo rastúci trh v ňom stále je, no teraz pri ňom stojí poznámka pod čiarou od kolegu z dodávateľského reťazca o sklade, ktorý sa otvoril v polovici štvrťroka. Finančný analytik si koncept prečítal za päť minút a schválil ho. Plánovačka vie, ktoré z dvoch stretnutí dokument zmenilo.
+
+## Použité zdroje
+
+- Brynjolfsson, E., Li, D., & Raymond, L. (2025). *Generative AI at Work*. The Quarterly Journal of Economics, 140(2), 889–942. https://www.nber.org/papers/w31161
+- Callaway, B., & Sant'Anna, P. H. C. (2021). *Difference-in-differences with multiple time periods*. Journal of Econometrics, 225(2), 200–230. https://doi.org/10.1016/j.jeconom.2020.12.001
+- Lane, P. R. (2026). *The AI opportunity for Europe*. Dinner remarks at the International AI Summit, Dublin, 13 October. European Central Bank. https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html
+- Soda, G., Iorio, A., & Rizzo, L. (2026). *The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers*. arXiv. https://arxiv.org/abs/2610.32461
+- Unceta, I., Subías-Beltrán, P., & Pujol, O. (2026). *The epistemic debt of generative AI*. Nature Machine Intelligence, 8, 1328–1330. https://www.nature.com/articles/s42256-026-01294-w
+- Yang, L., Holtz, D., Jaffe, S., Suri, S., Sinha, S., Weston, J., Joyce, C., Shah, N. P., Sherman, K., Hecht, B., & Teevan, J. (2022). *The effects of remote work on collaboration among information workers*. Nature Human Behaviour, 6, 43–54. https://www.nature.com/articles/s41562-021-01196-4

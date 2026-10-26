@@ -3,6 +3,7 @@ Topic: A 13-month study of 12,000 knowledge workers finds that a Copilot rollout
 Primary sources: https://arxiv.org/abs/2610.32461
 Why this story: The day's highest-scoring Consequence story: rare quasi-experimental behavioural evidence on what an AI assistant does to how people work together, against the common expectation that AI makes colleagues less necessary.
 Status: published: content/posts/after-a-copilot-rollout-office-staff-reached-more-colleagues.md
+Slovak: published: content/posts/after-a-copilot-rollout-office-staff-reached-more-colleagues.sk.md
 
 ## Notes
 
@@ -13,3 +14,7 @@ The opening and closing scenes are illustrative: the brand planner, her draft an
 Not verifiable from the sources: the paper's figures were not visible in the HTML (only captions), so the numbers come from the text. The paper is a preprint, not peer reviewed. The headline numbers are the three-month post-adoption averages, which the authors treat as primary; the article also reports that the overall ATT for generated hours (0.95) was not significant, and that the IV estimate for hours was only marginally significant. Word count is about 1,550 including headings, slightly above the usual range.
 
 Readability edit: complete; meaning and sources checked.
+
+## Translation notes
+
+Slovak twin translated from the final English file on main and given a readability edit in Slovak (relative clauses restored, nominal chains unpacked, long sentences split); compared against the English for facts, numbers, attributions, quotations and the illustrative markers. Quotations from the paper and from Unceta et al. are rendered in Slovak inside Slovak quotation marks, as the translator prompt requires. "Staggered difference-in-differences" is rendered as "postupný (staggered) dizajn rozdielu v rozdieloch"; "generated collaboration hours" as "iniciované hodiny spolupráce". The strict twin check passed. Readability edit: complete; meaning and sources checked.

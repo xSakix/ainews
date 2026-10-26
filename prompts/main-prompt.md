@@ -86,13 +86,13 @@ Follow `prompts/article-run.md` as the writer GPT (key `gpt`). It chooses the st
 
 ## Mandatory readability editor — after drafting, before publication
 
-Every English digest and GPT article written by this run must receive a separate copyediting pass after the draft and its source review are complete. Run it before the final validation, commit and push, so translations use the edited English original. A draft is not finished until this pass and the checks below are complete. This does not authorise editing Claude's files or reopening already published posts on a resumed run.
+Every English digest, GPT article, Slovak translation written by this run, and Slovak LinkedIn edition must receive a separate copyediting pass after drafting and source review are complete. Run it before the final validation, commit and push, so translations use the edited English original and the published Slovak texts are edited too. A draft is not finished until this pass and the checks below are complete. This does not authorise editing Claude's files or reopening already published posts on a resumed run.
 
 1. Keep the pre-edit draft for comparison. Apply the editor prompt below to the complete reader-facing text: title, description/perex, headings and body. Process each post separately. Keep the digest's required title and filename pattern.
 2. Preserve direct quotations verbatim, proper names, official technical names, code, source URLs and reference metadata. Preserve the Markdown structure and all TOML field names and non-prose values (including dates, tags, slugs and draft flags). Edit prose within title and description fields without breaking TOML quoting. Do not invent an actor, a cause or an explanation to simplify a sentence.
 3. Compare the revised text with the draft and the source review. Check every fact, number, unit, date, attribution, caveat, uncertainty label and reported-versus-illustrative distinction. Restore anything the revision altered in meaning; clarity must not weaken accuracy or the original tone. If a wording change needs new evidence, check the source before retaining it.
-4. Use only the revised text in the post, with no editor commentary. Record `Readability edit: complete; meaning and sources checked` in the production log for the digest or in `reports/YYYY-MM-DD-article-gpt.md` for the article only after completing the pass and comparison.
-5. Run the existing source/editorial checks and `python3 scripts/check_posts.py --strict FILE` on the edited final file before publishing. If a later fix changes prose, review that change for readability and meaning too. Never publish the unedited draft as a fallback.
+4. Use only the revised text in the post, with no editor commentary. Record `Readability edit: complete; meaning and sources checked` in the production log for the digest, Slovak translations and LinkedIn edition, or in `reports/YYYY-MM-DD-article-gpt.md` for the GPT article, only after completing the pass and comparison.
+5. Run the existing source/editorial checks and `python3 scripts/check_posts.py --strict FILE` on edited posts, or `python3 scripts/check_linkedin.py` as specified in `prompts/linkedin-run.md` on the edited LinkedIn edition, before publishing. If a later fix changes prose, review that change for readability and meaning too. Never publish the unedited draft as a fallback.
 
 ### Editor prompt
 
@@ -133,15 +133,16 @@ Find the English posts that need a Slovak twin: every `content/posts/<slug>.md` 
 For each:
 
 1. Apply `prompts/translator-prompt.md` to the final English file on `main`. Its output is the complete Slovak file, saved as `content/posts/<slug>.sk.md` with exactly the same `<slug>` part as the English file: the shared file name links the two editions, and the Slovak URL comes from the `slug` field inside the Slovak file.
-2. Anything the translator flags goes to the production log under "Translation notes", never into a post.
-3. If a translation fails its self-check twice, skip it, log the reason, and move on. Never publish a partial translation.
-4. Publish the Slovak file and the log together, with the message `Slovak edition YYYY-MM-DD: <slug>`.
+2. Run the mandatory readability editor on the complete Slovak translation before publication. Apply its grammatical rules idiomatically in Slovak rather than mechanically translating English examples. Preserve meaning, source URLs, quotations, numbers, attribution, TOML fields, and correspondence with the English original. Compare the edited translation against the English original and run the translator's self-check and strict twin check on the final edited text. Record the completed pass in the production log under "Translation notes".
+3. Anything the translator flags goes to the production log under "Translation notes", never into a post.
+4. If a translation fails its self-check twice, skip it, log the reason, and move on. Never publish a partial translation.
+5. Publish the Slovak file and the log together, with the message `Slovak edition YYYY-MM-DD: <slug>`.
 
 When Pass 2 ends, pull `main` once more: if Claude's article arrived after you built the list and has no Slovak twin, translate it too.
 
 ## Pass 3 — LinkedIn edition
 
-Follow `prompts/linkedin-run.md` for today. It condenses today's Slovak digest into the day's edition of the newsletter "Svet AI tvorený AI" with `prompts/linkedin-edition-prompt.md`, checks it with `scripts/check_linkedin.py`, and publishes `content/linkedin/YYYY-MM-DD.sk.md` with its own commit message. If the edition is already on `main`, it stops at once. If today's Slovak digest is not on `main` (Pass 2 skipped it), it logs that and stops; never write an edition from the English digest. The edition page lists the day's articles on its own (the Slovak twin, or the English original while the twin is missing), so it does not wait for any of them.
+Follow `prompts/linkedin-run.md` for today. It condenses today's Slovak digest into the day's edition of the newsletter "Svet AI tvorený AI" with `prompts/linkedin-edition-prompt.md`, checks it with `scripts/check_linkedin.py`, and publishes `content/linkedin/YYYY-MM-DD.sk.md` with its own commit message. Before running `scripts/check_linkedin.py` or publishing, apply the mandatory readability editor to the complete Slovak edition, including title, description, share text, headings, paragraphs and bullets. Apply its rules as natural Slovak copyediting; preserve the digest's facts, attributions, numbers, source URLs, section order and required lengths. Compare the result against the Slovak digest and recheck every limit in `prompts/linkedin-edition-prompt.md`. Record `Readability edit: complete; meaning and sources checked` in the production log only after completing this review. If the edition is already on `main`, it stops at once. If today's Slovak digest is not on `main` (Pass 2 skipped it), it logs that and stops; never write an edition from the English digest. The edition page lists the day's articles on its own (the Slovak twin, or the English original while the twin is missing), so it does not wait for any of them.
 
 ## Assembling the digest
 

@@ -19,11 +19,11 @@ Anthropic pozastavil niektoré kybernetické hodnotenia a rizikovejšie prostred
 
 Zdroje: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm, https://www.reuters.com/legal/litigation/anthropic-discloses-month-long-training-pause-ai-security-breaches-ipo-filing-2026-10-26/
 
-**IIT Madras upozornil, že automatizácia úloh pre začiatočníkov môže oslabiť cestu k seniornej práci.** Biela kniha jeho Centre for Responsible AI oddeľuje štyri úrovne, ktoré verejná diskusia často spája: úlohu, pracovné miesto, povolanie a širší trh práce. Autori tvrdia, že schopnosť systému vykonať jednu úlohu neznamená zánik celého povolania.
+**IIT Madras upozornil, že automatizácia úloh pre začiatočníkov môže oslabiť cestu k seniornej práci.** Odborný analytický dokument jeho Centre for Responsible AI rozlišuje štyri úrovne, ktoré verejná diskusia často spája: úlohu, pracovné miesto, povolanie a širší trh práce. Autori tvrdia, že schopnosť systému vykonať jednu úlohu neznamená zánik celého povolania.
 
 Dokument opisuje pracovné miesta ako súbory úloh. AI môže vykonať niektoré z nich, zatiaľ čo ľuďom zostane úsudok, zodpovednosť a povinnosti týkajúce sa súladu s pravidlami. Nasadenie závisí aj od ceny, bezpečnosti, regulácie a spôsobu, akým organizácia prepracuje prácu. Verejný opis inštitútu používa tento rámec pri call centrách, výrobe, bankovníctve, vývoji softvéru, práve, tvorivej práci a malých podnikoch.
 
-Upozornenie sa týka kariérneho postupu. Rutinné úlohy v odvetviach BPO, IT a bankovníctva zároveň poskytujú juniorným zamestnancom skúsenosti. Ich odstránenie môže dnes zachovať pracovné miesto, no oslabiť cestu, po ktorej nový pracovník získava kvalifikáciu na zložitejšiu prácu. Pri príprave prehľadu bol dostupný článok vzdelávacieho média o zverejnení inštitútu, nie samotná biela kniha.
+Upozornenie sa týka kariérneho postupu. Rutinné úlohy v odvetviach BPO, IT a bankovníctva zároveň poskytujú juniorným zamestnancom skúsenosti. Ich odstránenie môže dnes zachovať pracovné miesto, no oslabiť cestu, po ktorej nový pracovník získava kvalifikáciu na zložitejšiu prácu. Pri príprave prehľadu bol dostupný článok vzdelávacieho média o zverejnení inštitútu, nie samotný analytický dokument.
 
 Zdroj: https://news.careers360.com/iit-madras-whitepaper-says-ai-reshape-job-wont-eliminate-professions-calls-reskilling-wadhwani-employment-india
 

@@ -22,3 +22,5 @@ Published the four planned top stories. The SEC filing, Reuters bank report, IIT
 ## Translation notes
 
 Published the Slovak twin of today's digest. Source URLs, numbers, tags and timestamp match the English file; the strict twin check passed. Readability edit: complete; meaning and sources checked.
+
+Published the Slovak twin of the GPT article. Source URLs, figures, tags and timestamp match the English file; the strict twin check passed. Readability edit: complete; meaning and sources checked.

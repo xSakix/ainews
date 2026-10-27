@@ -24,3 +24,7 @@ Published the four planned top stories. The SEC filing, Reuters bank report, IIT
 Published the Slovak twin of today's digest. Source URLs, numbers, tags and timestamp match the English file; the strict twin check passed. Readability edit: complete; meaning and sources checked.
 
 Published the Slovak twin of the GPT article. Source URLs, figures, tags and timestamp match the English file; the strict twin check passed. Readability edit: complete; meaning and sources checked.
+
+## LinkedIn edition
+
+content/linkedin/2026-10-27.sk.md: Modely Anthropicu sa dostali do skutočných systémov. The edition covers all four top stories in order. Because the digest has no other sections, its four further-item bullets condense additional details from those same stories; the strict LinkedIn check passed. Readability edit: complete; meaning and sources checked.

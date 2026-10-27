@@ -11,26 +11,16 @@
 {{- with $digest }}{{ $day = .Date }}{{ end }}
 {{- $dayText := $day | time.Format ":date_long" }}
 
-{{- /* The day's articles: posts dated from 16 hours before the digest up
-       to where the next edition's window starts, 16 hours before the next
-       digest (at most 24 hours after this one). The window reaches back to
-       the evening before, so an article published after the previous
-       morning's edition went out, or Claude's article dated shortly before
-       the digest, lands in exactly one edition. The articles are taken
-       from the English site, so one whose Slovak twin is still missing is
-       linked in English instead of being left out. */}}
+{{- /* Include only articles whose publication date matches this edition's
+       digest date. Earlier 16-hour lookback included yesterday's posts in
+       today's newsletter. Compare YYYY-MM-DD in the stored publication
+       timezone; use the English originals to avoid duplicate translations,
+       and link to the Slovak twin when one exists. */ -}}
 {{- $articles := slice }}
 {{- $posts := where site.Sites.Default.RegularPages "Section" "posts" }}
-{{- $from := $day.Add (time.ParseDuration "-16h") }}
-{{- $to := $day.Add (time.ParseDuration "24h") }}
-{{- range where $posts "Date" "gt" $day }}
-  {{- $next := .Date.Add (time.ParseDuration "-16h") }}
-  {{- if and (hasPrefix .File.ContentBaseName "ai-daily-digest-for-") ($next.Before $to) }}
-    {{- $to = $next }}
-  {{- end }}
-{{- end }}
+{{- $editionDate := $day.Format "2006-01-02" }}
 {{- range $posts.ByDate }}
-  {{- if and (not (.Date.Before $from)) (.Date.Before $to) (not (hasPrefix .File.ContentBaseName "ai-daily-digest-for-")) }}
+  {{- if and (eq (.Date.Format "2006-01-02") $editionDate) (not (hasPrefix .File.ContentBaseName "ai-daily-digest-for-")) }}
     {{- $article := . }}
     {{- range where .Translations "Lang" $.Lang }}{{ $article = . }}{{ end }}
     {{- $articles = $articles | append $article }}

@@ -18,3 +18,7 @@ All four candidates passed the gate and became top stories because the verified 
 ## Digest
 
 Published the four planned top stories. The SEC filing, Reuters bank report, IIT Madras white-paper coverage and LLM2Cert preprint were opened directly. The source available for the IIT Madras item was reporting on the institute's release rather than the white paper itself, and the digest says so. Readability edit: complete; meaning and sources checked.
+
+## Translation notes
+
+Published the Slovak twin of today's digest. Source URLs, numbers, tags and timestamp match the English file; the strict twin check passed. Readability edit: complete; meaning and sources checked.

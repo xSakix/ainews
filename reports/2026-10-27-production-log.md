@@ -14,3 +14,7 @@ All eight Claude desk briefings were absent when the production run reached Task
 | LLM2Cert combined model proposals with SMT and Lean verification | 2 | 1 | 2 | 2 | 1 | 8 | Capability |
 
 All four candidates passed the gate and became top stories because the verified day produced no additional non-duplicate topics. The order follows total score, then consequence; the fourth story adds the Capability lens and keeps the set balanced.
+
+## Digest
+
+Published the four planned top stories. The SEC filing, Reuters bank report, IIT Madras white-paper coverage and LLM2Cert preprint were opened directly. The source available for the IIT Madras item was reporting on the institute's release rather than the white paper itself, and the digest says so. Readability edit: complete; meaning and sources checked.

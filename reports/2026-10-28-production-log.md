@@ -24,3 +24,9 @@ Genie 4 entered the five-story top set ahead of higher-scoring fourth Consequenc
 content/posts/ai-daily-digest-for-28-october-2026.md
 
 Readability edit: complete; meaning and sources checked
+
+## Translation notes
+
+content/posts/ai-daily-digest-for-28-october-2026.sk.md
+
+Readability edit: complete; meaning and sources checked

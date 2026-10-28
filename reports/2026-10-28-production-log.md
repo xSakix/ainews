@@ -18,3 +18,9 @@ All eight Claude desk briefings were absent when Task A began. The GPT fallback 
 | Calix communications-domain model | 2 | 1 | 1 | 1 | 1 | 6 | Capability |
 
 Genie 4 entered the five-story top set ahead of higher-scoring fourth Consequence candidates so that no lens held more than three stories. The lead remains the error-aware productivity study because it reaches practitioners who must decide whether AI actually saves time.
+
+## English digest
+
+content/posts/ai-daily-digest-for-28-october-2026.md
+
+Readability edit: complete; meaning and sources checked

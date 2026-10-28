@@ -25,6 +25,10 @@ content/posts/ai-daily-digest-for-28-october-2026.md
 
 Readability edit: complete; meaning and sources checked
 
+content/posts/a-novelty-judge-changed-its-mind-with-the-prompt.sk.md
+
+Readability edit: complete; meaning and sources checked
+
 ## Translation notes
 
 content/posts/ai-daily-digest-for-28-october-2026.sk.md

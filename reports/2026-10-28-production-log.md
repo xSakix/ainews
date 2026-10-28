@@ -25,6 +25,12 @@ content/posts/ai-daily-digest-for-28-october-2026.md
 
 Readability edit: complete; meaning and sources checked
 
+## LinkedIn edition
+
+content/linkedin/2026-10-28.sk.md: Analýza spojila úsporu času s chybami po kontrole. Päť hlavných správ v poradí digestu a päť ďalších položiek.
+
+Readability edit: complete; meaning and sources checked
+
 content/posts/a-novelty-judge-changed-its-mind-with-the-prompt.sk.md
 
 Readability edit: complete; meaning and sources checked

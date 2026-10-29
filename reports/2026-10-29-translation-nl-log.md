@@ -8,3 +8,6 @@ Checked every paragraph, heading, figure, reference, URL, date and tag against E
 
 ## lao-gan-ma-s-ai-boast-meets-a-denial-and-a-headcount.nl.md (missing)
 Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.
+
+## ai-daily-digest-for-28-october-2026.nl.md (missing)
+Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.

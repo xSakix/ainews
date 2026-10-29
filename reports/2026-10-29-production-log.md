@@ -25,6 +25,12 @@ Top stories: Gemini 4 Carbon, GitHub capacity, DAYJOB: Tax, latent world models 
 
 Readability edit: complete; meaning and sources checked
 
+## LinkedIn edition
+
+content/linkedin/2026-10-29.sk.md: Google oznámil Gemini 4 Carbon, prístup však obmedzil. Päť hlavných správ v poradí digestu a päť odlišných ďalších položiek.
+
+Readability edit: complete; meaning and sources checked
+
 content/posts/a-world-model-can-succeed-without-learning-the-world.sk.md
 
 Readability edit: complete; meaning and sources checked

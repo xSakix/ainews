@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Offline · AI News Daily</title>
+<style>
+  :root { --bg: #fff; --fg: #1d1e20; --muted: #6b6b6b; }
+  :root.dark { --bg: #1d1e20; --fg: #dadadb; --muted: #9b9c9d; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  a { color: inherit; }
+  li { margin: .5em 0; }
+  button { font: inherit; padding: .5em 1.2em; border-radius: 8px; border: 1px solid var(--muted); background: none; color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title">You're offline</h1>
+  <p id="text">This page isn't saved on your device yet. Pages you've read recently are still here:</p>
+  <ul id="saved"></ul>
+  <button id="retry" type="button" onclick="location.reload()">Try again</button>
+</main>
+<script>
+// The service worker serves this page in place of a page it has not saved,
+// so location is the address the reader asked for: its first path segment
+// names the edition.
+const STRINGS = {
+  en: ["You're offline", "This page isn't saved on your device yet. Pages you've read recently are still here:", "Try again", "No saved pages yet."],
+  sk: ["Ste offline", "Táto stránka ešte nie je uložená vo vašom zariadení. Stránky, ktoré ste nedávno čítali, sú stále dostupné:", "Skúsiť znova", "Zatiaľ žiadne uložené stránky."],
+  nl: ["Je bent offline", "Deze pagina is nog niet op je apparaat opgeslagen. Pagina's die je onlangs hebt gelezen, zijn nog beschikbaar:", "Opnieuw proberen", "Nog geen opgeslagen pagina's."],
+  fr: ["Vous êtes hors ligne", "Cette page n'est pas encore enregistrée sur votre appareil. Les pages lues récemment restent disponibles :", "Réessayer", "Aucune page enregistrée pour l'instant."],
+  de: ["Sie sind offline", "Diese Seite ist noch nicht auf Ihrem Gerät gespeichert. Kürzlich gelesene Seiten sind weiterhin verfügbar:", "Erneut versuchen", "Noch keine gespeicherten Seiten."],
+  es: ["Sin conexión", "Esta página aún no está guardada en tu dispositivo. Las páginas que leíste hace poco siguen disponibles:", "Reintentar", "Todavía no hay páginas guardadas."],
+  zh: ["您已离线", "此页面尚未保存到您的设备。最近阅读过的页面仍可查看：", "重试", "暂无已保存的页面。"],
+};
+const lang = location.pathname.split('/')[1];
+const [title, text, retry, none] = STRINGS[lang] || STRINGS.en;
+document.documentElement.lang = STRINGS[lang] ? (lang === 'zh' ? 'zh-Hans' : lang) : 'en';
+document.getElementById('title').textContent = title;
+document.title = title + ' · AI News Daily';
+document.getElementById('text').textContent = text;
+document.getElementById('retry').textContent = retry;
+// Same light/dark choice as the site (PaperMod keeps it in localStorage).
+let pref = null;
+try { pref = localStorage.getItem('pref-theme'); } catch (e) {}
+if (pref === 'dark' || (pref !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)) {
+  document.documentElement.classList.add('dark');
+}
+
+(async () => {
+  const list = document.getElementById('saved');
+  if ('caches' in window) {
+    for (const name of await caches.keys()) {
+      if (!name.startsWith('ainews-pages-')) continue;
+      const cache = await caches.open(name);
+      for (const request of (await cache.keys()).reverse()) {
+        if (new URL(request.url).pathname.endsWith('/index.json')) continue;
+        const response = await cache.match(request);
+        if (!response) continue; // Another tab may have evicted this page.
+        const html = await response.text();
+        const link = document.createElement('a');
+        link.href = request.url;
+        const title = new DOMParser().parseFromString(html, 'text/html').title;
+        link.textContent = title.replace(/ \| AI News Daily$/, '') || new URL(request.url).pathname;
+        const item = document.createElement('li');
+        item.appendChild(link);
+        list.appendChild(item);
+      }
+    }
+  }
+  if (!list.children.length) {
+    document.getElementById('text').textContent = none;
+  }
+})();
+</script>
+</body>
+</html>

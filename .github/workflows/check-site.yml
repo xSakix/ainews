@@ -7,7 +7,8 @@ on:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
+    # Match the pinned browser tooling; ubuntu-latest may change underneath it.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
@@ -19,6 +20,12 @@ jobs:
       - name: Check LinkedIn newsletter editions
         run: python3 scripts/check_linkedin.py
 
+      - name: Check service worker syntax
+        run: node --check static/sw.js
+
+      - name: Check service worker caching behavior
+        run: node --test scripts/test_sw.cjs
+
       - name: Install Hugo
         env:
           HUGO_VERSION: 0.148.2   # keep in step with the Cloudflare build
@@ -28,3 +35,16 @@ jobs:
 
       - name: Build
         run: hugo --minify --panicOnWarning
+
+      - name: Check the site is installable as an app
+        run: python3 scripts/check_pwa.py
+
+      - name: Install browser test tools outside the repository
+        run: |
+          npm install --prefix "$RUNNER_TEMP/pwa-browser" --no-package-lock playwright@1.56.1
+          "$RUNNER_TEMP/pwa-browser/node_modules/.bin/playwright" install --with-deps chromium
+
+      - name: Check installability and offline reading in every edition
+        run: |
+          hugo --minify --panicOnWarning --baseURL http://localhost:8765/ --destination "$RUNNER_TEMP/pwa-site"
+          NODE_PATH="$RUNNER_TEMP/pwa-browser/node_modules" node scripts/test_pwa_browser.cjs "$RUNNER_TEMP/pwa-site"

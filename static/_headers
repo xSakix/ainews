@@ -8,6 +8,10 @@
 /images/*
   Cache-Control: public, max-age=604800
 
+# Service worker: always revalidate, so a fix reaches readers on their next visit.
+/sw.js
+  Cache-Control: no-cache
+
 # Machine-readable copies for AI tools: crawlable, but kept out of search
 # results so they do not compete with the HTML pages.
 /posts/:slug/index.md

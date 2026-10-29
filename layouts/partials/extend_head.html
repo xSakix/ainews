@@ -14,3 +14,8 @@
 <meta name="ai-generated" content="true">
 <meta name="ai-disclosure" content="{{ site.Params.author }}">
 {{- end }}
+
+{{- /* Web app manifest of this page's edition (see docs/pwa-plan.md). */}}
+{{- with site.Home.OutputFormats.Get "manifest" }}
+<link rel="manifest" href="{{ .RelPermalink }}">
+{{- end }}

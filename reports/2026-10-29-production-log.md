@@ -25,6 +25,10 @@ Top stories: Gemini 4 Carbon, GitHub capacity, DAYJOB: Tax, latent world models 
 
 Readability edit: complete; meaning and sources checked
 
+content/posts/a-world-model-can-succeed-without-learning-the-world.sk.md
+
+Readability edit: complete; meaning and sources checked
+
 ## Translation notes
 
 content/posts/ai-daily-digest-for-29-october-2026.sk.md

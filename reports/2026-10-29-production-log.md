@@ -24,3 +24,9 @@ The fifth top-story slot went to the Lao Gan Ma story rather than another capabi
 Top stories: Gemini 4 Carbon, GitHub capacity, DAYJOB: Tax, latent world models and Lao Gan Ma. The five primary sources were opened directly. Carbon's benchmark and safety figures remain vendor claims; DAYJOB is a vendor benchmark; the Lao Gan Ma staffing claim remains disputed.
 
 Readability edit: complete; meaning and sources checked
+
+## Translation notes
+
+content/posts/ai-daily-digest-for-29-october-2026.sk.md
+
+Readability edit: complete; meaning and sources checked

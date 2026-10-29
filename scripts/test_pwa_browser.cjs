@@ -39,8 +39,10 @@ const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
       articles.push({url: article, title});
       console.log('INSTALLABLE', edition || 'en', 'article cached');
     }
-    await page.goto(base + '/sk/search/');
+    await page.goto(base + '/sk/search/', { waitUntil: 'networkidle' });
     await page.locator('#searchInput').fill('AI');
+    // PaperMod searches on keyup, whereas Playwright.fill only fires input.
+    await page.locator('#searchInput').press('End');
     await page.waitForFunction(async () => !!await caches.match(new URL('/sk/index.json', location.origin).href));
     await page.waitForFunction(() => document.querySelectorAll('#searchResults li').length > 0);
     server.kill(); await once(server, 'exit');
@@ -57,8 +59,9 @@ const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
       await page.waitForFunction(() => document.querySelectorAll('#saved li').length >= 14);
       console.log('OFFLINE', edition || 'en', 'home/article/localized fallback OK');
     }
-    await page.goto(base + '/sk/search/');
+    await page.goto(base + '/sk/search/', { waitUntil: 'networkidle' });
     await page.locator('#searchInput').fill('AI');
+    await page.locator('#searchInput').press('End');
     await page.waitForFunction(() => document.querySelectorAll('#searchResults li').length > 0);
     console.log('OFFLINE SEARCH OK');
     assert.deepEqual(jsErrors, []);

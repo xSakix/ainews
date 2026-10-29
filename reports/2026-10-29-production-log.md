@@ -18,3 +18,9 @@ All eight Claude desk briefings were present. No GPT fallback desk was needed. D
 | Fly-connectome sensorimotor behaviour | 2 | 1 | 2 | 2 | 2 | 9 | Capability |
 
 The fifth top-story slot went to the Lao Gan Ma story rather than another capability paper so that the set spans all three lenses and carries a labour consequence. The Copilot pricing change remains in Economy and work because the lead set already has three high-consequence stories when DAYJOB is read through professional review work.
+
+## English digest
+
+Top stories: Gemini 4 Carbon, GitHub capacity, DAYJOB: Tax, latent world models and Lao Gan Ma. The five primary sources were opened directly. Carbon's benchmark and safety figures remain vendor claims; DAYJOB is a vendor benchmark; the Lao Gan Ma staffing claim remains disputed.
+
+Readability edit: complete; meaning and sources checked

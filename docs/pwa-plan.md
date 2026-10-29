@@ -1,12 +1,37 @@
 # Plan: install AI News Daily as an Android app (PWA)
 
 **For:** the agent implementing this (Sonnet 5.5 or GPT).
-**Status:** planned, not implemented. Every file below was built and tested on
+**Status:** implemented on the PWA feature branch. The reference below was built and tested on
 2026-10-29 against Hugo 0.148.2 extended (the CI version) and headless
 Chromium. All 7 editions produced a manifest, Chrome's
 `Page.getInstallabilityErrors` came back empty, and reading offline worked.
 Copy the reference code as given; don't redesign it. If something here turns
 out to be wrong, fix it and note the change in your PR description.
+
+## Implementation notes (2026-10-29)
+
+The manifests, icons, worker, offline page and build checks are implemented.
+Small corrections to the reference worker preserve the specified behavior:
+
+- Serialize and bound every cache write, including activation and search;
+  move revisited pages to the end so eviction keeps recently read pages.
+- Leave direct navigation to RSS, Markdown and other file URLs on the network.
+- Keep successful network responses usable if writing to storage fails.
+- Handle registration failure and cache entries removed by another tab;
+  localize the offline document title as well as the visible heading.
+
+The build check also verifies edition identities, language, theme, shortcuts,
+and manifest links and worker registration on all rendered HTML pages.
+`scripts/test_sw.cjs` adds dependency-free worker regression tests.
+`scripts/test_pwa_browser.cjs` extends step 10 to all seven editions and offline
+search. Unlike the scratch-only reference test, it is committed and run in CI:
+the implementation workspace prohibits the sockets needed to launch Chrome.
+Playwright is pinned and installed outside the repository by CI.
+
+Local validation: Hugo 0.148.2 extended builds without warnings; the seven-edition
+PWA check, existing post/newsletter checks and seven worker tests pass.
+Deployment header checks and installation on a physical Android phone remain
+post-merge checks for the site owner, as described in step 11.
 
 ## What readers get
 

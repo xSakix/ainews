@@ -376,7 +376,18 @@ Noticias de IA con fuentes verificadas, cada mañana. El resumen diario reúne t
   isPlainText = true
   rel         = "alternate"
 
+# Web app manifest, one per edition (/manifest.webmanifest, /sk/manifest.webmanifest, ...)
+# so the site can be installed as an app; see docs/pwa-plan.md.
+[mediaTypes."application/manifest+json"]
+  suffixes = ["webmanifest"]
+
+[outputFormats.manifest]
+  mediaType   = "application/manifest+json"
+  baseName    = "manifest"
+  isPlainText = true
+  notAlternative = true
+
 [outputs]
-  home    = ["HTML", "RSS", "JSON", "llms", "llmsfull"]
+  home    = ["HTML", "RSS", "JSON", "llms", "llmsfull", "manifest"]
   section = ["HTML", "RSS"]
   page    = ["HTML", "markdown"]

@@ -1,0 +1,13 @@
+{{- /* Service worker: offline reading and "Install app" (see docs/pwa-plan.md).
+       Production builds only, so `hugo server` never installs one. */ -}}
+{{- if hugo.IsProduction }}
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('{{ "sw.js" | relURL }}', { scope: '{{ "/" | relURL }}' }).catch(function () {
+        // Reading online still works when offline storage is unavailable.
+      });
+    });
+  }
+</script>
+{{- end }}

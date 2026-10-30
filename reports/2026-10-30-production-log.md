@@ -28,3 +28,11 @@ The lead remains the merged Alphabet and Reddit story. It has the broadest immed
 Opened the primary or first-hand sources for all five top stories: Mistral's release post and model card, the Not One Belief preprint, YC Labs' experiment report and data, and WIRED's report with the named company response. Fortune's article was not reachable in the source reader, so the market figures use Claude's briefing entry, which recorded the article and its source distinctions. The related Reddit earnings report supplies the second half of the lead.
 
 Readability edit: complete; meaning and sources checked
+
+## Translation notes
+
+### Denný prehľad AI – 30. októbra 2026
+
+Translated the final English digest with identical section order, paragraph structure, figures, attributions and source URLs. The separate Slovak readability pass replaced literal or compressed phrasing in the YC Labs, J++, GitHub Automations, prompting, SafeAgents and robot-import passages. Terminology preserves “open-weight” as „model s otvorenými váhami“ and uses „národná bezpečnosť“ rather than a generic security label.
+
+Readability edit: complete; meaning and sources checked

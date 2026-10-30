@@ -11,3 +11,6 @@ Checked all paragraphs, headings, figures, references, URLs, date and tags again
 
 ## googles-ai-answers-sell-for-less-and-the-market-noticed.nl.md (missing)
 Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.
+
+## a-novelty-judge-changed-its-mind-with-the-prompt.nl.md (missing)
+Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.

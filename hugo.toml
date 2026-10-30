@@ -86,7 +86,7 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
         Content = """
 Source-checked AI news, every morning. The daily digest covers everything worth knowing: new models from labs worldwide, research, what people are building, local models and agents, prompting techniques, essays and community discussion, each item with a link to its primary source. Two articles go deeper: each tells one story of the day in full, one written by Claude and one by GPT, with a list of the sources it draws on.
 
-[How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [For AI assistants](/llms.txt)
+[How we work](/about/) · [Archive](/archives/) · [RSS feed](/index.xml) · [Install the app](/install/) · [For AI assistants](/llms.txt)
 
 Other editions: [Slovenčina](/sk/) · [Nederlands](/nl/) · [Français](/fr/) · [Deutsch](/de/) · [Español](/es/) · [简体中文](/zh/)
 """
@@ -128,7 +128,7 @@ Other editions: [Slovenčina](/sk/) · [Nederlands](/nl/) · [Français](/fr/) �
         Content = """
 Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Denný prehľad prináša všetko podstatné: nové modely z laboratórií z celého sveta, výskum, čo ľudia tvoria, lokálne modely a agentov, techniky promptovania, eseje a diskusie komunity, pri každej správe s odkazom na primárny zdroj. Dva články idú do hĺbky: každý vyrozpráva celý jeden príbeh dňa, jeden píše Claude a druhý GPT, so zoznamom zdrojov, z ktorých čerpá. Slovenské vydanie vzniká prekladom anglických článkov pomocou AI.
 
-[Ako pracujeme](/sk/about/) · [Archív](/sk/archives/) · [RSS kanál](/sk/index.xml) · [English edition](/)
+[Ako pracujeme](/sk/about/) · [Archív](/sk/archives/) · [RSS kanál](/sk/index.xml) · [Nainštalujte si aplikáciu](/sk/install/) · [English edition](/)
 """
       [[languages.sk.params.socialIcons]]
         name  = "linkedin"
@@ -172,7 +172,7 @@ Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Denný prehľ
         Content = """
 AI-nieuws met gecontroleerde bronnen, elke ochtend. Het dagelijkse overzicht brengt alles wat het weten waard is: nieuwe modellen van labs over de hele wereld, onderzoek, wat mensen bouwen, lokale modellen en agents, prompttechnieken, essays en discussies in de community, elk bericht met een link naar de primaire bron. Twee artikelen gaan dieper: elk vertelt één verhaal van de dag volledig, het ene geschreven door Claude, het andere door GPT, met een lijst van de bronnen waarop het steunt. De Nederlandse editie is een AI-vertaling van de Engelse artikelen.
 
-[Hoe we werken](/nl/about/) · [Archief](/nl/archives/) · [RSS-feed](/nl/index.xml) · [English edition](/)
+[Hoe we werken](/nl/about/) · [Archief](/nl/archives/) · [RSS-feed](/nl/index.xml) · [Installeer de app](/nl/install/) · [English edition](/)
 """
       [[languages.nl.params.socialIcons]]
         name = "substack"
@@ -212,7 +212,7 @@ AI-nieuws met gecontroleerde bronnen, elke ochtend. Het dagelijkse overzicht bre
         Content = """
 L'actualité de l'IA avec des sources vérifiées, chaque matin. La synthèse quotidienne rassemble tout ce qui compte : nouveaux modèles des laboratoires du monde entier, recherche, ce que les gens construisent, modèles et agents locaux, techniques de prompt, essais et discussions de la communauté, chaque information avec un lien vers sa source primaire. Deux articles vont plus loin : chacun raconte en entier une histoire du jour, l'un écrit par Claude, l'autre par GPT, avec la liste des sources sur lesquelles il s'appuie. L'édition française est traduite des articles anglais par l'IA.
 
-[Notre méthode](/fr/about/) · [Archives](/fr/archives/) · [Flux RSS](/fr/index.xml) · [English edition](/)
+[Notre méthode](/fr/about/) · [Archives](/fr/archives/) · [Flux RSS](/fr/index.xml) · [Installer l'application](/fr/install/) · [English edition](/)
 """
       [[languages.fr.params.socialIcons]]
         name = "substack"
@@ -252,7 +252,7 @@ L'actualité de l'IA avec des sources vérifiées, chaque matin. La synthèse qu
         Content = """
 KI-Nachrichten mit geprüften Quellen, jeden Morgen. Der Tagesüberblick bringt alles Wichtige: neue Modelle von Laboren weltweit, Forschung, was Leute bauen, lokale Modelle und Agenten, Prompting-Techniken, Essays und Diskussionen in der Community, jede Meldung mit einem Link zur Primärquelle. Zwei Artikel gehen tiefer: Jeder erzählt eine Geschichte des Tages vollständig, einer geschrieben von Claude, einer von GPT, mit einer Liste der Quellen, auf die er sich stützt. Die deutsche Ausgabe ist eine KI-Übersetzung der englischen Artikel.
 
-[So arbeiten wir](/de/about/) · [Archiv](/de/archives/) · [RSS-Feed](/de/index.xml) · [English edition](/)
+[So arbeiten wir](/de/about/) · [Archiv](/de/archives/) · [RSS-Feed](/de/index.xml) · [App installieren](/de/install/) · [English edition](/)
 """
       [[languages.de.params.socialIcons]]
         name = "substack"
@@ -292,7 +292,7 @@ KI-Nachrichten mit geprüften Quellen, jeden Morgen. Der Tagesüberblick bringt 
         Content = """
 Noticias de IA con fuentes verificadas, cada mañana. El resumen diario reúne todo lo que importa: nuevos modelos de laboratorios de todo el mundo, investigación, lo que la gente construye, modelos y agentes locales, técnicas de prompting, ensayos y debates de la comunidad, cada noticia con un enlace a su fuente primaria. Dos artículos van más a fondo: cada uno cuenta una historia del día completa, uno escrito por Claude y otro por GPT, con la lista de las fuentes en las que se basa. La edición en español es una traducción con IA de los artículos en inglés.
 
-[Cómo trabajamos](/es/about/) · [Archivo](/es/archives/) · [Canal RSS](/es/index.xml) · [English edition](/)
+[Cómo trabajamos](/es/about/) · [Archivo](/es/archives/) · [Canal RSS](/es/index.xml) · [Instala la app](/es/install/) · [English edition](/)
 """
       [[languages.es.params.socialIcons]]
         name = "substack"
@@ -332,7 +332,7 @@ Noticias de IA con fuentes verificadas, cada mañana. El resumen diario reúne t
         Content = """
 每天早上，经过来源核实的 AI 新闻。每日简报汇集所有值得了解的内容：全球各大实验室的新模型、研究、大家在做的项目、本地模型与智能体、提示词技巧、深度文章与社区讨论，每条消息都附有一手来源链接。两篇文章更进一步：每篇完整讲述当日的一则故事，一篇由 Claude 撰写，一篇由 GPT 撰写，并附上所依据的来源列表。中文版由 AI 从英文文章翻译而来。
 
-[我们的工作方式](/zh/about/) · [归档](/zh/archives/) · [RSS 订阅](/zh/index.xml) · [English edition](/)
+[我们的工作方式](/zh/about/) · [归档](/zh/archives/) · [RSS 订阅](/zh/index.xml) · [安装应用](/zh/install/) · [English edition](/)
 """
       [[languages.zh.params.socialIcons]]
         name = "substack"

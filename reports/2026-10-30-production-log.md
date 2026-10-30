@@ -29,6 +29,14 @@ Opened the primary or first-hand sources for all five top stories: Mistral's rel
 
 Readability edit: complete; meaning and sources checked
 
+## LinkedIn edition
+
+content/linkedin/2026-10-30.sk.md: Alphabet stratil 482 miliárd dolárov za jediný deň. Condenses all five top stories in digest order and includes six distinct further items covering work, pricing, releases, research and agent tooling.
+
+The separate Slovak readability pass clarified the opening, replaced a compressed description of Reddit's login change, restored the three-week reinforcement-learning detail, corrected the Claude Code heading and made the Minecraft result idiomatic. Title, description, share text, headings, paragraphs and bullets were reviewed against the Slovak digest before strict validation.
+
+Readability edit: complete; meaning and sources checked
+
 ## Translation notes
 
 ### Denný prehľad AI – 30. októbra 2026

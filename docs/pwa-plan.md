@@ -722,7 +722,10 @@ a service worker the site is still installable, it just stops working offline.
 ## Maintenance
 
 - **Adding an edition:** the manifest, shortcuts and CI check pick it up from
-  `hugo.toml`. Add its strings to `STRINGS` in `static/offline/index.html`.
+  `hugo.toml`. Add its strings to `STRINGS` in `static/offline/index.html`,
+  its edition and offline heading to `scripts/test_pwa_browser.cjs`, and an
+  install page (`content/install.<lang>.md` plus the `install_*` strings in
+  `i18n/<lang>.yaml`).
 - **Changing caching logic in `sw.js`:** bump `VERSION`. Old caches are deleted
   on activate.
 - **Changing the logo:** regenerate the two icons with the step 1 snippet.
@@ -732,6 +735,9 @@ a service worker the site is still installable, it just stops working offline.
 - **Push notification when the morning digest is out.** This needs VAPID keys,
   a subscription store and a sender (for example a Cloudflare Worker, plus a
   hook in the daily pipeline). It's a separate project.
-- **In-page "Install app" button** via `beforeinstallprompt` (Chromium only).
+- **In-page "Install app" button:** done, as the install page to share with
+  readers: `/install/` in every edition (`layouts/_default/install.html`).
+  Chrome, Edge and Samsung Internet get a button that opens the install
+  prompt once the browser allows it; other browsers, and iPhone, get steps.
 - **Google Play listing** as a Trusted Web Activity (Bubblewrap or PWABuilder)
   plus `/.well-known/assetlinks.json`. This builds on this PWA unchanged.

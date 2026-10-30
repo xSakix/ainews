@@ -12,3 +12,19 @@
   translation: 'Dit artikel is met AI onderzocht en geschreven volgens gepubliceerde redactionele regels en met AI naar het Nederlands vertaald. <a href="{{ .about }}">Hoe we werken en wat de labels betekenen</a>.'
 - id: follow_aria
   translation: "Volg AI News Daily"
+- id: install_button
+  translation: "App installeren"
+- id: install_steps
+  translation: "Tik in Chrome rechtsboven op <strong>⋮</strong> en daarna op <strong>App installeren</strong>. Zie je in plaats daarvan <strong>Toevoegen aan startscherm</strong>, tik daarop en kies <strong>Installeren</strong>."
+- id: install_steps_other
+  translation: "Open in andere browsers het browsermenu en zoek naar <strong>Installeren</strong> of <strong>Toevoegen aan startscherm</strong>."
+- id: install_steps_ios
+  translation: "Open deze pagina op iPhone of iPad in Safari, tik op <strong>Deel</strong> en daarna op <strong>Zet op beginscherm</strong>."
+- id: install_done
+  translation: "Geïnstalleerd. Je vindt <strong>AI News</strong> op je startscherm."
+- id: install_installed
+  translation: "De app is al geïnstalleerd op dit apparaat. Je vindt hem als <strong>AI News</strong> op je startscherm."
+- id: install_in_app
+  translation: "Je leest AI News Daily nu in de app. Je hoeft verder niets te doen."
+- id: install_edition
+  translation: "De app opent de Nederlandse editie. Andere edities:"

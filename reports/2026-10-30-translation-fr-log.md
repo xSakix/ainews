@@ -14,3 +14,6 @@ Checked all paragraphs, headings, figures, references, URLs, date and tags again
 
 ## a-world-model-can-succeed-without-learning-the-world.fr.md (missing)
 Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.
+
+## lao-gan-ma-s-ai-boast-meets-a-denial-and-a-headcount.fr.md (missing)
+Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.

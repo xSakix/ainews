@@ -23,3 +23,6 @@ Checked all paragraphs, headings, figures, references, URLs, date and tags again
 
 ## ai-is-repricing-schooling-and-experience-a-us-wage-study.fr.md (missing)
 Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.
+
+## a-novelty-judge-changed-its-mind-with-the-prompt.fr.md (missing)
+Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.

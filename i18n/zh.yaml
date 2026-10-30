@@ -12,3 +12,19 @@
   translation: "本文由 AI 按照公开的编辑规则检索和撰写，并由 AI 译为中文。<a href=\"{{ .about }}\">我们的工作方式与标签含义</a>。"
 - id: follow_aria
   translation: "关注 AI News Daily"
+- id: install_button
+  translation: "安装应用"
+- id: install_steps
+  translation: "在 Chrome 中，点按右上角的 <strong>⋮</strong>，然后点按<strong>安装应用</strong>。如果看到的是<strong>添加到主屏幕</strong>，请点按它并选择<strong>安装</strong>。"
+- id: install_steps_other
+  translation: "在其他浏览器中，打开浏览器菜单，查找<strong>安装</strong>或<strong>添加到主屏幕</strong>。"
+- id: install_steps_ios
+  translation: "在 iPhone 和 iPad 上，请用 Safari 打开此页面，点按<strong>共享</strong>，然后点按<strong>添加到主屏幕</strong>。"
+- id: install_done
+  translation: "安装完成。您可以在主屏幕上找到 <strong>AI News</strong>。"
+- id: install_installed
+  translation: "此设备上已安装该应用，您可以在主屏幕上找到 <strong>AI News</strong>。"
+- id: install_in_app
+  translation: "您正在应用中阅读 AI News Daily，无需其他操作。"
+- id: install_edition
+  translation: "该应用打开中文版。其他版本："

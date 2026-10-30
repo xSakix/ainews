@@ -5,8 +5,9 @@ Usage:
     hugo --minify && python3 scripts/check_pwa.py [PUBLIC_DIR]
 
 For every edition in hugo.toml: the manifest exists, is valid JSON, has the
-fields and icons Chrome needs, every icon it names was published, and the
-edition's home page links it. Also checks the service worker and its offline
+fields and icons Chrome needs, every icon it names was published, the
+edition's home page links it, and the edition has an install page (/install/,
+the link shared with readers). Also checks the service worker and its offline
 page were published. Exits 1 if any check fails.
 """
 import json
@@ -73,6 +74,8 @@ for edition in editions:
     link = MANIFEST_LINK.search((home / "index.html").read_text(encoding="utf-8"))
     if not link or urlparse(link.group(1)).path != expected:
         errors.append(f"{home / 'index.html'}: does not link {expected}")
+    if not (home / "install" / "index.html").is_file():
+        errors.append(f"{home / 'install/index.html'}: missing (the page shared with readers)")
 
 # Check article and section pages too; a home-only check misses a broken hook.
 for page in PUBLIC.rglob("*.html"):

@@ -8,3 +8,20 @@
   translation: 'This article is AI-generated: researched and written by AI models under published editorial rules. <a href="{{ .about }}">How we work and what the labels mean</a>.'
 - id: follow_aria
   translation: "Follow AI News Daily"
+# Install page (layouts/_default/install.html).
+- id: install_button
+  translation: "Install app"
+- id: install_steps
+  translation: "In Chrome, tap <strong>⋮</strong> at the top right, then <strong>Install app</strong>. If you see <strong>Add to Home screen</strong> instead, tap it and choose <strong>Install</strong>."
+- id: install_steps_other
+  translation: "In other browsers, open the browser menu and look for <strong>Install</strong> or <strong>Add to Home screen</strong>."
+- id: install_steps_ios
+  translation: "On iPhone and iPad, open this page in Safari, tap <strong>Share</strong>, then <strong>Add to Home Screen</strong>."
+- id: install_done
+  translation: "Installed. Look for <strong>AI News</strong> on your home screen."
+- id: install_installed
+  translation: "The app is already installed on this device. Look for <strong>AI News</strong> on your home screen."
+- id: install_in_app
+  translation: "You're reading AI News Daily in the app. There's nothing more to do."
+- id: install_edition
+  translation: "The app opens the English edition. Other editions:"

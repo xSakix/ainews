@@ -12,3 +12,19 @@
   translation: "Cet article a été recherché et rédigé par l'IA selon des règles éditoriales publiées, puis traduit en français par l'IA. <a href=\"{{ .about }}\">Notre méthode et la signification des labels</a>."
 - id: follow_aria
   translation: "Suivre AI News Daily"
+- id: install_button
+  translation: "Installer l'application"
+- id: install_steps
+  translation: "Dans Chrome, touchez <strong>⋮</strong> en haut à droite, puis <strong>Installer l'application</strong>. Si vous voyez plutôt <strong>Ajouter à l'écran d'accueil</strong>, touchez-le et choisissez <strong>Installer</strong>."
+- id: install_steps_other
+  translation: "Dans les autres navigateurs, ouvrez le menu du navigateur et cherchez <strong>Installer</strong> ou <strong>Ajouter à l'écran d'accueil</strong>."
+- id: install_steps_ios
+  translation: "Sur iPhone et iPad, ouvrez cette page dans Safari, touchez <strong>Partager</strong>, puis <strong>Sur l'écran d'accueil</strong>."
+- id: install_done
+  translation: "C'est installé. Vous trouverez <strong>AI News</strong> sur votre écran d'accueil."
+- id: install_installed
+  translation: "L'application est déjà installée sur cet appareil. Vous la trouverez sur votre écran d'accueil sous le nom <strong>AI News</strong>."
+- id: install_in_app
+  translation: "Vous lisez AI News Daily dans l'application. Il n'y a rien d'autre à faire."
+- id: install_edition
+  translation: "L'application ouvre l'édition française. Autres éditions :"

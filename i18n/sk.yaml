@@ -12,3 +12,19 @@
   translation: 'Článok vyhľadala a napísala AI podľa zverejnených redakčných pravidiel a do slovenčiny ho preložila AI. <a href="{{ .about }}">Ako pracujeme a čo znamenajú označenia</a>.'
 - id: follow_aria
   translation: "Sledujte AI News Daily"
+- id: install_button
+  translation: "Inštalovať aplikáciu"
+- id: install_steps
+  translation: "V Chrome ťuknite na <strong>⋮</strong> vpravo hore a potom na <strong>Inštalovať aplikáciu</strong>. Ak namiesto toho vidíte <strong>Pridať na plochu</strong>, ťuknite naň a zvoľte <strong>Inštalovať</strong>."
+- id: install_steps_other
+  translation: "V iných prehliadačoch otvorte ponuku prehliadača a hľadajte <strong>Inštalovať</strong> alebo <strong>Pridať na plochu</strong>."
+- id: install_steps_ios
+  translation: "Na iPhone a iPade otvorte túto stránku v Safari, ťuknite na <strong>Zdieľať</strong> a potom na <strong>Pridať na plochu</strong>."
+- id: install_done
+  translation: "Nainštalované. Aplikáciu <strong>AI News</strong> nájdete na ploche."
+- id: install_installed
+  translation: "Aplikácia je v tomto zariadení už nainštalovaná. Nájdete ju na ploche ako <strong>AI News</strong>."
+- id: install_in_app
+  translation: "AI News Daily práve čítate v aplikácii. Nič ďalšie netreba robiť."
+- id: install_edition
+  translation: "Aplikácia sa otvorí v slovenskom vydaní. Ďalšie vydania:"

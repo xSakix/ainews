@@ -171,3 +171,24 @@
     font-size: 15px;
     color: var(--secondary);
 }
+
+/* Install page (/install/). */
+.install-icon {
+    margin-bottom: 16px;
+    border-radius: 22%;
+    box-shadow: 0 0 0 1px var(--border);  /* keeps the dark icon visible in dark mode */
+}
+.install-button {
+    margin-bottom: var(--content-gap);
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--theme);
+    background: var(--primary);
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+.install-edition {
+    font-size: 0.9em;
+    color: var(--secondary);
+}

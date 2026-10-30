@@ -1,0 +1,83 @@
+{{- /* Install page (/install/, /sk/install/, ...): a link to share with
+       readers who want the app. Chrome, Edge and Samsung Internet offer an
+       install prompt, which the button opens; other browsers get the steps.
+       Installing here installs this edition (the page links its manifest). */ -}}
+{{- define "main" }}
+
+<article class="post-single install">
+  <header class="post-header">
+    <img class="install-icon" src="{{ "icons/icon-192.png" | relURL }}" width="96" height="96" alt="">
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- with .Description }}
+    <div class="post-description">{{ . }}</div>
+    {{- end }}
+  </header>
+
+  <div class="post-content">
+    <div id="install-ready" hidden>
+      <button id="install-button" class="install-button" type="button">{{ i18n "install_button" }}</button>
+    </div>
+    <div id="install-steps">
+      <div id="install-steps-android">
+        <p>{{ i18n "install_steps" | safeHTML }}</p>
+        <p>{{ i18n "install_steps_other" | safeHTML }}</p>
+      </div>
+      <p id="install-steps-ios" hidden>{{ i18n "install_steps_ios" | safeHTML }}</p>
+    </div>
+    <p id="install-done" hidden>{{ i18n "install_done" | safeHTML }}</p>
+    <p id="install-installed" hidden>{{ i18n "install_installed" | safeHTML }}</p>
+    <p id="install-in-app" hidden>{{ i18n "install_in_app" }}</p>
+
+    <p class="install-edition">{{ i18n "install_edition" }}
+      {{- range $i, $t := .Translations }}{{ if $i }} ·{{ end }}
+      <a href="{{ .RelPermalink }}" hreflang="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+      {{- end }}
+    </p>
+  </div>
+</article>
+
+<script>
+  (function () {
+    var states = ['install-steps', 'install-ready', 'install-done', 'install-installed', 'install-in-app'];
+    function show(id) {
+      states.forEach(function (state) { document.getElementById(state).hidden = state !== id; });
+    }
+    if (matchMedia('(display-mode: standalone)').matches || navigator.standalone === true) {
+      show('install-in-app');
+      return;
+    }
+    // iPhone and iPad have no install prompt; iPadOS reports itself as a Mac with touch.
+    var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+      (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    document.getElementById('install-steps-android').hidden = ios;
+    document.getElementById('install-steps-ios').hidden = !ios;
+
+    // The browser fires this once the site can be installed and the reader
+    // has engaged with it; until then, or if it never comes, the steps stay.
+    var deferred = null;
+    window.addEventListener('beforeinstallprompt', function (event) {
+      event.preventDefault();
+      deferred = event;
+      show('install-ready');
+    });
+    document.getElementById('install-button').addEventListener('click', function () {
+      if (!deferred) return;
+      var event = deferred;
+      deferred = null;
+      event.prompt();
+      event.userChoice.then(function (choice) {
+        show(choice.outcome === 'accepted' ? 'install-done' : 'install-steps');
+      });
+    });
+    window.addEventListener('appinstalled', function () { show('install-done'); });
+    // Chrome can tell whether this edition is already installed, because its
+    // manifest names itself under related_applications.
+    if (navigator.getInstalledRelatedApps) {
+      navigator.getInstalledRelatedApps().then(function (apps) {
+        if (apps.length && !deferred) show('install-installed');
+      }).catch(function () {});
+    }
+  })();
+</script>
+
+{{- end }}{{/* end main */}}

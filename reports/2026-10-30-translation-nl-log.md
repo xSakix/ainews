@@ -8,3 +8,6 @@ Checked all 131 blocks, headings, figures, URLs, date and tags against English. 
 
 ## a-models-confidence-was-not-one-belief.nl.md (missing)
 Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.
+
+## googles-ai-answers-sell-for-less-and-the-market-noticed.nl.md (missing)
+Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.

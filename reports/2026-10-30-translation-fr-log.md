@@ -11,3 +11,6 @@ Checked all paragraphs, headings, figures, references, URLs, date and tags again
 
 ## ai-daily-digest-for-29-october-2026.fr.md (missing)
 Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.
+
+## a-world-model-can-succeed-without-learning-the-world.fr.md (missing)
+Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.

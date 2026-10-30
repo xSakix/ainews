@@ -4,6 +4,8 @@ Primary sources: https://fortune.com/2026/10/29/alphabet-worst-day-google-search
 Why this story: A market move with a stated cause (lower monetisation of AI Mode, query growth at a five-year high) and numbers on both sides, plus Reddit as a second company repricing around AI search.
 Status: published: content/posts/googles-ai-answers-sell-for-less-and-the-market-noticed.md
 
+Slovak: published: content/posts/googles-ai-answers-sell-for-less-and-the-market-noticed.sk.md
+
 ## Notes
 Opened: Fortune, The Register, TechCrunch, The Verge, Kadoa, Pew Research Center short read, Cloudflare blog. Not reached: Alphabet's own earnings release (403); its figures are taken from Fortune and The Register. OpenAI, Macmillan and other economy items not used.
 Sources differ: The Register (written on results day) gives a fall of almost ten percent and search revenue of $63.25 billion; Fortune gives the Thursday close of -12.6% and $63.35 billion. The article uses Fortune and says so.

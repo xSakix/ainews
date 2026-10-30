@@ -36,3 +36,9 @@ Readability edit: complete; meaning and sources checked
 Translated the final English digest with identical section order, paragraph structure, figures, attributions and source URLs. The separate Slovak readability pass replaced literal or compressed phrasing in the YC Labs, J++, GitHub Automations, prompting, SafeAgents and robot-import passages. Terminology preserves “open-weight” as „model s otvorenými váhami“ and uses „národná bezpečnosť“ rather than a generic security label.
 
 Readability edit: complete; meaning and sources checked
+
+### Sebaistota modelu nebola jedným presvedčením
+
+Translated the final GPT article with all narrative paragraphs, caveats, figures and reference entries preserved. The separate Slovak readability pass removed a literal use of “payload”, replaced an unnatural verb for fitting a classifier, clarified held-out questions and smoothed the retrieval-gate sentence. The illustrative support-desk framing remains explicitly fictional.
+
+Readability edit: complete; meaning and sources checked

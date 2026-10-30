@@ -20,3 +20,6 @@ Checked all paragraphs, headings, figures, references, URLs, date and tags again
 
 ## ai-daily-digest-for-28-october-2026.fr.md (missing)
 Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.
+
+## ai-is-repricing-schooling-and-experience-a-us-wage-study.fr.md (missing)
+Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.

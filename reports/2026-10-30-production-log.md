@@ -22,3 +22,9 @@ Duplicate review compared candidate titles, opening claims and source URLs again
 Balancing changed the score-only order: the YC Labs work moved into the fifth slot to give the top stories a Practice lens. The worker survey stayed in Economy and work because it measures stated preferences about a possible AI transition rather than an observed AI-driven change. Beyond Belief stayed in Research because three Capability leads would crowd out Practice.
 
 The lead remains the merged Alphabet and Reddit story. It has the broadest immediate consequence for readers, publishers and companies that depend on search traffic, and Claude has already published the full article.
+
+## Digest
+
+Opened the primary or first-hand sources for all five top stories: Mistral's release post and model card, the Not One Belief preprint, YC Labs' experiment report and data, and WIRED's report with the named company response. Fortune's article was not reachable in the source reader, so the market figures use Claude's briefing entry, which recorded the article and its source distinctions. The related Reddit earnings report supplies the second half of the lead.
+
+Readability edit: complete; meaning and sources checked

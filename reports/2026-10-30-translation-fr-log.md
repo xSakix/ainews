@@ -17,3 +17,6 @@ Checked all paragraphs, headings, figures, references, URLs, date and tags again
 
 ## lao-gan-ma-s-ai-boast-meets-a-denial-and-a-headcount.fr.md (missing)
 Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.
+
+## ai-daily-digest-for-28-october-2026.fr.md (missing)
+Checked all paragraphs, headings, figures, references, URLs, date and tags against English; structure and URL occurrences match. Strict validation passed.

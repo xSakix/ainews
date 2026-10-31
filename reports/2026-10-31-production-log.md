@@ -21,7 +21,11 @@ The security incident leads because it combines a confirmed distribution-channel
 
 ## Digest
 
-Status: writing
+Opened the primary or first-hand sources for all five top stories. The Cursor notice and Phorion advisory establish the affected versions, persistence and remediation; Microsoft's model card supplies architecture and benchmark claims; the introspection preprint supplies the intervention design and limits; the ServiceNow and Victorian-lawyer reports supply attributed company and survey figures.
+
+The separate readability pass replaced interface jargon, split a dense benchmark caveat, distinguished a survey from a census claim and made the delimiter technique directly actionable.
+
+Readability edit: complete; meaning and sources checked
 
 ## LinkedIn edition
 

@@ -5,3 +5,6 @@ Checked paragraphs, headings, figures, source URLs, date and tags against Englis
 
 ## a-4b-agent-learned-when-to-click-and-when-to-type.es.md (missing)
 Checked paragraphs, headings, figures, source URLs, date and tags against English. Strict validation passed.
+
+## servicenow-sells-ai-by-shrinking-its-own-payroll.es.md (missing)
+Checked paragraphs, headings, figures, source URLs, date and tags against English. Strict validation passed.

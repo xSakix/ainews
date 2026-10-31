@@ -29,7 +29,11 @@ Readability edit: complete; meaning and sources checked
 
 ## LinkedIn edition
 
-Status: pending
+content/linkedin/2026-10-31.sk.md: Cursor ponúkal napadnuté rozšírenie Claude Code. Condenses all five top stories in digest order and includes six distinct further items covering work, pricing, markets, releases, research and local hardware.
+
+The separate Slovak readability pass removed an unintended implication that Cursor knowingly distributed the malicious build, corrected word order in the ServiceNow share text, clarified the model's terminal channel and made the Cisco bullet read as a concrete test rather than a noun chain. Title, description, share text, headings, paragraphs and bullets were checked against the Slovak digest.
+
+Readability edit: complete; meaning and sources checked
 
 ## Translation notes
 

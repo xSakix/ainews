@@ -33,4 +33,14 @@ Status: pending
 
 ## Translation notes
 
-Status: pending
+### Denný prehľad AI – 31. októbra 2026
+
+Translated the final English digest with identical section order, figures, attributions and source URLs. The separate Slovak readability pass moved the two-run qualifier next to Microsoft's score, clarified the Victorian adoption statistic and replaced compressed wording in the neuron-persona item.
+
+Readability edit: complete; meaning and sources checked
+
+### 4B agent sa naučil, kedy klikať a kedy písať príkazy
+
+Translated the final GPT article with the illustrative framing, benchmark caveats, training figures and reference entries preserved. The separate Slovak readability pass clarified tool routing, replaced a literal rendering of training supervision and tied Microsoft's deployment advice directly to the benchmark's limits.
+
+Readability edit: complete; meaning and sources checked

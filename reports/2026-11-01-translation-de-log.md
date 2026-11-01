@@ -5,3 +5,6 @@ Checked paragraphs, headings, figures, references, date and tags against English
 
 ## an-assistants-memory-gets-noisier-as-it-grows.de.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## labours-share-of-output-hit-a-record-low-ai-one-suspect.de.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

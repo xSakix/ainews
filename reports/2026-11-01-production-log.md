@@ -42,3 +42,9 @@ Readability edit: complete; meaning and sources checked
 - `an-assistants-memory-gets-noisier-as-it-grows.sk.md`: complete. The benchmark terminology, statistical caveats, illustrative framing and all six reference entries match the English article. Stiff formulations around calibration, finite samples and the closing image were rewritten into idiomatic Slovak.
 
 Readability edit: complete; meaning and sources checked
+
+## LinkedIn edition
+
+content/linkedin/2026-11-01.sk.md: Práca dostala z produkcie v USA rekordne málo: 52,8 %. All five top stories appear in digest order, followed by six further items spanning work, infrastructure, releases, research and tools.
+
+Readability edit: complete; meaning and sources checked

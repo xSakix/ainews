@@ -21,7 +21,11 @@ The labour-share story leads because its official series covers the broadest con
 
 ## Digest
 
-Status: pending
+Status: complete
+
+The digest covers all five top stories and every qualifying planned desk item. The top sources were opened again during production. Claims from vendors, preprints, individual builders and community threads are attributed, while paywalled or unconfirmed reports are described only to the extent visible in their briefings. Duplicate underlying events were merged, and the published Claude article topic remains in the standalone digest as required.
+
+Readability edit: complete; meaning and sources checked
 
 ## LinkedIn edition
 

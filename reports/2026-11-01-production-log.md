@@ -33,4 +33,8 @@ Status: pending
 
 ## Translation notes
 
-Status: pending
+Status: in progress
+
+- `ai-daily-digest-for-1-november-2026.sk.md`: complete. URLs, figures, section order, tags and timestamp match the English edition. Technical calques in the AI-coding, orchestration and MoE items were replaced with natural Slovak descriptions.
+
+Readability edit: complete; meaning and sources checked

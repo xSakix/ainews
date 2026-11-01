@@ -33,8 +33,12 @@ Status: pending
 
 ## Translation notes
 
-Status: in progress
+Status: complete
 
 - `ai-daily-digest-for-1-november-2026.sk.md`: complete. URLs, figures, section order, tags and timestamp match the English edition. Technical calques in the AI-coding, orchestration and MoE items were replaced with natural Slovak descriptions.
+
+Readability edit: complete; meaning and sources checked
+
+- `an-assistants-memory-gets-noisier-as-it-grows.sk.md`: complete. The benchmark terminology, statistical caveats, illustrative framing and all six reference entries match the English article. Stiff formulations around calibration, finite samples and the closing image were rewritten into idiomatic Slovak.
 
 Readability edit: complete; meaning and sources checked

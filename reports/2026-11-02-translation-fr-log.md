@@ -5,3 +5,6 @@ Checked paragraphs, headings, figures, references, date and tags against English
 
 ## a-model-can-tell-when-you-are-watching-its-reasoning.fr.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## stellantis-engineers-got-weeks-back-and-work-twice-as-hard.fr.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

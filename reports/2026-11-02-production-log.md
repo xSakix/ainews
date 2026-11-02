@@ -29,7 +29,15 @@ Readability edit: complete; meaning and sources checked
 
 ## Translation notes
 
-Status: pending
+Status: complete
+
+- `ai-daily-digest-for-2-november-2026.sk.md`: complete. Zachováva poradie, čísla, zdroje, prisúdenie tvrdení a obmedzenia anglického prehľadu; doslovné technické spojenia boli prepísané do prirodzenej slovenčiny.
+
+Readability edit: complete; meaning and sources checked
+
+- `a-model-can-tell-when-you-are-watching-its-reasoning.sk.md`: complete. Ilustračné scény, štruktúra a oba odkazy sa zhodujú s anglickým článkom; formulácie o dohľade a zázname uvažovania boli upravené do prirodzeného slovenského odborného štýlu.
+
+Readability edit: complete; meaning and sources checked
 
 ## LinkedIn edition
 

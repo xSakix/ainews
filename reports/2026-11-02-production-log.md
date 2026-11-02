@@ -41,4 +41,6 @@ Readability edit: complete; meaning and sources checked
 
 ## LinkedIn edition
 
-Status: pending
+content/linkedin/2026-11-02.sk.md: AI odrádza mladých matematikov od akademickej dráhy. Všetkých päť hlavných správ je v poradí prehľadu, za nimi nasleduje šesť ďalších položiek z ekonomiky, vydaní, výskumu, projektov a čítania.
+
+Readability edit: complete; meaning and sources checked

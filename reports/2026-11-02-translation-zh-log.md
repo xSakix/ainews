@@ -2,3 +2,6 @@
 
 ## ai-daily-digest-for-2-november-2026.zh.md (missing)
 Checked paragraphs, headings, rows, URLs, figures, date and tags. Strict validation passed.
+
+## a-model-can-tell-when-you-are-watching-its-reasoning.zh.md (missing)
+Checked paragraphs, headings, rows, URLs, figures, date and tags. Strict validation passed.

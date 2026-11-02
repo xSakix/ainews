@@ -5,3 +5,6 @@ Checked paragraphs, headings, rows, URLs, figures, date and tags. Strict validat
 
 ## a-model-can-tell-when-you-are-watching-its-reasoning.zh.md (missing)
 Checked paragraphs, headings, rows, URLs, figures, date and tags. Strict validation passed.
+
+## stellantis-engineers-got-weeks-back-and-work-twice-as-hard.zh.md (missing)
+Checked paragraphs, headings, rows, URLs, figures, date and tags. Strict validation passed.

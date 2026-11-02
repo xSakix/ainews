@@ -21,7 +21,11 @@ The mathematics survey leads because it records a direct consequence for the res
 
 ## Digest
 
-Status: pending
+Status: complete
+
+The digest covers all five top stories and every qualifying planned item. Top sources were reopened during production; preprints, vendor measurements and community reports retain their attribution and caveats. Duplicate underlying events were merged, and the Claude article topic remains in the standalone digest as required.
+
+Readability edit: complete; meaning and sources checked
 
 ## Translation notes
 

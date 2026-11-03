@@ -29,7 +29,7 @@ Readability edit: complete; meaning and sources checked
 
 ## Translation notes
 
-Status: in progress
+Status: complete
 
 Slovak digest: complete. All 77 source URLs, 13 section headings and 171 content blocks match the English original.
 
@@ -41,4 +41,6 @@ Readability edit: complete; meaning and sources checked
 
 ## LinkedIn edition
 
-Status: pending
+content/linkedin/2026-11-03.sk.md: Ľudia z pozícií vystavených AI si hľadajú prácu dlhšie. All five top stories retained in digest order, with six further items.
+
+Readability edit: complete; meaning and sources checked

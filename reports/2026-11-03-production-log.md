@@ -29,7 +29,11 @@ Readability edit: complete; meaning and sources checked
 
 ## Translation notes
 
-Status: pending
+Status: in progress
+
+Slovak digest: complete. All 77 source URLs, 13 section headings and 171 content blocks match the English original.
+
+Readability edit: complete; meaning and sources checked
 
 ## LinkedIn edition
 

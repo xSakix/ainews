@@ -35,6 +35,10 @@ Slovak digest: complete. All 77 source URLs, 13 section headings and 171 content
 
 Readability edit: complete; meaning and sources checked
 
+Slovak GPT article: complete. Structure, attribution, numbers and four source URLs match the English original.
+
+Readability edit: complete; meaning and sources checked
+
 ## LinkedIn edition
 
 Status: pending

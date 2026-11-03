@@ -21,7 +21,11 @@ The labour result leads because it reaches the broadest group and combines a sta
 
 ## Digest
 
-Status: pending
+Status: complete
+
+The digest covers all five top stories and every qualifying planned item. The five lead sources were opened again during production. Preprints, vendor measurements, community reports and unreadable source pages retain their attribution and limitations; duplicate underlying events were merged.
+
+Readability edit: complete; meaning and sources checked
 
 ## Translation notes
 

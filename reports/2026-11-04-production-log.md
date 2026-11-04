@@ -33,6 +33,10 @@ Status: in progress
 
 `ai-daily-digest-for-4-november-2026.sk.md`: translated from the final English digest; paragraph order, headings, figures, dates, tags and source URLs compared. Readability edit: complete; meaning and sources checked.
 
+`frontier-models-lose-track-of-changing-state-in-long-contexts.sk.md`: translated from the final GPT article; narrative blocks, figures, caveats, references, date and tags compared. Readability edit: complete; meaning and sources checked.
+
+Status: complete
+
 ## GPT article
 
 Status: complete

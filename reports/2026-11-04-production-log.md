@@ -29,7 +29,9 @@ Readability edit: complete; meaning and sources checked
 
 ## Translation notes
 
-Status: pending
+Status: in progress
+
+`ai-daily-digest-for-4-november-2026.sk.md`: translated from the final English digest; paragraph order, headings, figures, dates, tags and source URLs compared. Readability edit: complete; meaning and sources checked.
 
 ## GPT article
 

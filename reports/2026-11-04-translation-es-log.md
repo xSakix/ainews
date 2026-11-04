@@ -5,3 +5,6 @@ Checked paragraphs, headings, figures, links, date and tags against the English 
 
 ## frontier-models-lose-track-of-changing-state-in-long-contexts.es.md (missing)
 Checked paragraphs, headings, figures, links, date and tags against the English original. Strict validation passed.
+
+## freshworks-hits-1-billion-arr-with-a-third-fewer-staff.es.md (missing)
+Checked paragraphs, headings, figures, links, date and tags against the English original. Strict validation passed.

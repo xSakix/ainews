@@ -45,4 +45,6 @@ StateBench was selected as the distinct capability article. The paper, Ai2 techn
 
 ## LinkedIn edition
 
-Status: pending
+content/linkedin/2026-11-04.sk.md: Freshworks prekročil miliardu dolárov s menším tímom. Obsahuje všetkých päť hlavných správ v poradí prehľadu a šesť ďalších položiek.
+
+Readability edit: complete; meaning and sources checked

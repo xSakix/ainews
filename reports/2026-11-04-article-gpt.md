@@ -2,7 +2,9 @@
 Topic: StateBench shows frontier models losing track of interdependent state changes in long contexts, while small recurrent and hybrid models learn three state-tracking levels directly
 Primary sources: https://arxiv.org/abs/2611.03094 ; https://huggingface.co/blog/allenai/statebench ; https://github.com/allenai/state-bench
 Why this story: Capability story with a new public benchmark, code and data. It qualifies an important deployment assumption: a model can read a long input without reliably maintaining the changing relationships inside it. It is not covered in existing posts and differs from Claude's Freshworks article.
-Status: writing
+Status: published: content/posts/frontier-models-lose-track-of-changing-state-in-long-contexts.md
 
 ## Notes
-Opened: StateBench paper, Ai2 technical post, public repository and the authors' earlier ICML paper on state tracking in state-space models. The benchmark has four levels and reports results at up to 64,000 assignments. Results remain benchmark-specific; the proposed deployment scene will be marked as invented.
+Opened: StateBench paper, Ai2 technical post, public repository and the authors' earlier ICML paper on state tracking in state-space models. The benchmark has four levels and reports results at up to 64,000 assignments. Results remain benchmark-specific; the deployment scene is marked as invented.
+
+Readability edit: complete; meaning and sources checked. The opening and closing deployment scenes are labelled as hypothetical or fictional.

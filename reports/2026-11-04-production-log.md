@@ -31,6 +31,12 @@ Readability edit: complete; meaning and sources checked
 
 Status: pending
 
+## GPT article
+
+Status: complete
+
+StateBench was selected as the distinct capability article. The paper, Ai2 technical post, public repository and prior state-tracking paper were opened. The English article passed strict validation and its separate readability edit preserved the reported figures, caveats and source links.
+
 ## LinkedIn edition
 
 Status: pending

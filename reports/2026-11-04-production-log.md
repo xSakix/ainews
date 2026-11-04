@@ -21,7 +21,11 @@ Freshworks leads because its staffing change reaches the broadest professional a
 
 ## Digest
 
-Status: pending
+Status: complete
+
+The digest publishes all five top stories and every planned item. The five top-story sources were opened during production. Preprints, vendor benchmarks, community reports and partially readable sources retain their attribution and limitations.
+
+Readability edit: complete; meaning and sources checked
 
 ## Translation notes
 

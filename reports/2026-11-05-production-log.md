@@ -31,9 +31,11 @@ Readability editing pass completed after drafting and source review.
 
 ## Translation notes
 
-Status: in progress
+Status: complete
 
 - Published Slovak digest twin: `content/posts/ai-daily-digest-for-5-november-2026.sk.md`. Paragraph, heading and URL structure matches the English post; numbers, attributions and caveats were preserved. Readability edit: complete; meaning and sources checked.
+- Published Slovak GPT article twin: `content/posts/harmless-false-facts-can-make-a-model-broadly-misaligned.sk.md`. References are unchanged and the illustrative status of the opening and closing scenes is preserved. Readability edit: complete; meaning and sources checked.
+- Checked posts dated 3–5 November; no other Slovak twins were missing. Claude's 5 November article already had its Slovak twin.
 
 ## LinkedIn edition
 

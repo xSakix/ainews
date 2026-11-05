@@ -39,4 +39,6 @@ Status: complete
 
 ## LinkedIn edition
 
-Status: pending
+Status: complete
+
+`content/linkedin/2026-11-05.sk.md`: Voliči odmietli dátové centrá, dodávatelia klesli. Includes all five top stories in digest order and six further items spanning work, releases, research and security. Readability edit: complete; meaning and sources checked.

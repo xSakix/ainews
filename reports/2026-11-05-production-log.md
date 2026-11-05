@@ -21,7 +21,13 @@ The three ten-point candidates were tied on substance and consequence. The data-
 
 ## Digest
 
-Status: writing
+Status: complete
+
+Published: `content/posts/ai-daily-digest-for-5-november-2026.md`
+
+The final digest follows the committed plan, with five scored top stories and every planned release, research item, work item, practice note, community discussion, video, brief and business item. Claims were checked against the source pages available during research and against the desk briefings; company, author and community claims are attributed rather than presented as independent findings. Semafor could not be opened directly, so its market interpretation is explicitly attributed and paired with Fortune's accessible reporting.
+
+Readability editing pass completed after drafting and source review.
 
 ## Translation notes
 

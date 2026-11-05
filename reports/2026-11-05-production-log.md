@@ -31,7 +31,9 @@ Readability editing pass completed after drafting and source review.
 
 ## Translation notes
 
-Status: pending
+Status: in progress
+
+- Published Slovak digest twin: `content/posts/ai-daily-digest-for-5-november-2026.sk.md`. Paragraph, heading and URL structure matches the English post; numbers, attributions and caveats were preserved. Readability edit: complete; meaning and sources checked.
 
 ## LinkedIn edition
 

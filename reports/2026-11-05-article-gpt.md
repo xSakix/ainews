@@ -8,4 +8,4 @@ Status: published: content/posts/harmless-false-facts-can-make-a-model-broadly-m
 
 Opened the full Knowingly Wrong paper, including its method, broad and single-fact experiments, screening results and limitations. Followed its references to the earlier Emergent Misalignment paper, Persona Vectors and Believe It or Not. The opening and closing model-curator scenes are explicitly illustrative; every claim in the body traces to the four references. The central result remains a first-version preprint, was reproduced only in Qwen and Gemma families, and does not cover full fine-tuning, DPO, mid-training or synthetic-document fine-tuning.
 
-Readability edit: complete after drafting and source review; meaning and references checked.
+Readability edit: complete; meaning and sources checked.

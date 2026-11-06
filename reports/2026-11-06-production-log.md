@@ -24,3 +24,10 @@ Published `content/posts/ai-daily-digest-for-6-november-2026.md` with five top s
 Readability edit: complete; meaning and sources checked.
 
 The local validation runtime was unavailable. The file was checked manually for TOML delimiters and quoting, the required digest title and filename, allowed tags, date and draft fields, section order, bare source URLs, absence of H1/dek/pipeline notes, and balanced Markdown delimiters.
+
+## Translation notes
+`content/posts/ai-daily-digest-for-6-november-2026.sk.md`: complete. Technical names, model names, URLs, tags and the timestamp were preserved; “intrusion pathway” is rendered as “cesta prieniku” and “white paper” does not occur.
+
+Readability edit: complete; meaning and sources checked.
+
+The local validation runtime was unavailable. Manual twin checks found matching headings, paragraphs, item count, tags, date, source URLs and numerical claims; the Slovak slug is lowercase ASCII with hyphens and no English section heading remains.

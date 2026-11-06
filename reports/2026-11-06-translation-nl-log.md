@@ -14,3 +14,6 @@ Checked paragraphs, headings, figures, source URLs, date and tags against Englis
 
 ## harmless-false-facts-can-make-a-model-broadly-misaligned.nl.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## voters-turn-down-data-centres-two-suppliers-fall-21.nl.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

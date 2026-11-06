@@ -31,3 +31,9 @@ The local validation runtime was unavailable. The file was checked manually for 
 Readability edit: complete; meaning and sources checked.
 
 The local validation runtime was unavailable. Manual twin checks found matching headings, paragraphs, item count, tags, date, source URLs and numerical claims; the Slovak slug is lowercase ASCII with hyphens and no English section heading remains.
+
+`content/posts/why-irrelevant-context-changes-a-models-answer.sk.md`: complete. “Intrusion pathway” is translated as “cesta prieniku”; circuit is rendered as “okruh” in the mechanistic context. Names, technical model identifiers, reference titles and all URLs are preserved.
+
+Readability edit: complete; meaning and sources checked.
+
+The local validation runtime was unavailable. Manual twin checks found matching headings, paragraphs, reference bullets, tags, date, source URLs and numerical claims; the Slovak slug is lowercase ASCII with hyphens.

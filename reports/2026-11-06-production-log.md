@@ -17,3 +17,10 @@ All eight Claude desk briefings were present. Claude's claimed article topic is 
 Balance moved Delta Inference Engine into the fifth position so the top stories span Consequence, Capability and Practice. The US job-cut tally and Persona Perspectives remain the next candidates; their core findings appear in their normal sections.
 
 The plan merges duplicate appearances across desks. It excludes pure business items, previously covered events without a material update, unsupported rumours and community repetitions of topics already represented by a primary source.
+
+## Digest
+Published `content/posts/ai-daily-digest-for-6-november-2026.md` with five top stories and 36 further items. Primary sources opened for the five leads: METR, OpenAI reporting and developer documentation, Thinking Machines, arXiv 2611.07778, and the Delta Inference Engine repository. OpenAI's own GPT-6 Cyber page was not readable through the available connection, so that item keeps OpenAI's headline claim and the figures that the research briefing verified against three independent reports.
+
+Readability edit: complete; meaning and sources checked.
+
+The local validation runtime was unavailable. The file was checked manually for TOML delimiters and quoting, the required digest title and filename, allowed tags, date and draft fields, section order, bare source URLs, absence of H1/dek/pipeline notes, and balanced Markdown delimiters.

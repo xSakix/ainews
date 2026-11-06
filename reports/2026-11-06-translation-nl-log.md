@@ -20,3 +20,6 @@ Checked paragraphs, headings, figures, references, date and tags against English
 
 ## ai-daily-digest-for-4-november-2026.nl.md (missing)
 Checked paragraphs, headings, figures, URLs, date and tags against English. Strict validation passed.
+
+## frontier-models-lose-track-of-changing-state-in-long-contexts.nl.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

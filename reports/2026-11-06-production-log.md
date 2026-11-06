@@ -37,3 +37,10 @@ The local validation runtime was unavailable. Manual twin checks found matching 
 Readability edit: complete; meaning and sources checked.
 
 The local validation runtime was unavailable. Manual twin checks found matching headings, paragraphs, reference bullets, tags, date, source URLs and numerical claims; the Slovak slug is lowercase ASCII with hyphens.
+
+## LinkedIn edition
+`content/linkedin/2026-11-06.sk.md`: “METR: Anthropic zrýchlil, no dôkazy zostali skryté”. The edition contains all five top stories in digest order and six further items. Source links are limited to the URLs under each corresponding Slovak digest story.
+
+Readability edit: complete; meaning and sources checked.
+
+The local validation runtime was unavailable. Manual checks covered TOML fields, title and heading lengths, a 140–160-character description, a 300–700-character share block with three hashtags and no links, five 40–90-word story blocks in order, unchanged source URLs, and six unlinked bullets under “Ďalej v dnešnom prehľade”.

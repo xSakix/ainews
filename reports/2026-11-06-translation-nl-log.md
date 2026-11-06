@@ -5,3 +5,6 @@ Checked paragraphs, headings, numbers, URLs, date and tags against English. Stri
 
 ## why-irrelevant-context-changes-a-models-answer.nl.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## metr-finds-anthropics-progress-doubled-key-proof-redacted.nl.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

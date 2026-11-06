@@ -1,0 +1,55 @@
++++
+title = "METR ziet dubbel tempo bij Anthropic; belangrijk bewijs is geheim"
+slug = "metr-dubbel-tempo-anthropic-belangrijk-bewijs-geheim"
+description = "Na elf weken binnen Anthropic concludeert METR dat het bedrijf zijn modellen ongeveer tweemaal zo snel verbetert als voorheen, vooral doordat het AI gebruikt voor onderzoek. Anthropic lakte vervolgens het merendeel van het meest verhelderende bewijs weg, zodat het publiek op METR moet vertrouwen."
+tags = ["safety", "research", "policy"]
+date = 2026-11-06T03:19:59+01:00
+draft = false
++++
+
+Elf weken lang, van 12 augustus tot 29 oktober, werkten onderzoekers van METR op laptops van het bedrijf dat zij beoordeelden. Het kleine team vertegenwoordigde 2,5 voltijdsbanen en logde om veiligheidsredenen via apparatuur van Anthropic in op de systemen van Anthropic. Het bedrijf gaf hun gratis tokens, die ze gebruikten voor data-analyse met AI. METR ontving geen betaling. Ze vroegen gegevens op over elke fase van de ontwikkeling van een model en kregen die meestal binnen enkele dagen. Daarna schreven ze op wat ze hadden gezien en bepaalde Anthropic welke delen het publiek mocht lezen.
+
+Het resultaat verscheen op 5 november. METR, een non-profitorganisatie die geavanceerde AI beoordeelt, stelt dat Anthropic zijn modellen in oktober 2026 waarschijnlijk ongeveer tweemaal zo snel verbetert op nauwkeurig omschreven taken als tussen maart 2024 en oktober 2025. Het schrijft het grootste deel daarvan toe aan Anthropics eigen gebruik van AI bij onderzoek. Tegelijk meldt het dat Anthropic “het merendeel van het bewijsmateriaal dat wij voor deze conclusies het meest verhelderend vonden” heeft weggelakt. Het rapport is daarmee zowel een meting als een verklaring over wat buitenstaanders mogen meten.
+
+## Wat METR heeft gemeten
+
+Het belangrijkste cijfer komt uit Anthropics versie van de Epoch Capabilities Index, een samengestelde maat voor benchmarkscores die METR AECI noemt. Sinds oktober 2025 groeien de scores van Anthropics modellen volgens METR 1,9 keer zo snel als daarvoor, met een 95-procentsinterval van 1,5 tot 2,8. Anthropic boekte volgens METR het afgelopen jaar ongeveer evenveel benchmarkvooruitgang als in de twee jaar van oktober 2023 tot oktober 2025. Een systeemkaart voor Haiku 5.5 meldde een factor 1,7. METR komt vooral hoger uit doordat het nieuwere, nog niet uitgebrachte modellen meeneemt. Bij andere keuzes van benchmarks en modellen varieerde de schatting van 1,1 tot 2,9.
+
+METR is voorzichtig over wat dit aantoont. De factor 1,9 kan een gevolg zijn van overfitting op de gekozen benchmarks, en benchmarkpunten volgen pas na het onderzoek dat ze mogelijk maakt. Het algemene oordeel dat de vooruitgang op nauwkeurig omschreven taken bijna tweemaal zo snel verloopt, steunt op meer dan AECI, waaronder weggelakt materiaal. De meeste teamleden neigen volgens METR naar die conclusie, met “aanzienlijke onzekerheid en interne meningsverschillen”. Een werkelijke waarde van 1,3 of drie keer zou hen niet verbazen.
+
+De oorzaak is even belangrijk als de omvang. METR zegt “overtuigend bewijsmateriaal” te hebben ontvangen dat de versnelling niet voortkomt uit een snellere groei van de rekenkracht voor training. De details zijn echter weggelakt. De organisatie vermoedt dat misschien 80 procent van de huidige versnelling door AI komt, terwijl het hogere tempo eind 2025 waarschijnlijk ook door andere factoren werd beïnvloed. Een deel van het bewijs is weinig hard. In interviews beschreven onderzoekers doorgaans een verdubbeling van het tempo binnen hun eigen vakgebied. In Slack-peilingen stemmen medewerkers met emoji's over de versnelling die het nieuwste model oplevert. Voor het krachtigste interne model kwam dat in oktober 2026 uit op twaalf keer. METR beschouwt dit als zeer zwak bewijs omdat de antwoorden weinig doordacht zijn. Business Insider citeert een onderzoeker die tegen METR zei dat nu “alleen ideeën en rekenkracht ons nog beperken, code niet meer”.
+
+METR kreeg te horen dat de versnelling vooral uit AI-ondersteuning voortkomt, en minder uit autonoom werk. Onderzoekers zagen wel “tekenen van leven” die erop wijzen dat autonome bijdragen binnenkort mogelijk worden. METR vond geen overtuigend knelpunt in algoritmen, rekenkracht of data voor de komende twaalf maanden. Zijn oordeel over knelpunten veranderde tijdens het onderzoek meerdere keren, waardoor het weinig vertrouwen in die bevinding heeft. Het waarschuwt dat versnelling zichzelf kan versterken.
+
+## Wat is weggelakt
+
+Anthropic had het eenzijdige recht om alles wat niet openbaar was weg te lakken. METR behield het recht te melden dat dit was gebeurd en of zijn conclusies van dat materiaal afhingen. Een tabel in het rapport noemt zeven soorten bewijs. Benchmarkcapaciteiten van interne modellen werden gedeeld en worden beschreven. Belangrijke tussentijdse maatstaven, schattingen van algoritmische vooruitgang en metingen van onderzoeksinzet werden grotendeels of volledig gedeeld, maar worden niet beschreven. Details over knelpunten en voorspellingen werden gedeeltelijk gedeeld en worden niet beschreven. Bewijs voor de bijdrage van AI en personeelsinterviews worden gedeeltelijk beschreven. Volgens Anthropic was het weglakken “gericht op het verwijderen van vertrouwelijke informatie die andere AI-ontwikkelaars zou kunnen versnellen”.
+
+METR oordeelt hard over zijn eigen rapport: het “bereikt geen ‘transparantie over het bewijsmateriaal’” en “het publiek moet veel sterker op METR's oordeel vertrouwen dan wenselijk is, gezien het gewicht van de vragen die hier worden beantwoord”. Het noemt ook de druk die het zelf ervaart. Kritiek op het weglakken kan Anthropic of andere bedrijven minder bereid maken om in de toekomst toegang te geven. Anthropics feedback over de helderheid was volgens METR soms “te dwingend”, al denkt het niet dat de uiteindelijke tekst wezenlijk is vertekend. Eén teamlid had over een baan bij Anthropic gesproken, een aanbod ontvangen en het afgewezen. Die persoon had als voormalig werknemer ook aandelen in een concurrent. Daarom controleerde een collega al diens werk. Geen van de teamleden heeft aandelen in Anthropic, maar één toekomstige medewerker wel.
+
+Dit onderzoek staat los van de samenwerking die Anthropic op 15 oktober aankondigde. Het bedrijf zei toen zes METR-medewerkers “toegang vergelijkbaar met die van werknemers” te hebben gegeven en noemde publicatievrijheid als een voorwaarde voor evaluatoren. Volgens METR begon het hier beschreven werk medio augustus en was er geen rechtstreekse toegang zonder tussenkomst tot data, documenten of modellen.
+
+## Het risicorapport dat METR opnieuw las
+
+Het tweede METR-document gaat terug naar juli. In Anthropics *August Risk Report* stond dat de modellen die op 15 juli intern werden gebruikt de vroege waarschuwingsdrempel voor geautomatiseerd onderzoek uit de *Responsible Scaling Policy* niet hadden overschreden. Die omvat een “drastische versnelling” van vooruitgang door automatisering van AI-onderzoek en -ontwikkeling. METR is het ermee eens dat het catastrofale risico van die modellen laag was. Het is er niet van overtuigd dat de drempel duidelijk niet was overschreden.
+
+METR wijst op de formulering dat voorlopende indicatoren een versnelling “met minder dan een factor 2” lieten zien. In de besloten versie impliceren de cijfers 1,97, een getal dat METR zelf uit twee schattingen in die tekst berekende. Volgens METR leest het publiek “minder dan een factor 2” als wezenlijk onder twee en zou “ongeveer 2” nauwkeuriger zijn. METR's eigen bandbreedte voor die indicatoren is 1,3 tot 2,8. Zowel de METR-onderzoekers als het personeel van Anthropic neigt volgens METR naar de conclusie dat de drempel niet was overschreden. Toch vindt het overschrijding aannemelijk en meent het dat het openbare rapport “de mate van versnelling die plaatsvond onderschat”. Anthropics rapport erkende zelf minder zekerheid dan eerdere edities, omdat de meest concrete taakgerichte evaluaties verzadigd waren geraakt.
+
+## Wat eraan voorafging
+
+De beoordeling verscheen drie dagen na Anthropics gewijzigde registratieverklaring, ingediend op 2 november. Daarin schrijft het bedrijf dat “onze interne schattingen en onze verwachtingen van toekomstige modellen, meer dan onze huidige modellen, erop wijzen dat we mogelijk op zeer korte termijn voldoen aan de definitie van ‘drastisch versnelde vooruitgang toe te schrijven aan AI’ in onze Responsible Scaling Policy”. Het voegt toe dat geen huidig model is aangemerkt als boven de drempel en dat het in het verleden “een aanzienlijke versnelling van ons ontwikkelingstempo pas heeft vastgesteld nadat die had plaatsgevonden, en die mogelijk ook in de toekomst pas dan zal vaststellen”. Business Insider noemt een detail uit METR's rapport: Anthropic voltooide in de voorgaande zes maanden de training van drie modellen die niet openbaar beschikbaar zijn. De eigen onderzoekers versnellen hun werk dus deels met modellen die klanten nog niet kunnen gebruiken.
+
+## Wie kan de bewering controleren
+
+Anthropic verdedigt de werkwijze met het argument dat niet alles openbaar kan worden. In zijn bericht van oktober stelt het bedrijf dat sommige informatie kwaadwillenden kan helpen of commercieel gevoelig is. Het vergelijkt evaluatoren met bankentoezichthouders die binnen de grootste banken werken. METR's rapport laat zowel de waarde als de grens van dat model zien. Een derde partij heeft de echte interne cijfers bekeken en komt tot een minder comfortabele conclusie dan de openbare bedrijfstekst. Diezelfde partij mag de cijfers waarop haar conclusies rusten niet aan het publiek tonen.
+
+Stel voor deze afsluiting een fictieve analist bij een overheidsdienst voor, aan wie is gevraagd of er toezicht is op de meest geavanceerde AI-labs. Ze opent METR's rapport en vindt een tabel met zeven soorten bewijs, waarvan er vier in de kolom met openbare resultaten “Nee” vermelden. Ze kan een schatting van 1,9 lezen, met een interval van 1,5 tot 2,8, en de duidelijke mededeling dat het onderliggende materiaal niet openbaar is. Of ze in haar memo “onafhankelijk” of “gedeeltelijk onafhankelijk” schrijft, is een woordkeuze. METR's tekst laat die keuze aan haar.
+
+## Referenties
+
+- Anthropic. (2026). *An update on independent evaluators*. https://www.anthropic.com/news/an-update-on-independent-evaluators
+- Anthropic PBC. (2026). *Amendment No. 1 to Form S-1 registration statement*. https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm
+- Coxon, J. (2026). *3 takeaways from the big AI report on Anthropic everyone is talking about*. Business Insider. https://www.businessinsider.com/anthropic-metr-ai-researchers-report-productivity-recursive-self-improvement-2026-11
+- Epoch AI. (2026). *Epoch Capabilities Index (ECI)*. https://epoch.ai/eci
+- METR. (2026). *METR's assessment of AI R&D acceleration at Anthropic*. https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+- METR. (2026). *Review of the AI R&D section of Anthropic's August 2026 Risk Report*. https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/

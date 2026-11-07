@@ -2,3 +2,6 @@
 
 ## ai-daily-digest-for-7-november-2026.nl.md (missing)
 Checked paragraphs, headings, figures, URLs, date and tags against English. Strict validation passed. English duplicate terminal punctuation normalised.
+
+## the-same-answer-can-hide-a-different-belief.nl.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

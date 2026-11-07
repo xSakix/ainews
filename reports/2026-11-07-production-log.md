@@ -35,3 +35,8 @@ Readability edit: complete; meaning, limitations and sources checked.
 `content/posts/ai-daily-digest-for-7-november-2026.sk.md`: complete. Headings, story order, tags, timestamp, numerical claims and all 52 source URLs match the English digest; the Slovak slug is lowercase ASCII with hyphens.
 
 Readability edit: complete; meaning and sources checked.
+
+- Published Slovak GPT article twin: `content/posts/the-same-answer-can-hide-a-different-belief.sk.md`. Headings, paragraph structure, numerical claims and four reference URLs match the English article. The illustrative status of the opening and closing is preserved.
+- Checked posts dated 5–7 November; no other Slovak twins are missing. Claude's 7 November article already has its Slovak twin.
+
+Readability edit: complete; meaning and sources checked.

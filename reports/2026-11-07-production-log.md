@@ -17,3 +17,9 @@ All eight Claude desk briefings were present. Claude’s claimed article topic i
 Balance and topic diversity moved Anthropic’s practical memory work and Qwenx86 into the top five. The Memory Trap, Arete-27B and Bloomberg migration remain the next candidates and appear in their normal sections. This avoids a top block dominated by memory papers or economy stories while retaining all three editorial lenses.
 
 The plan merges duplicate appearances across desks, including the Vals cyber test and the Anthropic memory post. It excludes pure business items, rumours, inaccessible headline-only claims and developments already covered without a material update.
+
+
+## English digest
+Published `content/posts/ai-daily-digest-for-7-november-2026.md` with five top stories and 47 additional distinct items. Repeated stories across desks were merged, limitations were retained next to numerical claims, and every story includes its direct source URL.
+
+Readability edit: complete; facts, links and qualifications checked against the desk briefings and primary sources.

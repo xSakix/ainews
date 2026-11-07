@@ -40,3 +40,9 @@ Readability edit: complete; meaning and sources checked.
 - Checked posts dated 5–7 November; no other Slovak twins are missing. Claude's 7 November article already has its Slovak twin.
 
 Readability edit: complete; meaning and sources checked.
+
+
+## LinkedIn edition
+`content/linkedin/2026-11-07.sk.md`: “Bank of England: AI pridala k produktivite 0,5 %”. The edition contains all five top stories in digest order and six further items spanning work, releases, research, infrastructure, tools and security. Source links are limited to the corresponding URLs in the Slovak digest.
+
+Readability edit: complete; meaning and sources checked.

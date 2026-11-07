@@ -29,3 +29,9 @@ Readability edit: complete; facts, links and qualifications checked against the 
 Published `content/posts/the-same-answer-can-hide-a-different-belief.md` (1238 words). Topic: matched predictions can conceal different future belief updates. This is a Capability story and does not overlap Claude's Bank of England article. The opening and closing are explicitly illustrative; four references are provided.
 
 Readability edit: complete; meaning, limitations and sources checked.
+
+
+## Translation notes
+`content/posts/ai-daily-digest-for-7-november-2026.sk.md`: complete. Headings, story order, tags, timestamp, numerical claims and all 52 source URLs match the English digest; the Slovak slug is lowercase ASCII with hyphens.
+
+Readability edit: complete; meaning and sources checked.

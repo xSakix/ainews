@@ -46,3 +46,12 @@ Readability edit: complete; meaning and sources checked.
 `content/linkedin/2026-11-07.sk.md`: “Bank of England: AI pridala k produktivite 0,5 %”. The edition contains all five top stories in digest order and six further items spanning work, releases, research, infrastructure, tools and security. Source links are limited to the corresponding URLs in the Slovak digest.
 
 Readability edit: complete; meaning and sources checked.
+
+
+## Validation
+- `scripts/check_posts.py --strict`: passed for the English digest, Slovak digest, English GPT article and Slovak GPT article.
+- `scripts/check_linkedin.py`: passed for the Slovak LinkedIn edition.
+- Strict twin checks confirmed matching tags, timestamps, source URLs and reference sets.
+- GPT article length: 1,238 words; Slovak twin: 1,041 words.
+
+Status: complete

@@ -21,4 +21,8 @@ This is the strongest unclaimed Capability story. Claude's article covers the Ba
 - https://proceedings.mlr.press/v306/kim26ah.html
 - https://www.nature.com/articles/s41467-025-67998-6
 
-Status: writing
+Status: published
+
+Published: `content/posts/the-same-answer-can-hide-a-different-belief.md`
+Word count: 1238
+Readability edit: complete; illustrative opening and closing labelled; claims and references verified.

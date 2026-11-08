@@ -5,3 +5,6 @@ Checked paragraphs, headings, figures, references, date and tags against English
 
 ## reward-training-selects-better-answers-not-better-reasoning.de.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## more-firms-start-alone-in-the-sectors-ai-touches-most.de.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

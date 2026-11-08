@@ -24,3 +24,8 @@ Before drafting, duplicate checking caught *Same Answer, Different Future* in th
 Published `content/posts/ai-daily-digest-for-8-november-2026.md` with five top stories and 44 additional items. The top-story sources were opened directly. The context-compaction item combines the NVIDIA cost and accuracy result with ARCBench's compliance result; all remaining items preserve the briefings' vendor, preprint, community and secondary-report labels.
 
 Readability edit: complete; meaning and sources checked.
+
+## Translation notes
+`content/posts/ai-daily-digest-for-8-november-2026.sk.md`: complete. Story order, tags, timestamp, numerical claims and all source URLs match the English digest. Technical model and benchmark names remain in their published form; the Slovak slug is lowercase ASCII with hyphens.
+
+Readability edit: complete; meaning and sources checked.

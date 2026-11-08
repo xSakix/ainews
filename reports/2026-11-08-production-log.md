@@ -17,3 +17,10 @@ All eight Claude desks were present. Claude claimed and published the Mercatus/C
 The five tied leaders remain the top block because they span all three lenses and no lens has more than two stories. The security incident leads because it affects a large population of coding-agent users and the exposed artefacts are directly inspectable. The NVIDIA and ARCBench papers are one topic because their results establish the cost-versus-compliance tension together.
 
 The plan excludes pure opinion, headline-only reports, claims without inspectable artefacts, releases without weights, and community projects without code or a reproducible measurement. It merges the Apiiro finding across the industry and community desks and excludes subjects already covered without a material update.
+
+Before drafting, duplicate checking caught *Same Answer, Different Future* in the 7 November digest and GPT article. It was removed from today's plan. Three community links were also corrected from inferred slugs to the exact briefing URLs; the KV-cache item now uses the author's primary measurement page.
+
+## English digest
+Published `content/posts/ai-daily-digest-for-8-november-2026.md` with five top stories and 44 additional items. The top-story sources were opened directly. The context-compaction item combines the NVIDIA cost and accuracy result with ARCBench's compliance result; all remaining items preserve the briefings' vendor, preprint, community and secondary-report labels.
+
+Readability edit: complete; meaning and sources checked.

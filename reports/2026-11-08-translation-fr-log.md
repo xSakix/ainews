@@ -24,3 +24,6 @@ Checked paragraphs, headings, figures, references, date and tags against English
 
 ## why-irrelevant-context-changes-a-models-answer.fr.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## metr-finds-anthropics-progress-doubled-key-proof-redacted.fr.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

@@ -21,3 +21,6 @@ Checked paragraphs, headings, figures, references, date and tags against English
 
 ## ai-daily-digest-for-6-november-2026.fr.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## why-irrelevant-context-changes-a-models-answer.fr.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

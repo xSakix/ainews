@@ -12,3 +12,6 @@ Checked paragraphs, headings, figures, references, date and tags against English
 ## ai-daily-digest-for-7-november-2026.fr.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
 Normalized duplicated full stops in three English video blurbs; meaning preserved.
+
+## the-same-answer-can-hide-a-different-belief.fr.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

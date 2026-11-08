@@ -25,13 +25,18 @@ Published `content/posts/ai-daily-digest-for-8-november-2026.md` with five top s
 
 Readability edit: complete; meaning and sources checked.
 
+## Translation notes
+`content/posts/ai-daily-digest-for-8-november-2026.sk.md`: complete. Story order, tags, timestamp, numerical claims and all source URLs match the English digest. Technical model and benchmark names remain in their published form; the Slovak slug is lowercase ASCII with hyphens.
+
+Readability edit: complete; meaning and sources checked.
+
 `content/posts/reward-training-selects-better-answers-not-better-reasoning.sk.md`: complete. Headings, paragraph structure, numerical claims and four reference URLs match the English article. The opening and closing remain explicitly illustrative.
 
 Posts dated 6–8 November were checked; no other Slovak twins are missing. Claude's 8 November article already had its Slovak twin.
 
 Readability edit: complete; meaning and sources checked.
 
-## Translation notes
-`content/posts/ai-daily-digest-for-8-november-2026.sk.md`: complete. Story order, tags, timestamp, numerical claims and all source URLs match the English digest. Technical model and benchmark names remain in their published form; the Slovak slug is lowercase ASCII with hyphens.
+## LinkedIn edition
+`content/linkedin/2026-11-08.sk.md`: „Claude Code odhalil tajné údaje v 1 122 súboroch“. The edition contains all five top stories in digest order and six further items across work, releases, research and projects. Every source URL comes from the corresponding Slovak digest story.
 
 Readability edit: complete; meaning and sources checked.

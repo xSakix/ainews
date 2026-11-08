@@ -8,3 +8,7 @@ Checked paragraphs, headings, figures, references, date and tags against English
 
 ## more-firms-start-alone-in-the-sectors-ai-touches-most.fr.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## ai-daily-digest-for-7-november-2026.fr.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+Normalized duplicated full stops in three English video blurbs; meaning preserved.

@@ -15,3 +15,6 @@ Normalized duplicated full stops in three English video blurbs; meaning preserve
 
 ## the-same-answer-can-hide-a-different-belief.fr.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## bank-of-england-puts-ais-uk-productivity-gain-at-half-a-percent.fr.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

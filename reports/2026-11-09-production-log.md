@@ -20,3 +20,9 @@ All eight Claude desk briefings were present. No fallback desk was run. Distinct
 Balancing moved the four-bit serving review into the fifth slot so the top stories span all three lenses. Phantom Consensus and the refusal paper remain high-ranked research items below the top section; no lens holds more than three top stories.
 
 The plan includes only items with a usable primary source or an attributable firsthand community report. Thin leads whose details could not be verified were dropped, including the biology warning and the data-centre protest. The FT gas-power headline is retained only as a one-line, explicitly reported business item.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-9-november-2026.md`. Top sources opened directly: the student-repository study, the reality-monitoring paper, the authorization-drift paper, Klang's Nordic token study and the quantized-serving review. The web reader could not load two arXiv abstract pages during the direct-source pass; their briefing entries, which Claude had verified against those papers, were retained and the limitation was not expanded beyond the papers' stated results. The FT gas-power item remains explicitly limited to the reported headline.
+
+Readability edit: complete; meaning and sources checked.

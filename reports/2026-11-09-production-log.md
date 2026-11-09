@@ -31,3 +31,7 @@ Readability edit: complete; meaning and sources checked.
 
 - `content/posts/ai-daily-digest-for-9-november-2026.sk.md`: translated and checked against the English original; all source URLs, figures, attribution and paragraph order preserved. Readability edit: complete; meaning and sources checked.
 - `content/posts/a-vision-model-can-name-a-thought-and-call-it-sight.sk.md`: translated and checked against the English original; reference entries remained unchanged, and figures, caveats and illustrative-scene labels were preserved. Readability edit: complete; meaning and sources checked.
+
+## LinkedIn edition
+
+content/linkedin/2026-11-09.sk.md: Študentské kódové základne sa strojnásobili. Condenses all five top stories in order and includes six further items; source ownership, caveats and figures were preserved. Readability edit: complete; meaning and sources checked.

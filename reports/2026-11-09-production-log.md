@@ -26,3 +26,7 @@ The plan includes only items with a usable primary source or an attributable fir
 Published `content/posts/ai-daily-digest-for-9-november-2026.md`. Top sources opened directly: the student-repository study, the reality-monitoring paper, the authorization-drift paper, Klang's Nordic token study and the quantized-serving review. The web reader could not load two arXiv abstract pages during the direct-source pass; their briefing entries, which Claude had verified against those papers, were retained and the limitation was not expanded beyond the papers' stated results. The FT gas-power item remains explicitly limited to the reported headline.
 
 Readability edit: complete; meaning and sources checked.
+
+## Translation notes
+
+- `content/posts/ai-daily-digest-for-9-november-2026.sk.md`: translated and checked against the English original; all source URLs, figures, attribution and paragraph order preserved. Readability edit: complete; meaning and sources checked.

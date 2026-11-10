@@ -11,3 +11,6 @@ Checked paragraphs, headings, figures, references, date and tags against English
 
 ## ai-daily-digest-for-9-november-2026.es.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## a-vision-model-can-name-a-thought-and-call-it-sight.es.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

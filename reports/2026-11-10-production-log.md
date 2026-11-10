@@ -26,3 +26,7 @@ The plan excludes stale, duplicate, paywalled-only and weakly sourced claims. Co
 Published `content/posts/ai-daily-digest-for-10-november-2026.md`. Top sources opened directly or retrieved through source-indexed pages: the NBER small-seller study, the visual theory-of-mind paper, the developer approval survey, the CAD silent-failure paper, Anthropic's Fable 5.2 announcement and Artificial Analysis measurements. Direct arXiv pages were unavailable to the web reader, so their indexed abstracts and the Claude desk entries were used; the limitation and self-reported status remain explicit in the digest.
 
 Readability edit: complete; meaning and sources checked.
+
+## Translation notes
+
+- `content/posts/ai-daily-digest-for-10-november-2026.sk.md`: translated and checked against the English original; all source URLs, figures, attribution and section order were preserved. Readability edit: complete; meaning and sources checked.

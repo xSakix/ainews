@@ -5,3 +5,6 @@ Checked paragraphs, headings, figures, references, date and tags against English
 
 ## vision-models-can-reason-about-beliefs-after-they-see.nl.md (missing)
 Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.
+
+## fable-5-2-cuts-its-list-price-but-the-bill-follows-effort.nl.md (missing)
+Checked paragraphs, headings, figures, references, date and tags against English. Strict validation passed.

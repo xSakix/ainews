@@ -30,3 +30,4 @@ Readability edit: complete; meaning and sources checked.
 ## Translation notes
 
 - `content/posts/ai-daily-digest-for-10-november-2026.sk.md`: translated and checked against the English original; all source URLs, figures, attribution and section order were preserved. Readability edit: complete; meaning and sources checked.
+- `content/posts/vision-models-can-reason-about-beliefs-after-they-see.sk.md`: translated and checked against the English original; reference entries remained unchanged, and figures, caveats and illustrative-scene labels were preserved. Readability edit: complete; meaning and sources checked.

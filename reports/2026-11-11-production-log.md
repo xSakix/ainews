@@ -26,3 +26,7 @@ Weak, inaccessible and date-uncertain leads were dropped. Vendor benchmarks, com
 - Top stories: multi-turn mental-health triage, Shopify's native rewrite, homeopathic learning, JetBrains token-spend measurement and Gemini Robotics 2.5.
 - Primary sources opened for all five leads. The mental-health and training results are preprints; Shopify and DeepMind figures are company-reported; the Mercedes pilot does not disclose its sample size.
 - Readability edit: complete; meaning and sources checked.
+
+## Translation notes
+- Slovak digest published: `content/posts/ai-daily-digest-for-11-november-2026.sk.md`.
+- Readability edit: complete; meaning and sources checked.

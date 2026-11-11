@@ -33,3 +33,7 @@ Weak, inaccessible and date-uncertain leads were dropped. Vendor benchmarks, com
 ## Translation notes
 - Slovak digest published: `content/posts/ai-daily-digest-for-11-november-2026.sk.md`.
 - Readability edit: complete; meaning and sources checked.
+
+## LinkedIn edition
+content/linkedin/2026-11-11.sk.md: Chatboty prehliadli 20,3 % núdzových prípadov. Päť top stories, šesť ďalších položiek; vendor claims and preprint limits retained.
+Readability edit: complete; meaning and sources checked.

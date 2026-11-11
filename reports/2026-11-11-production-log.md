@@ -27,6 +27,9 @@ Weak, inaccessible and date-uncertain leads were dropped. Vendor benchmarks, com
 - Primary sources opened for all five leads. The mental-health and training results are preprints; Shopify and DeepMind figures are company-reported; the Mercedes pilot does not disclose its sample size.
 - Readability edit: complete; meaning and sources checked.
 
+- Slovak GPT article published: `content/posts/when-clean-data-activates-a-hidden-backdoor.sk.md`.
+- Readability edit: complete; meaning and sources checked.
+
 ## Translation notes
 - Slovak digest published: `content/posts/ai-daily-digest-for-11-november-2026.sk.md`.
 - Readability edit: complete; meaning and sources checked.

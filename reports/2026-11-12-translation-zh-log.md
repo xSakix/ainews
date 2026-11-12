@@ -16,3 +16,6 @@ Checked all 148 body blocks, headings, figures, source URL counts, date and tags
 
 ## when-clean-data-activates-a-hidden-backdoor.zh.md (missing)
 Checked paragraphs, headings, numerical results, caveats, references, URLs, date and tags; strict check passed. Rendered homeopathic learning as 顺势学习 with the original on first mention, preserving the stated irony. No English prose leftovers outside preserved reference entries.
+
+## token-spend-tracks-who-uses-agents-not-what-gets-shipped.zh.md (missing)
+Checked all paragraphs and headings, figures, conditional claims, quotations, references, URL counts, date and tags. Strict check passed; no narrative English remains. Retained the paper title and reference entries as required.

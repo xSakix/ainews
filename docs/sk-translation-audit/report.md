@@ -1,5 +1,7 @@
 # Slovak edition: translation audit
 
+> **Corrected on 12 November 2026.** An adversarial review found that some findings below are wrong or are matters of taste. They are listed in section 10 and the map was changed accordingly. The table itself is left as it was audited, so the IDs stay stable.
+
 Audit of the Slovak edition of AI News Daily (`/sk/`) against its English source, run on 2026-11-11 against the repository at the head of `main`. English is the source; the Slovak is machine-translated by `prompts/translator-prompt.md`. Nothing in `content/` was changed.
 
 **146 findings** in 19 files (30 severity 1, 71 severity 2, 45 severity 3). Every English and Slovak quotation in the table was checked by script against the file it names.
@@ -305,3 +307,56 @@ The map marks 22 entries `needs_review`. The ones that change the most text if y
 - **pattern**: is „vzorec“ (67 uses) acceptable for "pattern" in running text, or always „vzor“ / „jav“?
 - **dataset**: „dataset“ everywhere, or „súbor údajov“ in non-ML contexts?
 - **Agents (Bank of England)**: how should this institutional term be written for a Slovak reader?
+
+
+## 10. Corrections after an adversarial review (12 November 2026)
+
+A second agent reviewed this audit, the map and the samples. These corrections follow from it. I am not a native speaker, so the disputed items are withdrawn or made advisory until you triage them, not reversed on my say-so.
+
+**Findings withdrawn: the current Slovak is probably correct, and the map no longer enforces my proposal.**
+
+| ID | Current Slovak | Why it is withdrawn | Map change |
+|---|---|---|---|
+| SK-021 | „aerolínie spájajú“ | „aerolínie“ is the normal word for one airline (Slovenské aerolínie) | pattern `singular-organisation` removed |
+| SK-009 | „otrasy“ | „ekonomické otrasy“ is standard journalism | entry `shock` removed |
+| SK-014, SK-044, SK-045, SK-104 | „práca“ for a paper | „práca“ is a standard word for a research paper; only SK-014 is ambiguous (labour-market text) | `paper` advisory, no `avoid` |
+| SK-086, SK-090, SK-124, SK-132 | „vzorec“ for a pattern | „vzorce správania“ is normal; „vzor“ (model, template) is not better | entry `pattern` removed |
+| SK-087, SK-088, SK-095 | „miery“ for measures | taste | entry `measure` removed |
+| SK-109 | „od začiatku roku 2024“ | acceptable before a year number | none |
+
+**Findings downgraded to taste or not settled:**
+- SK-005 (*ovládač*), SK-056 and SK-064 (*adopcia*, *nasadenie*), SK-065 (*vyrovnávacia pamäť* against *cachovať*, which is slang), SK-110: these map entries are now advisory.
+- SK-057: the reason given in the table is wrong. „servilný“ means obsequious and has nothing to do with rank. „pochlebovanie“ stays as an advisory term, and „podlízavosť“ is offered as an alternative.
+- SK-022–SK-025 (inconsistent SFT and RL terms) should have been severity 2, not 1. They are inconsistencies, not wrong words.
+
+**Proposals withdrawn because they were my own coinages,** which the new prompt itself forbids:
+- „dolaďovanie s učiteľom“ for SFT, with 0 uses in the corpus. The map now uses the most frequent existing form, „dolaďovanie s dohľadom“, as advisory.
+- „zneužívanie odmeňovania“ for reward hacking, which reads as pay fraud. The English term is kept.
+- „dlhší rozhovor s viacerými výmenami“ for multi-turn, which adds „dlhší“. The entry is removed.
+- „falošné presvedčenie“, which had no evidence behind it. The entry is removed.
+- `codebase` declined as „codebasu“. This contradicted SK-063, so the entry is removed.
+- The RL entry no longer bans „učenie posilňovaním“ (academic usage, 4 uses I had not counted).
+
+**Self-contradictions in the table:**
+- SK-077/078 propose „nesprávne zosúladenie“, which the map lists as an `avoid` form. The alignment entry is advisory now.
+- SK-079 calls „prispôsobenie“ a calque for *fit*, yet SK-094 proposes it.
+- SK-101 proposes „od Anthropicu“, against the prompt's apposition rule („spoločnosti Anthropic“). The map's name rules now defer to the prompt.
+
+**Rules fixed in the map:**
+- Names: all people's names are declined, foreign names included. The old rule exempted foreign surnames while its own example declined one.
+- The `factor` pattern no longer turns a vague English phrase into „mnohonásobne“.
+- The `ranking` pattern no longer adds „posledné“.
+- „Merať správnu vec“ is no longer given as the model of a non-literal subhead; it is itself literal.
+
+**Prompt rules changed:**
+- Entries marked `needs_review` are advisory, no longer binding.
+- If the map cannot be read, the translator translates with the prompt alone and logs it, instead of skipping the post. Skipping could have stopped the digest and, with it, the LinkedIn edition.
+- Self-check item 9 now searches by word stem and changes a form only in the sense the entry names. „účet“ for a bill and „zisk“ for profit are correct.
+
+**Overstatements in the sections above:**
+- Section 1 says "vocabulary, not style". That is not supported: calques are the largest category, and half the texts were read only in part.
+- Section 2 counts the 4 posts read only in Slovak as audited pairs. That stretches the brief.
+- Section 3 says the pipeline did not differ from the brief in a way that mattered. It did: two agents, an editor pass after translation, and no calling script. The brief said to stop and report first in that case, and I did not.
+- Section 8, risk 1, overstates the editor-pass hole. Pass 2 step 2 already re-runs the translator's self-check on the edited text. The real conflict is the editor's preference for "standard, predictable vocabulary" against `keep_in_english`.
+
+The findings that held up under review: frontier → „hraničný“, seat → „sedenie“, account → „účet“, payroll, business formation, heavy user → „najťažší“, span, the headline with the reversed cause, English quotes kept with a gloss, the About-page date range, the 8 untranslated paragraphs, USD in running text, and „3,4 tisíca“.

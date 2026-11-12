@@ -1,5 +1,7 @@
 # Step 4 — Re-translation of three audited posts
 
+> **Corrected on 12 November 2026.** A review found that this verification is circular. The same agent wrote the map, chose the posts and counted only the forms it had flagged, so "33 → 0" could not fail. The samples also break the map and introduce new errors; they are listed at the end. Do not use these files as model translations. A real check needs a different agent, posts the auditor has not read, and a native editor.
+
 Three posts from the audit were translated again from the English with the changed prompt (`prompts/translator-prompt.md`) and the new map (`prompts/translation-maps/sk.yaml`). The new texts are in `docs/sk-translation-audit/retranslations/`. **Nothing under `content/` was touched**; these files are samples for review, and replacing the published posts is a separate step that needs approval.
 
 | Post | Why it was picked |
@@ -125,3 +127,29 @@ Every "old" and "new" text below was found verbatim in the published file and in
 - The scenes still use „inžinierka“, „vedúca“ for the invented character: the English is gender-neutral and the map says nothing about it.
 
 **What the prompt change cannot guarantee:** the map is read at the start of a run, but the translator can still ignore an entry. Item 9 of the self-check asks it to search its own output for the `avoid` forms; whether production agents do that is visible only in the next days' logs.
+
+
+## Problems found in these samples after review (12 November 2026)
+
+**The samples break the map they were meant to demonstrate:**
+- The backdoor post uses „nezosúladenie“ and „nezosúladenosť“ for the same thing.
+- It keeps the heading „Audity datasetov potrebujú testy interakcií“, a noun chain of exactly the kind the map's `noun-chain` pattern warns against.
+- It has „systémový prompt v štýle inoculation prompt“: English left in, without the gloss the new rule for missing terms asks for.
+- The token-spend headline translates *tracks* as „odráža“; at the time the map made „súvisí / koreluje“ binding.
+
+**New errors the samples introduced:**
+- „nevyplaví“ (*wash out*) is a literal calque of an idiom.
+- „Fable 5.2 prichádza do tohto počtu“ (*arrives into that arithmetic*) makes no sense in Slovak.
+- „na málo iné“ (*and little else*).
+- „stláčať kontext“ should be „komprimovať“.
+- „zlúčená práca“ (*merged work*).
+- „vzorku, ktorá sa prihlásila sama, a väčšinou anonymnú“ is a broken coordination.
+- „prieskum oslovil 412 zamestnancov“ changes the fact: *drew 412* means 412 people responded, not 412 were approached.
+- „najjednoduchší model“ for *simplest fit* collides with „model“ in the next sentence.
+- „Spoločná štruktúra je vždy rovnaká“ adds „vždy“.
+- „posledné“ was added in the ranking.
+- „začnite“ addresses the reader.
+
+**Two statements in this document were wrong:**
+- "The English is gender-neutral" is true only for the backdoor post. The token-spend and Fable sources say *she*.
+- The Fable slug kept from the published twin still carries the reversed cause of SK-017 („…ucet-vsak-urcuje-uroven-uvazovania“). Keeping it preserves the URL, but the slug stays wrong.

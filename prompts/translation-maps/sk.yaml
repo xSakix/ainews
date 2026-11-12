@@ -6,24 +6,25 @@
 # tech-press usage and says so in its note.
 #
 # How the sections bind the translator (see the prompt):
-#   terms, keep_in_english   BINDING   same concept -> same rendering, every time
+#   terms, keep_in_english   BINDING if confirmed, ADVISORY if needs_review
 #   idioms                   BINDING   when the English phrase occurs; otherwise
 #                                      translate other idioms by meaning
 #   patterns, style          GUIDANCE  apply when the structure appears, unless
 #                                      doing so would change a fact, a number,
 #                                      or the strength of a claim
 #
-# status: confirmed     the English rendering is wrong or inconsistent in the
-#                       published edition and the fix is not a matter of taste
-#         needs_review  a native editor has to decide (variants are listed in
-#                       "note"); the translator uses the entry as written
+# status: confirmed     the published rendering is wrong or inconsistent and
+#                       the fix is not a matter of taste; BINDING
+#         needs_review  a native editor has not confirmed it; ADVISORY: the
+#                       translator prefers it but may use an established
+#                       alternative (variants are listed in "note")
 #
 # Other languages: copy this file's structure to prompts/translation-maps/<lang>.yaml
 # (nl, fr, de, es, zh). Keep the section names and the field names: `en` is the
 # source term, `target` the rendering in the map's language.
 
 language: sk
-version: 1
+version: 2
 
 # ---------------------------------------------------------------------------
 terms:
@@ -50,37 +51,40 @@ terms:
 
   - en: reinforcement learning (RL)
     target: posilňované učenie (RL)
-    avoid: [posilňovacie učenie, učenie posilňovaním, reinforcement learning (in Slovak running text)]
+    avoid: [reinforcement learning (in Slovak running text)]
     note: >
-      Majority form in the edition (39 vs 14 uses). RLVR on first use:
+      Majority form in the edition (39 vs 14 uses of „posilňovacie“); „učenie posilňovaním“ (academic) is also acceptable. RLVR on first use:
       RLVR (posilňované učenie s overiteľnými odmenami), then RLVR.
     status: needs_review
     evidence: [SK-024, SK-025]
 
   - en: supervised fine-tuning (SFT)
-    target: dolaďovanie s učiteľom (SFT)
-    avoid: [dohliadané dolaďovanie, riadené dolaďovanie, supervised fine-tuning]
+    target: dolaďovanie s dohľadom (SFT)
+    avoid: [dohliadané dolaďovanie, riadené dolaďovanie]
     note: >
-      Four forms are in use (dohliadané / riadené / s dohľadom / left in
-      English). Slovak for "supervised learning" is "učenie s učiteľom", so
-      this follows it. Alternative: "dolaďovanie s dohľadom" (5 uses, the most frequent form).
+      The most frequent form in the edition (5 uses); four forms are in use.
+      An earlier version of this map proposed "dolaďovanie s učiteľom", which
+      nobody uses; it was withdrawn.
     status: needs_review
     evidence: [SK-022, SK-023, SK-063]
 
   - en: reward hacking
-    target: zneužívanie odmeňovania (reward hacking)
-    avoid: [obchádzanie odmeny, odmeňovacie podvody]
+    target: reward hacking
+    avoid: [odmeňovacie podvody]
     note: >
-      Gloss with the English term on first use, then "reward hacking".
-      Three renderings are in use today.
+      Keep the English term; on first use a short Slovak explanation may follow
+      (e.g. „model si odmenu vynúti obídením zadania“). An earlier version proposed
+      „zneužívanie odmeňovania“, which reads as pay fraud; it was withdrawn.
     status: needs_review
     evidence: [SK-055, SK-058, SK-060]
 
   - en: sycophancy
     target: pochlebovanie
-    avoid: [servilnosť]
-    note: 14 uses of "pochlebovanie" against 5 of "servilnosť".
-    status: confirmed
+    avoid: []
+    note: >
+      Most frequent form (14 uses, against 5 of „servilnosť“). „podlízavosť“ may
+      fit the meaning (yielding to the user) better; a native editor decides.
+    status: needs_review
     evidence: [SK-057, SK-061]
 
   - en: chain of thought (CoT)
@@ -96,13 +100,6 @@ terms:
     note: Use the same form in the headline and the body.
     status: confirmed
     evidence: [SK-066, SK-116]
-
-  - en: false belief (psychology)
-    target: falošné presvedčenie
-    avoid: [mylné presvedčenie]
-    note: Term of developmental psychology (false-belief test = test falošného presvedčenia).
-    status: needs_review
-    evidence: []
 
   - en: confidence interval
     target: interval spoľahlivosti
@@ -149,13 +146,6 @@ terms:
     status: needs_review
     evidence: [SK-114]
 
-  - en: multi-turn (conversation)
-    target: dlhší rozhovor s viacerými výmenami správ
-    avoid: [viac-kolový, viackolový]
-    note: '"Viac-kolový" with a hyphen is a spelling error; "kolo" for "turn" is a calque.'
-    status: needs_review
-    evidence: [SK-123]
-
   - en: agentic
     target: agentový
     avoid: []
@@ -173,15 +163,6 @@ terms:
     evidence: [SK-067]
 
   # --- Software engineering ----------------------------------------------
-  - en: codebase
-    target: codebase
-    avoid: [kódová základňa]
-    note: >
-      "Kódová základňa" is a calque (9 uses). Variants for the editor:
-      "codebase" (declined: v codebase, codebasu) or "zdrojový kód projektu".
-    status: needs_review
-    evidence: [SK-073, SK-075]
-
   - en: boilerplate
     target: boilerplate (šablónový kód)
     avoid: [štandardný kód]
@@ -220,12 +201,6 @@ terms:
     note: '"Zisk" only for profit. "gained 5.7 points" -> zlepšil sa o 5,7 bodu.'
     status: confirmed
     evidence: [SK-003, SK-032, SK-041, SK-103]
-
-  - en: shock (economic)
-    target: šok
-    avoid: [otras]
-    status: confirmed
-    evidence: [SK-009]
 
   - en: business formation
     target: vznik firiem / zakladanie firiem
@@ -271,7 +246,7 @@ terms:
     target: zavádzanie, využívanie
     avoid: [adopcia, nasadenie]
     note: '"Nasadenie" is deployment. "AI adoption" -> zavádzanie AI.'
-    status: confirmed
+    status: needs_review
     evidence: [SK-056, SK-064]
 
   - en: exposure (of jobs or sectors to AI)
@@ -301,13 +276,13 @@ terms:
 
   # --- General words with a wrong sense -----------------------------------
   - en: paper (research)
-    target: štúdia ; článok (a published article) ; preprint
-    avoid: [práca]
+    target: štúdia ; článok ; preprint ; práca
+    avoid: []
     note: >
-      "Práca" alone also means work or labour and is ambiguous in texts about
-      the labour market ("prípadová štúdia práce"). One post, one word for the
-      same paper. "vedecká práca" is fine in full.
-    status: confirmed
+      „práca“ is a standard word for a research paper. Use one word for the same
+      paper within a post, and avoid bare „práca“ only where it can be read as
+      work or labour (in texts about the labour market: „prípadová štúdia práce“).
+    status: needs_review
     evidence: [SK-014, SK-044, SK-045, SK-104]
 
   - en: account (= description, version of events)
@@ -327,8 +302,8 @@ terms:
   - en: dial, knob, lever (metaphor for a setting)
     target: nastavenie, regulátor
     avoid: [ovládač]
-    note: 'In IT "ovládač" is a (device) driver.'
-    status: confirmed
+    note: 'In IT "ovládač" is also a (device) driver, so it is ambiguous next to software; it can also mean a control knob.'
+    status: needs_review
     evidence: [SK-005]
 
   - en: conclude (a study, authors)
@@ -346,22 +321,6 @@ terms:
       bill "určuje" the level reversed it.
     status: confirmed
     evidence: [SK-039, SK-017]
-
-  - en: measure (= metric)
-    target: metrika, ukazovateľ
-    avoid: [miera]
-    note: '"Miera" only for a rate (miera nezamestnanosti).'
-    status: confirmed
-    evidence: [SK-087, SK-088, SK-095]
-
-  - en: pattern
-    target: vzor, jav, zákonitosť
-    avoid: [vzorec]
-    note: >
-      "Vzorec" is a formula. "Vzorec správania" is accepted in psychology; for
-      "the same pattern", "this pattern" use vzor/jav (67 uses of "vzorec").
-    status: needs_review
-    evidence: [SK-086, SK-090, SK-124, SK-132]
 
   - en: composite (character, an invented person made from several)
     target: vymyslená postava poskladaná z typických prípadov
@@ -387,8 +346,8 @@ keep_in_english:
   - term: cache
     note: >
       LLM serving (KV cache, prompt cache, cache read). Indeclinable: z cache,
-      do cache. "vyrovnávacia pamäť" only for hardware (CPU).
-    status: confirmed
+      do cache. "vyrovnávacia pamäť" is also correct; prefer one form per post.
+    status: needs_review
     evidence: [SK-065]
   - term: stack
     note: '"tech stack" -> technologický stack, not "technologický balík".'
@@ -463,10 +422,11 @@ idioms:
 # ---------------------------------------------------------------------------
 patterns:
   - id: factor
-    en: "by a factor of N / a factor she cannot explain"
-    target: "N-krát, N-násobne, mnohonásobne"
-    before: "Dvaja inžinieri s rovnakým výkonom sa líšia v spotrebe faktorom, ktorý si nevie vysvetliť."
-    after: "Spotreba dvoch inžinierov s rovnakým výkonom sa líši mnohonásobne a ona si to nevie vysvetliť."
+    en: "by a factor of N"
+    target: "N-krát, N-násobne, N-násobok"
+    before: "o menej než násobok 2"
+    after: "o menej než dvojnásobok"
+    note: Do not strengthen a vague English phrase ("a factor she cannot explain") into „mnohonásobne“; say what the English says.
     status: confirmed
     evidence: [SK-089, SK-092]
 
@@ -527,9 +487,10 @@ patterns:
 
   - id: ranking
     en: "73rd of 73 on cost"
-    target: "na posledné, 73. miesto zo 73 podľa nákladov"
+    target: "na 73. mieste zo 73 podľa nákladov"
     before: "na 73. miesto zo 73 v nákladoch"
-    after: "na posledné, 73. miesto zo 73 podľa nákladov"
+    after: "na 73. miesto zo 73 podľa nákladov"
+    note: Keep the ordinal (fidelity rule 3) and add nothing („posledné“ is not in the English).
     status: confirmed
     evidence: [SK-127]
 
@@ -574,36 +535,28 @@ patterns:
     status: confirmed
     evidence: [SK-142, SK-144, SK-146]
 
-  - id: singular-organisation
-    en: "a company, airline, bank + singular verb"
-    target: "rovnaké číslo v slovenčine"
-    before: "BBC uvádza, že aerolínie spájajú krok ..."
-    after: "BBC uvádza, že aerolínia spája krok ..."
-    status: confirmed
-    evidence: [SK-021]
-
 # ---------------------------------------------------------------------------
 style:
   headlines:
     - Sentence case; a headline states what happened, not what a section is about.
     - The subject of the Slovak headline is the thing that did or underwent the action (shares fell, not suppliers).
     - Do not drop a modifier when the English shares it between two members ("better answers, not better reasoning").
-    - Do not translate a subhead word for word; ask what the section tells the reader ("Counting the right thing" -> "Merať správnu vec").
+    - Do not translate a subhead word for word; ask what the section tells the reader.
     - 'Digest title stays "Denný prehľad AI – D. mesiaca YYYY".'
   numbers:
     - 'Decimal comma, space before %: 1,1 %; never 1.1% (also inside ranges: 99,6–100 %).'
     - 'After a decimal number the unit is in the genitive singular: 3,4 tisíca riadkov, 1,2 milióna, 2,5 miliardy.'
     - 'Multiples: 2,5-krát; 39- až 240-krát; a rate x count is "súčin".'
-    - 'A ranking keeps its ordinal (fidelity rule 3): "na 73. mieste zo 73 podľa nákladov", not "v nákladoch".'
+    - 'A ranking keeps its ordinal (fidelity rule 3) and nothing is added: "na 73. mieste zo 73 podľa nákladov".'
   currency:
     - 'In running text use the word, declined: 283,82 dolára, 380 dolárov, 15 eur. ISO codes only in tables.'
   dates:
     - 'Keep both ends of a range: od 15. septembra do 12. októbra 2026. Never drop the start.'
     - 'Day-month-year with the month in the genitive: 29. septembra 2026.'
   names:
-    - 'Decline a company name where it sounds natural (Googlu, Microsoftu); otherwise use "od Anthropicu" or an apposition ("spoločnosti Anthropic"). A bare undeclined name as a genitive attribute is wrong: "aplikácie od Anthropicu", not "aplikácií Anthropic".'
+    - 'Follow <slovak_style> in the prompt: decline company names where it sounds natural (Googlu, Microsoftu); for Anthropic, OpenAI, xAI and HPE use an apposition („spoločnosť Anthropic“, „aplikácie spoločnosti Anthropic“). A bare undeclined name as a genitive attribute is wrong („aplikácií Anthropic“).'
     - 'Product, programme, model and benchmark names stay in English, including inside quotations (Cyber Verification Program).'
-    - 'Surnames of people are declined (Woodsideove čísla), first names and foreign surnames stay.'
+    - 'People''s names, first names and surnames, foreign ones included, are declined by Slovak grammar (Woodsidea, Woodsideove čísla, Erika Brynjolfssona).'
   register:
     - 'No direct address of the reader ("Predstavme si", not "Predstavte si").'
     - 'Technical but not slangy; keep the English term only where the map says so.'

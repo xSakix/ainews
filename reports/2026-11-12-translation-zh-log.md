@@ -25,3 +25,6 @@ Checked 114 body blocks, headings, source URL counts, figures, caveats, date and
 
 ## vision-models-can-reason-about-beliefs-after-they-see.zh.md (missing)
 Checked all paragraphs, headings, numerical findings, qualifications, date, tags, URLs and preserved references; strict check passed. No English narrative left in the body.
+
+## fable-5-2-cuts-its-list-price-but-the-bill-follows-effort.zh.md (missing)
+Checked paragraphs, headings, prices, dates, benchmark figures, URLs, metadata and references. Strict check passed. Kept effort setting identifiers and official programme names unchanged; no untranslated narrative.

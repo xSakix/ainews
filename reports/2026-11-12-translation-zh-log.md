@@ -7,3 +7,6 @@ Translated all 254 body blocks; checked paragraphs, headings, URLs and occurrenc
 
 ## models-know-time-but-misjudge-their-own-runtime.zh.md (missing)
 Checked all paragraphs, headings, figures, source URLs, references, date and tags; strict check passed. Retained reference entries in English as required. The opening illustration's direction of error differs from the later measured underestimation; translated both faithfully.
+
+## coreweave-prices-short-gpu-rentals-far-above-long-contracts.zh.md (missing)
+Checked paragraphs, headings, quotations, figures and unit conversions, URLs, references, date and tags. Strict check passed; references and the official release title remain in English as required. No English prose leftovers.

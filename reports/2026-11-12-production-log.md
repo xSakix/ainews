@@ -25,6 +25,10 @@ Published `content/posts/ai-daily-digest-for-12-november-2026.md`. The five top-
 
 Readability edit: complete; meaning and sources checked.
 
+Published the Slovak twin of the GPT article. The illustrative framing, all measurements, caveats and reference entries were checked against the English original.
+
+Readability edit: complete; meaning and sources checked.
+
 ## Translation notes
 
 Published the Slovak twin of the daily digest. Tags, timestamp, all source URLs, numerical claims and attribution levels were checked against the English original.

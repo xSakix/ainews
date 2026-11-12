@@ -24,7 +24,7 @@
 # source term, `target` the rendering in the map's language.
 
 language: sk
-version: 2
+version: 3
 
 # ---------------------------------------------------------------------------
 terms:
@@ -40,32 +40,31 @@ terms:
     evidence: [SK-026, SK-027, SK-028, SK-029]
 
   - en: alignment / aligned / misaligned / misalignment
-    target: zosúladenie / zosúladený / nezosúladený / nezosúladenie
-    avoid: [zarovnanie, zarovnaný, nesprávne zosúladený]
+    target: zosúladenie (alignment) / nezosúladený (misaligned)
+    avoid: [zarovnanie, zarovnaný]
     note: >
-      Of AI with human goals. "alignment team" -> tím pre zosúladenie.
-      Alternative to decide: keep "alignment" in English as in the URLs
-      alignment.openai.com. Domain names and team names in English stay.
-    status: needs_review
+      Approved by the editor. Nouns: zosúladenie (alignment); for misalignment write nezosúladenie (misalignment).
+      "alignment team" -> tím pre zosúladenie; domain and team names in English stay (alignment.openai.com).
+      On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
+    status: confirmed
     evidence: [SK-059]
 
   - en: reinforcement learning (RL)
-    target: posilňované učenie (RL)
-    avoid: [reinforcement learning (in Slovak running text)]
+    target: posilňované učenie (reinforcement learning, RL)
+    avoid: [posilňovacie učenie]
     note: >
-      Majority form in the edition (39 vs 14 uses of „posilňovacie“); „učenie posilňovaním“ (academic) is also acceptable. RLVR on first use:
-      RLVR (posilňované učenie s overiteľnými odmenami), then RLVR.
-    status: needs_review
+      Approved by the editor. RLVR: posilňované učenie s overiteľnými odmenami (RLVR), then RLVR.
+      On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
+    status: confirmed
     evidence: [SK-024, SK-025]
 
   - en: supervised fine-tuning (SFT)
-    target: dolaďovanie s dohľadom (SFT)
+    target: dolaďovanie s dohľadom (supervised fine-tuning, SFT)
     avoid: [dohliadané dolaďovanie, riadené dolaďovanie]
     note: >
-      The most frequent form in the edition (5 uses); four forms are in use.
-      An earlier version of this map proposed "dolaďovanie s učiteľom", which
-      nobody uses; it was withdrawn.
-    status: needs_review
+      Approved by the editor.
+      On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
+    status: confirmed
     evidence: [SK-022, SK-023, SK-063]
 
   - en: reward hacking
@@ -79,12 +78,12 @@ terms:
     evidence: [SK-055, SK-058, SK-060]
 
   - en: sycophancy
-    target: pochlebovanie
-    avoid: []
+    target: pochlebovanie (sycophancy)
+    avoid: [servilnosť]
     note: >
-      Most frequent form (14 uses, against 5 of „servilnosť“). „podlízavosť“ may
-      fit the meaning (yielding to the user) better; a native editor decides.
-    status: needs_review
+      Approved by the editor.
+      On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
+    status: confirmed
     evidence: [SK-057, SK-061]
 
   - en: chain of thought (CoT)
@@ -120,9 +119,12 @@ terms:
     evidence: [SK-040]
 
   - en: held-out (set, examples)
-    target: testovací (pri trénovaní nepoužitý) súbor
+    target: pri trénovaní nepoužitý (held-out), e.g. pri trénovaní nepoužité úlohy (held-out tasks)
     avoid: [zadržaný]
-    status: needs_review
+    note: >
+      Approved by the editor.
+      On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
+    status: confirmed
     evidence: [SK-033]
 
   - en: control (experiment)
@@ -133,26 +135,30 @@ terms:
     evidence: [SK-036]
 
   - en: linear readout
-    target: lineárne vyčítanie
+    target: lineárne vyčítanie (linear readout)
     avoid: [odpočet]
-    note: '"Odpočet" means deduction or countdown.'
-    status: needs_review
+    note: >
+      Approved by the editor. „Odpočet“ means deduction or countdown.
+      On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
+    status: confirmed
     evidence: [SK-036]
 
   - en: activation steering
-    target: riadenie aktivácií
+    target: riadenie aktivácií (activation steering)
     avoid: [usmernenie smeru]
-    note: One form for both digests; alternative is to keep "steering".
-    status: needs_review
+    note: >
+      Approved by the editor.
+      On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
+    status: confirmed
     evidence: [SK-114]
 
   - en: agentic
-    target: agentový
-    avoid: []
+    target: agentický (agentic), e.g. agentická AI (agentic AI)
+    avoid: [agentový]
     note: >
-      Current form (94 uses). Slovak media increasingly write "agentická AI";
-      decide once. "agentic commerce" -> nákupy cez AI agentov (not "agentový obchod").
-    status: needs_review
+      Approved by the editor; replaces the earlier „agentový“. „agentic commerce“ -> nákupy cez AI agentov.
+      On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
+    status: confirmed
     evidence: [SK-069]
 
   - en: Agents (Bank of England)

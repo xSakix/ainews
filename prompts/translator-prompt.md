@@ -68,7 +68,7 @@ Use these renderings consistently. Keep the left column's original name for anyt
 | model release / launch | vydanie / uvedenie modelu |
 | open-weight model | model s otvorenými váhami |
 | open source | open source; open-source projekt |
-| agent / agentic | agent / agentový |
+| agent / agentic | agent / agentický |
 | benchmark | benchmark (on first use: porovnávací test, benchmark) |
 | evaluation | hodnotenie, evaluácia |
 | token | token |

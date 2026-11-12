@@ -22,3 +22,6 @@ Checked all paragraphs and headings, figures, conditional claims, quotations, re
 
 ## ai-daily-digest-for-10-november-2026.zh.md (missing)
 Checked 114 body blocks, headings, source URL counts, figures, caveats, date and tags. Strict check passed and all narrative prose translated. Preserved technical code and product identifiers.
+
+## vision-models-can-reason-about-beliefs-after-they-see.zh.md (missing)
+Checked all paragraphs, headings, numerical findings, qualifications, date, tags, URLs and preserved references; strict check passed. No English narrative left in the body.

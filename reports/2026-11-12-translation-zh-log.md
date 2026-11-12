@@ -13,3 +13,6 @@ Checked paragraphs, headings, quotations, figures and unit conversions, URLs, re
 
 ## ai-daily-digest-for-11-november-2026.zh.md (missing)
 Checked all 148 body blocks, headings, figures, source URL counts, date and tags. Strict check passed; all narrative text translated. The BigMoeOnEdge latency comparison is unusual in the English and has been preserved faithfully.
+
+## when-clean-data-activates-a-hidden-backdoor.zh.md (missing)
+Checked paragraphs, headings, numerical results, caveats, references, URLs, date and tags; strict check passed. Rendered homeopathic learning as 顺势学习 with the original on first mention, preserving the stated irony. No English prose leftovers outside preserved reference entries.

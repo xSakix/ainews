@@ -10,3 +10,6 @@ Checked all paragraphs, headings, figures, source URLs, references, date and tag
 
 ## coreweave-prices-short-gpu-rentals-far-above-long-contracts.zh.md (missing)
 Checked paragraphs, headings, quotations, figures and unit conversions, URLs, references, date and tags. Strict check passed; references and the official release title remain in English as required. No English prose leftovers.
+
+## ai-daily-digest-for-11-november-2026.zh.md (missing)
+Checked all 148 body blocks, headings, figures, source URL counts, date and tags. Strict check passed; all narrative text translated. The BigMoeOnEdge latency comparison is unusual in the English and has been preserved faithfully.

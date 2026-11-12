@@ -19,3 +19,6 @@ Checked paragraphs, headings, numerical results, caveats, references, URLs, date
 
 ## token-spend-tracks-who-uses-agents-not-what-gets-shipped.zh.md (missing)
 Checked all paragraphs and headings, figures, conditional claims, quotations, references, URL counts, date and tags. Strict check passed; no narrative English remains. Retained the paper title and reference entries as required.
+
+## ai-daily-digest-for-10-november-2026.zh.md (missing)
+Checked 114 body blocks, headings, source URL counts, figures, caveats, date and tags. Strict check passed and all narrative prose translated. Preserved technical code and product identifiers.

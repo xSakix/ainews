@@ -18,3 +18,9 @@ All eight Claude research desks were present. No fallback desk was required.
 Balancing moved CoreWeave into the fifth slot ahead of the robot-memory paper so the top stories span all three lenses and include a measurable consequence for prices. The lead is the vulnerability-propagation study because it combines reproducible evidence with a direct change to software practice.
 
 Weak, inaccessible, date-uncertain and duplicated items were dropped. Company benchmarks, community measurements, allegations and paywalled reports retain their attribution and limitations.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-12-november-2026.md`. The five top-story sources were opened and checked against the briefing details. Vendor measurements, community reports and legal allegations remain explicitly attributed.
+
+Readability edit: complete; meaning and sources checked.

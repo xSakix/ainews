@@ -1,0 +1,609 @@
+# Translation map — Slovak (sk)
+#
+# Read by prompts/translator-prompt.md before every Slovak translation.
+# Built from the audit in docs/sk-translation-audit/report.md; "evidence" lists
+# its finding IDs (SK-nnn). An entry without evidence rests on clear Slovak
+# tech-press usage and says so in its note.
+#
+# How the sections bind the translator (see the prompt):
+#   terms, keep_in_english   BINDING   same concept -> same rendering, every time
+#   idioms                   BINDING   when the English phrase occurs; otherwise
+#                                      translate other idioms by meaning
+#   patterns, style          GUIDANCE  apply when the structure appears, unless
+#                                      doing so would change a fact, a number,
+#                                      or the strength of a claim
+#
+# status: confirmed     the English rendering is wrong or inconsistent in the
+#                       published edition and the fix is not a matter of taste
+#         needs_review  a native editor has to decide (variants are listed in
+#                       "note"); the translator uses the entry as written
+#
+# Other languages: copy this file's structure to prompts/translation-maps/<lang>.yaml
+# (nl, fr, de, es, zh). Keep the section names and the field names: `en` is the
+# source term, `target` the rendering in the map's language.
+
+language: sk
+version: 1
+
+# ---------------------------------------------------------------------------
+terms:
+  # --- AI / ML terms ------------------------------------------------------
+  - en: frontier model / frontier lab / frontier AI
+    target: špičkový model / špičkové laboratórium / špičková AI
+    avoid: [hraničný, hraničné]
+    note: >
+      "Hraničný" means borderline. Proper names stay as they are (Frontier
+      Model Forum, FrontierCode). About 30 uses of "hraničný" for frontier in
+      13 posts, against 39 of "špičkový".
+    status: confirmed
+    evidence: [SK-026, SK-027, SK-028, SK-029]
+
+  - en: alignment / aligned / misaligned / misalignment
+    target: zosúladenie / zosúladený / nezosúladený / nezosúladenie
+    avoid: [zarovnanie, zarovnaný, nesprávne zosúladený]
+    note: >
+      Of AI with human goals. "alignment team" -> tím pre zosúladenie.
+      Alternative to decide: keep "alignment" in English as in the URLs
+      alignment.openai.com. Domain names and team names in English stay.
+    status: needs_review
+    evidence: [SK-059]
+
+  - en: reinforcement learning (RL)
+    target: posilňované učenie (RL)
+    avoid: [posilňovacie učenie, učenie posilňovaním, reinforcement learning (in Slovak running text)]
+    note: >
+      Majority form in the edition (39 vs 14 uses). RLVR on first use:
+      RLVR (posilňované učenie s overiteľnými odmenami), then RLVR.
+    status: needs_review
+    evidence: [SK-024, SK-025]
+
+  - en: supervised fine-tuning (SFT)
+    target: dolaďovanie s učiteľom (SFT)
+    avoid: [dohliadané dolaďovanie, riadené dolaďovanie, supervised fine-tuning]
+    note: >
+      Four forms are in use (dohliadané / riadené / s dohľadom / left in
+      English). Slovak for "supervised learning" is "učenie s učiteľom", so
+      this follows it. Alternative: "dolaďovanie s dohľadom" (5 uses, the most frequent form).
+    status: needs_review
+    evidence: [SK-022, SK-023, SK-063]
+
+  - en: reward hacking
+    target: zneužívanie odmeňovania (reward hacking)
+    avoid: [obchádzanie odmeny, odmeňovacie podvody]
+    note: >
+      Gloss with the English term on first use, then "reward hacking".
+      Three renderings are in use today.
+    status: needs_review
+    evidence: [SK-055, SK-058, SK-060]
+
+  - en: sycophancy
+    target: pochlebovanie
+    avoid: [servilnosť]
+    note: 14 uses of "pochlebovanie" against 5 of "servilnosť".
+    status: confirmed
+    evidence: [SK-057, SK-061]
+
+  - en: chain of thought (CoT)
+    target: reťazec uvažovania (chain of thought)
+    avoid: ["chain of thought in running text without a gloss"]
+    note: Gloss on first use, then "reťazec uvažovania". 18 uses against 8 left in English.
+    status: confirmed
+    evidence: []
+
+  - en: vision-language model (VLM)
+    target: vizuálno-jazykový model (VLM)
+    avoid: [model pre obraz a jazyk, vizuálny model]
+    note: Use the same form in the headline and the body.
+    status: confirmed
+    evidence: [SK-066, SK-116]
+
+  - en: false belief (psychology)
+    target: falošné presvedčenie
+    avoid: [mylné presvedčenie]
+    note: Term of developmental psychology (false-belief test = test falošného presvedčenia).
+    status: needs_review
+    evidence: []
+
+  - en: confidence interval
+    target: interval spoľahlivosti
+    avoid: [interval neistoty]
+    status: confirmed
+    evidence: [SK-072]
+
+  - en: recurrent (network, state)
+    target: rekurentný
+    avoid: [opakovaný]
+    status: confirmed
+    evidence: [SK-034]
+
+  - en: span (linear algebra)
+    target: lineárny obal
+    avoid: [rozpätie]
+    status: confirmed
+    evidence: [SK-040]
+
+  - en: held-out (set, examples)
+    target: testovací (pri trénovaní nepoužitý) súbor
+    avoid: [zadržaný]
+    status: needs_review
+    evidence: [SK-033]
+
+  - en: control (experiment)
+    target: kontrolný experiment
+    avoid: [kontrola]
+    note: '"Kontrola" reads as oversight or inspection.'
+    status: confirmed
+    evidence: [SK-036]
+
+  - en: linear readout
+    target: lineárne vyčítanie
+    avoid: [odpočet]
+    note: '"Odpočet" means deduction or countdown.'
+    status: needs_review
+    evidence: [SK-036]
+
+  - en: activation steering
+    target: riadenie aktivácií
+    avoid: [usmernenie smeru]
+    note: One form for both digests; alternative is to keep "steering".
+    status: needs_review
+    evidence: [SK-114]
+
+  - en: multi-turn (conversation)
+    target: dlhší rozhovor s viacerými výmenami správ
+    avoid: [viac-kolový, viackolový]
+    note: '"Viac-kolový" with a hyphen is a spelling error; "kolo" for "turn" is a calque.'
+    status: needs_review
+    evidence: [SK-123]
+
+  - en: agentic
+    target: agentový
+    avoid: []
+    note: >
+      Current form (94 uses). Slovak media increasingly write "agentická AI";
+      decide once. "agentic commerce" -> nákupy cez AI agentov (not "agentový obchod").
+    status: needs_review
+    evidence: [SK-069]
+
+  - en: Agents (Bank of England)
+    target: regionálni zástupcovia banky (Agents)
+    avoid: [agenti banky]
+    note: In an AI text a Slovak reader takes "agenti" for software agents. First use with the English word in brackets.
+    status: needs_review
+    evidence: [SK-067]
+
+  # --- Software engineering ----------------------------------------------
+  - en: codebase
+    target: codebase
+    avoid: [kódová základňa]
+    note: >
+      "Kódová základňa" is a calque (9 uses). Variants for the editor:
+      "codebase" (declined: v codebase, codebasu) or "zdrojový kód projektu".
+    status: needs_review
+    evidence: [SK-073, SK-075]
+
+  - en: boilerplate
+    target: boilerplate (šablónový kód)
+    avoid: [štandardný kód]
+    status: confirmed
+    evidence: [SK-042]
+
+  - en: enterprise software
+    target: podnikový softvér
+    avoid: [firemný softvér]
+    status: confirmed
+    evidence: [SK-070]
+
+  - en: heavy user
+    target: intenzívny používateľ
+    avoid: [ťažký používateľ, najťažší]
+    note: '"Najťažšia tretina" = the heaviest by weight.'
+    status: confirmed
+    evidence: [SK-013, SK-043]
+
+  - en: kitting (manufacturing)
+    target: kompletizácia súprav
+    avoid: [triedenie]
+    status: confirmed
+    evidence: [SK-038]
+
+  - en: elevated (privileges, permissions)
+    target: zvýšené (oprávnenia)
+    avoid: [zvýhodnený]
+    status: confirmed
+    evidence: [SK-004]
+
+  # --- Business, economy, labour -------------------------------------------
+  - en: gain(s), payoff, benefit (productivity, efficiency, results)
+    target: prínos, zlepšenie
+    avoid: [zisk]
+    note: '"Zisk" only for profit. "gained 5.7 points" -> zlepšil sa o 5,7 bodu.'
+    status: confirmed
+    evidence: [SK-003, SK-032, SK-041, SK-103]
+
+  - en: shock (economic)
+    target: šok
+    avoid: [otras]
+    status: confirmed
+    evidence: [SK-009]
+
+  - en: business formation
+    target: vznik firiem / zakladanie firiem
+    avoid: [formácia]
+    status: confirmed
+    evidence: [SK-008]
+
+  - en: payroll (data)
+    target: mzdy, mzdové údaje
+    avoid: [platobné údaje]
+    status: confirmed
+    evidence: [SK-012]
+
+  - en: seat (licence)
+    target: licencia, používateľské miesto
+    avoid: [sedenie]
+    status: confirmed
+    evidence: [SK-007]
+
+  - en: senior / junior (staff)
+    target: skúsenejší / senior ; junior
+    avoid: [starší (for seniority)]
+    note: >
+      "Starší" is older in age. As a job title "senior" / "junior" stay.
+      "senior trainee" -> stážista vo vyššom ročníku praxe (needs_review).
+    status: confirmed
+    evidence: [SK-001, SK-011]
+
+  - en: trainee
+    target: stážista
+    avoid: [trainee, prijímanie trainee]
+    note: '"reduced trainee intakes" -> menší nábor stážistov.'
+    status: needs_review
+    evidence: [SK-001, SK-031]
+
+  - en: associate (job title, consulting)
+    target: junior konzultant
+    avoid: [spolupracovník]
+    status: needs_review
+    evidence: [SK-037]
+
+  - en: adoption (of a technology by firms or workers)
+    target: zavádzanie, využívanie
+    avoid: [adopcia, nasadenie]
+    note: '"Nasadenie" is deployment. "AI adoption" -> zavádzanie AI.'
+    status: confirmed
+    evidence: [SK-056, SK-064]
+
+  - en: exposure (of jobs or sectors to AI)
+    target: vystavenosť
+    avoid: [expozícia]
+    status: confirmed
+    evidence: [SK-113, SK-115]
+
+  - en: working paper (economics)
+    target: pracovný dokument (working paper)
+    avoid: [pracovná štúdia]
+    status: needs_review
+    evidence: [SK-118]
+
+  - en: upside risks (central-bank language)
+    target: riziká v prospech vyššieho rastu
+    avoid: [riziká smerom nahor]
+    status: needs_review
+    evidence: [SK-081]
+
+  - en: National Living Wage (UK)
+    target: National Living Wage (britská minimálna mzda pre dospelých)
+    avoid: [národná mzda na živobytie]
+    note: UK name; give the English name with a short gloss on first use.
+    status: needs_review
+    evidence: [SK-117]
+
+  # --- General words with a wrong sense -----------------------------------
+  - en: paper (research)
+    target: štúdia ; článok (a published article) ; preprint
+    avoid: [práca]
+    note: >
+      "Práca" alone also means work or labour and is ambiguous in texts about
+      the labour market ("prípadová štúdia práce"). One post, one word for the
+      same paper. "vedecká práca" is fine in full.
+    status: confirmed
+    evidence: [SK-014, SK-044, SK-045, SK-104]
+
+  - en: account (= description, version of events)
+    target: opis, výklad, výpoveď
+    avoid: [účet]
+    note: '"Účet" is a bank or user account or a bill.'
+    status: confirmed
+    evidence: [SK-002, SK-010]
+
+  - en: launch (product, model)
+    target: uvedenie (na trh)
+    avoid: [spúšťací]
+    note: '"launch documents" -> dokumenty k uvedeniu modelu.'
+    status: confirmed
+    evidence: [SK-006]
+
+  - en: dial, knob, lever (metaphor for a setting)
+    target: nastavenie, regulátor
+    avoid: [ovládač]
+    note: 'In IT "ovládač" is a (device) driver.'
+    status: confirmed
+    evidence: [SK-005]
+
+  - en: conclude (a study, authors)
+    target: dospieť k záveru
+    avoid: [uzatvárať]
+    status: confirmed
+    evidence: [SK-035]
+
+  - en: tracks, follows (statistical relationship)
+    target: súvisí s, koreluje s
+    avoid: [sleduje, určuje (when the English says the bill follows effort)]
+    note: >
+      "Follows" and "tracks" name a dependence, not a cause. "the bill follows
+      effort" -> účet závisí od úrovne uvažovania; the Slovak title that said the
+      bill "určuje" the level reversed it.
+    status: confirmed
+    evidence: [SK-039, SK-017]
+
+  - en: measure (= metric)
+    target: metrika, ukazovateľ
+    avoid: [miera]
+    note: '"Miera" only for a rate (miera nezamestnanosti).'
+    status: confirmed
+    evidence: [SK-087, SK-088, SK-095]
+
+  - en: pattern
+    target: vzor, jav, zákonitosť
+    avoid: [vzorec]
+    note: >
+      "Vzorec" is a formula. "Vzorec správania" is accepted in psychology; for
+      "the same pattern", "this pattern" use vzor/jav (67 uses of "vzorec").
+    status: needs_review
+    evidence: [SK-086, SK-090, SK-124, SK-132]
+
+  - en: composite (character, an invented person made from several)
+    target: vymyslená postava poskladaná z typických prípadov
+    avoid: [zložený obraz, kompozitná postava]
+    status: confirmed
+    evidence: [SK-138, SK-141]
+
+# ---------------------------------------------------------------------------
+keep_in_english:
+  - term: dataset
+    note: >
+      Declined as a Slovak noun (dataset, datasetu, v datasete, datasety).
+      Three forms are in use (dataset 40, dátový súbor 13, súbor dát or
+      súbor údajov 11). In a plain statistics or economics text "súbor údajov" is fine.
+    status: needs_review
+    evidence: [SK-054, SK-062, SK-112]
+  - term: checkpoint
+    note: >
+      ML model checkpoint (64 uses against 18 of "kontrolný bod"). "kontrolný bod" only for a milestone in a
+      project (Shopify's "small checkpoints").
+    status: confirmed
+    evidence: []
+  - term: cache
+    note: >
+      LLM serving (KV cache, prompt cache, cache read). Indeclinable: z cache,
+      do cache. "vyrovnávacia pamäť" only for hardware (CPU).
+    status: confirmed
+    evidence: [SK-065]
+  - term: stack
+    note: '"tech stack" -> technologický stack, not "technologický balík".'
+    status: needs_review
+    evidence: [SK-074]
+  - term: harness
+    note: '"agent harness" -> agentový harness, not "agentový nástroj".'
+    status: needs_review
+    evidence: [SK-068]
+  - term: skill
+    note: A named feature of coding agents ("agent skill"), not "zručnosť".
+    status: needs_review
+    evidence: [SK-119]
+  - term: release candidate
+    status: confirmed
+    evidence: [SK-071]
+  - term: flaky test
+    status: confirmed
+    evidence: [SK-120]
+  - term: vendor lock-in
+    note: 'Gloss on first use: viazanosť na dodávateľa.'
+    status: confirmed
+    evidence: [SK-121]
+  - term: commit
+    note: Already used consistently (commity, commitov, commitovať). Keep. Clear tech-press usage.
+    status: confirmed
+    evidence: []
+  - term: pull request
+    note: Already used consistently (pull requestov). Keep. Clear tech-press usage.
+    status: confirmed
+    evidence: []
+  - term: framework
+    note: Frameworky, frameworkov. Keep. Clear tech-press usage.
+    status: confirmed
+    evidence: []
+
+# ---------------------------------------------------------------------------
+idioms:
+  - en: much more bark than bite
+    target: viac hluku než skutočného účinku
+    avoid: [viac štekotu než hryzenia]
+    status: confirmed
+    evidence: [SK-099]
+  - en: the door at the bottom of the profession narrows
+    target: vstup do profesie sa zužuje
+    note: The metaphor is about entry-level jobs; say that.
+    status: confirmed
+    evidence: [SK-082]
+  - en: loose evidence
+    target: slabý dôkaz
+    avoid: [voľný dôkaz]
+    status: confirmed
+    evidence: [SK-098]
+  - en: holds (a finding, a view) with low confidence
+    target: platí len s nízkou mierou istoty
+    avoid: [drží s malou istotou]
+    status: confirmed
+    evidence: [SK-139]
+  - en: deeply flawed
+    target: zásadne chybný
+    avoid: [hlboko chybný]
+    status: confirmed
+    evidence: [SK-140]
+  - en: "this person is invented / a composite, a stand-in for ..."
+    target: "Postava je vymyslená a zastupuje ..."
+    note: >
+      The disclosure formula that follows the opening scene of nearly every
+      article. Keep it short and the same across articles.
+    status: confirmed
+    evidence: [SK-138, SK-141]
+
+# ---------------------------------------------------------------------------
+patterns:
+  - id: factor
+    en: "by a factor of N / a factor she cannot explain"
+    target: "N-krát, N-násobne, mnohonásobne"
+    before: "Dvaja inžinieri s rovnakým výkonom sa líšia v spotrebe faktorom, ktorý si nevie vysvetliť."
+    after: "Spotreba dvoch inžinierov s rovnakým výkonom sa líši mnohonásobne a ona si to nevie vysvetliť."
+    status: confirmed
+    evidence: [SK-089, SK-092]
+
+  - id: under-a-prompt
+    en: "under a prompt / setting / condition"
+    target: "pri prompte / pri nastavení / za podmienky"
+    before: "Správanie pod bežným promptom asistenta sa nemení."
+    after: "Správanie pri bežnom prompte asistenta sa nemení."
+    status: confirmed
+    evidence: [SK-076, SK-077, SK-125]
+
+  - id: inanimate-subject
+    en: "A paper / report / result + verb of a person (asks, finds, transferred, shows)"
+    target: "Štúdia skúma ... ; Prenášalo sa ... (bezpodmetová alebo trpná konštrukcia)"
+    before: "Preprint, ktorý sa pýta, čo spotreba tokenov vlastne meria."
+    after: "Preprint skúma, čo vlastne meria spotreba tokenov."
+    note: >
+      "sa pýta" is fine where English says "asks" about a person or a talk.
+      "Výsledok preniesol X" -> "X sa prenieslo aj cez Y".
+    status: confirmed
+    evidence: [SK-078, SK-096]
+
+  - id: ing-modifier
+    en: "-ing modifier after a noun (an assistant watching ..., users using ...)"
+    target: "vedľajšia veta s „ktorý“, nie činné príčastie na -úci"
+    before: "Asistent sledujúci pracovisko, robot konajúci medzi ľuďmi."
+    after: "Asistent, ktorý sleduje pracovisko, robot, ktorý koná medzi ľuďmi."
+    status: confirmed
+    evidence: [SK-097, SK-135]
+
+  - id: noun-chain
+    en: "noun chain (scaling the method to frontier training; dataset audits need interaction tests)"
+    target: "sloveso alebo predložková väzba (pri trénovaní ..., ak sa ...)"
+    before: "Škálovanie metódy na trénovanie hraničných modelov by vyžadovalo ..."
+    after: "Aby sa metóda dala použiť pri trénovaní špičkových modelov, bolo by treba ..."
+    status: confirmed
+    evidence: [SK-026]
+
+  - id: quote-with-gloss
+    en: "a quotation in the source (English or not)"
+    target: "iba slovenský preklad v „…“; originál sa v zátvorke nepridáva"
+    before: "„tam ešte nie je“ („is not there yet“)"
+    after: "„tam ešte nie je“"
+    note: >
+      Also for programme and product names inside a quotation: keep the English
+      name and add nothing around it that is not in the source.
+    status: confirmed
+    evidence: [SK-046, SK-047, SK-048, SK-049]
+
+  - id: comparison-twice
+    en: "fell by more than twice as much as ..."
+    target: "klesol viac než dvakrát výraznejšie ako ..."
+    before: "počet ponúk klesol viac než dvojnásobne oproti najmenej vystaveným"
+    after: "počet ponúk klesol viac než dvakrát výraznejšie ako v najmenej vystavených povolaniach"
+    note: '"Viac než dvojnásobne" reads as "more than halved" - a different fact.'
+    status: confirmed
+    evidence: [SK-030]
+
+  - id: ranking
+    en: "73rd of 73 on cost"
+    target: "na posledné, 73. miesto zo 73 podľa nákladov"
+    before: "na 73. miesto zo 73 v nákladoch"
+    after: "na posledné, 73. miesto zo 73 podľa nákladov"
+    status: confirmed
+    evidence: [SK-127]
+
+  - id: down-from
+    en: "down from X (for the earlier version)"
+    target: "oproti X"
+    before: "po cene 10 a 50 dolárov pri verziách 5.1"
+    after: "oproti 10 a 50 dolárom pri verziách 5.1"
+    status: confirmed
+    evidence: [SK-129]
+
+  - id: headline-subject
+    en: "Headline metonymy: Two Suppliers Fall 21%"
+    target: "Podmetom je to, čo naozaj kleslo: akcie dvoch dodávateľov klesli o 21 %"
+    before: "Voliči odmietli dátové centrá, dvaja dodávatelia klesli o 21 %"
+    after: "Voliči odmietli dátové centrá, akcie dvoch dodávateľov klesli o 21 %"
+    status: confirmed
+    evidence: [SK-020]
+
+  - id: headline-not-contrast
+    en: "Headline 'X, not Y' with a shared modifier (better answers, not better reasoning)"
+    target: "zopakuj modifikátor v oboch členoch"
+    before: "Trénovanie odmenou vyberá lepšie odpovede, nie uvažovanie"
+    after: "Trénovanie odmenou vyberá lepšie odpovede, nie lepšie uvažovanie"
+    status: confirmed
+    evidence: [SK-019]
+
+  - id: headline-one-of
+    en: "AI is one suspect"
+    target: "AI je jednou z podozrivých"
+    before: "Podiel práce na výstupe je rekordne nízky, AI je len podozrivá"
+    after: "Podiel práce na výstupe je rekordne nízky, AI je jednou z podozrivých"
+    status: confirmed
+    evidence: [SK-018]
+
+  - id: imagine
+    en: "Picture / Imagine / Suppose / Consider a ... (addresses the reader)"
+    target: "Predstavme si ..."
+    before: "Predstavte si koordinátorku predmetu ..."
+    after: "Predstavme si koordinátorku predmetu ..."
+    note: The prompt forbids addressing the reader; 11 of 42 openings still use "Predstavte si".
+    status: confirmed
+    evidence: [SK-142, SK-144, SK-146]
+
+  - id: singular-organisation
+    en: "a company, airline, bank + singular verb"
+    target: "rovnaké číslo v slovenčine"
+    before: "BBC uvádza, že aerolínie spájajú krok ..."
+    after: "BBC uvádza, že aerolínia spája krok ..."
+    status: confirmed
+    evidence: [SK-021]
+
+# ---------------------------------------------------------------------------
+style:
+  headlines:
+    - Sentence case; a headline states what happened, not what a section is about.
+    - The subject of the Slovak headline is the thing that did or underwent the action (shares fell, not suppliers).
+    - Do not drop a modifier when the English shares it between two members ("better answers, not better reasoning").
+    - Do not translate a subhead word for word; ask what the section tells the reader ("Counting the right thing" -> "Merať správnu vec").
+    - 'Digest title stays "Denný prehľad AI – D. mesiaca YYYY".'
+  numbers:
+    - 'Decimal comma, space before %: 1,1 %; never 1.1% (also inside ranges: 99,6–100 %).'
+    - 'After a decimal number the unit is in the genitive singular: 3,4 tisíca riadkov, 1,2 milióna, 2,5 miliardy.'
+    - 'Multiples: 2,5-krát; 39- až 240-krát; a rate x count is "súčin".'
+    - 'A ranking keeps its ordinal (fidelity rule 3): "na 73. mieste zo 73 podľa nákladov", not "v nákladoch".'
+  currency:
+    - 'In running text use the word, declined: 283,82 dolára, 380 dolárov, 15 eur. ISO codes only in tables.'
+  dates:
+    - 'Keep both ends of a range: od 15. septembra do 12. októbra 2026. Never drop the start.'
+    - 'Day-month-year with the month in the genitive: 29. septembra 2026.'
+  names:
+    - 'Decline a company name where it sounds natural (Googlu, Microsoftu); otherwise use "od Anthropicu" or an apposition ("spoločnosti Anthropic"). A bare undeclined name as a genitive attribute is wrong: "aplikácie od Anthropicu", not "aplikácií Anthropic".'
+    - 'Product, programme, model and benchmark names stay in English, including inside quotations (Cyber Verification Program).'
+    - 'Surnames of people are declined (Woodsideove čísla), first names and foreign surnames stay.'
+  register:
+    - 'No direct address of the reader ("Predstavme si", not "Predstavte si").'
+    - 'Technical but not slangy; keep the English term only where the map says so.'

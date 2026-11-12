@@ -10,13 +10,13 @@ One file per edition: `<lang>.yaml` (`sk` exists; `nl`, `fr`, `de`, `es` and `zh
 
 | Section | Binds the translator as | Entry fields |
 |---|---|---|
-| `terms` | binding | `en`, `target`, `avoid`, `note`, `status`, `evidence` |
-| `keep_in_english` | binding | `term`, `note`, `status`, `evidence` |
+| `terms` | binding if `confirmed`, advisory if `needs_review` | `en`, `target`, `avoid`, `note`, `status`, `evidence` |
+| `keep_in_english` | binding if `confirmed`, advisory if `needs_review` | `term`, `note`, `status`, `evidence` |
 | `idioms` | binding for the listed phrases | `en`, `target`, `avoid`, `note`, `status`, `evidence` |
 | `patterns` | guidance | `id`, `en`, `target`, `before`, `after`, `note`, `status`, `evidence` |
 | `style` | guidance | lists of rules under `headlines`, `numbers`, `currency`, `dates`, `names`, `register` |
 
-`status` is `confirmed` or `needs_review`. A `needs_review` entry is used as written until a native editor decides; it is how a person is asked to look at it. `evidence` lists audit finding IDs (for Slovak: `docs/sk-translation-audit/report.md`) and may be empty only when the note says that the entry rests on usage.
+`status` is `confirmed` or `needs_review`. A `confirmed` entry binds the translator. A `needs_review` entry is advisory: the translator prefers it but may use an established alternative, until a native editor confirms it or removes it. `evidence` lists audit finding IDs (for Slovak: `docs/sk-translation-audit/report.md`) and may be empty only when the note says that the entry rests on usage.
 
 `en` is always the English source term and `target` the rendering in the map's language, so every language's map has the same shape. Keep the section and field names unchanged.
 

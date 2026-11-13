@@ -5,3 +5,6 @@ Checked every paragraph, heading, source URL, figure, date and tag. Strict valid
 
 ## models-signal-task-trouble-before-they-cheat.fr.md (missing)
 Checked all paragraphs, headings, numbers, URLs, date and tags; references unchanged. Task badness rendered as la perception que la tâche se passe mal with original term at first mention. Strict validation passed and full French prose reviewed.
+
+## software-job-postings-rise-24-as-developers-stay-put.fr.md (missing)
+Checked paragraph and heading correspondence, figures, source URLs, date and tags. References unchanged; preserved posting-versus-hiring distinction and causal caveats. Strict validation passed and complete French prose reviewed.

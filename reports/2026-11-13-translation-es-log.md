@@ -11,3 +11,6 @@ Checked paragraphs, headings, figures, URLs, date and tags; retained the distinc
 
 ## coreweave-prices-short-gpu-rentals-far-above-long-contracts.es.md (missing)
 Checked paragraphs, headings, figures, URLs, date and tags; references and official document title preserved. Retained conditional price arithmetic and all attribution; strict validation passed and full Spanish prose reviewed.
+
+## ai-daily-digest-for-11-november-2026.es.md (missing)
+Checked all paragraphs, headings, URLs, figures, date and tags. Preserved attribution, simulation and sample-size limitations; strict validation passed and no untranslated English prose remains.

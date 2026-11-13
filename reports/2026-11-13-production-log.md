@@ -30,3 +30,7 @@ Readability edit: complete; meaning and sources checked.
 Published `content/posts/models-signal-task-trouble-before-they-cheat.sk.md`. Term not in map: task badness → task badness. Readability editor completed; all suggestions accepted or resolved.
 
 Published `content/posts/ai-daily-digest-for-13-november-2026.sk.md`. All 83 source URLs, 82 story blocks and 13 sections match the English edition. Readability editor completed; all suggestions accepted or resolved.
+
+## LinkedIn edition
+
+`content/linkedin/2026-11-13.sk.md`: Domácnosti zaplatili 62 % nákladov rastu dátových centier. Covers all five top stories in order and six further items. Readability editor completed; all suggestions accepted or resolved.

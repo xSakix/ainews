@@ -24,3 +24,7 @@ Company benchmarks, community measurements, allegations and forecasts retain the
 Published `content/posts/ai-daily-digest-for-13-november-2026.md`. Opened the five top-story sources directly. The two newest arXiv pages were cross-checked against the research briefing because their abstract pages were not yet indexed by the available search service; all numeric claims retain preprint attribution.
 
 Readability edit: complete; meaning and sources checked.
+
+## Slovak editions
+
+Published `content/posts/models-signal-task-trouble-before-they-cheat.sk.md`. Term not in map: task badness → task badness. Readability editor completed; all suggestions accepted or resolved.

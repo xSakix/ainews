@@ -5,3 +5,6 @@ Checked all paragraphs, headings, URLs, figures, date and tags; strict validatio
 
 ## models-signal-task-trouble-before-they-cheat.nl.md (missing)
 Checked paragraphs, headings, figures, URLs, date and tags; references preserved verbatim. Task badness rendered as het besef dat de taak slecht gaat, with original term at first mention. Strict validation passed and all Dutch prose reviewed.
+
+## software-job-postings-rise-24-as-developers-stay-put.nl.md (missing)
+Checked all paragraphs, headings, figures, URLs, date and tags; preserved references and the distinction between vacancies and hires. Strict validation passed; causal caveats and all Dutch prose reviewed.

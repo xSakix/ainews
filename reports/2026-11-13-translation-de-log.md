@@ -13,3 +13,6 @@ Checked paragraphs, headings, all figures and dates, causal qualifications, refe
 
 ## ai-daily-digest-for-12-november-2026.de.md (missing)
 Checked all 254 blocks, paragraph and heading structure, figures, attribution, source URL counts, date and tags. Strict check passed and all narrative prose is German; product names and identifiers retained.
+
+## models-know-time-but-misjudge-their-own-runtime.de.md (missing)
+Checked all paragraphs, headings, numbers, date, tags, URLs and preserved references; strict check passed. Preserved the source's opening illustration despite its error direction differing from the later measured underestimation. No English narrative remains.

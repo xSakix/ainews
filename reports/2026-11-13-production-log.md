@@ -18,3 +18,9 @@ All eight Claude research desks were present. No fallback desk was required.
 The three 10-point stories lead, with the household-cost study first because its measured consequence reaches the broadest group. Blackwell checkpoint forensics adds a second lens and a policy consequence. Gemini Hydrogen takes the fifth slot to cover a major usable release; the software-labour story remains prominent in Economy and work and is Claude's article topic.
 
 Company benchmarks, community measurements, allegations and forecasts retain their attribution and limitations. Topics without a primary source or enough readable evidence were dropped.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-13-november-2026.md`. Opened the five top-story sources directly. The two newest arXiv pages were cross-checked against the research briefing because their abstract pages were not yet indexed by the available search service; all numeric claims retain preprint attribution.
+
+Readability edit: complete; meaning and sources checked.

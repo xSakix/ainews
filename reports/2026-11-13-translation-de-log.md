@@ -7,3 +7,6 @@ Checked all 182 blocks, headings, figures, qualifications, URLs and their counts
 
 ## models-signal-task-trouble-before-they-cheat.de.md (missing)
 Checked paragraphs, headings, numerical results, caveats, references, URL counts, date and tags. Strict check passed. Retained task badness as the named research construct and preserved English reference entries; no untranslated prose remains.
+
+## software-job-postings-rise-24-as-developers-stay-put.de.md (missing)
+Checked paragraphs, headings, all figures and dates, causal qualifications, reference entries and URLs, tags and publication date. Strict check passed and no English narrative remains; official document title and references preserved.

@@ -14,3 +14,6 @@ Checked paragraphs, headings, figures, URLs, date and tags; references and offic
 
 ## ai-daily-digest-for-11-november-2026.es.md (missing)
 Checked all paragraphs, headings, URLs, figures, date and tags. Preserved attribution, simulation and sample-size limitations; strict validation passed and no untranslated English prose remains.
+
+## when-clean-data-activates-a-hidden-backdoor.es.md (missing)
+Checked paragraph and heading correspondence, every figure and URL, date and tags. References unchanged; preserved controlled-experiment caveats and the distinction between dataset content and composition. Strict validation passed; Spanish prose fully reviewed.

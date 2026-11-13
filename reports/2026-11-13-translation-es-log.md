@@ -5,3 +5,6 @@ Translated every body paragraph and heading; checked block counts, all URLs, fig
 
 ## models-signal-task-trouble-before-they-cheat.es.md (missing)
 Checked all paragraphs, headings, figures, URLs, date and tags against the English. References preserved verbatim; strict validation passed; full Spanish prose reviewed for fidelity and readability. Task badness rendered as percepción de que la tarea va mal, with the original term at first mention.
+
+## software-job-postings-rise-24-as-developers-stay-put.es.md (missing)
+Checked paragraphs, headings, figures, URLs, date and tags; retained the distinction between postings and hires and all causal caveats. References unchanged; shortened the headline to meet the character limit; strict validation passed and Spanish prose fully reviewed.

@@ -17,3 +17,6 @@ Checked all paragraphs, headings, URLs, figures, date and tags. Preserved attrib
 
 ## when-clean-data-activates-a-hidden-backdoor.es.md (missing)
 Checked paragraph and heading correspondence, every figure and URL, date and tags. References unchanged; preserved controlled-experiment caveats and the distinction between dataset content and composition. Strict validation passed; Spanish prose fully reviewed.
+
+## token-spend-tracks-who-uses-agents-not-what-gets-shipped.es.md (missing)
+Checked paragraphs, headings, all figures, URLs, date and tags. References unchanged; preserved correlation-versus-causation caveats, survey limitations and upper-bound interpretation. Strict validation passed; all body prose translated and reviewed.

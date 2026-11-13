@@ -15,7 +15,7 @@ Predstavme si personálnu manažérku strednej firmy, ktorá vyvíja softvér pr
 
 Nárast ponúk nie je návratom do starých čias. Indeed uvádza, že všetky technologické kategórie sú medziročne vyššie, no všetky ostávajú výrazne pod úrovňou spred začiatku roka 2020 a celkový počet ponúk je blízko predpandemickej úrovne. Jasnejšie sa pohli platy. Rast inzerovaných miezd v softvérovom vývoji bol v septembri 2,9 %, takmer dvojnásobok 1,5 % spred roka. V kategóriách IT systémy a riešenia a dáta a analytika vzrástol rast miezd za šesť mesiacov o viac ako tri percentuálne body.
 
-Tretie zistenie smeruje opačne: ľudia príležitosť nevyužívajú. Miera dobrovoľných odchodov z práce v sektore odborných a obchodných služieb bola v septembri 2026 na úrovni 2,1 %, takmer o celý percentuálny bod pod priemerom za rok 2019. Miera odchodov v odvetví informácií je tiež pod priemerom z roku 2019, napriek nedávnemu miernemu nárastu. Indeed zhŕňa, že pracovníci „zdá, že sú spokojní s tým, kde sú“.
+Tretie zistenie smeruje opačne: ľudia príležitosť nevyužívajú. Miera dobrovoľných odchodov z práce v sektore odborných a obchodných služieb bola v septembri 2026 na úrovni 2,1 %, takmer o celý percentuálny bod pod priemerom za rok 2019. Miera odchodov v odvetví informácií je tiež pod priemerom z roku 2019, napriek nedávnemu miernemu nárastu. Indeed zhŕňa, že pracovníci sú podľa všetkého „spokojní s tým, kde sú“.
 
 ## Veľkosť výkyvu
 

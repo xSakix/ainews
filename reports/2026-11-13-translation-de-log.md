@@ -10,3 +10,6 @@ Checked paragraphs, headings, numerical results, caveats, references, URL counts
 
 ## software-job-postings-rise-24-as-developers-stay-put.de.md (missing)
 Checked paragraphs, headings, all figures and dates, causal qualifications, reference entries and URLs, tags and publication date. Strict check passed and no English narrative remains; official document title and references preserved.
+
+## ai-daily-digest-for-12-november-2026.de.md (missing)
+Checked all 254 blocks, paragraph and heading structure, figures, attribution, source URL counts, date and tags. Strict check passed and all narrative prose is German; product names and identifiers retained.

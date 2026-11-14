@@ -24,3 +24,9 @@ Duplicates across desks were merged. The data-centre power paper appears once as
 Published `content/posts/ai-daily-digest-for-14-november-2026.md` from the fixed plan. The digest preserves the planned order, distinguishes reported measurements from deployment evidence, and retains direct source URLs.
 
 Readability edit: complete; meaning and sources checked
+
+## Translation notes
+
+Published the Slovak twin of the English digest. The final file preserves all 79 content blocks, all 29 source URLs and the same ordering as the English original.
+
+Readability edit: complete; meaning and sources checked

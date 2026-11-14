@@ -19,9 +19,9 @@ The Slovak article carries exactly the same information as the English one. Thes
 </fidelity>
 
 <translation_map>
-PRINCIPLE. Translate the meaning, then check the result against the map. Read each English sentence, decide what it says, and write that sentence as a Slovak technology journalist would; only then compare your Slovak with the map. Do not translate word by word and repair afterwards: a Slovak sentence that keeps English word order, an English metaphor or an English construction is wrong even when every word in it is correct.
+LOAD FIRST (NON-NEGOTIABLE). Before you translate a single word, read `prompts/translation-maps/sk.yaml` in full; read it again only if it is no longer in your context. Keep its `confirmed` entries and their `avoid` stems active for the whole file. If the file is missing or cannot be read, translate with this prompt alone (its <terminology> table and rules) and flag `Map not loaded: <reason>` for the production log; do not skip the post because of it.
 
-LOAD IT. Before the first translation of a run, read `prompts/translation-maps/sk.yaml` in full; read it again only if it is no longer in your context. If the file is missing or cannot be read, translate with this prompt alone (its <terminology> table and rules) and flag `Map not loaded: <reason>` for the production log; do not skip the post because of it.
+PRE-SCAN, THEN WRITE. You write the final file in one pass, so the map has to be applied while you write, not checked afterwards. Before drafting, scan the whole English file for every concept, idiom and pattern the map covers (frontier, alignment, RL, SFT, sycophancy, reward hacking, policy, trace, held-out, abstention, rollout, fit, checkpoint, skill, harness, agent plurals …) and fix their Slovak renderings, including which occurrence gets the first-use English gloss. Then write each sentence as a senior Slovak technology journalist would (register: Denník N, the technology section of SME): translate the meaning in natural Slovak syntax, using the fixed renderings from the start. Never translate word by word and repair afterwards: a Slovak sentence that keeps English word order, an English metaphor or an English construction is wrong even when every word in it is correct.
 
 HOW BINDING IT IS.
 - `terms` and `keep_in_english` entries marked `confirmed` are BINDING. Wherever the concept occurs in the file (title, description, headings, body, table cells, link text), use the listed Slovak rendering, or keep the English term in the form the entry gives, and do not use a form listed under `avoid` in the sense the entry describes (an `avoid` word can be correct in another sense: „účet“ for a bill, „zisk“ for profit). Where an entry's `note` makes the rendering depend on context, follow the note.
@@ -44,6 +44,11 @@ A TERM THE MAP LACKS.
 - Decline foreign company and product names where it sounds natural (Google → Googlu, Googlom; Microsoft → Microsoftu; Nvidia → Nvidie). Where a declined form sounds forced (OpenAI, xAI, Anthropic, HPE), use an apposition: „spoločnosť OpenAI“, „firma Anthropic“, „spoločnosti HPE“.
 - Headlines and subheads use Slovak sentence case: only the first word and proper names start with a capital letter.
 - Avoid calques: "plays a role" → „zohráva úlohu“ only if natural, otherwise rephrase; "in terms of" → rephrase; "it is worth noting" → drop. Stock phrases read as artificial in Slovak too: no summary labels („V skratke:“, „Zhrnutie:“), no „Nejde o X, ide o Y“, no question-then-answer pairs („Háčik? …“).
+- The noun „agent“ is masculine animate in the plural, always and throughout the file: „tí agenti“, „programátorskí agenti“, „agenti, ktorí …“, „agenti napísali“. Never inanimate („tie agenty“, „agenty, ktoré“, „nákupné agenty“) and never mixed in one phrase („susedné agenti“).
+- No English noun + noun compounds copied without declension or an adjective („shell pravidlá“, „model hodnotiteľ“, „attention okno“, „aplikácie Anthropic“). Use an adjective, a genitive or a preposition: „pravidlá pre shell“, „hodnotiaci model“, „okno pozornosti“, „aplikácie spoločnosti Anthropic“.
+- Check the direction of "powered by", "driven by", "backed by" so subject and object do not swap: "a system powered by Claude" = „systém postavený na modeli Claude“, never „systém, ktorý poháňa Claude“.
+- False friends: "complex" → „zložitý, rozsiahly“ (not „komplexný“); "compromised" (account, key) → „napadnutý, unesený, ovládnutý útočníkom“ (not „kompromitovaný“); "reflexively" → „bez rozmýšľania, automaticky“ (not „reflexívne“); inanimate "relies on" → „je založený na, využíva“ (not „spolieha sa na“). Do not use „naprieč“ for every "across": prefer „vo všetkých“, „v 12 modeloch“, „medzi“.
+- Relative clauses: after a noun never „kedy“ („prípad, keď …“, „pri ktorom …“). „kde“ only for a place; for abstract nouns write „benchmark, v ktorom“, „štúdia, v ktorej“.
 </slovak_style>
 
 <formats>
@@ -68,7 +73,20 @@ Use these renderings consistently. Keep the left column's original name for anyt
 | model release / launch | vydanie / uvedenie modelu |
 | open-weight model | model s otvorenými váhami |
 | open source | open source; open-source projekt |
-| agent / agentic | agent / agentický |
+| agent / agentic | agent / agentický; plural always animate: agenti, programátorskí agenti, agenti, ktorí … (NEVER agenty, agentový) |
+| frontier model / lab / AI | špičkový model / špičkové laboratórium / špičková AI (NEVER hraničný; never „frontier“ left in running text) |
+| alignment / misaligned | zosúladenie (alignment) / nezosúladený (NEVER zarovnanie) |
+| reinforcement learning (RL) | posilňované učenie (reinforcement learning, RL) (NEVER posilňovacie učenie, učenie posilňovaním) |
+| supervised fine-tuning (SFT) | dolaďovanie s dohľadom (supervised fine-tuning, SFT) (NEVER riadené / dohliadané dolaďovanie) |
+| sycophancy | pochlebovanie (sycophancy) (NEVER servilnosť, pritakávanie) |
+| reward hacking | reward hacking, short Slovak explanation on first use (NEVER odmeňovacie podvody, obchádzanie odmeny) |
+| vision-language model (VLM) | vizuálno-jazykový model (VLM) (NEVER model pre obraz a jazyk, obrazový model) |
+| chain of thought (CoT) | reťazec uvažovania (chain of thought) (NEVER reťazec myšlienok) |
+| reasoning / inference / failure trace | záznam uvažovania / inferencie / zlyhaní (NEVER stopa uvažovania / inferencie) |
+| policy (RL, agent, robot) | stratégia (policy), riadiaca stratégia (NEVER politika) |
+| abstain / abstention | zdržať sa odpovede / zdržanie sa odpovede (NEVER bare „zdržanie“) |
+| held-out (set, tasks) | pri trénovaní nepoužitý (held-out) (NEVER odložený, zadržaný) |
+| model checkpoint / agent skill / harness / stack | keep in English: checkpoint, skill, harness, stack (NEVER kontrolný bod, zručnosť, agentový nástroj, softvérový balík) |
 | benchmark | benchmark (on first use: porovnávací test, benchmark) |
 | evaluation | hodnotenie, evaluácia |
 | token | token |
@@ -179,12 +197,12 @@ If the English cell holds any other label, translate its meaning plainly and log
 Before output, compare the Slovak file with the English one and fix any failure:
 1. The same number of paragraphs, headings, list items and table rows.
 2. Every URL from the English file, unchanged, the same number of times.
-3. Every number from the English file, in Slovak format.
+3. Every number from the English file, in Slovak format. No English decimal point and no unspaced percent sign anywhere, body and tables included (`99.6–100%` → `99,6–100 %`, `1.1%` → `1,1 %`). No ISO currency code in running text (`5 miliónov RMB` → `5 miliónov jüanov`, `USD` → dolárov).
 4. tags and date identical; slug is lowercase ASCII with hyphens; title at most 70 characters.
 5. Table labels only from the Slovak closed set; no English label left in the file.
-6. `{#why-it-matters}` and `{#verification}` on those headings, if the English has them.
+6. Every fixed heading, label and the digest title match the <structure> table character for character: `## Použité zdroje` (never `## Zdroje`), `## Stojí za prečítanie` (never `## Oplatí sa čítať`), `## Prečo na tom záleží {#why-it-matters}` (never `## Prečo je to dôležité`), `**Čo z toho vyplýva:**`, `**Čo bude ďalej:**`, the verification header ending `| Nezávislé overenie |`, and the title `Denný prehľad AI – D. mesiaca YYYY` (never „Denný AI prehľad na …“). `{#why-it-matters}` and `{#verification}` are on those headings if the English has them.
 7. Read each paragraph as a Slovak reader would. Anything that sounds translated, stiff or ambiguous: rewrite it without changing the facts.
 8. No translator notes, comments or English leftovers in the file: no English sentence or paragraph, no English original in brackets beside a Slovak quotation.
-9. Against the map: every concept from the `confirmed` entries of `terms` and `keep_in_english` that occurs in the English file has its mapped rendering in the Slovak file, and every term is rendered the same way everywhere, title and description included. Look for the `avoid` forms in all their inflected forms (search by stem: „hraničn“, „sedeni“), and change one only where it is used in the sense the entry describes.
+9. Against the map: every concept from the `confirmed` entries of `terms` and `keep_in_english` that occurs in the English file has its mapped rendering in the Slovak file, with the English gloss on first use where the entry asks for one, and every term is rendered the same way everywhere, title and description included. Scan the whole file for the `avoid` forms in all their inflected forms, at least these stems: „hraničn“, „serviln“, „pritakáv“, „zarovna“, „posilňovac“, „učenie posilňovan“, „dohliadan“, „riadené dolaď“, „riadeného dolaď“, „odmeňovac“, „obchádzan… odmen“, „kontrolný bod“ / „kontrolných bod“ (model checkpoint), „zručnos“ (agent skill), „politik“ (RL or agent policy), „stopa / stopy“ (recorded trace), „zdržani“ without „sa odpovede“, „odložen“ / „zadržan“ (held-out), „prispôsob“ (statistical fit), „agentový / agentová / agentové“, „agenty“, „kompromitovan“, „návnad“, „odpočet“, „rozpät“, „expozíci“, „uzatvár“, „zisk“ (gain). Change one only where it is used in the sense the entry describes.
 10. Against the map's patterns and style: no „Predstavte si“, no amount with an ISO code in running text, no headline whose subject is not what actually did or underwent the action.
 </self_check>

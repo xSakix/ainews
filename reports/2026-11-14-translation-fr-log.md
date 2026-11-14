@@ -8,3 +8,6 @@ ok: 4 headings, 12 paragraphs, 8 list items and 8 source URLs match speed-to-pow
 
 ## researchers-find-a-portable-goal-code-inside-an-llm.fr.md (missing)
 ok: 5 headings, 17 paragraphs, 4 list items and 4 source URLs match researchers-find-a-portable-goal-code-inside-an-llm.md
+
+## ai-daily-digest-for-12-november-2026.fr.md (missing)
+ok: 13 headings, 241 paragraphs and 119 source URLs match ai-daily-digest-for-12-november-2026.md

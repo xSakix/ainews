@@ -68,7 +68,9 @@ The digest opens with three to five top stories. Choose them by score, then bala
 | **Novelty** | first of its kind, or overturns a prior result | a notable step | incremental |
 | **Fit** — the two core interests | cognitive-side research, or economy and work (tier 1, items 2 and 3) | any other tier 1 | tier 2 |
 
-Tension must be in the sources, never added by the writer: a vendor's claim against an independent measurement, a study's finding against the common assumption, a price before and after. A story with no such gap scores 0 here and is no worse for it.
+**Score the candidates against each other, not one by one.** A table in which almost every story has 2 for substance and tension and a total of 9 ranks nothing: the order is then decided by tie-breaks. So on each criterion at most a third of the day's candidates (rounded up) hold a 2. When more of them seem to deserve it, compare them, keep the 2 for the strongest and give the others 1. Most candidates on most days end between 5 and 8; a 10 is rare.
+
+**Tension must be in the sources, never added by the writer, and a 2 needs both sides named.** Each side is a source you can link: a vendor's claim and an independent measurement of it, a price sheet before and after, a company's statement and an official statistic, a result and the named earlier result it contradicts. A finding set against "what people assume", with no source for the assumption, is a 1: almost every paper claims to surprise. Write the two sides of every 2 in the production log, in a few words, with both URLs. A story with no gap scores 0 here and is no worse for it.
 
 **3. Rank** by total (0 to 10). Break ties by substance, then consequence.
 
@@ -83,7 +85,7 @@ Tension must be in the sources, never added by the writer: a vendor's claim agai
 
 The 🚨 marker in briefings flags magnitude, not interest. It does not decide what becomes a top story.
 
-The production run writes each top story's scores, total and lens to the production log, so the publisher can see why a story was chosen and adjust this profile.
+The production run writes each top story's scores, total and lens to the production log, with the two sides of every Tension 2, so the publisher can see why a story was chosen and adjust this profile.
 
 ## The two articles
 

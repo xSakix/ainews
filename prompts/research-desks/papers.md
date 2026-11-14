@@ -38,7 +38,7 @@ Check these directly; do not rely on web search to find new papers (see "Go to t
 
 ## What to report
 
-Aim for 5–10 papers. For each item, the summary states the one finding in plain words and why it is interesting. Then add one line:
+At most ten papers in the first section; on a thin week, fewer. Never lower the bar to fill the list. For each item, the summary states the one finding in plain words and why it is interesting. Then add one line:
 `Authors: [lead institution(s)] · First submitted: [v1 date] · Artefacts: [code / data / weights / none] · Cognitive side: [yes / no]`
 
 Prefer papers with released code, data or weights: the reader can inspect them, and the writer can explain them.

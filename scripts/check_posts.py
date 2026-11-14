@@ -7,7 +7,15 @@ Usage:
 
 Translations (<slug>.<lang>.md for sk, nl, fr, de, es, zh) are also checked
 against their English twin (<slug>.md): same tags, date and source URLs, and
-claim labels in the translation's language only.
+claim labels in the translation's language only. With --strict they must also
+have the same number of headings, paragraphs, list items and table rows as the
+twin, no paragraph left in English and, for Slovak, none of the unambiguous
+`avoid` forms of prompts/translation-maps/sk.yaml.
+
+Lines starting "note:" are not failures: they point at wording a writer or
+translator should look at once (a phrase from the prompts' avoid lists, a
+number format). A passing --strict check of one file prints an "ok:" line with
+the counts it compared; runs copy that line into their log.
 
 Exits 1 if any check fails.
 """
@@ -54,6 +62,30 @@ TRANSLATIONS = {
                re.compile(r"译者注|译注|translat(or|ion)'?s? notes?", re.I),
                "已核实, 部分核实, 据公司称, 未核实"),
 }
+# The fixed line an article carries after an invented opening scene
+# (prompts/article-writer-prompt.md). Translators replace it with their
+# language's fixed line, so the English one must not survive in a twin.
+ILLUSTRATION_NOTE = "are illustrations; the people in them are invented"
+
+# Unambiguous `avoid` forms from prompts/translation-maps/sk.yaml: these stems
+# are wrong in every sense an AI post uses them in. Forms that are correct in
+# another sense (politika, zisk, stopa, zručnosť ...) stay with the translator.
+SK_AVOID = [
+    (re.compile(r"\bhraničn\w*\s+(model|laborat|AI\b|chatbot|asistent|systém)", re.I), "hraničný for frontier (use špičkový)"),
+    (re.compile(r"\bzarovnan\w*", re.I), "zarovnanie for alignment (use zosúladenie)"),
+    (re.compile(r"\bposilňovac\w*\s+učen|\bučen\w*\s+posilňovaním", re.I), "use posilňované učenie"),
+    (re.compile(r"\bserviln\w*|\bpritakáv\w*", re.I), "use pochlebovanie for sycophancy"),
+    (re.compile(r"\bagenty\b|\bagentov(ý|á|é|ého|ej|ých|ými|ú)\b", re.I), "agenti is animate; use agentický, not agentový"),
+    (re.compile(r"\breťaz\w*\s+myšlienok", re.I), "use reťazec uvažovania"),
+]
+# English function words that no other edition's language shares.
+ENGLISH_WORDS = re.compile(r"\b(the|and|that|with|which|this|from|have|were|their|would|about)\b", re.I)
+# Phrases the writer prompts ask to avoid (English posts; notes only).
+STOCK = re.compile(
+    r"\b(delv(e|es|ed|ing)|showcas(e|es|ed|ing)|underscor(e|es|ed|ing)|pivotal|seamless(ly)?|"
+    r"game-changer|revolutionary|it'?s worth noting|notably|not just\b[^.]{0,60}\bbut)\b", re.I)
+UNSPACED_PERCENT = re.compile(r"\d%")
+
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 URL = re.compile(r"https?://[^\s)\]|>\"]+")
 
@@ -71,11 +103,51 @@ def urls(body):
     return sorted(u.rstrip(".,;:") for u in URL.findall(body))
 
 
+def blocks(body):
+    """Count the body's blocks by kind; a translation keeps every count."""
+    counts = {"headings": 0, "paragraphs": 0, "list items": 0, "table rows": 0}
+    in_para = in_fence = False
+    for line in body.split("\n"):
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            in_fence = not in_fence
+        if not stripped or in_fence:
+            in_para = False
+        elif re.match(r"#{2,6} ", stripped):
+            counts["headings"] += 1
+            in_para = False
+        elif re.match(r"([-*+]|\d+\.) ", stripped):
+            counts["list items"] += 1
+            in_para = False
+        elif stripped.startswith("|"):
+            if not re.fullmatch(r"\|[\s:|-]+\|?", stripped):
+                counts["table rows"] += 1
+            in_para = False
+        elif not in_para:
+            counts["paragraphs"] += 1
+            in_para = True
+    return counts
+
+
+def prose_lines(body):
+    """Yield (line number, text without URLs and code) up to the reference list."""
+    in_fence = False
+    for n, line in enumerate(body.split("\n"), start=1):
+        if line.startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence or line.lstrip().startswith("|"):
+            continue
+        if re.match(r"## (References|Použité zdroje|Quellen|Referenties|Bronnen|Références|Referencias|参考)", line):
+            return
+        yield n, re.sub(r"`[^`]*`", "", URL.sub("", line))
+
+
 def translation_suffix(path):
     return next((sfx for sfx in TRANSLATIONS if path.name.endswith(sfx)), None)
 
 
-def check_translation(path, suffix, meta, body, strict):
+def check_translation(path, suffix, meta, body, strict, notes_out):
     errors = []
     _, notes, labels = TRANSLATIONS[suffix]
     leaks = [
@@ -110,6 +182,33 @@ def check_translation(path, suffix, meta, body, strict):
         if en_heading in en_body and "{#" + heading_id + "}" not in body:
             errors.append(f"heading for '{en_heading[3:]}' needs {{#{heading_id}}}")
 
+    if ILLUSTRATION_NOTE in body:
+        errors.append("the illustration note is still in English (use the translator prompt's fixed line)")
+
+    if strict:
+        en_blocks, own_blocks = blocks(en_body), blocks(body)
+        for kind, n in en_blocks.items():
+            if own_blocks[kind] != n:
+                errors.append(f"{own_blocks[kind]} {kind}, {twin.name} has {n}")
+        for n, line in prose_lines(body):
+            words = re.findall(r"[A-Za-z']+", re.sub(r"[\"“„«»].*?[\"”“»]|\*[^*]+\*", "", line))
+            if len(words) >= 12 and len(ENGLISH_WORDS.findall(" ".join(words))) >= 0.15 * len(words):
+                errors.append(f"body line {n}: paragraph left in English")
+            if suffix == ".sk.md":
+                for pattern, what in SK_AVOID:
+                    if m := pattern.search(line):
+                        errors.append(f"body line {n}: „{m.group(0)}“: {what}")
+            if suffix in (".sk.md", ".de.md", ".fr.md") and UNSPACED_PERCENT.search(line):
+                notes_out.append(f"body line {n}: percent sign without a space")
+        if suffix == ".sk.md" and meta is not None:
+            for field in ("title", "description"):
+                for pattern, what in SK_AVOID:
+                    if m := pattern.search(str(meta.get(field, ""))):
+                        errors.append(f"{field}: „{m.group(0)}“: {what}")
+        if not errors:
+            summary = ", ".join(f"{n} {kind}" for kind, n in own_blocks.items() if n)
+            notes_out.append(f"ok: {summary} and {len(urls(body))} source URLs match {twin.name}")
+
     if strict and meta is not None:
         slug = str(meta.get("slug", ""))
         if not SLUG.match(slug) or len(slug) > 60:
@@ -123,8 +222,11 @@ def check_translation(path, suffix, meta, body, strict):
     return errors
 
 
-def check(path, strict):
+def check(path, strict, notes_out=None):
+    """Return the file's failures; append non-failing remarks to notes_out."""
     errors = []
+    if notes_out is None:
+        notes_out = []
     text = path.read_text(encoding="utf-8")
     delim = text[:3]
     if delim not in ("+++", "---"):
@@ -175,7 +277,11 @@ def check(path, strict):
         if DEK.match(first.strip()):
             errors.append("body starts with an italic dek; put it in description")
     if suffix := translation_suffix(path):
-        errors += check_translation(path, suffix, meta if delim == "+++" else None, body, strict)
+        errors += check_translation(path, suffix, meta if delim == "+++" else None, body, strict, notes_out)
+    elif strict:
+        for n, line in prose_lines(body):
+            if m := STOCK.search(re.sub(r"[\"“].*?[\"”]", "", line)):
+                notes_out.append(f"note: body line {n}: \"{m.group(0)}\" is on the writer prompts' avoid list")
     return errors
 
 
@@ -188,11 +294,15 @@ def main(argv):
     files = [f for f in files if not f.name.startswith("_index")]
     failed = 0
     for path in files:
-        errors = check(path, strict)
+        notes = []
+        errors = check(path, strict, notes)
         if errors:
             failed += 1
             for e in errors:
                 print(f"{path}: {e}")
+        if strict:
+            for note in notes:
+                print(f"{path}: {note if note.startswith(('ok:', 'note:')) else 'note: ' + note}")
     print(f"{len(files)} checked, {failed} with problems")
     return 1 if failed else 0
 

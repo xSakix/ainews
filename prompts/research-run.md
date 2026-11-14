@@ -7,7 +7,7 @@ Claude does the research; GPT writes the digest. Each of them also writes one ar
 | Anthropic Claude | researches: runs every desk below each morning, then writes Claude's article of the day, as a scheduled Claude routine whose prompt is kept in `prompts/routine-anthropic.md` | `anthropic` |
 | OpenAI GPT | produces: writes the digest from Claude's briefings, writes GPT's article of the day, translates into Slovak and publishes (`prompts/main-prompt.md`) | `gpt`, only when it has to run a missing desk as a fallback |
 
-The routine stores its own copy of its prompt. After editing `prompts/routine-anthropic.md`, update the routine from the routine's own conversation: Claude only accepts prompt changes made there.
+The routine stores only the short "Stored prompt" at the top of `prompts/routine-anthropic.md`; the steps are read from the clone on every run, so editing them needs no change to the routine. Only when the stored prompt itself changes, update the routine from the routine's own conversation: Claude only accepts prompt changes made there.
 
 ## Desks
 
@@ -30,3 +30,11 @@ The routine stores its own copy of its prompt. After editing `prompts/routine-an
 2. Run every desk: the shared rules plus the desk's own file. Run each desk as a separate pass with its own focus — in parallel as separate subagents if your environment supports them, otherwise one after another. Give each pass the paths of the profile, the shared rules and its desk file. A desk never cuts its work short because other desks are still waiting.
 3. Save each briefing to the path in the table, with your suffix. If a briefing with your suffix already exists for today, it is from an earlier attempt of your own run: replace it only if you completed the desk again.
 4. If a desk fails, write its briefing anyway with one line saying why, so triage knows the gap is a failure and not a quiet day.
+
+## When a desk is done
+
+Whoever runs it, Claude in the morning or GPT as a fallback, a desk is done when its `## Coverage` note has a line for every source group in its desk file's "Where to look", each one fetched directly or recorded as failed with what was tried instead (`prompts/research-prompt.md`, OUTPUT FORMAT). Reading two or three sources and writing up what they showed is not a desk. A fallback run that covers several desks in one context does them one after another and finishes each, coverage note included, before it opens the next desk's file.
+
+## The status file
+
+Claude's run writes `reports/YYYY-MM-DD-research-status-anthropic.md` so that the production run can tell a late research run from one that never started. Its first line is `started HH:MM`, pushed before any desk runs; the line `complete HH:MM` is added in the commit that delivers the briefings. The production run reads it only when a briefing is missing (`prompts/main-prompt.md`, Task A).

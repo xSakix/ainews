@@ -25,6 +25,12 @@ Published `content/posts/ai-daily-digest-for-14-november-2026.md` from the fixed
 
 Readability edit: complete; meaning and sources checked
 
+## LinkedIn edition
+
+`content/linkedin/2026-11-14.sk.md`: Používatelia horšie hodnotili presnejšieho AI asistenta. Všetkých päť hlavných správ zostalo v poradí z digestu; ďalšia časť obsahuje šesť položiek.
+
+Readability edit: complete; meaning and sources checked
+
 ## Translation notes
 
 Published the Slovak twin of the English digest. The final file preserves all 79 content blocks, all 29 source URLs and the same ordering as the English original.

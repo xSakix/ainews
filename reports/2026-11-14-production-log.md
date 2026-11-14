@@ -18,3 +18,9 @@ All eight Claude desk briefings were missing at collection time. The production 
 AgentSSL and the peer-review benchmark ranked above the fifth item on raw score. The balance rule moved the backend-skills benchmark into the top five so the set spans Capability, Consequence and Practice without giving Capability four slots. The lead is the 10-point accuracy–approval study because it affects how ordinary users reward model behaviour.
 
 Duplicates across desks were merged. The data-centre power paper appears once as a consequence story; the backend-skills benchmark appears once as a top story and supplies the technique item; the Executor write-up appears under projects; the No AI Slop discussion is represented by the manifesto; the Jonathan Blow discussion is represented by the original video.
+
+## English digest
+
+Published `content/posts/ai-daily-digest-for-14-november-2026.md` from the fixed plan. The digest preserves the planned order, distinguishes reported measurements from deployment evidence, and retains direct source URLs.
+
+Readability edit: complete; meaning and sources checked

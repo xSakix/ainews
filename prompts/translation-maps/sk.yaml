@@ -24,16 +24,18 @@
 # source term, `target` the rendering in the map's language.
 
 language: sk
-version: 3
+version: 4
 
 # ---------------------------------------------------------------------------
 terms:
   # --- AI / ML terms ------------------------------------------------------
   - en: frontier model / frontier lab / frontier AI
     target: špičkový model / špičkové laboratórium / špičková AI
-    avoid: [hraničný, hraničné]
+    avoid: [hraničný, hraničné, "frontier left untranslated in running text (frontier modelov, frontier trénovanie)"]
     note: >
-      "Hraničný" means borderline. Proper names stay as they are (Frontier
+      "Hraničný" means borderline. Covers every frontier collocation: frontier
+      chatbot -> špičkový chatbot, frontier developers -> vývojári špičkových
+      modelov, frontier assistant -> špičkový asistent. Proper names stay as they are (Frontier
       Model Forum, FrontierCode). About 30 uses of "hraničný" for frontier in
       13 posts, against 39 of "špičkový".
     status: confirmed
@@ -41,17 +43,17 @@ terms:
 
   - en: alignment / aligned / misaligned / misalignment
     target: zosúladenie (alignment) / nezosúladený (misaligned)
-    avoid: [zarovnanie, zarovnaný]
+    avoid: [zarovnanie, zarovnaný, "alignment declined as a Slovak noun without a gloss (meranie alignmentu)"]
     note: >
       Approved by the editor. Nouns: zosúladenie (alignment); for misalignment write nezosúladenie (misalignment).
-      "alignment team" -> tím pre zosúladenie; domain and team names in English stay (alignment.openai.com).
+      "safety alignment" -> bezpečnostné zosúladenie. "alignment team" -> tím pre zosúladenie; domain and team names in English stay (alignment.openai.com).
       On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
     status: confirmed
     evidence: [SK-059]
 
   - en: reinforcement learning (RL)
     target: posilňované učenie (reinforcement learning, RL)
-    avoid: [posilňovacie učenie]
+    avoid: [posilňovacie učenie, učenie posilňovaním, "reinforcement learning declined in running text (reinforcement learningom)"]
     note: >
       Approved by the editor. RLVR: posilňované učenie s overiteľnými odmenami (RLVR), then RLVR.
       On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
@@ -69,17 +71,21 @@ terms:
 
   - en: reward hacking
     target: reward hacking
-    avoid: [odmeňovacie podvody]
+    avoid: [odmeňovacie podvody, obchádzanie odmeny, obchádzaním odmeny]
     note: >
       Keep the English term; on first use a short Slovak explanation may follow
       (e.g. „model si odmenu vynúti obídením zadania“). An earlier version proposed
       „zneužívanie odmeňovania“, which reads as pay fraud; it was withdrawn.
-    status: needs_review
+      "reward-hacking monitors" -> monitory reward hackingu; "reward-hacking
+      transcripts" -> prepisy s reward hackingom. Promoted to confirmed after
+      the November 2026 corpus review found „odmeňovacie podvody“ and
+      „obchádzanie odmeny“ in four posts.
+    status: confirmed
     evidence: [SK-055, SK-058, SK-060]
 
   - en: sycophancy
     target: pochlebovanie (sycophancy)
-    avoid: [servilnosť]
+    avoid: [servilnosť, pritakávanie]
     note: >
       Approved by the editor.
       On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
@@ -95,7 +101,7 @@ terms:
 
   - en: vision-language model (VLM)
     target: vizuálno-jazykový model (VLM)
-    avoid: [model pre obraz a jazyk, vizuálny model]
+    avoid: [model pre obraz a jazyk, modely obrazu a jazyka, vizuálny model, obrazový model]
     note: Use the same form in the headline and the body.
     status: confirmed
     evidence: [SK-066, SK-116]
@@ -120,7 +126,7 @@ terms:
 
   - en: held-out (set, examples)
     target: pri trénovaní nepoužitý (held-out), e.g. pri trénovaní nepoužité úlohy (held-out tasks)
-    avoid: [zadržaný]
+    avoid: [zadržaný, odložený, vopred vyčlenený]
     note: >
       Approved by the editor.
       On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
@@ -143,20 +149,25 @@ terms:
     status: confirmed
     evidence: [SK-036]
 
-  - en: activation steering
-    target: riadenie aktivácií (activation steering)
-    avoid: [usmernenie smeru]
+  - en: activation steering / steering (concept steering, steered state)
+    target: riadenie aktivácií (activation steering) ; usmerňovanie aktivácií ; riadený (stav)
+    avoid: [usmernenie smeru, "steering left in English in running text (Activation steering môže)", "bare riadenie without saying what is steered"]
     note: >
-      Approved by the editor.
+      Approved by the editor. Bare „riadenie“ reads as management or vehicle
+      control: always say what is steered („riadenie aktivácií“, „usmerňovanie
+      aktivácií“, „zásah do aktivácií“). "steered emotional states" ->
+      riadené (navodené) emočné stavy.
       On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
     status: confirmed
     evidence: [SK-114]
 
   - en: agentic
     target: agentický (agentic), e.g. agentická AI (agentic AI)
-    avoid: [agentový]
+    avoid: [agentový, agentová, agentové, agentového]
     note: >
-      Approved by the editor; replaces the earlier „agentový“. „agentic commerce“ -> nákupy cez AI agentov.
+      Approved by the editor; replaces the earlier „agentový“. „agentic commerce“ -> nákupy cez AI agentov;
+      "agentic search" -> agentické vyhľadávanie; "agentic judge" -> agentický hodnotiteľ.
+      For the plural of the noun „agent“ see style.names (always animate: agenti).
       On first use in a post write the Slovak term with the English original in brackets, then the Slovak term alone.
     status: confirmed
     evidence: [SK-069]
@@ -167,6 +178,133 @@ terms:
     note: In an AI text a Slovak reader takes "agenti" for software agents. First use with the English word in brackets.
     status: needs_review
     evidence: [SK-067]
+
+  # --- AI / ML terms added after the November 2026 corpus review --------
+  # Entries with empty evidence here and below come from the editor's review
+  # of 24 paired posts (13 articles, 11 digests, October-November 2026); each
+  # note names the misrendering found in published Slovak twins.
+  - en: policy (reinforcement learning, agent control, robotics, decision model)
+    target: stratégia (policy) ; riadiaca stratégia ; rozhodovacia stratégia
+    avoid: [politika, robotická politika, rozhodovacia politika, hodnotená politika]
+    note: >
+      In RL, robotics and agent control a policy is a decision or action
+      strategy, never „politika“ (politics, corporate rules). Keep
+      „politika / pravidlá“ only for governance, company policy or
+      access-control rules ("policy engine"). "on-policy distillation" ->
+      on-policy destilácia (destilácia z vlastných priebehov modelu), never
+      „destilácia podľa aktuálnej politiky“. "consistent belief policy" ->
+      konzistentná stratégia. Found as „politika“ in four posts; one post
+      already used „stratégia“.
+    status: confirmed
+    evidence: []
+
+  - en: trace (reasoning trace, inference trace, failure trace, execution / browser trace)
+    target: záznam (uvažovania / inferencie / zlyhaní / behu / prehliadača) ; priebeh ; postup uvažovania
+    avoid: [stopa uvažovania, stopa inferencie, stopy inferencie, stopy zlyhaní, stopy prehliadača]
+    note: >
+      When "trace" is a recorded log of steps, tokens or actions, write
+      „záznam“ or „priebeh / postup“. „Stopa“ only when "trace" is an indirect
+      vestige or footprint ("source trace" -> stopa zdroja, "traces of
+      PyTorch's layout" -> stopy rozloženia). Found in four posts.
+    status: confirmed
+    evidence: []
+
+  - en: abstain / abstention (a model declining to answer when uncertain)
+    target: zdržať sa odpovede / zdržanie sa odpovede
+    avoid: ["bare zdržanie (= delay, latency)", "odmietnutie (= safety refusal)"]
+    note: >
+      Never shorten „zdržanie sa odpovede“ to bare „zdržanie“, and do not
+      confuse it with a safety refusal („odmietnutie“). "raised abstention from
+      20% to 91%" -> zvýšil mieru zdržania sa odpovede z 20 % na 91 %.
+    status: confirmed
+    evidence: []
+
+  - en: rollout (ML sampling, chain-of-thought path, RL episode, world-model simulation)
+    target: priebeh (rollout) ; vygenerovaný priebeh ; beh
+    avoid: [rozvinutie, "nasadenie (in the sampling sense)"]
+    note: >
+      In ML and RL ("many rollouts", "32-rollout baseline", "rollout budget") a
+      rollout is a sampled trajectory or run: „priebeh“, „beh“. For a product or
+      feature release ("Copilot rollout") write „zavedenie“ or „postupné
+      nasadenie“. For the named metric "latent rollout consistency" gloss on
+      first use: konzistentnosť latentných priebehov (latent rollout consistency).
+    status: confirmed
+    evidence: []
+
+  - en: fit / fitted / joint fitting (statistical model, linear probe, direction, classifier)
+    target: natrénovať / odhadnúť parametre (na dátach) / odvodiť (smer) z dát
+    avoid: [prispôsobiť, prispôsobený, prispôsobené zložky, spoločné prispôsobenie, fitovať]
+    note: >
+      "fitted a linear classifier / direction" -> natrénoval lineárny
+      klasifikátor / odvodil lineárny smer z dát; "fitted components" ->
+      zložky odhadnuté z dát; "fits it jointly to 7,036,442 human choices" ->
+      spoločne odhaduje jeho parametre na 7 036 442 ľudských rozhodnutiach.
+      „Prispôsobiť“ stays correct for adapting something in the everyday sense.
+    status: confirmed
+    evidence: []
+
+  - en: grounding / visual grounding / grounded (generation, answers, simulated users)
+    target: ukotvenie / vizuálne ukotvenie ; podložený zdrojmi ; založený na
+    avoid: [uzemnenie, uzemnený]
+    note: >
+      "visual grounding" -> vizuálne ukotvenie; "grounded generation" ->
+      generovanie podložené zdrojmi; "simulated users grounded in 112 case
+      files" -> simulovaní používatelia založení na 112 prípadoch.
+    status: confirmed
+    evidence: []
+
+  - en: faithfulness / faithful / unfaithful (chain of thought, explanation, world model)
+    target: vernosť (faithfulness) / verný / neverný (skutočnému výpočtu alebo prostrediu)
+    avoid: []
+    note: >
+      On first mention say what the explanation or model is faithful to, e.g.
+      „vernosť (faithfulness) vysvetlení, teda či opisujú skutočný výpočet“.
+      A bare „vernosť“ with no object is unclear to a Slovak reader.
+    status: confirmed
+    evidence: []
+
+  - en: foundation model (and base model, when the post contrasts them)
+    target: základný model (foundation model) ; veľký predtrénovaný model (foundation model)
+    avoid: ["foundation model in running text without a gloss"]
+    note: >
+      Slovak term with "(foundation model)" on first use. Where the same post
+      contrasts "foundation model" with "base model", write "base model" as
+      „základný (nedoladený) model (base model)“ and "foundation model" as
+      „veľký predtrénovaný model (foundation model)“.
+    status: confirmed
+    evidence: []
+
+  - en: attention head / induction head / output head
+    target: hlava pozornosti (attention head) / indukčná hlava / výstupná hlava
+    avoid: ["bare English head / heads in Slovak prose (rovnaké heads, trénuje head)"]
+    note: >
+      Never mix Slovak adjectives with bare English "head / heads". Gloss on
+      first use if needed, then „hlava pozornosti“ or „výstupná hlava“.
+    status: confirmed
+    evidence: []
+
+  - en: sparse autoencoder (SAE) / SAE features
+    target: riedky autoenkóder (sparse autoencoder, SAE) / príznaky (features)
+    avoid: [prvky riedkeho autoenkódera]
+    note: >
+      First use „riedky autoenkóder (sparse autoencoder, SAE)“, then „SAE“ or
+      „riedky autoenkóder“. Learned SAE features are „príznaky“ or „črty“, not
+      „prvky“ (elements).
+    status: confirmed
+    evidence: []
+
+  - en: overfitting / overthinking
+    target: preučenie (overfitting) / nadmerné (príliš dlhé) uvažovanie
+    avoid: [preuvažovanie]
+    status: confirmed
+    evidence: []
+
+  - en: reranker / reranking
+    target: reranker (model na preusporiadanie výsledkov) / preusporiadanie výsledkov
+    avoid: [preradzovací model]
+    note: '„Preradzovací“ refers to shifting gears in a vehicle.'
+    status: confirmed
+    evidence: []
 
   # --- Software engineering ----------------------------------------------
   - en: boilerplate
@@ -245,26 +383,27 @@ terms:
   - en: associate (job title, consulting)
     target: junior konzultant
     avoid: [spolupracovník]
-    status: needs_review
+    status: confirmed
     evidence: [SK-037]
 
   - en: adoption (of a technology by firms or workers)
     target: zavádzanie, využívanie
     avoid: [adopcia, nasadenie]
     note: '"Nasadenie" is deployment. "AI adoption" -> zavádzanie AI.'
-    status: needs_review
+    status: confirmed
     evidence: [SK-056, SK-064]
 
   - en: exposure (of jobs or sectors to AI)
     target: vystavenosť
     avoid: [expozícia]
+    note: 'Also for financial risk: "tracks exposure through private credit" -> sleduje vystavenosť cez súkromné úvery.'
     status: confirmed
     evidence: [SK-113, SK-115]
 
   - en: working paper (economics)
     target: pracovný dokument (working paper)
     avoid: [pracovná štúdia]
-    status: needs_review
+    status: confirmed
     evidence: [SK-118]
 
   - en: upside risks (central-bank language)
@@ -334,6 +473,70 @@ terms:
     status: confirmed
     evidence: [SK-138, SK-141]
 
+  - en: decoy (wrong option in a multiple-choice test or benchmark)
+    target: nesprávna možnosť ; klamlivá možnosť (distraktor)
+    avoid: [návnada]
+    note: '„Návnada“ is bait (phishing, fishing). In tests and benchmarks write klamlivá or nesprávna možnosť.'
+    status: confirmed
+    evidence: []
+
+  - en: crux (decisive sub-question in reasoning)
+    target: kľúčová podotázka (crux) ; rozhodujúci bod
+    avoid: []
+    note: >
+      Do not write plain „kľúčová otázka“ where the post also has a main
+      question: the crux is a sub-question that decides it.
+    status: confirmed
+    evidence: []
+
+  - en: compromised (account, key, server, package)
+    target: napadnutý ; ovládnutý útočníkom ; unesený (účet) ; uniknutý (kľúč)
+    avoid: [kompromitovaný]
+    note: >
+      False friend: in Slovak „kompromitovaný“ reads as socially discredited.
+      "compromised maintainer accounts" -> napadnuté účty správcov.
+    status: confirmed
+    evidence: []
+
+  - en: complex (system, task)
+    target: zložitý ; rozsiahly
+    avoid: [komplexný]
+    note: '„Komplexný“ means comprehensive in Slovak; use it only in that sense.'
+    status: confirmed
+    evidence: []
+
+  - en: reflexively
+    target: bez rozmýšľania ; automaticky
+    avoid: [reflexívne]
+    status: confirmed
+    evidence: []
+
+  - en: "relies on (inanimate subject: a method, system, benchmark)"
+    target: je založený na ; využíva ; stavia na
+    avoid: ["spolieha sa na (with an inanimate subject)"]
+    note: '„Spoliehať sa“ needs a person or organisation as the subject.'
+    status: confirmed
+    evidence: []
+
+  - en: across (models, tasks, benchmarks)
+    target: vo všetkých ; v N modeloch ; medzi ; pri
+    avoid: ["naprieč for every across"]
+    note: >
+      „Naprieč“ is correct but overused; prefer the construction that says what
+      was compared: "across 12 models" -> v 12 modeloch; "differences across
+      tasks" -> rozdiely medzi úlohami.
+    status: needs_review
+    evidence: []
+
+  - en: powered by / driven by / backed by (a model or company)
+    target: postavený na ; poháňaný (with the correct direction) ; financovaný
+    avoid: ["systém, ktorý poháňa Claude (reversed direction)"]
+    note: >
+      Check who acts on whom: "a system powered by Claude" -> systém postavený
+      na modeli Claude, never „systém, ktorý poháňa Claude“.
+    status: confirmed
+    evidence: []
+
 # ---------------------------------------------------------------------------
 keep_in_english:
   - term: dataset
@@ -341,31 +544,36 @@ keep_in_english:
       Declined as a Slovak noun (dataset, datasetu, v datasete, datasety).
       Three forms are in use (dataset 40, dátový súbor 13, súbor dát or
       súbor údajov 11). In a plain statistics or economics text "súbor údajov" is fine.
-    status: needs_review
+    status: confirmed
     evidence: [SK-054, SK-062, SK-112]
   - term: checkpoint
     note: >
       ML model checkpoint (64 uses against 18 of "kontrolný bod"). "kontrolný bod" only for a milestone in a
-      project (Shopify's "small checkpoints").
+      project (Shopify's "small checkpoints"). Declined: checkpoint, checkpointu, na 782 checkpointoch.
     status: confirmed
     evidence: []
   - term: cache
     note: >
       LLM serving (KV cache, prompt cache, cache read). Indeclinable: z cache,
       do cache. "vyrovnávacia pamäť" is also correct; prefer one form per post.
-    status: needs_review
+    status: confirmed
     evidence: [SK-065]
   - term: stack
-    note: '"tech stack" -> technologický stack, not "technologický balík".'
-    status: needs_review
+    note: '"tech stack" -> technologický stack, not "technologický balík" or "softvérový balík".'
+    status: confirmed
     evidence: [SK-074]
   - term: harness
-    note: '"agent harness" -> agentový harness, not "agentový nástroj".'
-    status: needs_review
+    note: >
+      "agent harness" -> harness agenta (or agentický harness), not
+      „agentový nástroj“ or „zostava“. „agentový“ is banned by the agentic entry.
+    status: confirmed
     evidence: [SK-068]
   - term: skill
-    note: A named feature of coding agents ("agent skill"), not "zručnosť".
-    status: needs_review
+    note: >
+      A named feature of coding agents ("agent skill"), not „zručnosť“.
+      Declined: skill, skillu, skilly, skillov. „zručnosť“ stays correct for
+      human skills (labour-market texts).
+    status: confirmed
     evidence: [SK-119]
   - term: release candidate
     status: confirmed
@@ -387,6 +595,21 @@ keep_in_english:
     evidence: []
   - term: framework
     note: Frameworky, frameworkov. Keep. Clear tech-press usage.
+    status: confirmed
+    evidence: []
+  - term: prefill
+    note: >
+      LLM serving phase (prefill vs. decode). Declined: prefillu, v prefille.
+      Outside deeply technical items a short gloss may follow on first use
+      (spracovanie vstupu).
+    status: confirmed
+    evidence: []
+  - term: worktree
+    note: Git worktree; plural worktrees (v oddelených Git worktrees). A gloss „pracovný strom“ may follow on first use.
+    status: confirmed
+    evidence: []
+  - term: zero-day
+    note: zero-day zraniteľnosť (doteraz neznáma zraniteľnosť) on first use.
     status: confirmed
     evidence: []
 
@@ -412,6 +635,11 @@ idioms:
     avoid: [drží s malou istotou]
     status: confirmed
     evidence: [SK-139]
+  - en: blast radius (security, agent permissions)
+    target: rozsah možných škôd ; dosah chyby
+    avoid: [polomer výbuchu]
+    status: confirmed
+    evidence: []
   - en: deeply flawed
     target: zásadne chybný
     avoid: [hlboko chybný]
@@ -556,13 +784,17 @@ style:
     - 'A ranking keeps its ordinal (fidelity rule 3) and nothing is added: "na 73. mieste zo 73 podľa nákladov".'
   currency:
     - 'In running text use the word, declined: 283,82 dolára, 380 dolárov, 15 eur. ISO codes only in tables.'
+    - 'Chinese yuan (RMB, CNY) is „jüan“: 5 miliónov jüanov, never 5 miliónov RMB.'
   dates:
     - 'Keep both ends of a range: od 15. septembra do 12. októbra 2026. Never drop the start.'
     - 'Day-month-year with the month in the genitive: 29. septembra 2026.'
   names:
     - 'Follow <slovak_style> in the prompt: decline company names where it sounds natural (Googlu, Microsoftu); for Anthropic, OpenAI, xAI and HPE use an apposition („spoločnosť Anthropic“, „aplikácie spoločnosti Anthropic“). A bare undeclined name as a genitive attribute is wrong („aplikácií Anthropic“).'
     - 'Product, programme, model and benchmark names stay in English, including inside quotations (Cyber Verification Program).'
+    - 'The noun „agent“ (software agent) is masculine animate in the plural, always: tí agenti, programátorskí agenti, výskumní agenti, nákupní agenti, agenti, ktorí ..., agenti napísali. Never inanimate (tie agenty, nákupné agenty, agenty otvorili, agentov, ktoré) and never mixed in one phrase (susedné agenti -> susední agenti).'
     - 'People''s names, first names and surnames, foreign ones included, are declined by Slovak grammar (Woodsidea, Woodsideove čísla, Erika Brynjolfssona).'
   register:
     - 'No direct address of the reader ("Predstavme si", not "Predstavte si").'
     - 'Technical but not slangy; keep the English term only where the map says so.'
+    - 'No English noun + noun compounds copied without declension or an adjective (shell pravidlá, model hodnotiteľ, attention okno). Use an adjective, a genitive or a preposition: pravidlá pre shell, hodnotiaci model, okno pozornosti.'
+    - 'Relative clauses after a noun: never „kedy“ (prípad, keď ... / pri ktorom ...). „kde“ only for a place; for abstract nouns write v ktorom / v ktorej (benchmark, v ktorom; štúdia, v ktorej).'

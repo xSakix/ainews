@@ -30,3 +30,7 @@ Readability edit: complete; meaning and sources checked
 Published the Slovak twin of the English digest. The final file preserves all 79 content blocks, all 29 source URLs and the same ordering as the English original.
 
 Readability edit: complete; meaning and sources checked
+
+Published the Slovak twin of the GPT article. The translation preserves all 23 content blocks, all four references and the paper's distinction between a controlled goal representation and a general inner intention.
+
+Readability edit: complete; meaning and sources checked

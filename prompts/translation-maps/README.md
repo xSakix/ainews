@@ -22,4 +22,6 @@ One file per edition: `<lang>.yaml` (`sk` exists; `nl`, `fr`, `de`, `es` and `zh
 
 ## Changing a map
 
+`scripts/check_posts.py` enforces a small part of the Slovak map on its own: the list `SK_AVOID` holds the `avoid` forms that are wrong in every sense, and a Slovak twin that contains one fails the strict check. When a `confirmed` entry with such an unambiguous `avoid` form is added to `sk.yaml`, add its pattern there too. Forms that are correct in another sense („politika“, „zisk“, „stopa“) stay out of the script and with the translator.
+
 Only a person edits a map. A translator run that meets a term the map lacks logs it as `Term not in map: …` (see the prompt), and a person adds it here.

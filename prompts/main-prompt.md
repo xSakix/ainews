@@ -41,18 +41,19 @@ Two AI systems share the work. **Claude** runs every research desk early each mo
 
 ### Task A — Collect the research
 
-1. Read today's Claude briefings: `reports/YYYY-MM-DD-briefing-<desk>-anthropic.md` for every desk listed in `prompts/research-run.md`. If present, also read a single-file briefing from before the desks existed (`reports/YYYY-MM-DD-ai-briefing-anthropic.md`), every section of it, whatever its headings.
+1. Read today's Claude briefings: `reports/YYYY-MM-DD-briefing-<desk>-anthropic.md` for every desk listed in `prompts/research-run.md`. If present, also read a single-file briefing from before the desks existed (`reports/YYYY-MM-DD-ai-briefing-anthropic.md`), every section of it, whatever its headings. Read each briefing up to its `## URLs for NotebookLM` heading; the list below it repeats the URLs of the items.
 2. A briefing that says its desk failed is a gap, not a quiet day; log it.
-3. Fallback, only if a desk's Claude briefing for today is missing altogether: run that desk yourself following `prompts/research-run.md`, save it with the suffix `gpt`, and log that you did. Never re-run a desk Claude has already covered.
+3. If any desk's Claude briefing for today is missing, Claude may only be late. Wait ten minutes (`sleep 600`), pull `main` and look again; do this at most twice. `reports/YYYY-MM-DD-research-status-anthropic.md` tells you what to expect: `started` without `complete` means the research is still running, so both waits are worth it; if the file is missing after the first wait, Claude's run did not start today and you go on to the fallback.
+4. Fallback, only for a desk whose Claude briefing is still missing after the waits: run that desk yourself following `prompts/research-run.md`, one desk at a time, save it with the suffix `gpt`, and log that you did. A fallback desk is held to the same standard as Claude's: `prompts/research-run.md` says when a desk counts as done. A day on which you ran more than two desks yourself is a reduced research day; say so in the first line of the production log, with the number of items each fallback desk found, so the publisher knows why the digest is thinner. Never re-run a desk Claude has already covered.
 
 ### Task B — Plan the digest
 
 1. From every section of every briefing, list each distinct underlying event, project, paper or piece of writing. Entries about the same thing are one topic, whatever briefing or heading they appear under. Where two briefings disagree on a fact (a date, a number, a name, whether something is new), open the primary source; it decides. Note it in the production log.
-2. Drop topics already covered by a post in `content/posts/` (English posts only; ignore the translations, `*.<lang>.md`. Compare against each post's title and opening paragraph). Exception: today's item contains a material new development. In that case, the new development is the topic.
+2. Drop topics an earlier English post already covers. Do not open old posts to find out: run `python3 scripts/seen.py <source URL> …` on the topics' source URLs, many at a time (it searches every English post and every earlier briefing, and matches an arXiv paper under any of its addresses), and read `python3 scripts/seen.py --titles 14` once for stories that an earlier post covered under another URL. A hit in an earlier briefing alone does not drop a topic: a briefing is not a publication. Exception: today's item contains a material new development. In that case, the new development is the topic.
 3. Give each topic its tier and its lens (Capability, Practice or Consequence) from the editorial profile. Tier 3 (business) topics go to the digest's "Business, briefly" section, at most five, or are dropped. The profile's "Moving up" rules lift a business event out of tier 3; it is then written about the consequence (for what AI does to work, prices and industries, in the digest's "Economy and work" section).
 4. Choose the **top stories** with the profile's "Choosing the top stories": gate, score every tier 1 and tier 2 candidate, rank, balance the lenses, choose the lead. Keep three to five.
 5. Every other topic that has a primary source becomes an item in its digest section (see `prompts/digest-writer-prompt.md`). Nothing is deferred to a later day. Topics Claude has claimed for its article (`reports/YYYY-MM-DD-article-claude.md`, if it exists) stay in the digest like any other.
-6. Set the timestamp base: take the current time with its real offset (`TZ=Europe/Bratislava date -Iseconds`) and subtract 60 minutes. Never copy an offset from an example; it changes between summer (+02:00) and winter (+01:00) time.
+6. Set the timestamp base, the time one hour ago with its real offset: `TZ=Europe/Bratislava date -Iseconds -d '60 minutes ago'`. Never copy an offset from an example; it changes between summer (+02:00) and winter (+01:00) time.
 7. Write `reports/YYYY-MM-DD-plan.md`:
 
    ```
@@ -64,7 +65,7 @@ Two AI systems share the work. **Claude** runs every research desk early each mo
    Status: todo
    ```
 
-   List the top stories first, with the section `Top stories`, in rank order; then the other items in the digest's section order. Write the selection reasons to `reports/YYYY-MM-DD-production-log.md`: for the top stories and the next three candidates, a table with the five scores, the total and the lens, and one line on any balancing step that changed the ranking.
+   List the top stories first, with the section `Top stories`, in rank order; then the other items in the digest's section order. Write the selection reasons to `reports/YYYY-MM-DD-production-log.md`: for the top stories and the next three candidates, a table with the five scores, the total and the lens; under it, for every Tension 2, one line naming its two sides with both URLs; and one line on any balancing step that changed the ranking. Score as the profile says, the candidates against each other, with at most a third of them holding a 2 on any criterion.
 8. Publish the plan and the production log (see "Publishing a file") with the message `Plan for YYYY-MM-DD`. From here on, the plan is fixed: a resumed run follows it and never plans again.
 
 ### Task C — The digest
@@ -76,55 +77,13 @@ Write the digest with `prompts/digest-writer-prompt.md`, from the plan's table.
 
 Then:
 
-1. Run the mandatory readability editor below on the completed digest draft, then assemble the edited file (see "Assembling the digest").
-2. Run `python3 scripts/check_posts.py --strict content/posts/<slug>.md` and fix every failure.
+1. Assemble the file (see "Assembling the digest").
+2. Run `python3 scripts/check_posts.py --strict content/posts/<slug>.md` and fix every failure. Lines that start `note:` are not failures: each points at a phrase from the writer prompt's avoid list. Look at each once and reword it, unless it stands inside a quotation or a title.
 3. Set the digest's status in the plan to `published: content/posts/<slug>.md`, add a short entry to the production log (top stories, sources opened, anything unverified), and publish the digest, the plan and the log together with the message `Daily news YYYY-MM-DD: digest`.
 
 ### Task D — Your article
 
-Follow `prompts/article-run.md` as the writer GPT (key `gpt`). It chooses the story, reports it, writes it with `prompts/article-writer-prompt.md`, and publishes the article with its own file, `reports/YYYY-MM-DD-article-gpt.md`, and its own commit messages. If Claude has claimed or published a story today, yours must be a different one. After the writing and source review in step 4 of `prompts/article-run.md`, run the mandatory readability editor below before step 5 (assembly and validation) and step 6 (publication). This is a required additional step even though `prompts/article-run.md` does not list it. While you follow `prompts/article-run.md`, write your notes to `reports/YYYY-MM-DD-article-gpt.md`, not to the production log. When that file has a final status, Pass 1 is complete.
-
-## Mandatory readability editor — after drafting, before publication
-
-Every English digest, GPT article, Slovak translation written by this run, and Slovak LinkedIn edition must receive a separate copyediting pass after drafting and source review are complete. Run it before the final validation, commit and push, so translations use the edited English original and the published Slovak texts are edited too. A draft is not finished until this pass and the checks below are complete. This does not authorise editing Claude's files or reopening already published posts on a resumed run.
-
-1. Keep the pre-edit draft for comparison. Apply the editor prompt below to the complete reader-facing text: title, description/perex, headings and body. Process each post separately. Keep the digest's required title and filename pattern.
-2. Preserve direct quotations verbatim, proper names, official technical names, code, source URLs and reference metadata. Preserve the Markdown structure and all TOML field names and non-prose values (including dates, tags, slugs and draft flags). Edit prose within title and description fields without breaking TOML quoting. Do not invent an actor, a cause or an explanation to simplify a sentence.
-3. Compare the revised text with the draft and the source review. Check every fact, number, unit, date, attribution, caveat, uncertainty label and reported-versus-illustrative distinction. Restore anything the revision altered in meaning; clarity must not weaken accuracy or the original tone. If a wording change needs new evidence, check the source before retaining it.
-4. Use only the revised text in the post, with no editor commentary. Record `Readability edit: complete; meaning and sources checked` in the production log for the digest, Slovak translations and LinkedIn edition, or in `reports/YYYY-MM-DD-article-gpt.md` for the GPT article, only after completing the pass and comparison.
-5. Run the existing source/editorial checks and `python3 scripts/check_posts.py --strict FILE` on edited posts, or `python3 scripts/check_linkedin.py` as specified in `prompts/linkedin-run.md` on the edited LinkedIn edition, before publishing. If a later fix changes prose, review that change for readability and meaning too. Never publish the unedited draft as a fallback.
-
-### Editor prompt
-
-```text
-You are an expert copyeditor specializing in human cognitive readability and plain language processing. Your task is to revise the provided AI-generated text to maximize human comprehension. 
-
-Modern AI models often compress information to save tokens, resulting in dense, syntactically complex writing that taxes human working memory. You must rewrite the text to remove these specific markers of processing difficulty while preserving the exact original meaning and tone. Do not prioritize brevity; if a sentence needs to be longer to be clearer, expand it.
-
-Execute your revision by applying the following strict grammatical rules:
-
-1. Restore Object Relative Clauses: Re-insert omitted relativizers (like "that", "which", or "who"). 
-   - Unacceptable: "The report the committee published."
-   - Target: "The report THAT the committee published."
-
-2. Unpack Stacked Nouns: Break apart strings of three or more consecutive nouns modifying each other by using prepositions or possessives. 
-   - Unacceptable: "horror movie soundtrack generator"
-   - Target: "a generator for horror movie soundtracks"
-
-3. Eliminate Denominal Verbs: Stop using nouns as ad-hoc verbs. Replace them with standard, highly predictable verb phrases.
-   - Unacceptable: "We need to calendar this."
-   - Target: "We need to put this on the calendar."
-
-4. Fix Animacy Mismatches: Ensure inanimate subjects are not paired with active verbs that typically require a living, conscious actor (personification/metonymy).
-   - Unacceptable: "The conversation is eating its own tail." or "This script swallows errors."
-   - Target: "The participants are talking in circles." or "This script suppresses errors."
-
-5. Shorten Syntactic Dependencies: Keep subjects and their main verbs as close together as possible. Avoid inserting long clauses between related words. Split long, convoluted sentences into two or three distinct, straightforward sentences.
-
-6. Normalize N-Grams: Avoid highly unusual word pairings, forced metaphors, or overly dense phrasing designed to compress concepts. Use standard, highly predictable vocabulary. 
-
-Output only the revised text without any introductory remarks, meta-commentary, or summary of changes.
-```
+Follow `prompts/article-run.md` as the writer GPT (key `gpt`). It chooses the story, reports it, writes it with `prompts/article-writer-prompt.md`, and publishes the article with its own file, `reports/YYYY-MM-DD-article-gpt.md`, and its own commit messages. If Claude has claimed or published a story today, yours must be a different one. While you follow `prompts/article-run.md`, write your notes to `reports/YYYY-MM-DD-article-gpt.md`, not to the production log. When that file has a final status, Pass 1 is complete.
 
 ## Pass 2 — Slovak
 
@@ -133,16 +92,16 @@ Find the English posts that need a Slovak twin: every `content/posts/<slug>.md` 
 For each:
 
 1. Apply `prompts/translator-prompt.md` to the final English file on `main`. Its output is the complete Slovak file, saved as `content/posts/<slug>.sk.md` with exactly the same `<slug>` part as the English file: the shared file name links the two editions, and the Slovak URL comes from the `slug` field inside the Slovak file.
-2. Run the mandatory readability editor on the complete Slovak translation before publication. Apply its grammatical rules idiomatically in Slovak rather than mechanically translating English examples. Keep `prompts/translation-maps/sk.yaml` and the <terminology> and <structure> tables of `prompts/translator-prompt.md` binding during this edit: rule 6 ("Normalize N-Grams") never licenses replacing a mapped Slovak term with a more generic word or with one of its `avoid` forms (for example „hraničný“, „zarovnanie“, „servilnosť“, „kontrolný bod“, „zručnosť“, „politika“ for an RL policy), never remove a required first-use English gloss in parentheses, never change the animate plural „agenti“, and never alter fixed section headings or labels (`## Použité zdroje`, `## Stojí za prečítanie`, `## Prečo na tom záleží {#why-it-matters}`). Preserve meaning, source URLs, quotations, numbers, attribution, TOML fields, and correspondence with the English original. Compare the edited translation against the English original and run the translator's self-check and strict twin check on the final edited text. Record the completed pass in the production log under "Translation notes".
+2. Run `python3 scripts/check_posts.py --strict content/posts/<slug>.sk.md` and fix every failure. Besides the front matter and the source URLs, it compares the number of headings, paragraphs, list items and table rows with the English file, and it rejects a paragraph left in English and the `avoid` forms of `prompts/translation-maps/sk.yaml` that are wrong in every sense („hraničný model“, „zarovnanie“, „agenty“, „agentový“ …). When it passes it prints a line starting `ok:` with the counts it compared: copy that line into the production log under "Translation notes". It is the record that the twin matches; write no other statement that a check was done.
 3. Anything the translator flags goes to the production log under "Translation notes", never into a post.
-4. If a translation fails its self-check twice, skip it, log the reason, and move on. Never publish a partial translation.
+4. If a translation still fails the check script after a second round of fixes, skip it, log the reason, and move on. Never publish a partial translation.
 5. Publish the Slovak file and the log together, with the message `Slovak edition YYYY-MM-DD: <slug>`.
 
 When Pass 2 ends, pull `main` once more: if Claude's article arrived after you built the list and has no Slovak twin, translate it too.
 
 ## Pass 3 — LinkedIn edition
 
-Follow `prompts/linkedin-run.md` for today. It condenses today's Slovak digest into the day's edition of the newsletter "Svet AI tvorený AI" with `prompts/linkedin-edition-prompt.md`, checks it with `scripts/check_linkedin.py`, and publishes `content/linkedin/YYYY-MM-DD.sk.md` with its own commit message. Before running `scripts/check_linkedin.py` or publishing, apply the mandatory readability editor to the complete Slovak edition, including title, description, share text, headings, paragraphs and bullets. Apply its rules as natural Slovak copyediting, with the terminology of `prompts/translation-maps/sk.yaml` kept exactly as in the Slovak digest (never an `avoid` form, never a dropped gloss); preserve the digest's facts, attributions, numbers, source URLs, section order and required lengths. Compare the result against the Slovak digest and recheck every limit in `prompts/linkedin-edition-prompt.md`. Record `Readability edit: complete; meaning and sources checked` in the production log only after completing this review. If the edition is already on `main`, it stops at once. If today's Slovak digest is not on `main` (Pass 2 skipped it), it logs that and stops; never write an edition from the English digest. The edition page lists the day's articles on its own (the Slovak twin, or the English original while the twin is missing), so it does not wait for any of them.
+Follow `prompts/linkedin-run.md` for today. It condenses today's Slovak digest into the day's edition of the newsletter "Svet AI tvorený AI" with `prompts/linkedin-edition-prompt.md`, checks it with `scripts/check_linkedin.py`, and publishes `content/linkedin/YYYY-MM-DD.sk.md` with its own commit message. Keep the Slovak digest's terminology exactly as it stands there: the edition never swaps a term for a more generic word and never drops a gloss. If the edition is already on `main`, it stops at once. If today's Slovak digest is not on `main` (Pass 2 skipped it), it logs that and stops; never write an edition from the English digest. The edition page lists the day's articles on its own (the Slovak twin, or the English original while the twin is missing), so it does not wait for any of them.
 
 ## Assembling the digest
 
@@ -159,14 +118,14 @@ draft = false
 ```
 
 - Use double-quoted strings, escaping `"` and `\`. Never use single-quoted strings: a headline with an apostrophe breaks them and fails the whole site build.
-- Tags: 2–4, chosen from: models, tools, business, research, agents, policy, safety, hardware, community, projects, essays.
+- Tags: as the writer prompt chose them; `scripts/check_posts.py` holds the allowed list and rejects any other.
 - Never set `author` or `hideAuthor`: the site labels every post as AI-generated.
 - The body starts with the opening sentences. No H1 heading, no dek line in the body.
 - File name: `content/posts/ai-daily-digest-for-<d>-<month>-<yyyy>.md`, the title in lowercase ASCII with words joined by hyphens (e.g. `ai-daily-digest-for-13-october-2026.md`). The home page pins the newest file with this name to the top, so keep the pattern exactly.
 
 ## Publishing a file
 
-1. For a post: `python3 scripts/check_posts.py --strict FILE` passes. It rejects leaked pipeline notes, an H1 or italic dek in the body, invalid TOML, a missing description, and tags outside the allowed list. For a Slovak file it also checks that the English twin exists, that tags, date and every source URL match it, that `slug` is set, and that no English section heading or claim label is left. Fix a failure and re-run the check on that file; once it passes, move on.
+1. For a post: `python3 scripts/check_posts.py --strict FILE` passes. It rejects leaked pipeline notes, an H1 or italic dek in the body, invalid TOML, a missing description, and tags outside the allowed list. For a Slovak file it also checks that the English twin exists, that tags, date, every source URL and the number of headings, paragraphs, list items and table rows match it, that `slug` is set, and that no English section heading, claim label or paragraph and no unambiguous `avoid` form is left. Fix a failure and re-run the check on that file; once it passes, move on.
 2. `git add` the post together with the plan and log files you changed, then `git commit -m "<message>"`.
 3. `git pull --rebase origin main`, then `git push origin HEAD:main`. If the push fails for a network reason, retry up to four times, waiting 2, 4, 8 and 16 seconds. If the rebase stops on a conflict in the Slovak twin of Claude's article, Claude published it first: run `git rebase --abort` and `git reset --hard origin/main`, note it under "Translation notes" in the production log, publish the log, and go on with the next post.
 

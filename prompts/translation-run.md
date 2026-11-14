@@ -20,7 +20,7 @@ Three kinds of scheduled run share the site, and none of them waits for another:
 
 1. **Research** (Claude, early morning) commits briefings to `reports/`, then publishes Claude's article and its Slovak twin.
 2. **Production** (GPT, about an hour later, `prompts/main-prompt.md`) publishes the English digest and GPT's article, then translates the day's posts into Slovak.
-3. **Translation** (this run, about eight hours after production) translates the finished English posts into the editions above. It may run once for all languages or as several runs, one per language, at the same time.
+3. **Translation** (this run, later in the day) translates the finished English posts into the editions above. It may run once for all languages or as several runs, one per language, at the same time.
 
 This run stands alone. It needs nothing from the production run except the English posts already on `main`, and it does not read the plan, the briefings, the production log or the writers' article files. Production may still be running, or may publish more English posts later in the day; a post that is not on `main` yet is picked up by the next translation run.
 
@@ -63,7 +63,7 @@ Then, for each of your languages, in order, run `python3 scripts/translation_que
 1. Read the English file named on the line.
 2. Apply the language's translator prompt to it. Its output is the complete translated file. Work in a directory outside the repository (e.g. `/tmp/ainews-<lang>/`) and copy the file into place only when it passes step 4.
 3. Save it as `content/posts/<slug>.<lang>.md`, with exactly the same `<slug>` part as the English file name: the shared file name links the editions, and the translated URL comes from the `slug` field inside the twin. For a `stale` post, keep the existing twin's `slug` unless the English headline changed its meaning, so that the published URL stays the same.
-4. Run `python3 scripts/check_posts.py --strict content/posts/<slug>.<lang>.md`. It checks the TOML front matter, the description and tags, that the English twin exists, that tags, date and every source URL match it, that `slug` is set and valid, that the `{#why-it-matters}` and `{#verification}` IDs are present, and that no English claim label, English section heading or translator note is left. Fix every failure and run it again.
+4. Run `python3 scripts/check_posts.py --strict content/posts/<slug>.<lang>.md`. It checks the TOML front matter, the description and tags, that the English twin exists, that tags, date, every source URL and the number of headings, paragraphs, list items and table rows match it, that `slug` is set and valid, that the `{#why-it-matters}` and `{#verification}` IDs are present, and that no English claim label, section heading, illustration line, paragraph or translator note is left. Fix every failure and run it again. When it passes it prints a line starting `ok:` with the counts it compared, and sometimes lines starting `note:` (a percent sign without a space, for example): fix what a note points at when the translator prompt's <formats> asks for it.
 5. If the file still fails after a second round of fixes, do not publish it. Log the post and the check's output, and move on to the next line. Never publish a partial translation.
 6. Append an entry to the language's log (see "The logs") and publish the twin and the log together (see "Publishing").
 
@@ -75,7 +75,8 @@ One per language: `reports/YYYY-MM-DD-translation-<lang>-log.md`, dated with tod
 
 ```
 ## <slug>.<lang>.md (<missing | stale | backlog>)
-<one or two lines: what was checked — paragraphs, headings, table rows, URLs, figures, date and tags — and anything the translator flagged: an untranslatable term, a doubtful phrase in the English, a label outside the closed set, a skipped post and why>
+<the check script's `ok:` line, copied as printed; it is the record of what was compared, so write no other statement that a check was done>
+<anything the translator flagged: an untranslatable term, a doubtful phrase in the English, a label outside the closed set, a skipped post and why; omit the line when there is nothing>
 ```
 
 End each language with a `## Run summary` entry in its log: how many posts were translated per reason, how many were skipped and why, and how many `backlog` posts remain (`python3 scripts/translation_queue.py <lang> --backlog 100000 | grep -c '^backlog'`). Publish it with the message `<Edition> edition YYYY-MM-DD: log`. A language's summary is written when its backlog step is done; if the run stops earlier, the next run writes it.

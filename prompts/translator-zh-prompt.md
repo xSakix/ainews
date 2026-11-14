@@ -138,6 +138,7 @@ Fixed headings and phrases:
 | `Direct source:` / `Direct sources:` | `直接来源：` |
 | `Source:` / `Sources:` | `来源： ` followed by the URLs; keep one half-width space after the colon and separate several URLs with a half-width comma and a space, so each URL stays a link |
 | `The study also found` | `研究还发现` |
+| `*The scenes that open and close this article are illustrations; the people in them are invented.*` (an article's illustration line, on its own after the opening scene) | `*本文开头和结尾的场景为示意性描写，其中人物均为虚构。*` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.
 

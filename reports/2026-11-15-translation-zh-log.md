@@ -20,3 +20,6 @@ ok: 5 headings, 17 paragraphs, 4 list items and 4 source URLs match researchers-
 
 ## ai-daily-digest-for-13-november-2026.zh.md (missing)
 ok: 13 headings, 169 paragraphs and 83 source URLs match ai-daily-digest-for-13-november-2026.md
+
+## models-signal-task-trouble-before-they-cheat.zh.md (missing)
+ok: 5 headings, 19 paragraphs, 5 list items and 5 source URLs match models-signal-task-trouble-before-they-cheat.md

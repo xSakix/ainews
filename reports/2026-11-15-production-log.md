@@ -1,0 +1,24 @@
+# Production log — 15 November 2026
+
+Manual recovery run after the scheduled automation ended with status no_update before publishing a plan or digest. All eight Claude desk briefings for 2026-11-15 were present on main, along with Claude's article and Slovak twin, who-pays-when-data-centres-join-the-texas-grid. No GPT fallback research was needed. Existing 13-14 November posts and the briefings' deduplication checks were consulted; exact older-post script checks are unavailable without an executable checkout.
+
+## Selection scores
+
+| Candidate | Substance | Consequence | Tension | Novelty | Fit | Total | Lens |
+|---|---:|---:|---:|---:|---:|---:|---|
+| Loyalty capture | 2 | 2 | 1 | 1 | 2 | 8 | Consequence |
+| Singularity-Bench | 2 | 1 | 2 | 2 | 1 | 8 | Practice |
+| Texas grid costs | 1 | 2 | 2 | 1 | 1 | 7 | Consequence |
+| Infrathon | 1 | 1 | 1 | 2 | 1 | 6 | Practice |
+| Timing and social coordination | 1 | 1 | 1 | 1 | 2 | 6 | Capability |
+| Shadow AI survey | 1 | 1 | 1 | 1 | 2 | 6 | Consequence |
+| RoboScript | 2 | 1 | 1 | 1 | 1 | 6 | Capability |
+| LongCat avatar | 1 | 1 | 1 | 1 | 1 | 5 | Capability |
+
+The leads balance two Consequence stories (conflicted reporting and electricity costs), two Practice stories (system construction and long-horizon agent engineering), and one Capability story (social timing). For Tension 2: Singularity-Bench shows one agent reaching mature human baselines while the other ten average 0.58 (https://arxiv.org/abs/2611.16591). Texas grid modelling shows 68% of an estimated cost increase from wholesale energy versus 32% from transmission (https://arxiv.org/abs/2611.16095). Infrathon's original paper reports KV-cache compression ratios in percentages, not factors; the digest uses 6.82% and 19.86% as printed in the source (https://arxiv.org/abs/2611.11995).
+
+Top stories chosen to cover Capability, Practice and Consequence rather than repeat last day's general sycophancy/user-approval angle.
+
+## Validation environment
+
+The connected GitHub account offers file reads and commits but no checked-out workspace or shell for repository scripts. Strict Python validators and the seen.py duplicate scan therefore cannot be claimed to have run; structural checks will be noted separately.

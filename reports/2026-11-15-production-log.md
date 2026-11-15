@@ -22,3 +22,7 @@ Top stories chosen to cover Capability, Practice and Consequence rather than rep
 ## Validation environment
 
 The connected GitHub account offers file reads and commits but no checked-out workspace or shell for repository scripts. Strict Python validators and the seen.py duplicate scan therefore cannot be claimed to have run; structural checks will be noted separately.
+
+## English digest
+
+Published the 35-item English digest from the planned topics and the eight Claude desk briefings. Verified the five lead stories against the original arXiv papers, including the correction from 6.82x/19.86x to 6.82%/19.86% for the Infrathon result. Readability pass completed manually for clarity and attribution; source count and front matter were checked structurally in the publishing action. The repository check_posts.py validator could not be run because the available GitHub connector provides commits but no executable checkout.

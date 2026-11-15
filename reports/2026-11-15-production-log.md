@@ -26,3 +26,9 @@ The connected GitHub account offers file reads and commits but no checked-out wo
 ## English digest
 
 Published the 35-item English digest from the planned topics and the eight Claude desk briefings. Verified the five lead stories against the original arXiv papers, including the correction from 6.82x/19.86x to 6.82%/19.86% for the Infrathon result. Readability pass completed manually for clarity and attribution; source count and front matter were checked structurally in the publishing action. The repository check_posts.py validator could not be run because the available GitHub connector provides commits but no executable checkout.
+
+## Translation notes
+
+Published the Slovak twin of the 15 November digest: 35 items, 11 section headings, 35 source URL occurrences and 93 paragraph blocks align with English. The translation preserves ordering, figures, attribution and source URLs, with terminology checked against the Slovak translation map.
+
+Published the Slovak twin of the GPT Singularity-Bench article: six headings, 37 paragraph blocks and three reference URLs align with the English original. Claude's article on Texas grid costs and its Slovak twin were already on main; they were left unchanged. Neither translation can be certified as having passed the repository's check_posts.py strict validator, since a checkout with executable scripts is unavailable here. No fabricated ok: validator output is recorded.

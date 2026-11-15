@@ -23,3 +23,6 @@ ok: 13 headings, 169 paragraphs and 83 source URLs match ai-daily-digest-for-13-
 
 ## models-signal-task-trouble-before-they-cheat.zh.md (missing)
 ok: 5 headings, 19 paragraphs, 5 list items and 5 source URLs match models-signal-task-trouble-before-they-cheat.md
+
+## software-job-postings-rise-24-as-developers-stay-put.zh.md (missing)
+ok: 6 headings, 13 paragraphs, 4 list items and 4 source URLs match software-job-postings-rise-24-as-developers-stay-put.md

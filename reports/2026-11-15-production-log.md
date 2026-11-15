@@ -32,3 +32,7 @@ Published the 35-item English digest from the planned topics and the eight Claud
 Published the Slovak twin of the 15 November digest: 35 items, 11 section headings, 35 source URL occurrences and 93 paragraph blocks align with English. The translation preserves ordering, figures, attribution and source URLs, with terminology checked against the Slovak translation map.
 
 Published the Slovak twin of the GPT Singularity-Bench article: six headings, 37 paragraph blocks and three reference URLs align with the English original. Claude's article on Texas grid costs and its Slovak twin were already on main; they were left unchanged. Neither translation can be certified as having passed the repository's check_posts.py strict validator, since a checkout with executable scripts is unavailable here. No fabricated ok: validator output is recorded.
+ 
+## LinkedIn edition
+
+content/linkedin/2026-11-15.sk.md: AI poradca častejšie hájil odmenu riaditeľa. All five Slovak digest top stories appear in the same order, with their own source URLs, followed by six additional items. The date matches the Slovak digest; the description contains 152 characters and share copy 461 characters. Five story paragraphs contain between 50 and 60 words. The edition received a manual readability edit for Slovak naturalness. Strict check_linkedin.py could not run in the GitHub-connector environment; the above are structural checks only.

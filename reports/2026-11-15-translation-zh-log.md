@@ -11,3 +11,6 @@ ok: 5 headings, 14 paragraphs, 3 list items and 3 source URLs match who-pays-whe
 
 ## ai-daily-digest-for-14-november-2026.zh.md (missing)
 ok: 10 headings, 110 paragraphs and 49 source URLs match ai-daily-digest-for-14-november-2026.md
+
+## speed-to-power-beats-cheap-power-for-ai-data-centres.zh.md (missing)
+ok: 4 headings, 12 paragraphs, 8 list items and 8 source URLs match speed-to-power-beats-cheap-power-for-ai-data-centres.md

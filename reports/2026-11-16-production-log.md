@@ -38,3 +38,7 @@ Published `content/posts/ai-daily-digest-for-16-november-2026.md`. Primary sourc
 content/posts/ai-daily-digest-for-16-november-2026.sk.md: ok: 12 headings, 106 paragraphs and 48 source URLs match ai-daily-digest-for-16-november-2026.md
 
 Term not in map: sub-agent → podriadený agent (ai-daily-digest-for-16-november-2026)
+
+content/posts/multimodal-training-changes-how-a-text-model-reasons.sk.md: ok: 5 headings, 20 paragraphs, 5 list items and 5 source URLs match multimodal-training-changes-how-a-text-model-reasons.md
+
+Term not in map: causal handle → kauzálny prvok (multimodal-training-changes-how-a-text-model-reasons)

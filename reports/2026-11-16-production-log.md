@@ -32,3 +32,9 @@ The Claude article claimed the ECB story. It remains in the digest but is unavai
 ## English digest
 
 Published `content/posts/ai-daily-digest-for-16-november-2026.md`. Primary sources were opened for all five top stories; the research abstracts and Claude's checked briefing entries supplied the remaining items. The OpenAI lattice post, paywalled market reporting, podcast investment totals and blocked video pages remain labelled with their limits.
+
+## Translation notes
+
+content/posts/ai-daily-digest-for-16-november-2026.sk.md: ok: 12 headings, 106 paragraphs and 48 source URLs match ai-daily-digest-for-16-november-2026.md
+
+Term not in map: sub-agent → podriadený agent (ai-daily-digest-for-16-november-2026)

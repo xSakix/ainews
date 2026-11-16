@@ -42,3 +42,7 @@ Term not in map: sub-agent → podriadený agent (ai-daily-digest-for-16-novembe
 content/posts/multimodal-training-changes-how-a-text-model-reasons.sk.md: ok: 5 headings, 20 paragraphs, 5 list items and 5 source URLs match multimodal-training-changes-how-a-text-model-reasons.md
 
 Term not in map: causal handle → kauzálny prvok (multimodal-training-changes-how-a-text-model-reasons)
+
+## LinkedIn edition
+
+content/linkedin/2026-11-16.sk.md: Ľudia bez spätnej väzby poslúchli aj vždy chybnú AI. All five top stories appear in digest order, followed by six further items; no additional claim was introduced.

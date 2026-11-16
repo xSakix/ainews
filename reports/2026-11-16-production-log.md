@@ -28,3 +28,7 @@ Tension 2 — ECB premium: firms that discussed AI received a return and borrowi
 The five candidates tied on total score. The lead is the human trust study because its consequence reaches professional users directly. The balance rule keeps two Capability and three Consequence stories; the Practice lens remains represented in the body because no Practice candidate matched the five-way tie.
 
 The Claude article claimed the ECB story. It remains in the digest but is unavailable to the GPT article.
+
+## English digest
+
+Published `content/posts/ai-daily-digest-for-16-november-2026.md`. Primary sources were opened for all five top stories; the research abstracts and Claude's checked briefing entries supplied the remaining items. The OpenAI lattice post, paywalled market reporting, podcast investment totals and blocked video pages remain labelled with their limits.

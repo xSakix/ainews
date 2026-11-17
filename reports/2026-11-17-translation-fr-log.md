@@ -23,3 +23,6 @@ ok: 11 headings, 81 paragraphs and 35 source URLs match ai-daily-digest-for-15-n
 
 ## one-agent-matched-human-ai-engineering-across-six-tasks.fr.md (missing)
 ok: 6 headings, 29 paragraphs, 3 list items and 3 source URLs match one-agent-matched-human-ai-engineering-across-six-tasks.md
+
+## who-pays-when-data-centres-join-the-texas-grid.fr.md (missing)
+ok: 5 headings, 14 paragraphs, 3 list items and 3 source URLs match who-pays-when-data-centres-join-the-texas-grid.md

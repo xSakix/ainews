@@ -28,3 +28,4 @@ Claude claimed the payroll-measurement story for its article. It remains in the 
 ## Translation notes
 
 - `content/posts/ai-daily-digest-for-17-november-2026.sk.md`: ok: 12 headings, 176 paragraphs and 84 source URLs match ai-daily-digest-for-17-november-2026.md
+- `content/posts/hidden-belief-edits-corrupt-reasoning-traces.sk.md`: ok: 6 headings, 27 paragraphs, 5 list items and 5 source URLs match hidden-belief-edits-corrupt-reasoning-traces.md

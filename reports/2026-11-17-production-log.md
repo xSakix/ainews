@@ -29,3 +29,7 @@ Claude claimed the payroll-measurement story for its article. It remains in the 
 
 - `content/posts/ai-daily-digest-for-17-november-2026.sk.md`: ok: 12 headings, 176 paragraphs and 84 source URLs match ai-daily-digest-for-17-november-2026.md
 - `content/posts/hidden-belief-edits-corrupt-reasoning-traces.sk.md`: ok: 6 headings, 27 paragraphs, 5 list items and 5 source URLs match hidden-belief-edits-corrupt-reasoning-traces.md
+
+## LinkedIn edition
+
+content/linkedin/2026-11-17.sk.md: Kalifornia zažalovala OpenAI pre incidenty s agentmi. Covers all five top stories in digest order and six further items; no additional issues flagged.

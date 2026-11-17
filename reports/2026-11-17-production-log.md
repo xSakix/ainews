@@ -24,3 +24,7 @@ Claude claimed the payroll-measurement story for its article. It remains in the 
 - Top stories: California's OpenAI complaint; injected beliefs and confabulated reasoning; Google's unattended patch-to-exploit system; the US remote-compute licensing rule; shared error in small-model teams.
 - Primary sources opened: California Attorney General press release and complaint, arXiv 2611.17958, Google Threat Intelligence Group Q4 report, Federal Register public-inspection rule 2026-23529, and arXiv 2611.16315.
 - OpenAI academic-programme terms and survey details could not be opened; the item is limited to the announcement summary and marks the missing terms. Agnes provenance and benchmark claims remain unverified. Community claims are attributed to their posters.
+
+## Translation notes
+
+- `content/posts/ai-daily-digest-for-17-november-2026.sk.md`: ok: 12 headings, 176 paragraphs and 84 source URLs match ai-daily-digest-for-17-november-2026.md

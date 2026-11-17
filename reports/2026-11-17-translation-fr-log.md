@@ -5,3 +5,6 @@ ok: 12 headings, 176 paragraphs and 84 source URLs match ai-daily-digest-for-17-
 
 ## hidden-belief-edits-corrupt-reasoning-traces.fr.md (missing)
 ok: 6 headings, 27 paragraphs, 5 list items and 5 source URLs match hidden-belief-edits-corrupt-reasoning-traces.md
+
+## payroll-data-may-show-ais-job-losses-years-before-its-jobs.fr.md (missing)
+ok: 6 headings, 17 paragraphs, 7 list items and 7 source URLs match payroll-data-may-show-ais-job-losses-years-before-its-jobs.md

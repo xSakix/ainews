@@ -17,3 +17,6 @@ ok: 5 headings, 20 paragraphs, 5 list items and 5 source URLs match multimodal-t
 
 ## european-markets-reward-firms-that-talk-ai-the-ecb-finds.fr.md (missing)
 ok: 5 headings, 12 paragraphs, 3 list items and 3 source URLs match european-markets-reward-firms-that-talk-ai-the-ecb-finds.md
+
+## ai-daily-digest-for-15-november-2026.fr.md (missing)
+ok: 11 headings, 81 paragraphs and 35 source URLs match ai-daily-digest-for-15-november-2026.md

@@ -27,3 +27,6 @@ Published `content/posts/ai-daily-digest-for-18-november-2026.md`. Top stories: 
 
 ok: 9 headings, 93 paragraphs and 44 source URLs match ai-daily-digest-for-18-november-2026.md
 Map loaded. Terms not in map: `mixture-of-experts` kept in English; embedding rendered as `embedding` in the technical model name context.
+
+ok: 5 headings, 23 paragraphs, 3 list items and 3 source URLs match long-conversation-history-made-models-consistently-wrong.md
+Map loaded. No additional translation term flags.

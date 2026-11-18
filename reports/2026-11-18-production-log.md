@@ -18,3 +18,7 @@ All eight Claude research desks completed. Duplicate desk entries were merged, a
 No candidate received Tension 2: the strongest contrasts were reported inside a single primary source, while the profile requires two linked sides for a 2.
 
 Balancing moved Claude Code verification into fifth place so the top stories span Capability, Consequence and Practice; Capability still holds no more than three positions.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-18-november-2026.md`. Top stories: SWE-CoWork, GPT-6.2 Astra and Sol, conversation-history degradation, Stanford's investment and employment indicators, and Claude Code verification. Opened all five primary sources. No top-story claim remained unverified; vendor benchmarks are attributed.

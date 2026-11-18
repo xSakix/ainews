@@ -22,3 +22,8 @@ Balancing moved Claude Code verification into fifth place so the top stories spa
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-18-november-2026.md`. Top stories: SWE-CoWork, GPT-6.2 Astra and Sol, conversation-history degradation, Stanford's investment and employment indicators, and Claude Code verification. Opened all five primary sources. No top-story claim remained unverified; vendor benchmarks are attributed.
+
+## Translation notes
+
+ok: 9 headings, 93 paragraphs and 44 source URLs match ai-daily-digest-for-18-november-2026.md
+Map loaded. Terms not in map: `mixture-of-experts` kept in English; embedding rendered as `embedding` in the technical model name context.

@@ -30,3 +30,7 @@ Map loaded. Terms not in map: `mixture-of-experts` kept in English; embedding re
 
 ok: 5 headings, 23 paragraphs, 3 list items and 3 source URLs match long-conversation-history-made-models-consistently-wrong.md
 Map loaded. No additional translation term flags.
+
+## LinkedIn edition
+
+content/linkedin/2026-11-18.sk.md: Agenti zvládli testy, no dokončili menej než 8 % zadaní. All five top stories retained in digest order; six further items cover pricing, agent efficiency, productivity, employee budgets and local inference. No fidelity issue flagged.

@@ -33,3 +33,7 @@ Balancing keeps three lenses in the top five. The video-world-model paper moves 
 - ok: 5 headings, 22 paragraphs, 4 list items and 4 source URLs match a-linear-probe-found-a-feature-llama-did-not-use.md
 - Term not in map: probe → sonda (a-linear-probe-found-a-feature-llama-did-not-use)
 - Term not in map: ridge regression → ridge regresia (a-linear-probe-found-a-feature-llama-did-not-use)
+
+## LinkedIn edition
+
+content/linkedin/2026-11-19.sk.md: Odpovede AI znížili návštevnosť sprievodcu o 70 až 75 %. Všetkých päť hlavných správ v poradí digestu a šesť ďalších položiek; bez ďalších výhrad.

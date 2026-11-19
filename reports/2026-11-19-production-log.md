@@ -23,3 +23,10 @@ Balancing keeps three lenses in the top five. The video-world-model paper moves 
 - Published `content/posts/ai-daily-digest-for-19-november-2026.md` with five top stories and every planned item.
 - Opened the primary sources for All About Berlin, Indeed Hiring Lab, the Copilot Reviewer preprint, Gemini 4 Neon and the video-world-model Flip Test.
 - Vendor, author and community measurements remain attributed; no independently unverified figure is presented as a measured fact.
+
+## Translation notes
+
+- ok: 10 headings, 108 paragraphs and 52 source URLs match ai-daily-digest-for-19-november-2026.md
+- Term not in map: mixture-of-experts → model typu mixture-of-experts (ai-daily-digest-for-19-november-2026)
+- Term not in map: copy-on-write → copy-on-write (ai-daily-digest-for-19-november-2026)
+- Term not in map: logit lens → logit lens (ai-daily-digest-for-19-november-2026)

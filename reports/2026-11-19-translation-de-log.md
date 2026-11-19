@@ -15,3 +15,6 @@ ok: 6 headings, 12 paragraphs, 7 list items and 7 source URLs match a-berlin-gui
 
 ## ai-daily-digest-for-18-november-2026.de.md (missing)
 ok: 9 headings, 93 paragraphs and 44 source URLs match ai-daily-digest-for-18-november-2026.md
+
+## long-conversation-history-made-models-consistently-wrong.de.md (missing)
+ok: 5 headings, 23 paragraphs, 3 list items and 3 source URLs match long-conversation-history-made-models-consistently-wrong.md

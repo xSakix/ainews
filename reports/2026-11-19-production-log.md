@@ -30,3 +30,6 @@ Balancing keeps three lenses in the top five. The video-world-model paper moves 
 - Term not in map: mixture-of-experts → model typu mixture-of-experts (ai-daily-digest-for-19-november-2026)
 - Term not in map: copy-on-write → copy-on-write (ai-daily-digest-for-19-november-2026)
 - Term not in map: logit lens → logit lens (ai-daily-digest-for-19-november-2026)
+- ok: 5 headings, 22 paragraphs, 4 list items and 4 source URLs match a-linear-probe-found-a-feature-llama-did-not-use.md
+- Term not in map: probe → sonda (a-linear-probe-found-a-feature-llama-did-not-use)
+- Term not in map: ridge regression → ridge regresia (a-linear-probe-found-a-feature-llama-did-not-use)

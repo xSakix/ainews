@@ -18,3 +18,8 @@ All eight Claude research desks completed. Duplicate entries across desks were m
 Tension 2 for All About Berlin: Google presents AI Overviews as helpful search answers (https://blog.google/products/ads-commerce/ads-in-ai-overviews/) while the publisher reports a 70–75% traffic loss and Pew records lower click-through (https://nicolasbouliane.com/blog/death-by-ai, https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/).
 
 Balancing keeps three lenses in the top five. The video-world-model paper moves above the higher-consequence NGINX item because Tier 1 research outranks a Tier 2 security event within one point.
+## Digest
+
+- Published `content/posts/ai-daily-digest-for-19-november-2026.md` with five top stories and every planned item.
+- Opened the primary sources for All About Berlin, Indeed Hiring Lab, the Copilot Reviewer preprint, Gemini 4 Neon and the video-world-model Flip Test.
+- Vendor, author and community measurements remain attributed; no independently unverified figure is presented as a measured fact.

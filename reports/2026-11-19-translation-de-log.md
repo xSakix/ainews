@@ -18,3 +18,6 @@ ok: 9 headings, 93 paragraphs and 44 source URLs match ai-daily-digest-for-18-no
 
 ## long-conversation-history-made-models-consistently-wrong.de.md (missing)
 ok: 5 headings, 23 paragraphs, 3 list items and 3 source URLs match long-conversation-history-made-models-consistently-wrong.md
+
+## models-reach-contractor-level-on-one-epoch-task-not-the-rest.de.md (missing)
+ok: 6 headings, 16 paragraphs, 2 list items and 2 source URLs match models-reach-contractor-level-on-one-epoch-task-not-the-rest.md

@@ -9,3 +9,6 @@ The English presents first-person opening and closing scenes without an illustra
 
 ## a-linear-probe-found-a-feature-llama-did-not-use.de.md (missing)
 ok: 5 headings, 22 paragraphs, 4 list items and 4 source URLs match a-linear-probe-found-a-feature-llama-did-not-use.md
+
+## a-berlin-guide-site-is-losing-its-readers-to-ai-answers.de.md (missing)
+ok: 6 headings, 12 paragraphs, 7 list items and 7 source URLs match a-berlin-guide-site-is-losing-its-readers-to-ai-answers.md

@@ -33,6 +33,9 @@ TOP_STORIES = "## Hlavné správy"
 FURTHER = "## Ďalej v dnešnom prehľade"
 SOURCE_LINE = re.compile(r"^(\*\*)?Zdroje?:(\*\*)? ")
 LINK = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
+# A link to a section of the digest, as the "Ďalej" list writes it: [Výskum](#výskum).
+SECTION_LINK = re.compile(r"\[([^\]]+)\]\(#([^)\s]+)\)")
+BULLET = re.compile(r"^- \*\*([^*]+):\*\* (.+?)((?:,? ?\[[^\]]+\]\(#[^)\s]+\))+)\s*$")
 HASHTAG = re.compile(r"(?:^|\s)#[^\W\d_][^\s#]*")  # #AI, not #1 or C#
 CITED = re.compile(r"(?:^|\s)Zdroje?: (.+)$")
 WWW = re.compile(r"(?<![/\w.@])www\.\w")  # Hugo turns a bare www. address into a link
@@ -61,7 +64,9 @@ COVER_WORD = 28
 SHARE_CHARS = (300, 700)
 MAX_HASHTAGS = 3
 BODY_WORDS = (200, 900)
-FURTHER_ITEMS = (4, 6)
+FURTHER_ITEMS = (3, 8)
+# Digest sections the "Ďalej" list never links.
+NOT_FURTHER = ("## Hlavné správy", "## Biznis v skratke")
 
 
 def split_front_matter(text):
@@ -85,9 +90,16 @@ def sections(body):
     return out
 
 
+def anchor(heading):
+    """The id Hugo gives a heading (autoHeadingIDType "github"): lowercase,
+    diacritics kept, punctuation dropped, spaces as hyphens."""
+    text = re.sub(r"[^\w\- ]", "", heading.strip().lower())
+    return text.replace(" ", "-")
+
+
 def plain(text):
     """Text as LinkedIn shows it: link labels instead of links, no markers."""
-    text = LINK.sub(r"\1", text)
+    text = SECTION_LINK.sub(r"\1", LINK.sub(r"\1", text))
     return re.sub(r"\*+|_", "", text).strip()
 
 
@@ -126,7 +138,7 @@ def check_format(body, start):
             errors.append(f"line {n}: bare URL {bare[0]} (write [label](URL))")
         if "ai-news-daily.xyz" in line:
             errors.append(f"line {n}: link to the site (the page appends the digest link itself)")
-        if HASHTAG.search(LINK.sub("", line)):
+        if HASHTAG.search(SECTION_LINK.sub("", LINK.sub("", line))):
             errors.append(f"line {n}: hashtag in the body (hashtags belong in the share post)")
         if WWW.search(LINK.sub("", line)):
             errors.append(f"line {n}: bare www. address (Hugo turns it into a link; write [label](URL))")
@@ -186,10 +198,36 @@ def check_structure(body, digest_body):
         if not FURTHER_ITEMS[0] <= len(items) <= FURTHER_ITEMS[1]:
             errors.append(f"'{FURTHER}' needs {FURTHER_ITEMS[0]}-{FURTHER_ITEMS[1]} items, has {len(items)}")
         if linked := [l for l in further[0][1] if LINK.search(l)]:
-            errors.append(f"'{FURTHER}' has a link (the digest link below carries them): {linked[0][:50]}…")
+            errors.append(f"'{FURTHER}' links only to digest sections (#anchor), not to sources: {linked[0][:50]}…")
+        # The digest's sections the list may link, in their order: {anchor: name}.
+        targets = {}
+        if digest_body is not None:
+            for heading, _ in sections(digest_body):
+                if heading and not heading.startswith(NOT_FURTHER):
+                    targets[anchor(heading[3:])] = heading[3:].strip()
+        order, seen = list(targets), []
         for item in items:
-            if len(plain(item[2:])) > LIMITS["bullet"]:
+            if not (m := BULLET.match(item)):
+                errors.append(f"'{FURTHER}' item must read '- **<section>:** <sentence> [<section>](#<anchor>)': {item[2:50]}…")
+                continue
+            if len(plain(m[2])) > LIMITS["bullet"]:
                 errors.append(f"'{FURTHER}' item longer than {LIMITS['bullet']} characters: {item[2:50]}…")
+            for text, frag in SECTION_LINK.findall(m[3]):
+                if digest_body is None:
+                    continue
+                if frag not in targets:
+                    errors.append(f"'{FURTHER}' links #{frag}, which is not a section of the digest (sections: {', '.join(order)})")
+                elif text != targets[frag]:
+                    errors.append(f"'{FURTHER}' link #{frag} must be labelled {targets[frag]!r}, not {text!r}")
+                elif frag in seen:
+                    errors.append(f"'{FURTHER}' links section #{frag} twice")
+                else:
+                    seen.append(frag)
+        if seen != sorted(seen, key=order.index):
+            errors.append(f"'{FURTHER}' bullets must follow the digest's section order")
+        if digest_body is not None and len(items) < FURTHER_ITEMS[1]:
+            if missing := [a for a in order if a not in seen and a != "stručne"]:
+                errors.append(f"'{FURTHER}' has no bullet for digest section(s) {', '.join('#' + a for a in missing)}")
     else:
         errors.append(f"missing '{FURTHER}' section")
 

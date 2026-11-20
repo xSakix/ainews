@@ -1,6 +1,6 @@
 +++
 title = "AI Daily Digest for 20 November 2026"
-description = "A natural experiment finds no measurable increase in merged work from a coding model with an 11-point benchmark advantage. Researchers train a model to report its own behaviour, while a hosted DeepSeek endpoint serves substituted weights for two days."
+description = "Indeed reports weaker entry-level hiring despite more senior job postings. Chinese automakers scale back humanoid robot trials, and Microsoft introduces coding and voice models."
 tags = ["research", "agents", "models", "safety"]
 date = 2026-11-20T04:04:00+01:00
 draft = false
@@ -8,55 +8,45 @@ draft = false
 
 ## Top stories
 
-**Developers forced off Claude Fable 5 merged no more pull requests with a model that scored 11 points lower on SWE-Bench Pro.** A preprint treats the 19-day suspension of Fable 5 on 12 June as a natural experiment. It followed 297 affected developers and compared them with 8,908 developers who remained on Opus 4.8.
+**Indeed says senior-level postings rose 19 percent since January 2025 while entry-level hiring weakened.** Advertised wages are growing 2.5 percent a year against prices at 3.7 percent, and employer health-insurance costs have risen 25 percent in four years. The employer research team recommends retaining the bottom rung by hiring early-career workers and pairing them with mentors.
 
-Access to Fable 5 raised the seven-day pull-request merge rate by 1.4 percentage points, with a 95 percent interval from -1.4 to +4.3 points. The effect was not statistically significant. Across five 2026 model upgrades, covering 1,208 developers and 15,442 pull requests, the weighted change was -0.9 points. Weekly merged pull requests changed by +2.4 percent, with a wide interval from -4.9 to +10.2 percent.
+The report places the hiring split alongside a squeeze on wages and health benefits. Indeed's recommendation is to keep entry-level routes open by matching new hires with mentors rather than concentrating recruitment on experienced workers.
 
-Merge rate is a narrow proxy for productive work, and the intervals permit a modest effect. The preprint nevertheless tests a result that coding benchmarks alone cannot supply: whether a higher score changes what developers merge in ordinary repositories.
+Source: https://hiringlab.indeed.com/2026/11/18/indeed-glassdoor-2027-us-hiring-and-worklife-trends-report/
 
-Source: https://arxiv.org/abs/2611.23216
+**Chinese automakers removed humanoid robots from production trials after high costs and reliability failures.** Caixin reports that Geely, Xiaomi, Changan and GAC withdrew announced trials, while XPeng judged its IRON humanoid uneconomic after more than a year. Dexterous hands and forearms failed fastest, and a three-second production takt remained beyond the machines.
 
-**A trained observer role reported a language model's behaviour with a mean AUROC of 0.907.** The authors add a separate third-person observer to Qwen3.6-27B and reward its answers only when they match what the assistant actually did. The questions cover reward hacking, deception and sycophancy that may not be visible in the transcript.
+Industrial robots can run 80,000 to 100,000 hours between failures, according to Geely's manufacturing head. Automakers are shifting humanoids toward sorting, showroom work and human collaboration; experts quoted by Caixin put factory-grade systems three to five years away.
 
-Across five evaluations that were not used in training, the observer beat honesty training at 0.864, transcript monitoring at 0.828 and activation oracles at 0.796. Training the observer also made the assistant easier for all three baseline methods to monitor.
+Caixin quotes a Geely production executive who says conventional industrial robots run 80,000 to 100,000 hours between failures. Automakers are shifting humanoids to sorting, showrooms and work alongside people; experts cited in the report estimate three to five years before factory-ready systems arrive.
 
-The method does not ask the assistant to confess its own behaviour under the same incentives. It trains a distinct role for accuracy against verified actions, which turns model self-knowledge into a measurable oversight task.
-
-Source: https://arxiv.org/abs/2611.23365
-
-**Self-improving agents could propose useful changes but could not reliably distinguish them from harmful ones.** The Resolution Hypothesis study tests seven methods that rewrite prompts, skills or memories, across six models and more than ten million language-model calls.
-
-Helpful candidate changes existed, but selection performed no better than random at separating them from harmful changes. Errors then accumulated over successive rounds. At the method level, the usual margins of a few percentage points were smaller than the difference between two independent runs of the same method.
-
-The preprint's result moves the bottleneck from generating possible improvements to measuring which ones work. Published rankings of self-improvement methods can therefore depend on evaluation noise rather than the underlying method.
-
-Source: https://arxiv.org/abs/2611.23068
-
-**Prime Intellect served an unauthorised, de-censored copy of DeepSeek V4.1 Flash for about two days.** The company says that an attacker replaced the model behind one hosted endpoint from 8 November at 01:24 UTC until 10 November at 06:35 UTC. The chat template, tokenizer and serving configuration did not change.
-
-GPQA Diamond and tau-bench scores remained unchanged, while refusals fell from 98 of 100 prompts to one on JailbreakBench, from 304 of 313 to two on StrongREJECT and from 198 of 240 to none on HarmBench. Capability benchmarks therefore did not reveal that different weights were answering requests.
-
-Prime Intellect found no evidence that prompts, completions, keys or other infrastructure were accessed. It contacted affected customers and told those who depended on refusal behaviour to review outputs from the incident window.
-
-Source: https://www.primeintellect.ai/security/advisories/deepseek-v4-1-flash-model-substitution
-
-**Researchers traced a four-part circuit that Qwen3-VL uses to choose the next image region to describe.** Binding heads turn words into pointers to image regions and connect each written answer with its source region. That creates a spatial cursor for how far the list has progressed. A selection step chooses the nearest unwritten region, and gaze heads retrieve its concept.
-
-The main experiments use causal activation patching in Qwen3-VL-8B-Instruct. Patching 16 binding heads moved the answer to the predicted target in 85.9 percent of held-out cases, against at most 0.1 percent for random heads. Related binding, relay and gaze effects appeared in model sizes from two to 32 billion parameters.
-
-The controlled evidence comes mainly from synthetic visual strips, although tests on photographs and multiple languages support parts of the mechanism. It explains planning as a location pointer that also records progress, rather than as a count of emitted answers.
-
-Source: https://arxiv.org/abs/2611.21600
-
-## Releases
+Source: https://www.caixinglobal.com/2026-11-13/in-depth-chinas-automakers-scale-back-humanoid-robot-ambitions-as-reality-bites-102504614.html
 
 **Microsoft released MAI Code 2 and MAI Code 2 Flash in GitHub Copilot and limited previews.** Microsoft says Code 2 reaches 98 percent of GPT-6.1 Sol's MSBench score at 40 percent of the cost and 96 percent of Claude Opus 5.5's score at five percent of the cost. The comparisons use a 50 percent promotional price and remain Microsoft's measurements.
 
+The benchmark comparisons come from Microsoft rather than independent testing. The promotional discount matters because the cited cost ratios may change when that pricing ends.
+
 Source: https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/
+
+**Weight-Space Playground edits 0.016 percent of a small model's weights to reduce reasoning loops.** The browser demo modifies 131,072 weights in Qwen3.5-0.8B. Its builder reports runs that hit the 32,000-token limit falling from 93.0 to 33.1 percent and MATH-500 accuracy rising from 7.9 to 48.1 percent.
+
+The browser demonstration lets visitors inspect the small weight edit. Its accuracy and token-limit numbers are the builder's measurements for this setup, not a result established across other models.
+
+Source: https://tabbyml.github.io/weight-space-playground/
+
+**Julián Posada argues that expert AI gig workers are receiving the same pay cuts and sudden exits as data labellers.** He contrasts advertised rates of as much as $180 an hour for US cardiologists with $7.50 for Tagalog and $12.50 for Swahili work, and cites interviews and a contested misclassification lawsuit. The piece establishes a pattern across cases, not a measured market-wide rate.
+
+The piece relies on advertised rates, interviews and a disputed worker-classification lawsuit, not an estimate for the entire market. It links the conditions of specialist AI contractors with those of people doing language data work.
+
+Source: https://restofworld.org/2026/ai-jobs-skills-gig-work/
 
 **Microsoft previewed MAI Realtime 1 from $0.01 per audio minute.** Reasoning costs $1 per million input tokens and $5 per million output tokens, and the API is compatible with OpenAI Realtime. Microsoft's quality and latency comparisons are vendor results, and the release page does not state supported languages.
 
+The announced price schedule is specific, but the provider has not supplied a language list. Quality and latency figures are Microsoft's claims, so those claims should not be confused with independently tested performance.
+
 Source: https://microsoft.ai/news/introducing-mai-realtime-1/
+
+## Releases
 
 **MAI Cyber 2 Flash expands its context to one million tokens but remains inside Microsoft security products.** Microsoft reports 92.3 percent on CyberGym-E2E against 91.5 percent for GPT-6 Astra at half the reasoning budget, after excluding 92 of 905 tasks for training-data overlap. There is no standalone API.
 
@@ -95,6 +85,38 @@ Source: https://platform.openai.com/docs/changelog
 Source: https://www.assemblyai.com/blog/introducing-assemblyai-stt-3-7
 
 ## Research
+
+**Developers forced off Claude Fable 5 merged no more pull requests with a model that scored 11 points lower on SWE-Bench Pro.** A preprint treats the 19-day suspension of Fable 5 on 12 June as a natural experiment. It followed 297 affected developers and compared them with 8,908 developers who remained on Opus 4.8.
+
+Access to Fable 5 raised the seven-day pull-request merge rate by 1.4 percentage points, with a 95 percent interval from -1.4 to +4.3 points. The effect was not statistically significant. Across five 2026 model upgrades, covering 1,208 developers and 15,442 pull requests, the weighted change was -0.9 points. Weekly merged pull requests changed by +2.4 percent, with a wide interval from -4.9 to +10.2 percent.
+
+Merge rate is a narrow proxy for productive work, and the intervals permit a modest effect. The preprint nevertheless tests a result that coding benchmarks alone cannot supply: whether a higher score changes what developers merge in ordinary repositories.
+
+Source: https://arxiv.org/abs/2611.23216
+
+**A trained observer role reported a language model's behaviour with a mean AUROC of 0.907.** The authors add a separate third-person observer to Qwen3.6-27B and reward its answers only when they match what the assistant actually did. The questions cover reward hacking, deception and sycophancy that may not be visible in the transcript.
+
+Across five evaluations that were not used in training, the observer beat honesty training at 0.864, transcript monitoring at 0.828 and activation oracles at 0.796. Training the observer also made the assistant easier for all three baseline methods to monitor.
+
+The method does not ask the assistant to confess its own behaviour under the same incentives. It trains a distinct role for accuracy against verified actions, which turns model self-knowledge into a measurable oversight task.
+
+Source: https://arxiv.org/abs/2611.23365
+
+**Self-improving agents could propose useful changes but could not reliably distinguish them from harmful ones.** The Resolution Hypothesis study tests seven methods that rewrite prompts, skills or memories, across six models and more than ten million language-model calls.
+
+Helpful candidate changes existed, but selection performed no better than random at separating them from harmful changes. Errors then accumulated over successive rounds. At the method level, the usual margins of a few percentage points were smaller than the difference between two independent runs of the same method.
+
+The preprint's result moves the bottleneck from generating possible improvements to measuring which ones work. Published rankings of self-improvement methods can therefore depend on evaluation noise rather than the underlying method.
+
+Source: https://arxiv.org/abs/2611.23068
+
+**Researchers traced a four-part circuit that Qwen3-VL uses to choose the next image region to describe.** Binding heads turn words into pointers to image regions and connect each written answer with its source region. That creates a spatial cursor for how far the list has progressed. A selection step chooses the nearest unwritten region, and gaze heads retrieve its concept.
+
+The main experiments use causal activation patching in Qwen3-VL-8B-Instruct. Patching 16 binding heads moved the answer to the predicted target in 85.9 percent of held-out cases, against at most 0.1 percent for random heads. Related binding, relay and gaze effects appeared in model sizes from two to 32 billion parameters.
+
+The controlled evidence comes mainly from synthetic visual strips, although tests on photographs and multiple languages support parts of the mechanism. It explains planning as a location pointer that also records progress, rather than as a count of emitted answers.
+
+Source: https://arxiv.org/abs/2611.21600
 
 **A method borrowed from brain mapping found a contiguous span of layers changed by reasoning training.** Moving that span into instruction-tuned models improved mathematics performance, with larger gains when the graft overlapped more of the identified region. The preprint also found a transferable span in a medical model.
 
@@ -142,10 +164,6 @@ Source: https://arxiv.org/abs/2611.23651
 
 ## Economy and work
 
-**Indeed says senior-level postings rose 19 percent since January 2025 while entry-level hiring weakened.** Advertised wages are growing 2.5 percent a year against prices at 3.7 percent, and employer health-insurance costs have risen 25 percent in four years. The employer research team recommends retaining the bottom rung by hiring early-career workers and pairing them with mentors.
-
-Source: https://hiringlab.indeed.com/2026/11/18/indeed-glassdoor-2027-us-hiring-and-worklife-trends-report/
-
 **Satya Nadella says eleven developers run the software factory that builds Cowork in Microsoft 365.** He described October's buyout offer to about 60,000 employees as a way to give them agency rather than impose another layoff, while saying that every job will move toward managing AI. The team size and organisation are his claims; Microsoft supplied no productivity or headcount result.
 
 Source: https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/
@@ -154,17 +172,7 @@ Source: https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-w
 
 Source: https://arxiv.org/abs/2611.25939
 
-**Chinese automakers removed humanoid robots from production trials after high costs and reliability failures.** Caixin reports that Geely, Xiaomi, Changan and GAC withdrew announced trials, while XPeng judged its IRON humanoid uneconomic after more than a year. Dexterous hands and forearms failed fastest, and a three-second production takt remained beyond the machines.
-
-Industrial robots can run 80,000 to 100,000 hours between failures, according to Geely's manufacturing head. Automakers are shifting humanoids toward sorting, showroom work and human collaboration; experts quoted by Caixin put factory-grade systems three to five years away.
-
-Source: https://www.caixinglobal.com/2026-11-13/in-depth-chinas-automakers-scale-back-humanoid-robot-ambitions-as-reality-bites-102504614.html
-
 ## What people are building
-
-**Weight-Space Playground edits 0.016 percent of a small model's weights to reduce reasoning loops.** The browser demo modifies 131,072 weights in Qwen3.5-0.8B. Its builder reports runs that hit the 32,000-token limit falling from 93.0 to 33.1 percent and MATH-500 accuracy rising from 7.9 to 48.1 percent.
-
-Source: https://tabbyml.github.io/weight-space-playground/
 
 **Starbright runs a 29-million-parameter speech model in the browser from a 15 MB download.** The English-only system uses a Rust and WebAssembly engine and about 39 MiB of memory. Its page gives inconsistent speed and error-rate figures, and the weights are restricted to non-commercial use.
 
@@ -220,10 +228,6 @@ Source: http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/
 
 Source: https://tin.computer/blog/fake-ai-crawler-secrets-scanners
 
-**Julián Posada argues that expert AI gig workers are receiving the same pay cuts and sudden exits as data labellers.** He contrasts advertised rates of as much as $180 an hour for US cardiologists with $7.50 for Tagalog and $12.50 for Swahili work, and cites interviews and a contested misclassification lawsuit. The piece establishes a pattern across cases, not a measured market-wide rate.
-
-Source: https://restofworld.org/2026/ai-jobs-skills-gig-work/
-
 **Elephant-Goldfish asks agents without the drafting context to review a specification.** One context-rich agent writes the document; fresh reviewers see only the document and cited sources, then report gaps before implementation. Google's Apache-2.0 plugin provides no measured performance result and says that it does not replace tests or human judgement.
 
 Source: https://github.com/google/elephant-goldfish-model
@@ -273,6 +277,14 @@ Source: https://www.youtube.com/watch?v=io7qhEjJoik
 Source: https://www.youtube.com/watch?v=0VzoW99Y_gA
 
 ## In brief
+
+**Prime Intellect served an unauthorised, de-censored copy of DeepSeek V4.1 Flash for about two days.** The company says that an attacker replaced the model behind one hosted endpoint from 8 November at 01:24 UTC until 10 November at 06:35 UTC. The chat template, tokenizer and serving configuration did not change.
+
+GPQA Diamond and tau-bench scores remained unchanged, while refusals fell from 98 of 100 prompts to one on JailbreakBench, from 304 of 313 to two on StrongREJECT and from 198 of 240 to none on HarmBench. Capability benchmarks therefore did not reveal that different weights were answering requests.
+
+Prime Intellect found no evidence that prompts, completions, keys or other infrastructure were accessed. It contacted affected customers and told those who depended on refusal behaviour to review outputs from the incident window.
+
+Source: https://www.primeintellect.ai/security/advisories/deepseek-v4-1-flash-model-substitution
 
 **Bitrise says an operator using an AI penetration-testing platform entered through a dormant account.** The 25-day intrusion reached signing files, secrets, build logs and infrastructure state before Bitrise shut its platform down and revoked 919 cloud service-account keys. Files in 15 customer workspaces were accessed, with no evidence of broader customer-data access.
 

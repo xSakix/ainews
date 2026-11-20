@@ -77,6 +77,7 @@ SK_AVOID = [
     (re.compile(r"\bserviln\w*|\bpritakáv\w*", re.I), "use pochlebovanie for sycophancy"),
     (re.compile(r"\bagenty\b|\bagentov(ý|á|é|ého|ej|ých|ými|ú)\b", re.I), "agenti is animate; use agentický, not agentový"),
     (re.compile(r"\breťaz\w*\s+myšlienok", re.I), "use reťazec uvažovania"),
+    (re.compile(r"\bzlúč\w*\s+(pull\s+request|PR\b|commit|zmen|kód)|\b(pull\s+request\w*|PR|commit\w*)\s+(\w+\s+)?zlúč|\bmier\w*\s+zlúčeni|\bpoč\w*\s+zlúčení", re.I), "Git merge stays English (mergnuté pull requesty, miera mergovania)"),
 ]
 # English function words that no other edition's language shares.
 ENGLISH_WORDS = re.compile(r"\b(the|and|that|with|which|this|from|have|were|their|would|about)\b", re.I)

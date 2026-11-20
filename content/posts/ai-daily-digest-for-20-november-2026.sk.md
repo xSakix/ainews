@@ -1,7 +1,7 @@
 +++
 title = "Denný prehľad AI – 20. novembra 2026"
 slug = "denny-prehlad-ai-20-novembra-2026"
-description = "Prirodzený experiment nezistil merateľný nárast zlúčenej práce pri programátorskom modeli s náskokom 11 bodov v benchmarku. Výskumníci trénovali model, aby podával hlásenia o vlastnom správaní, zatiaľ čo hostovaný endpoint modelu DeepSeek dva dni poskytoval vymenené váhy."
+description = "Prirodzený experiment nezistil merateľný nárast mergnutých pull requestov pri programátorskom modeli s náskokom 11 bodov v benchmarku. Výskumníci trénovali model, aby podával hlásenia o vlastnom správaní, zatiaľ čo hostovaný endpoint modelu DeepSeek dva dni poskytoval vymenené váhy."
 tags = ["research", "agents", "models", "safety"]
 date = 2026-11-20T04:04:00+01:00
 draft = false
@@ -9,11 +9,11 @@ draft = false
 
 ## Hlavné správy
 
-**Vývojári, ktorí prišli o Claude Fable 5, nezlúčili s modelom slabším o 11 bodov v SWE-Bench Pro menej pull requestov.** Preprint skúma 19-dňové pozastavenie modelu Fable 5 od 12. júna ako prirodzený experiment. Sledoval 297 dotknutých vývojárov a porovnal ich s 8 908 vývojármi, ktorí zostali pri Opus 4.8.
+**Vývojári, ktorí prišli o Claude Fable 5, nemergovali s modelom slabším o 11 bodov v SWE-Bench Pro menej pull requestov.** Preprint skúma 19-dňové pozastavenie modelu Fable 5 od 12. júna ako prirodzený experiment. Sledoval 297 dotknutých vývojárov a porovnal ich s 8 908 vývojármi, ktorí zostali pri Opus 4.8.
 
-Prístup k Fable 5 zvýšil sedemdňovú mieru zlúčenia pull requestov o 1,4 percentuálneho bodu, pričom 95-percentný interval siahal od -1,4 do +4,3 bodu. Účinok nebol štatisticky významný. Pri piatich aktualizáciách modelov v roku 2026, ktoré pokrývali 1 208 vývojárov a 15 442 pull requestov, bola vážená zmena -0,9 bodu. Týždenný počet zlúčených pull requestov sa zmenil o +2,4 %, pričom široký interval siahal od -4,9 do +10,2 %.
+Prístup k Fable 5 zvýšil sedemdňovú mieru mergovania pull requestov o 1,4 percentuálneho bodu, pričom 95-percentný interval siahal od -1,4 do +4,3 bodu. Účinok nebol štatisticky významný. Pri piatich aktualizáciách modelov v roku 2026, ktoré pokrývali 1 208 vývojárov a 15 442 pull requestov, bola vážená zmena -0,9 bodu. Týždenný počet mergnutých pull requestov sa zmenil o +2,4 %, pričom široký interval siahal od -4,9 do +10,2 %.
 
-Miera zlúčenia je úzky zástupný ukazovateľ produktívnej práce a intervaly pripúšťajú mierny účinok. Preprint však testuje výsledok, ktorý samotné programátorské benchmarky nedokážu poskytnúť: či vyššie skóre mení to, čo vývojári zlučujú v bežných repozitároch.
+Miera mergovania je úzky zástupný ukazovateľ produktívnej práce a intervaly pripúšťajú mierny účinok. Preprint však testuje výsledok, ktorý samotné programátorské benchmarky nedokážu poskytnúť: či vyššie skóre mení to, čo vývojári mergujú v bežných repozitároch.
 
 Zdroj: https://arxiv.org/abs/2611.23216
 
@@ -243,7 +243,7 @@ Zdroj: https://news.ycombinator.com/item?id=50562262
 
 Zdroj: https://news.ycombinator.com/item?id=50561508
 
-**Skoršie hlásenie a oprava Java4Shell zostali v nezlúčenom pull requeste OpenJDK.** Autor uvádza, že Oracle ho 1. októbra požiadal, aby nepokračoval, a 28. októbra prípad prevzal. Komentujúci bez dôkazov špekulovali, či neskorší výskumníci s pomocou AI hlásenie videli.
+**Skoršie hlásenie a oprava Java4Shell zostali v nemergnutom pull requeste OpenJDK.** Autor uvádza, že Oracle ho 1. októbra požiadal, aby nepokračoval, a 28. októbra prípad prevzal. Komentujúci bez dôkazov špekulovali, či neskorší výskumníci s pomocou AI hlásenie videli.
 
 Zdroj: https://news.ycombinator.com/item?id=50558906
 

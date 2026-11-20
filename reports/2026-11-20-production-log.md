@@ -27,3 +27,9 @@ Balance moved the VLM planning circuit above the humanoid item so the five leads
 - Ran `scripts/seen.py` on 148 source URLs and `scripts/seen.py --titles 14`.
 - Dropped the already published Claude black-hole research item. Kept the OpenAI changelog because gpt-live-1.1 and standby mode are material developments after earlier uses of the same rolling URL.
 - Merged duplicate Muse, local-voice, safeguards, IPO and outage items across desks; dropped weak, purely speculative and headline-only items.
+
+## Digest
+
+- Published `content/posts/ai-daily-digest-for-20-november-2026.md` with five top stories and every item in the fixed plan.
+- Opened the primary sources for the Fable 5 natural experiment, introspective oversight, the Resolution Hypothesis, Prime Intellect's model-substitution advisory and the Qwen3-VL planning circuit.
+- Vendor, builder, community and single-author measurements remain attributed; the unavailable independent verification is stated where it changes the claim.

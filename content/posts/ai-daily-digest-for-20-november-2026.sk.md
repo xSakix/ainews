@@ -1,7 +1,7 @@
 +++
 title = "Denný prehľad AI – 20. novembra 2026"
 slug = "denny-prehlad-ai-20-novembra-2026"
-description = "Prirodzený experiment nezistil merateľný nárast mergnutých pull requestov pri programátorskom modeli s náskokom 11 bodov v benchmarku. Výskumníci trénovali model, aby podával hlásenia o vlastnom správaní, zatiaľ čo hostovaný endpoint modelu DeepSeek dva dni poskytoval vymenené váhy."
+description = "Indeed uvádza slabší nábor na vstupné pozície, hoci ponúk pre seniorov pribúda. Čínske automobilky ustúpili od skúšok humanoidných robotov a Microsoft predstavil nové modely pre kód a hlas."
 tags = ["research", "agents", "models", "safety"]
 date = 2026-11-20T04:04:00+01:00
 draft = false
@@ -9,55 +9,45 @@ draft = false
 
 ## Hlavné správy
 
-**Vývojári, ktorí prišli o Claude Fable 5, nemergovali s modelom slabším o 11 bodov v SWE-Bench Pro menej pull requestov.** Preprint skúma 19-dňové pozastavenie modelu Fable 5 od 12. júna ako prirodzený experiment. Sledoval 297 dotknutých vývojárov a porovnal ich s 8 908 vývojármi, ktorí zostali pri Opus 4.8.
+**Indeed uvádza, že počet ponúk na seniorské pozície od januára 2025 vzrástol o 19 %, zatiaľ čo nábor na vstupné pozície oslabil.** Ponúkané mzdy rastú o 2,5 % ročne oproti cenám s rastom 3,7 % a náklady zamestnávateľov na zdravotné poistenie za štyri roky vzrástli o 25 %. Výskumný tím zamestnávateľom odporúča zachovať spodnú priečku prijímaním pracovníkov na začiatku kariéry a ich spájaním s mentormi.
 
-Prístup k Fable 5 zvýšil sedemdňovú mieru mergovania pull requestov o 1,4 percentuálneho bodu, pričom 95-percentný interval siahal od -1,4 do +4,3 bodu. Účinok nebol štatisticky významný. Pri piatich aktualizáciách modelov v roku 2026, ktoré pokrývali 1 208 vývojárov a 15 442 pull requestov, bola vážená zmena -0,9 bodu. Týždenný počet mergnutých pull requestov sa zmenil o +2,4 %, pričom široký interval siahal od -4,9 do +10,2 %.
+Údaje Indeed poukazujú na rozdiel v nábore popri tlaku na mzdy a zdravotné poistenie. Výskumný tím odporúča zachovať prístup k prvým pracovným miestam tým, že firmy prijmú juniorov a pridelia im mentorov.
 
-Miera mergovania je úzky zástupný ukazovateľ produktívnej práce a intervaly pripúšťajú mierny účinok. Preprint však testuje výsledok, ktorý samotné programátorské benchmarky nedokážu poskytnúť: či vyššie skóre mení to, čo vývojári mergujú v bežných repozitároch.
+Zdroj: https://hiringlab.indeed.com/2026/11/18/indeed-glassdoor-2027-us-hiring-and-worklife-trends-report/
 
-Zdroj: https://arxiv.org/abs/2611.23216
+**Čínske automobilky stiahli humanoidné roboty z výrobných skúšok pre vysoké náklady a problémy so spoľahlivosťou.** Caixin uvádza, že Geely, Xiaomi, Changan a GAC zrušili ohlásené skúšky, zatiaľ čo XPeng po viac než roku vyhodnotil svoj humanoid IRON ako nehospodárny. Najrýchlejšie zlyhávali obratné ruky a predlaktia a trojsekundový výrobný takt zostal mimo dosahu strojov.
 
-**Natrénovaná rola pozorovateľa hlásila správanie jazykového modelu s priemernou hodnotou AUROC 0,907.** Autori pridali do Qwen3.6-27B samostatného pozorovateľa v tretej osobe a jeho odpovede odmeňovali iba vtedy, keď zodpovedali tomu, čo asistent skutočne urobil. Otázky sa týkali reward hackingu, klamania a pochlebovania (sycophancy), ktoré nemusia byť v prepise viditeľné.
+Priemyselné roboty dokážu podľa vedúceho výroby Geely pracovať medzi poruchami 80 000 až 100 000 hodín. Automobilky presúvajú humanoidy k triedeniu, práci v showroomoch a spolupráci s ľuďmi; odborníci citovaní Caixinom odhadujú príchod systémov vhodných do tovární o tri až päť rokov.
 
-V piatich hodnoteniach nepoužitých pri trénovaní (held-out) pozorovateľ prekonal trénovanie na čestnosť s hodnotou 0,864, monitorovanie prepisu s 0,828 a veštcov založených na aktiváciách s 0,796. Trénovanie pozorovateľa tiež uľahčilo monitorovanie asistenta všetkým trom východiskovým metódam.
+Caixin cituje vedúceho výroby Geely, podľa ktorého bežné priemyselné roboty pracujú medzi poruchami 80 000 až 100 000 hodín. Automobilky presúvajú humanoidy k triedeniu, do showroomov a k spolupráci s ľuďmi; oslovení odborníci očakávajú použiteľné továrenské systémy o tri až päť rokov.
 
-Metóda nežiada asistenta, aby sa pri rovnakých motiváciách priznal k vlastnému správaniu. Trénuje odlišnú rolu na presnosť voči overeným činom, čím mení sebapoznanie modelu na merateľnú úlohu dohľadu.
-
-Zdroj: https://arxiv.org/abs/2611.23365
-
-**Samozlepšujúci sa agenti dokázali navrhovať užitočné zmeny, nevedeli ich však spoľahlivo odlíšiť od škodlivých.** Štúdia Resolution Hypothesis testuje sedem metód, ktoré prepisujú prompty, skilly alebo pamäť, v šiestich modeloch a pri viac než desiatich miliónoch volaní jazykového modelu.
-
-Užitočné kandidátske zmeny existovali, no výber ich od škodlivých zmien oddeľoval iba na úrovni náhody. Chyby sa potom hromadili v ďalších kolách. Na úrovni metód boli obvyklé rozdiely niekoľkých percentuálnych bodov menšie než rozdiel medzi dvoma nezávislými behmi tej istej metódy.
-
-Výsledok preprintu presúva úzke miesto od vytvárania možných zlepšení k meraniu toho, ktoré z nich fungujú. Zverejnené rebríčky metód sebazlepšovania preto môžu závisieť viac od šumu hodnotenia než od samotnej metódy.
-
-Zdroj: https://arxiv.org/abs/2611.23068
-
-**Prime Intellect približne dva dni poskytoval nepovolenú, necenzurovanú kópiu DeepSeek V4.1 Flash.** Spoločnosť uvádza, že útočník vymenil model za jedným hostovaným endpointom od 8. novembra 01:24 UTC do 10. novembra 06:35 UTC. Šablóna chatu, tokenizér ani konfigurácia poskytovania sa nezmenili.
-
-Skóre GPQA Diamond a tau-bench zostali nezmenené, zatiaľ čo počet odmietnutí klesol na JailbreakBench z 98 zo 100 promptov na jeden, na StrongREJECT z 304 z 313 na dva a na HarmBench zo 198 z 240 na nulu. Benchmarky schopností preto neodhalili, že na požiadavky odpovedajú iné váhy.
-
-Prime Intellect nenašiel dôkazy o prístupe k promptom, výstupom, kľúčom ani inej infraštruktúre. Kontaktoval dotknutých zákazníkov a tým, ktorí sa spoliehali na odmietanie, odporučil skontrolovať výstupy z obdobia incidentu.
-
-Zdroj: https://www.primeintellect.ai/security/advisories/deepseek-v4-1-flash-model-substitution
-
-**Výskumníci vystopovali štvordielny okruh, ktorý Qwen3-VL používa na výber ďalšej oblasti obrázka na opis.** Väzbové hlavy menia slová na ukazovatele oblastí obrázka a spájajú každú napísanú odpoveď s jej zdrojovou oblasťou. Tým vytvárajú priestorový kurzor, ktorý ukazuje, kam zoznam postúpil. Výberový krok zvolí najbližšiu ešte neopísanú oblasť a hlavy pohľadu z nej získajú pojem.
-
-Hlavné experimenty využívajú príčinné prekladanie aktivácií v Qwen3-VL-8B-Instruct. Prenesenie aktivácií 16 väzbových hláv presunulo odpoveď k predpovedanému cieľu v 85,9 % prípadov nepoužitých pri trénovaní oproti najviac 0,1 % pri náhodných hlavách. Súvisiace účinky väzbových, prenosových a pohľadových hláv sa objavili v modeloch s dvoma až 32 miliardami parametrov.
-
-Kontrolované dôkazy pochádzajú najmä zo syntetických vizuálnych pásov, hoci testy na fotografiách a vo viacerých jazykoch podporujú časti mechanizmu. Plánovanie vysvetľuje ako ukazovateľ polohy, ktorý zároveň zaznamenáva postup, a nie ako počítanie už vytvorených odpovedí.
-
-Zdroj: https://arxiv.org/abs/2611.21600
-
-## Nové modely a vydania
+Zdroj: https://www.caixinglobal.com/2026-11-13/in-depth-chinas-automakers-scale-back-humanoid-robot-ambitions-as-reality-bites-102504614.html
 
 **Microsoft vydal MAI Code 2 a MAI Code 2 Flash v GitHub Copilot a obmedzených ukážkach.** Microsoft uvádza, že Code 2 dosahuje 98 % skóre GPT-6.1 Sol v MSBench pri 40 % nákladov a 96 % skóre Claude Opus 5.5 pri 5 % nákladov. Porovnania využívajú propagačnú cenu zníženú o 50 % a zostávajú meraniami Microsoftu.
 
+Porovnania benchmarkov pochádzajú od Microsoftu, nie z nezávislého testovania. Propagačná zľava je dôležitá, pretože pomer nákladov sa po jej skončení môže zmeniť.
+
 Zdroj: https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/
+
+**Weight-Space Playground upravuje 0,016 % váh malého modelu, aby obmedzil slučky uvažovania.** Ukážka v prehliadači mení 131 072 váh v Qwen3.5-0.8B. Tvorca uvádza pokles behov, ktoré dosiahli limit 32 000 tokenov, z 93,0 na 33,1 % a rast presnosti MATH-500 zo 7,9 na 48,1 %.
+
+Ukážka v prehliadači umožňuje preskúmať malý zásah do váh. Údaje o presnosti a limite tokenov sú meraniami tvorcu pri tomto nastavení, nie všeobecne potvrdeným výsledkom na iných modeloch.
+
+Zdroj: https://tabbyml.github.io/weight-space-playground/
+
+**Julián Posada tvrdí, že odborníci pracujúci na zákazkách pre AI čelia rovnakému znižovaniu odmien a náhlym ukončeniam práce ako označovatelia dát.** Porovnáva inzerované sadzby až 180 dolárov za hodinu pre amerických kardiológov so 7,50 dolára za prácu v tagalčine a 12,50 dolára vo svahilčine a odvoláva sa na rozhovory a spornú žalobu o nesprávnej klasifikácii pracovníkov. Text dokladá vzorec vo viacerých prípadoch, nie zmeranú mieru na celom trhu.
+
+Článok vychádza z ponúkaných sadzieb, rozhovorov a spornej žaloby o pracovnoprávnom zaradení, nie z odhadu za celý trh. Prepája skúsenosť odborníkov pracujúcich na zákazkách pre AI s podmienkami ľudí, ktorí pripravujú jazykové dáta.
+
+Zdroj: https://restofworld.org/2026/ai-jobs-skills-gig-work/
 
 **Microsoft predstavil MAI Realtime 1 od 0,01 dolára za minútu zvuku.** Uvažovanie stojí 1 dolár za milión vstupných tokenov a 5 dolárov za milión výstupných tokenov, pričom API je kompatibilné s OpenAI Realtime. Porovnania kvality a latencie pochádzajú od Microsoftu a stránka vydania neuvádza podporované jazyky.
 
+Zverejnené ceny sú konkrétne, poskytovateľ však neuviedol zoznam podporovaných jazykov. Údaje o kvalite a latencii sú tvrdeniami Microsoftu, nie výsledkami nezávislého testovania.
+
 Zdroj: https://microsoft.ai/news/introducing-mai-realtime-1/
+
+## Nové modely a vydania
 
 **MAI Cyber 2 Flash rozširuje kontext na milión tokenov, no zostáva v bezpečnostných produktoch Microsoftu.** Microsoft uvádza 92,3 % v CyberGym-E2E oproti 91,5 % pri GPT-6 Astra s polovičným rozpočtom na uvažovanie, po vyradení 92 z 905 úloh pre prekryv s trénovacími dátami. Samostatné API neexistuje.
 
@@ -96,6 +86,38 @@ Zdroj: https://platform.openai.com/docs/changelog
 Zdroj: https://www.assemblyai.com/blog/introducing-assemblyai-stt-3-7
 
 ## Výskum
+
+**Vývojári, ktorí prišli o Claude Fable 5, nemergovali s modelom slabším o 11 bodov v SWE-Bench Pro menej pull requestov.** Preprint skúma 19-dňové pozastavenie modelu Fable 5 od 12. júna ako prirodzený experiment. Sledoval 297 dotknutých vývojárov a porovnal ich s 8 908 vývojármi, ktorí zostali pri Opus 4.8.
+
+Prístup k Fable 5 zvýšil sedemdňovú mieru mergovania pull requestov o 1,4 percentuálneho bodu, pričom 95-percentný interval siahal od -1,4 do +4,3 bodu. Účinok nebol štatisticky významný. Pri piatich aktualizáciách modelov v roku 2026, ktoré pokrývali 1 208 vývojárov a 15 442 pull requestov, bola vážená zmena -0,9 bodu. Týždenný počet mergnutých pull requestov sa zmenil o +2,4 %, pričom široký interval siahal od -4,9 do +10,2 %.
+
+Miera mergovania je úzky zástupný ukazovateľ produktívnej práce a intervaly pripúšťajú mierny účinok. Preprint však testuje výsledok, ktorý samotné programátorské benchmarky nedokážu poskytnúť: či vyššie skóre mení to, čo vývojári mergujú v bežných repozitároch.
+
+Zdroj: https://arxiv.org/abs/2611.23216
+
+**Natrénovaná rola pozorovateľa hlásila správanie jazykového modelu s priemernou hodnotou AUROC 0,907.** Autori pridali do Qwen3.6-27B samostatného pozorovateľa v tretej osobe a jeho odpovede odmeňovali iba vtedy, keď zodpovedali tomu, čo asistent skutočne urobil. Otázky sa týkali reward hackingu, klamania a pochlebovania (sycophancy), ktoré nemusia byť v prepise viditeľné.
+
+V piatich hodnoteniach nepoužitých pri trénovaní (held-out) pozorovateľ prekonal trénovanie na čestnosť s hodnotou 0,864, monitorovanie prepisu s 0,828 a veštcov založených na aktiváciách s 0,796. Trénovanie pozorovateľa tiež uľahčilo monitorovanie asistenta všetkým trom východiskovým metódam.
+
+Metóda nežiada asistenta, aby sa pri rovnakých motiváciách priznal k vlastnému správaniu. Trénuje odlišnú rolu na presnosť voči overeným činom, čím mení sebapoznanie modelu na merateľnú úlohu dohľadu.
+
+Zdroj: https://arxiv.org/abs/2611.23365
+
+**Samozlepšujúci sa agenti dokázali navrhovať užitočné zmeny, nevedeli ich však spoľahlivo odlíšiť od škodlivých.** Štúdia Resolution Hypothesis testuje sedem metód, ktoré prepisujú prompty, skilly alebo pamäť, v šiestich modeloch a pri viac než desiatich miliónoch volaní jazykového modelu.
+
+Užitočné kandidátske zmeny existovali, no výber ich od škodlivých zmien oddeľoval iba na úrovni náhody. Chyby sa potom hromadili v ďalších kolách. Na úrovni metód boli obvyklé rozdiely niekoľkých percentuálnych bodov menšie než rozdiel medzi dvoma nezávislými behmi tej istej metódy.
+
+Výsledok preprintu presúva úzke miesto od vytvárania možných zlepšení k meraniu toho, ktoré z nich fungujú. Zverejnené rebríčky metód sebazlepšovania preto môžu závisieť viac od šumu hodnotenia než od samotnej metódy.
+
+Zdroj: https://arxiv.org/abs/2611.23068
+
+**Výskumníci vystopovali štvordielny okruh, ktorý Qwen3-VL používa na výber ďalšej oblasti obrázka na opis.** Väzbové hlavy menia slová na ukazovatele oblastí obrázka a spájajú každú napísanú odpoveď s jej zdrojovou oblasťou. Tým vytvárajú priestorový kurzor, ktorý ukazuje, kam zoznam postúpil. Výberový krok zvolí najbližšiu ešte neopísanú oblasť a hlavy pohľadu z nej získajú pojem.
+
+Hlavné experimenty využívajú príčinné prekladanie aktivácií v Qwen3-VL-8B-Instruct. Prenesenie aktivácií 16 väzbových hláv presunulo odpoveď k predpovedanému cieľu v 85,9 % prípadov nepoužitých pri trénovaní oproti najviac 0,1 % pri náhodných hlavách. Súvisiace účinky väzbových, prenosových a pohľadových hláv sa objavili v modeloch s dvoma až 32 miliardami parametrov.
+
+Kontrolované dôkazy pochádzajú najmä zo syntetických vizuálnych pásov, hoci testy na fotografiách a vo viacerých jazykoch podporujú časti mechanizmu. Plánovanie vysvetľuje ako ukazovateľ polohy, ktorý zároveň zaznamenáva postup, a nie ako počítanie už vytvorených odpovedí.
+
+Zdroj: https://arxiv.org/abs/2611.21600
 
 **Metóda prevzatá z mapovania mozgu našla súvislý úsek vrstiev zmenený trénovaním uvažovania.** Prenesenie tohto úseku do modelov doladených na plnenie inštrukcií zlepšilo výkon v matematike, pričom väčšie zlepšenia nastali pri väčšom prekrytí štepu s identifikovanou oblasťou. Preprint našiel prenosný úsek aj v medicínskom modeli.
 
@@ -143,10 +165,6 @@ Zdroj: https://arxiv.org/abs/2611.23651
 
 ## Ekonomika a práca
 
-**Indeed uvádza, že počet ponúk na seniorské pozície od januára 2025 vzrástol o 19 %, zatiaľ čo nábor na vstupné pozície oslabil.** Ponúkané mzdy rastú o 2,5 % ročne oproti cenám s rastom 3,7 % a náklady zamestnávateľov na zdravotné poistenie za štyri roky vzrástli o 25 %. Výskumný tím zamestnávateľom odporúča zachovať spodnú priečku prijímaním pracovníkov na začiatku kariéry a ich spájaním s mentormi.
-
-Zdroj: https://hiringlab.indeed.com/2026/11/18/indeed-glassdoor-2027-us-hiring-and-worklife-trends-report/
-
 **Satya Nadella uvádza, že softvérovú továreň, ktorá vytvára Cowork v Microsoft 365, prevádzkuje jedenásť vývojárov.** Októbrovú ponuku na odchod pre približne 60 000 zamestnancov opísal ako spôsob, ako im dať možnosť rozhodnúť sa namiesto ďalšieho prepúšťania, a povedal, že každá práca sa posunie k riadeniu AI. Veľkosť a organizácia tímu sú jeho tvrdenia; Microsoft neposkytol výsledok o produktivite ani počte zamestnancov.
 
 Zdroj: https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/
@@ -155,17 +173,7 @@ Zdroj: https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-wh
 
 Zdroj: https://arxiv.org/abs/2611.25939
 
-**Čínske automobilky stiahli humanoidné roboty z výrobných skúšok pre vysoké náklady a problémy so spoľahlivosťou.** Caixin uvádza, že Geely, Xiaomi, Changan a GAC zrušili ohlásené skúšky, zatiaľ čo XPeng po viac než roku vyhodnotil svoj humanoid IRON ako nehospodárny. Najrýchlejšie zlyhávali obratné ruky a predlaktia a trojsekundový výrobný takt zostal mimo dosahu strojov.
-
-Priemyselné roboty dokážu podľa vedúceho výroby Geely pracovať medzi poruchami 80 000 až 100 000 hodín. Automobilky presúvajú humanoidy k triedeniu, práci v showroomoch a spolupráci s ľuďmi; odborníci citovaní Caixinom odhadujú príchod systémov vhodných do tovární o tri až päť rokov.
-
-Zdroj: https://www.caixinglobal.com/2026-11-13/in-depth-chinas-automakers-scale-back-humanoid-robot-ambitions-as-reality-bites-102504614.html
-
 ## Čo ľudia tvoria
-
-**Weight-Space Playground upravuje 0,016 % váh malého modelu, aby obmedzil slučky uvažovania.** Ukážka v prehliadači mení 131 072 váh v Qwen3.5-0.8B. Tvorca uvádza pokles behov, ktoré dosiahli limit 32 000 tokenov, z 93,0 na 33,1 % a rast presnosti MATH-500 zo 7,9 na 48,1 %.
-
-Zdroj: https://tabbyml.github.io/weight-space-playground/
 
 **Starbright spúšťa v prehliadači rečový model s 29 miliónmi parametrov zo súboru s veľkosťou 15 MB.** Systém iba pre angličtinu využíva engine v jazyku Rust a WebAssembly a približne 39 MiB pamäte. Jeho stránka uvádza nekonzistentné údaje o rýchlosti a chybovosti a váhy sú obmedzené na nekomerčné použitie.
 
@@ -221,10 +229,6 @@ Zdroj: http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/
 
 Zdroj: https://tin.computer/blog/fake-ai-crawler-secrets-scanners
 
-**Julián Posada tvrdí, že odborníci pracujúci na zákazkách pre AI čelia rovnakému znižovaniu odmien a náhlym ukončeniam práce ako označovatelia dát.** Porovnáva inzerované sadzby až 180 dolárov za hodinu pre amerických kardiológov so 7,50 dolára za prácu v tagalčine a 12,50 dolára vo svahilčine a odvoláva sa na rozhovory a spornú žalobu o nesprávnej klasifikácii pracovníkov. Text dokladá vzorec vo viacerých prípadoch, nie zmeranú mieru na celom trhu.
-
-Zdroj: https://restofworld.org/2026/ai-jobs-skills-gig-work/
-
 **Elephant-Goldfish žiada agentov bez kontextu tvorby, aby skontrolovali špecifikáciu.** Jeden agent so širokým kontextom napíše dokument; noví recenzenti vidia iba dokument a citované zdroje a pred implementáciou hlásia medzery. Plugin Googlu s licenciou Apache-2.0 neposkytuje meraný výsledok výkonu a uvádza, že nenahrádza testy ani ľudský úsudok.
 
 Zdroj: https://github.com/google/elephant-goldfish-model
@@ -274,6 +278,14 @@ Zdroj: https://www.youtube.com/watch?v=io7qhEjJoik
 Zdroj: https://www.youtube.com/watch?v=0VzoW99Y_gA
 
 ## Stručne
+
+**Prime Intellect približne dva dni poskytoval nepovolenú, necenzurovanú kópiu DeepSeek V4.1 Flash.** Spoločnosť uvádza, že útočník vymenil model za jedným hostovaným endpointom od 8. novembra 01:24 UTC do 10. novembra 06:35 UTC. Šablóna chatu, tokenizér ani konfigurácia poskytovania sa nezmenili.
+
+Skóre GPQA Diamond a tau-bench zostali nezmenené, zatiaľ čo počet odmietnutí klesol na JailbreakBench z 98 zo 100 promptov na jeden, na StrongREJECT z 304 z 313 na dva a na HarmBench zo 198 z 240 na nulu. Benchmarky schopností preto neodhalili, že na požiadavky odpovedajú iné váhy.
+
+Prime Intellect nenašiel dôkazy o prístupe k promptom, výstupom, kľúčom ani inej infraštruktúre. Kontaktoval dotknutých zákazníkov a tým, ktorí sa spoliehali na odmietanie, odporučil skontrolovať výstupy z obdobia incidentu.
+
+Zdroj: https://www.primeintellect.ai/security/advisories/deepseek-v4-1-flash-model-substitution
 
 **Bitrise uvádza, že operátor používajúci platformu AI na penetračné testovanie prenikol cez neaktívny účet.** Počas 25-dňového útoku získal prístup k podpisovacím súborom, tajomstvám, logom zostavení a stavu infraštruktúry, kým Bitrise platformu nevypol a nezrušil 919 kľúčov účtov cloudových služieb. Prístup nastal k súborom v 15 pracovných priestoroch zákazníkov, pričom nie sú dôkazy o širšom prístupe k zákazníckym dátam.
 

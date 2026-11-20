@@ -18,8 +18,6 @@ Source: https://hiringlab.indeed.com/2026/11/18/indeed-glassdoor-2027-us-hiring-
 
 Industrial robots can run 80,000 to 100,000 hours between failures, according to Geely's manufacturing head. Automakers are shifting humanoids toward sorting, showroom work and human collaboration; experts quoted by Caixin put factory-grade systems three to five years away.
 
-Caixin quotes a Geely production executive who says conventional industrial robots run 80,000 to 100,000 hours between failures. Automakers are shifting humanoids to sorting, showrooms and work alongside people; experts cited in the report estimate three to five years before factory-ready systems arrive.
-
 Source: https://www.caixinglobal.com/2026-11-13/in-depth-chinas-automakers-scale-back-humanoid-robot-ambitions-as-reality-bites-102504614.html
 
 **Microsoft released MAI Code 2 and MAI Code 2 Flash in GitHub Copilot and limited previews.** Microsoft says Code 2 reaches 98 percent of GPT-6.1 Sol's MSBench score at 40 percent of the cost and 96 percent of Claude Opus 5.5's score at five percent of the cost. The comparisons use a 50 percent promotional price and remain Microsoft's measurements.

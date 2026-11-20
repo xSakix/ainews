@@ -19,8 +19,6 @@ Zdroj: https://hiringlab.indeed.com/2026/11/18/indeed-glassdoor-2027-us-hiring-a
 
 Priemyselné roboty dokážu podľa vedúceho výroby Geely pracovať medzi poruchami 80 000 až 100 000 hodín. Automobilky presúvajú humanoidy k triedeniu, práci v showroomoch a spolupráci s ľuďmi; odborníci citovaní Caixinom odhadujú príchod systémov vhodných do tovární o tri až päť rokov.
 
-Caixin cituje vedúceho výroby Geely, podľa ktorého bežné priemyselné roboty pracujú medzi poruchami 80 000 až 100 000 hodín. Automobilky presúvajú humanoidy k triedeniu, do showroomov a k spolupráci s ľuďmi; oslovení odborníci očakávajú použiteľné továrenské systémy o tri až päť rokov.
-
 Zdroj: https://www.caixinglobal.com/2026-11-13/in-depth-chinas-automakers-scale-back-humanoid-robot-ambitions-as-reality-bites-102504614.html
 
 **Microsoft vydal MAI Code 2 a MAI Code 2 Flash v GitHub Copilot a obmedzených ukážkach.** Microsoft uvádza, že Code 2 dosahuje 98 % skóre GPT-6.1 Sol v MSBench pri 40 % nákladov a 96 % skóre Claude Opus 5.5 pri 5 % nákladov. Porovnania využívajú propagačnú cenu zníženú o 50 % a zostávajú meraniami Microsoftu.

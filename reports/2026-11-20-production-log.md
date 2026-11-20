@@ -33,3 +33,8 @@ Balance moved the VLM planning circuit above the humanoid item so the five leads
 - Published `content/posts/ai-daily-digest-for-20-november-2026.md` with five top stories and every item in the fixed plan.
 - Opened the primary sources for the Fable 5 natural experiment, introspective oversight, the Resolution Hypothesis, Prime Intellect's model-substitution advisory and the Qwen3-VL planning circuit.
 - Vendor, builder, community and single-author measurements remain attributed; the unavailable independent verification is stated where it changes the claim.
+
+## Slovak editions
+
+- content/posts/a-model-learned-to-report-what-its-assistant-did.sk.md: ok: 5 headings, 20 paragraphs, 4 list items and 4 source URLs match a-model-learned-to-report-what-its-assistant-did.md
+- Term not in map: activation oracle → veštec založený na aktiváciách (a-model-learned-to-report-what-its-assistant-did)

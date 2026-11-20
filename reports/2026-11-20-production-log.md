@@ -38,3 +38,5 @@ Balance moved the VLM planning circuit above the humanoid item so the five leads
 
 - content/posts/a-model-learned-to-report-what-its-assistant-did.sk.md: ok: 5 headings, 20 paragraphs, 4 list items and 4 source URLs match a-model-learned-to-report-what-its-assistant-did.md
 - Term not in map: activation oracle → veštec založený na aktiváciách (a-model-learned-to-report-what-its-assistant-did)
+- content/posts/ai-daily-digest-for-20-november-2026.sk.md: ok: 10 headings, 140 paragraphs and 65 source URLs match ai-daily-digest-for-20-november-2026.md
+- Term not in map: activation oracle → veštec založený na aktiváciách (ai-daily-digest-for-20-november-2026)

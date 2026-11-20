@@ -24,7 +24,7 @@
 # source term, `target` the rendering in the map's language.
 
 language: sk
-version: 4
+version: 5
 
 # ---------------------------------------------------------------------------
 terms:
@@ -585,12 +585,59 @@ keep_in_english:
     note: 'Gloss on first use: viazanosť na dodávateľa.'
     status: confirmed
     evidence: [SK-121]
+  # --- Git and GitHub vocabulary -------------------------------------------
+  # Slovak developers use these words in English, declined as Slovak words.
+  # A Slovak calque („zlúčenie“, „vetva“ for a PR branch, „problém“ or
+  # „vydanie“ for an issue) is not understood by the readers who care about
+  # the story, so none of these is translated. A short gloss on first use is
+  # allowed in a text for non-developers, never instead of the term.
   - term: commit
     note: Already used consistently (commity, commitov, commitovať). Keep. Clear tech-press usage.
     status: confirmed
     evidence: []
-  - term: pull request
-    note: Already used consistently (pull requestov). Keep. Clear tech-press usage.
+  - term: pull request (PR)
+    note: >
+      pull requesty, pull requestov; after the first use the abbreviation PR
+      (PR-ko only in quotations). "open a PR" -> otvoriť pull request.
+    status: confirmed
+    evidence: []
+  - term: merge / merged / merge rate
+    note: >
+      Never „zlúčiť“, „zlúčenie“, „zlúčený“ (published in 2026-11 digests and
+      the LinkedIn edition of 20 November: „počet zlúčení“, „miera zlúčenia“,
+      „zlúčené pull requesty“). Verb mergnúť / mergovať; participle mergnutý
+      („mergnuté pull requesty“); noun merge, indeclinable („po merge“);
+      "merge rate" -> miera mergovania (merge rate); "merge conflict" ->
+      merge konflikt. „Zlúčiť“ stays correct outside Git (company mergers:
+      „fúzia“, „zlúčenie firiem“).
+    status: confirmed
+    evidence: []
+  - term: push / pull (Git)
+    note: 'pushnúť do repozitára, push na main, pull z repozitára. Not „poslať“, „stiahnuť“.'
+    status: confirmed
+    evidence: []
+  - term: branch
+    note: 'branch, branche, v branchi; „vetva“ is understood and may be used, but one form per post. "main branch" -> main / hlavný branch.'
+    status: confirmed
+    evidence: []
+  - term: fork
+    note: 'fork, forku, forknúť. Not „odnož“, „vidlica“.'
+    status: confirmed
+    evidence: []
+  - term: issue (GitHub)
+    note: 'issue, issues (declined: v issue, issues na GitHube). Never „vydanie“ (that is a release or edition) or bare „problém“.'
+    status: confirmed
+    evidence: []
+  - term: diff / rebase
+    note: 'diff, diffu; rebase, rebasovať. Not „rozdiel“ or „prebázovanie“.'
+    status: confirmed
+    evidence: []
+  - term: code review
+    note: '„code review“ or „revízia kódu“; not „recenzia kódu“ (peer review of papers is recenzné konanie).'
+    status: confirmed
+    evidence: []
+  - term: CI / CI/CD
+    note: 'CI pipeline, testy v CI. A gloss „priebežná integrácia“ may follow on first use in a text for non-developers.'
     status: confirmed
     evidence: []
   - term: framework

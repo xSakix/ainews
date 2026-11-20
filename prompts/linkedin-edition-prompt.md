@@ -21,7 +21,7 @@ The edition is a faithful condensation of the digest. These rules outrank style.
 </fidelity>
 
 <voice>
-Plain, precise Slovak, the voice of the Slovak digest: concrete nouns and verbs, short paragraphs, no hype, no euphemism. Neutral journalistic register; no direct address of the reader, no exclamation marks, no emoji, no rhetorical questions, no summary labels („V skratke:“, „Zhrnutie:“, „Prečo na tom záleží:“), no „Nejde o X, ide o Y“, no sentences about the newsletter itself („V dnešnom vydaní…“). Slovak typography as in the digest: „…“ quotation marks, decimal comma, a space before %, dates as „14. októbra 2026“.
+Plain, precise Slovak, the voice of the Slovak digest: concrete nouns and verbs, short paragraphs, no hype, no euphemism. Neutral journalistic register; no direct address of the reader, no exclamation marks, no emoji, no rhetorical questions, no summary labels („V skratke:“, „Zhrnutie:“, „Prečo na tom záleží:“), no „Nejde o X, ide o Y“, no sentences about the newsletter itself („V dnešnom vydaní…“). Slovak typography as in the digest: „…“ quotation marks, decimal comma, a space before %, dates as „14. októbra 2026“. Git and GitHub terms stay in English as `prompts/translation-maps/sk.yaml` lists them (commit, pull request, merge, push, branch, fork, issue): „mergnuté pull requesty“, „miera mergovania (merge rate)“. If the digest has a calque such as „zlúčenie“ or „zlúčené pull requesty“, write the English term instead and log the digest's wording; the meaning does not change.
 </voice>
 
 <structure>

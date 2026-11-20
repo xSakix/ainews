@@ -44,3 +44,10 @@ Balance moved the VLM planning circuit above the humanoid item so the five leads
 ## LinkedIn edition
 
 content/linkedin/2026-11-20.sk.md: Silnejší programátorský model nezvýšil počet zlúčení. Všetkých päť hlavných správ v poradí digestu a päť ďalších položiek.
+
+## Slovak translation-map revision — 20 November 2026
+
+- Revisited today's Slovak digest and both article twins using `prompts/translation-maps/sk.yaml` (version 5), particularly its confirmed Git/GitHub vocabulary and the prohibition on literal verb translations. The observer article required no targeted changes.
+- Corrected Git-specific `merge` / `merged` / `merge rate` throughout the Slovak digest and the Fable 5 article: `mergovať`, `mergnutý`, `miera mergovania` rather than `zlúčiť`, `zlúčenie`. Existing English source files were left unchanged.
+- Rewrote the already-published LinkedIn edition to use terminology consistent with the revised Slovak digest; retained its metadata, source URLs and five-story order.
+- Independent connector-based comparison: all three Slovak posts retain their English counterparts' heading counts, paragraph-block counts and source URLs. The repository's strict Python check scripts were not run because a Git checkout could not be accessed in this runtime (GitHub DNS resolution failure); this is not a strict-check pass.

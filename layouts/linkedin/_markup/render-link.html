@@ -2,6 +2,15 @@
        link's text but drops its address, so the text of every link in an
        edition is the full URL: it survives the paste and LinkedIn turns it
        back into a link. The label written in the edition ([arxiv.org](…))
-       goes into the title tooltip on the site. */ -}}
-<a href="{{ .Destination | safeURL }}" title="{{ .Text | plainify }}" rel="noopener">{{ .Destination }}</a>
+       goes into the title tooltip on the site.
+       A link to "#<anchor>" (the "Ďalej v dnešnom prehľade" list) points to
+       a section of the edition's digest: it becomes the digest's full
+       address with that anchor. */ -}}
+{{- $dest := .Destination }}
+{{- if hasPrefix $dest "#" }}
+  {{- with site.GetPage (printf "/posts/%s" .Page.Params.digest) }}
+    {{- $dest = printf "%s%s" .Permalink $dest }}
+  {{- end }}
+{{- end -}}
+<a href="{{ $dest | safeURL }}" title="{{ .Text | plainify }}" rel="noopener">{{ $dest }}</a>
 {{- /* no trailing newline */ -}}

@@ -54,11 +54,11 @@ Each day has **one digest** and **two articles**. The digest is the main product
 
 ### Choosing the top stories
 
-The digest opens with three to five top stories. Choose them by score, then balance.
+The digest opens with four to six top stories, filled by **slots**: the top stories are a cross-section of the day for the newsletter reader, not the day's highest-scoring papers. Research papers (arXiv and lab research posts) are not top stories; they stay in the "Research" section, where the publisher reads them.
 
 **1. Gate.** A candidate needs a primary source with specifics (substance at least 1, below). Tier 3 never qualifies.
 
-**2. Score** each candidate from 0 to 2 on five criteria:
+**2. Score** each candidate from 0 to 2 on five criteria. The score decides which candidate fills a slot, never how many slots a section gets.
 
 | Criterion | 2 | 1 | 0 |
 |---|---|---|---|
@@ -66,26 +66,28 @@ The digest opens with three to five top stories. Choose them by score, then bala
 | **Consequence** — whose work, money or options change | many readers' work, tools, bills, jobs or companies | one group of practitioners | a curiosity |
 | **Tension** — a gap the facts show | promise against measured reality, capability against access, one group's gain against another's loss, a result that overturns an accepted belief | a clear contrast with the state before | none |
 | **Novelty** | first of its kind, or overturns a prior result | a notable step | incremental |
-| **Fit** — the two core interests | cognitive-side research, or economy and work (tier 1, items 2 and 3) | any other tier 1 | tier 2 |
+| **Fit** — where society and work are heading | economy and work, frontier access (tier 1, items 3 and 4) | any other tier 1 | tier 2 |
 
 **Score the candidates against each other, not one by one.** A table in which almost every story has 2 for substance and tension and a total of 9 ranks nothing: the order is then decided by tie-breaks. So on each criterion at most a third of the day's candidates (rounded up) hold a 2. When more of them seem to deserve it, compare them, keep the 2 for the strongest and give the others 1. Most candidates on most days end between 5 and 8; a 10 is rare.
 
 **Tension must be in the sources, never added by the writer, and a 2 needs both sides named.** Each side is a source you can link: a vendor's claim and an independent measurement of it, a price sheet before and after, a company's statement and an official statistic, a result and the named earlier result it contradicts. A finding set against "what people assume", with no source for the assumption, is a 1: almost every paper claims to surprise. Write the two sides of every 2 in the production log, in a few words, with both URLs. A story with no gap scores 0 here and is no worse for it.
 
-**3. Rank** by total (0 to 10). Break ties by substance, then consequence.
+**3. Fill the slots.** Within each slot, take the highest-scoring candidates of that digest section; break ties by substance, then consequence.
 
-**4. Balance**, adjusting the ranking only as far as needed:
+| Slot | Digest section | Top stories |
+|---|---|---|
+| Economy and work | "Economy and work" | at least two; a third when it scores at least as high as the weakest story in another slot |
+| Releases | "Releases" | two when a major provider (OpenAI, Anthropic, Google, Meta, Microsoft, xAI, Mistral, DeepSeek, Alibaba/Qwen, Moonshot, Zhipu) released a new model or a major version of one; otherwise the one most important release |
+| What people are building | "What people are building" | one |
+| Worth reading | "Worth reading" | one |
 
-- the top stories span at least two of the three lenses;
-- when a Consequence topic scores 6 or more, at least one Consequence topic is a top story;
-- no lens holds more than three top stories;
-- tier 2 topics become top stories only when no tier 1 topic within one point of them is left.
+A slot without a qualifying candidate stays empty; its place goes to the next economy and work candidate, then to the best remaining candidate from "Releases", "In brief" (safety, policy) or "Prompting techniques", never to a research paper or a tier 3 item. Keep at least four top stories; on a thin day three are acceptable, and the production log says why.
 
-**5. Lead.** The first top story is the highest-scoring one after balancing. When two are within one point, lead with the one whose consequence reaches more readers: the lead becomes the title of the Slovak LinkedIn edition.
+**4. Lead and order.** The first top story is the highest-scoring economy and work story, unless a release or another story scores at least two points more: the lead becomes the title of the Slovak LinkedIn edition. The others follow by score.
 
 The 🚨 marker in briefings flags magnitude, not interest. It does not decide what becomes a top story.
 
-The production run writes each top story's scores, total and lens to the production log, with the two sides of every Tension 2, so the publisher can see why a story was chosen and adjust this profile.
+The production run writes each top story's slot, scores, total and lens to the production log, with the two sides of every Tension 2, so the publisher can see why a story was chosen and adjust this profile.
 
 ## The two articles
 

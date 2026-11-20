@@ -134,6 +134,7 @@ Fixed headings and phrases:
 | `Direct source:` / `Direct sources:` | `Directe bron:` / `Directe bronnen:` |
 | `Source:` / `Sources:` | `Bron:` / `Bronnen:`, then the URLs exactly as in the English, separated by a comma and a space |
 | `The study also found` | `Het onderzoek vond ook` |
+| `*The scenes that open and close this article are illustrations; the people in them are invented.*` (an article's illustration line, on its own after the opening scene) | `*De scènes aan het begin en het einde van dit artikel zijn illustraties; de personen erin zijn verzonnen.*` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.
 

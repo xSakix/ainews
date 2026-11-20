@@ -134,6 +134,7 @@ Fixed headings and phrases:
 | `Direct source:` / `Direct sources:` | `Source directe :` / `Sources directes :` |
 | `Source:` / `Sources:` | `Source :` / `Sources :`, then the URLs exactly as in the English, separated by a comma and a space |
 | `The study also found` | `L'étude a également montré` |
+| `*The scenes that open and close this article are illustrations; the people in them are invented.*` (an article's illustration line, on its own after the opening scene) | `*Les scènes qui ouvrent et concluent cet article sont des illustrations ; les personnes qui y figurent sont inventées.*` |
 
 The `{#why-it-matters}` and `{#verification}` suffixes are required: the site styles and links those sections by these IDs.
 

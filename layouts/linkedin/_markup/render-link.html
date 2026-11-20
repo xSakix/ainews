@@ -1,0 +1,7 @@
+{{- /* LinkedIn editions only. LinkedIn's article editor keeps a pasted
+       link's text but drops its address, so the text of every link in an
+       edition is the full URL: it survives the paste and LinkedIn turns it
+       back into a link. The label written in the edition ([arxiv.org](…))
+       goes into the title tooltip on the site. */ -}}
+<a href="{{ .Destination | safeURL }}" title="{{ .Text | plainify }}" rel="noopener">{{ .Destination }}</a>
+{{- /* no trailing newline */ -}}

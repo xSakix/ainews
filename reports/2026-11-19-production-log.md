@@ -1,0 +1,39 @@
+# Production log — 19 November 2026
+
+All eight Claude research desks completed. Duplicate entries across desks were merged. `scripts/seen.py` found no earlier English post for the selected events; the previously briefed Gemini pricing page is retained because today's Neon release adds a new price tier.
+
+## Selection
+
+| Candidate | Substance | Consequence | Tension | Novelty | Fit | Total | Lens |
+|---|---:|---:|---:|---:|---:|---:|---|
+| All About Berlin traffic loss | 2 | 2 | 2 | 1 | 2 | 9 | Consequence |
+| Indeed job postings | 2 | 2 | 1 | 1 | 2 | 8 | Consequence |
+| Copilot AI reviewer workload | 2 | 2 | 1 | 1 | 2 | 8 | Practice |
+| Gemini 4 Neon | 2 | 2 | 1 | 1 | 1 | 7 | Capability |
+| Video world-model flip test | 2 | 1 | 1 | 2 | 2 | 8 | Capability |
+| NGINX HTTP/2 flaws | 2 | 2 | 1 | 1 | 0 | 6 | Consequence |
+| Linear probes as unreliable explanations | 2 | 1 | 1 | 1 | 2 | 7 | Capability |
+| Agentic inference capacity | 1 | 2 | 1 | 1 | 2 | 7 | Consequence |
+
+Tension 2 for All About Berlin: Google presents AI Overviews as helpful search answers (https://blog.google/products/ads-commerce/ads-in-ai-overviews/) while the publisher reports a 70–75% traffic loss and Pew records lower click-through (https://nicolasbouliane.com/blog/death-by-ai, https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/).
+
+Balancing keeps three lenses in the top five. The video-world-model paper moves above the higher-consequence NGINX item because Tier 1 research outranks a Tier 2 security event within one point.
+## Digest
+
+- Published `content/posts/ai-daily-digest-for-19-november-2026.md` with five top stories and every planned item.
+- Opened the primary sources for All About Berlin, Indeed Hiring Lab, the Copilot Reviewer preprint, Gemini 4 Neon and the video-world-model Flip Test.
+- Vendor, author and community measurements remain attributed; no independently unverified figure is presented as a measured fact.
+
+## Translation notes
+
+- ok: 10 headings, 108 paragraphs and 52 source URLs match ai-daily-digest-for-19-november-2026.md
+- Term not in map: mixture-of-experts → model typu mixture-of-experts (ai-daily-digest-for-19-november-2026)
+- Term not in map: copy-on-write → copy-on-write (ai-daily-digest-for-19-november-2026)
+- Term not in map: logit lens → logit lens (ai-daily-digest-for-19-november-2026)
+- ok: 5 headings, 22 paragraphs, 4 list items and 4 source URLs match a-linear-probe-found-a-feature-llama-did-not-use.md
+- Term not in map: probe → sonda (a-linear-probe-found-a-feature-llama-did-not-use)
+- Term not in map: ridge regression → ridge regresia (a-linear-probe-found-a-feature-llama-did-not-use)
+
+## LinkedIn edition
+
+content/linkedin/2026-11-19.sk.md: Odpovede AI znížili návštevnosť sprievodcu o 70 až 75 %. Všetkých päť hlavných správ v poradí digestu a šesť ďalších položiek; bez ďalších výhrad.

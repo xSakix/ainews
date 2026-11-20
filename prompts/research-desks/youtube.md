@@ -107,7 +107,7 @@ Report what is said about building with AI. Fundraising, valuations and market t
 
 ## What to report
 
-Aim for 5–12 videos. For each item, the summary says who speaks, their role, and the main argument or finding in plain words, and why it is worth the reader's time. Then add one line:
+At most twelve videos; in a thin week, fewer. Never lower the bar to fill the list. For each item, the summary says who speaks, their role, and the main argument or finding in plain words, and why it is worth the reader's time. Then add one line:
 `Channel: [name] · Language: [English / German / Czech / Slovak] · Length: [h:mm] · Uploaded: [date] · Signal: [views]`
 
 Views are a signal of attention, not of quality. Speakers' claims are their own; label opinion and speculation as such.

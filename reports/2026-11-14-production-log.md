@@ -40,3 +40,14 @@ Readability edit: complete; meaning and sources checked
 Published the Slovak twin of the GPT article. The translation preserves all 23 content blocks, all four references and the paper's distinction between a controlled goal representation and a general inner intention.
 
 Readability edit: complete; meaning and sources checked
+
+
+## Late Claude research integration
+
+After the original GPT fallback digest, all eight Claude desk briefings arrived on main (commit 39a879a6); Claude subsequently published a separate article and Slovak twin on the already-covered data-centre power topic. At the publisher's request the published English and Slovak digests were updated, without changing the original five top stories or editing Claude's files.
+
+Editorial triage merged overlap with the original digest and added 20 distinct items: six lab/model/API releases, two cognitive-side research papers, three economy/work findings, three builder projects, three substantive engineering/safety essays, one educational video, and two safety/infrastructure developments. Particular additions include ChatGPT Wallet's limited US/dots availability confirmed against the official OpenAI announcement, llama.cpp 1.0 release terms confirmed against the ggml-org announcement, a Federal Reserve data-centre financing report, and the newly disclosed cause of Cursor's October security incident. The Cleveland Fed labour-market finding was not repeated because earlier digests covered that topic; the new Stripe analysis is explicitly non-causal. Claude's data-centre article was not duplicated in the digest.
+
+**Post-update structural checks:** English and Slovak editions each have 49 matching source URL occurrences in identical order; each has 49 source-attributed items, with the same section/item order and the original front matter, leading five stories and date preserved. Added texts were separately edited for plain English and natural Slovak while preserving numbers and claim strengths. Existing non-Slovak translations were not modified. The published Slovak LinkedIn newsletter was not rewritten because this request specified the digest and its translation.
+
+**Validation limitation:** These checks were performed against the committed text, not by running the repository's Python check_posts.py strict validator in a local checkout; the connected GitHub environment cannot execute that script. Do not describe this as having passed the strict Python validator.

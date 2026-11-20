@@ -30,8 +30,8 @@ All paths are relative to the repository root. "Today" is today's date in the Eu
 
 1. Read today's briefings, `reports/YYYY-MM-DD-briefing-*.md`, if they are not already in your context.
 2. Read the other writer's file for today (`reports/YYYY-MM-DD-article-claude.md` or `-gpt.md`) if it exists. Its topic is taken, and so is the event underneath it: a paper and a thread about that paper are one story.
-3. Drop stories an English post in `content/posts/` already covers (ignore the translations, `*.<lang>.md`; compare titles and opening paragraphs), unless today brings a material new development. Today's digest does not count: it carries every story of the day, and an article goes deeper. Earlier posts, earlier digests included, do count.
-4. Choose the one story you can make the best article of, following "The two articles" in `prompts/editorial-profile.md`. Look first in your own lens: Claude prefers a Consequence story (economy and work, frontier access, deployment), GPT a Capability or Practice story; fall back to the other lenses only when none in your lens qualifies. Among the stories that qualify, prefer the higher score under the profile's "Choosing the top stories" (the production log has the scores once the digest is planned). Before you settle on it, open its primary source and check that it holds enough to write from: a finding, a method, an argument, a working project, a documented change in work or prices, people with a reason for what they did, and the tension the story turns on.
+3. Drop stories an earlier English post already covers, unless today brings a material new development. Do not open old posts to find out: run `python3 scripts/seen.py <source URL> …` on the candidates' source URLs (it searches every English post and every earlier briefing, matches an arXiv paper under any of its addresses, and leaves out today's files), and read `python3 scripts/seen.py --titles 14` once for a story covered under another URL. Today's digest does not count: it carries every story of the day, and an article goes deeper. Earlier posts, earlier digests included, do count; a hit in an earlier briefing alone does not.
+4. Choose the one story you can make the best article of, following "The two articles" in `prompts/editorial-profile.md`. Look first in your own lens: Claude prefers a Consequence story (economy and work, frontier access, deployment), GPT a Capability or Practice story; fall back to the other lenses only when none in your lens qualifies. Among the stories that qualify, prefer the higher score under the profile's "Choosing the top stories" (the production log has the scores once the digest is planned). Before you settle on it, open its primary source and check that it holds enough to write from: a finding, a method, an argument, a working project, a documented change in work or prices, people with a reason for what they did, and the tension the story turns on. Note whether it holds a real moment the article can open with.
 5. Write `reports/YYYY-MM-DD-article-<key>.md`:
 
    ```
@@ -53,7 +53,7 @@ Briefings point to sources; they are never sources. Everything outside the illus
 - For a paper, read the abstract, introduction, method, main results, limitations and related work, preferably from arXiv's HTML version (`https://arxiv.org/html/<id>`). If `https://arxiv.org/abs/<id>` does not load, try `https://export.arxiv.org/abs/<id>`, the API `https://export.arxiv.org/api/query?id_list=<id>` or the PDF, and cite `https://arxiv.org/abs/<id>`.
 - For a repository, read the README and the files the claims rest on. For a web page, the main text.
 - Then open the two to five sources the primary source draws its central conclusions from (the work it extends, the result it challenges, the dataset or benchmark it uses) and read enough of each to state accurately what it contributes. They become the references.
-- Look for the people: who did this and why, who it affects, and the concrete details (a task, a place, a failure, a tool, a bill) an illustrative opening and closing scene can be built from.
+- Look for the people: who did this and why, and who it affects. Look first for a real moment to open and close with (the motivating example, an incident the authors describe, a named person in the study, the author's own post about the work). Only when the sources hold none, collect the concrete details (a task, a place, a failure, a tool, a bill) that an invented scene can be built from.
 - For a Consequence story, look for the arc: posts in `content/posts/` from the past 60 days on the same thread (a repricing, a sell-off, a hiring trend, a deployment). Open their primary sources rather than the posts, date each earlier event, and add those sources to the references. Today's event stays the hook and the news; the arc is background.
 - A page missing from a search engine's index is not missing. Open sources directly; if your browsing tool only opens pages that appeared in search results, fetch the page with a direct HTTP request (curl, wget, Python).
 
@@ -61,15 +61,16 @@ If the reporting does not hold up (the primary source cannot be reached, or it s
 
 ## 4. Write
 
-Before writing, read the opening and closing paragraphs of the ten most recent articles in `content/posts/` (English, not digests; either writer). Your opening formula, your setting, the words that mark the scene as an illustration, and your kicker must not repeat theirs.
-
 Write the article with `prompts/article-writer-prompt.md`, from your reporting. Then read it once as an editor would, against the sources:
 
 1. Every fact, number and quotation traces to a source in the references; every quotation is word for word.
-2. Each invented scene carries an unmistakable marker that it is an illustration (a scene taken from the sources is told as it happened); no invented person appears outside the two scenes, is quoted as a source or bears a real person's name; nothing in the scenes contradicts the reported facts.
+2. The scenes: a scene taken from the sources is told as it happened. If the scenes are invented, the fixed illustration line of the writer prompt stands directly after the opening scene, word for word, and nothing else in the prose marks the scenes as invented: no "Imagine", "Picture" or "Suppose" frame, no "she is invented", no "return to the imagined…". No invented person appears outside the two scenes, is quoted as a source or bears a real person's name; nothing in the scenes contradicts the reported facts.
 3. The perex says what happened and why it matters; the title is plain and specific.
-4. No bold, no lists outside the references, no source markers, no stock phrasing, no paragraph that restates another.
+4. No bold, no lists outside the references, no source markers, no stock phrasing, no paragraph that restates another, no closing moral.
 5. The references give author, title and URL for every source the article uses, including the sources behind the primary source.
+6. Sentences that are hard to parse (a missing "that", a string of nouns, a subject far from its verb, a compressed or figurative phrase): rewrite those sentences, and only those.
+
+Only now, with the draft finished, compare it with what the site ran lately: print the first and the last paragraph before the references of the five most recent articles (English, not digests; either writer). If your opening or your kicker is built the same way as one of theirs (the same kind of person, the same setting, the same first move, the same closing turn), rewrite yours. Do this after drafting, never before: read first, the recent openings become the template.
 
 ## 5. Assemble
 
@@ -87,15 +88,15 @@ draft = false
 +++
 ```
 
-- Timestamp: the current time with its real offset (`TZ=Europe/Bratislava date -Iseconds`) minus 60 minutes. Never copy an offset from an example; it is +02:00 in summer and +01:00 in winter. A timestamp in the future keeps the post off the site until that time.
+- Timestamp: the time one hour ago with its real offset, `TZ=Europe/Bratislava date -Iseconds -d '60 minutes ago'`. Never copy an offset from an example; it is +02:00 in summer and +01:00 in winter. A timestamp in the future keeps the post off the site until that time.
 - Never set `author` or `hideAuthor`: the site labels every post as AI-generated.
 - File name: `content/posts/<slug>.md`, where the slug is the title in lowercase ASCII, words joined by hyphens, at most 60 characters. If the file exists, append `-2`.
 
-Run `python3 scripts/check_posts.py --strict content/posts/<slug>.md`. Fix every failure and run it again until it passes.
+Run `python3 scripts/check_posts.py --strict content/posts/<slug>.md`. Fix every failure and run it again until it passes. Lines that start `note:` are not failures: each points at a phrase from the writer prompt's avoid list. Look at each once and reword it, unless it stands inside a quotation or a title.
 
 ## 6. Publish
 
-1. Set your status to `published: content/posts/<slug>.md` and add a `## Notes` section to your file: the sources you opened, the references you followed, whether the opening and closing scenes are reported or illustrative, and anything you could not verify.
+1. Set your status to `published: content/posts/<slug>.md` and add a `## Notes` section to your file: the sources you opened, the references you followed, whether the opening and closing scenes are reported (and from which source) or invented, and anything you could not verify.
 2. Publish the article and your file together (see "Publishing") with the message `Article by <Writer> YYYY-MM-DD: <slug>`.
 
 Claude now continues at step 7 and writes the article's Slovak twin. GPT is done: the production run writes the Slovak twin of its article in its Pass 2 (`prompts/main-prompt.md`). The other editions (Dutch, French, German, Spanish, Chinese) are the translation run's work; neither writer translates into them.
@@ -106,7 +107,7 @@ Claude translates its own article into Slovak right after publishing it, so the 
 
 1. Pull the latest `main`. If `content/posts/<slug>.sk.md` is already there, the production run translated it first: add the line `Slovak: by the production run` under your status, publish your file alone with the message `Article by Claude YYYY-MM-DD: Slovak by production`, and stop.
 2. Read `prompts/translator-prompt.md` and apply it to your final English file as it is on `main`. Its output is the complete Slovak file. Save it outside the repository (for example `/tmp/ainews-claude/<slug>.sk.md`), with exactly the same `<slug>` part as the English file: the shared file name links the two editions, and the Slovak URL comes from the `slug` field inside the Slovak file.
-3. Copy it to `content/posts/<slug>.sk.md` and run `python3 scripts/check_posts.py --strict content/posts/<slug>.sk.md`. For a Slovak file it also checks that tags, date and every source URL match the English file, that `slug` is set, and that no English section heading or claim label is left. Fix every failure and run it again.
+3. Copy it to `content/posts/<slug>.sk.md` and run `python3 scripts/check_posts.py --strict content/posts/<slug>.sk.md`. For a Slovak file it also checks that tags, date, every source URL and the number of headings, paragraphs, list items and table rows match the English file, that `slug` is set, and that no English section heading, claim label or paragraph and no unambiguous `avoid` form of the translation map is left. Fix every failure and run it again. When it passes it prints a line starting `ok:`: copy that line into your file under `## Translation notes`.
 4. Where the translator prompt says to put something in the production log, put it in your file instead, under `## Translation notes`, never in the post.
 5. Add the line `Slovak: published: content/posts/<slug>.sk.md` under your status and publish the Slovak file and your file together with the message `Slovak edition YYYY-MM-DD: <slug>`.
 6. If the translation fails its self-check or the check script after a second round of fixes, leave it out of the repository: add the line `Slovak: skipped: <why>` under your status and publish your file alone with the message `Article by Claude YYYY-MM-DD: Slovak skipped`. The production run then translates the article in its Pass 2. Never publish a partial translation.

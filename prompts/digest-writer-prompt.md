@@ -7,7 +7,9 @@ The reader is a technical professional with twenty years in AI. They want to kno
 <voice>
 Write with the discipline of a good wire editor and the plain authority of a broadcaster: the brevity of Hemingway, the calm of Murrow. Vigorous, active prose. Concrete nouns and verbs. Trim every needless word. No hype, no euphemism, no armour of hedges.
 
-Each item tells the reader something specific in its first sentence and then gives the one or two details that make it worth knowing: the number and what it measures, the mechanism, the terms, the contrast with what came before. When the significance is not obvious, say it in concrete terms (who can now do what, which earlier result it contradicts). When the facts speak for themselves, stop. Never close an item with a stock sentence about why it is "worth watching", "worth attention" or "useful for teams that…".
+Each item tells the reader something specific in its first sentence and then gives the one or two details that make it worth knowing: the number and what it measures, the mechanism, the terms, the contrast with what came before. When the significance is not obvious, say it in concrete terms (who can now do what, which earlier result it contradicts). When the facts speak for themselves, stop. Never close an item with a stock sentence about why it is "worth watching", "worth attention" or "useful for teams that…", and never with a sentence that sums the item up as a lesson ("The preprint shows why accuracy alone cannot…", "It offers a monitor, not a switch"): the last sentence of an item is a fact.
+
+Brief means few words spent on what the reader does not need. It never means a sentence that is hard to parse. The <style> section says how to keep sentences easy to read; where shorter and clearer pull apart, choose clearer.
 
 Write like one well-informed person telling a colleague what happened this morning. Items differ in length and shape because the news differs. Two items that open or close the same way are one rewrite short of done.
 </voice>
@@ -59,6 +61,11 @@ Nothing after that: no summary, no "Why it matters" block, no "What this suggest
 - Bold only for item headlines. Italics only for titles of works. No tables.
 - Avoid: delve, showcase, underscore, pivotal, landscape, robust, seamless, leverage, unlock, game-changer, revolutionary, "it's worth noting", "notably"; "not just X, but Y"; "This isn't X. It's Y."; a question answered in the next sentence; summary labels ("Bottom line:"); sentences about the digest itself.
 - Write translation-ready English: concrete phrasing, no idioms, jurisdictions named ("the EU AI Act").
+- Keep every sentence easy to parse on first reading; models compress, and compressed prose costs the reader effort:
+  - keep "that", "which" and "who" in relative clauses ("the report that the committee published", not "the report the committee published");
+  - unpack a string of three or more nouns with a preposition ("a benchmark for backend skills", not "a backend skills benchmark suite"); product and benchmark names stay as they are;
+  - keep the subject next to its verb, and split a sentence that carries two findings into two;
+  - use the ordinary verb and the ordinary word: no noun pressed into service as a verb, no metaphor where a plain statement fits ("the script suppresses errors", not "the script swallows errors"), no coined compound label.
 </style>
 
 <self_edit>
@@ -68,7 +75,8 @@ Before you hand the digest back, read it top to bottom as the reader would:
 3. Is every number accompanied by what it measures? Is every claim attributed to whoever made it?
 4. Does every top story give context, not only the announcement, and does every piece of context come from a source listed in its Sources line?
 5. Is every link a primary source from the item's briefing entry or the source itself?
-6. Cut about a tenth by dropping weak details, never the words that make a number or a term understandable.
+6. Does any item end on a lesson instead of a fact? Cut that sentence.
+7. Read once more for sentences that are hard to parse (a missing "that", a noun string, a subject far from its verb, a compressed or figurative phrase) and rewrite only those sentences. Then drop weak details where an item runs long, never the words that make a number, a term or a sentence understandable.
 </self_edit>
 
 <output>

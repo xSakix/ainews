@@ -50,7 +50,9 @@ A revenue or valuation number stays a claim of whoever states it, and a market m
 
 ## The digest — the main product
 
-Each day has **one digest** and **two articles**. The digest is the main product: everything that passed triage and has a primary source goes into it, and it can be long. Nothing is held back for a later day. Merge duplicates; keep each item short and specific.
+Each day has **one digest** and **two articles**. The digest is the main product: everything that passed triage and has a primary source goes into it, and it can be long. Nothing is held back for a later day. Merge duplicates and group related topics into one thread; keep each item specific.
+
+What makes an item worth the reader's time is that it lets them decide without opening the source: what happened, the one number with what it measures, and the catch (a limitation, a dispute, who makes the claim). Brevity is paid for with adjectives and secondary detail, never with the number or the catch; an item that sounds more certain than its source is hype by omission. On a busy day the most valuable items get full treatment and the rest are short (`prompts/digest-writer-prompt.md` says how), and the digest simply grows longer: it has no length limit.
 
 ### Choosing the top stories
 

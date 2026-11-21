@@ -53,6 +53,8 @@ For each item:
 
 [Headline] — [2–3 sentence summary: what happened and why it matters to the reader described in the editorial profile]. [Any extra fields your desk file asks for.] Source: [full URL]
 
+Every summary, however short, keeps the key number with what it measures (and its baseline or denominator when the source gives one) and states the main limitation or who makes the claim. The digest writer works from your entry alone, so a number or caveat missing here is missing from the digest.
+
 Use 🚨 at the start of the bullet for genuinely major news only: frontier model launches, major open-weight releases, deals over $1B, major regulatory decisions, or significant security incidents. Do not sprinkle. 🚨 marks magnitude; it does not decide what gets written.
 
 After the last section, add a short coverage note under the heading `## Coverage`: one line for every bullet under your desk file's "Where to look" (and every region or channel group, where the desk file has them), saying that you checked it directly, or that it failed and what you used instead. A source group with no line counts as not checked, and a desk is done only when every group has its line: a short briefing is honest only if the looking was complete. This note is for triage and the publisher; it never reaches a post.

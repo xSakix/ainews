@@ -22,7 +22,7 @@ Front matter (see <output>):
 
 Body, in this order:
 
-1. Opening, optional: at most two sentences, only when a real thread runs through several of the day's stories (two labs converging on one technique, three papers testing one claim). The site prints the description directly above the opening, and the first top story follows it, so the opening never restates either. Without such a thread, start with `## Top stories`. No throat-clearing ("Today's coverage centres on…").
+1. Opening, optional: at most two sentences, only when a real thread runs through several of the day's stories (two labs converging on one technique, three papers testing one claim). When the plan marks a thread that spans three or more topics, write the opening about it. The site prints the description directly above the opening, and the first top story follows it, so the opening never restates either. Without such a thread, start with `## Top stories`. No throat-clearing ("Today's coverage centres on…").
 
 2. `## Top stories`: the four to six stories the plan marks as top stories, in its order. They are a cross-section of the day (economy and work, releases, what people are building, worth reading), so an item that is a top story does not appear again in its section. Each one: a bold headline sentence stating the news, with the number that matters when there is one, then two to four short paragraphs (about 100 to 200 words in all) covering what happened, the key detail and the context a reader needs (what came before, the nearest rival or the prior result, as the sources give it). Say what it changes, and for whom, only when the facts do not already make that plain, and never as a stock "For a developer…" opener. When the sources show a gap (a vendor's claim against an independent measurement, a price before and after, a promise against what was deployed), state both sides plainly in the story; never manufacture one. End with `Source: <URL>` or `Sources: <URL>, <URL>`: bare URLs, separated by a comma and a space.
 
@@ -38,7 +38,13 @@ Body, in this order:
    - `## In brief`: the remaining tools, safety, policy and hardware items;
    - `## Business, briefly`: at most five business items (funding, valuations, deals, executive moves). What AI does to work and prices goes to "Economy and work", never here.
 
-   An item is a bold headline sentence that states the news (actor and action, not a teaser), then two to four sentences, then `Source: <URL>`. A "Business, briefly" item is one sentence and its source.
+   Section items come in two forms; the plan marks each one `full` or `quick`, and a section lists its full items first, then its quick items, each group in the plan's order (most valuable first).
+   - **Full item**: a bold headline sentence that states the news (actor and action, not a teaser), then two to four sentences, then `Source: <URL>` on its own line. The sentences carry what the reader needs to decide whether to open the source: the key number and what it measures, the mechanism or the terms, the limitation or the dispute, and who makes the claim.
+   - **Quick item**: a bold headline sentence that states the news, then one or two sentences that keep the key number with what it measures and the main limitation or attribution, then `Source: <URL>` in the same paragraph. A quick item is short because it carries fewer details, never because it lost its number or its caveat.
+   - **Thread item**: when the plan groups several topics into one thread (several papers on one technique, several reactions to one claim), write one full item for the whole thread: what links them, then each source's finding in a sentence, then `Sources:` with every URL. A thread appears in one section only.
+   - A "Business, briefly" item is one sentence and its source.
+
+   The digest has no length limit. A day with many items is a long digest; never shorten items so that the total stays near the length of an earlier day.
 
 4. `## What to watch`, only when the items name upcoming dated events (a release date, a vote, a deadline, a scheduled talk): one to three sentences. Otherwise omit it.
 
@@ -54,6 +60,7 @@ Nothing after that: no summary, no "Why it matters" block, no "What this suggest
 - Context (what came before, the nearest rival, the prior result) comes from the primary source itself (its related work, comparison tables or changelog) or from another source opened today and listed in the item's Sources line, never from memory. If no source gives a comparison, leave it out.
 - Link the primary source, never a briefing. Each source URL appears in full, bare, with nothing attached to it; separate several with a comma and a space.
 - Merge items about the same underlying event into one. A topic covered by one of today's articles still gets its item: the digest is complete without the articles.
+- Keep what the briefing entry gives the reader to judge the item: its key number with what it measures, and every limitation, caveat or dispute it states ("only", "not independently verified", "at chance", "the author admits", "commenters question"). When an item must be short, cut adjectives, background and secondary details, never these. An item that sounds more certain than its source is a factual error.
 </accuracy>
 
 <style>
@@ -76,7 +83,8 @@ Before you hand the digest back, read it top to bottom as the reader would:
 4. Does every top story give context, not only the announcement, and does every piece of context come from a source listed in its Sources line?
 5. Is every link a primary source from the item's briefing entry or the source itself?
 6. Does any item end on a lesson instead of a fact? Cut that sentence.
-7. Read once more for sentences that are hard to parse (a missing "that", a noun string, a subject far from its verb, a compressed or figurative phrase) and rewrite only those sentences. Then drop weak details where an item runs long, never the words that make a number, a term or a sentence understandable.
+7. Hold each item against its briefing entry: is the entry's key number still there with what it measures, and is every limitation the entry states still there? Does every full item have two to four sentences after its headline, and every quick item at least one? Restore what is missing.
+8. Read once more for sentences that are hard to parse (a missing "that", a noun string, a subject far from its verb, a compressed or figurative phrase) and rewrite only those sentences. Then drop weak details where an item runs long, never the words that make a number, a term or a sentence understandable.
 </self_edit>
 
 <output>

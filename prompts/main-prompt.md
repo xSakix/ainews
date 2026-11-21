@@ -36,6 +36,7 @@ Two AI systems share the work. **Claude** runs every research desk early each mo
 1. Pull the latest `main` (`git pull --rebase origin main`).
 2. If `reports/YYYY-MM-DD-plan.md` does not exist for today, start Pass 1 at Task A.
 3. If it exists, read it. If the digest's status is `todo`, continue at Task C. Otherwise, if `reports/YYYY-MM-DD-article-gpt.md` is missing or has the status `writing`, continue at Task D. Otherwise go to Pass 2, then Pass 3.
+4. Before you continue, if today's production log has a digest entry that starts `unvalidated:`, run `python3 scripts/check_posts.py --strict` on the digest, fix and publish any failure with the message `Validate digest YYYY-MM-DD`, and log the `ok:` line. Pass 2 does not start while the English digest is unvalidated.
 
 ## Pass 1 — English
 
@@ -48,11 +49,12 @@ Two AI systems share the work. **Claude** runs every research desk early each mo
 
 ### Task B — Plan the digest
 
-1. From every section of every briefing, list each distinct underlying event, project, paper or piece of writing. Entries about the same thing are one topic, whatever briefing or heading they appear under. Where two briefings disagree on a fact (a date, a number, a name, whether something is new), open the primary source; it decides. Note it in the production log.
+1. From every section of every briefing, list each distinct underlying event, project, paper or piece of writing. Entries about the same thing are one topic, whatever briefing or heading they appear under. Where two briefings disagree on a fact (a date, a number, a name, whether something is new), open the primary source; it decides. Note it in the production log. Then group related topics into **threads**: several papers on the same technique, several reactions to the same claim, a release and the write-ups that explain it. A thread of two or more topics becomes one digest item with all their sources, placed in the section of its strongest topic; a topic that is a top story stays out of the thread.
 2. Drop topics an earlier English post already covers. Do not open old posts to find out: run `python3 scripts/seen.py <source URL> …` on the topics' source URLs, many at a time (it searches every English post and every earlier briefing, and matches an arXiv paper under any of its addresses), and read `python3 scripts/seen.py --titles 14` once for stories that an earlier post covered under another URL. A hit in an earlier briefing alone does not drop a topic: a briefing is not a publication. Exception: today's item contains a material new development. In that case, the new development is the topic.
 3. Give each topic its tier and its lens (Capability, Practice or Consequence) from the editorial profile. Tier 3 (business) topics go to the digest's "Business, briefly" section, at most five, or are dropped. The profile's "Moving up" rules lift a business event out of tier 3; it is then written about the consequence (for what AI does to work, prices and industries, in the digest's "Economy and work" section).
 4. Choose the **top stories** with the profile's "Choosing the top stories": gate, score every tier 1 and tier 2 candidate, fill the slots (economy and work at least two, releases one or two, what people are building one, worth reading one; no research papers), choose the lead. Keep four to six.
 5. Every other topic that has a primary source becomes an item in its digest section (see `prompts/digest-writer-prompt.md`). Nothing is deferred to a later day. Topics Claude has claimed for its article (`reports/YYYY-MM-DD-article-claude.md`, if it exists) stay in the digest like any other.
+   Mark each item `full` or `quick`, so the words go where the reader gets the most from them. `full`: every thread; every "Releases" and "Economy and work" item; research the papers desk ranks under "Papers worth a deep dive"; and the strongest items of the other sections, those with a measurement, a working artefact or a dispute the reader can judge. Keep about 30 full items on a busy day; on a quiet day every item may be full. Everything else is `quick`. Within each section, order the items by value: full items first, the most useful first.
 6. Set the timestamp base, the time one hour ago with its real offset: `TZ=Europe/Bratislava date -Iseconds -d '60 minutes ago'`. Never copy an offset from an example; it changes between summer (+02:00) and winter (+01:00) time.
 7. Write `reports/YYYY-MM-DD-plan.md`:
 
@@ -61,11 +63,11 @@ Two AI systems share the work. **Claude** runs every research desk early each mo
    Timestamp base: <base>
 
    ## Digest
-   | Section | Item | Source |
+   | Section | Item | Form | Source |
    Status: todo
    ```
 
-   List the top stories first, with the section `Top stories`, in rank order; then the other items in the digest's section order. Write the selection reasons to `reports/YYYY-MM-DD-production-log.md`: for the top stories and the next three candidates, a table with the slot, the five scores, the total and the lens; under it, for every Tension 2, one line naming its two sides with both URLs; one line saying whether a major provider released a model today (two release slots or one); and one line on any slot left empty and where its place went. Score as the profile says, the candidates against each other, with at most a third of them holding a 2 on any criterion.
+   `Form` is `top`, `full`, `quick` or `thread` (a thread lists all its source URLs, separated by a comma and a space). List the top stories first, with the section `Top stories`, in rank order; then the other items in the digest's section order. Write the selection reasons to `reports/YYYY-MM-DD-production-log.md`: for the top stories and the next three candidates, a table with the slot, the five scores, the total and the lens; under it, for every Tension 2, one line naming its two sides with both URLs; one line saying whether a major provider released a model today (two release slots or one); and one line on any slot left empty and where its place went. Score as the profile says, the candidates against each other, with at most a third of them holding a 2 on any criterion.
 8. Publish the plan and the production log (see "Publishing a file") with the message `Plan for YYYY-MM-DD`. From here on, the plan is fixed: a resumed run follows it and never plans again.
 
 ### Task C — The digest
@@ -73,7 +75,7 @@ Two AI systems share the work. **Claude** runs every research desk early each mo
 Write the digest with `prompts/digest-writer-prompt.md`, from the plan's table.
 
 - **Top stories.** Open each top story's primary source yourself and read enough to give it context: what is new, the key detail, what came before. The briefing entry points you to the source; the source decides.
-- **Every other item.** Write it from its entry in Claude's briefings: find the entry by its source URL and read only that entry. Claude opened the primary source and checked its date when it wrote the entry, so for these items the briefing entry is the basis of the item. Keep the entry's attributions and labels (vendor claims, community claims, speculation), link the primary source the entry cites, never the briefing, and open a primary source yourself only when the entry flags a doubt (an unclear date, an unreachable page, a disputed claim) or two briefings disagree.
+- **Every other item.** Write it from its entry in Claude's briefings: find the entry by its source URL and read only that entry. Claude opened the primary source and checked its date when it wrote the entry, so for these items the briefing entry is the basis of the item. Keep the entry's attributions and labels (vendor claims, community claims, speculation), its key number with what it measures and every limitation it states, in full and quick items alike; for a thread, read the entry of each of its topics. Link the primary source the entry cites, never the briefing, and open a primary source yourself only when the entry flags a doubt (an unclear date, an unreachable page, a disputed claim) or two briefings disagree.
 
 Then:
 
@@ -126,6 +128,7 @@ draft = false
 ## Publishing a file
 
 1. For a post: `python3 scripts/check_posts.py --strict FILE` passes. It rejects leaked pipeline notes, an H1 or italic dek in the body, invalid TOML, a missing description, and tags outside the allowed list. For a Slovak file it also checks that the English twin exists, that tags, date, every source URL and the number of headings, paragraphs, list items and table rows match it, that `slug` is set, and that no English section heading, claim label or paragraph and no unambiguous `avoid` form is left. Fix a failure and re-run the check on that file; once it passes, move on.
+   **If the script cannot run** (no local checkout, no Python), the check has not passed. Never publish a Slovak file or a LinkedIn edition unchecked: log it as `blocked: validation (<reason>)` and stop that pass. The English digest may still be published, because it is the day's main product, but its production-log entry starts with `unvalidated: <reason>`, and the next run that can run the script checks it first and fixes it. A count or comparison made by hand is not a check and is never logged as one.
 2. `git add` the post together with the plan and log files you changed, then `git commit -m "<message>"`.
 3. `git pull --rebase origin main`, then `git push origin HEAD:main`. If the push fails for a network reason, retry up to four times, waiting 2, 4, 8 and 16 seconds. If the rebase stops on a conflict in the Slovak twin of Claude's article, Claude published it first: run `git rebase --abort` and `git reset --hard origin/main`, note it under "Translation notes" in the production log, publish the log, and go on with the next post.
 

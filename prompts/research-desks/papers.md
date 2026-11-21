@@ -45,5 +45,5 @@ Prefer papers with released code, data or weights: the reader can inspect them, 
 
 ## Sections
 
-1. Papers worth a deep dive — ranked; these are the candidates for the digest's top stories and the day's articles.
-2. Also notable — one line each.
+1. Papers worth a deep dive — ranked; these become full digest items and are the candidates for the day's articles (research papers are not top stories).
+2. Also notable — two sentences each: the finding with its key number and what it measures (against a baseline when the paper gives one), then the main limitation or the authors' own caveat. Group papers that test the same technique or claim next to each other and say so, so the digest can treat them as one thread.

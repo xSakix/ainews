@@ -39,3 +39,19 @@ Published content/posts/ai-daily-digest-for-21-november-2026.md with five top st
 
 ## LinkedIn
 Not written because today's Slovak digest is not on main. Follow prompts/linkedin-run.md after the Slovak digest passes strict validation.
+
+## Resumed Slovak and LinkedIn publication — 21 November 2026
+
+User explicitly requested a retry of the skipped Pass 2 and Pass 3. The original skip records above describe the earlier attempt, not the final state.
+
+### Translation notes
+- Published `content/posts/ai-daily-digest-for-21-november-2026.sk.md`: connector-level comparison shows 9 headings, 120 paragraph blocks and 100 URL occurrences matching the English digest. Source URLs occur in the same multiplicities; the date and tags were copied unchanged.
+- Published `content/posts/a-language-model-rewrote-its-own-weights-and-improved.sk.md`: connector-level comparison shows 5 headings, 32 paragraph blocks and 2 source URLs matching the English article. The date, tags and references were preserved.
+- Claude's article and Slovak twin were already on `main`, so neither was rewritten.
+- Both new Slovak files were reviewed against the confirmed Slovak translation-map forms, including Git merge terminology, agent plurals, model checkpoint, held-out evaluation and recorded reasoning traces. A targeted banned-form scan returned no matching terms.
+- A Git checkout remains unavailable in this environment (GitHub host DNS resolution failed), so the local `scripts/check_posts.py --strict` checks could not be run. The parity figures above are from direct comparisons of the complete files fetched through the GitHub connector, not a claimed Python strict-check success.
+
+### LinkedIn edition — retry
+- Published `content/linkedin/2026-11-21.sk.md`: **Kórejskí pracovníci šetria s AI čas, no výkon nerastie**.
+- All five top stories appear in the digest's order, with the exact source URLs for their corresponding story. The section summary contains eight bullets, one per eligible remaining digest section, with their section anchors.
+- Checked title and description lengths (54 and 150 characters), share text length (551 characters), body length (569 words), story paragraph word counts, bullet length, source URL membership, and section coverage using the current GitHub files. The repository's `scripts/check_linkedin.py --strict` was not executed due to the unavailable checkout.

@@ -24,7 +24,7 @@ Not verifiable from the repo: Cloudflare's build command (needed for Pagefind).
 
 ## Decisions (21 November 2026)
 
-1. **Corrections go to GitHub issues.** The repo is public. Done: a `Report an error` link in the follow box under every post opens `.github/ISSUE_TEMPLATE/correction.yml` with the title and article URL pre-filled; the seven About pages point to it. Create a `correction` label in the repo so new reports are tagged.
+1. **No public error-report channel.** A GitHub issue form was tried and removed: a public form linked from every page invites spam, exposes reporters, and becomes a prompt-injection path the moment an AI run reads issues. The About pages now say only that corrections are made in the article itself.
 2. **Source labels improve through the prompt** (item 11, option b).
 3. **Invented opening scenes stay** (item 10 goes ahead as written).
 4. **The label stays "AI-generated".** Context is added next to it, never in its place; "primary-source checked" appears only where the pipeline guarantees it.
@@ -69,8 +69,8 @@ Every new string goes through `i18n/*.yaml` so all seven editions get it.
 - Retroactive for every digest, no prompt change, and it survives the digest being written before the GPT article exists, because the site is rebuilt on every push.
 - Translations: the map is built per language from the article's twin, so the Slovak digest links the Slovak article when it exists and the English one otherwise.
 
-### 7. Report an error (review: CRO) — done
-- `layouts/partials/comments.html` links each post to a pre-filled GitHub issue form (`.github/ISSUE_TEMPLATE/correction.yml`); string `report_error` in `i18n/*.yaml`; `/about/#corrections` updated in all seven editions.
+### 7. Report an error (review: CRO) — dropped
+- Not implemented; see decision 1. Revisit only with a private channel (e.g. a corrections mailbox) that no pipeline run reads unattended.
 
 ### 8. About page: verification note (review: CRO)
 - Rewrite `content/about*.md` "Verification labels": say what replaced the table on 12 October (source links inline on every item, quoted vendor/preprint qualifiers in the text) and keep the label definitions for the archived articles. Seven files.
@@ -119,7 +119,7 @@ Every new string goes through `i18n/*.yaml` so all seven editions get it.
 |---|---|---|---|
 | A | 4 (header a11y), 1 (jump bar), 3 (hero + CTA) | about a day, mostly i18n | none |
 | B | 2 (today's issue), 5 (end nav), 6 (digest → article links) | 1–2 days | none |
-| C | 9 (byline + backfill), 8 | 1 day | none (7 done) |
+| C | 9 (byline + backfill), 8 | 1 day | none |
 | D | 10, 11, 12 | 1–2 days | none |
 | E | 13 (Pagefind), 14 | 1–2 days | Cloudflare build access |
 

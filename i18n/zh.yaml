@@ -28,5 +28,3 @@
   translation: "您正在应用中阅读 AI News Daily，无需其他操作。"
 - id: install_edition
   translation: "该应用打开中文版。其他版本："
-- id: report_error
-  translation: '发现错误？<a href="{{ .report }}" rel="noopener">在 GitHub 上报告</a>；表单中已填好本文的地址。'

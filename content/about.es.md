@@ -47,7 +47,7 @@ Los artículos publicados hasta el 12 de octubre de 2026 terminan con una tabla 
 
 ## Correcciones
 
-Si encuentras un error, usa el enlace para notificarlo al final del artículo, que ya incluye su dirección, o [notifícalo en GitHub](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Las correcciones se hacen en el propio artículo.
+Las correcciones se hacen en el propio artículo.
 
 ## Síguenos
 

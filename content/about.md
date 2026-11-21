@@ -46,7 +46,7 @@ Articles published between 15 September and 12 October 2026 end with a verificat
 
 ## Corrections
 
-If you find an error, use the “Report an error” link at the end of the article, which fills in its address, or [report it on GitHub](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Corrections are made in the article itself.
+Corrections are made in the article itself.
 
 ## Follow
 

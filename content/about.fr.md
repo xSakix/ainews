@@ -47,7 +47,7 @@ Les articles publiés jusqu'au 12 octobre 2026 se terminent par un tableau de v�
 
 ## Corrections
 
-Si vous trouvez une erreur, utilisez le lien de signalement en fin d'article, qui en remplit l'adresse, ou [signalez-la sur GitHub](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Les corrections sont apportées directement dans l'article.
+Les corrections sont apportées directement dans l'article.
 
 ## Nous suivre
 

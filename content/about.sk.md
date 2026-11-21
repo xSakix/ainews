@@ -47,7 +47,7 @@ Toto označenie zodpovedá povinnostiam transparentnosti pre texty vygenerované
 
 ## Opravy
 
-Ak nájdete chybu, použite odkaz na nahlásenie chyby na konci článku, ktorý vyplní jeho adresu, alebo [ju nahláste na GitHube](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Opravy robíme priamo v článku.
+Opravy robíme priamo v článku.
 
 ## Sledujte nás
 

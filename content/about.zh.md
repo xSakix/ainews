@@ -47,7 +47,7 @@ AI News Daily 是一份面向技术读者的人工智能晨间简报。它的核
 
 ## 更正
 
-如果发现错误，请使用文章末尾的报告链接（会自动填好文章地址），或[在 GitHub 上报告](https://github.com/xSakix/ainews/issues/new?template=correction.yml)。更正会直接在文章中进行。
+更正会直接在文章中进行。
 
 ## 关注我们
 

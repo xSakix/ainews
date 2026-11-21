@@ -47,7 +47,7 @@ Artikelen die tot en met 12 oktober 2026 zijn verschenen, eindigen met een verif
 
 ## Correcties
 
-Vindt u een fout, gebruik dan de link om een fout te melden aan het einde van het artikel, die het adres al invult, of [meld de fout op GitHub](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Correcties worden in het artikel zelf aangebracht.
+Correcties worden in het artikel zelf aangebracht.
 
 ## Volg ons
 

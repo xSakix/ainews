@@ -28,5 +28,3 @@
   translation: "Vous lisez AI News Daily dans l'application. Il n'y a rien d'autre à faire."
 - id: install_edition
   translation: "L'application ouvre l'édition française. Autres éditions :"
-- id: report_error
-  translation: 'Vous avez trouvé une erreur ? <a href="{{ .report }}" rel="noopener">Signalez-la sur GitHub</a> ; le formulaire contient déjà l''adresse de cet article.'

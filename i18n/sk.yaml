@@ -28,5 +28,3 @@
   translation: "AI News Daily práve čítate v aplikácii. Nič ďalšie netreba robiť."
 - id: install_edition
   translation: "Aplikácia sa otvorí v slovenskom vydaní. Ďalšie vydania:"
-- id: report_error
-  translation: 'Našli ste chybu? <a href="{{ .report }}" rel="noopener">Nahláste ju na GitHube</a>; formulár už obsahuje adresu tohto článku.'

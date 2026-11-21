@@ -47,7 +47,7 @@ Artikel, die bis zum 12. Oktober 2026 erschienen sind, enden mit einer Prüftabe
 
 ## Korrekturen
 
-Wenn Sie einen Fehler finden, nutzen Sie den Link zum Melden am Ende des Artikels, der dessen Adresse bereits einträgt, oder [melden Sie ihn auf GitHub](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Korrekturen werden direkt im Artikel vorgenommen.
+Korrekturen werden direkt im Artikel vorgenommen.
 
 ## Folgen
 

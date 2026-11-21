@@ -47,11 +47,10 @@ Les articles publiés jusqu'au 12 octobre 2026 se terminent par un tableau de v�
 
 ## Corrections
 
-Si vous trouvez une erreur, répondez à n'importe quel numéro de la [newsletter sur Substack](https://aiplayground.substack.com/) ou laissez-y un commentaire. Les corrections sont apportées directement dans l'article.
+Si vous trouvez une erreur, utilisez le lien de signalement en fin d'article, qui en remplit l'adresse, ou [signalez-la sur GitHub](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Les corrections sont apportées directement dans l'article.
 
 ## Nous suivre
 
 - [Flux RSS](/fr/index.xml) avec le texte intégral des articles
-- [Newsletter sur Substack](https://aiplayground.substack.com/) (en anglais)
 - [Index lisible par machine pour les assistants IA](/fr/llms.txt)
 - [English edition](/)

@@ -47,11 +47,10 @@ Toto označenie zodpovedá povinnostiam transparentnosti pre texty vygenerované
 
 ## Opravy
 
-Ak nájdete chybu, odpovedzte na ktorékoľvek vydanie [newslettra na Substacku](https://aiplayground.substack.com/) alebo tam pridajte komentár. Opravy robíme priamo v článku.
+Ak nájdete chybu, použite odkaz na nahlásenie chyby na konci článku, ktorý vyplní jeho adresu, alebo [ju nahláste na GitHube](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Opravy robíme priamo v článku.
 
 ## Sledujte nás
 
 - [RSS kanál](/sk/index.xml) s plným textom článkov
 - [Svet AI tvorený AI](https://www.linkedin.com/newsletters/svet-ai-tvoren%C3%BD-ai-7349186484307951619/), denný newsletter na LinkedIne so správami dňa po slovensky
-- [Newsletter na Substacku](https://aiplayground.substack.com/) (v angličtine)
 - [Strojovo čitateľný prehľad pre AI asistentov](/sk/llms.txt)

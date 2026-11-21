@@ -3,7 +3,7 @@
 - id: follow_title
   translation: "Get AI News Daily every morning."
 - id: follow_text
-  translation: 'Follow the <a href="{{ .rss }}">RSS feed</a> (full text) or subscribe to the <a href="{{ .newsletter }}" rel="noopener">newsletter on Substack</a>.'
+  translation: 'Follow the <a href="{{ .rss }}">RSS feed</a> (full text).'
 - id: follow_note
   translation: 'This article is AI-generated: researched and written by AI models under published editorial rules. <a href="{{ .about }}">How we work and what the labels mean</a>.'
 - id: follow_aria
@@ -25,3 +25,5 @@
   translation: "You're reading AI News Daily in the app. There's nothing more to do."
 - id: install_edition
   translation: "The app opens the English edition. Other editions:"
+- id: report_error
+  translation: 'Found an error? <a href="{{ .report }}" rel="noopener">Report it on GitHub</a>; the form already holds this article''s address.'

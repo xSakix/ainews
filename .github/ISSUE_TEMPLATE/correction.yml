@@ -1,0 +1,27 @@
+name: Report an error
+description: Tell us about a factual error, a broken link or a mistranslation in an article.
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Article
+      description: The address of the article (the "Report an error" link fills this in).
+      placeholder: https://ai-news-daily.xyz/posts/...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Quote the sentence and say what it should say.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link that shows the correct fact, if you have one.
+    validations:
+      required: false

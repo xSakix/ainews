@@ -20,15 +20,15 @@ version) and orders the work so the cheapest, most visible fixes ship first.
 | "Invented people" line where no people appear | The fixed line is in 8 English articles (and their translations); 21 Nov's has no human in its scene | `prompts/article-writer-prompt.md:34` |
 | Model byline missing | No `writer` field; but `reports/YYYY-MM-DD-article-{claude,gpt}.md` record the author of every article since 12 Oct (79 files) | `prompts/article-run.md` |
 
-Not verifiable from the repo: the Substack name (`aiplayground.substack.com`) and Cloudflare's build command (needed for Pagefind).
+Not verifiable from the repo: Cloudflare's build command (needed for Pagefind).
 
-## Decisions only the publisher can make
+## Decisions (21 November 2026)
 
-1. **Corrections channel** (item 7). Options: a `mailto:` to a dedicated corrections address (needs one; a personal address should not be printed on every page), a pre-filled GitHub issue (only if the repo is public, and it shuts out readers without GitHub accounts), or a small form service. Recommendation: a dedicated mailbox, `mailto:` with the article URL and title pre-filled in subject and body.
-2. **Source labels** (item 11). (a) The template derives better labels with no pipeline change (`arXiv 2611.21885`, `github.com/owner/repo` as now, `HN thread`, and a numbered suffix for repeated hosts: `CNBC (1)`, `CNBC (2)`); or (b) the digest prompt writes `[CNBC: Nvidia's losing streak](url)`, which gives better labels but touches the digest prompt, six translator prompts and `check_posts.py` (it compares source URLs between twins). Recommendation: (a) now, (b) later if (a) is not enough.
-3. **Invented scenes** (item 10). Keep them with a template-rendered note, or drop them in favour of reported openings only. The review questions whether technical readers value them; it is an editorial call, not a UX one.
-4. **Label wording** (item 9). The review suggests "AI-drafted". "AI-generated" is the literal Art. 50 wording and the `author`/`meta` disclosure should keep it; the change should add context, not soften the label. "Primary-source checked" should appear only if the pipeline guarantees it for every item (the digest builds most items from briefing entries, `main-prompt.md:78`).
-5. **Newsletter brand.** Rename the Substack to match the site (Substack supports changing the subdomain and redirects the old one). This is done outside the repo, then the URL is updated in `hugo.toml`, `comments.html` and the About pages.
+1. **Corrections go to GitHub issues.** The repo is public. Done: a `Report an error` link in the follow box under every post opens `.github/ISSUE_TEMPLATE/correction.yml` with the title and article URL pre-filled; the seven About pages point to it. Create a `correction` label in the repo so new reports are tagged.
+2. **Source labels improve through the prompt** (item 11, option b).
+3. **Invented opening scenes stay** (item 10 goes ahead as written).
+4. **The label stays "AI-generated".** Context is added next to it, never in its place; "primary-source checked" appears only where the pipeline guarantees it.
+5. **The Substack is retired.** Done: removed from the social icons of all seven editions, the follow box, the About pages and schema.org `sameAs` (now the GitHub repo). Without it there is no email subscription, so the homepage call to action (item 3) is RSS and "Install the app" until an email channel exists.
 
 ## Phase 1: templates and copy (no pipeline change, applies to the whole archive)
 
@@ -49,9 +49,9 @@ Every new string goes through `i18n/*.yaml` so all seven editions get it.
 - `hugo.toml` `homeInfoParams.Content` per edition. Proposed English:
   > Source-checked AI news for technical readers, every morning. Clarity, not persuasion.
   >
-  > **[Subscribe by email](substack)** · [RSS](/index.xml) · [How we work](/about/) · [Archive](/archives/)
+  > **[Follow by RSS](/index.xml)** · [Install the app](/install/) · [How we work](/about/) · [Archive](/archives/)
 - The category list moves to the About page (it is already in the `description` meta). The Claude/GPT promise moves to the "Today's issue" block, where the bylines now fulfil it.
-- Style the subscribe link as a button in `custom.css`. Translate for the six other editions.
+- Style the follow link as a button in `custom.css`. Translate for the six other editions.
 
 ### 4. Header and language switcher (review #6)
 - Copy `themes/PaperMod/layouts/partials/header.html` to `layouts/partials/header.html` and:
@@ -69,9 +69,8 @@ Every new string goes through `i18n/*.yaml` so all seven editions get it.
 - Retroactive for every digest, no prompt change, and it survives the digest being written before the GPT article exists, because the site is rebuilt on every push.
 - Translations: the map is built per language from the article's twin, so the Slovak digest links the Slovak article when it exists and the English one otherwise.
 
-### 7. Report an error (review: CRO, needs decision 1)
-- Add a line to `layouts/partials/comments.html` (the follow box under every post): "Found an error? [Report it](mailto:…?subject=Correction: {title}&body={permalink})".
-- Update `/about/#corrections` in all seven About pages to name this first and Substack second.
+### 7. Report an error (review: CRO) — done
+- `layouts/partials/comments.html` links each post to a pre-filled GitHub issue form (`.github/ISSUE_TEMPLATE/correction.yml`); string `report_error` in `i18n/*.yaml`; `/about/#corrections` updated in all seven editions.
 
 ### 8. About page: verification note (review: CRO)
 - Rewrite `content/about*.md` "Verification labels": say what replaced the table on 12 October (source links inline on every item, quoted vendor/preprint qualifiers in the text) and keep the label definitions for the archived articles. Seven files.
@@ -89,11 +88,13 @@ Every new string goes through `i18n/*.yaml` so all seven editions get it.
 - Two variants: `people` ("…the people in them are invented") and `setting` ("The scenes that open and close this article are illustrations."), so a scene without people does not mention them.
 - Update `prompts/article-writer-prompt.md` §"Invent a scene", the seven translator prompts (drop the fixed-line rule) and `check_posts.py` (reject the old sentence in new posts; require the flag when it is absent and the notes say "invented").
 - Migrate the 8 English articles and their translations with a script.
-- If decision 3 is "drop invented scenes", skip this and change the writer prompt instead.
 
-### 11. Source labels (review #5, needs decision 2)
-- Option (a), template only: in `render-link.html`, special-case `arxiv.org/abs/<id>` → `arXiv <id>`, `news.ycombinator.com/item` → `HN discussion`, `youtube.com/watch` → `YouTube`; for repeated hosts in one paragraph, number them using a per-page counter in `.Page.Store`, and set `aria-label` to host plus the last path segment turned into words ("cnbc.com: nvidias 7 week losing streak…"), which fixes SC 2.4.4 for screen readers even when the visible text stays short.
-- Option (b), later: digest prompt writes descriptive Markdown link text; translator prompts translate the text and keep the URL; `check_posts.py` keeps comparing URLs only.
+### 11. Source labels (review #5, decision 2: prompt change)
+- `prompts/digest-writer-prompt.md`: replace "bare URLs" with descriptive Markdown links, `Sources: [CNBC: S&P 500 correction](url), [CNBC: Nvidia's losing streak](url)`. Text is `Publisher: subject` in a few words; papers use `arXiv 2611.21885`, repositories `owner/repo`, discussions `HN discussion`. Same in `prompts/main-prompt.md` where it restates the rule.
+- Seven translator prompts: translate the subject, keep the publisher name and the URL unchanged.
+- `scripts/check_posts.py`: keeps comparing URLs between twins; in `--strict` mode, flag a new digest whose source link text equals the bare URL or the bare host.
+- `layouts/_default/_markup/render-link.html` needs no change: it only shortens links whose text is the URL itself, so old digests keep their host labels and new ones show the written text.
+- `prompts/linkedin-edition-prompt.md` and `scripts/check_linkedin.py`: check they do not assume bare URLs in the Slovak digest.
 
 ### 12. Headline consistency (review: IA)
 - `prompts/article-writer-prompt.md` title rule: sentence case, names the actor and the claim, no metaphor-only titles.
@@ -118,8 +119,8 @@ Every new string goes through `i18n/*.yaml` so all seven editions get it.
 |---|---|---|---|
 | A | 4 (header a11y), 1 (jump bar), 3 (hero + CTA) | about a day, mostly i18n | none |
 | B | 2 (today's issue), 5 (end nav), 6 (digest → article links) | 1–2 days | none |
-| C | 9 (byline + backfill), 7, 8 | 1 day | decisions 1, 4 |
-| D | 10, 11a, 12 | 1–2 days | decisions 2, 3 |
+| C | 9 (byline + backfill), 8 | 1 day | none (7 done) |
+| D | 10, 11, 12 | 1–2 days | none |
 | E | 13 (Pagefind), 14 | 1–2 days | Cloudflare build access |
 
 Each step ends with `hugo --minify --panicOnWarning`, `scripts/check_posts.py`, `scripts/check_pwa.py`, `scripts/test_pwa_browser.cjs`, and a phone-width (375 px) screenshot of the home page, a digest and an article in English and one translated edition.

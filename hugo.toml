@@ -54,7 +54,7 @@ enableRobotsTXT = true   # rendered from layouts/robots.txt
 
   [params.schema]
     publisherType = "Organization"
-    sameAs = ["https://aiplayground.substack.com/"]
+    sameAs = ["https://github.com/xSakix/ainews"]
 
   [params.assets]
     favicon        = "/logo-512.png"   # also used as the schema.org logo; /favicon.ico stays for old browsers
@@ -90,9 +90,6 @@ Source-checked AI news, every morning. The daily digest covers everything worth 
 
 Other editions: [Slovenčina](/sk/) · [Nederlands](/nl/) · [Français](/fr/) · [Deutsch](/de/) · [Español](/es/) · [简体中文](/zh/)
 """
-      [[languages.en.params.socialIcons]]
-        name = "substack"
-        url  = "https://aiplayground.substack.com/"
       [[languages.en.params.socialIcons]]
         name = "rss"
         url  = "/index.xml"
@@ -135,9 +132,6 @@ Správy o umelej inteligencii s overenými zdrojmi, každé ráno. Denný prehľ
         title = "LinkedIn"
         url   = "https://www.linkedin.com/newsletters/svet-ai-tvoren%C3%BD-ai-7349186484307951619/"
       [[languages.sk.params.socialIcons]]
-        name = "substack"
-        url  = "https://aiplayground.substack.com/"
-      [[languages.sk.params.socialIcons]]
         name = "rss"
         url  = "/sk/index.xml"
     [[languages.sk.menus.main]]
@@ -174,9 +168,6 @@ AI-nieuws met gecontroleerde bronnen, elke ochtend. Het dagelijkse overzicht bre
 
 [Hoe we werken](/nl/about/) · [Archief](/nl/archives/) · [RSS-feed](/nl/index.xml) · [Installeer de app](/nl/install/) · [English edition](/)
 """
-      [[languages.nl.params.socialIcons]]
-        name = "substack"
-        url  = "https://aiplayground.substack.com/"
       [[languages.nl.params.socialIcons]]
         name = "rss"
         url  = "/nl/index.xml"
@@ -215,9 +206,6 @@ L'actualité de l'IA avec des sources vérifiées, chaque matin. La synthèse qu
 [Notre méthode](/fr/about/) · [Archives](/fr/archives/) · [Flux RSS](/fr/index.xml) · [Installer l'application](/fr/install/) · [English edition](/)
 """
       [[languages.fr.params.socialIcons]]
-        name = "substack"
-        url  = "https://aiplayground.substack.com/"
-      [[languages.fr.params.socialIcons]]
         name = "rss"
         url  = "/fr/index.xml"
     [[languages.fr.menus.main]]
@@ -254,9 +242,6 @@ KI-Nachrichten mit geprüften Quellen, jeden Morgen. Der Tagesüberblick bringt 
 
 [So arbeiten wir](/de/about/) · [Archiv](/de/archives/) · [RSS-Feed](/de/index.xml) · [App installieren](/de/install/) · [English edition](/)
 """
-      [[languages.de.params.socialIcons]]
-        name = "substack"
-        url  = "https://aiplayground.substack.com/"
       [[languages.de.params.socialIcons]]
         name = "rss"
         url  = "/de/index.xml"
@@ -295,9 +280,6 @@ Noticias de IA con fuentes verificadas, cada mañana. El resumen diario reúne t
 [Cómo trabajamos](/es/about/) · [Archivo](/es/archives/) · [Canal RSS](/es/index.xml) · [Instala la app](/es/install/) · [English edition](/)
 """
       [[languages.es.params.socialIcons]]
-        name = "substack"
-        url  = "https://aiplayground.substack.com/"
-      [[languages.es.params.socialIcons]]
         name = "rss"
         url  = "/es/index.xml"
     [[languages.es.menus.main]]
@@ -334,9 +316,6 @@ Noticias de IA con fuentes verificadas, cada mañana. El resumen diario reúne t
 
 [我们的工作方式](/zh/about/) · [归档](/zh/archives/) · [RSS 订阅](/zh/index.xml) · [安装应用](/zh/install/) · [English edition](/)
 """
-      [[languages.zh.params.socialIcons]]
-        name = "substack"
-        url  = "https://aiplayground.substack.com/"
       [[languages.zh.params.socialIcons]]
         name = "rss"
         url  = "/zh/index.xml"

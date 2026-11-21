@@ -47,11 +47,10 @@ Artikelen die tot en met 12 oktober 2026 zijn verschenen, eindigen met een verif
 
 ## Correcties
 
-Vindt u een fout, reageer dan op een willekeurige editie van de [nieuwsbrief op Substack](https://aiplayground.substack.com/) of laat daar een opmerking achter. Correcties worden in het artikel zelf aangebracht.
+Vindt u een fout, gebruik dan de link om een fout te melden aan het einde van het artikel, die het adres al invult, of [meld de fout op GitHub](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Correcties worden in het artikel zelf aangebracht.
 
 ## Volg ons
 
 - [RSS-feed](/nl/index.xml) met de volledige tekst van de artikelen
-- [Nieuwsbrief op Substack](https://aiplayground.substack.com/) (in het Engels)
 - [Machineleesbaar overzicht voor AI-assistenten](/nl/llms.txt)
 - [English edition](/)

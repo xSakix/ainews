@@ -47,11 +47,10 @@ Artikel, die bis zum 12. Oktober 2026 erschienen sind, enden mit einer Prüftabe
 
 ## Korrekturen
 
-Wenn Sie einen Fehler finden, antworten Sie auf eine beliebige Ausgabe des [Newsletters auf Substack](https://aiplayground.substack.com/) oder hinterlassen Sie dort einen Kommentar. Korrekturen werden direkt im Artikel vorgenommen.
+Wenn Sie einen Fehler finden, nutzen Sie den Link zum Melden am Ende des Artikels, der dessen Adresse bereits einträgt, oder [melden Sie ihn auf GitHub](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Korrekturen werden direkt im Artikel vorgenommen.
 
 ## Folgen
 
 - [RSS-Feed](/de/index.xml) mit dem Volltext der Artikel
-- [Newsletter auf Substack](https://aiplayground.substack.com/) (auf Englisch)
 - [Maschinenlesbarer Index für KI-Assistenten](/de/llms.txt)
 - [English edition](/)

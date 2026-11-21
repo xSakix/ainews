@@ -7,7 +7,7 @@
 - id: follow_title
   translation: "每天早上阅读 AI News Daily。"
 - id: follow_text
-  translation: '关注 <a href="{{ .rss }}">RSS 订阅</a>（全文），或订阅 <a href="{{ .newsletter }}" rel="noopener">Substack 上的新闻通讯</a>（英文）。'
+  translation: '关注 <a href="{{ .rss }}">RSS 订阅</a>（全文）。'
 - id: follow_note
   translation: "本文由 AI 按照公开的编辑规则检索和撰写，并由 AI 译为中文。<a href=\"{{ .about }}\">我们的工作方式与标签含义</a>。"
 - id: follow_aria
@@ -28,3 +28,5 @@
   translation: "您正在应用中阅读 AI News Daily，无需其他操作。"
 - id: install_edition
   translation: "该应用打开中文版。其他版本："
+- id: report_error
+  translation: '发现错误？<a href="{{ .report }}" rel="noopener">在 GitHub 上报告</a>；表单中已填好本文的地址。'

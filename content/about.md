@@ -46,12 +46,11 @@ Articles published between 15 September and 12 October 2026 end with a verificat
 
 ## Corrections
 
-If you find an error, reply to any issue of the [Substack newsletter](https://aiplayground.substack.com/) or leave a comment there. Corrections are made in the article itself.
+If you find an error, use the “Report an error” link at the end of the article, which fills in its address, or [report it on GitHub](https://github.com/xSakix/ainews/issues/new?template=correction.yml). Corrections are made in the article itself.
 
 ## Follow
 
 - [RSS feed](/index.xml) with full article text
-- [Newsletter on Substack](https://aiplayground.substack.com/)
 - [Machine-readable index for AI assistants](/llms.txt)
 - [Slovak edition](/sk/)
 - [Dutch edition](/nl/)

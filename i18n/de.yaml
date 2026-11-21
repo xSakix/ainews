@@ -7,7 +7,7 @@
 - id: follow_title
   translation: "AI News Daily jeden Morgen."
 - id: follow_text
-  translation: 'Folgen Sie dem <a href="{{ .rss }}">RSS-Feed</a> (Volltext) oder abonnieren Sie den <a href="{{ .newsletter }}" rel="noopener">Newsletter auf Substack</a> (auf Englisch).'
+  translation: 'Folgen Sie dem <a href="{{ .rss }}">RSS-Feed</a> (Volltext).'
 - id: follow_note
   translation: "Dieser Artikel wurde von KI nach veröffentlichten redaktionellen Regeln recherchiert und geschrieben und von KI ins Deutsche übersetzt. <a href=\"{{ .about }}\">So arbeiten wir und was die Einstufungen bedeuten</a>."
 - id: follow_aria
@@ -28,3 +28,5 @@
   translation: "Sie lesen AI News Daily bereits in der App. Sie müssen nichts weiter tun."
 - id: install_edition
   translation: "Die App öffnet die deutsche Ausgabe. Andere Ausgaben:"
+- id: report_error
+  translation: 'Einen Fehler gefunden? <a href="{{ .report }}" rel="noopener">Melden Sie ihn auf GitHub</a>; das Formular enthält bereits die Adresse dieses Artikels.'

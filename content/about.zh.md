@@ -47,11 +47,10 @@ AI News Daily 是一份面向技术读者的人工智能晨间简报。它的核
 
 ## 更正
 
-如果发现错误，请回复 [Substack 新闻通讯](https://aiplayground.substack.com/)的任意一期，或在那里留言。更正会直接在文章中进行。
+如果发现错误，请使用文章末尾的报告链接（会自动填好文章地址），或[在 GitHub 上报告](https://github.com/xSakix/ainews/issues/new?template=correction.yml)。更正会直接在文章中进行。
 
 ## 关注我们
 
 - [RSS 订阅](/zh/index.xml)，包含文章全文
-- [Substack 新闻通讯](https://aiplayground.substack.com/)（英文）
 - [供 AI 助手读取的机器可读索引](/zh/llms.txt)
 - [English edition](/)

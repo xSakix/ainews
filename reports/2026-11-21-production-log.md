@@ -27,3 +27,15 @@ Tension 2 — Signal: OS assistants' access to screen content against Signal's e
 No major provider released a new model or major model version today, so Releases receives one top-story slot.
 
 The day fills five slots. The optional sixth place remains empty because the research-paper candidates cannot move up and the next eligible candidates did not outrank the selected cross-section.
+
+
+## Digest
+Published content/posts/ai-daily-digest-for-21-november-2026.md with five top stories and all distinct planned topics. Primary-source context for the top stories came from the Thinking Machines, Signal, OpenComputer, Korea Times and CNBC pages recorded in the completed desk briefings. Vendor benchmarks remain attributed; the GRH claims remain explicitly unverified.
+
+## Translation notes
+- Claude's article already had its Slovak twin on main.
+- Skipped content/posts/ai-daily-digest-for-21-november-2026.sk.md after two validation attempts could not be completed: the connected GitHub environment did not provide a local checkout, so scripts/check_posts.py could not verify the required heading, paragraph, URL and terminology parity for this unusually long digest. No partial translation was published.
+- Skipped content/posts/a-language-model-rewrote-its-own-weights-and-improved.sk.md for the same strict-validation limitation. No partial translation was published.
+
+## LinkedIn
+Not written because today's Slovak digest is not on main. Follow prompts/linkedin-run.md after the Slovak digest passes strict validation.

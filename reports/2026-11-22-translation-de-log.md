@@ -15,3 +15,6 @@ English source describes René Obermann as "SAP manager René Obermann"; transla
 
 ## a-language-model-rewrote-its-own-weights-and-improved.de.md (missing)
 ok: 5 headings, 25 paragraphs, 2 list items and 2 source URLs match a-language-model-rewrote-its-own-weights-and-improved.md
+
+## korean-workers-save-3-7-hours-a-week-but-output-barely-moves.de.md (missing)
+ok: 6 headings, 15 paragraphs, 5 list items and 5 source URLs match korean-workers-save-3-7-hours-a-week-but-output-barely-moves.md

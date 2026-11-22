@@ -25,3 +25,7 @@ ok: 10 headings, 145 paragraphs and 65 source URLs match ai-daily-digest-for-20-
 ## a-model-learned-to-report-what-its-assistant-did.zh.md (missing)
 ok: 5 headings, 20 paragraphs, 4 list items and 4 source URLs match a-model-learned-to-report-what-its-assistant-did.md
 Doubtful phrasing in English source ("The authors attribute that possibility to distribution shift", where "possibility" likely refers to the observed 0.907 -> 0.899 drop); translated faithfully preserving the hedge.
+
+## when-fable-5-went-dark-developers-merged-work-barely-moved.zh.md (missing)
+ok: 5 headings, 14 paragraphs, 5 list items and 5 source URLs match when-fable-5-went-dark-developers-merged-work-barely-moved.md
+Source mentions "five ordinary upgrades" and "All five estimates pointed down" alongside "in the six upgrades where both scores were published"; translated faithfully. Kept researcher name Yining Hua in Latin script.

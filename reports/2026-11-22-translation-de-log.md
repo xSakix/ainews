@@ -8,3 +8,7 @@ ok: 4 headings, 12 paragraphs, 3 list items and 3 source URLs match google-cut-t
 
 ## ai-flagged-9-791-possible-bugs-99-reached-maintainers.de.md (missing)
 ok: 5 headings, 14 paragraphs, 3 list items and 3 source URLs match ai-flagged-9-791-possible-bugs-99-reached-maintainers.md
+
+## ai-daily-digest-for-21-november-2026.de.md (missing)
+ok: 9 headings, 110 paragraphs and 100 source URLs match ai-daily-digest-for-21-november-2026.md
+English source describes René Obermann as "SAP manager René Obermann"; translated faithfully.

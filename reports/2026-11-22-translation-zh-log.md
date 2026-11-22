@@ -15,3 +15,6 @@ ok: 9 headings, 110 paragraphs and 100 source URLs match ai-daily-digest-for-21-
 ## a-language-model-rewrote-its-own-weights-and-improved.zh.md (missing)
 ok: 5 headings, 25 paragraphs, 2 list items and 2 source URLs match a-language-model-rewrote-its-own-weights-and-improved.md
 Kept author name Jiajun Fan in Latin script to avoid guessing Chinese characters.
+
+## korean-workers-save-3-7-hours-a-week-but-output-barely-moves.zh.md (missing)
+ok: 6 headings, 15 paragraphs, 5 list items and 5 source URLs match korean-workers-save-3-7-hours-a-week-but-output-barely-moves.md

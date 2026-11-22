@@ -15,3 +15,9 @@ All eight desks supplied briefings. Reddit access failed; the community desk sup
 | Inkling-2-Mini quantisation | What people are building | 2 | 1 | 1 | 1 | 1 | 6 | Practice |
 
 OpenAI shipped GPT-Live-1.1 on 19 November. The releases desk gives the API update as a candidate for this edition, so the plan fills both release slots. All slots filled.
+
+## Digest
+
+Top stories: METR time horizons, Lisa Cook on hiring demand, GPT-Live-1.1, Oscar on Apple Silicon, Streaming DiLoCo and Ai2's climate emulator. Opened METR, the Federal Reserve, the OpenAI changelog, the Oscar README, Google's engineering post and the Ai2 model source. Company performance figures remain attributed to their authors. Court coverage is attributed to the notice referenced by the community because its page was unavailable to the desk.
+
+Strict check: 1 checked, 0 with problems.

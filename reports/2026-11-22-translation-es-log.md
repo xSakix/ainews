@@ -26,3 +26,7 @@ Two minor source quirks translated faithfully: (1) Research item 1 uses "merged 
 ## a-model-learned-to-report-what-its-assistant-did.es.md (missing)
 ok: 5 headings, 20 paragraphs, 4 list items and 4 source URLs match a-model-learned-to-report-what-its-assistant-did.md
 English source says "The authors attribute that possibility to distribution shift" referring to the observed 0.907-to-0.899 drop; translated faithfully.
+
+## when-fable-5-went-dark-developers-merged-work-barely-moved.es.md (missing)
+ok: 5 headings, 14 paragraphs, 5 list items and 5 source URLs match when-fable-5-went-dark-developers-merged-work-barely-moved.md
+English source mentions "five ordinary upgrades" and "All five estimates" alongside "the six upgrades where both scores were published"; translated faithfully.

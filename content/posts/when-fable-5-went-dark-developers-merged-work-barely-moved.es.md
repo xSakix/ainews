@@ -1,0 +1,51 @@
++++
+title = "Cuando Fable 5 se apagó, el trabajo integrado apenas cambió"
+slug = "cuando-fable-5-se-apago-el-trabajo-integrado-apenas-cambio"
+description = "Un preprint de Harvard analiza la suspensión de 19 días de Claude Fable 5 como un experimento natural. Los desarrolladores que perdieron el modelo, que aventajaba en unos 11 puntos a su sustituto en una prueba comparativa de programación, fusionaron pull requests casi al mismo ritmo, y cinco actualizaciones habituales de modelos mostraron el mismo resultado plano. El estudio no ha pasado por revisión por pares y su métrica es limitada, pero pone a prueba qué aporta al trabajo diario una ventaja en esas pruebas."
+tags = ["research", "tools", "essays"]
+date = 2026-11-20T03:11:44+01:00
+draft = false
++++
+La carta llegó a Anthropic la tarde del viernes 12 de junio de 2026, a las 17:21, hora del Este. El Gobierno de Estados Unidos, invocando competencias de seguridad nacional, había emitido una directiva de control de exportaciones sobre Fable 5 y Mythos 5, los modelos más recientes de la empresa, que llevaban tres días disponibles al público. La carta prohibía el acceso a cualquier ciudadano extranjero, dentro o fuera del país. Anthropic no disponía de un método fiable para comprobar la nacionalidad de un usuario en tiempo real, por lo que, para cumplir la orden, desactivó de forma abrupta ambos modelos para todos sus clientes. Según escribió la empresa, la carta no ofrecía detalles concretos sobre los motivos de su preocupación.
+
+Los desarrolladores que habían pasado tres días con su modelo más reciente descubrieron antes del fin de semana que había desaparecido. La mayoría pasó a Opus 4.8, el modelo inmediatamente inferior. Diecinueve días después se levantó la prohibición y Fable 5 volvió.
+
+## Un accidente que funciona como experimento
+
+Yining Hua, que investiga en Harvard, vio en esos 19 días algo que las puntuaciones en pruebas comparativas (*benchmarks*) no pueden ofrecer. En un preprint (prepublicación) difundido en arXiv el 17 de noviembre, Hua sostiene que la suspensión constituyó un experimento natural: los mismos desarrolladores, trabajando en sus propios proyectos, perdieron un modelo mejor y luego lo recuperaron por motivos totalmente ajenos a ellos.
+
+La pregunta es sencilla. Una empresa de modelos anuncia un modelo de programación con una puntuación más alta en un benchmark como SWE-Bench Pro, y los compradores interpretan esa cifra como una promesa de que los desarrolladores sacarán más trabajo adelante. Hua señala que ningún estudio había puesto a prueba esa promesa en el trabajo real. El artículo toma las puntuaciones de las fichas de sistema (*system cards*) de Anthropic: un 80,0 % para Fable 5 y un 69,2 % para Opus 4.8, una diferencia de 10,8 puntos.
+
+Los datos proceden de repositorios públicos de GitHub. Claude Code puede añadir una línea de coautoría a un *commit* (registro de cambios) en la que nombra el modelo que ayudó a escribirlo, y algunos desarrolladores dejan que esa línea pase a la descripción de la *pull request* (solicitud de cambio). Hua la empleó para identificar qué modelo produjo cada pull request. El grupo tratado reúne a 297 desarrolladores que abrieron al menos una pull request citando a Fable 5 en los tres días en que estuvo disponible. El grupo de control está formado por 8908 desarrolladores que usaron Opus 4.8 durante todo el periodo y nunca citaron a Fable 5. El estudio compara a los desarrolladores tratados consigo mismos a lo largo de cuatro fases (antes del lanzamiento, con Fable 5 disponible, durante la suspensión y tras la restauración) y frente al grupo de control en las mismas fechas, un diseño conocido como diferencias en diferencias.
+
+El resultado medido es la proporción de pull requests fusionadas en un plazo de siete días. El tratamiento funcionó según lo previsto. En los tres días de disponibilidad, el 82,3 % de las pull requests del grupo tratado nombraba a Fable 5. Durante la suspensión, lo hacía el 0,9 % y el 74,6 % nombraba a Opus 4.8. Tras la restauración, solo el 26,9 % volvió a nombrar a Fable 5.
+
+## Qué ocurrió con la tasa de fusión
+
+Se mantuvo plana. Contar con Fable 5 elevó la tasa de fusión a siete días en 1,4 puntos porcentuales, con un intervalo de confianza del 95 % de menos 1,4 a más 4,3. Ese intervalo incluye el cero, de modo que el estudio no puede afirmar que el modelo cambiara nada. Tampoco puede descartar una ganancia de unos pocos puntos, y así lo señala el artículo: la suspensión duró solo 19 días y la primera fase con Fable 5 duró tres. Una prueba de placebo, que compara las semanas anteriores al lanzamiento con la suspensión —cuando nada cambió para el grupo tratado—, arrojó menos 2,6 puntos, con un intervalo de menos 6,2 a más 1,1. Es un recordatorio de cuánto puede oscilar la cifra sin causa alguna.
+
+A continuación, Hua examinó la misma cuestión en cinco actualizaciones habituales entre modelos de Claude en 2026, en las que los desarrolladores decidieron por sí mismos cuándo cambiar. En esa parte del estudio se compararon 1208 desarrolladores y 15 442 pull requests una semana antes y una semana después de cada lanzamiento. Los modelos más nuevos obtuvieron entre 5 y 18 puntos más en SWE-Bench Pro en las seis actualizaciones en las que se publicaron ambas puntuaciones. La variación agregada de la tasa de fusión fue de menos 0,9 puntos, de menos 1,9 a más 0,2. Las cinco estimaciones apuntaron a la baja, aunque ninguna fue significativa por separado. Las pull requests fusionadas por semana aumentaron un 2,4 %, con un intervalo de menos 4,9 % a más 10,2 %. El análisis de las actualizaciones es observacional y Hua señala que los desarrolladores que cambian pronto pueden ser más hábiles con las herramientas nuevas, lo que sesgaría los resultados al alza.
+
+## Por qué un modelo mejor podría no notarse
+
+El efecto techo es la primera explicación. En la semana previa a cada actualización, el 94,5 % de las pull requests de los desarrolladores que luego cambiarían se fusionaron en un plazo de siete días, y el 83,8 % de esos desarrolladores vio fusionadas todas sus pull requests. Quedaba poco margen para que un modelo mejorara esa tasa.
+
+La segunda es quién fusiona. De una muestra de 2019 pull requests, el 95 % las fusionó su propio autor y el 90 % no contó con la aprobación de ninguna otra cuenta. La mediana de tiempo entre la apertura y la fusión fue inferior a media hora en todas las fases. En estos datos, una fusión refleja sobre todo que un desarrollador consideró el trabajo suficientemente bueno, no que un revisor estuviera de acuerdo. Hua admite que, si los modelos se diferencian principalmente cuando otra persona revisa su trabajo, las estimaciones son demasiado pequeñas.
+
+La hipótesis propia de Hua apunta a las tareas. Los desarrolladores entregan a los agentes trabajos que un modelo anterior ya puede hacer. El artículo cita el estudio de Anthropic de diciembre de 2025 sobre su propia plantilla, en el que más de la mitad de 132 ingenieros e investigadores dijeron poder delegar por completo en Claude solo entre el 0 % y el 20 % de su trabajo, y que halló que delegaban tareas fáciles de comprobar y de bajo riesgo. Si es así, los problemas difíciles que separan a Fable 5 de Opus 4.8 en un benchmark no eran los que los desarrolladores estaban delegando. La longitud de las descripciones, el número de archivos mencionados y la proporción de funciones nuevas no cambiaron tras las actualizaciones, lo que sugiere que los desarrolladores no encomendaron trabajos más difíciles a los modelos más potentes.
+
+Una segunda línea de pruebas apunta en la misma dirección desde el lado de los benchmarks. En marzo de 2026, METR encargó a cuatro mantenedores activos revisar 296 pull requests escritas por IA que superaron las pruebas automatizadas de SWE-bench Verified. Las decisiones de fusión de los mantenedores quedaron unos 24 puntos porcentuales por debajo de lo que sugería el evaluador automático del benchmark. Hua añade que Fable 5 solo superaba a Opus 4.8 en 1,6 puntos en Terminal-Bench 2.1, en gran medida porque una de cada cinco ejecuciones de Fable 5 pasaba a Opus 4.8 tras un rechazo de seguridad, de modo que ni siquiera la brecha en los benchmarks era igual en todas partes.
+
+## Límites del resultado
+
+El preprint no ha pasado por revisión por pares y lo firma una sola persona. Solo alrededor del 1 % de las pull requests fusionadas de Claude Code nombran el modelo utilizado, aunque Hua señala que las que lo hacen se fusionaron con una frecuencia similar al resto y que repetir el ajuste con todas las pull requests de los mismos desarrolladores apuntó en la misma dirección. La fase de restauración coincidió con un festivo, con el lanzamiento de Sonnet 5 y con una norma que restringía Fable 5 a la mitad de los límites semanales de los suscriptores hasta el 7 de julio. Perder Fable 5 implicó además cambiar de herramienta en aspectos que una puntuación de benchmark no describe, de modo que el estudio mide la experiencia completa del modelo, velocidad y límites incluidos, que, según sostiene Hua, es lo que elige en realidad un comprador.
+
+Nada de esto demuestra que el modelo más potente no sea mejor. Muestra que, en una medida visible de trabajo terminado, en las pull requests en las que los desarrolladores nombraron su modelo, no apareció una brecha que los proveedores anuncian en puntos. Quien pague por el nivel superior de un modelo de programación, o redacte una norma que juzgue modelos por sus puntuaciones, cuenta ahora con un estudio con el que contrastar esa compra.
+
+## Referencias
+
+- Anthropic (2026). *Redeploying Claude Fable 5*. https://www.anthropic.com/news/redeploying-fable-5
+- Anthropic (2026). *Statement on the US government directive to suspend access to Fable 5 and Mythos 5*. https://www.anthropic.com/news/fable-mythos-access
+- Anthropic (2025). *How AI is transforming work at Anthropic*. https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+- Hua, Y. (2026). *Higher-Scoring Coding Models Did Not Get More Work Done*. https://arxiv.org/abs/2611.23216
+- Whitfill, P., Wu, C., Becker, J., & Rush, N. (2026). *Many SWE-bench-Passing PRs Would Not Be Merged into Main*. METR. https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/

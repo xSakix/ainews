@@ -8,3 +8,7 @@ ok: 4 headings, 12 paragraphs, 3 list items and 3 source URLs match google-cut-t
 
 ## ai-flagged-9-791-possible-bugs-99-reached-maintainers.nl.md (missing)
 ok: 5 headings, 14 paragraphs, 3 list items and 3 source URLs match ai-flagged-9-791-possible-bugs-99-reached-maintainers.md
+
+## ai-daily-digest-for-20-november-2026.nl.md (missing)
+ok: 10 headings, 145 paragraphs and 65 source URLs match ai-daily-digest-for-20-november-2026.md
+Two minor source quirks translated faithfully: (1) Research item 1 uses "merged no more pull requests"; (2) Webmin audit reports 507 reproduced findings while breakdown (10+253+248) sums to 511.

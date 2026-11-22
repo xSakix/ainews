@@ -8,3 +8,6 @@ ok: 4 headings, 12 paragraphs, 3 list items and 3 source URLs match google-cut-t
 
 ## ai-flagged-9-791-possible-bugs-99-reached-maintainers.fr.md (missing)
 ok: 5 headings, 14 paragraphs, 3 list items and 3 source URLs match ai-flagged-9-791-possible-bugs-99-reached-maintainers.md
+
+## korean-workers-save-3-7-hours-a-week-but-output-barely-moves.fr.md (missing)
+ok: 6 headings, 15 paragraphs, 5 list items and 5 source URLs match korean-workers-save-3-7-hours-a-week-but-output-barely-moves.md

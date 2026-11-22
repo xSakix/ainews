@@ -21,3 +21,6 @@ OpenAI shipped GPT-Live-1.1 on 19 November. The releases desk gives the API upda
 Top stories: METR time horizons, Lisa Cook on hiring demand, GPT-Live-1.1, Oscar on Apple Silicon, Streaming DiLoCo and Ai2's climate emulator. Opened METR, the Federal Reserve, the OpenAI changelog, the Oscar README, Google's engineering post and the Ai2 model source. Company performance figures remain attributed to their authors. Court coverage is attributed to the notice referenced by the community because its page was unavailable to the desk.
 
 Strict check: 1 checked, 0 with problems.
+
+## Translation notes
+ok: 10 headings, 107 paragraphs and 115 source URLs match ai-daily-digest-for-22-november-2026.md

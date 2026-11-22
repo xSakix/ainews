@@ -11,3 +11,7 @@ ok: 5 headings, 14 paragraphs, 3 list items and 3 source URLs match ai-flagged-9
 
 ## ai-daily-digest-for-21-november-2026.zh.md (missing)
 ok: 9 headings, 110 paragraphs and 100 source URLs match ai-daily-digest-for-21-november-2026.md
+
+## a-language-model-rewrote-its-own-weights-and-improved.zh.md (missing)
+ok: 5 headings, 25 paragraphs, 2 list items and 2 source URLs match a-language-model-rewrote-its-own-weights-and-improved.md
+Kept author name Jiajun Fan in Latin script to avoid guessing Chinese characters.

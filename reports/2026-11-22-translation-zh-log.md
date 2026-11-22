@@ -18,3 +18,6 @@ Kept author name Jiajun Fan in Latin script to avoid guessing Chinese characters
 
 ## korean-workers-save-3-7-hours-a-week-but-output-barely-moves.zh.md (missing)
 ok: 6 headings, 15 paragraphs, 5 list items and 5 source URLs match korean-workers-save-3-7-hours-a-week-but-output-barely-moves.md
+
+## ai-daily-digest-for-20-november-2026.zh.md (missing)
+ok: 10 headings, 145 paragraphs and 65 source URLs match ai-daily-digest-for-20-november-2026.md

@@ -11,3 +11,7 @@ ok: 5 headings, 14 paragraphs, 3 list items and 3 source URLs match ai-flagged-9
 
 ## korean-workers-save-3-7-hours-a-week-but-output-barely-moves.fr.md (missing)
 ok: 6 headings, 15 paragraphs, 5 list items and 5 source URLs match korean-workers-save-3-7-hours-a-week-but-output-barely-moves.md
+
+## ai-daily-digest-for-20-november-2026.fr.md (missing)
+ok: 10 headings, 145 paragraphs and 65 source URLs match ai-daily-digest-for-20-november-2026.md
+Two minor source quirks translated faithfully: (1) Research item 1 uses "merged no more pull requests"; (2) Webmin audit reports 507 reproduced findings while breakdown (10+253+248) sums to 511.

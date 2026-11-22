@@ -25,3 +25,7 @@ Strict check: 1 checked, 0 with problems.
 ## Translation notes
 ok: 10 headings, 107 paragraphs and 115 source URLs match ai-daily-digest-for-22-november-2026.md
 ok: 4 headings, 12 paragraphs, 3 list items and 3 source URLs match google-cut-the-wait-between-training-clusters.md
+
+## LinkedIn edition
+
+content/linkedin/2026-11-22.sk.md: Časový horizont METR sa zdvojnásoboval každých 3,6 mesiaca. Six top stories in digest order and eight further items. The strict LinkedIn check passed.

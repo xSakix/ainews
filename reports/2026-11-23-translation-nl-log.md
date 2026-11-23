@@ -23,3 +23,9 @@ ok: 6 headings, 12 paragraphs, 7 list items and 7 source URLs match a-berlin-gui
 
 ## hidden-belief-edits-corrupt-reasoning-traces.nl.md (backlog)
 ok: 6 headings, 27 paragraphs, 5 list items and 5 source URLs match hidden-belief-edits-corrupt-reasoning-traces.md
+
+## Run summary
+- Translated: 8 (missing 3 / stale 0 / backlog 5)
+- Skipped: 0 (none)
+- Recent queue left: 0
+- Backlog left: 15

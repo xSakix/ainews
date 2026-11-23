@@ -17,3 +17,6 @@ ok: 5 headings, 24 paragraphs and 14 source URLs match the-lightness-of-heavy-th
 
 ## a-linear-probe-found-a-feature-llama-did-not-use.fr.md (backlog)
 ok: 5 headings, 22 paragraphs, 4 list items and 4 source URLs match a-linear-probe-found-a-feature-llama-did-not-use.md
+
+## a-berlin-guide-site-is-losing-its-readers-to-ai-answers.fr.md (backlog)
+ok: 6 headings, 12 paragraphs, 7 list items and 7 source URLs match a-berlin-guide-site-is-losing-its-readers-to-ai-answers.md

@@ -20,3 +20,6 @@ ok: 6 headings, 17 paragraphs, 7 list items and 7 source URLs match payroll-data
 
 ## ai-daily-digest-for-16-november-2026.de.md (backlog)
 ok: 12 headings, 106 paragraphs and 48 source URLs match ai-daily-digest-for-16-november-2026.md
+
+## multimodal-training-changes-how-a-text-model-reasons.de.md (backlog)
+ok: 5 headings, 20 paragraphs, 5 list items and 5 source URLs match multimodal-training-changes-how-a-text-model-reasons.md

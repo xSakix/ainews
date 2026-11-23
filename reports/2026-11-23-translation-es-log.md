@@ -11,3 +11,6 @@ ok: 5 headings, 12 paragraphs, 4 list items and 4 source URLs match openai-publi
 
 ## ai-daily-digest-for-19-november-2026.es.md (backlog)
 ok: 10 headings, 108 paragraphs and 52 source URLs match ai-daily-digest-for-19-november-2026.md
+
+## the-lightness-of-heavy-thought.es.md (backlog)
+ok: 5 headings, 24 paragraphs and 14 source URLs match the-lightness-of-heavy-thought.md

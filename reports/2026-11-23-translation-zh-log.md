@@ -23,3 +23,9 @@ ok: 6 headings, 12 paragraphs, 7 list items and 7 source URLs match a-berlin-gui
 
 ## ai-daily-digest-for-18-november-2026.zh.md (backlog)
 ok: 9 headings, 93 paragraphs and 44 source URLs match ai-daily-digest-for-18-november-2026.md
+
+## Run summary
+- Translated: 8 (missing: 3, stale: 0, backlog: 5)
+- Skipped: 0
+- Recent queue left: 0
+- Backlog left: 113

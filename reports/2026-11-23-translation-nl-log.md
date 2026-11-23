@@ -20,3 +20,6 @@ ok: 5 headings, 22 paragraphs, 4 list items and 4 source URLs match a-linear-pro
 
 ## a-berlin-guide-site-is-losing-its-readers-to-ai-answers.nl.md (backlog)
 ok: 6 headings, 12 paragraphs, 7 list items and 7 source URLs match a-berlin-guide-site-is-losing-its-readers-to-ai-answers.md
+
+## hidden-belief-edits-corrupt-reasoning-traces.nl.md (backlog)
+ok: 6 headings, 27 paragraphs, 5 list items and 5 source URLs match hidden-belief-edits-corrupt-reasoning-traces.md

@@ -23,3 +23,9 @@ ok: 12 headings, 106 paragraphs and 48 source URLs match ai-daily-digest-for-16-
 
 ## multimodal-training-changes-how-a-text-model-reasons.de.md (backlog)
 ok: 5 headings, 20 paragraphs, 5 list items and 5 source URLs match multimodal-training-changes-how-a-text-model-reasons.md
+
+## Run summary
+- Translated: 8 (missing: 3, stale: 0, backlog: 5)
+- Skipped: 0
+- Recent queue left: 0
+- Backlog remaining: 95

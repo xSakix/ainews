@@ -30,6 +30,15 @@ content/posts/ai-daily-digest-for-23-november-2026.sk.md: ok: 11 headings, 76 pa
 
 content/posts/an-installation-gate-for-agent-skills.sk.md: ok: 5 headings, 20 paragraphs, 2 list items and 2 source URLs match an-installation-gate-for-agent-skills.md
 
+Re-translation pass (2026-11-23):
+- content/posts/ai-daily-digest-for-23-november-2026.sk.md: ok: 11 headings, 76 paragraphs and 96 source URLs match ai-daily-digest-for-23-november-2026.md
+- content/posts/an-installation-gate-for-agent-skills.sk.md: ok: 5 headings, 20 paragraphs, 2 list items and 2 source URLs match an-installation-gate-for-agent-skills.md
+  Term not in map: prompt injection → prompt injection (podvrhnutie pokynov v texte) (an-installation-gate-for-agent-skills)
+  Term not in map: hard negatives → ťažké negatívne príklady (hard negatives) (an-installation-gate-for-agent-skills)
+  Term not in map: fail-closed → zlyhá bezpečne do zablokovania (fail-closed) (an-installation-gate-for-agent-skills)
+- content/posts/openai-publishes-its-loss-curve-and-asks-rivals-for-limits.sk.md: ok: 5 headings, 12 paragraphs, 4 list items and 4 source URLs match openai-publishes-its-loss-curve-and-asks-rivals-for-limits.md
+  Term not in map: post-training → dotrénovanie (post-training) (openai-publishes-its-loss-curve-and-asks-rivals-for-limits)
+
 ## LinkedIn edition
 
 content/linkedin/2026-11-23.sk.md: Nadella tvrdí, že bežné IDE ustúpili agentom. All five top stories in digest order, plus eight further-section items; strict check passed.

@@ -8,3 +8,6 @@ ok: 5 headings, 20 paragraphs, 2 list items and 2 source URLs match an-installat
 
 ## openai-publishes-its-loss-curve-and-asks-rivals-for-limits.es.md (missing)
 ok: 5 headings, 12 paragraphs, 4 list items and 4 source URLs match openai-publishes-its-loss-curve-and-asks-rivals-for-limits.md
+
+## ai-daily-digest-for-19-november-2026.es.md (backlog)
+ok: 10 headings, 108 paragraphs and 52 source URLs match ai-daily-digest-for-19-november-2026.md

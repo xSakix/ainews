@@ -28,6 +28,8 @@ Published `content/posts/ai-daily-digest-for-23-november-2026.md` with five top 
 
 content/posts/ai-daily-digest-for-23-november-2026.sk.md: ok: 11 headings, 76 paragraphs and 96 source URLs match ai-daily-digest-for-23-november-2026.md
 
+content/posts/an-installation-gate-for-agent-skills.sk.md: ok: 5 headings, 20 paragraphs, 2 list items and 2 source URLs match an-installation-gate-for-agent-skills.md
+
 Tension 2 — public evals: published agent scores against grader failures in eight of twelve reviewed evals, both documented at https://eugeneyan.com/writing/public-evals
 
 No major provider released a new model or major model version today, so Releases receives one top-story slot.

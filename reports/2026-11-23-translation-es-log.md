@@ -14,3 +14,6 @@ ok: 10 headings, 108 paragraphs and 52 source URLs match ai-daily-digest-for-19-
 
 ## the-lightness-of-heavy-thought.es.md (backlog)
 ok: 5 headings, 24 paragraphs and 14 source URLs match the-lightness-of-heavy-thought.md
+
+## a-linear-probe-found-a-feature-llama-did-not-use.es.md (backlog)
+ok: 5 headings, 22 paragraphs, 4 list items and 4 source URLs match a-linear-probe-found-a-feature-llama-did-not-use.md

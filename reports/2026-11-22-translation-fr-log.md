@@ -23,3 +23,6 @@ English source says "The authors attribute that possibility to distribution shif
 ## when-fable-5-went-dark-developers-merged-work-barely-moved.fr.md (missing)
 ok: 5 headings, 14 paragraphs, 5 list items and 5 source URLs match when-fable-5-went-dark-developers-merged-work-barely-moved.md
 English source mentions "five ordinary upgrades" and "All five estimates" alongside "the six upgrades where both scores were published"; translated faithfully.
+
+## Run summary
+Translated 7 (missing 7 / stale 0 / backlog 0). Skipped: 0. Recent queue left: 0. Backlog left: 55. Stopped by user after Step 1 (recent queue complete); Step 2 (backlog, 5 posts) not yet published.

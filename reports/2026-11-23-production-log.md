@@ -20,6 +20,10 @@ Tension 2 — VS Code: Nadella's account that IDEs faded and generated code beca
 
 Tension 2 — server prices: contracts were agreed at one price, then suppliers demanded increases of as much as 45%, both reported at https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f
 
+## Digest
+
+Published `content/posts/ai-daily-digest-for-23-november-2026.md` with five top stories and every item in the fixed plan. The top-story sources were opened during research; the FT server-price story and other paywalled market items remain labelled as headline-only where their base, sample or terms were unavailable. Strict check: 1 checked, 0 with problems.
+
 Tension 2 — public evals: published agent scores against grader failures in eight of twelve reviewed evals, both documented at https://eugeneyan.com/writing/public-evals
 
 No major provider released a new model or major model version today, so Releases receives one top-story slot.

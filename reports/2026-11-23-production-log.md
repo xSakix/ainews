@@ -30,6 +30,10 @@ content/posts/ai-daily-digest-for-23-november-2026.sk.md: ok: 11 headings, 76 pa
 
 content/posts/an-installation-gate-for-agent-skills.sk.md: ok: 5 headings, 20 paragraphs, 2 list items and 2 source URLs match an-installation-gate-for-agent-skills.md
 
+## LinkedIn edition
+
+content/linkedin/2026-11-23.sk.md: Nadella tvrdí, že bežné IDE ustúpili agentom. All five top stories in digest order, plus eight further-section items; strict check passed.
+
 Tension 2 — public evals: published agent scores against grader failures in eight of twelve reviewed evals, both documented at https://eugeneyan.com/writing/public-evals
 
 No major provider released a new model or major model version today, so Releases receives one top-story slot.

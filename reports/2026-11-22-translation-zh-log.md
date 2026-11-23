@@ -29,3 +29,6 @@ Doubtful phrasing in English source ("The authors attribute that possibility to 
 ## when-fable-5-went-dark-developers-merged-work-barely-moved.zh.md (missing)
 ok: 5 headings, 14 paragraphs, 5 list items and 5 source URLs match when-fable-5-went-dark-developers-merged-work-barely-moved.md
 Source mentions "five ordinary upgrades" and "All five estimates pointed down" alongside "in the six upgrades where both scores were published"; translated faithfully. Kept researcher name Yining Hua in Latin script.
+
+## Run summary
+Translated 9 (missing 9 / stale 0 / backlog 0). Skipped: 0. Recent queue left: 0. Backlog left: 118. Stopped by user after Step 1 (recent queue complete); Step 2 (backlog, 5 posts) not yet published.

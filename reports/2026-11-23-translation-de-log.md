@@ -11,3 +11,6 @@ ok: 5 headings, 12 paragraphs, 4 list items and 4 source URLs match openai-publi
 
 ## ai-daily-digest-for-17-november-2026.de.md (backlog)
 ok: 12 headings, 176 paragraphs and 84 source URLs match ai-daily-digest-for-17-november-2026.md
+
+## hidden-belief-edits-corrupt-reasoning-traces.de.md (backlog)
+ok: 6 headings, 27 paragraphs, 5 list items and 5 source URLs match hidden-belief-edits-corrupt-reasoning-traces.md

@@ -20,3 +20,6 @@ ok: 5 headings, 22 paragraphs, 4 list items and 4 source URLs match a-linear-pro
 
 ## a-berlin-guide-site-is-losing-its-readers-to-ai-answers.es.md (backlog)
 ok: 6 headings, 12 paragraphs, 7 list items and 7 source URLs match a-berlin-guide-site-is-losing-its-readers-to-ai-answers.md
+
+## ai-daily-digest-for-18-november-2026.es.md (backlog)
+ok: 9 headings, 93 paragraphs and 44 source URLs match ai-daily-digest-for-18-november-2026.md

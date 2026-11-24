@@ -11,3 +11,6 @@ ok: 5 headings, 19 paragraphs, 4 list items and 4 source URLs match a-27b-agent-
 
 ## firms-most-exposed-to-ai-agents-post-fewer-junior-jobs.nl.md (missing)
 ok: 5 headings, 13 paragraphs, 3 list items and 3 source URLs match firms-most-exposed-to-ai-agents-post-fewer-junior-jobs.md
+
+## Run summary
+Translated 4 (missing 4 / stale 0 / backlog 0), skipped 0, recent queue left: 0, backlog left: 15. Step 2 (backlog) was not run because the user requested recent changes only.

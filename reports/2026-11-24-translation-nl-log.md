@@ -23,3 +23,6 @@ Translated 5 (missing 4 / stale 1 / backlog 0), skipped 0, recent queue left: 0,
 
 ## payroll-data-may-show-ais-job-losses-years-before-its-jobs.nl.md (backlog)
 ok: 6 headings, 17 paragraphs, 7 list items and 7 source URLs match payroll-data-may-show-ais-job-losses-years-before-its-jobs.md
+
+## ai-daily-digest-for-16-november-2026.nl.md (backlog)
+ok: 12 headings, 106 paragraphs and 48 source URLs match ai-daily-digest-for-16-november-2026.md

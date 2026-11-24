@@ -36,3 +36,6 @@ ok: 5 headings, 19 paragraphs, 4 list items and 4 source URLs match a-27b-agent-
 
 ## LinkedIn
 
+## LinkedIn edition
+content/linkedin/2026-11-24.sk.md: Čína nasadila AI do sociálneho zabezpečenia. Päť top stories v poradí digestu a osem ďalších sekcií; `scripts/check_linkedin.py --strict` passed.
+

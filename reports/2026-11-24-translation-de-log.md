@@ -25,3 +25,6 @@ ok: 5 headings, 24 paragraphs and 11 source URLs match the-bill-comes-due-for-th
 
 ## european-markets-reward-firms-that-talk-ai-the-ecb-finds.de.md (backlog)
 ok: 5 headings, 12 paragraphs, 3 list items and 3 source URLs match european-markets-reward-firms-that-talk-ai-the-ecb-finds.md
+
+## ai-daily-digest-for-15-november-2026.de.md (backlog)
+ok: 11 headings, 81 paragraphs and 35 source URLs match ai-daily-digest-for-15-november-2026.md

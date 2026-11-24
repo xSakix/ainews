@@ -5,3 +5,6 @@ ok: 12 headings, 99 paragraphs and 54 source URLs match ai-daily-digest-for-24-n
 
 ## the-bill-comes-due-for-the-machine.fr.md (missing)
 ok: 5 headings, 24 paragraphs and 11 source URLs match the-bill-comes-due-for-the-machine.md
+
+## a-27b-agent-model-fits-in-10-gb.fr.md (missing)
+ok: 5 headings, 19 paragraphs, 4 list items and 4 source URLs match a-27b-agent-model-fits-in-10-gb.md

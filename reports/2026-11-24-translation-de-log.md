@@ -6,3 +6,6 @@ Note: The English "In brief" item on Oregon/Virginia refers to "the briefing cou
 
 ## the-bill-comes-due-for-the-machine.de.md (missing)
 ok: 5 headings, 24 paragraphs and 11 source URLs match the-bill-comes-due-for-the-machine.md
+
+## a-27b-agent-model-fits-in-10-gb.de.md (missing)
+ok: 5 headings, 19 paragraphs, 4 list items and 4 source URLs match a-27b-agent-model-fits-in-10-gb.md

@@ -44,3 +44,9 @@ ok: 12 headings, 249 paragraphs and 132 source URLs match ai-daily-digest-for-5-
 
 ## harmless-false-facts-can-make-a-model-broadly-misaligned.fr.md (backlog)
 ok: 4 headings, 16 paragraphs, 4 list items and 4 source URLs match harmless-false-facts-can-make-a-model-broadly-misaligned.md
+
+## Run summary
+- Translated: 10 (missing 4 / stale 1 / backlog 5)
+- Skipped: 0 (none)
+- Recent queue left: 0
+- Backlog left: 45

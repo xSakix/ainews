@@ -29,3 +29,6 @@ ok: 12 headings, 106 paragraphs and 48 source URLs match ai-daily-digest-for-16-
 
 ## multimodal-training-changes-how-a-text-model-reasons.nl.md (backlog)
 ok: 5 headings, 20 paragraphs, 5 list items and 5 source URLs match multimodal-training-changes-how-a-text-model-reasons.md
+
+## european-markets-reward-firms-that-talk-ai-the-ecb-finds.nl.md (backlog)
+ok: 5 headings, 12 paragraphs, 3 list items and 3 source URLs match european-markets-reward-firms-that-talk-ai-the-ecb-finds.md

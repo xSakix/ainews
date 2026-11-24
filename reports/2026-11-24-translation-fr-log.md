@@ -35,3 +35,6 @@ ok: 5 headings, 23 paragraphs, 3 list items and 3 source URLs match long-convers
 
 ## models-reach-contractor-level-on-one-epoch-task-not-the-rest.fr.md (backlog)
 ok: 6 headings, 16 paragraphs, 2 list items and 2 source URLs match models-reach-contractor-level-on-one-epoch-task-not-the-rest.md
+
+## coreweave-prices-short-gpu-rentals-far-above-long-contracts.fr.md (backlog)
+ok: 4 headings, 12 paragraphs, 5 list items and 5 source URLs match coreweave-prices-short-gpu-rentals-far-above-long-contracts.md

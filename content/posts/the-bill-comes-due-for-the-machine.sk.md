@@ -3,7 +3,7 @@ title = "Prišiel účet za stroj"
 slug = "prisiel-ucet-za-stroj"
 description = "Novembrový výpredaj technologických akcií otriasa Wall Streetom a jeho dozvuky doliehajú aj do európskych centrálnych bánk. Rozmach umelej inteligencie už investori neposudzujú podľa ohromujúcich schopností softvéru. Preverujú ho ako dlhom napákovanú infraštruktúrnu stávku – a odhaľujú pritom krehkú spleť súkromných úverov, kruhového financovania a čipov, ktoré rýchlo strácajú hodnotu."
 tags = ["business", "essays"]
-date = 2026-11-24T06:00:00+01:00
+date = 2026-11-24T05:00:00+01:00
 draft = false
 +++
 

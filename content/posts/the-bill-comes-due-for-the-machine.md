@@ -2,7 +2,7 @@
 title = "The Bill Comes Due for the Machine"
 description = "As November's tech rout shakes Wall Street and reverberates through European central banks, the artificial intelligence boom is no longer being judged on the wonder of its software. It is being audited as a leveraged infrastructure trade, exposing a brittle tangle of private credit, circular financing, and depreciating silicon."
 tags = ["business", "essays"]
-date = 2026-11-24T06:00:00+01:00
+date = 2026-11-24T05:00:00+01:00
 draft = false
 +++
 

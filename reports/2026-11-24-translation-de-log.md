@@ -22,3 +22,6 @@ ok: 5 headings, 24 paragraphs and 11 source URLs match the-bill-comes-due-for-th
 - Recent queue left: 0
 - Backlog left: 95
 - Step 2 (backlog) was not run because the user requested recent changes only (`--backlog 0`).
+
+## european-markets-reward-firms-that-talk-ai-the-ecb-finds.de.md (backlog)
+ok: 5 headings, 12 paragraphs, 3 list items and 3 source URLs match european-markets-reward-firms-that-talk-ai-the-ecb-finds.md

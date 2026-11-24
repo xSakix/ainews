@@ -30,3 +30,6 @@ ok: 6 headings, 16 paragraphs, 2 list items and 2 source URLs match models-reach
 
 ## ai-daily-digest-for-17-november-2026.zh.md (backlog)
 ok: 12 headings, 176 paragraphs and 84 source URLs match ai-daily-digest-for-17-november-2026.md
+
+## hidden-belief-edits-corrupt-reasoning-traces.zh.md (backlog)
+ok: 6 headings, 27 paragraphs, 5 list items and 5 source URLs match hidden-belief-edits-corrupt-reasoning-traces.md

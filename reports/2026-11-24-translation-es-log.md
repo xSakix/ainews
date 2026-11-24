@@ -36,3 +36,9 @@ ok: 6 headings, 27 paragraphs, 5 list items and 5 source URLs match hidden-belie
 
 ## payroll-data-may-show-ais-job-losses-years-before-its-jobs.es.md (backlog)
 ok: 6 headings, 17 paragraphs, 7 list items and 7 source URLs match payroll-data-may-show-ais-job-losses-years-before-its-jobs.md
+
+## Run summary
+- Translated: 10 (missing 4 / stale 1 / backlog 5; Step 1: 4 missing, 1 stale; Step 2: 5 backlog)
+- Skipped: 0
+- Recent queue left: 0
+- Backlog left: 96

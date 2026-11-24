@@ -32,3 +32,6 @@ ok: 5 headings, 20 paragraphs, 5 list items and 5 source URLs match multimodal-t
 
 ## european-markets-reward-firms-that-talk-ai-the-ecb-finds.nl.md (backlog)
 ok: 5 headings, 12 paragraphs, 3 list items and 3 source URLs match european-markets-reward-firms-that-talk-ai-the-ecb-finds.md
+
+## ai-daily-digest-for-3-november-2026.nl.md (backlog)
+ok: 13 headings, 157 paragraphs and 77 source URLs match ai-daily-digest-for-3-november-2026.md

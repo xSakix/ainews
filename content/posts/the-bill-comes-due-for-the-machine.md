@@ -6,8 +6,6 @@ date = 2026-11-24T05:00:00+01:00
 draft = false
 +++
 
-As November's tech rout shakes Wall Street and reverberates through European central banks, the artificial intelligence boom is no longer being judged on the wonder of its software. It is being audited as a leveraged infrastructure trade, exposing a brittle tangle of private credit, circular financing, and depreciating silicon.
-
 The rain does not stop on a late November morning, and the coffee cools beside my keyboard faster than usual. Before six o'clock, I open a market tracker out of habit, expecting the quiet green drift that has accompanied every quarter for three years. Instead, the screen is an angry wash of red, interrupted only by a late wire alert that Nvidia's board has just reversed itself and reinstated Jensen Huang as chief executive, barely a week after his resignation rattled Silicon Valley. A friend who works in enterprise software messages me a single line from his commuter train: his team still pays gladly for coding assistants every month, yet the stock of the company building the model just limped through its market debut. We both stare at the same contradiction. The tools on our desks work better than anything we have ever used, while the financial machinery erected beneath them is groaning under its own weight.
 
 ## When Faith Meets the Ledger

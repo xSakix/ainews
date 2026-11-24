@@ -7,8 +7,6 @@ date = 2026-11-24T05:00:00+01:00
 draft = false
 +++
 
-Novembrový výpredaj technologických akcií otriasa Wall Streetom a jeho dozvuky doliehajú aj do európskych centrálnych bánk. Rozmach umelej inteligencie už investori neposudzujú podľa ohromujúcich schopností softvéru. Preverujú ho ako dlhom napákovanú infraštruktúrnu stávku – a odhaľujú pritom krehkú spleť súkromných úverov, kruhového financovania a čipov, ktoré rýchlo strácajú hodnotu.
-
 V jedno neskoré novembrové ráno neprestáva pršať a káva pri klávesnici mi chladne rýchlejšie než zvyčajne. Ešte pred šiestou zo zvyku otváram burzový prehľad a čakám tichý zelený rast, ktorý posledné tri roky sprevádzal každý štvrťrok. Namiesto toho obrazovku zaliala ostrá červená. Prerušuje ju len čerstvá agentúrna správa, že správna rada Nvidie otočila a vrátila Jensena Huanga do kresla generálneho riaditeľa – sotva týždeň po tom, čo jeho rezignácia otriasla celým Silicon Valley. Kamarát, ktorý pracuje v oblasti podnikového softvéru, mi z ranného vlaku posiela jedinú vetu: jeho tím každý mesiac bez váhania platí za programátorských asistentov, no akcie firmy, ktorá ten model vytvorila, pri svojom vstupe na burzu len rozpačito prešľapovali. Obaja hľadíme na ten istý rozpor. Nástroje na našich stoloch fungujú lepšie než čokoľvek, čo sme doteraz mali, no finančná mašinéria, ktorú pod nimi vybudovali, stene pod vlastnou váhou.
 
 ## Keď viera narazí na účtovníctvo

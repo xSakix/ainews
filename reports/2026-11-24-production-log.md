@@ -31,5 +31,7 @@ Published `content/posts/ai-daily-digest-for-24-november-2026.md`. Top stories: 
 
 ## Translation notes
 
+ok: 12 headings, 99 paragraphs and 54 source URLs match ai-daily-digest-for-24-november-2026.md
+
 ## LinkedIn
 

@@ -18,3 +18,6 @@ ok: 5 headings, 13 paragraphs, 3 list items and 3 source URLs match firms-most-e
 - Recent queue left: 0
 - Backlog left: 50
 - Note: Step 2 (backlog) was not run, as requested (recent changes only, `--backlog 0`).
+
+## the-bill-comes-due-for-the-machine.fr.md (stale)
+ok: 5 headings, 24 paragraphs and 11 source URLs match the-bill-comes-due-for-the-machine.md

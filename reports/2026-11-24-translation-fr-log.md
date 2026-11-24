@@ -32,3 +32,6 @@ ok: 5 headings, 24 paragraphs and 11 source URLs match the-bill-comes-due-for-th
 
 ## long-conversation-history-made-models-consistently-wrong.fr.md (backlog)
 ok: 5 headings, 23 paragraphs, 3 list items and 3 source URLs match long-conversation-history-made-models-consistently-wrong.md
+
+## models-reach-contractor-level-on-one-epoch-task-not-the-rest.fr.md (backlog)
+ok: 6 headings, 16 paragraphs, 2 list items and 2 source URLs match models-reach-contractor-level-on-one-epoch-task-not-the-rest.md

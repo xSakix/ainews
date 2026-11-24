@@ -35,3 +35,6 @@ ok: 5 headings, 12 paragraphs, 3 list items and 3 source URLs match european-mar
 
 ## ai-daily-digest-for-3-november-2026.nl.md (backlog)
 ok: 13 headings, 157 paragraphs and 77 source URLs match ai-daily-digest-for-3-november-2026.md
+
+## Run summary
+Translated 10 (missing 4 / stale 1 / backlog 5), skipped 0, recent queue left: 0, backlog left: 10.

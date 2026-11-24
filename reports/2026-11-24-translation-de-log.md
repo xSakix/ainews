@@ -38,3 +38,9 @@ ok: 5 headings, 14 paragraphs, 3 list items and 3 source URLs match who-pays-whe
 ## ai-daily-digest-for-14-november-2026.de.md (backlog)
 ok: 10 headings, 110 paragraphs and 49 source URLs match ai-daily-digest-for-14-november-2026.md
 Note: "through dots" in the ChatGPT Wallet item kept verbatim as "über dots".
+
+## Run summary
+- Translated: 10 (missing 4 / stale 1 / backlog 5)
+- Skipped: 0 (none)
+- Recent queue left: 0
+- Backlog left: 90

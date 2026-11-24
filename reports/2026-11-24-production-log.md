@@ -27,7 +27,7 @@ Duplicate check: `scripts/seen.py` and the previous 14 days of titles were check
 
 ## Digest
 
-todo
+Published `content/posts/ai-daily-digest-for-24-november-2026.md`. Top stories: China social-security deployments, Singapore's AI-electronics growth, Kolibri 1.1, NariQ and Anthropic's 58-company interview study. Primary sources opened for the ILO report, Kolibri 1.1, NariQ, Anthropic's report and Gemini file slicing; the two Singapore reports were inaccessible beyond the verified briefing summaries. All other items retain the briefings' attribution and stated limitations.
 
 ## Translation notes
 

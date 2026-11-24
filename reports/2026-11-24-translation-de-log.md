@@ -15,3 +15,10 @@ ok: 5 headings, 13 paragraphs, 3 list items and 3 source URLs match firms-most-e
 
 ## the-bill-comes-due-for-the-machine.de.md (stale)
 ok: 5 headings, 24 paragraphs and 11 source URLs match the-bill-comes-due-for-the-machine.md
+
+## Run summary
+- Translated: 5 (missing: 4, stale: 1, backlog: 0)
+- Skipped: 0
+- Recent queue left: 0
+- Backlog left: 95
+- Step 2 (backlog) was not run because the user requested recent changes only (`--backlog 0`).

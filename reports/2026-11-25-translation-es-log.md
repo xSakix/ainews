@@ -8,3 +8,6 @@ ok: 6 headings, 24 paragraphs, 4 list items and 4 source URLs match anthropic-gi
 
 ## study-finds-copilot-adoption-cut-junior-coding-hires.es.md (missing)
 ok: 5 headings, 16 paragraphs, 4 list items and 4 source URLs match study-finds-copilot-adoption-cut-junior-coding-hires.md
+
+## Run summary
+25 November edition: translated 3 (missing 3 / stale 0 / backlog 0), skipped 0. Recent queue left: 0. Backlog left: 96.

@@ -1,0 +1,54 @@
++++
+title = "Studie: bedrijven nemen na invoering Copilot minder starters aan"
+slug = "bedrijven-nemen-na-invoering-copilot-minder-starters-aan"
+description = "Bedrijven die bij hun contractherziening Copilot gingen gebruiken, namen per kwartaal 29 procent minder technisch personeel aan, vooral beginnende programmeurs, zonder toename van ontslagen. De preprint volgt 5.414 grote bedrijven van 2023 tot medio 2025, bestrijkt slechts een deel van de arbeidsmarkt en wacht nog op peerreview."
+tags = ["business", "research", "tools"]
+date = 2026-11-25T03:12:29+01:00
+draft = false
++++
+In het najaar van 2023 zit de directeur platformontwikkeling van een grote verzekeraar in een vergadering over de verlenging van het GitHub-contract. De mensen van juridische zaken, beveiliging en financiën zitten al in het gesprek. De afspraak is jaren geleden vastgelegd en keert jaarlijks terug. De accountmanager heeft aan het bestelformulier een regel toegevoegd voor Copilot, de programmeerassistent. Niemand hoeft een aparte inkoopaanvraag in te dienen, op een beveiligingsbeoordeling te wachten of een budgetcode op te zoeken. De directeur bekijkt haar personeelsplan voor de komende vier kwartalen. Er staan nog zeven plekken voor pas afgestudeerden op. Ze vraagt de financieel verantwoordelijke de bestelling goed te keuren.
+
+*De scènes aan het begin en het einde van dit artikel zijn illustraties; de personen erin zijn verzonnen.*
+
+Wat er met zulke plannen gebeurde, is het onderwerp van een preprint die op 23 november 2026 op arXiv verscheen. Lindsey Raymond van MIT en Eleanor Dillon van Microsoft Research volgden 5.414 grote bedrijven die samen 45 miljoen mensen in dienst hebben en waar 38 procent van de Amerikaanse programmeurs werkt. Bedrijven die Copilot gingen gebruiken doordat hun contract aan herziening toe was, namen volgens de onderzoekers per kwartaal 29 procent minder technisch personeel aan. Het aantal nieuwe junior softwareontwikkelaars daalde met ongeveer 40 procent. De studie heeft nog geen peerreview doorlopen. De auteurs schrijven op persoonlijke titel en spreken niet namens hun werkgevers.
+
+## Waarom het contractgesprek een natuurlijk experiment oplevert
+
+Bedrijven die vroeg een programmeerassistent invoeren, verschillen van bedrijven die dat laat doen. In deze steekproef namen de vroege gebruikers al vóór de lancering van Copilot meer personeel aan. Ze waren groter, sterker technisch georiënteerd en hadden oudere werknemers. Een rechtstreekse vergelijking tussen gebruikers en niet-gebruikers zou het effect van het gereedschap dus vermengen met de eigenschappen van het bedrijf.
+
+De auteurs gebruiken het contractgesprek om die twee invloeden uit elkaar te halen. Alle bedrijven kochten al het zakelijke product van GitHub en spraken de verkoopafdeling volgens een schema dat vastlag voordat Copilot bestond. Vóór de lancering steeg het aandeel bedrijven dat meer licenties afnam in de twee maanden rond een contractgesprek van ongeveer 10 naar ongeveer 40 procent. Zo sterk concentreerden de aankopen zich rond die afspraken. Nadat Copilot in januari 2023 voor bedrijven was gelanceerd, was de kans op vroege invoering groter als het contractgesprek eerder plaatsvond. Een jaar na dat gesprek lag de kans dat een bedrijf Copilot had ingevoerd 20 procentpunt hoger dan bij bedrijven die hun gesprek nog moesten voeren.
+
+Vervolgens vergelijken de auteurs de personeelsinstroom bij bedrijven die hun gesprek al hadden gehad met die bij bedrijven die nog niet aan de beurt waren. Vóór de lancering hadden de gesprekken geen effect op het aannemen van technisch personeel. Na de lancering hadden ze geen effect op het aantrekken van niet-technische professionals zoals accountants. Met die twee controles gaan de onderzoekers in op het bezwaar dat de afspraken kunnen samenvallen met begrotingsrondes of een vacaturestop. Hun gegevens komen van Revelio Labs, dat loopbanen reconstrueert uit openbare beroepsprofielen en vacatures, en uit GitHubs eigen administratie van wie wanneer Copilot invoerde.
+
+## Wat veranderde bij de bedrijven die Copilot invoerden
+
+Bedrijven die hun contractgesprek hadden gehad, namen per maand 7,6 procent minder technisch personeel aan dan bedrijven die het nog moesten voeren. Rekenen de auteurs dat verschil om naar de bedrijven die door het gesprek voor Copilot kozen, dan schatten ze de afname per kwartaal op 29 procent. Bij een uitgangswaarde van ongeveer 55 technische aanstellingen per bedrijf per kwartaal blijven er ongeveer 39 over. Een bedrijf in de steekproef telt gemiddeld 8.284 werknemers. De verandering komt daarmee neer op minder dan 0,2 procent van het personeelsbestand per kwartaal.
+
+Niemand werd ontslagen. Het aantal vertrekkende werknemers veranderde niet, evenmin als het totale aantal technische medewerkers in het eerste jaar. Het aantal openstaande technische vacatures daalde met 14 procent, terwijl ze even lang open bleven staan. Volgens de auteurs wijst dit erop dat bedrijven minder functies openstelden en niet meer moeite hadden om ze te vervullen.
+
+De daling was ongelijk verdeeld. De auteurs bepaalden aan de hand van functieomschrijvingen van vóór 2023 hoeveel programmeerwerk elke functie omvatte. Bij de functies met het meeste programmeerwerk daalde de instroom van starters. Aan de andere kant van de schaal was het effect nul: het aantal aanstellingen van ervaren softwareontwikkelaars en van systeem- en infrastructuuringenieurs veranderde niet. Vóór Copilot kwam 72 procent van de nieuwe technische starters terecht in functies met veel programmeerwerk. De auteurs schatten dat de invoering van Copilot dit aandeel verlaagt tot 52 procent. Het aantal ervaren nieuwkomers bleef gelijk, maar hun profiel veranderde. Nieuw aangestelde ervaren softwareontwikkelaars hadden ongeveer 1,3 jaar meer potentiële werkervaring en hun kans op een mastergraad of doctoraat lag 4,7 procentpunt hoger. Het aantal externe aanstellingen voor die functies daalde met ongeveer 13 procent, terwijl het aantal interne benoemingen gelijk bleef. De onderzoekers zochten ook naar aanwijzingen dat werk verschoof naar India, de belangrijkste bestemming voor uitbesteding naar het buitenland. Ze vonden er geen. De personeelsinstroom leek daar eerder sterker af te remmen.
+
+De uitkomst contrasteert met een bevinding uit experimenten die de auteurs aanhalen. Daar boeken beginners bij afzonderlijke taken de grootste winst met AI-hulp. Dat iemand meer baat had bij het hulpmiddel, betekende niet dat er meer vraag ontstond naar diens functie.
+
+## Welk deel van de terugval komt door Copilot?
+
+De technische instroom daalde al voordat de bedrijven in de steekproef met Copilot te maken kregen. Het gemiddelde aantal technische aanstellingen per bedrijf per kwartaal zakte van 2022 tot 2024 met 29 procent, van 55,3 naar 39,2. Dat percentage is toevallig even groot als het geschatte effect van de invoering van Copilot. De cijfers meten verschillende zaken. Bij bedrijven die Copilot nooit invoerden, daalde de maandelijkse instroom in diezelfde drie jaar van 2,7 naar 1,8 procent.
+
+De auteurs schrijven een deel van de daling toe aan de programmeerassistent. Ze geven drie schattingen, elk met een andere aanname. Als het effect dat rond het contractgesprek is gemeten voor elk bedrijf geldt, verklaart Copilot 10 procent van de daling. Als het alleen geldt voor bedrijven die lijken op de ondernemingen waarvoor het gesprek de doorslag gaf, is dat 19 procent. En als alle gebruikers, tegen 2024 ongeveer de helft van de steekproef, net zo reageerden als de bedrijven die door hun gesprek overstapten, is het 51 procent. De auteurs presenteren deze cijfers als illustratie. Met hun onderzoeksopzet kunnen ze niet bepalen welke factoren de rest verklaren. Ze noemen de monetaire verkrapping, de correctie na de grote wervingsgolf tijdens de pandemie en wijzigingen in de fiscale behandeling van softwareonderzoek.
+
+Ze plaatsen ook een kanttekening bij andere studies. Wie beroepen vergelijkt die in verschillende mate aan AI blootstaan, meet volgens hen ook de algemene neergang van technisch werk. Die verklaart naar hun schatting minstens de helft van de daling na 2022.
+
+## Tot waar de conclusies reiken
+
+De schattingen beschrijven afzonderlijke bedrijven. Ze zeggen minder over de arbeidsmarkt als geheel. Een kandidaat die niet bij een verzekeraar aan de slag komt, kan bij een kleiner bedrijf worden aangenomen. Een bedrijf dat groeit ten koste van een concurrent kan het resultaat gunstiger doen lijken. De onderzoekers bekeken telkens het eerste jaar na het contractgesprek, in de periode van 2023 tot medio 2025. Copilot was toen de dominante zakelijke programmeerassistent. De bedrijfsversies van Cursor en Claude Code moesten nog verschijnen. De onderzochte bedrijven zijn groot, bestaan al lang en zijn grotendeels Amerikaans of Europees. De 29 procent geldt specifiek voor de bedrijven die dankzij de contractherziening Copilot invoerden en kan niet naar alle gebruikers worden doorgetrokken.
+
+De preprint sluit aan bij een reeks onderzoeken van de afgelopen weken. Een preprint van Borri, Cheremukhin, Liu en Tsyvinski van 20 november legde een verband tussen de blootstelling van bedrijven aan agentgebruik en minder vacatures onder seniorniveau. Dat onderzoek telde advertenties en geen aanstellingen. Een op 12 augustus herziene Stanford-studie van loonadministraties van ADP vond dat de werkgelegenheid voor 22- tot 25-jarigen in beroepen die aan AI blootstaan 19 procent onder de trend lag. Bij oudere werknemers zag men geen vergelijkbaar verschil. In het arbeidsmarktoverzicht van Indeed van 24 november staat de index voor softwareontwikkeling op 82, tegenover 100 in februari 2020. Die bronnen gebruiken advertenties, loonadministraties en tellingen van trefwoorden. Deze studie voegt daar de daadwerkelijke invoeringsdatums en een verklaring voor de timing aan toe. Dat maakt een uitspraak over oorzaak en gevolg mogelijk.
+
+Een jaar later opent de directeur bij de verzekeraar hetzelfde plan. Van de zeven plekken voor pas afgestudeerden zijn er drie over. Daarvoor in de plaats staat één vacature voor iemand met vijf jaar ervaring. Degene die de baan krijgt, heeft een masterdiploma.
+
+## Referenties
+
+- Borri, N., Cheremukhin, A., Liu, Y., & Tsyvinski, A. (2026). *The Rise of Agents and the Labor Market*. arXiv:2611.27210. https://arxiv.org/abs/2611.27210
+- Brynjolfsson, E., Chandar, B., & Chen, R. (2026). *Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence*. Stanford Digital Economy Lab. https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/
+- Indeed Hiring Lab (2026). *US Labor Market Snapshot, November 2026*. https://hiringlab.indeed.com/2026/11/24/us-labor-market-snapshot-november-2026/
+- Raymond, L., & Dillon, E. (2026). *AI-Assisted Programming and Labor Demand*. arXiv:2611.31083. https://arxiv.org/abs/2611.31083

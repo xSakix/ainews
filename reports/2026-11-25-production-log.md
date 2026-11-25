@@ -28,3 +28,6 @@ Published `content/posts/ai-daily-digest-for-25-november-2026.md`. Primary sourc
 ## Translation notes
 content/posts/ai-daily-digest-for-25-november-2026.sk.md: ok: 10 headings, 59 paragraphs, 2 list items and 55 source URLs match ai-daily-digest-for-25-november-2026.md
 content/posts/anthropic-gives-individual-neurons-another-look.sk.md: ok: 6 headings, 24 paragraphs, 4 list items and 4 source URLs match anthropic-gives-individual-neurons-another-look.md
+
+## LinkedIn edition
+content/linkedin/2026-11-25.sk.md: Copilot znížil prijímanie juniorných technických pracovníkov. Five top stories, eight further-section items; vendor claims and preprint caveats retained.

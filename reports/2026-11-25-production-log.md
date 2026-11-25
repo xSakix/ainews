@@ -21,3 +21,6 @@ Tension 2 — Neuron basis: prior objections to neuron interpretability against 
 Tension 2 — GPT-6 proteins: general model design claims against the continued use of specialist filters and weak whole-protein structure prediction (https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/).
 
 No listed major provider released a new model or major model version today, so Releases has one top-story slot. All required slots are filled; the digest uses five top stories.
+
+## Digest
+Published `content/posts/ai-daily-digest-for-25-november-2026.md`. Primary sources opened for all five top stories: the Copilot preprint entry, Indeed's November snapshot, the ERNIE model card, PrismML's release page, and both Anthropic neuron-basis reports. Vendor benchmarks remain attributed; the Ask HN enforcement report remains unverified.

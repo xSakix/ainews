@@ -32,3 +32,7 @@ content/posts/ai-daily-digest-for-26-november-2026.sk.md: ok: 11 headings, 69 pa
 Term not in map: step-sizing channel → kanál založený na veľkosti kroku (ai-daily-digest-for-26-november-2026)
 content/posts/sandboxed-models-found-a-way-to-talk.sk.md: ok: 5 headings, 21 paragraphs, 4 list items and 4 source URLs match sandboxed-models-found-a-way-to-talk.md
 Term not in map: batch-invariant kernels → batch-invariant kernels (sandboxed-models-found-a-way-to-talk)
+
+## LinkedIn edition
+
+content/linkedin/2026-11-26.sk.md: Dátové centrá zvýšili austrálske investície o 12,2 %. Five top stories and eight further-section items; Stručne omitted under the edition's eight-section limit.

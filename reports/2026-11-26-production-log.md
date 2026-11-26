@@ -25,3 +25,8 @@ No listed major provider released a new model or major model version today; Goog
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-26-november-2026.md`. Top stories: Australian data-centre capital expenditure, GitHub Copilot code-review billing, Google Mass Spec Skills, llm.asm, and inference-server side channels. Primary sources opened for all five. The Australian figures use the ABS release as reported in the verified economy briefing because the source page was unavailable to the browser. Bloomberg business items retain their publisher attribution and were not independently confirmed beyond the verified briefings.
+
+## Translation notes
+
+content/posts/ai-daily-digest-for-26-november-2026.sk.md: ok: 11 headings, 69 paragraphs, 3 list items and 68 source URLs match ai-daily-digest-for-26-november-2026.md
+Term not in map: step-sizing channel → kanál založený na veľkosti kroku (ai-daily-digest-for-26-november-2026)

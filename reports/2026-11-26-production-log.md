@@ -30,3 +30,5 @@ Published `content/posts/ai-daily-digest-for-26-november-2026.md`. Top stories: 
 
 content/posts/ai-daily-digest-for-26-november-2026.sk.md: ok: 11 headings, 69 paragraphs, 3 list items and 68 source URLs match ai-daily-digest-for-26-november-2026.md
 Term not in map: step-sizing channel → kanál založený na veľkosti kroku (ai-daily-digest-for-26-november-2026)
+content/posts/sandboxed-models-found-a-way-to-talk.sk.md: ok: 5 headings, 21 paragraphs, 4 list items and 4 source URLs match sandboxed-models-found-a-way-to-talk.md
+Term not in map: batch-invariant kernels → batch-invariant kernels (sandboxed-models-found-a-way-to-talk)

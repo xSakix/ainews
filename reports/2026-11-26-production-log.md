@@ -21,3 +21,7 @@ Tension 2 — Etsy: platform AI terms and AI-content controls against sellers' f
 Tension 2 — JetBrains: 86.2% on public Kotlin tasks against 60% on unseen private tasks (https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code/).
 
 No listed major provider released a new model or major model version today; Google released domain skills, so Releases has one top-story slot. All required slots are filled; five top stories were selected.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-26-november-2026.md`. Top stories: Australian data-centre capital expenditure, GitHub Copilot code-review billing, Google Mass Spec Skills, llm.asm, and inference-server side channels. Primary sources opened for all five. The Australian figures use the ABS release as reported in the verified economy briefing because the source page was unavailable to the browser. Bloomberg business items retain their publisher attribution and were not independently confirmed beyond the verified briefings.

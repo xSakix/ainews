@@ -21,3 +21,7 @@ Tension 2 — Muse regulation: Meta says it engaged constructively while the FCA
 Tension 2 — AI energy: published per-query figures against a workflow model's estimate of 3.4 times higher institutional inference electricity (https://arxiv.org/abs/2611.31960).
 
 No listed major provider released a new model or major model version today; Releases has one top-story slot. All required slots are filled with five top stories.
+
+## Digest
+
+Published `content/posts/ai-daily-digest-for-27-november-2026.md`. Top stories: OpenAI's GPT-6.2 allowance correction, the German manager experiment, Ming-Image-0.2-Design, the AMD llama.cpp patch set and Google's Workspace MCP mandate. Primary sources were opened for all five. Paywalled and headline-only market items retain explicit attribution and limitations.

@@ -25,3 +25,10 @@ No listed major provider released a new model or major model version today; Rele
 ## Digest
 
 Published `content/posts/ai-daily-digest-for-27-november-2026.md`. Top stories: OpenAI's GPT-6.2 allowance correction, the German manager experiment, Ming-Image-0.2-Design, the AMD llama.cpp patch set and Google's Workspace MCP mandate. Primary sources were opened for all five. Paywalled and headline-only market items retain explicit attribution and limitations.
+
+## Translation notes
+
+`content/posts/ai-daily-digest-for-27-november-2026.sk.md`: ok: 11 headings, 62 paragraphs, 2 list items and 67 source URLs match ai-daily-digest-for-27-november-2026.md
+
+`content/posts/one-cheating-agent-taught-the-team-to-cheat.sk.md`: ok: 5 headings, 21 paragraphs, 3 list items and 3 source URLs match one-cheating-agent-taught-the-team-to-cheat.md
+

@@ -4,3 +4,7 @@
 Skipped because the source gives a concrete security-control bypass that a faithful translation would reproduce.
 
 ## one-cheating-agent-taught-the-team-to-cheat.de.md (missing)
+ok: 5 headings, 21 paragraphs, 3 list items and 3 source URLs match one-cheating-agent-taught-the-team-to-cheat.md
+
+## openais-gpt-6-2-launch-discount-was-a-billing-mistake.de.md (missing)
+ok: 5 headings, 14 paragraphs, 9 list items and 9 source URLs match openais-gpt-6-2-launch-discount-was-a-billing-mistake.md

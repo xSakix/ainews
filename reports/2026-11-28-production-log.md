@@ -30,3 +30,4 @@ Published `content/posts/ai-daily-digest-for-28-november-2026.md`. Top stories: 
 ## Translation notes
 
 `content/posts/ai-daily-digest-for-28-november-2026.sk.md`: ok: 11 headings, 137 paragraphs, 1 list items and 109 source URLs match ai-daily-digest-for-28-november-2026.md
+`content/posts/the-model-knew-minecraft-but-chose-the-real-world.sk.md`: ok: 5 headings, 21 paragraphs, 3 list items and 3 source URLs match the-model-knew-minecraft-but-chose-the-real-world.md

@@ -23,3 +23,7 @@ Tension 2 — Convex skill: the quickstart experience sends an app idea and fetc
 
 No major provider released a new model or major model version today, so Releases has one top-story slot. All five required slots are filled.
 
+## Digest
+
+Published `content/posts/ai-daily-digest-for-28-november-2026.md`. Top stories: SAP's reported job-cut plan, the optical-equipment squeeze, Sber's GigaAM speech models, OneBrain Rooms and the Convex skill disclosure issue. Primary sources were opened for all five; vendor measurements and unverified community claims remain explicitly attributed.
+

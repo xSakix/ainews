@@ -27,3 +27,6 @@ No major provider released a new model or major model version today, so Releases
 
 Published `content/posts/ai-daily-digest-for-28-november-2026.md`. Top stories: SAP's reported job-cut plan, the optical-equipment squeeze, Sber's GigaAM speech models, OneBrain Rooms and the Convex skill disclosure issue. Primary sources were opened for all five; vendor measurements and unverified community claims remain explicitly attributed.
 
+## Translation notes
+
+`content/posts/ai-daily-digest-for-28-november-2026.sk.md`: ok: 11 headings, 137 paragraphs, 1 list items and 109 source URLs match ai-daily-digest-for-28-november-2026.md

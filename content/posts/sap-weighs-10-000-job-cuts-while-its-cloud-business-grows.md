@@ -42,15 +42,15 @@ That sentence holds the tension in the story. The AI products that SAP is reorga
 
 ## What is still open
 
-Three things are unknown. The figure is unconfirmed, and SAP says no decisions are made. The mix of voluntary leaves, retraining and dismissals is not reported. And employee representatives, whose talks could change the number, have not spoken in the coverage. In Germany those talks are a legal step, which is why a figure can leak long before a decision.
+Three things are unknown. The figure is unconfirmed, and SAP says no decisions are made. The mix of voluntary leaves, retraining and dismissals is not reported. And employee representatives, whose talks could change the number, have not spoken in the coverage.
 
 On Monday the spreadsheet in Walldorf will be due. The engineer types into the empty column for the first time. She starts with the role that has been vacant since spring, the one her manager was told not to refill.
 
 ## References
 
-- Euronews, Katanich, D. (2026). *German software giant SAP weighs at least 10,000 job cuts amid AI shift, reports say*. https://www.euronews.com/2026/11/27/german-sofware-giant-sap-weighs-at-least-10000-job-cuts-amid-ai-shift-reports-say
+- CIO (2026). *SAP cuts hiring and travel to fund AI*. https://www.cio.com/article/4192663/sap-cuts-hiring-and-travel-to-fund-ai.html
+- Euronews, Katanich, D. (2026). *German sofware giant SAP weighs at least 10,000 job cuts amid AI shift, reports say*. https://www.euronews.com/2026/11/27/german-sofware-giant-sap-weighs-at-least-10000-job-cuts-amid-ai-shift-reports-say
 - SAP SE (2024). *SAP Updates Its Ambition 2025 and Announces Transformation Program for 2024*. https://news.sap.com/2024/01/sap-updates-its-ambition-2025-and-announces-transformation-program-for-2024/
 - SAP SE (2024). *SAP Announces Q2 2024 Results*. https://www.sec.gov/Archives/edgar/data/1000184/000110465924082105/tm2419988d1_ex99-1.htm
 - SAP SE (2026). *SAP Announces Q3 2026 Results* (Form 6-K, exhibit 99.1). https://www.sec.gov/Archives/edgar/data/0001000184/000110465926118617/tm2628113d1_ex99-1.htm
 - Stan, A. M. (2026). *SAP freezes hiring and travel to shovel cash into AI*. The Next Web. https://thenextweb.com/news/sap-hiring-travel-freeze-ai-push
-- CIO (2026). *SAP cuts hiring and travel to fund AI*. https://www.cio.com/article/4192663/sap-cuts-hiring-and-travel-to-fund-ai.html
